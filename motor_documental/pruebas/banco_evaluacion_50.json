@@ -1,0 +1,452 @@
+[
+  {
+    "id": "RAG-001",
+    "pregunta": "¿Cuál es el objetivo general del Código Nacional de Seguridad y Convivencia Ciudadana?",
+    "articulos_esperados": [
+      "1"
+    ],
+    "respuesta_referencia": "El Código busca establecer condiciones para la convivencia en el territorio nacional, promoviendo el cumplimiento de los deberes y obligaciones de las personas y regulando el ejercicio del poder, la función y la actividad de Policía.",
+    "estado_revision": "pendiente_revision"
+  },
+  {
+    "id": "RAG-002",
+    "pregunta": "¿Cuáles son los objetivos específicos del Código de Policía?",
+    "articulos_esperados": [
+      "2"
+    ],
+    "respuesta_referencia": "Sus seis objetivos son promover comportamientos favorables a la convivencia, fomentar el respeto y el ejercicio responsable de los derechos y libertades, promover mecanismos alternativos de solución de conflictos, definir comportamientos y medidas de Policía, establecer las competencias de las autoridades y garantizar un procedimiento respetuoso del debido proceso, inmediato y eficaz.",
+    "estado_revision": "pendiente_revision"
+  },
+  {
+    "id": "RAG-003",
+    "pregunta": "¿Qué principios fundamentales orientan la aplicación del Código de Policía?",
+    "articulos_esperados": [
+      "8"
+    ],
+    "respuesta_referencia": "Los principios incluyen la protección de la vida y la dignidad humana, los derechos humanos, la protección integral de niños, niñas y adolescentes, la igualdad, la libertad, la autorregulación, la diversidad, el debido proceso, la protección ambiental y animal, la solidaridad, la solución pacífica de conflictos, el respeto a las autoridades, la proporcionalidad, la razonabilidad y la necesidad.",
+    "estado_revision": "pendiente_revision"
+  },
+  {
+    "id": "RAG-004",
+    "pregunta": "¿Qué comportamientos ponen en riesgo la vida e integridad de las personas?",
+    "articulos_esperados": [
+      "27"
+    ],
+    "respuesta_referencia": "El artículo contempla las riñas y confrontaciones violentas, el lanzamiento de objetos peligrosos, las agresiones físicas, las amenazas, la falta de reparación de elementos peligrosos en inmuebles y diferentes comportamientos relacionados con el porte indebido de armas y dispositivos menos letales.",
+    "estado_revision": "pendiente_revision"
+  },
+  {
+    "id": "RAG-005",
+    "pregunta": "¿Qué establece el Código sobre los ruidos que afectan la tranquilidad de los vecinos?",
+    "articulos_esperados": [
+      "33"
+    ],
+    "respuesta_referencia": "El artículo 33 contempla como comportamiento contrario a la convivencia perturbar la tranquilidad del vecindario mediante sonidos, ruidos de fiestas, reuniones, dispositivos o maquinaria. Las autoridades pueden desactivar temporalmente las fuentes de ruido en las condiciones previstas por la norma. Para el numeral 1 contempla multa general tipo 3 y disolución de reuniones o actividades que involucren aglomeraciones de público no complejas.",
+    "estado_revision": "pendiente_revision"
+  },
+  {
+    "id": "RAG-006",
+    "pregunta": "¿Qué comportamientos afectan las relaciones entre las personas y las autoridades de Policía?",
+    "articulos_esperados": [
+      "35"
+    ],
+    "respuesta_referencia": "El artículo 35 contempla comportamientos como irrespetar a las autoridades de Policía, incumplir o desacatar sus órdenes, impedir procedimientos de identificación, suministrar información falsa, resistirse a medidas de Policía, agredir a las autoridades o utilizar inadecuadamente el sistema de emergencias.",
+    "estado_revision": "pendiente_revision"
+  },
+  {
+    "id": "RAG-007",
+    "pregunta": "¿En qué circunstancias pueden los alcaldes restringir la permanencia de menores en espacios públicos?",
+    "articulos_esperados": [
+      "36"
+    ],
+    "respuesta_referencia": "Los alcaldes pueden restringir excepcionalmente la movilidad o permanencia de niños, niñas y adolescentes en espacios públicos o lugares abiertos al público, cuando sea necesario prevenir eventos que puedan poner en peligro su vida, integridad o salud. La restricción debe ser temporal y estar debidamente motivada. Su implementación debe contar con el acompañamiento del ICBF y del Ministerio Público.",
+    "estado_revision": "pendiente_revision"
+  },
+  {
+    "id": "RAG-008",
+    "pregunta": "¿Qué comportamientos afectan la integridad de niños, niñas y adolescentes?",
+    "articulos_esperados": [
+      "38"
+    ],
+    "respuesta_referencia": "El artículo 38 prohíbe comportamientos que pongan en riesgo la integridad de niños, niñas y adolescentes. Entre ellos están permitir su ingreso a lugares con actividades para adultos o peligrosas, inducirlos a participar en actividades prohibidas, facilitarles material pornográfico, suministrarles sustancias psicoactivas o bebidas alcohólicas, inducirlos al consumo de estas sustancias, permitir situaciones de abuso o explotación sexual, utilizarlos para evadir órdenes de Policía, permitir el incumplimiento de requisitos de seguridad en piscinas e involucrarlos en confrontaciones violentas.",
+    "estado_revision": "pendiente_revision"
+  },
+  {
+    "id": "RAG-009",
+    "pregunta": "¿Qué prohibiciones establece el Código para niños, niñas y adolescentes?",
+    "articulos_esperados": [
+      "39"
+    ],
+    "respuesta_referencia": "El artículo 39 prohíbe a niños, niñas y adolescentes comercializar, distribuir, tener, almacenar, portar o consumir sustancias psicoactivas o tóxicas, alcohólicas y otras sustancias estimulantes que puedan afectar su salud o producir dependencia y que estén restringidas para menores de edad.",
+    "estado_revision": "pendiente_revision"
+  },
+  {
+    "id": "RAG-010",
+    "pregunta": "¿Qué comportamientos afectan a los grupos sociales de especial protección constitucional?",
+    "articulos_esperados": [
+      "40"
+    ],
+    "respuesta_referencia": "El artículo 40 contempla comportamientos como perpetrar o permitir maltrato físico, verbal, psicológico o sexual; utilizar a estas personas para obtener beneficios económicos; negarles la prelación que les corresponde; obstruir el acceso a información e insumos sobre derechos sexuales y reproductivos; irrespetar sus manifestaciones y reuniones por motivos discriminatorios; y limitar manifestaciones públicas de afecto que no constituyan actos sexuales ni exhibicionismo.",
+    "estado_revision": "pendiente_revision"
+  },
+  {
+    "id": "RAG-011",
+    "pregunta": "¿Qué obligaciones tienen los organizadores de eventos con aglomeraciones complejas de público?",
+    "articulos_esperados": [
+      "73"
+    ],
+    "respuesta_referencia": "El artículo 73 establece que los organizadores deben evitar comportamientos que pongan en riesgo la vida, la integridad y el correcto desarrollo de eventos con aglomeraciones complejas. Entre ellos están permitir el ingreso de menores sin cumplir la clasificación correspondiente, incumplir las normas de protección de niños y adolescentes, no disponer de personal médico, primeros auxilios, unidades sanitarias, señalización, vías despejadas, control de incendios, personal de seguridad y planes de emergencia. También deben respetar la capacidad, programación y horarios autorizados, atender las órdenes de Policía y disponer de los permisos y elementos de seguridad exigidos.",
+    "estado_revision": "pendiente_revision"
+  },
+  {
+    "id": "RAG-012",
+    "pregunta": "¿Qué comportamientos son contrarios a la posesión o tenencia de bienes inmuebles?",
+    "articulos_esperados": [
+      "77"
+    ],
+    "respuesta_referencia": "El artículo 77 contempla cinco comportamientos contrarios a la posesión y tenencia de inmuebles: ocupar ilegalmente un inmueble; perturbar su posesión mediante daños materiales o no reparar averías que afecten a los vecinos; instalar servicios públicos en inmuebles ocupados ilegalmente; omitir el cerramiento y mantenimiento de lotes y fachadas; e impedir al titular el ingreso, uso y disfrute del inmueble. Las medidas correctivas dependen del comportamiento e incluyen restitución y protección de bienes inmuebles, reparación de daños y multas.",
+    "estado_revision": "pendiente_revision"
+  },
+  {
+    "id": "RAG-013",
+    "pregunta": "¿Qué comportamientos relacionados con el incumplimiento de normas afectan la actividad económica?",
+    "articulos_esperados": [
+      "92"
+    ],
+    "respuesta_referencia": "El artículo 92 establece comportamientos que afectan la actividad económica, como incumplir normas sanitarias y alimentarias, quebrantar horarios, desarrollar actividades diferentes a las registradas, superar la capacidad permitida, comercializar sustancias o bienes ilícitos, permitir actividades prohibidas, ocupar indebidamente el espacio público, incumplir las normas de uso del suelo y desarrollar actividades económicas sin los requisitos exigidos. Las medidas correctivas varían según el numeral e incluyen multas, suspensión temporal o definitiva de actividad y destrucción de bienes.",
+    "estado_revision": "pendiente_revision"
+  },
+  {
+    "id": "RAG-014",
+    "pregunta": "¿Qué comportamientos de establecimientos comerciales afectan la seguridad y tranquilidad?",
+    "articulos_esperados": [
+      "93"
+    ],
+    "respuesta_referencia": "El artículo 93 contempla comportamientos que afectan la seguridad y tranquilidad de los establecimientos económicos. Entre ellos están no informar los protocolos de seguridad y evacuación, auspiciar riñas, generar ruidos que afecten la tranquilidad, incumplir protocolos de seguridad, permitir el ingreso de personas armadas, no instalar señalización, impedir el ingreso de autoridades de Policía y mantener mercancías peligrosas o de procedencia ilícita. También contempla conductas discriminatorias.",
+    "estado_revision": "pendiente_revision"
+  },
+  {
+    "id": "RAG-015",
+    "pregunta": "¿Qué comportamientos relacionados con la salud pública afectan la actividad económica?",
+    "articulos_esperados": [
+      "94"
+    ],
+    "respuesta_referencia": "El artículo 94 contempla nueve comportamientos relacionados con la salud pública que afectan la actividad económica. Incluyen incumplir normas de seguridad o sanidad, no separar los residuos sólidos, permitir el consumo de tabaco en lugares no autorizados, permitir animales que afecten la higiene o seguridad, comercializar productos caducados o adulterados, manejar inadecuadamente residuos y no facilitar servicios sanitarios limpios. Las medidas correctivas incluyen multas, suspensión temporal de actividad y amonestación, según el numeral.",
+    "estado_revision": "pendiente_revision"
+  },
+  {
+    "id": "RAG-016",
+    "pregunta": "¿Qué establece el Código sobre comprar o utilizar celulares reportados como hurtados?",
+    "articulos_esperados": [
+      "95"
+    ],
+    "respuesta_referencia": "El artículo 95, numeral 1, prohíbe comprar, alquilar o utilizar equipos terminales móviles que tengan reporte de hurto o extravío en la base de datos negativa, así como equipos cuyo número de identificación físico o electrónico haya sido alterado, reprogramado, remarcado o suprimido. La medida correctiva indicada es multa general tipo 2, destrucción del bien y suspensión temporal de actividad.",
+    "estado_revision": "pendiente_revision"
+  },
+  {
+    "id": "RAG-017",
+    "pregunta": "¿Qué establece el Código sobre sacar la basura en horarios no autorizados?",
+    "articulos_esperados": [
+      "111"
+    ],
+    "respuesta_referencia": "El artículo 111, numeral 1, prohíbe sacar la basura en horarios no autorizados por la empresa prestadora del servicio o en un lugar diferente al correspondiente al domicilio. La medida correctiva es participación en programa comunitario o actividad pedagógica de convivencia.",
+    "estado_revision": "pendiente_revision"
+  },
+  {
+    "id": "RAG-018",
+    "pregunta": "¿Qué comportamientos relacionados con la tenencia de animales afectan la convivencia?",
+    "articulos_esperados": [
+      "124"
+    ],
+    "respuesta_referencia": "El artículo 124 contempla nueve comportamientos relacionados con la tenencia de animales: permitir que animales deambulen sin medidas de seguridad; impedir el ingreso de perros lazarillos; no recoger sus excrementos; transportar perros de manejo especial sin los elementos de seguridad exigidos; incumplir las disposiciones sobre albergue; incumplir las normas de importación, registro, posesión o comercialización de animales sujetos a regulación; permitir ataques contra personas, animales o bienes; entrenar caninos para peleas o agresiones; y permitir que las mascotas esparzan basura. Las medidas correctivas dependen del numeral y comprenden multas generales tipos 1, 2 y 4.",
+    "estado_revision": "pendiente_revision"
+  },
+  {
+    "id": "RAG-019",
+    "pregunta": "¿Qué comportamientos constituyen infracciones contra la integridad urbanística?",
+    "articulos_esperados": [
+      "135"
+    ],
+    "respuesta_referencia": "El artículo 135 contempla comportamientos contrarios a la integridad urbanística. Se agrupan en cuatro categorías: parcelar, urbanizar, demoler, intervenir o construir en condiciones prohibidas; afectar inmuebles declarados de conservación o interés cultural; destinar inmuebles a usos o ubicaciones diferentes de los autorizados o contrarios a las normas del suelo; e incumplir obligaciones relacionadas con la seguridad, limpieza, protección y mantenimiento de las obras de construcción. Las medidas correctivas dependen del numeral e incluyen multas especiales, suspensión de actividades, suspensión de construcción o demolición y reparación de daños, entre otras.",
+    "estado_revision": "pendiente_revision"
+  },
+  {
+    "id": "RAG-020",
+    "pregunta": "¿Qué comportamientos afectan el cuidado y la integridad del espacio público?",
+    "articulos_esperados": [
+      "140"
+    ],
+    "respuesta_referencia": "El artículo 140 contempla comportamientos que afectan el cuidado y la integridad del espacio público, como omitir el mantenimiento y aseo de áreas públicas, realizar obras sin autorización, dañar mobiliario urbano, ocupar indebidamente el espacio público, deteriorar bienes públicos, promover ocupaciones contrarias a las normas, consumir o portar sustancias en los lugares contemplados por la norma, realizar grafitis sin autorización, verter aguas residuales, realizar necesidades fisiológicas y fijar publicidad sin permiso. También contempla comportamientos relacionados con el consumo y comercialización de sustancias psicoactivas en los lugares y condiciones descritos en sus numerales 13 y 14.",
+    "estado_revision": "pendiente_revision"
+  },
+  {
+    "id": "RAG-021",
+    "pregunta": "¿Qué comportamientos están prohibidos en los sistemas de transporte público?",
+    "articulos_esperados": [
+      "146"
+    ],
+    "respuesta_referencia": "El artículo 146 contempla 16 comportamientos contrarios a la convivencia en los sistemas de transporte público. Entre ellos: controlar informalmente los tiempos de recorrido, impedir el acceso prioritario a personas en condición vulnerable, incumplir las reglas de transporte de mascotas, irrespetar turnos y sillas preferenciales, agredir a otros pasajeros, consumir productos prohibidos, evadir el pago del pasaje, dañar alarmas y sistemas de emergencia, obstaculizar la movilidad, poner en peligro la seguridad operacional, perturbar la tranquilidad, ingresar por lugares no autorizados, alterar puertas y equipos, incumplir condiciones de aseo por parte de las empresas e irrespetar a las autoridades del sistema. Las medidas correctivas dependen del numeral y comprenden amonestaciones y multas generales de tipos 1 a 4, además de reparación de daños en determinados casos.",
+    "estado_revision": "pendiente_revision"
+  },
+  {
+    "id": "RAG-022",
+    "pregunta": "¿Qué es una orden de Policía y cuáles son sus características?",
+    "articulos_esperados": [
+      "150"
+    ],
+    "respuesta_referencia": "Según el artículo 150, la orden de Policía es un mandato claro, preciso y conciso, dirigido individualmente o con carácter general, que puede ser escrito o verbal y debe emanar de una autoridad de Policía. Su finalidad es prevenir o superar comportamientos o hechos contrarios a la convivencia, o restablecerla. Es de obligatorio cumplimiento. Si no se cumple, la autoridad puede utilizar los medios, medidas y procedimientos establecidos en el Código. Cuando no sea de cumplimiento inmediato, puede establecer un plazo determinado.",
+    "estado_revision": "pendiente_revision"
+  },
+  {
+    "id": "RAG-023",
+    "pregunta": "¿En qué circunstancias puede realizarse un traslado por protección?",
+    "articulos_esperados": [
+      "155"
+    ],
+    "respuesta_referencia": "El artículo 155 permite el traslado por protección cuando la vida o integridad de una persona se encuentre en riesgo o peligro y no acepte la mediación policial, en los casos previstos por la norma: estar involucrada en una riña, deambular en estado de indefensión, presentar alteración del estado de conciencia por aspectos de orden mental, estar bajo efectos de alcohol o sustancias psicoactivas y presentar comportamientos agresivos o temerarios, realizar actividades peligrosas que pongan en riesgo la vida o integridad propia o de terceros, o encontrarse en peligro de ser agredida. Para los literales B, C y D no es necesario agotar previamente la mediación policial. El traslado no puede superar 12 horas y debe respetar las garantías establecidas en el artículo.",
+    "estado_revision": "pendiente_revision"
+  },
+  {
+    "id": "RAG-024",
+    "pregunta": "¿En qué casos puede ingresar la Policía a un inmueble sin orden escrita?",
+    "articulos_esperados": [
+      "163"
+    ],
+    "respuesta_referencia": "El artículo 163 permite el ingreso de la Policía a un inmueble sin orden escrita cuando exista imperiosa necesidad en los siguientes casos: 1) socorrer a alguien que solicite auxilio; 2) extinguir un incendio, evitar su propagación, remediar una inundación u otra situación similar de peligro; 3) dar caza a un animal rabioso o feroz; 4) proteger bienes de personas ausentes cuando un extraño haya ingresado violentamente o por otro medio; 5) actuar cuando desde el interior se proceda por vía de hecho contra una persona o propiedad exterior; 6) proteger la vida e integridad ante el uso irregular de pólvora, fuegos pirotécnicos, juegos artificiales o globos; 7) socorrer a un animal cuando exista certeza y evidencia verificable de maltrato que ponga en riesgo inminente su vida o integridad. La autoridad debe rendir un informe escrito inmediato a su superior y entregar copia al propietario, poseedor o tenedor. También puede ingresar sin orden escrita a inmuebles abiertos al público por razones propias de sus funciones.",
+    "estado_revision": "pendiente_revision"
+  },
+  {
+    "id": "RAG-025",
+    "pregunta": "¿Qué son las multas y cómo se clasifican en el Código de Policía?",
+    "articulos_esperados": [
+      "180"
+    ],
+    "respuesta_referencia": "El artículo 180 define la multa como el pago de una suma de dinero en moneda colombiana, cuya cuantía depende del comportamiento realizado. Se clasifican en multas generales y especiales. Las multas generales son: tipo 1, dos salarios mínimos diarios legales vigentes; tipo 2, cuatro; tipo 3, ocho; y tipo 4, dieciséis. Las especiales comprenden las relacionadas con organizadores de actividades que involucran aglomeraciones de público complejas, infracciones urbanísticas y contaminación visual. El artículo también contempla descuentos por pronto pago y la posibilidad de objetar la medida dentro del término legal.",
+    "estado_revision": "pendiente_revision"
+  },
+  {
+    "id": "RAG-026",
+    "pregunta": "¿Qué atribuciones tienen los inspectores de Policía?",
+    "articulos_esperados": [
+      "206"
+    ],
+    "respuesta_referencia": "El artículo 206 establece que los inspectores de Policía rurales, urbanos y corregidores pueden conciliar conflictos de convivencia cuando sea procedente; conocer comportamientos contrarios a la convivencia relacionados con seguridad, tranquilidad, ambiente, recursos naturales, derecho de reunión, protección de bienes y privacidad, actividad económica, urbanismo, espacio público y libertad de circulación; ejecutar órdenes de restitución de tierras comunales y ejercer las demás atribuciones legales. También conocen determinadas medidas correctivas en única instancia y otras en primera instancia, entre ellas multas, suspensión de construcciones, demolición de obras y restitución de bienes inmuebles. El artículo contempla además la ejecución de comisiones judiciales.",
+    "estado_revision": "pendiente_revision"
+  },
+  {
+    "id": "RAG-027",
+    "pregunta": "¿Cómo se desarrolla el proceso verbal inmediato?",
+    "articulos_esperados": [
+      "222"
+    ],
+    "respuesta_referencia": "El artículo 222 establece el proceso verbal inmediato para comportamientos contrarios a la convivencia cuya competencia corresponde al personal uniformado de la Policía Nacional, comandantes de estación o subestación y comandantes de los Centros de Atención Inmediata. El procedimiento comprende: 1) inicio de oficio o a petición de una persona interesada; 2) identificación y abordaje del presunto infractor, informándole el comportamiento atribuido; 3) oportunidad para presentar descargos; 4) valoración inicial de los hechos y búsqueda de mediación policial. Si no se logra la mediación, se impone la medida correctiva mediante orden de Policía. Contra la orden procede apelación en los términos del artículo.",
+    "estado_revision": "pendiente_revision"
+  },
+  {
+    "id": "RAG-028",
+    "pregunta": "¿Cómo se desarrolla el proceso verbal abreviado?",
+    "articulos_esperados": [
+      "223"
+    ],
+    "respuesta_referencia": "El artículo 223 regula el proceso verbal abreviado, competencia de inspectores de Policía, alcaldes y autoridades especiales de Policía. Comprende: 1) iniciación de oficio o a petición de parte; 2) citación del quejoso y presunto infractor; 3) audiencia pública, en la que se presentan argumentos, se invita a conciliar, se solicitan y practican pruebas y se adopta una decisión fundamentada; 4) posibilidad de interponer reposición y, cuando proceda, apelación; 5) cumplimiento de la orden o medida correctiva una vez ejecutoriada, dentro del término máximo de cinco días. El artículo también contempla reglas para inasistencia, inspección al lugar y ejecución de las medidas.",
+    "estado_revision": "pendiente_revision"
+  },
+  {
+    "id": "RAG-029",
+    "pregunta": "¿Qué procedimiento establece el artículo 223A para las multas tipo 1 a 4?",
+    "articulos_esperados": [
+      "223A"
+    ],
+    "respuesta_referencia": "El artículo 223A establece un procedimiento especial para multas generales tipos 1 a 4, sin perjuicio del proceso verbal abreviado del artículo 223. Contempla: 1) aplicación de criterios de proporcionalidad, razonabilidad y necesidad; 2) término para objetar la orden de comparendo; 3) aceptación ficta de responsabilidad cuando se paga la multa o se cambia el pago de multas tipos 1 y 2 por participación en programa comunitario dentro del término señalado; 4) actualización del estado de cumplimiento por el inspector; 5) firmeza de la multa y posibilidad de cobro coactivo; 6) pérdida de descuentos por pronto pago cuando se objeta; 7) validez nacional de certificados de programas comunitarios; 8) control de medidas correctivas impuestas a extranjeros; 9) incremento del 50 % por multas anteriores reportadas y no pagadas, bajo las condiciones legales; 10) incremento por reiteración del mismo comportamiento: 75 % dentro del año siguiente a la firmeza de la primera medida y 50 % después de un año. El texto consultado contiene términos de tres y cinco días en numerales distintos.",
+    "estado_revision": "pendiente_revision"
+  },
+  {
+    "id": "RAG-030",
+    "pregunta": "¿Qué establece el Código sobre la información captada por sistemas de videovigilancia en espacios públicos?",
+    "articulos_esperados": [
+      "237"
+    ],
+    "respuesta_referencia": "El artículo 237 establece que la información, imágenes y datos captados o almacenados por sistemas de video o medios tecnológicos ubicados en espacios públicos o lugares abiertos al público se consideran públicos y de libre acceso, salvo que estén amparados por reserva legal. También dispone que los sistemas públicos o privados instalados en espacios públicos, áreas comunes, lugares abiertos al público o lugares privados que trasciendan a lo público se enlacen permanente o temporalmente a la red dispuesta por la Policía Nacional, conforme a la reglamentación del Gobierno. Para sistemas instalados en áreas comunes o lugares privados que trasciendan a lo público se requiere autorización previa de quien tenga legitimidad para otorgarla.",
+    "estado_revision": "pendiente_revision"
+  },
+  {
+    "id": "RAG-031",
+    "pregunta": "Dos personas comienzan una pelea en la calle. ¿Qué establece el Código de Policía sobre este comportamiento?",
+    "articulos_esperados": [
+      "27"
+    ],
+    "respuesta_referencia": "El artículo 27 contempla como comportamiento contrario a la convivencia reñir, incitar o participar en confrontaciones violentas que puedan derivar en agresiones físicas. Por tanto, una pelea en la calle puede corresponder a este comportamiento. Para el numeral 1, el artículo establece como medida correctiva una multa general tipo 2. Además, dispone que debe utilizarse la mediación policial como medio para intentar resolver el conflicto.",
+    "estado_revision": "pendiente_revision"
+  },
+  {
+    "id": "RAG-032",
+    "pregunta": "Mi vecino pone música a volumen muy alto durante la madrugada y no me deja dormir. ¿Qué norma regula esta situación?",
+    "articulos_esperados": [
+      "33"
+    ],
+    "respuesta_referencia": "El artículo 33, numeral 1, literal a, contempla como comportamiento contrario a la convivencia perturbar el sosiego del vecindario mediante sonidos o ruidos de actividades, fiestas, reuniones o eventos similares que generen molestias por su impacto auditivo. Para este comportamiento se establece multa general tipo 3 y puede proceder la disolución de la reunión o actividad que involucre aglomeraciones de público no complejas. Cuando el residente se niegue a desactivar la fuente del ruido, las autoridades de Policía pueden desactivarla temporalmente en los términos del artículo.",
+    "estado_revision": "pendiente_revision"
+  },
+  {
+    "id": "RAG-033",
+    "pregunta": "Una persona insulta y desobedece a un policía durante un procedimiento. ¿Qué comportamientos podrían estar relacionados?",
+    "articulos_esperados": [
+      "35"
+    ],
+    "respuesta_referencia": "El artículo 35 contempla el irrespeto a las autoridades de Policía en su numeral 1 y el incumplimiento o desacato de sus funciones u órdenes en el numeral 2. La conducta aplicable depende de los hechos concretos del procedimiento.",
+    "estado_revision": "pendiente_revision"
+  },
+  {
+    "id": "RAG-034",
+    "pregunta": "Un establecimiento permite situaciones que ponen en riesgo la integridad de menores de edad. ¿Qué establece el Código?",
+    "articulos_esperados": [
+      "38"
+    ],
+    "respuesta_referencia": "El artículo 38 establece diferentes comportamientos que afectan la integridad de niños, niñas y adolescentes, entre ellos permitir su ingreso a establecimientos con actividades prohibidas para menores, facilitar el acceso a material pornográfico, suministrar sustancias restringidas, permitir situaciones de abuso o explotación sexual e involucrarlos en confrontaciones violentas. El numeral aplicable depende de la situación específica.",
+    "estado_revision": "pendiente_revision"
+  },
+  {
+    "id": "RAG-035",
+    "pregunta": "Una persona ocupa un inmueble ajeno sin autorización. ¿Qué comportamientos relacionados con la posesión contempla la ley?",
+    "articulos_esperados": [
+      "77"
+    ],
+    "respuesta_referencia": "El artículo 77 contempla como comportamiento contrario a la posesión y tenencia ocupar ilegalmente un inmueble ajeno. También contempla perturbar la posesión mediante daños materiales, impedir el ingreso del titular y otras conductas que afectan el uso y disfrute del inmueble. Para el numeral 1 se establece la medida de restitución y protección de bienes inmuebles.",
+    "estado_revision": "pendiente_revision"
+  },
+  {
+    "id": "RAG-036",
+    "pregunta": "Un establecimiento comercial desarrolla una actividad incumpliendo las normas aplicables. ¿Qué establece el Código?",
+    "articulos_esperados": [
+      "92"
+    ],
+    "respuesta_referencia": "El artículo 92 regula los comportamientos relacionados con el cumplimiento de la normatividad que afectan la actividad económica. El establecimiento debe respetar los horarios, las actividades registradas, las condiciones de funcionamiento, las normas de uso del suelo y los requisitos legales aplicables. El numeral 16 contempla desarrollar la actividad económica sin cumplir los requisitos establecidos en la normatividad vigente. El parágrafo 7 precisa que este numeral debe interpretarse considerando los requisitos de apertura y funcionamiento del artículo 87.",
+    "estado_revision": "pendiente_revision"
+  },
+  {
+    "id": "RAG-037",
+    "pregunta": "Un local comercial no informa a sus clientes sobre los protocolos de evacuación. ¿Qué comportamiento contempla la ley?",
+    "articulos_esperados": [
+      "93"
+    ],
+    "respuesta_referencia": "El artículo 93, numeral 1, contempla como comportamiento contrario a la seguridad y tranquilidad no informar los protocolos de seguridad y evacuación en caso de emergencias a las personas que se encuentren en el lugar. La medida correctiva establecida es una multa general tipo 1.",
+    "estado_revision": "pendiente_revision"
+  },
+  {
+    "id": "RAG-038",
+    "pregunta": "Un restaurante incumple las condiciones sanitarias exigidas para funcionar. ¿Qué establece el Código de Policía?",
+    "articulos_esperados": [
+      "94"
+    ],
+    "respuesta_referencia": "El artículo 94, numeral 1, contempla incumplir las normas o disposiciones de seguridad o sanidad para desarrollar una actividad económica, de acuerdo con su objeto social y previo concepto de la autoridad especializada. La medida correctiva establecida es multa general tipo 4 y suspensión temporal de actividad.",
+    "estado_revision": "pendiente_revision"
+  },
+  {
+    "id": "RAG-039",
+    "pregunta": "Compré un celular usado y después descubrí que aparece reportado como robado. ¿Qué contempla la ley sobre estos equipos?",
+    "articulos_esperados": [
+      "95"
+    ],
+    "respuesta_referencia": "El artículo 95, numeral 1, contempla como comportamiento contrario a la seguridad comprar, alquilar o utilizar un celular reportado como hurtado o extraviado. El parágrafo 2 establece que las personas deben verificar que el equipo no aparezca en la base de datos negativa y proceder a su registro en la base de datos positiva. Para el numeral 1 se establece multa general tipo 2, destrucción del bien y suspensión temporal de actividad.",
+    "estado_revision": "pendiente_revision"
+  },
+  {
+    "id": "RAG-040",
+    "pregunta": "Mis vecinos sacan la basura fuera del horario establecido y dejan residuos en la calle. ¿Qué norma regula este comportamiento?",
+    "articulos_esperados": [
+      "111"
+    ],
+    "respuesta_referencia": "El artículo 111 contempla dos comportamientos relacionados: el numeral 1 prohíbe sacar la basura en horarios no autorizados y el numeral 8 prohíbe arrojar basura, llantas, residuos o escombros en el espacio público o en bienes públicos o privados. Para el numeral 1 se establece participación en programa comunitario o actividad pedagógica de convivencia. Para el numeral 8 se establece multa general tipo 4.",
+    "estado_revision": "pendiente_revision"
+  },
+  {
+    "id": "RAG-041",
+    "pregunta": "El dueño de un animal lo deja deambular sin control y pone en riesgo a otras personas. ¿Qué establece el Código?",
+    "articulos_esperados": [
+      "124"
+    ],
+    "respuesta_referencia": "El artículo 124, numeral 1, prohíbe dejar deambular animales feroces o dañinos en espacios públicos o privados abiertos al público y medios de transporte sin las medidas de seguridad correspondientes. Si además se permite o induce que el animal ataque a una persona, otro animal o bienes de terceros, puede relacionarse con el numeral 7. Para el numeral 1 se establece multa general tipo 2 y para el numeral 7 multa general tipo 4.",
+    "estado_revision": "pendiente_revision"
+  },
+  {
+    "id": "RAG-042",
+    "pregunta": "Estoy construyendo una vivienda sin contar con la licencia requerida. ¿Qué comportamientos urbanísticos contempla la ley?",
+    "articulos_esperados": [
+      "135"
+    ],
+    "respuesta_referencia": "El artículo 135, numeral 4, contempla como comportamiento contrario a la integridad urbanística construir en terrenos aptos para estas actuaciones sin licencia o cuando esta haya caducado. El parágrafo 2 establece que, cuando se trate de predios aptos, se concede un término de sesenta días para solicitar el reconocimiento de la construcción. Si no se presenta la licencia de reconocimiento dentro de ese término, no se puede reanudar la obra y se duplica el valor de la multa. El parágrafo 1 contempla suspensión inmediata de la construcción o demolición para los casos allí señalados.",
+    "estado_revision": "pendiente_revision"
+  },
+  {
+    "id": "RAG-043",
+    "pregunta": "Una persona deteriora elementos del espacio público. ¿Qué comportamientos contrarios a la convivencia podrían aplicarse?",
+    "articulos_esperados": [
+      "140"
+    ],
+    "respuesta_referencia": "El artículo 140 contempla dos numerales especialmente relacionados con el deterioro de elementos del espacio público. El numeral 3 prohíbe alterar, remover, dañar o destruir mobiliario urbano o rural, como semáforos, señales viales, teléfonos públicos, hidrantes, faroles, bancas y cestas de basura. El numeral 5 prohíbe ensuciar, dañar o hacer uso indebido o abusivo de bienes fiscales o de uso público. Para el numeral 3 se establece multa general tipo 4, reparación de daños materiales y construcción, cerramiento, reparación o mantenimiento de inmueble. Para el numeral 5 se establece multa general tipo 3, reparación de daños materiales y medidas de mantenimiento.",
+    "estado_revision": "pendiente_revision"
+  },
+  {
+    "id": "RAG-044",
+    "pregunta": "Un pasajero realiza comportamientos que afectan la convivencia dentro del transporte público. ¿Qué establece el Código?",
+    "articulos_esperados": [
+      "146"
+    ],
+    "respuesta_referencia": "El artículo 146 prohíbe diferentes comportamientos en los sistemas de transporte público. Entre ellos se encuentran agredir, empujar o irrespetar a otras personas durante el acceso, permanencia o salida; evadir el pago del pasaje; obstaculizar la movilidad; dañar alarmas o sistemas de emergencia; perturbar la tranquilidad de los pasajeros; ingresar por sitios no autorizados e irrespetar a las autoridades del sistema. La medida correctiva depende del comportamiento específico y puede incluir amonestaciones o multas generales de diferentes tipos.",
+    "estado_revision": "pendiente_revision"
+  },
+  {
+    "id": "RAG-045",
+    "pregunta": "Un policía me da una orden verbal durante un procedimiento. ¿Las órdenes de Policía pueden ser verbales?",
+    "articulos_esperados": [
+      "150"
+    ],
+    "respuesta_referencia": "Sí. Según el artículo 150, las órdenes de Policía pueden ser escritas o verbales. Deben ser mandatos claros, precisos y concisos, emanados de una autoridad de Policía y tienen carácter obligatorio. Su finalidad es prevenir o superar comportamientos contrarios a la convivencia o restablecerla. Si no se cumplen, pueden aplicarse los medios y procedimientos establecidos en el Código.",
+    "estado_revision": "pendiente_revision"
+  },
+  {
+    "id": "RAG-046",
+    "pregunta": "Una persona se encuentra en una situación que pone en riesgo su integridad. ¿Cuándo procede un traslado por protección?",
+    "articulos_esperados": [
+      "155"
+    ],
+    "respuesta_referencia": "El artículo 155 permite el traslado por protección cuando la vida o integridad de una persona se encuentre en riesgo o peligro y se presente alguno de los casos contemplados por la norma: participación en una riña, estado de indefensión, alteración del estado de conciencia por aspectos mentales, consumo de alcohol o sustancias psicoactivas acompañado de comportamientos agresivos o temerarios, actividades peligrosas que pongan en riesgo la vida o integridad, o peligro de ser agredida. En general debe intentarse la mediación policial, excepto en los literales B, C y D. El traslado no puede superar 12 horas y debe respetar las garantías previstas en el artículo.",
+    "estado_revision": "pendiente_revision"
+  },
+  {
+    "id": "RAG-047",
+    "pregunta": "Una persona pide auxilio desde el interior de una vivienda. ¿Puede ingresar la Policía sin una orden escrita?",
+    "articulos_esperados": [
+      "163"
+    ],
+    "respuesta_referencia": "Sí. El artículo 163 permite que la Policía ingrese a un inmueble sin orden escrita para socorrer a alguien que solicite auxilio. Esta facultad se encuentra condicionada a una situación de imperiosa necesidad. La autoridad uniformada debe rendir inmediatamente un informe escrito a su superior y entregar copia al propietario, poseedor o tenedor del inmueble, indicando la razón del ingreso.",
+    "estado_revision": "pendiente_revision"
+  },
+  {
+    "id": "RAG-048",
+    "pregunta": "Me impusieron una multa por un comportamiento contrario a la convivencia. ¿Qué establece el Código sobre las multas?",
+    "articulos_esperados": [
+      "180"
+    ],
+    "respuesta_referencia": "El artículo 180 define la multa como el pago de una suma de dinero en moneda colombiana por un comportamiento contrario a la convivencia. Las multas generales se clasifican en cuatro tipos: tipo 1, dos salarios mínimos diarios legales vigentes; tipo 2, cuatro; tipo 3, ocho; y tipo 4, dieciséis. También existen multas especiales. La persona puede objetar la medida dentro del término legal y el artículo contempla descuentos por pronto pago.",
+    "estado_revision": "pendiente_revision"
+  },
+  {
+    "id": "RAG-049",
+    "pregunta": "Un policía inicia un procedimiento por un comportamiento contrario a la convivencia. ¿Cómo funciona el proceso verbal inmediato?",
+    "articulos_esperados": [
+      "222"
+    ],
+    "respuesta_referencia": "El artículo 222 regula el proceso verbal inmediato, aplicable a comportamientos de competencia del personal uniformado de la Policía Nacional y de los comandantes de estación, subestación y CAI. Puede comenzar de oficio o por solicitud de una persona interesada. La autoridad identifica al presunto infractor, le informa el comportamiento atribuido, escucha sus descargos, valora los hechos e intenta una mediación policial. Si no se logra resolver el conflicto mediante mediación, impone la medida correctiva mediante orden de Policía. Contra esta procede el recurso de apelación en las condiciones establecidas en el artículo.",
+    "estado_revision": "pendiente_revision"
+  },
+  {
+    "id": "RAG-050",
+    "pregunta": "Un inspector de Policía debe resolver un conflicto de convivencia. ¿Cómo se desarrolla el proceso verbal abreviado?",
+    "articulos_esperados": [
+      "223"
+    ],
+    "respuesta_referencia": "El artículo 223 regula el proceso verbal abreviado, aplicable a los asuntos de competencia de los inspectores de Policía, alcaldes y autoridades especiales de Policía. El procedimiento comienza de oficio o a petición de una persona interesada. Después se cita al quejoso y al presunto infractor a audiencia pública. En la audiencia se escuchan los argumentos, se invita a conciliar, se decretan y practican las pruebas pertinentes y la autoridad adopta una decisión fundamentada. Contra la decisión proceden los recursos de reposición y, cuando corresponda, apelación. Una vez ejecutoriada, la orden o medida correctiva debe cumplirse dentro de un máximo de cinco días.",
+    "estado_revision": "pendiente_revision"
+  }
+]

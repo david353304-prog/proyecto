@@ -19,8 +19,61 @@ PALABRAS_COMUNES = {
     "ley", "articulo", "articulos", "2016", "1801",
     "definicion", "define", "significa", "consiste",
     "es", "son", "un", "de", "la", "el", "en", "a",
-    "y", "o", "se", "su", "al"
+    "y", "o", "se", "su", "al",
+    "persona", "personas"
 }
+
+# Equivalencias para consultas coloquiales sobre convivencia.
+# Los términos de destino se contrastan con el texto del corpus.
+EXPANSIONES_JURIDICAS = {
+    "pelea": (
+        "renir",
+        "confrontaciones violentas",
+        "agresiones fisicas",
+    ),
+    "pelear": (
+        "renir",
+        "confrontaciones violentas",
+        "agresiones fisicas",
+    ),
+    "rina": (
+        "renir",
+        "confrontaciones violentas",
+    ),
+    "rinas": (
+        "renir",
+        "confrontaciones violentas",
+    ),
+    "rinendo": (
+        "renir",
+        "confrontaciones violentas",
+    ),
+    "confrontacion": (
+        "confrontaciones violentas",
+        "renir",
+    ),
+    "confrontaciones": (
+        "confrontaciones violentas",
+        "renir",
+    ),
+    "agrede": (
+        "agredir fisicamente",
+        "agresiones fisicas",
+    ),
+    "agredir": (
+        "agredir fisicamente",
+        "agresiones fisicas",
+    ),
+    "agresion": (
+        "agredir fisicamente",
+        "agresiones fisicas",
+    ),
+    "agresiones": (
+        "agredir fisicamente",
+        "agresiones fisicas",
+    ),
+}
+
 
 
 def normalizar(texto):
@@ -62,13 +115,34 @@ def buscar_articulos_clave(pregunta, limite=5):
     for articulo in articulos:
         numero = str(articulo.get("numero", "")).strip()
         titulo = normalizar(articulo.get("titulo") or "")
+        texto_articulo = normalizar(articulo.get("texto") or "")
 
         palabras_titulo = set(re.findall(r"\b\w+\b", titulo))
         palabras_titulo -= PALABRAS_COMUNES
 
-        coincidencias = palabras_pregunta & palabras_titulo
+        coincidencias_titulo = (
+            palabras_pregunta & palabras_titulo
+        )
 
-        puntuacion = len(coincidencias) * 3
+        coincidencias_contenido = set()
+
+        for palabra in palabras_pregunta:
+            equivalencias = EXPANSIONES_JURIDICAS.get(
+                palabra, ()
+            )
+
+            for expresion in equivalencias:
+                if expresion in texto_articulo:
+                    coincidencias_contenido.add(expresion)
+
+        coincidencias = (
+            coincidencias_titulo | coincidencias_contenido
+        )
+
+        puntuacion = (
+            len(coincidencias_titulo) * 3
+            + len(coincidencias_contenido) * 5
+        )
 
         if normalizar(numero) in numeros_mencionados:
             puntuacion += 100
