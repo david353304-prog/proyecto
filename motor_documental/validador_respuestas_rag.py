@@ -272,6 +272,57 @@ class ValidadorRespuestasRAG:
 
         cerrar_bloque_223a()
 
+        # Reconocer numerales en articulos generales.
+        bloques_generales = re.findall(
+            r"(?ms)^\[GENERAL CONSERVADO \d+\][^\S\n]*\n"
+            r"(.*?)(?=^\[GENERAL CONSERVADO \d+\]|"
+            r"^===|^\[ESTRUCTURADO \d+\]|\Z)",
+            contexto,
+        )
+
+        for bloque in bloques_generales:
+            campo_articulo = re.search(
+                r"(?m)^Art[ií]culo:[ \t]*(\d{1,3}[a-z]?)[ \t]*$",
+                bloque,
+                re.I,
+            )
+            campo_texto = re.search(
+                r"(?m)^Texto:[ \t]*(.*)$",
+                bloque,
+                re.I,
+            )
+
+            if not campo_articulo or not campo_texto:
+                continue
+
+            articulo = campo_articulo.group(1).upper()
+            texto = campo_texto.group(1)
+
+            # Excluir el encabezado ARTICULO N.
+            texto = re.sub(
+                r"^\s*ART[IÍ]CULO\s+\d{1,3}[a-z]?\.\s*",
+                "",
+                texto,
+                count=1,
+                flags=re.I,
+            )
+
+            # No confundir referencias de tablas con numerales.
+            texto = re.split(
+                r"\bPAR[ÁA]GRAFO\s+\d+\b",
+                texto,
+                maxsplit=1,
+                flags=re.I,
+            )[0]
+
+            for coincidencia in re.finditer(
+                r"(?<!\w)(\d{1,2})\.\s+(?=[A-Za-zÁÉÍÓÚÑ])",
+                texto,
+            ):
+                numerales_contexto.add(
+                    (articulo, coincidencia.group(1))
+                )
+
         patron_referencia_numeral = re.compile(
             r"\bnumeral\s+(\d+)\s+del\s+"
             r"art[ií]culo\s+(\d{1,3}[a-z]?)\b",

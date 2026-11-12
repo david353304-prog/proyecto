@@ -16,17 +16,173 @@
       ],
       "respuesta_referencia": "El Código busca establecer condiciones para la convivencia en el territorio nacional, promoviendo el cumplimiento de los deberes y obligaciones de las personas y regulando el ejercicio del poder, la función y la actividad de Policía.",
       "estado_revision_referencia": "pendiente_revision",
-      "respuesta_generada": null,
-      "respuesta_visible": null,
-      "modelo": null,
-      "estado_validacion_documental": null,
+      "respuesta_generada": "El objetivo general del Código Nacional de Seguridad y Convivencia Ciudadana, según lo establecido en la normativa, es de carácter preventivo. Busca establecer las condiciones necesarias para la convivencia en el territorio nacional, propiciando el cumplimiento de los deberes y obligaciones de las personas naturales y jurídicas, así como determinar el ejercicio del poder, la función y la actividad de Policía, de conformidad con la Constitución Política y el ordenamiento jurídico vigente.\n\n**Fundamento jurídico:**\n*   **Artículo 1:** Define el objeto del Código.\n\n**Información adicional:**\nEl Código también establece objetivos específicos para mantener las condiciones de convivencia, tales como propiciar comportamientos que favorezcan la convivencia en el espacio público y áreas comunes, promover el respeto y el ejercicio responsable de la libertad, la dignidad, los deberes y los derechos de la personalidad humana, y promover el uso de mecanismos alternativos para la resolución de desacuerdos (Artículo 2, numerales 1, 2 y 3). Asimismo, el artículo 7 señala las finalidades de la convivencia, entre las cuales se encuentran la garantía de derechos y libertades, el cumplimiento de deberes, el respeto por las diferencias y la resolución pacífica de conflictos.\n\n**Fuente consultada:**\n*   Ley 1801 de 2016: [https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=80538](https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=80538)\n\n*Advertencia: Esta respuesta se basa exclusivamente en el contexto jurídico proporcionado. La vigencia, modificaciones y decisiones judiciales que puedan afectar la aplicación de estas normas deben ser verificadas por el usuario, ya que este documento no constituye asesoría jurídica profesional.*",
+      "respuesta_visible": "El objetivo general del Código Nacional de Seguridad y Convivencia Ciudadana, según lo establecido en la normativa, es de carácter preventivo. Busca establecer las condiciones necesarias para la convivencia en el territorio nacional, propiciando el cumplimiento de los deberes y obligaciones de las personas naturales y jurídicas, así como determinar el ejercicio del poder, la función y la actividad de Policía, de conformidad con la Constitución Política y el ordenamiento jurídico vigente.\n\n**Fundamento jurídico:**\n*   **Artículo 1:** Define el objeto del Código.\n\n**Información adicional:**\nEl Código también establece objetivos específicos para mantener las condiciones de convivencia, tales como propiciar comportamientos que favorezcan la convivencia en el espacio público y áreas comunes, promover el respeto y el ejercicio responsable de la libertad, la dignidad, los deberes y los derechos de la personalidad humana, y promover el uso de mecanismos alternativos para la resolución de desacuerdos (Artículo 2, numerales 1, 2 y 3). Asimismo, el artículo 7 señala las finalidades de la convivencia, entre las cuales se encuentran la garantía de derechos y libertades, el cumplimiento de deberes, el respeto por las diferencias y la resolución pacífica de conflictos.\n\n**Fuente consultada:**\n*   Ley 1801 de 2016: [https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=80538](https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=80538)\n\n*Advertencia: Esta respuesta se basa exclusivamente en el contexto jurídico proporcionado. La vigencia, modificaciones y decisiones judiciales que puedan afectar la aplicación de estas normas deben ser verificadas por el usuario, ya que este documento no constituye asesoría jurídica profesional.*",
+      "modelo": "gemini-3.1-flash-lite",
+      "estado_validacion_documental": "PENDIENTE_VALIDACION",
       "advertencias_documentales": [],
       "articulos_citados": [],
       "exactitud": null,
       "fidelidad_contexto": null,
       "correccion_citas": null,
       "observaciones": "",
-      "estado_evaluacion": "pendiente"
+      "estado_evaluacion": "pendiente_revision_humana",
+      "contexto_utilizado": "CONTEXTO JURÍDICO RECUPERADO\nLos siguientes textos proceden del corpus documental. No se ha verificado su vigencia normativa actual.\n\n=== CONTEXTO GENERAL CON SUSTITUCIÓN 223A ===\n\n[GENERAL CONSERVADO 1]\nArtículo: 19\nTexto: ARTÍCULO 19. Consejos de Seguridad y Convivencia y Comité Civil de Convivencia. Los Consejos de Seguridad y Convivencia son cuerpos consultivos y de decisión para la prevención y reacción ante los problemas relacionados con la seguridad y la convivencia en el nivel nacional, regional, departamental, distrital, municipal o metropolitano. El Gobierno nacional establecerá mediante reglamentación los objetivos, funciones, integrantes y demás aspectos relacionados con el funcionamiento de los Consejos de Seguridad y Convivencia. De manera subsidiaria, las autoridades ejecutivas de los niveles distrital, departamental y municipal, considerando su especificidad y necesidad, podrán complementar la regulación hecha por el Gobierno nacional. Créanse los Comités Civiles de Convivencia en cada municipio o distrito, cuyo objeto será analizar hechos y fenómenos que afectan la convivencia así como tramitar las quejas, denuncias, peticiones o reconocimientos reportados en relación con la función y la actividad de Policía en su respectiva jurisdicción priorizando los casos relacionados con actuaciones donde hubieren podido verse afectados los intereses colectivos. Estos Comités podrán emitir recomendaciones para mejorar la función y la actividad de Policía y garantizar la transparencia en el ejercicio de sus funciones. Así mismo, deberán fomentar e incentivar que la ciudadanía presente las denuncias y quejas que correspondan y promoverá campañas de información sobre los derechos, deberes y garantías de los ciudadanos ante las actividades de Policía. Este Comité estará conformado por el Alcalde, el Personero Municipal y el Comandante de Estación del respectivo distrito, municipio o localidad. Estos Comités deberán reunirse, al menos, una vez al mes.\nFuente: Ley 1801 de 2016\nURL: https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=80538\n\n[GENERAL CONSERVADO 2]\nArtículo: 134\nTexto: ARTÍCULO 134. Comportamientos en la tenencia de caninos potencialmente peligrosos que afectan la seguridad de las personas y la convivencia. Los siguientes comportamientos ponen en riesgo la seguridad de las personas y la convivencia por la tenencia de caninos potencialmente peligrosos y por lo tanto no deben efectuarse: 1. Dejar deambular caninos potencialmente peligrosos en espacio público y privado, lugar abierto al público, o medio de transporte público. (Expresion subrayada, declarado INEXEQUIBLE mediante Sentencia de la Corte Constitucional C-059 de 2018) 2. Trasladar un ejemplar canino potencialmente peligroso en el espacio público, zonas comunes o en los lugares abiertos al público o en el transporte público en que sea permitida su estancia, sin bozal, trailla o demás implementos establecidos por las normas vigentes. (Declarado EXEQUIBLE mediante Sentencia de la Corte Constitucional C-059 de 2018) 3. Incumplir las disposiciones establecidas para el albergue de caninos potencialmente peligrosos. (Declarado EXEQUIBLE mediante Sentencia de la Corte Constitucional C-059 de 2018) 4. Importar o establecer centros de crianza de razas de caninos potencialmente peligrosos sin estar autorizado para ello. (Declarado EXEQUIBLE mediante Sentencia de la Corte Constitucional C-059 de 2018) 5. Incumplir la normatividad vigente de registro, posesión, compra, venta, traspaso, donación o cualquier cesión del derecho de propiedad sobre caninos potencialmente peligrosos. (Declarado EXEQUIBLE mediante Sentencia de la Corte Constitucional C-059 de 2018) 6. Permitir a niños, niñas o adolescentes la posesión, tenencia o transporte de ejemplares caninos potencialmente peligrosos. (Declarado EXEQUIBLE mediante Sentencia de la Corte Constitucional C-059 de 2018) 7. Permitir tener o transportar ejemplares caninos potencialmente peligrosos a personas que tengan limitaciones físicas o sensoriales que les impidan el control del animal. (Declarado EXEQUIBLE mediante Sentencia de la Corte Constitucional C-059 de 2018) 8. Tener o transportar caninos potencialmente peligrosos estando en estado de embriaguez o bajo el influjo de sustancias psicoactivas. (Declarado EXEQUIBLE mediante Sentencia de la Corte Constitucional C-059 de 2018) 9. No contar con póliza de responsabilidad civil extracontractual por la propiedad o tenencia de ejemplares caninos potencialmente peligrosos, una vez el Gobierno nacional expida la reglamentación sobre la materia. (Declarado EXEQUIBLE mediante Sentencia de la Corte Constitucional C-059 de 2018) PARÁGRAFO 1. A quien incurra en uno o más de los comportamientos señalados en el presente artículo, se le aplicarán las siguientes medidas correctivas: COMPORTAMIENTOS MEDIDA CORRECTIVA AAPLICAR DE MANERA GENERAL Numeral 1 Multa General tipo 2 Numeral 2 Multa General tipo 2 Numeral 3 Multa General tipo 4 Numeral 4 Multa General tipo 4; Suspensión definitiva de la actividad Numeral 5 Multa General tipo 4 Numeral 6 Multa General tipo 2 Numeral 7 Multa General tipo 2 Numeral 8 Multa General tipo 2 Numeral 9 Multa General tipo 4 (Declarado EXEQUIBLE mediante Sentencia de la Corte Constitucional C-059 de 2018) PARÁGRAFO 2. Si un ejemplar canino potencialmente peligroso ataca a otra mascota, su propietario será sancionado por la autoridad municipal competente con Multa General tipo 3 y estará obligado a pagar por todos los daños causados a la mascota. Si el animal es reincidente se procederá al decomiso, siendo un veterinario, preferiblemente etólogo, el que determine el tratamiento a seguir. (Declarado EXEQUIBLE mediante Sentencia de la Corte Constitucional C-059 de 2018) PARÁGRAFO 3. Si un ejemplar canino potencialmente peligroso ataca a una persona infligiéndole lesiones permanentes de cualquier tipo, su propietario será sancionado por la autoridad municipal competente con Multa General tipo 4 y estará obligado a pagar por todos los daños causados a la persona. Si el animal es reincidente se procederá al decomiso, siendo un veterinario, preferiblemente etólogo, el que determine el tratamiento a seguir. (Declarado EXEQUIBLE mediante Sentencia de la Corte Constitucional C-059 de 2018) PARÁGRAFO 4. Lo anterior sin perjuicio de las disposiciones contenidas en la Ley 1774 de 2016 y demás normas relacionadas con la protección animal y prevención del maltrato a los animales. (Declarado EXEQUIBLE mediante Sentencia de la Corte Constitucional C-059 de 2018) NOTA: Ordena reemplazar en toda la legislación y normatividad nacional la expresión “perro potencialmente peligroso” o “raza(s) potencialmente peligrosas” por “perro de manejo especial” o “razas de manejo especial”. DEL URBANISMO CAPÍTULO I COMPORTAMIENTOS QUE AFECTAN LA INTEGRIDAD URBANÍSTICA\nFuente: Ley 1801 de 2016\nURL: https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=80538\n\n[GENERAL CONSERVADO 3]\nArtículo: 7\nTexto: ARTÍCULO 7. Finalidades de la convivencia. Son fines esenciales de las normas de convivencia social previstas en este Código: 1. Que el ejercicio de los derechos y libertades sean garantizados y respetados en el marco de la Constitución y la ley. 2. El cumplimiento de los deberes contenidos en la Constitución, la ley y las normas que regulan la convivencia. 3. El respeto por las diferencias y la aceptación de ellas. 4. La resolución pacífica de los desacuerdos que afecten la convivencia. 5. La convergencia de los intereses personales y generales para promover un desarrollo armónico. 6. prevalencia de los valores sociales de solidaridad, tolerancia, responsabilidad, honradez, respeto, bondad, libertad, justicia, igualdad, fraternidad, lealtad, prudencia y paz.\nFuente: Ley 1801 de 2016\nURL: https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=80538\n\n[GENERAL CONSERVADO 4]\nArtículo: 205\nTexto: jurisdicción y competencia, quienes ejercerán transitoriamente como autoridad administrativa de policía. 19. Frente a la implementación del Código Nacional de Seguridad y Convivencia Ciudadana, las administraciones distritales y municipales incluirán en los planes de desarrollo la adecuación de la infraestructura, tecnología y programas de participación pedagógica, necesarios para la materialización y cobro de los medios y medidas correctivas. 20. Crear el sistema de información que permita el registro de las personas trasladadas por protección, el cual debe contener como mínimo los nombres, identificación de\nFuente: Ley 1801 de 2016\nURL: https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=80538\n\n[GENERAL CONSERVADO 5]\nArtículo: 1\nTexto: ARTÍCULO 1. Objeto. Las disposiciones previstas en este Código son de carácter preventivo y buscan establecer las condiciones para la convivencia en el territorio nacional al propiciar el cumplimiento de los deberes y obligaciones de las personas naturales y jurídicas, así como determinar el ejercicio del poder, la función y la actividad de Policía, de conformidad con la Constitución Política y el ordenamiento jurídico vigente.\nFuente: Ley 1801 de 2016\nURL: https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=80538\n\n[GENERAL CONSERVADO 6]\nArtículo: 2\nTexto: ARTÍCULO 2. Objetivos específicos. Con el fin de mantener las condiciones necesarias para la convivencia en el territorio nacional, los objetivos específicos de este Código son los siguientes: 1. Propiciar en la comunidad comportamientos que favorezcan la convivencia en el espacio público, áreas comunes, lugares abiertos al público o que siendo privados trasciendan a lo público. 2. Promover el respeto, el ejercicio responsable de la libertad, la dignidad, los deberes y los derechos correlativos de la personalidad humana. 3. Promover el uso de mecanismos alternativos, o\nFuente: Ley 1801 de 2016\nURL: https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=80538\n\n[GENERAL CONSERVADO 7]\nArtículo: 185B\nTexto: del Código Nacional de Seguridad y Convivencia Ciudadana, dentro de los primeros diez (10) días de cada mes a la cuenta que para tal fin establezca el Ministerio del Interior . (Adicionado por el Art. 45 de la Ley 2197 de 2022)\nFuente: Ley 1801 de 2016\nURL: https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=80538\n\n[GENERAL CONSERVADO 8]\nArtículo: 185A\nTexto: a las administraciones locales con el fin de que desarrollen las capacidades necesarias para implementar el Código Nacional de Seguridad y Convivencia Ciudadana en diversas materias, entre ellas, la aplicación de comparendos. PARÁGRAFO 1. El Ministerio del Interior tendrá un plazo de doce (12) meses contados a partir de la expedición de la presente Ley, para la formulación, diseño, desarrollo, implementación y socialización del Sistema de información de que trata el presente Artículo. Dicho sistema guardará interoperabilidad con el Registro Nacional de Medidas Correctivas a\nFuente: Ley 1801 de 2016\nURL: https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=80538\n\n=== REGISTROS ESTRUCTURADOS ===\n\n[ESTRUCTURADO 1]\nArtículo: 135\nNumeral: 15\nSección: D\nComportamiento: Instalar protecciones o elementos especiales en los frentes y costados de la obra y señalización, semáforos o luces nocturnas para la seguridad de quienes se movilizan por el lugar y evitar accidentes o incomodidades.\nMedidas correctivas registradas: Suspensión de construcción o demolición.\nNota normativa: No registrada\nFuente: Ley 1801 de 2016\nURL: https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=80538\n\n[ESTRUCTURADO 2]\nArtículo: 135\nNumeral: 1\nSección: A\nComportamiento: En áreas protegidas o afectadas por el plan vial o de infraestructura de servicios públicos domiciliarios, y las destinadas a equipamientos públicos.\nMedidas correctivas registradas: Multa especial por infracción urbanística; Demolición de obra; Construcción, cerramiento, reparación o mantenimiento de inmueble; Remoción de bienes.\nNota normativa: No registrada\nFuente: Ley 1801 de 2016\nURL: https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=80538\n\n[ESTRUCTURADO 3]\nArtículo: 135\nNumeral: 19\nSección: D\nComportamiento: Exigir a quienes trabajan y visitan la obra, el uso de cascos e implementos de seguridad industrial y contar con el equipo necesario para prevenir y controlar incendios o atender emergencias de acuerdo con esta ley.\nMedidas correctivas registradas: Suspensión de construcción o demolición.\nNota normativa: No registrada\nFuente: Ley 1801 de 2016\nURL: https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=80538\n\n[ESTRUCTURADO 4]\nArtículo: 135\nNumeral: 2\nSección: A\nComportamiento: Con desconocimiento a lo preceptuado en la licencia.\nMedidas correctivas registradas: Multa especial por infracción urbanística; Demolición de obra; Construcción, cerramiento, reparación o mantenimiento de inmueble; Remoción de bienes.\nNota normativa: No registrada\nFuente: Ley 1801 de 2016\nURL: https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=80538\n\n[ESTRUCTURADO 5]\nArtículo: 135\nNumeral: 21\nSección: D\nComportamiento: Aislar completamente las obras de construcción que se desarrollen aledañas a canales o fuentes de agua, para evitar la contaminación del agua con materiales e implementar las acciones de prevención y mitigación que disponga la autoridad ambiental respectiva\nMedidas correctivas registradas: Suspensión de construcción o demolición.\nNota normativa: No registrada\nFuente: Ley 1801 de 2016\nURL: https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=80538\n\nFIN DEL CONTEXTO JURÍDICO RECUPERADO",
+      "resultados_recuperados": {
+        "pregunta": "¿Cuál es el objetivo general del Código Nacional de Seguridad y Convivencia Ciudadana?",
+        "resultados_generales": [
+          {
+            "id": "articulo_19",
+            "articulo": "19",
+            "titulo": "Consejos de Seguridad y Convivencia y Comité Civil de Convivencia",
+            "texto": "ARTÍCULO 19. Consejos de Seguridad y Convivencia y Comité Civil de Convivencia. Los Consejos de Seguridad y Convivencia son cuerpos consultivos y de decisión para la prevención y reacción ante los problemas relacionados con la seguridad y la convivencia en el nivel nacional, regional, departamental, distrital, municipal o metropolitano. El Gobierno nacional establecerá mediante reglamentación los objetivos, funciones, integrantes y demás aspectos relacionados con el funcionamiento de los Consejos de Seguridad y Convivencia. De manera subsidiaria, las autoridades ejecutivas de los niveles distrital, departamental y municipal, considerando su especificidad y necesidad, podrán complementar la regulación hecha por el Gobierno nacional. Créanse los Comités Civiles de Convivencia en cada municipio o distrito, cuyo objeto será analizar hechos y fenómenos que afectan la convivencia así como tramitar las quejas, denuncias, peticiones o reconocimientos reportados en relación con la función y la actividad de Policía en su respectiva jurisdicción priorizando los casos relacionados con actuaciones donde hubieren podido verse afectados los intereses colectivos. Estos Comités podrán emitir recomendaciones para mejorar la función y la actividad de Policía y garantizar la transparencia en el ejercicio de sus funciones. Así mismo, deberán fomentar e incentivar que la ciudadanía presente las denuncias y quejas que correspondan y promoverá campañas de información sobre los derechos, deberes y garantías de los ciudadanos ante las actividades de Policía. Este Comité estará conformado por el Alcalde, el Personero Municipal y el Comandante de Estación del respectivo distrito, municipio o localidad. Estos Comités deberán reunirse, al menos, una vez al mes.",
+            "fuente": "Ley 1801 de 2016",
+            "url_fuente": "https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=80538",
+            "similitud": 1.0,
+            "origen_recuperacion": "titulo_numero"
+          },
+          {
+            "id": "articulo_134",
+            "articulo": "134",
+            "titulo": "Comportamientos en la tenencia de caninos potencialmente peligrosos que afectan la seguridad de las personas y la convivencia",
+            "texto": "ARTÍCULO 134. Comportamientos en la tenencia de caninos potencialmente peligrosos que afectan la seguridad de las personas y la convivencia. Los siguientes comportamientos ponen en riesgo la seguridad de las personas y la convivencia por la tenencia de caninos potencialmente peligrosos y por lo tanto no deben efectuarse: 1. Dejar deambular caninos potencialmente peligrosos en espacio público y privado, lugar abierto al público, o medio de transporte público. (Expresion subrayada, declarado INEXEQUIBLE mediante Sentencia de la Corte Constitucional C-059 de 2018) 2. Trasladar un ejemplar canino potencialmente peligroso en el espacio público, zonas comunes o en los lugares abiertos al público o en el transporte público en que sea permitida su estancia, sin bozal, trailla o demás implementos establecidos por las normas vigentes. (Declarado EXEQUIBLE mediante Sentencia de la Corte Constitucional C-059 de 2018) 3. Incumplir las disposiciones establecidas para el albergue de caninos potencialmente peligrosos. (Declarado EXEQUIBLE mediante Sentencia de la Corte Constitucional C-059 de 2018) 4. Importar o establecer centros de crianza de razas de caninos potencialmente peligrosos sin estar autorizado para ello. (Declarado EXEQUIBLE mediante Sentencia de la Corte Constitucional C-059 de 2018) 5. Incumplir la normatividad vigente de registro, posesión, compra, venta, traspaso, donación o cualquier cesión del derecho de propiedad sobre caninos potencialmente peligrosos. (Declarado EXEQUIBLE mediante Sentencia de la Corte Constitucional C-059 de 2018) 6. Permitir a niños, niñas o adolescentes la posesión, tenencia o transporte de ejemplares caninos potencialmente peligrosos. (Declarado EXEQUIBLE mediante Sentencia de la Corte Constitucional C-059 de 2018) 7. Permitir tener o transportar ejemplares caninos potencialmente peligrosos a personas que tengan limitaciones físicas o sensoriales que les impidan el control del animal. (Declarado EXEQUIBLE mediante Sentencia de la Corte Constitucional C-059 de 2018) 8. Tener o transportar caninos potencialmente peligrosos estando en estado de embriaguez o bajo el influjo de sustancias psicoactivas. (Declarado EXEQUIBLE mediante Sentencia de la Corte Constitucional C-059 de 2018) 9. No contar con póliza de responsabilidad civil extracontractual por la propiedad o tenencia de ejemplares caninos potencialmente peligrosos, una vez el Gobierno nacional expida la reglamentación sobre la materia. (Declarado EXEQUIBLE mediante Sentencia de la Corte Constitucional C-059 de 2018) PARÁGRAFO 1. A quien incurra en uno o más de los comportamientos señalados en el presente artículo, se le aplicarán las siguientes medidas correctivas: COMPORTAMIENTOS MEDIDA CORRECTIVA AAPLICAR DE MANERA GENERAL Numeral 1 Multa General tipo 2 Numeral 2 Multa General tipo 2 Numeral 3 Multa General tipo 4 Numeral 4 Multa General tipo 4; Suspensión definitiva de la actividad Numeral 5 Multa General tipo 4 Numeral 6 Multa General tipo 2 Numeral 7 Multa General tipo 2 Numeral 8 Multa General tipo 2 Numeral 9 Multa General tipo 4 (Declarado EXEQUIBLE mediante Sentencia de la Corte Constitucional C-059 de 2018) PARÁGRAFO 2. Si un ejemplar canino potencialmente peligroso ataca a otra mascota, su propietario será sancionado por la autoridad municipal competente con Multa General tipo 3 y estará obligado a pagar por todos los daños causados a la mascota. Si el animal es reincidente se procederá al decomiso, siendo un veterinario, preferiblemente etólogo, el que determine el tratamiento a seguir. (Declarado EXEQUIBLE mediante Sentencia de la Corte Constitucional C-059 de 2018) PARÁGRAFO 3. Si un ejemplar canino potencialmente peligroso ataca a una persona infligiéndole lesiones permanentes de cualquier tipo, su propietario será sancionado por la autoridad municipal competente con Multa General tipo 4 y estará obligado a pagar por todos los daños causados a la persona. Si el animal es reincidente se procederá al decomiso, siendo un veterinario, preferiblemente etólogo, el que determine el tratamiento a seguir. (Declarado EXEQUIBLE mediante Sentencia de la Corte Constitucional C-059 de 2018) PARÁGRAFO 4. Lo anterior sin perjuicio de las disposiciones contenidas en la Ley 1774 de 2016 y demás normas relacionadas con la protección animal y prevención del maltrato a los animales. (Declarado EXEQUIBLE mediante Sentencia de la Corte Constitucional C-059 de 2018) NOTA: Ordena reemplazar en toda la legislación y normatividad nacional la expresión “perro potencialmente peligroso” o “raza(s) potencialmente peligrosas” por “perro de manejo especial” o “razas de manejo especial”. DEL URBANISMO CAPÍTULO I COMPORTAMIENTOS QUE AFECTAN LA INTEGRIDAD URBANÍSTICA",
+            "fuente": "Ley 1801 de 2016",
+            "url_fuente": "https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=80538",
+            "similitud": 1.0,
+            "origen_recuperacion": "titulo_numero"
+          },
+          {
+            "id": "articulo_7",
+            "articulo": "7",
+            "titulo": "Finalidades de la convivencia",
+            "texto": "ARTÍCULO 7. Finalidades de la convivencia. Son fines esenciales de las normas de convivencia social previstas en este Código: 1. Que el ejercicio de los derechos y libertades sean garantizados y respetados en el marco de la Constitución y la ley. 2. El cumplimiento de los deberes contenidos en la Constitución, la ley y las normas que regulan la convivencia. 3. El respeto por las diferencias y la aceptación de ellas. 4. La resolución pacífica de los desacuerdos que afecten la convivencia. 5. La convergencia de los intereses personales y generales para promover un desarrollo armónico. 6. prevalencia de los valores sociales de solidaridad, tolerancia, responsabilidad, honradez, respeto, bondad, libertad, justicia, igualdad, fraternidad, lealtad, prudencia y paz.",
+            "fuente": "Ley 1801 de 2016",
+            "url_fuente": "https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=80538",
+            "similitud": 1.0,
+            "origen_recuperacion": "titulo_numero"
+          },
+          {
+            "id": "articulo_205_fragmento_8",
+            "articulo": "205",
+            "titulo": "Atribuciones del alcalde",
+            "texto": "jurisdicción y competencia, quienes ejercerán transitoriamente como autoridad administrativa de policía. 19. Frente a la implementación del Código Nacional de Seguridad y Convivencia Ciudadana, las administraciones distritales y municipales incluirán en los planes de desarrollo la adecuación de la infraestructura, tecnología y programas de participación pedagógica, necesarios para la materialización y cobro de los medios y medidas correctivas. 20. Crear el sistema de información que permita el registro de las personas trasladadas por protección, el cual debe contener como mínimo los nombres, identificación de",
+            "fuente": "Ley 1801 de 2016",
+            "url_fuente": "https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=80538",
+            "similitud": 0.7575621604919434,
+            "posicion_faiss": 758
+          },
+          {
+            "id": "articulo_1_fragmento_1",
+            "articulo": "1",
+            "titulo": "Objeto",
+            "texto": "ARTÍCULO 1. Objeto. Las disposiciones previstas en este Código son de carácter preventivo y buscan establecer las condiciones para la convivencia en el territorio nacional al propiciar el cumplimiento de los deberes y obligaciones de las personas naturales y jurídicas, así como determinar el ejercicio del poder, la función y la actividad de Policía, de conformidad con la Constitución Política y el ordenamiento jurídico vigente.",
+            "fuente": "Ley 1801 de 2016",
+            "url_fuente": "https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=80538",
+            "similitud": 0.7233487367630005,
+            "posicion_faiss": 0
+          },
+          {
+            "id": "articulo_2_fragmento_1",
+            "articulo": "2",
+            "titulo": "Objetivos específicos",
+            "texto": "ARTÍCULO 2. Objetivos específicos. Con el fin de mantener las condiciones necesarias para la convivencia en el territorio nacional, los objetivos específicos de este Código son los siguientes: 1. Propiciar en la comunidad comportamientos que favorezcan la convivencia en el espacio público, áreas comunes, lugares abiertos al público o que siendo privados trasciendan a lo público. 2. Promover el respeto, el ejercicio responsable de la libertad, la dignidad, los deberes y los derechos correlativos de la personalidad humana. 3. Promover el uso de mecanismos alternativos, o",
+            "fuente": "Ley 1801 de 2016",
+            "url_fuente": "https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=80538",
+            "similitud": 0.7210695743560791,
+            "posicion_faiss": 1
+          },
+          {
+            "id": "articulo_185B_fragmento_9",
+            "articulo": "185B",
+            "titulo": "Recaudo y administración del dinero por concepto de multas",
+            "texto": "del Código Nacional de Seguridad y Convivencia Ciudadana, dentro de los primeros diez (10) días de cada mes a la cuenta que para tal fin establezca el Ministerio del Interior . (Adicionado por el Art. 45 de la Ley 2197 de 2022)",
+            "fuente": "Ley 1801 de 2016",
+            "url_fuente": "https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=80538",
+            "similitud": 0.7198991775512695,
+            "posicion_faiss": 711
+          },
+          {
+            "id": "articulo_185A_fragmento_2",
+            "articulo": "185A",
+            "titulo": "Creación del Sistema Único de Información de recaudo a nivel nacional de los pagos por concepto de comparendos y medidas correctivas",
+            "texto": "a las administraciones locales con el fin de que desarrollen las capacidades necesarias para implementar el Código Nacional de Seguridad y Convivencia Ciudadana en diversas materias, entre ellas, la aplicación de comparendos. PARÁGRAFO 1. El Ministerio del Interior tendrá un plazo de doce (12) meses contados a partir de la expedición de la presente Ley, para la formulación, diseño, desarrollo, implementación y socialización del Sistema de información de que trata el presente Artículo. Dicho sistema guardará interoperabilidad con el Registro Nacional de Medidas Correctivas a",
+            "fuente": "Ley 1801 de 2016",
+            "url_fuente": "https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=80538",
+            "similitud": 0.7051898241043091,
+            "posicion_faiss": 700
+          }
+        ],
+        "resultados_estructurados_135": [
+          {
+            "id": "articulo_135_numeral_15",
+            "articulo": "135",
+            "numeral": "15",
+            "seccion": "D",
+            "comportamiento": "Instalar protecciones o elementos especiales en los frentes y costados de la obra y señalización, semáforos o luces nocturnas para la seguridad de quienes se movilizan por el lugar y evitar accidentes o incomodidades.",
+            "medida_correctiva": "Suspensión de construcción o demolición.",
+            "nota_normativa": null,
+            "fuente": "Ley 1801 de 2016",
+            "url_fuente": "https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=80538",
+            "similitud": 0.5003858804702759,
+            "tipo_representacion": "descripcion_principal"
+          },
+          {
+            "id": "articulo_135_numeral_1",
+            "articulo": "135",
+            "numeral": "1",
+            "seccion": "A",
+            "comportamiento": "En áreas protegidas o afectadas por el plan vial o de infraestructura de servicios públicos domiciliarios, y las destinadas a equipamientos públicos.",
+            "medida_correctiva": "Multa especial por infracción urbanística; Demolición de obra; Construcción, cerramiento, reparación o mantenimiento de inmueble; Remoción de bienes.",
+            "nota_normativa": null,
+            "fuente": "Ley 1801 de 2016",
+            "url_fuente": "https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=80538",
+            "similitud": 0.4763987362384796,
+            "tipo_representacion": "descripcion_principal"
+          },
+          {
+            "id": "articulo_135_numeral_19",
+            "articulo": "135",
+            "numeral": "19",
+            "seccion": "D",
+            "comportamiento": "Exigir a quienes trabajan y visitan la obra, el uso de cascos e implementos de seguridad industrial y contar con el equipo necesario para prevenir y controlar incendios o atender emergencias de acuerdo con esta ley.",
+            "medida_correctiva": "Suspensión de construcción o demolición.",
+            "nota_normativa": null,
+            "fuente": "Ley 1801 de 2016",
+            "url_fuente": "https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=80538",
+            "similitud": 0.4386022686958313,
+            "tipo_representacion": "descripcion_principal"
+          },
+          {
+            "id": "articulo_135_numeral_2",
+            "articulo": "135",
+            "numeral": "2",
+            "seccion": "A",
+            "comportamiento": "Con desconocimiento a lo preceptuado en la licencia.",
+            "medida_correctiva": "Multa especial por infracción urbanística; Demolición de obra; Construcción, cerramiento, reparación o mantenimiento de inmueble; Remoción de bienes.",
+            "nota_normativa": null,
+            "fuente": "Ley 1801 de 2016",
+            "url_fuente": "https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=80538",
+            "similitud": 0.4089928865432739,
+            "tipo_representacion": "descripcion_principal"
+          },
+          {
+            "id": "articulo_135_numeral_21",
+            "articulo": "135",
+            "numeral": "21",
+            "seccion": "D",
+            "comportamiento": "Aislar completamente las obras de construcción que se desarrollen aledañas a canales o fuentes de agua, para evitar la contaminación del agua con materiales e implementar las acciones de prevención y mitigación que disponga la autoridad ambiental respectiva",
+            "medida_correctiva": "Suspensión de construcción o demolición.",
+            "nota_normativa": null,
+            "fuente": "Ley 1801 de 2016",
+            "url_fuente": "https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=80538",
+            "similitud": 0.40481436252593994,
+            "tipo_representacion": "descripcion_principal"
+          }
+        ],
+        "total_generales": 8,
+        "total_estructurados": 5
+      },
+      "fecha_captura_utc": "2026-11-12T21:22:13.300037+00:00"
     },
     {
       "id": "RAG-002",
@@ -36,17 +192,173 @@
       ],
       "respuesta_referencia": "Sus seis objetivos son promover comportamientos favorables a la convivencia, fomentar el respeto y el ejercicio responsable de los derechos y libertades, promover mecanismos alternativos de solución de conflictos, definir comportamientos y medidas de Policía, establecer las competencias de las autoridades y garantizar un procedimiento respetuoso del debido proceso, inmediato y eficaz.",
       "estado_revision_referencia": "pendiente_revision",
-      "respuesta_generada": null,
-      "respuesta_visible": null,
-      "modelo": null,
-      "estado_validacion_documental": null,
+      "respuesta_generada": "De acuerdo con el artículo 2 de la Ley 1801 de 2016, los objetivos específicos del Código de Policía, con el fin de mantener las condiciones necesarias para la convivencia en el territorio nacional, son los siguientes:\n\n1.  **Propiciar comportamientos:** Fomentar en la comunidad conductas que favorezcan la convivencia en el espacio público, áreas comunes, lugares abiertos al público o aquellos que, siendo privados, trasciendan a lo público.\n2.  **Promover valores y derechos:** Fomentar el respeto, el ejercicio responsable de la libertad, la dignidad, así como los deberes y derechos correlativos de la personalidad humana.\n3.  **Mecanismos de solución de conflictos:** Promover el uso de mecanismos alternativos o comunitarios para la conciliación y la solución pacífica de desacuerdos entre particulares.\n4.  **Definición normativa:** Definir los comportamientos, medidas, medios y procedimientos de Policía.\n5.  **Competencias:** Establecer la competencia de las autoridades de Policía en los niveles nacional, departamental, distrital y municipal, respetando el principio de autonomía territorial.\n6.  **Debido proceso:** Establecer un procedimiento que sea respetuoso del debido proceso, idóneo, inmediato, expedito y eficaz para atender oportunamente los comportamientos relacionados con la convivencia.\n\n**Fundamento jurídico:** Artículo 2 de la Ley 1801 de 2016.\n**Fuente:** [https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=80538](https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=80538)\n\n*Advertencia: Esta información se basa exclusivamente en el texto del artículo 2 de la Ley 1801 de 2016. La vigencia y aplicación de esta norma deben ser verificadas, ya que este documento es una herramienta de consulta y no constituye asesoría jurídica profesional.*",
+      "respuesta_visible": "De acuerdo con el artículo 2 de la Ley 1801 de 2016, los objetivos específicos del Código de Policía, con el fin de mantener las condiciones necesarias para la convivencia en el territorio nacional, son los siguientes:\n\n1.  **Propiciar comportamientos:** Fomentar en la comunidad conductas que favorezcan la convivencia en el espacio público, áreas comunes, lugares abiertos al público o aquellos que, siendo privados, trasciendan a lo público.\n2.  **Promover valores y derechos:** Fomentar el respeto, el ejercicio responsable de la libertad, la dignidad, así como los deberes y derechos correlativos de la personalidad humana.\n3.  **Mecanismos de solución de conflictos:** Promover el uso de mecanismos alternativos o comunitarios para la conciliación y la solución pacífica de desacuerdos entre particulares.\n4.  **Definición normativa:** Definir los comportamientos, medidas, medios y procedimientos de Policía.\n5.  **Competencias:** Establecer la competencia de las autoridades de Policía en los niveles nacional, departamental, distrital y municipal, respetando el principio de autonomía territorial.\n6.  **Debido proceso:** Establecer un procedimiento que sea respetuoso del debido proceso, idóneo, inmediato, expedito y eficaz para atender oportunamente los comportamientos relacionados con la convivencia.\n\n**Fundamento jurídico:** Artículo 2 de la Ley 1801 de 2016.\n**Fuente:** [https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=80538](https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=80538)\n\n*Advertencia: Esta información se basa exclusivamente en el texto del artículo 2 de la Ley 1801 de 2016. La vigencia y aplicación de esta norma deben ser verificadas, ya que este documento es una herramienta de consulta y no constituye asesoría jurídica profesional.*",
+      "modelo": "gemini-3.1-flash-lite",
+      "estado_validacion_documental": "PENDIENTE_VALIDACION",
       "advertencias_documentales": [],
       "articulos_citados": [],
       "exactitud": null,
       "fidelidad_contexto": null,
       "correccion_citas": null,
       "observaciones": "",
-      "estado_evaluacion": "pendiente"
+      "estado_evaluacion": "pendiente_revision_humana",
+      "contexto_utilizado": "CONTEXTO JURÍDICO RECUPERADO\nLos siguientes textos proceden del corpus documental. No se ha verificado su vigencia normativa actual.\n\n=== CONTEXTO GENERAL CON SUSTITUCIÓN 223A ===\n\n[GENERAL CONSERVADO 1]\nArtículo: 2\nTexto: ARTÍCULO 2. Objetivos específicos. Con el fin de mantener las condiciones necesarias para la convivencia en el territorio nacional, los objetivos específicos de este Código son los siguientes: 1. Propiciar en la comunidad comportamientos que favorezcan la convivencia en el espacio público, áreas comunes, lugares abiertos al público o que siendo privados trasciendan a lo público. 2. Promover el respeto, el ejercicio responsable de la libertad, la dignidad, los deberes y los derechos correlativos de la personalidad humana. 3. Promover el uso de mecanismos alternativos, o comunitarios, para la conciliación y solución pacífica de desacuerdos entre particulares. 4. Definir comportamientos, medidas, medios y procedimientos de Policía. 5. Establecer la competencia de las autoridades de Policía en el orden nacional, departamental, distrital y municipal, con observancia del principio de autonomía territorial. 6. Establecer un procedimiento respetuoso del debido proceso, idóneo, inmediato, expedito y eficaz para la atención oportuna de los comportamientos relacionados con la convivencia en el territorio nacional.\nFuente: Ley 1801 de 2016\nURL: https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=80538\n\n[GENERAL CONSERVADO 2]\nArtículo: 3\nTexto: ARTÍCULO 3. Ámbito de aplicación del Derecho de Policía. El derecho de Policía se aplicará a todas las personas naturales o jurídicas, de conformidad con este Código. Las autoridades de Policía sujetarán sus actuaciones al procedimiento único de Policía, sin perjuicio de las competencias que les asistan en procedimientos regulados por leyes especiales.\nFuente: Ley 1801 de 2016\nURL: https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=80538\n\n[GENERAL CONSERVADO 3]\nArtículo: 4\nTexto: ARTÍCULO 4. Autonomía del acto y del procedimiento de Policía. Las disposiciones de la Parte Primera del Código de Procedimiento Administrativo y de lo Contencioso Administrativo no se aplicarán al acto de Policía ni a los procedimientos de Policía, que por su misma naturaleza preventiva requieren decisiones de aplicación inmediata, eficaz, oportuna y diligente, para conservar el fin superior de la convivencia, de conformidad con las normas vigentes y el artículo 2 de la Ley 1437 de 2011. Por su parte las disposiciones de la parte segunda de la Ley 1437 de 2011 se aplicarán a la decisión final de las autoridades de Policía en el proceso único de Policía, con excepción de aquellas de que trata el numeral 3 del artículo 105 de la ley en mención. CAPÍTULO II BASES DE LA CONVIVENCIA Y SEGURIDAD CIUDADANA\nFuente: Ley 1801 de 2016\nURL: https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=80538\n\n[GENERAL CONSERVADO 4]\nArtículo: 173\nTexto: ARTÍCULO 173. Las medidas correctivas. Las medidas correctivas a aplicar en el marco de este Código por las autoridades de policía, son las siguientes: 1. Amonestación, 2. Participación en programa comunitario o actividad pedagógica de convivencia. 3. Disolución de reunión o actividad que involucra aglomeraciones de público no complejas. 4. Expulsión de domicilio. 5. Prohibición de ingreso a actividad que involucra aglomeraciones de público complejas o no complejas 6. Decomiso. 7. Multa General o Especial. 8. Construcción,\nFuente: Ley 1801 de 2016\nURL: https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=80538\n\n[GENERAL CONSERVADO 5]\nArtículo: 16\nTexto: ARTÍCULO 16. Función de Policía. Consiste en la facultad de hacer cumplir las disposiciones dictadas en ejercicio del poder de Policía, mediante la expedición de reglamentos generales y de acciones apropiadas para garantizar la convivencia. Esta función se cumple por medio de órdenes de Policía.\nFuente: Ley 1801 de 2016\nURL: https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=80538\n\n[GENERAL CONSERVADO 6]\nArtículo: 236\nTexto: trascendentales de esta ley. Así mismo deberá adelantar jornadas de capacitación y formación del nuevo Código de Policía y Convivencia a las autoridades de policía, a partir de su promulgación. De igual forma, a través del Ministerio de Educación, desarrollará programas para el fomento de competencias que fortalezcan la cultura ciudadana y la convivencia así como el respeto por las normas y las autoridades, en concordancia con los lineamientos definidos en la Ley 1013 de 2006 y la Ley 1732 de 2014. Estos programas serán implementados por las Instituciones\nFuente: Ley 1801 de 2016\nURL: https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=80538\n\n[GENERAL CONSERVADO 7]\nArtículo: 238\nTexto: ARTÍCULO 238. Reglamentación. El presente Código rige en todo el territorio nacional y se complementa con los reglamentos de Policía expedidos por las autoridades competentes, de conformidad con la Constitución Política y la ley. Las disposiciones de la presente ley, prevalecen sobre cualquier reglamento de Policía.\nFuente: Ley 1801 de 2016\nURL: https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=80538\n\n[GENERAL CONSERVADO 8]\nArtículo: 205\nTexto: mediante Sentencia de la Corte Constitucional C-281 de 2017) 13. Tener en la planta de personal de la administración distrital o municipal, los cargos de inspectores y corregidores de Policía necesarios para la aplicación de este Código. 14. Resolver el recurso de apelación de las decisiones tomadas por las autoridades de Policía, en primera instancia, cuando procedan, siempre que no sean de competencia de las autoridades especiales de Policía. 15. Conocer de los asuntos a él atribuidos en este Código y en la ley, las ordenanzas y los acuerdos.\nFuente: Ley 1801 de 2016\nURL: https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=80538\n\n=== REGISTROS ESTRUCTURADOS ===\n\n[ESTRUCTURADO 1]\nArtículo: 135\nNumeral: 15\nSección: D\nComportamiento: Instalar protecciones o elementos especiales en los frentes y costados de la obra y señalización, semáforos o luces nocturnas para la seguridad de quienes se movilizan por el lugar y evitar accidentes o incomodidades.\nMedidas correctivas registradas: Suspensión de construcción o demolición.\nNota normativa: No registrada\nFuente: Ley 1801 de 2016\nURL: https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=80538\n\n[ESTRUCTURADO 2]\nArtículo: 135\nNumeral: 1\nSección: A\nComportamiento: En áreas protegidas o afectadas por el plan vial o de infraestructura de servicios públicos domiciliarios, y las destinadas a equipamientos públicos.\nMedidas correctivas registradas: Multa especial por infracción urbanística; Demolición de obra; Construcción, cerramiento, reparación o mantenimiento de inmueble; Remoción de bienes.\nNota normativa: No registrada\nFuente: Ley 1801 de 2016\nURL: https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=80538\n\n[ESTRUCTURADO 3]\nArtículo: 135\nNumeral: 2\nSección: A\nComportamiento: Con desconocimiento a lo preceptuado en la licencia.\nMedidas correctivas registradas: Multa especial por infracción urbanística; Demolición de obra; Construcción, cerramiento, reparación o mantenimiento de inmueble; Remoción de bienes.\nNota normativa: No registrada\nFuente: Ley 1801 de 2016\nURL: https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=80538\n\n[ESTRUCTURADO 4]\nArtículo: 135\nNumeral: 19\nSección: D\nComportamiento: Exigir a quienes trabajan y visitan la obra, el uso de cascos e implementos de seguridad industrial y contar con el equipo necesario para prevenir y controlar incendios o atender emergencias de acuerdo con esta ley.\nMedidas correctivas registradas: Suspensión de construcción o demolición.\nNota normativa: No registrada\nFuente: Ley 1801 de 2016\nURL: https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=80538\n\n[ESTRUCTURADO 5]\nArtículo: 135\nNumeral: 21\nSección: D\nComportamiento: Aislar completamente las obras de construcción que se desarrollen aledañas a canales o fuentes de agua, para evitar la contaminación del agua con materiales e implementar las acciones de prevención y mitigación que disponga la autoridad ambiental respectiva\nMedidas correctivas registradas: Suspensión de construcción o demolición.\nNota normativa: No registrada\nFuente: Ley 1801 de 2016\nURL: https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=80538\n\nFIN DEL CONTEXTO JURÍDICO RECUPERADO",
+      "resultados_recuperados": {
+        "pregunta": "¿Cuáles son los objetivos específicos del Código de Policía?",
+        "resultados_generales": [
+          {
+            "id": "articulo_2",
+            "articulo": "2",
+            "titulo": "Objetivos específicos",
+            "texto": "ARTÍCULO 2. Objetivos específicos. Con el fin de mantener las condiciones necesarias para la convivencia en el territorio nacional, los objetivos específicos de este Código son los siguientes: 1. Propiciar en la comunidad comportamientos que favorezcan la convivencia en el espacio público, áreas comunes, lugares abiertos al público o que siendo privados trasciendan a lo público. 2. Promover el respeto, el ejercicio responsable de la libertad, la dignidad, los deberes y los derechos correlativos de la personalidad humana. 3. Promover el uso de mecanismos alternativos, o comunitarios, para la conciliación y solución pacífica de desacuerdos entre particulares. 4. Definir comportamientos, medidas, medios y procedimientos de Policía. 5. Establecer la competencia de las autoridades de Policía en el orden nacional, departamental, distrital y municipal, con observancia del principio de autonomía territorial. 6. Establecer un procedimiento respetuoso del debido proceso, idóneo, inmediato, expedito y eficaz para la atención oportuna de los comportamientos relacionados con la convivencia en el territorio nacional.",
+            "fuente": "Ley 1801 de 2016",
+            "url_fuente": "https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=80538",
+            "similitud": 1.0,
+            "origen_recuperacion": "titulo_numero"
+          },
+          {
+            "id": "articulo_3",
+            "articulo": "3",
+            "titulo": "Ámbito de aplicación del Derecho de Policía",
+            "texto": "ARTÍCULO 3. Ámbito de aplicación del Derecho de Policía. El derecho de Policía se aplicará a todas las personas naturales o jurídicas, de conformidad con este Código. Las autoridades de Policía sujetarán sus actuaciones al procedimiento único de Policía, sin perjuicio de las competencias que les asistan en procedimientos regulados por leyes especiales.",
+            "fuente": "Ley 1801 de 2016",
+            "url_fuente": "https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=80538",
+            "similitud": 1.0,
+            "origen_recuperacion": "titulo_numero"
+          },
+          {
+            "id": "articulo_4",
+            "articulo": "4",
+            "titulo": "Autonomía del acto y del procedimiento de Policía",
+            "texto": "ARTÍCULO 4. Autonomía del acto y del procedimiento de Policía. Las disposiciones de la Parte Primera del Código de Procedimiento Administrativo y de lo Contencioso Administrativo no se aplicarán al acto de Policía ni a los procedimientos de Policía, que por su misma naturaleza preventiva requieren decisiones de aplicación inmediata, eficaz, oportuna y diligente, para conservar el fin superior de la convivencia, de conformidad con las normas vigentes y el artículo 2 de la Ley 1437 de 2011. Por su parte las disposiciones de la parte segunda de la Ley 1437 de 2011 se aplicarán a la decisión final de las autoridades de Policía en el proceso único de Policía, con excepción de aquellas de que trata el numeral 3 del artículo 105 de la ley en mención. CAPÍTULO II BASES DE LA CONVIVENCIA Y SEGURIDAD CIUDADANA",
+            "fuente": "Ley 1801 de 2016",
+            "url_fuente": "https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=80538",
+            "similitud": 1.0,
+            "origen_recuperacion": "titulo_numero"
+          },
+          {
+            "id": "articulo_173_fragmento_1",
+            "articulo": "173",
+            "titulo": "Las medidas correctivas",
+            "texto": "ARTÍCULO 173. Las medidas correctivas. Las medidas correctivas a aplicar en el marco de este Código por las autoridades de policía, son las siguientes: 1. Amonestación, 2. Participación en programa comunitario o actividad pedagógica de convivencia. 3. Disolución de reunión o actividad que involucra aglomeraciones de público no complejas. 4. Expulsión de domicilio. 5. Prohibición de ingreso a actividad que involucra aglomeraciones de público complejas o no complejas 6. Decomiso. 7. Multa General o Especial. 8. Construcción,",
+            "fuente": "Ley 1801 de 2016",
+            "url_fuente": "https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=80538",
+            "similitud": 0.7730329036712646,
+            "posicion_faiss": 656
+          },
+          {
+            "id": "articulo_16_fragmento_1",
+            "articulo": "16",
+            "titulo": "Función de Policía",
+            "texto": "ARTÍCULO 16. Función de Policía. Consiste en la facultad de hacer cumplir las disposiciones dictadas en ejercicio del poder de Policía, mediante la expedición de reglamentos generales y de acciones apropiadas para garantizar la convivencia. Esta función se cumple por medio de órdenes de Policía.",
+            "fuente": "Ley 1801 de 2016",
+            "url_fuente": "https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=80538",
+            "similitud": 0.7532419562339783,
+            "posicion_faiss": 33
+          },
+          {
+            "id": "articulo_236_fragmento_2",
+            "articulo": "236",
+            "titulo": "Programa de educación y promoción del Código",
+            "texto": "trascendentales de esta ley. Así mismo deberá adelantar jornadas de capacitación y formación del nuevo Código de Policía y Convivencia a las autoridades de policía, a partir de su promulgación. De igual forma, a través del Ministerio de Educación, desarrollará programas para el fomento de competencias que fortalezcan la cultura ciudadana y la convivencia así como el respeto por las normas y las autoridades, en concordancia con los lineamientos definidos en la Ley 1013 de 2006 y la Ley 1732 de 2014. Estos programas serán implementados por las Instituciones",
+            "fuente": "Ley 1801 de 2016",
+            "url_fuente": "https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=80538",
+            "similitud": 0.7492308616638184,
+            "posicion_faiss": 849
+          },
+          {
+            "id": "articulo_238_fragmento_1",
+            "articulo": "238",
+            "titulo": "Reglamentación",
+            "texto": "ARTÍCULO 238. Reglamentación. El presente Código rige en todo el territorio nacional y se complementa con los reglamentos de Policía expedidos por las autoridades competentes, de conformidad con la Constitución Política y la ley. Las disposiciones de la presente ley, prevalecen sobre cualquier reglamento de Policía.",
+            "fuente": "Ley 1801 de 2016",
+            "url_fuente": "https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=80538",
+            "similitud": 0.7443740367889404,
+            "posicion_faiss": 855
+          },
+          {
+            "id": "articulo_205_fragmento_6",
+            "articulo": "205",
+            "titulo": "Atribuciones del alcalde",
+            "texto": "mediante Sentencia de la Corte Constitucional C-281 de 2017) 13. Tener en la planta de personal de la administración distrital o municipal, los cargos de inspectores y corregidores de Policía necesarios para la aplicación de este Código. 14. Resolver el recurso de apelación de las decisiones tomadas por las autoridades de Policía, en primera instancia, cuando procedan, siempre que no sean de competencia de las autoridades especiales de Policía. 15. Conocer de los asuntos a él atribuidos en este Código y en la ley, las ordenanzas y los acuerdos.",
+            "fuente": "Ley 1801 de 2016",
+            "url_fuente": "https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=80538",
+            "similitud": 0.7320802211761475,
+            "posicion_faiss": 756
+          }
+        ],
+        "resultados_estructurados_135": [
+          {
+            "id": "articulo_135_numeral_15",
+            "articulo": "135",
+            "numeral": "15",
+            "seccion": "D",
+            "comportamiento": "Instalar protecciones o elementos especiales en los frentes y costados de la obra y señalización, semáforos o luces nocturnas para la seguridad de quienes se movilizan por el lugar y evitar accidentes o incomodidades.",
+            "medida_correctiva": "Suspensión de construcción o demolición.",
+            "nota_normativa": null,
+            "fuente": "Ley 1801 de 2016",
+            "url_fuente": "https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=80538",
+            "similitud": 0.4690845012664795,
+            "tipo_representacion": "descripcion_principal"
+          },
+          {
+            "id": "articulo_135_numeral_1",
+            "articulo": "135",
+            "numeral": "1",
+            "seccion": "A",
+            "comportamiento": "En áreas protegidas o afectadas por el plan vial o de infraestructura de servicios públicos domiciliarios, y las destinadas a equipamientos públicos.",
+            "medida_correctiva": "Multa especial por infracción urbanística; Demolición de obra; Construcción, cerramiento, reparación o mantenimiento de inmueble; Remoción de bienes.",
+            "nota_normativa": null,
+            "fuente": "Ley 1801 de 2016",
+            "url_fuente": "https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=80538",
+            "similitud": 0.45086532831192017,
+            "tipo_representacion": "descripcion_principal"
+          },
+          {
+            "id": "articulo_135_numeral_2",
+            "articulo": "135",
+            "numeral": "2",
+            "seccion": "A",
+            "comportamiento": "Con desconocimiento a lo preceptuado en la licencia.",
+            "medida_correctiva": "Multa especial por infracción urbanística; Demolición de obra; Construcción, cerramiento, reparación o mantenimiento de inmueble; Remoción de bienes.",
+            "nota_normativa": null,
+            "fuente": "Ley 1801 de 2016",
+            "url_fuente": "https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=80538",
+            "similitud": 0.4335364103317261,
+            "tipo_representacion": "descripcion_principal"
+          },
+          {
+            "id": "articulo_135_numeral_19",
+            "articulo": "135",
+            "numeral": "19",
+            "seccion": "D",
+            "comportamiento": "Exigir a quienes trabajan y visitan la obra, el uso de cascos e implementos de seguridad industrial y contar con el equipo necesario para prevenir y controlar incendios o atender emergencias de acuerdo con esta ley.",
+            "medida_correctiva": "Suspensión de construcción o demolición.",
+            "nota_normativa": null,
+            "fuente": "Ley 1801 de 2016",
+            "url_fuente": "https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=80538",
+            "similitud": 0.4134080708026886,
+            "tipo_representacion": "descripcion_principal"
+          },
+          {
+            "id": "articulo_135_numeral_21",
+            "articulo": "135",
+            "numeral": "21",
+            "seccion": "D",
+            "comportamiento": "Aislar completamente las obras de construcción que se desarrollen aledañas a canales o fuentes de agua, para evitar la contaminación del agua con materiales e implementar las acciones de prevención y mitigación que disponga la autoridad ambiental respectiva",
+            "medida_correctiva": "Suspensión de construcción o demolición.",
+            "nota_normativa": null,
+            "fuente": "Ley 1801 de 2016",
+            "url_fuente": "https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=80538",
+            "similitud": 0.4127635955810547,
+            "tipo_representacion": "descripcion_principal"
+          }
+        ],
+        "total_generales": 8,
+        "total_estructurados": 5
+      },
+      "fecha_captura_utc": "2026-11-12T21:46:46.455231+00:00"
     },
     {
       "id": "RAG-003",
@@ -96,17 +408,133 @@
       ],
       "respuesta_referencia": "El artículo 33 contempla como comportamiento contrario a la convivencia perturbar la tranquilidad del vecindario mediante sonidos, ruidos de fiestas, reuniones, dispositivos o maquinaria. Las autoridades pueden desactivar temporalmente las fuentes de ruido en las condiciones previstas por la norma. Para el numeral 1 contempla multa general tipo 3 y disolución de reuniones o actividades que involucren aglomeraciones de público no complejas.",
       "estado_revision_referencia": "pendiente_revision",
-      "respuesta_generada": null,
-      "respuesta_visible": null,
-      "modelo": null,
-      "estado_validacion_documental": null,
+      "respuesta_generada": "La Ley 1801 de 2016 (Código Nacional de Seguridad y Convivencia Ciudadana) establece disposiciones específicas sobre los ruidos que afectan la tranquilidad, diferenciando si el comportamiento ocurre en el ámbito residencial o en el marco de una actividad económica.\n\n### 1. Ruidos en el vecindario o lugar de habitación\nEl **Artículo 33, numeral 1**, señala que afectan la tranquilidad y no deben realizarse los siguientes comportamientos:\n*   **Literal a:** Producir sonidos o ruidos en actividades, fiestas, reuniones o eventos similares que afecten la convivencia del vecindario por su impacto auditivo. En este caso, las autoridades de Policía pueden desactivar temporalmente la fuente del ruido si el residente se niega a hacerlo voluntariamente.\n*   **Literal b:** Utilizar cualquier medio, dispositivo, accesorio o maquinaria que produzca ruidos desde bienes muebles o inmuebles. Las autoridades pueden identificar, registrar y desactivar temporalmente la fuente del ruido (excepto cuando se originen en construcciones o reparaciones en horas permitidas).\n*   **Literal c:** Realizar actividades diferentes a las anteriores, en vía pública o en privado, cuando trasciendan a lo público y perturben la tranquilidad de las personas.\n\n**Medida correctiva:** Para el numeral 1 del artículo 33, la medida prevista es **Multa General tipo 3**.\n\n### 2. Ruidos en actividades económicas\nEl **Artículo 93, numeral 3**, establece que es un comportamiento que afecta la seguridad y tranquilidad el \"generar ruidos o sonidos que afecten la tranquilidad de las personas o su entorno\" en el desarrollo de una actividad económica.\n\n**Medida correctiva:** Para este comportamiento, la medida prevista es la **Suspensión temporal de actividad**.\n\n---\n\n### Consideraciones importantes\n*   **Alcance:** La aplicación de estas medidas depende de la verificación de los hechos por parte de la autoridad de Policía en el lugar y momento de la ocurrencia.\n*   **Vigencia:** La información presentada proviene de la Ley 1801 de 2016. Se advierte que este documento no constituye una asesoría jurídica y que la vigencia, modificaciones o interpretaciones judiciales (como las sentencias de la Corte Constitucional mencionadas en el contexto) deben ser verificadas, ya que pueden afectar la aplicación de las normas.\n*   **Fuente:** Ley 1801 de 2016. [https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=80538](https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=80538)\n\n*Nota: Esta respuesta se limita estrictamente a la información contenida en el contexto suministrado. Si requiere una interpretación sobre un caso particular o la aplicación de procedimientos específicos, se recomienda consultar con un profesional del derecho.*",
+      "respuesta_visible": "No puedo ofrecer una respuesta jurídica suficientemente verificada con la información procesada. Se detectaron posibles inconsistencias que requieren revisión de las disposiciones legales citadas. Consulte la fuente normativa oficial o una autoridad competente antes de actuar.",
+      "modelo": "gemini-3.1-flash-lite",
+      "estado_validacion_documental": "PENDIENTE_VALIDACION",
       "advertencias_documentales": [],
       "articulos_citados": [],
       "exactitud": null,
       "fidelidad_contexto": null,
       "correccion_citas": null,
       "observaciones": "",
-      "estado_evaluacion": "pendiente"
+      "estado_evaluacion": "pendiente_revision_humana",
+      "contexto_utilizado": "CONTEXTO JURÍDICO RECUPERADO\nLos siguientes textos proceden del corpus documental. No se ha verificado su vigencia normativa actual.\n\n=== CONTEXTO GENERAL CON SUSTITUCIÓN 223A ===\n\n[GENERAL CONSERVADO 1]\nArtículo: 33\nTexto: ARTÍCULO 33. Comportamientos que afectan la -tranquilidad y relaciones respetuosas de las personas. Los siguientes comportamientos afectan la tranquilidad y relaciones respetuosas de las personas y por lo tanto no deben efectuarse: 1. En el vecindario o lugar de habitación urbana o rural: Perturbar o permitir que se afecte el sosiego con: a) Sonidos o ruidos en actividades, fiestas, reuniones o eventos similares que afecten la convivencia del vecindario, cuando generen molestia por su impacto auditivo, en cuyo caso podrán las autoridades de Policía desactivar temporalmente la fuente del ruido, en caso de que el residente se niegue a desactivarlo; ((Declarado EXEQUIBLE, con excepción de la expresion subrayada, que fue declarada condicionalmente exequible, mediante Sentencia de la Corte Constitucional C-308 de 2019) b) Cualquier medio de producción de sonidos o dispositivos o accesorios o maquinaria que produzcan ruidos, desde bienes muebles o inmuebles, en cuyo caso podrán las autoridades identificar, registrar y desactivar temporalmente la fuente del ruido, salvo sean originados en construcciones o reparaciones en horas permitidas; (Declarado condicionalmente exequible, mediante Sentencia de la Corte Constitucional C-308 de 2019) c) Actividades diferentes a las aquí señaladas en vía pública o en privado, cuando trascienda a lo público, y perturben o afecten la tranquilidad de las personas. 2. En espacio público, lugares abiertos al público, o que siendo privados trasciendan a lo público: a) Irrespetar las normas propias de los lugares públicos tales como salas de velación, cementerios, clínicas, hospitales, bibliotecas y museos, entre otros. b) Realizar actos sexuales o de exhibicionismo que generen molestia a la comunidad. c) Consumir sustancias alcohólicas, psicoactivas o prohibidas, no autorizados para su consumo. (Declarado INEXEQUIBLE, expresión subrayada, mediante Sentencia de la Corte Consitucional C-253 de 2019) d) Fumar en lugares prohibidos. e) Limitar u obstruir las manifestaciones de afecto y cariño que no configuren actos sexuales o de exhibicionismo en razón a la raza, origen nacional o familiar, orientación sexual, identidad de género u otra condición similar. PARÁGRAFO 1. Quien incurra en uno o más de los comportamientos antes señalados, será objeto de la aplicación de las siguientes medidas correctivas: COMPORTAMIENTOS MEDIDA CORRECTIVA A APLICAR Numeral 1 Multa General tipo 3; Disolución de reunión o actividad que involucra aglomeraciones de público no complejas. Numeral 2, literal a Multa General tipo 3 Numeral 2, literal b Multa General tipo 3 Numeral 2, literal c Multa General tipo 2; Disolución de reunión o actividad que involucra aglomeraciones de público no complejas. Numeral 2, literal d Amonestación. Numeral 2, literal e Multa general tipo 1. PARÁGRAFO 2. No constituyen actos sexuales o de exhibicionismo los besos o caricias que las personas, sin importar su género, color de piel, orientación sexual o identidad de género, manifiesten como expresiones de cariño, en ejercicio de su derecho al libre desarrollo de la personalidad.” (Corregido por el Art. 2 del Decreto 555 de 2017) CAPÍTULO II DE LOS ESTABLECIMIENTOS EDUCATIVOS\nFuente: Ley 1801 de 2016\nURL: https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=80538\n\n[GENERAL CONSERVADO 2]\nArtículo: 93\nTexto: ARTÍCULO 93. Comportamientos relacionados con la seguridad y tranquilidad que afectan la actividad económica. Los siguientes comportamientos relacionados con la seguridad y tranquilidad afectan la actividad económica y por lo tanto no deben realizarse: 1. No informar los protocolos de seguridad y evacuación en caso de emergencias a las personas que se encuentren en el lugar. 2. Auspiciar riñas o incurrir en confrontaciones violentas que puedan derivar en agresiones físicas o escándalos. 3. Generar ruidos o sonidos que afecten la tranquilidad de las personas o su entorno. 4. Incumplir los protocolos de seguridad exigidos para el desarrollo de la actividad económica y el funcionamiento del establecimiento. 5. Omitir la instalación de mecanismos técnicos de bloqueo por medio de los cuales los usuarios se puedan proteger de material pornográfico, ilegal, ofensivo o indeseable en relación con niños, niñas y adolescentes en establecimientos abiertos al público. 6. Permitir o tolerar el ingreso o permanencia al establecimiento abierto al público, de personas que porten armas. 7. No fijar la señalización de los protocolos de seguridad en un lugar visible. 8. No permitir el ingreso de las autoridades de Policía en ejercicio de su función o actividad. 9. Mantener dentro del establecimiento, mercancías peligrosas, que no sean necesarios para su funcionamiento. 10. Comercializar, facilitar, almacenar, prestar, empeñar, guardar, tener o poseer elementos, sustancias o bienes de procedencia ilícita. 11. Almacenar, tener, comercializar y poseer mercancías, sin demostrar su lícita procedencia. 12. Engañar a las autoridades de Policía para evadir el cumplimiento de la normatividad vigente. 13. Utilizar, permitir, patrocinar, tolerar o practicar el pregoneo o actos similares en actividades de alto impacto que impidan la libre movilidad y escogencia del consumidor, en poblaciones superiores a cien mil (100.000) habitantes. 14. Limitar o vetar el acceso a lugares abiertos al público o eventos públicos a personas en razón de su raza, sexo, orientación sexual, identidad de género, condición social o económica, en situación de discapacidad o por otros motivos de discriminación similar. PARÁGRAFO 1. En los comportamientos señalados en el numeral 5, se aplicarán las medidas correctivas y se pondrá en conocimiento de manera inmediata a la autoridad competente para aplicar lo establecido en las Leyes 679 de 2001, 1236 de 2008, 1329 de 2009 y las normas que las adicionen o modifiquen. PARÁGRAFO 2. Quien incurra en uno o más de los comportamientos antes señalados, será objeto de la aplicación de las siguientes medidas: COMPORTAMIENTOSMEDIDA CORRECTIVA AAPLICAR Numeral 1 Multa General Tipo 1 Numeral 2 Suspensión temporal de actividad. Numeral 3 Suspensión temporal de actividad. Numeral 4 Suspensión temporal de actividad. Numeral 5 Suspensión temporal de actividad. Numeral 6 Suspensión temporal de actividad; Decomiso. Numeral 7 Multa General Tipo 1. Numeral 8 Suspensión temporal de actividad. Numeral 9 Multa General Tipo 4; Destrucción de bien. Numeral 10 Multa General Tipo 4; Destrucción de bien; suspensión temporal de actividad. Numeral 11 Multa General Tipo 4; Destrucción de bien; suspensión temporal de actividad. Numeral 12 Multa General Tipo 4; Suspensión temporal de actividad. Numeral 13 Multa General Tipo 4; Suspensión temporal de actividad. Numeral 14 Multa General Tipo 4 PARÁGRAFO 3. Se mantendrá la aplicación de las medidas correctivas si se continúa desarrollando en el lugar la misma actividad económica que dio lugar a su imposición, aun cuando se cambie la nomenclatura, el nombre del establecimiento, su razón social, propietario, poseedor o tenedor del mismo. PARÁGRAFO 4. Las medidas correctivas mencionadas para el incumplimiento de los anteriores comportamientos, se aplicarán, sin perjuicio de lo establecido en la legislación especial que regula esas materias. PARÁGRAFO 5. Cuando se aplique la medida de suspensión temporal de actividad porque el responsable del establecimiento no permitió el ingreso de autoridades de Policía, la medida se extenderá hasta tanto se autorice el ingreso de la autoridad que en ejercicio de su función o actividad de Policía, requiera hacerlo. PARÁGRAFO 6. Quien en el término de un año contado a partir de la aplicación de la medida incurra nuevamente en alguno de los comportamientos prohibidos en el presente artículo que dan lugar a la medida de suspensión temporal de actividad, será objeto de suspensión definitiva de la actividad.\nFuente: Ley 1801 de 2016\nURL: https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=80538\n\n[GENERAL CONSERVADO 3]\nArtículo: 28\nTexto: ARTÍCULO 28. Comportamientos que afectan la seguridad y bienes en relación con los servicios públicos. Los siguientes comportamientos que afectan la seguridad de las personas y la de sus bienes y por lo tanto no deben realizarse al hacer uso de los servicios públicos: 1. Poner en riesgo a personas o bienes durante la instalación, utilización, mantenimiento o modificación de las estructuras de los servicios públicos. 2. Modificar o alterar redes o instalaciones de servicios públicos. 3. Arrojar en las redes de alcantarillado, acueducto y de aguas lluvias, cualquier objeto, sustancia, residuo, escombros, lodo, combustibles o lubricantes, que alteren u obstruyan el normal funcionamiento. 4. No reparar oportunamente los daños ocasionados a la infraestructura de servicios públicos domiciliarios, cuando estas reparaciones corresponden al usuario. PARÁGRAFO . Quien incurra en uno o más de los comportamientos antes señalados, será objeto de la aplicación de las siguientes medidas correctivas: COMPORTAMIENTOSMEDIDA CORRECTIVA A APLICAR Numeral 1 Multa General tipo 3; Remoción de bienes, Destrucción de bien. Numeral 2 Multa General tipo 3; Reparación de daños materiales de muebles o inmuebles. Numeral 3 Multa General tipo 4 Numeral 4 Multa General Tipo 3; Reparación de daños materiales de muebles o inmuebles CAPÍTULO III ARTÍCULOS PIROTÉCNICOS Y SUSTANCIAS PELIGROSAS\nFuente: Ley 1801 de 2016\nURL: https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=80538\n\n[GENERAL CONSERVADO 4]\nArtículo: 5\nTexto: ARTÍCULO 5. Definición. Para los efectos de este Código, se entiende por convivencia, la interacción pacífica, respetuosa y armónica entre las personas, con los bienes, y con el ambiente, en el marco del ordenamiento jurídico.\nFuente: Ley 1801 de 2016\nURL: https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=80538\n\n=== REGISTROS ESTRUCTURADOS ===\n\n[ESTRUCTURADO 1]\nArtículo: 135\nNumeral: 15\nSección: D\nComportamiento: Instalar protecciones o elementos especiales en los frentes y costados de la obra y señalización, semáforos o luces nocturnas para la seguridad de quienes se movilizan por el lugar y evitar accidentes o incomodidades.\nMedidas correctivas registradas: Suspensión de construcción o demolición.\nNota normativa: No registrada\nFuente: Ley 1801 de 2016\nURL: https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=80538\n\n[ESTRUCTURADO 2]\nArtículo: 135\nNumeral: 16\nSección: D\nComportamiento: Limpiar las llantas de los vehículos que salen de la obra para evitar que se arroje barro o cemento en el espacio público.\nMedidas correctivas registradas: Suspensión de construcción o demolición.\nNota normativa: No registrada\nFuente: Ley 1801 de 2016\nURL: https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=80538\n\n[ESTRUCTURADO 3]\nArtículo: 135\nNumeral: 1\nSección: A\nComportamiento: En áreas protegidas o afectadas por el plan vial o de infraestructura de servicios públicos domiciliarios, y las destinadas a equipamientos públicos.\nMedidas correctivas registradas: Multa especial por infracción urbanística; Demolición de obra; Construcción, cerramiento, reparación o mantenimiento de inmueble; Remoción de bienes.\nNota normativa: No registrada\nFuente: Ley 1801 de 2016\nURL: https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=80538\n\n[ESTRUCTURADO 4]\nArtículo: 135\nNumeral: 12\nSección: C\nComportamiento: Facilitar, en cualquier clase de inmueble, el desarrollo de usos o destinaciones del suelo no autorizados en licencia de construcción o con desconocimiento de las normas urbanísticas sobre usos específicos.\nMedidas correctivas registradas: Multa especial por infracción urbanística; Demolición de obra; Construcción, cerramiento, reparación o mantenimiento de inmueble.\nNota normativa: No registrada\nFuente: Ley 1801 de 2016\nURL: https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=80538\n\n[ESTRUCTURADO 5]\nArtículo: 135\nNumeral: 21\nSección: D\nComportamiento: Aislar completamente las obras de construcción que se desarrollen aledañas a canales o fuentes de agua, para evitar la contaminación del agua con materiales e implementar las acciones de prevención y mitigación que disponga la autoridad ambiental respectiva\nMedidas correctivas registradas: Suspensión de construcción o demolición.\nNota normativa: No registrada\nFuente: Ley 1801 de 2016\nURL: https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=80538\n\nFIN DEL CONTEXTO JURÍDICO RECUPERADO",
+      "resultados_recuperados": {
+        "pregunta": "¿Qué establece el Código sobre los ruidos que afectan la tranquilidad de los vecinos?",
+        "resultados_generales": [
+          {
+            "id": "articulo_33",
+            "articulo": "33",
+            "titulo": "Comportamientos que afectan la -tranquilidad y relaciones respetuosas de las personas",
+            "texto": "ARTÍCULO 33. Comportamientos que afectan la -tranquilidad y relaciones respetuosas de las personas. Los siguientes comportamientos afectan la tranquilidad y relaciones respetuosas de las personas y por lo tanto no deben efectuarse: 1. En el vecindario o lugar de habitación urbana o rural: Perturbar o permitir que se afecte el sosiego con: a) Sonidos o ruidos en actividades, fiestas, reuniones o eventos similares que afecten la convivencia del vecindario, cuando generen molestia por su impacto auditivo, en cuyo caso podrán las autoridades de Policía desactivar temporalmente la fuente del ruido, en caso de que el residente se niegue a desactivarlo; ((Declarado EXEQUIBLE, con excepción de la expresion subrayada, que fue declarada condicionalmente exequible, mediante Sentencia de la Corte Constitucional C-308 de 2019) b) Cualquier medio de producción de sonidos o dispositivos o accesorios o maquinaria que produzcan ruidos, desde bienes muebles o inmuebles, en cuyo caso podrán las autoridades identificar, registrar y desactivar temporalmente la fuente del ruido, salvo sean originados en construcciones o reparaciones en horas permitidas; (Declarado condicionalmente exequible, mediante Sentencia de la Corte Constitucional C-308 de 2019) c) Actividades diferentes a las aquí señaladas en vía pública o en privado, cuando trascienda a lo público, y perturben o afecten la tranquilidad de las personas. 2. En espacio público, lugares abiertos al público, o que siendo privados trasciendan a lo público: a) Irrespetar las normas propias de los lugares públicos tales como salas de velación, cementerios, clínicas, hospitales, bibliotecas y museos, entre otros. b) Realizar actos sexuales o de exhibicionismo que generen molestia a la comunidad. c) Consumir sustancias alcohólicas, psicoactivas o prohibidas, no autorizados para su consumo. (Declarado INEXEQUIBLE, expresión subrayada, mediante Sentencia de la Corte Consitucional C-253 de 2019) d) Fumar en lugares prohibidos. e) Limitar u obstruir las manifestaciones de afecto y cariño que no configuren actos sexuales o de exhibicionismo en razón a la raza, origen nacional o familiar, orientación sexual, identidad de género u otra condición similar. PARÁGRAFO 1. Quien incurra en uno o más de los comportamientos antes señalados, será objeto de la aplicación de las siguientes medidas correctivas: COMPORTAMIENTOS MEDIDA CORRECTIVA A APLICAR Numeral 1 Multa General tipo 3; Disolución de reunión o actividad que involucra aglomeraciones de público no complejas. Numeral 2, literal a Multa General tipo 3 Numeral 2, literal b Multa General tipo 3 Numeral 2, literal c Multa General tipo 2; Disolución de reunión o actividad que involucra aglomeraciones de público no complejas. Numeral 2, literal d Amonestación. Numeral 2, literal e Multa general tipo 1. PARÁGRAFO 2. No constituyen actos sexuales o de exhibicionismo los besos o caricias que las personas, sin importar su género, color de piel, orientación sexual o identidad de género, manifiesten como expresiones de cariño, en ejercicio de su derecho al libre desarrollo de la personalidad.” (Corregido por el Art. 2 del Decreto 555 de 2017) CAPÍTULO II DE LOS ESTABLECIMIENTOS EDUCATIVOS",
+            "fuente": "Ley 1801 de 2016",
+            "url_fuente": "https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=80538",
+            "similitud": 1.0,
+            "origen_recuperacion": "titulo_numero"
+          },
+          {
+            "id": "articulo_93",
+            "articulo": "93",
+            "titulo": "Comportamientos relacionados con la seguridad y tranquilidad que afectan la actividad económica",
+            "texto": "ARTÍCULO 93. Comportamientos relacionados con la seguridad y tranquilidad que afectan la actividad económica. Los siguientes comportamientos relacionados con la seguridad y tranquilidad afectan la actividad económica y por lo tanto no deben realizarse: 1. No informar los protocolos de seguridad y evacuación en caso de emergencias a las personas que se encuentren en el lugar. 2. Auspiciar riñas o incurrir en confrontaciones violentas que puedan derivar en agresiones físicas o escándalos. 3. Generar ruidos o sonidos que afecten la tranquilidad de las personas o su entorno. 4. Incumplir los protocolos de seguridad exigidos para el desarrollo de la actividad económica y el funcionamiento del establecimiento. 5. Omitir la instalación de mecanismos técnicos de bloqueo por medio de los cuales los usuarios se puedan proteger de material pornográfico, ilegal, ofensivo o indeseable en relación con niños, niñas y adolescentes en establecimientos abiertos al público. 6. Permitir o tolerar el ingreso o permanencia al establecimiento abierto al público, de personas que porten armas. 7. No fijar la señalización de los protocolos de seguridad en un lugar visible. 8. No permitir el ingreso de las autoridades de Policía en ejercicio de su función o actividad. 9. Mantener dentro del establecimiento, mercancías peligrosas, que no sean necesarios para su funcionamiento. 10. Comercializar, facilitar, almacenar, prestar, empeñar, guardar, tener o poseer elementos, sustancias o bienes de procedencia ilícita. 11. Almacenar, tener, comercializar y poseer mercancías, sin demostrar su lícita procedencia. 12. Engañar a las autoridades de Policía para evadir el cumplimiento de la normatividad vigente. 13. Utilizar, permitir, patrocinar, tolerar o practicar el pregoneo o actos similares en actividades de alto impacto que impidan la libre movilidad y escogencia del consumidor, en poblaciones superiores a cien mil (100.000) habitantes. 14. Limitar o vetar el acceso a lugares abiertos al público o eventos públicos a personas en razón de su raza, sexo, orientación sexual, identidad de género, condición social o económica, en situación de discapacidad o por otros motivos de discriminación similar. PARÁGRAFO 1. En los comportamientos señalados en el numeral 5, se aplicarán las medidas correctivas y se pondrá en conocimiento de manera inmediata a la autoridad competente para aplicar lo establecido en las Leyes 679 de 2001, 1236 de 2008, 1329 de 2009 y las normas que las adicionen o modifiquen. PARÁGRAFO 2. Quien incurra en uno o más de los comportamientos antes señalados, será objeto de la aplicación de las siguientes medidas: COMPORTAMIENTOSMEDIDA CORRECTIVA AAPLICAR Numeral 1 Multa General Tipo 1 Numeral 2 Suspensión temporal de actividad. Numeral 3 Suspensión temporal de actividad. Numeral 4 Suspensión temporal de actividad. Numeral 5 Suspensión temporal de actividad. Numeral 6 Suspensión temporal de actividad; Decomiso. Numeral 7 Multa General Tipo 1. Numeral 8 Suspensión temporal de actividad. Numeral 9 Multa General Tipo 4; Destrucción de bien. Numeral 10 Multa General Tipo 4; Destrucción de bien; suspensión temporal de actividad. Numeral 11 Multa General Tipo 4; Destrucción de bien; suspensión temporal de actividad. Numeral 12 Multa General Tipo 4; Suspensión temporal de actividad. Numeral 13 Multa General Tipo 4; Suspensión temporal de actividad. Numeral 14 Multa General Tipo 4 PARÁGRAFO 3. Se mantendrá la aplicación de las medidas correctivas si se continúa desarrollando en el lugar la misma actividad económica que dio lugar a su imposición, aun cuando se cambie la nomenclatura, el nombre del establecimiento, su razón social, propietario, poseedor o tenedor del mismo. PARÁGRAFO 4. Las medidas correctivas mencionadas para el incumplimiento de los anteriores comportamientos, se aplicarán, sin perjuicio de lo establecido en la legislación especial que regula esas materias. PARÁGRAFO 5. Cuando se aplique la medida de suspensión temporal de actividad porque el responsable del establecimiento no permitió el ingreso de autoridades de Policía, la medida se extenderá hasta tanto se autorice el ingreso de la autoridad que en ejercicio de su función o actividad de Policía, requiera hacerlo. PARÁGRAFO 6. Quien en el término de un año contado a partir de la aplicación de la medida incurra nuevamente en alguno de los comportamientos prohibidos en el presente artículo que dan lugar a la medida de suspensión temporal de actividad, será objeto de suspensión definitiva de la actividad.",
+            "fuente": "Ley 1801 de 2016",
+            "url_fuente": "https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=80538",
+            "similitud": 1.0,
+            "origen_recuperacion": "titulo_numero"
+          },
+          {
+            "id": "articulo_28",
+            "articulo": "28",
+            "titulo": "Comportamientos que afectan la seguridad y bienes en relación con los servicios públicos",
+            "texto": "ARTÍCULO 28. Comportamientos que afectan la seguridad y bienes en relación con los servicios públicos. Los siguientes comportamientos que afectan la seguridad de las personas y la de sus bienes y por lo tanto no deben realizarse al hacer uso de los servicios públicos: 1. Poner en riesgo a personas o bienes durante la instalación, utilización, mantenimiento o modificación de las estructuras de los servicios públicos. 2. Modificar o alterar redes o instalaciones de servicios públicos. 3. Arrojar en las redes de alcantarillado, acueducto y de aguas lluvias, cualquier objeto, sustancia, residuo, escombros, lodo, combustibles o lubricantes, que alteren u obstruyan el normal funcionamiento. 4. No reparar oportunamente los daños ocasionados a la infraestructura de servicios públicos domiciliarios, cuando estas reparaciones corresponden al usuario. PARÁGRAFO . Quien incurra en uno o más de los comportamientos antes señalados, será objeto de la aplicación de las siguientes medidas correctivas: COMPORTAMIENTOSMEDIDA CORRECTIVA A APLICAR Numeral 1 Multa General tipo 3; Remoción de bienes, Destrucción de bien. Numeral 2 Multa General tipo 3; Reparación de daños materiales de muebles o inmuebles. Numeral 3 Multa General tipo 4 Numeral 4 Multa General Tipo 3; Reparación de daños materiales de muebles o inmuebles CAPÍTULO III ARTÍCULOS PIROTÉCNICOS Y SUSTANCIAS PELIGROSAS",
+            "fuente": "Ley 1801 de 2016",
+            "url_fuente": "https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=80538",
+            "similitud": 1.0,
+            "origen_recuperacion": "titulo_numero"
+          },
+          {
+            "id": "articulo_5_fragmento_1",
+            "articulo": "5",
+            "titulo": "Definición",
+            "texto": "ARTÍCULO 5. Definición. Para los efectos de este Código, se entiende por convivencia, la interacción pacífica, respetuosa y armónica entre las personas, con los bienes, y con el ambiente, en el marco del ordenamiento jurídico.",
+            "fuente": "Ley 1801 de 2016",
+            "url_fuente": "https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=80538",
+            "similitud": 0.529055118560791,
+            "posicion_faiss": 7
+          }
+        ],
+        "resultados_estructurados_135": [
+          {
+            "id": "articulo_135_numeral_15",
+            "articulo": "135",
+            "numeral": "15",
+            "seccion": "D",
+            "comportamiento": "Instalar protecciones o elementos especiales en los frentes y costados de la obra y señalización, semáforos o luces nocturnas para la seguridad de quienes se movilizan por el lugar y evitar accidentes o incomodidades.",
+            "medida_correctiva": "Suspensión de construcción o demolición.",
+            "nota_normativa": null,
+            "fuente": "Ley 1801 de 2016",
+            "url_fuente": "https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=80538",
+            "similitud": 0.42940232157707214,
+            "tipo_representacion": "descripcion_principal"
+          },
+          {
+            "id": "articulo_135_numeral_16",
+            "articulo": "135",
+            "numeral": "16",
+            "seccion": "D",
+            "comportamiento": "Limpiar las llantas de los vehículos que salen de la obra para evitar que se arroje barro o cemento en el espacio público.",
+            "medida_correctiva": "Suspensión de construcción o demolición.",
+            "nota_normativa": null,
+            "fuente": "Ley 1801 de 2016",
+            "url_fuente": "https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=80538",
+            "similitud": 0.36512935161590576,
+            "tipo_representacion": "descripcion_principal"
+          },
+          {
+            "id": "articulo_135_numeral_1",
+            "articulo": "135",
+            "numeral": "1",
+            "seccion": "A",
+            "comportamiento": "En áreas protegidas o afectadas por el plan vial o de infraestructura de servicios públicos domiciliarios, y las destinadas a equipamientos públicos.",
+            "medida_correctiva": "Multa especial por infracción urbanística; Demolición de obra; Construcción, cerramiento, reparación o mantenimiento de inmueble; Remoción de bienes.",
+            "nota_normativa": null,
+            "fuente": "Ley 1801 de 2016",
+            "url_fuente": "https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=80538",
+            "similitud": 0.35556453466415405,
+            "tipo_representacion": "descripcion_principal"
+          },
+          {
+            "id": "articulo_135_numeral_12",
+            "articulo": "135",
+            "numeral": "12",
+            "seccion": "C",
+            "comportamiento": "Facilitar, en cualquier clase de inmueble, el desarrollo de usos o destinaciones del suelo no autorizados en licencia de construcción o con desconocimiento de las normas urbanísticas sobre usos específicos.",
+            "medida_correctiva": "Multa especial por infracción urbanística; Demolición de obra; Construcción, cerramiento, reparación o mantenimiento de inmueble.",
+            "nota_normativa": null,
+            "fuente": "Ley 1801 de 2016",
+            "url_fuente": "https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=80538",
+            "similitud": 0.34622153639793396,
+            "tipo_representacion": "descripcion_principal"
+          },
+          {
+            "id": "articulo_135_numeral_21",
+            "articulo": "135",
+            "numeral": "21",
+            "seccion": "D",
+            "comportamiento": "Aislar completamente las obras de construcción que se desarrollen aledañas a canales o fuentes de agua, para evitar la contaminación del agua con materiales e implementar las acciones de prevención y mitigación que disponga la autoridad ambiental respectiva",
+            "medida_correctiva": "Suspensión de construcción o demolición.",
+            "nota_normativa": null,
+            "fuente": "Ley 1801 de 2016",
+            "url_fuente": "https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=80538",
+            "similitud": 0.33734405040740967,
+            "tipo_representacion": "descripcion_principal"
+          }
+        ],
+        "total_generales": 4,
+        "total_estructurados": 5
+      },
+      "fecha_captura_utc": "2026-11-12T21:22:25.435613+00:00"
     },
     {
       "id": "RAG-006",
@@ -136,17 +564,163 @@
       ],
       "respuesta_referencia": "Los alcaldes pueden restringir excepcionalmente la movilidad o permanencia de niños, niñas y adolescentes en espacios públicos o lugares abiertos al público, cuando sea necesario prevenir eventos que puedan poner en peligro su vida, integridad o salud. La restricción debe ser temporal y estar debidamente motivada. Su implementación debe contar con el acompañamiento del ICBF y del Ministerio Público.",
       "estado_revision_referencia": "pendiente_revision",
-      "respuesta_generada": null,
-      "respuesta_visible": null,
-      "modelo": null,
-      "estado_validacion_documental": null,
+      "respuesta_generada": "De acuerdo con la Ley 1801 de 2016, los alcaldes tienen facultades para restringir la movilidad o permanencia de niños, niñas y adolescentes en el espacio público o lugares abiertos al público bajo las siguientes circunstancias:\n\n### 1. Facultad general de prevención\nEl alcalde puede restringir la movilidad o permanencia de menores de manera **temporal y motivada**, con el fin de prevenir eventos que puedan poner en peligro o afectar su vida, integridad o salud.\n*   **Condición:** La implementación de esta medida debe contar con el acompañamiento del Instituto Colombiano de Bienestar Familiar (ICBF) y del Ministerio Público, para asegurar que no se vulneren los derechos consagrados en el Código de la Infancia y la Adolescencia.\n*   **Fundamento:** Artículo 36 de la Ley 1801 de 2016.\n\n### 2. Situaciones extraordinarias de emergencia o calamidad\nAnte situaciones extraordinarias que amenacen o afecten gravemente a la población (como desastres, epidemias, calamidades o situaciones de inseguridad), los alcaldes pueden ordenar medidas restrictivas de la movilidad de personas en la zona afectada o de influencia, lo cual incluye la posibilidad de decretar el toque de queda cuando las circunstancias lo exijan.\n*   **Fundamento:** Artículo 202, numerales 5 y 6 de la Ley 1801 de 2016.\n\n### Consideraciones adicionales\n*   **Reglamentación de actividades:** El alcalde también tiene la facultad de determinar, mediante acto motivado, las actividades peligrosas, fiestas o eventos similares a los cuales se prohíbe el acceso o participación de menores de edad (Artículo 37).\n*   **Protección:** Las administraciones municipales o distritales deben determinar los sitios adecuados a los cuales se podrán trasladar a los menores que incurran en comportamientos que requieran la imposición de una medida correctiva, garantizando su protección (Artículo 39, parágrafo 3).\n\n**Fuente consultada:**\n*   Ley 1801 de 2016: [https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=80538](https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=80538)\n\n***\n\n*Advertencia: Esta respuesta se basa exclusivamente en el contexto documental proporcionado. La vigencia, constitucionalidad y aplicación de estas normas pueden estar sujetas a decisiones judiciales (como la Sentencia C-281 de 2017 mencionada en el texto) o modificaciones legislativas posteriores que deben ser verificadas por un profesional del derecho.*",
+      "respuesta_visible": "De acuerdo con la Ley 1801 de 2016, los alcaldes tienen facultades para restringir la movilidad o permanencia de niños, niñas y adolescentes en el espacio público o lugares abiertos al público bajo las siguientes circunstancias:\n\n### 1. Facultad general de prevención\nEl alcalde puede restringir la movilidad o permanencia de menores de manera **temporal y motivada**, con el fin de prevenir eventos que puedan poner en peligro o afectar su vida, integridad o salud.\n*   **Condición:** La implementación de esta medida debe contar con el acompañamiento del Instituto Colombiano de Bienestar Familiar (ICBF) y del Ministerio Público, para asegurar que no se vulneren los derechos consagrados en el Código de la Infancia y la Adolescencia.\n*   **Fundamento:** Artículo 36 de la Ley 1801 de 2016.\n\n### 2. Situaciones extraordinarias de emergencia o calamidad\nAnte situaciones extraordinarias que amenacen o afecten gravemente a la población (como desastres, epidemias, calamidades o situaciones de inseguridad), los alcaldes pueden ordenar medidas restrictivas de la movilidad de personas en la zona afectada o de influencia, lo cual incluye la posibilidad de decretar el toque de queda cuando las circunstancias lo exijan.\n*   **Fundamento:** Artículo 202, numerales 5 y 6 de la Ley 1801 de 2016.\n\n### Consideraciones adicionales\n*   **Reglamentación de actividades:** El alcalde también tiene la facultad de determinar, mediante acto motivado, las actividades peligrosas, fiestas o eventos similares a los cuales se prohíbe el acceso o participación de menores de edad (Artículo 37).\n*   **Protección:** Las administraciones municipales o distritales deben determinar los sitios adecuados a los cuales se podrán trasladar a los menores que incurran en comportamientos que requieran la imposición de una medida correctiva, garantizando su protección (Artículo 39, parágrafo 3).\n\n**Fuente consultada:**\n*   Ley 1801 de 2016: [https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=80538](https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=80538)\n\n***\n\n*Advertencia: Esta respuesta se basa exclusivamente en el contexto documental proporcionado. La vigencia, constitucionalidad y aplicación de estas normas pueden estar sujetas a decisiones judiciales (como la Sentencia C-281 de 2017 mencionada en el texto) o modificaciones legislativas posteriores que deben ser verificadas por un profesional del derecho.*",
+      "modelo": "gemini-3.1-flash-lite",
+      "estado_validacion_documental": "PENDIENTE_VALIDACION",
       "advertencias_documentales": [],
       "articulos_citados": [],
       "exactitud": null,
       "fidelidad_contexto": null,
       "correccion_citas": null,
       "observaciones": "",
-      "estado_evaluacion": "pendiente"
+      "estado_evaluacion": "pendiente_revision_humana",
+      "contexto_utilizado": "CONTEXTO JURÍDICO RECUPERADO\nLos siguientes textos proceden del corpus documental. No se ha verificado su vigencia normativa actual.\n\n=== CONTEXTO GENERAL CON SUSTITUCIÓN 223A ===\n\n[GENERAL CONSERVADO 1]\nArtículo: 36\nTexto: ARTÍCULO 36. Facultades de los alcaldes para la restricción de la movilidad o permanencia de niños, niñas y adolescentes en el espacio público o en lugares abiertos al público. Con el fin de prevenir la ocurrencia de eventos que puedan poner en peligro o afectar la vida, la integridad o la salud de los niños, niñas y adolescentes, excepcionalmente el alcalde podrá restringir su movilidad o permanencia en el espacio público o en lugares abiertos al público, de manera temporal y en forma motivada. PARÁGRAFO . En la implementación se contará con el acompañamiento del Instituto Colombiano de Bienestar Familiar y del Ministerio Público con el fin de determinar que la medida no atenta contra los derechos de los niños, niñas y adolescentes consagrados en el Código de la Infancia y Adolescencia.\nFuente: Ley 1801 de 2016\nURL: https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=80538\n\n[GENERAL CONSERVADO 2]\nArtículo: 28\nTexto: ARTÍCULO 28. Comportamientos que afectan la seguridad y bienes en relación con los servicios públicos. Los siguientes comportamientos que afectan la seguridad de las personas y la de sus bienes y por lo tanto no deben realizarse al hacer uso de los servicios públicos: 1. Poner en riesgo a personas o bienes durante la instalación, utilización, mantenimiento o modificación de las estructuras de los servicios públicos. 2. Modificar o alterar redes o instalaciones de servicios públicos. 3. Arrojar en las redes de alcantarillado, acueducto y de aguas lluvias, cualquier objeto, sustancia, residuo, escombros, lodo, combustibles o lubricantes, que alteren u obstruyan el normal funcionamiento. 4. No reparar oportunamente los daños ocasionados a la infraestructura de servicios públicos domiciliarios, cuando estas reparaciones corresponden al usuario. PARÁGRAFO . Quien incurra en uno o más de los comportamientos antes señalados, será objeto de la aplicación de las siguientes medidas correctivas: COMPORTAMIENTOSMEDIDA CORRECTIVA A APLICAR Numeral 1 Multa General tipo 3; Remoción de bienes, Destrucción de bien. Numeral 2 Multa General tipo 3; Reparación de daños materiales de muebles o inmuebles. Numeral 3 Multa General tipo 4 Numeral 4 Multa General Tipo 3; Reparación de daños materiales de muebles o inmuebles CAPÍTULO III ARTÍCULOS PIROTÉCNICOS Y SUSTANCIAS PELIGROSAS\nFuente: Ley 1801 de 2016\nURL: https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=80538\n\n[GENERAL CONSERVADO 3]\nArtículo: 202\nTexto: ARTÍCULO 202. Competencia extraordinaria de Policía de los gobernadores y los alcaldes, ante situaciones de emergencia y calamidad. Ante situaciones extraordinarias que amenacen o afecten gravemente a la población y con el propósito de prevenir el riesgo o mitigar los efectos de desastres, epidemias, calamidades, situaciones de inseguridad y disminuir el impacto de sus posibles consecuencias, estas autoridades en su respectivo territorio, podrán ordenar las siguientes medidas, con el único fin de proteger y auxiliar a las personas y evitar perjuicios mayores: 1. Ordenar el inmediato derribo, desocupación o sellamiento de inmuebles, sin perjuicio del consentimiento del propietario o tenedor. 2. Ordenar la clausura o desocupación de escuelas, colegios o instituciones educativas públicas o privadas, de cualquier nivel o modalidad educativa, garantizando la entidad territorial un lugar en el cual se pueden ubicar los niños, niñas y adolescentes y directivos docentes con el propósito de no afectar la prestación del servicio educativo. 3. Ordenar la construcción de obras o la realización de tareas indispensables para impedir, disminuir o mitigar los daños ocasionados o que puedan ocasionarse. 4. Ordenar la suspensión de reuniones, aglomeraciones, actividades económicas, sociales, cívicas, religiosas o políticas, entre otras, sean estas públicas o privadas. 5. Ordenar medidas restrictivas de la movilidad de medios de transporte o personas, en la zona afectada o de influencia, incluidas las de tránsito por predios privados. 6. Decretar el toque de queda cuando las circunstancias así lo exijan. 7. Restringir o prohibir el expendio y consumo de bebidas alcohólicas. 8. Organizar el aprovisionamiento y distribución de alimentos, medicamentos y otros bienes, y la prestación de los servicios médicos, clínicos y hospitalarios. 9. Reorganizar la prestación de los servicios públicos. 10. Presentar, ante el concejo distrital o municipal, proyectos de acuerdo en que se definan los comportamientos particulares de la jurisdicción, que no hayan sido regulados por las leyes u ordenanzas, con la aplicación de las medidas correctivas y el procedimiento establecidos en la legislación nacional. 11. Coordinar con las autoridades del nivel nacional la aplicación y financiación de las medidas adoptadas, y el establecimiento de los puestos de mando unificado. 12. Las demás medidas que consideren necesarias para superar los efectos de la situación de emergencia, calamidad, situaciones extraordinarias de inseguridad y prevenir una situación aún más compleja.\nFuente: Ley 1801 de 2016\nURL: https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=80538\n\n[GENERAL CONSERVADO 4]\nArtículo: 37\nTexto: ARTÍCULO 37. Reglamentación para la protección de niños, niñas y adolescentes. El alcalde distrital o municipal determinará mediante acto motivado las actividades peligrosas, las fiestas o eventos similares, a los que se prohíbe el acceso o participación a los niños, niñas y adolescentes. Así mismo, los niños, niñas y adolescentes deberán cumplir lo establecido en la Ley 1554 de 2012 con respecto a la edad permitida para participar o ingresar a establecimientos que prestan el servicio de videojuegos.\nFuente: Ley 1801 de 2016\nURL: https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=80538\n\n[GENERAL CONSERVADO 5]\nArtículo: 39\nTexto: con la ley. PARÁGRAFO 3. Las administraciones municipales o distritales determinarán los sitios adecuados a los que se podrán trasladar los niños, niñas y adolescentes que incurran en el comportamiento señalado en el presente artículo, para su protección e imposición de la medida correctiva correspondiente. (Ver Sentencia de la Corte Constitucional C-281 de 2017) CAPÍTULO II GRUPOS DE ESPECIAL PROTECCIÓN CONSTITUCIONAL\nFuente: Ley 1801 de 2016\nURL: https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=80538\n\n[GENERAL CONSERVADO 6]\nArtículo: 59\nTexto: 5. Incumplir las disposiciones legales o la reglamentación distrital o municipal pertinente. 6. No respetar la asignación de la silletería en caso de haberla. 7. Ingresar o introducir niños, niñas o adolescentes a los actos o eventos que puedan causar daño a su integridad o en los cuales exista previa restricción de edad por parte de las autoridades de policía, o esté prohibido su ingreso por las normas vigentes. 8. Invadir los espacios no abiertos al público. 9. Quienes, al desplazarse a un\nFuente: Ley 1801 de 2016\nURL: https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=80538\n\n[GENERAL CONSERVADO 7]\nArtículo: 205\nTexto: necesario para la seguridad, convivencia y establecimientos de reclusión, constituye un determinante de superior jerarquía en los términos del Artículo 10 de la Ley 388 de 1997 y por lo tanto el respectivo alcalde distrital o municipal podrá establecer su construcción en el lugar que para el efecto determine. (Numeral 18, adicionado por el Art. 2 de la Ley 2030 de 2020) (Numerales 19, 20 y 21 adicionados por el Art. 41 de la Ley 2197 de 2022). PARÁGRAFO 1. En el departamento\nFuente: Ley 1801 de 2016\nURL: https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=80538\n\n=== REGISTROS ESTRUCTURADOS ===\n\n[ESTRUCTURADO 1]\nArtículo: 135\nNumeral: 1\nSección: A\nComportamiento: En áreas protegidas o afectadas por el plan vial o de infraestructura de servicios públicos domiciliarios, y las destinadas a equipamientos públicos.\nMedidas correctivas registradas: Multa especial por infracción urbanística; Demolición de obra; Construcción, cerramiento, reparación o mantenimiento de inmueble; Remoción de bienes.\nNota normativa: No registrada\nFuente: Ley 1801 de 2016\nURL: https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=80538\n\n[ESTRUCTURADO 2]\nArtículo: 135\nNumeral: 12\nSección: C\nComportamiento: Facilitar, en cualquier clase de inmueble, el desarrollo de usos o destinaciones del suelo no autorizados en licencia de construcción o con desconocimiento de las normas urbanísticas sobre usos específicos.\nMedidas correctivas registradas: Multa especial por infracción urbanística; Demolición de obra; Construcción, cerramiento, reparación o mantenimiento de inmueble.\nNota normativa: No registrada\nFuente: Ley 1801 de 2016\nURL: https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=80538\n\n[ESTRUCTURADO 3]\nArtículo: 135\nNumeral: 3\nSección: A\nComportamiento: En bienes de uso público y terrenos afectados al espacio público.\nMedidas correctivas registradas: Multa especial por infracción urbanística; Demolición de obra; Construcción, cerramiento, reparación o mantenimiento de inmueble; Remoción de bienes.\nNota normativa: No registrada\nFuente: Ley 1801 de 2016\nURL: https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=80538\n\n[ESTRUCTURADO 4]\nArtículo: 135\nNumeral: 6\nSección: B\nComportamiento: Intervenir o modificar sin la licencia\nMedidas correctivas registradas: Multa especial por infracción urbanística; Suspensión temporal de actividad.\nNota normativa: No registrada\nFuente: Ley 1801 de 2016\nURL: https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=80538\n\n[ESTRUCTURADO 5]\nArtículo: 135\nNumeral: 5\nSección: B\nComportamiento: Demoler sin previa autorización o licencia.\nMedidas correctivas registradas: Multa especial por infracción urbanística; Suspensión temporal de actividad.\nNota normativa: No registrada\nFuente: Ley 1801 de 2016\nURL: https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=80538\n\nFIN DEL CONTEXTO JURÍDICO RECUPERADO",
+      "resultados_recuperados": {
+        "pregunta": "¿En qué circunstancias pueden los alcaldes restringir la permanencia de menores en espacios públicos?",
+        "resultados_generales": [
+          {
+            "id": "articulo_36",
+            "articulo": "36",
+            "titulo": "Facultades de los alcaldes para la restricción de la movilidad o permanencia de niños, niñas y adolescentes en el espacio público o en lugares abiertos al público",
+            "texto": "ARTÍCULO 36. Facultades de los alcaldes para la restricción de la movilidad o permanencia de niños, niñas y adolescentes en el espacio público o en lugares abiertos al público. Con el fin de prevenir la ocurrencia de eventos que puedan poner en peligro o afectar la vida, la integridad o la salud de los niños, niñas y adolescentes, excepcionalmente el alcalde podrá restringir su movilidad o permanencia en el espacio público o en lugares abiertos al público, de manera temporal y en forma motivada. PARÁGRAFO . En la implementación se contará con el acompañamiento del Instituto Colombiano de Bienestar Familiar y del Ministerio Público con el fin de determinar que la medida no atenta contra los derechos de los niños, niñas y adolescentes consagrados en el Código de la Infancia y Adolescencia.",
+            "fuente": "Ley 1801 de 2016",
+            "url_fuente": "https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=80538",
+            "similitud": 1.0,
+            "origen_recuperacion": "titulo_numero"
+          },
+          {
+            "id": "articulo_28",
+            "articulo": "28",
+            "titulo": "Comportamientos que afectan la seguridad y bienes en relación con los servicios públicos",
+            "texto": "ARTÍCULO 28. Comportamientos que afectan la seguridad y bienes en relación con los servicios públicos. Los siguientes comportamientos que afectan la seguridad de las personas y la de sus bienes y por lo tanto no deben realizarse al hacer uso de los servicios públicos: 1. Poner en riesgo a personas o bienes durante la instalación, utilización, mantenimiento o modificación de las estructuras de los servicios públicos. 2. Modificar o alterar redes o instalaciones de servicios públicos. 3. Arrojar en las redes de alcantarillado, acueducto y de aguas lluvias, cualquier objeto, sustancia, residuo, escombros, lodo, combustibles o lubricantes, que alteren u obstruyan el normal funcionamiento. 4. No reparar oportunamente los daños ocasionados a la infraestructura de servicios públicos domiciliarios, cuando estas reparaciones corresponden al usuario. PARÁGRAFO . Quien incurra en uno o más de los comportamientos antes señalados, será objeto de la aplicación de las siguientes medidas correctivas: COMPORTAMIENTOSMEDIDA CORRECTIVA A APLICAR Numeral 1 Multa General tipo 3; Remoción de bienes, Destrucción de bien. Numeral 2 Multa General tipo 3; Reparación de daños materiales de muebles o inmuebles. Numeral 3 Multa General tipo 4 Numeral 4 Multa General Tipo 3; Reparación de daños materiales de muebles o inmuebles CAPÍTULO III ARTÍCULOS PIROTÉCNICOS Y SUSTANCIAS PELIGROSAS",
+            "fuente": "Ley 1801 de 2016",
+            "url_fuente": "https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=80538",
+            "similitud": 1.0,
+            "origen_recuperacion": "titulo_numero"
+          },
+          {
+            "id": "articulo_202",
+            "articulo": "202",
+            "titulo": "Competencia extraordinaria de Policía de los gobernadores y los alcaldes, ante situaciones de emergencia y calamidad",
+            "texto": "ARTÍCULO 202. Competencia extraordinaria de Policía de los gobernadores y los alcaldes, ante situaciones de emergencia y calamidad. Ante situaciones extraordinarias que amenacen o afecten gravemente a la población y con el propósito de prevenir el riesgo o mitigar los efectos de desastres, epidemias, calamidades, situaciones de inseguridad y disminuir el impacto de sus posibles consecuencias, estas autoridades en su respectivo territorio, podrán ordenar las siguientes medidas, con el único fin de proteger y auxiliar a las personas y evitar perjuicios mayores: 1. Ordenar el inmediato derribo, desocupación o sellamiento de inmuebles, sin perjuicio del consentimiento del propietario o tenedor. 2. Ordenar la clausura o desocupación de escuelas, colegios o instituciones educativas públicas o privadas, de cualquier nivel o modalidad educativa, garantizando la entidad territorial un lugar en el cual se pueden ubicar los niños, niñas y adolescentes y directivos docentes con el propósito de no afectar la prestación del servicio educativo. 3. Ordenar la construcción de obras o la realización de tareas indispensables para impedir, disminuir o mitigar los daños ocasionados o que puedan ocasionarse. 4. Ordenar la suspensión de reuniones, aglomeraciones, actividades económicas, sociales, cívicas, religiosas o políticas, entre otras, sean estas públicas o privadas. 5. Ordenar medidas restrictivas de la movilidad de medios de transporte o personas, en la zona afectada o de influencia, incluidas las de tránsito por predios privados. 6. Decretar el toque de queda cuando las circunstancias así lo exijan. 7. Restringir o prohibir el expendio y consumo de bebidas alcohólicas. 8. Organizar el aprovisionamiento y distribución de alimentos, medicamentos y otros bienes, y la prestación de los servicios médicos, clínicos y hospitalarios. 9. Reorganizar la prestación de los servicios públicos. 10. Presentar, ante el concejo distrital o municipal, proyectos de acuerdo en que se definan los comportamientos particulares de la jurisdicción, que no hayan sido regulados por las leyes u ordenanzas, con la aplicación de las medidas correctivas y el procedimiento establecidos en la legislación nacional. 11. Coordinar con las autoridades del nivel nacional la aplicación y financiación de las medidas adoptadas, y el establecimiento de los puestos de mando unificado. 12. Las demás medidas que consideren necesarias para superar los efectos de la situación de emergencia, calamidad, situaciones extraordinarias de inseguridad y prevenir una situación aún más compleja.",
+            "fuente": "Ley 1801 de 2016",
+            "url_fuente": "https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=80538",
+            "similitud": 1.0,
+            "origen_recuperacion": "titulo_numero"
+          },
+          {
+            "id": "articulo_37_fragmento_1",
+            "articulo": "37",
+            "titulo": "Reglamentación para la protección de niños, niñas y adolescentes",
+            "texto": "ARTÍCULO 37. Reglamentación para la protección de niños, niñas y adolescentes. El alcalde distrital o municipal determinará mediante acto motivado las actividades peligrosas, las fiestas o eventos similares, a los que se prohíbe el acceso o participación a los niños, niñas y adolescentes. Así mismo, los niños, niñas y adolescentes deberán cumplir lo establecido en la Ley 1554 de 2012 con respecto a la edad permitida para participar o ingresar a establecimientos que prestan el servicio de videojuegos.",
+            "fuente": "Ley 1801 de 2016",
+            "url_fuente": "https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=80538",
+            "similitud": 0.7378773093223572,
+            "posicion_faiss": 102
+          },
+          {
+            "id": "articulo_39_fragmento_3",
+            "articulo": "39",
+            "titulo": "Prohibiciones a niños, niñas y adolescentes",
+            "texto": "con la ley. PARÁGRAFO 3. Las administraciones municipales o distritales determinarán los sitios adecuados a los que se podrán trasladar los niños, niñas y adolescentes que incurran en el comportamiento señalado en el presente artículo, para su protección e imposición de la medida correctiva correspondiente. (Ver Sentencia de la Corte Constitucional C-281 de 2017) CAPÍTULO II GRUPOS DE ESPECIAL PROTECCIÓN CONSTITUCIONAL",
+            "fuente": "Ley 1801 de 2016",
+            "url_fuente": "https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=80538",
+            "similitud": 0.7066628336906433,
+            "posicion_faiss": 119
+          },
+          {
+            "id": "articulo_59_fragmento_3",
+            "articulo": "59",
+            "titulo": "Comportamientos que ponen en riesgo la vida e integridad de las personas en las actividades que involucran aglomeraciones de público no complejas",
+            "texto": "5. Incumplir las disposiciones legales o la reglamentación distrital o municipal pertinente. 6. No respetar la asignación de la silletería en caso de haberla. 7. Ingresar o introducir niños, niñas o adolescentes a los actos o eventos que puedan causar daño a su integridad o en los cuales exista previa restricción de edad por parte de las autoridades de policía, o esté prohibido su ingreso por las normas vigentes. 8. Invadir los espacios no abiertos al público. 9. Quienes, al desplazarse a un",
+            "fuente": "Ley 1801 de 2016",
+            "url_fuente": "https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=80538",
+            "similitud": 0.7053647041320801,
+            "posicion_faiss": 184
+          },
+          {
+            "id": "articulo_205_fragmento_10",
+            "articulo": "205",
+            "titulo": "Atribuciones del alcalde",
+            "texto": "necesario para la seguridad, convivencia y establecimientos de reclusión, constituye un determinante de superior jerarquía en los términos del Artículo 10 de la Ley 388 de 1997 y por lo tanto el respectivo alcalde distrital o municipal podrá establecer su construcción en el lugar que para el efecto determine. (Numeral 18, adicionado por el Art. 2 de la Ley 2030 de 2020) (Numerales 19, 20 y 21 adicionados por el Art. 41 de la Ley 2197 de 2022). PARÁGRAFO 1. En el departamento",
+            "fuente": "Ley 1801 de 2016",
+            "url_fuente": "https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=80538",
+            "similitud": 0.6779545545578003,
+            "posicion_faiss": 760
+          }
+        ],
+        "resultados_estructurados_135": [
+          {
+            "id": "articulo_135_numeral_1",
+            "articulo": "135",
+            "numeral": "1",
+            "seccion": "A",
+            "comportamiento": "En áreas protegidas o afectadas por el plan vial o de infraestructura de servicios públicos domiciliarios, y las destinadas a equipamientos públicos.",
+            "medida_correctiva": "Multa especial por infracción urbanística; Demolición de obra; Construcción, cerramiento, reparación o mantenimiento de inmueble; Remoción de bienes.",
+            "nota_normativa": null,
+            "fuente": "Ley 1801 de 2016",
+            "url_fuente": "https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=80538",
+            "similitud": 0.5263684988021851,
+            "tipo_representacion": "descripcion_principal"
+          },
+          {
+            "id": "articulo_135_numeral_12",
+            "articulo": "135",
+            "numeral": "12",
+            "seccion": "C",
+            "comportamiento": "Facilitar, en cualquier clase de inmueble, el desarrollo de usos o destinaciones del suelo no autorizados en licencia de construcción o con desconocimiento de las normas urbanísticas sobre usos específicos.",
+            "medida_correctiva": "Multa especial por infracción urbanística; Demolición de obra; Construcción, cerramiento, reparación o mantenimiento de inmueble.",
+            "nota_normativa": null,
+            "fuente": "Ley 1801 de 2016",
+            "url_fuente": "https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=80538",
+            "similitud": 0.5149831771850586,
+            "tipo_representacion": "descripcion_principal"
+          },
+          {
+            "id": "articulo_135_numeral_3",
+            "articulo": "135",
+            "numeral": "3",
+            "seccion": "A",
+            "comportamiento": "En bienes de uso público y terrenos afectados al espacio público.",
+            "medida_correctiva": "Multa especial por infracción urbanística; Demolición de obra; Construcción, cerramiento, reparación o mantenimiento de inmueble; Remoción de bienes.",
+            "nota_normativa": null,
+            "fuente": "Ley 1801 de 2016",
+            "url_fuente": "https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=80538",
+            "similitud": 0.4914872348308563,
+            "tipo_representacion": "descripcion_principal"
+          },
+          {
+            "id": "articulo_135_numeral_6",
+            "articulo": "135",
+            "numeral": "6",
+            "seccion": "B",
+            "comportamiento": "Intervenir o modificar sin la licencia",
+            "medida_correctiva": "Multa especial por infracción urbanística; Suspensión temporal de actividad.",
+            "nota_normativa": null,
+            "fuente": "Ley 1801 de 2016",
+            "url_fuente": "https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=80538",
+            "similitud": 0.4706785976886749,
+            "tipo_representacion": "descripcion_principal"
+          },
+          {
+            "id": "articulo_135_numeral_5",
+            "articulo": "135",
+            "numeral": "5",
+            "seccion": "B",
+            "comportamiento": "Demoler sin previa autorización o licencia.",
+            "medida_correctiva": "Multa especial por infracción urbanística; Suspensión temporal de actividad.",
+            "nota_normativa": null,
+            "fuente": "Ley 1801 de 2016",
+            "url_fuente": "https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=80538",
+            "similitud": 0.466852605342865,
+            "tipo_representacion": "descripcion_principal"
+          }
+        ],
+        "total_generales": 7,
+        "total_estructurados": 5
+      },
+      "fecha_captura_utc": "2026-11-12T21:22:37.625222+00:00"
     },
     {
       "id": "RAG-008",
