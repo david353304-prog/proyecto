@@ -46,8 +46,10 @@ app.post("/api/chat", (req, res) => {
     let salida = "";
     let errores = "";
     let finalizado = false;
+    let tiempoAgotado = false;
 
     const temporizador = setTimeout(() => {
+        tiempoAgotado = true;
         proceso.kill();
     }, 120000);
 
@@ -63,7 +65,12 @@ app.post("/api/chat", (req, res) => {
         clearTimeout(temporizador);
         if (!finalizado) {
             finalizado = true;
-            res.status(500).json({
+            if (tiempoAgotado) {
+                return res.status(504).json({
+                    error: "La consulta superó el tiempo máximo de procesamiento."
+                });
+            }
+            return res.status(500).json({
                 error: "No fue posible iniciar el motor documental."
             });
         }
@@ -74,6 +81,12 @@ app.post("/api/chat", (req, res) => {
 
         if (finalizado) return;
         finalizado = true;
+
+        if (tiempoAgotado) {
+            return res.status(504).json({
+                error: "La consulta superó el tiempo máximo de procesamiento."
+            });
+        }
 
         if (codigo !== 0) {
             return res.status(500).json({
