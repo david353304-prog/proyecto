@@ -44,6 +44,10 @@
       {
         "tipo": "descripcion_principal",
         "texto": "Parcelar, urbanizar, demoler, intervenir o construir en terrenos aptos sin licencia o cuando la licencia haya caducado."
+      },
+      {
+        "tipo": "descripcion_cotidiana",
+        "texto": "Construir o empezar a levantar una casa, vivienda, paredes o edificación en un terreno apto sin haber tramitado u obtenido la licencia o permiso de construcción correspondiente."
       }
     ]
   },

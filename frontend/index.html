@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Asistente Jurídico | Ley 1801 de 2016</title>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="aplicacion">
+
+        <aside class="barra-lateral">
+            <div class="identidad">
+                <div class="identidad-icono">⚖</div>
+
+                <div>
+                    <h1>Asistente Jurídico</h1>
+                    <p>Ley 1801 de 2016</p>
+                </div>
+            </div>
+
+            <button id="nuevo-chat" class="boton-nuevo">
+                + Nueva conversación
+            </button>
+
+            <div class="informacion-lateral">
+                <h2>Información</h2>
+
+                <p>
+                    Consulta información sobre el Código Nacional
+                    de Seguridad y Convivencia Ciudadana.
+                </p>
+
+                <p>
+                    Las respuestas se generan a partir de un
+                    corpus documental jurídico.
+                </p>
+            </div>
+
+            <div class="advertencia-lateral">
+                Este asistente es informativo y no sustituye
+                la asesoría jurídica profesional.
+            </div>
+        </aside>
+
+        <main class="contenido-principal">
+
+            <header class="encabezado">
+                <div>
+                    <h2>Consulta jurídica</h2>
+                    <p>Asistente basado en recuperación documental RAG</p>
+                </div>
+
+                <span class="estado" id="estado-servidor">
+                    Verificando servidor...
+                </span>
+            </header>
+
+            <section
+                class="conversacion"
+                id="conversacion"
+                aria-label="Conversación con el asistente"
+                aria-live="polite"
+            >
+                <div class="bienvenida" id="bienvenida">
+                    <div class="bienvenida-icono">⚖</div>
+
+                    <h2>¿En qué puedo ayudarte?</h2>
+
+                    <p>
+                        Realiza preguntas sobre la Ley 1801 de 2016.
+                        El asistente buscará información en el corpus
+                        jurídico y presentará una respuesta con
+                        sus referencias documentales.
+                    </p>
+
+                    <div class="preguntas-sugeridas">
+                        <button
+                            class="pregunta-sugerida"
+                            type="button"
+                            data-pregunta="¿Qué es un comparendo según la Ley 1801 de 2016?"
+                        >
+                            ¿Qué es un comparendo?
+                        </button>
+
+                        <button
+                            class="pregunta-sugerida"
+                            type="button"
+                            data-pregunta="¿Qué establece el artículo 135 de la Ley 1801 de 2016?"
+                        >
+                            ¿Qué establece el artículo 135?
+                        </button>
+
+                        <button
+                            class="pregunta-sugerida"
+                            type="button"
+                            data-pregunta="¿Qué es una orden de Policía?"
+                        >
+                            ¿Qué es una orden de Policía?
+                        </button>
+                    </div>
+                </div>
+            </section>
+
+            <div class="zona-inferior">
+                <div
+                    id="indicador-procesamiento"
+                    class="indicador-procesamiento"
+                    role="status"
+                    hidden
+                >
+                    Consultando documentos y generando respuesta...
+                </div>
+
+                <form id="formulario-chat" class="formulario-chat">
+                    <label class="etiqueta-oculta" for="pregunta">
+                        Escribe tu pregunta jurídica
+                    </label>
+
+                    <textarea
+                        id="pregunta"
+                        name="pregunta"
+                        placeholder="Escribe tu pregunta sobre la Ley 1801..."
+                        rows="2"
+                        maxlength="2000"
+                        required
+                    ></textarea>
+
+                    <button
+                        type="submit"
+                        id="enviar"
+                        class="boton-enviar"
+                    >
+                        Enviar
+                    </button>
+                </form>
+
+                <p class="nota-inferior">
+                    Las respuestas pueden requerir verificación
+                    de vigencia normativa y revisión jurídica.
+                </p>
+            </div>
+
+        </main>
+    </div>
+
+    <script src="app.js" defer></script>
+</body>
+</html>

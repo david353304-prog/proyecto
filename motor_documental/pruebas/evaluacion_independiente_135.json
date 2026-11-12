@@ -1,0 +1,52 @@
+[
+  {
+    "id": "E135-001",
+    "pregunta": "Empecé a levantar las paredes de mi casa sin haber solicitado permiso a la curaduría. ¿Qué norma podría aplicarse?",
+    "numeral_esperado": "4"
+  },
+  {
+    "id": "E135-002",
+    "pregunta": "Una empresa tumbó una construcción reconocida como patrimonio histórico sin pedir autorización. ¿Qué comportamiento corresponde?",
+    "numeral_esperado": "5"
+  },
+  {
+    "id": "E135-003",
+    "pregunta": "Cambiaron la estructura de una edificación protegida sin obtener el permiso requerido. ¿Qué numeral trata esa situación?",
+    "numeral_esperado": "6"
+  },
+  {
+    "id": "E135-004",
+    "pregunta": "Los dueños dejaron deteriorar un edificio patrimonial y no hicieron el mantenimiento necesario. ¿Qué conducta se relaciona?",
+    "numeral_esperado": "7"
+  },
+  {
+    "id": "E135-005",
+    "pregunta": "Un establecimiento está funcionando como discoteca, aunque el permiso del inmueble contempla una actividad distinta. ¿Qué numeral corresponde?",
+    "numeral_esperado": "9"
+  },
+  {
+    "id": "E135-006",
+    "pregunta": "La obra se realizó en una ubicación que no coincide con la autorizada en la licencia. ¿Qué comportamiento describe?",
+    "numeral_esperado": "10"
+  },
+  {
+    "id": "E135-007",
+    "pregunta": "Instalé un negocio en una zona donde las reglas urbanísticas prohíben esa actividad. ¿Qué numeral corresponde?",
+    "numeral_esperado": "11"
+  },
+  {
+    "id": "E135-008",
+    "pregunta": "Le alquilé mi inmueble a alguien sabiendo que allí desarrollaría una actividad no permitida por las normas urbanísticas. ¿Qué numeral se relaciona?",
+    "numeral_esperado": "12"
+  },
+  {
+    "id": "E135-009",
+    "pregunta": "Los trabajadores de una construcción salen a la calle sin limpiar el barro de las ruedas de sus camiones. ¿Qué conducta corresponde?",
+    "numeral_esperado": "16"
+  },
+  {
+    "id": "E135-010",
+    "pregunta": "Los vecinos están construyendo en un barrio residencial durante la madrugada. ¿Qué numeral contempla ese comportamiento?",
+    "numeral_esperado": "24"
+  }
+]

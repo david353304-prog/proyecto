@@ -36,6 +36,15 @@
     "texto_busqueda": "Parcelar, urbanizar, demoler, intervenir o construir en terrenos aptos sin licencia o cuando la licencia haya caducado."
   },
   {
+    "id": "articulo_135_numeral_4",
+    "articulo": "135",
+    "numeral": "4",
+    "seccion": "A",
+    "tipo": "descripcion_cotidiana",
+    "posicion_representacion": 1,
+    "texto_busqueda": "Construir o empezar a levantar una casa, vivienda, paredes o edificación en un terreno apto sin haber tramitado u obtenido la licencia o permiso de construcción correspondiente."
+  },
+  {
     "id": "articulo_135_numeral_5",
     "articulo": "135",
     "numeral": "5",
