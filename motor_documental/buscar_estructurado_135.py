@@ -9,15 +9,36 @@ from sentence_transformers import SentenceTransformer
 class BuscadorEstructurado135:
     """Búsqueda semántica de registros estructurados del artículo 135."""
 
-    def __init__(self, modelo=None):
+    def __init__(self, modelo=None, modo="original"):
         base = Path(__file__).resolve().parent
 
+        archivos = {
+            "original": (
+                "indice_representaciones_135.faiss",
+                "metadatos_representaciones_135.json",
+            ),
+            "experimental": (
+                "indice_representaciones_135_experimental.faiss",
+                "metadatos_representaciones_135_experimental.json",
+            ),
+        }
+
+        if modo not in archivos:
+            raise ValueError(
+                "Modo de índice no válido. "
+                "Utilice 'original' o 'experimental'."
+            )
+
+        self.modo = modo
+        nombre_indice, nombre_metadatos = archivos[modo]
+        carpeta = base / "embeddings"
+
         self.indice = faiss.read_index(
-            str(base / "embeddings/indice_representaciones_135.faiss")
+            str(carpeta / nombre_indice)
         )
 
         with (
-            base / "embeddings/metadatos_representaciones_135.json"
+            carpeta / nombre_metadatos
         ).open(encoding="utf-8") as archivo:
             self.metadatos = json.load(archivo)
 

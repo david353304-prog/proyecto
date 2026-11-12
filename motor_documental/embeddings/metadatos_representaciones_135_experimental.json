@@ -1,0 +1,254 @@
+[
+  {
+    "id": "articulo_135_numeral_1",
+    "posicion_representacion": 0,
+    "articulo": "135",
+    "numeral": "1",
+    "seccion": "A",
+    "tipo": "descripcion_principal",
+    "texto_busqueda": "Parcelar, urbanizar, demoler, intervenir o construir en áreas protegidas, afectadas por el plan vial o por infraestructura de servicios públicos domiciliarios, o destinadas a equipamientos públicos."
+  },
+  {
+    "id": "articulo_135_numeral_2",
+    "posicion_representacion": 0,
+    "articulo": "135",
+    "numeral": "2",
+    "seccion": "A",
+    "tipo": "descripcion_principal",
+    "texto_busqueda": "Parcelar, urbanizar, demoler, intervenir o construir incumpliendo lo establecido en la licencia correspondiente."
+  },
+  {
+    "id": "articulo_135_numeral_3",
+    "posicion_representacion": 0,
+    "articulo": "135",
+    "numeral": "3",
+    "seccion": "A",
+    "tipo": "descripcion_principal",
+    "texto_busqueda": "Parcelar, urbanizar, demoler, intervenir o construir en bienes de uso público o terrenos afectados al espacio público."
+  },
+  {
+    "id": "articulo_135_numeral_4",
+    "posicion_representacion": 0,
+    "articulo": "135",
+    "numeral": "4",
+    "seccion": "A",
+    "tipo": "descripcion_principal",
+    "texto_busqueda": "Parcelar, urbanizar, demoler, intervenir o construir en terrenos aptos sin licencia o cuando la licencia haya caducado."
+  },
+  {
+    "id": "articulo_135_numeral_4",
+    "posicion_representacion": 1,
+    "articulo": "135",
+    "numeral": "4",
+    "seccion": "A",
+    "tipo": "descripcion_cotidiana",
+    "texto_busqueda": "Construir o empezar a levantar una casa, vivienda, paredes o edificación en un terreno apto sin haber tramitado u obtenido la licencia o permiso de construcción correspondiente."
+  },
+  {
+    "id": "articulo_135_numeral_5",
+    "posicion_representacion": 0,
+    "articulo": "135",
+    "numeral": "5",
+    "seccion": "B",
+    "tipo": "descripcion_principal",
+    "texto_busqueda": "Demoler un inmueble declarado de conservación o interés cultural, histórico, urbanístico, paisajístico o arquitectónico sin autorización o licencia previa."
+  },
+  {
+    "id": "articulo_135_numeral_6",
+    "posicion_representacion": 0,
+    "articulo": "135",
+    "numeral": "6",
+    "seccion": "B",
+    "tipo": "descripcion_principal",
+    "texto_busqueda": "Intervenir o modificar un inmueble declarado de conservación o interés cultural, histórico, urbanístico, paisajístico o arquitectónico sin la licencia correspondiente."
+  },
+  {
+    "id": "articulo_135_numeral_7",
+    "posicion_representacion": 0,
+    "articulo": "135",
+    "numeral": "7",
+    "seccion": "B",
+    "tipo": "descripcion_principal",
+    "texto_busqueda": "Incumplir las obligaciones de conservación de un inmueble declarado de conservación o interés cultural, histórico, urbanístico, paisajístico o arquitectónico."
+  },
+  {
+    "id": "articulo_135_numeral_7",
+    "posicion_representacion": 1,
+    "articulo": "135",
+    "numeral": "7",
+    "seccion": "B",
+    "tipo": "descripcion_cotidiana",
+    "texto_busqueda": "No cuidar, mantener o conservar adecuadamente un inmueble protegido por su valor histórico, cultural o patrimonial, incumpliendo sus obligaciones de conservación."
+  },
+  {
+    "id": "articulo_135_numeral_8",
+    "posicion_representacion": 0,
+    "articulo": "135",
+    "numeral": "8",
+    "seccion": "B",
+    "tipo": "descripcion_principal",
+    "texto_busqueda": "Realizar acciones o intervenciones que puedan afectar negativamente las características y los valores culturales de un inmueble declarado bien de interés cultural, incluyendo intervenciones estructurales, arquitectónicas, adecuaciones funcionales o actuaciones en sus zonas de influencia."
+  },
+  {
+    "id": "articulo_135_numeral_9",
+    "posicion_representacion": 0,
+    "articulo": "135",
+    "numeral": "9",
+    "seccion": "C",
+    "tipo": "descripcion_principal",
+    "texto_busqueda": "Usar o destinar un inmueble a un uso diferente del señalado en la licencia de construcción."
+  },
+  {
+    "id": "articulo_135_numeral_10",
+    "posicion_representacion": 0,
+    "articulo": "135",
+    "numeral": "10",
+    "seccion": "C",
+    "tipo": "descripcion_principal",
+    "texto_busqueda": "Usar o destinar un inmueble a una ubicación diferente de la señalada en la licencia de construcción."
+  },
+  {
+    "id": "articulo_135_numeral_11",
+    "posicion_representacion": 0,
+    "articulo": "135",
+    "numeral": "11",
+    "seccion": "C",
+    "tipo": "descripcion_principal",
+    "texto_busqueda": "Usar o destinar un inmueble contraviniendo los usos específicos del suelo."
+  },
+  {
+    "id": "articulo_135_numeral_12",
+    "posicion_representacion": 0,
+    "articulo": "135",
+    "numeral": "12",
+    "seccion": "C",
+    "tipo": "descripcion_principal",
+    "texto_busqueda": "Facilitar en cualquier clase de inmueble usos o destinaciones del suelo no autorizados en la licencia de construcción o que desconozcan las normas urbanísticas sobre usos específicos."
+  },
+  {
+    "id": "articulo_135_numeral_13",
+    "posicion_representacion": 0,
+    "articulo": "135",
+    "numeral": "13",
+    "seccion": "D",
+    "tipo": "descripcion_principal",
+    "texto_busqueda": "Incumplir la obligación de destinar un lugar dentro de la construcción para guardar materiales, maquinaria, escombros o residuos, evitando ocupar andenes, vías o espacios públicos circundantes."
+  },
+  {
+    "id": "articulo_135_numeral_14",
+    "posicion_representacion": 0,
+    "articulo": "135",
+    "numeral": "14",
+    "seccion": "D",
+    "tipo": "descripcion_principal",
+    "texto_busqueda": "Incumplir la obligación de proporcionar unidades sanitarias provisionales para trabajadores y visitantes de una obra, o de mantenerlas aseadas cuando no exista otra solución viable, cómoda e higiénica."
+  },
+  {
+    "id": "articulo_135_numeral_15",
+    "posicion_representacion": 0,
+    "articulo": "135",
+    "numeral": "15",
+    "seccion": "D",
+    "tipo": "descripcion_principal",
+    "texto_busqueda": "Incumplir la obligación de instalar protecciones, señalización, semáforos o luces nocturnas en una obra para prevenir accidentes y proteger a quienes transitan."
+  },
+  {
+    "id": "articulo_135_numeral_16",
+    "posicion_representacion": 0,
+    "articulo": "135",
+    "numeral": "16",
+    "seccion": "D",
+    "tipo": "descripcion_principal",
+    "texto_busqueda": "Incumplir la obligación de limpiar las llantas de los vehículos que salen de una obra, permitiendo que arrojen barro o cemento al espacio público."
+  },
+  {
+    "id": "articulo_135_numeral_17",
+    "posicion_representacion": 0,
+    "articulo": "135",
+    "numeral": "17",
+    "seccion": "D",
+    "tipo": "descripcion_principal",
+    "texto_busqueda": "Incumplir la obligación de limpiar inmediatamente el material, cemento o residuos de una obra cuando caigan en el espacio público."
+  },
+  {
+    "id": "articulo_135_numeral_18",
+    "posicion_representacion": 0,
+    "articulo": "135",
+    "numeral": "18",
+    "seccion": "D",
+    "tipo": "descripcion_principal",
+    "texto_busqueda": "Incumplir la obligación de retirar andamios, barreras, escombros y residuos cuando termina una obra, cuando se suspende por más de dos meses o cuando sea necesario por razones de seguridad."
+  },
+  {
+    "id": "articulo_135_numeral_19",
+    "posicion_representacion": 0,
+    "articulo": "135",
+    "numeral": "19",
+    "seccion": "D",
+    "tipo": "descripcion_principal",
+    "texto_busqueda": "Incumplir la obligación de exigir cascos y elementos de seguridad industrial a trabajadores y visitantes de una obra, o de contar con equipos para prevenir incendios y atender emergencias."
+  },
+  {
+    "id": "articulo_135_numeral_20",
+    "posicion_representacion": 0,
+    "articulo": "135",
+    "numeral": "20",
+    "seccion": "D",
+    "tipo": "descripcion_principal",
+    "texto_busqueda": "Incumplir la obligación de tomar medidas para evitar la emisión de partículas en suspensión provenientes de materiales de construcción, demolición o desecho."
+  },
+  {
+    "id": "articulo_135_numeral_21",
+    "posicion_representacion": 0,
+    "articulo": "135",
+    "numeral": "21",
+    "seccion": "D",
+    "tipo": "descripcion_principal",
+    "texto_busqueda": "Incumplir la obligación de aislar obras de construcción cercanas a canales o fuentes de agua para evitar su contaminación, o de implementar las medidas ambientales de prevención y mitigación exigidas."
+  },
+  {
+    "id": "articulo_135_numeral_22",
+    "posicion_representacion": 0,
+    "articulo": "135",
+    "numeral": "22",
+    "seccion": "D",
+    "tipo": "descripcion_principal",
+    "texto_busqueda": "Incumplir la obligación de reparar daños causados por una obra en andenes, vías, espacios públicos o redes de servicios públicos."
+  },
+  {
+    "id": "articulo_135_numeral_23",
+    "posicion_representacion": 0,
+    "articulo": "135",
+    "numeral": "23",
+    "seccion": "D",
+    "tipo": "descripcion_principal",
+    "texto_busqueda": "Incumplir la obligación de reparar daños, averías o perjuicios causados por una obra a bienes colindantes o cercanos."
+  },
+  {
+    "id": "articulo_135_numeral_24",
+    "posicion_representacion": 0,
+    "articulo": "135",
+    "numeral": "24",
+    "seccion": "D",
+    "tipo": "descripcion_principal",
+    "texto_busqueda": "Demoler, construir o reparar obras en zonas residenciales entre las seis de la tarde y las ocho de la mañana, o durante días festivos."
+  },
+  {
+    "id": "articulo_135_numeral_11",
+    "articulo": "135",
+    "numeral": "11",
+    "seccion": "C",
+    "tipo": "descripcion_cotidiana_experimental",
+    "texto_busqueda": "Utilizar un local, vivienda o establecimiento para una actividad comercial o económica que no está permitida en esa zona según las normas de uso del suelo.",
+    "posicion_representacion": 1
+  },
+  {
+    "id": "articulo_135_numeral_12",
+    "articulo": "135",
+    "numeral": "12",
+    "seccion": "C",
+    "tipo": "descripcion_cotidiana_experimental",
+    "texto_busqueda": "Facilitar, prestar, ceder o permitir que otra persona utilice un inmueble para desarrollar usos o actividades no autorizados por la licencia o las normas urbanísticas sobre usos del suelo.",
+    "posicion_representacion": 1
+  }
+]

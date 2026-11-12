@@ -13,7 +13,7 @@ except ImportError:
 class RecuperadorCombinado1801:
     """Recupera candidatos jurídicos desde dos índices FAISS."""
 
-    def __init__(self, modelo=None):
+    def __init__(self, modelo=None, modo_135="original"):
         self.modelo = (
             modelo
             if modelo is not None
@@ -27,7 +27,8 @@ class RecuperadorCombinado1801:
         )
 
         self.estructurado = BuscadorEstructurado135(
-            modelo=self.modelo
+            modelo=self.modelo,
+            modo=modo_135,
         )
 
     def buscar(

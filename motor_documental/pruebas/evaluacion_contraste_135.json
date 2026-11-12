@@ -1,0 +1,42 @@
+[
+  {
+    "id": "COR-01",
+    "numeral_esperado": "9",
+    "pregunta": "Estoy utilizando el inmueble para un uso diferente al señalado en la licencia de construcción."
+  },
+  {
+    "id": "COR-02",
+    "numeral_esperado": "9",
+    "pregunta": "La licencia autoriza un uso residencial, pero el inmueble se utiliza para una actividad comercial diferente."
+  },
+  {
+    "id": "COR-03",
+    "numeral_esperado": "10",
+    "pregunta": "Construí una obra en una ubicación diferente a la señalada en la licencia de construcción."
+  },
+  {
+    "id": "COR-04",
+    "numeral_esperado": "10",
+    "pregunta": "La construcción quedó ubicada en un lugar distinto del autorizado en la licencia."
+  },
+  {
+    "id": "COR-05",
+    "numeral_esperado": "5",
+    "pregunta": "Demolí una edificación sin obtener previamente la autorización o licencia correspondiente."
+  },
+  {
+    "id": "COR-06",
+    "numeral_esperado": "5",
+    "pregunta": "Se está demoliendo una construcción sin contar con la licencia requerida."
+  },
+  {
+    "id": "COR-07",
+    "numeral_esperado": "4",
+    "pregunta": "Realicé una obra en un terreno apto sin contar con la licencia exigida."
+  },
+  {
+    "id": "COR-08",
+    "numeral_esperado": "4",
+    "pregunta": "Ejecuté una actuación urbanística en un terreno apto después de que la licencia correspondiente había caducado."
+  }
+]

@@ -28,3 +28,6 @@ respaldos_desarrollo/
 *_respaldo_25.faiss
 *.log
 .DS_Store
+
+# Índices reconstruidos temporalmente para pruebas
+motor_documental/pruebas/indices_generados_135/
