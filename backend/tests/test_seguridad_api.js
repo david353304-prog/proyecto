@@ -245,3 +245,155 @@ test("La API devuelve HTTP 504 cuando se agota el tiempo", async () => {
         delete require.cache[require.resolve(archivoBackend)];
     }
 });
+
+
+async function probarLimiteSalida(stdout, stderr, estadoEsperado) {
+    const spawnOriginal = cp.spawn;
+    const listenOriginal = http.Server.prototype.listen;
+
+    let servidor = null;
+    let detenido = false;
+
+    try {
+        cp.spawn = () => {
+            const proceso = new EventEmitter();
+
+            proceso.stdout = new PassThrough();
+            proceso.stderr = new PassThrough();
+            proceso.stdin = new PassThrough();
+
+            let cerrado = false;
+
+            const cerrar = codigo => {
+                if (cerrado) return;
+                cerrado = true;
+                setImmediate(() => proceso.emit("close", codigo));
+            };
+
+            proceso.kill = () => {
+                detenido = true;
+                cerrar(null);
+                return true;
+            };
+
+            proceso.stdin.on("finish", () => {
+                setImmediate(() => {
+                    proceso.stdout.write(stdout);
+                    proceso.stderr.write(stderr);
+
+                    proceso.stdout.end();
+                    proceso.stderr.end();
+
+                    cerrar(0);
+                });
+            });
+
+            return proceso;
+        };
+
+        http.Server.prototype.listen = function () {
+            servidor = this;
+            return listenOriginal.call(this, 0, "127.0.0.1");
+        };
+
+        delete require.cache[require.resolve(archivoBackend)];
+        require(archivoBackend);
+
+        await new Promise((resolve, reject) => {
+            if (servidor.listening) return resolve();
+            servidor.once("listening", resolve);
+            servidor.once("error", reject);
+        });
+
+        const respuesta = await fetch(
+            `http://127.0.0.1:${servidor.address().port}/api/chat`,
+            {
+                method: "POST",
+                headers: {
+                    "Content-Type": "application/json"
+                },
+                body: JSON.stringify({
+                    pregunta: "Prueba automatizada de tamaño"
+                }),
+                signal: AbortSignal.timeout(10000)
+            }
+        );
+
+        const datos = await respuesta.json();
+
+        assert.equal(respuesta.status, estadoEsperado);
+
+        if (estadoEsperado === 502) {
+            assert.equal(detenido, true);
+            assert.equal(
+                datos.error,
+                "El motor documental superó el tamaño máximo de salida."
+            );
+        } else {
+            assert.equal(detenido, false);
+            assert.equal(datos.respuesta, "Respuesta válida");
+        }
+
+    } finally {
+        cp.spawn = spawnOriginal;
+        http.Server.prototype.listen = listenOriginal;
+
+        if (servidor) {
+            await new Promise(resolve => servidor.close(resolve));
+        }
+
+        delete require.cache[require.resolve(archivoBackend)];
+    }
+}
+
+test("La API acepta una salida normal de Python", async () => {
+    const salida = JSON.stringify({
+        respuesta: "Respuesta válida"
+    });
+
+    await probarLimiteSalida(salida, "", 200);
+});
+
+test("La API devuelve HTTP 502 si stdout supera 1 MiB", async () => {
+    const limite = 1024 * 1024;
+
+    await probarLimiteSalida(
+        "A".repeat(limite + 1),
+        "",
+        502
+    );
+});
+
+test("La API devuelve HTTP 502 si stderr supera 1 MiB", async () => {
+    const limite = 1024 * 1024;
+
+    const salida = JSON.stringify({
+        respuesta: "Respuesta válida"
+    });
+
+    await probarLimiteSalida(
+        salida,
+        "E".repeat(limite + 1),
+        502
+    );
+});
+
+test("La API acepta stdout exactamente de 1 MiB", async () => {
+    const limite = 1024 * 1024;
+
+    const base = JSON.stringify({
+        respuesta: "Respuesta válida",
+        relleno: ""
+    });
+
+    const salida = JSON.stringify({
+        respuesta: "Respuesta válida",
+        relleno: "X".repeat(
+            limite - Buffer.byteLength(base)
+        )
+    });
+
+    assert.equal(Buffer.byteLength(salida), limite);
+
+    await probarLimiteSalida(salida, "", 200);
+});
