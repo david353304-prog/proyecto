@@ -397,3 +397,122 @@ test("La API acepta stdout exactamente de 1 MiB", async () => {
 
     await probarLimiteSalida(salida, "", 200);
 });
+
+
+async function probarFalloPython(escenario, mensajeEsperado) {
+    const spawnOriginal = cp.spawn;
+    const listenOriginal = http.Server.prototype.listen;
+    const jsonOriginal = require("express").response.json;
+
+    let servidor = null;
+    let respuestasEnviadas = 0;
+
+    try {
+        require("express").response.json = function (...argumentos) {
+            respuestasEnviadas++;
+            return jsonOriginal.apply(this, argumentos);
+        };
+
+        cp.spawn = () => {
+            const proceso = new EventEmitter();
+
+            proceso.stdout = new PassThrough();
+            proceso.stderr = new PassThrough();
+            proceso.stdin = new PassThrough();
+            proceso.kill = () => true;
+
+            proceso.stdin.on("finish", () => {
+                setImmediate(() => {
+                    if (escenario === "error") {
+                        proceso.emit(
+                            "error",
+                            new Error("ENOENT simulado")
+                        );
+                    } else if (escenario === "codigo") {
+                        proceso.stdout.end();
+                        proceso.stderr.end();
+                        proceso.emit("close", 1);
+                    } else if (escenario === "doble") {
+                        proceso.emit(
+                            "error",
+                            new Error("Fallo simulado")
+                        );
+                        proceso.emit("close", 1);
+                    }
+                });
+            });
+
+            return proceso;
+        };
+
+        http.Server.prototype.listen = function () {
+            servidor = this;
+            return listenOriginal.call(this, 0, "127.0.0.1");
+        };
+
+        delete require.cache[require.resolve(archivoBackend)];
+        require(archivoBackend);
+
+        await new Promise((resolve, reject) => {
+            if (servidor.listening) return resolve();
+            servidor.once("listening", resolve);
+            servidor.once("error", reject);
+        });
+
+        const respuesta = await fetch(
+            `http://127.0.0.1:${servidor.address().port}/api/chat`,
+            {
+                method: "POST",
+                headers: {
+                    "Content-Type": "application/json"
+                },
+                body: JSON.stringify({
+                    pregunta: "Prueba de fallo del proceso"
+                }),
+                signal: AbortSignal.timeout(10000)
+            }
+        );
+
+        const datos = await respuesta.json();
+
+        assert.equal(respuesta.status, 500);
+        assert.equal(datos.error, mensajeEsperado);
+        assert.equal(
+            respuestasEnviadas,
+            1,
+            "El backend debe enviar una sola respuesta"
+        );
+
+    } finally {
+        cp.spawn = spawnOriginal;
+        http.Server.prototype.listen = listenOriginal;
+        require("express").response.json = jsonOriginal;
+
+        if (servidor) {
+            await new Promise(resolve => servidor.close(resolve));
+        }
+
+        delete require.cache[require.resolve(archivoBackend)];
+    }
+}
+
+test("La API maneja errores al iniciar Python", async () => {
+    await probarFalloPython(
+        "error",
+        "No fue posible iniciar el motor documental."
+    );
+});
+
+test("La API maneja la terminación anormal de Python", async () => {
+    await probarFalloPython(
+        "codigo",
+        "No fue posible procesar la consulta."
+    );
+});
+
+test("La API evita respuestas duplicadas ante error y close", async () => {
+    await probarFalloPython(
+        "doble",
+        "No fue posible iniciar el motor documental."
+    );
+});
