@@ -31,3 +31,6 @@ respaldos_desarrollo/
 
 # Índices reconstruidos temporalmente para pruebas
 motor_documental/pruebas/indices_generados_135/
+
+# Documentos PDF cargados por usuarios
+/motor_documental/documentos_subidos/
