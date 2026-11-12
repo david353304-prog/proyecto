@@ -6,6 +6,9 @@ faiss-cpu==1.16.0
 numpy==2.5.4
 
 # Embeddings semánticos
+# PyTorch CPU para Python 3.12 en Linux x86_64
+torch @ https://download.pytorch.org/whl/cpu/torch-2.15.0%2Bcpu-cp312-cp312-manylinux_2_28_x86_64.whl
+
 sentence-transformers==6.2.0
 
 # Generación de respuestas mediante Gemini
