@@ -83,7 +83,60 @@ app.post("/api/chat", (req, res) => {
 
         try {
             const respuesta = JSON.parse(salida);
-            return res.json(respuesta);
+
+            if (
+                !respuesta ||
+                typeof respuesta !== "object" ||
+                Array.isArray(respuesta) ||
+                typeof respuesta.respuesta !== "string" ||
+                !respuesta.respuesta.trim()
+            ) {
+                return res.status(500).json({
+                    error: "El motor documental devolvió una respuesta inválida."
+                });
+            }
+
+            const camposPublicos = [
+                "pregunta",
+                "respuesta",
+                "modelo",
+                "total_generales",
+                "total_estructurados"
+            ];
+
+            const salidaPublica = {};
+
+            for (const campo of camposPublicos) {
+                if (Object.prototype.hasOwnProperty.call(respuesta, campo)) {
+                    salidaPublica[campo] = respuesta[campo];
+                }
+            }
+
+            const validacion = respuesta.validacion_documental;
+
+            if (
+                validacion &&
+                typeof validacion === "object" &&
+                !Array.isArray(validacion)
+            ) {
+                salidaPublica.validacion_documental = {
+                    estado: validacion.estado,
+                    advertencias: Array.isArray(validacion.advertencias)
+                        ? validacion.advertencias
+                            .filter(alerta =>
+                                alerta &&
+                                typeof alerta === "object" &&
+                                !Array.isArray(alerta)
+                            )
+                            .map(alerta => ({
+                                tipo: alerta.tipo,
+                                detalle: alerta.detalle
+                            }))
+                        : []
+                };
+            }
+
+            return res.json(salidaPublica);
         } catch {
             return res.status(500).json({
                 error: "El motor documental devolvió una respuesta inválida."
