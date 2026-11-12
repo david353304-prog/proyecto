@@ -218,5 +218,190 @@ class TestNumeralesRAG(unittest.TestCase):
             ["ARTICULO_NO_EN_CONTEXTO"],
         )
 
+
+class TestCorrespondenciaMedidas135(unittest.TestCase):
+
+    CONTEXTO_135 = """
+    === REGISTROS ESTRUCTURADOS ===
+
+    [ESTRUCTURADO 1]
+    Artículo: 135
+    Numeral: 11
+    Sección: C
+    Comportamiento: Contravenir los usos específicos del suelo.
+    Medidas correctivas registradas: Multa especial por infracción urbanística; Suspensión definitiva de la actividad.
+
+    [ESTRUCTURADO 2]
+    Artículo: 135
+    Numeral: 12
+    Sección: C
+    Comportamiento: Facilitar usos del suelo no autorizados.
+    Medidas correctivas registradas: Multa especial por infracción urbanística; Demolición de obra; Construcción, cerramiento, reparación o mantenimiento de inmueble.
+    """
+
+    def setUp(self):
+        self.validador = ValidadorRespuestasRAG()
+
+    def comprobar(self, respuesta, esperadas):
+        resultado = self.validador.validar(
+            respuesta=respuesta,
+            contexto=self.CONTEXTO_135,
+        )
+
+        obtenidas = sorted(
+            advertencia["tipo"]
+            for advertencia in resultado["advertencias"]
+        )
+
+        self.assertEqual(obtenidas, sorted(esperadas))
+
+        estado_esperado = (
+            "REQUIERE_REVISION"
+            if esperadas
+            else "PENDIENTE_VALIDACION"
+        )
+
+        self.assertEqual(
+            resultado["estado"],
+            estado_esperado,
+        )
+
+    def test_numeral_11_suspension_correcta(self):
+        self.comprobar(
+            "El numeral 11 del artículo 135 contempla "
+            "la suspensión definitiva de la actividad.",
+            [],
+        )
+
+    def test_numeral_12_demolicion_correcta(self):
+        self.comprobar(
+            "El numeral 12 del artículo 135 contempla "
+            "la demolición de obra.",
+            [],
+        )
+
+    def test_numeral_11_demolicion_incorrecta(self):
+        self.comprobar(
+            "El numeral 11 del artículo 135 contempla "
+            "la demolición de obra.",
+            ["MEDIDA_NO_CORRESPONDE_NUMERAL"],
+        )
+
+    def test_numeral_12_suspension_incorrecta(self):
+        self.comprobar(
+            "El numeral 12 del artículo 135 contempla "
+            "la suspensión definitiva de la actividad.",
+            ["MEDIDA_NO_CORRESPONDE_NUMERAL"],
+        )
+
+    def test_negacion_correcta(self):
+        self.comprobar(
+            "El numeral 11 del artículo 135 no contempla "
+            "la demolición de obra.",
+            [],
+        )
+
+    def test_comparacion_correcta(self):
+        self.comprobar(
+            "El numeral 11 del artículo 135 contempla "
+            "la suspensión definitiva de la actividad, "
+            "mientras que el numeral 12 del artículo 135 "
+            "contempla la demolición de obra.",
+            [],
+        )
+
+    def test_respuesta_sin_medida(self):
+        self.comprobar(
+            "El numeral 11 del artículo 135 se refiere "
+            "a contravenir los usos específicos del suelo.",
+            [],
+        )
+
+
+    def test_verbo_permite_medida_incorrecta(self):
+        self.comprobar(
+            "El numeral 11 del artículo 135 permite "
+            "la demolición de obra.",
+            ["MEDIDA_NO_CORRESPONDE_NUMERAL"],
+        )
+
+    def test_dos_medidas_segunda_incorrecta(self):
+        self.comprobar(
+            "El numeral 11 del artículo 135 contempla "
+            "la multa especial por infracción urbanística "
+            "y la demolición de obra.",
+            ["MEDIDA_NO_CORRESPONDE_NUMERAL"],
+        )
+
+
+    def test_medida_negada_despues_de_correcta(self):
+        self.comprobar(
+            "El numeral 11 del artículo 135 contempla "
+            "la multa especial por infracción urbanística, "
+            "pero no la demolición de obra.",
+            [],
+        )
+
+    def test_medida_mencionada_como_diferencia(self):
+        self.comprobar(
+            "El numeral 11 del artículo 135 contempla "
+            "la suspensión definitiva de la actividad, "
+            "a diferencia de la demolición de obra.",
+            [],
+        )
+
+
+    def test_negacion_con_adverbio(self):
+        self.comprobar(
+            "El numeral 11 del artículo 135 contempla "
+            "la multa especial por infracción urbanística, "
+            "pero no necesariamente la demolición de obra.",
+            [],
+        )
+
+    def test_negacion_sin_articulo(self):
+        self.comprobar(
+            "El numeral 11 del artículo 135 contempla "
+            "la multa especial por infracción urbanística, "
+            "pero no demolición de obra.",
+            [],
+        )
+
+    def test_comparacion_sin_articulo(self):
+        self.comprobar(
+            "El numeral 11 del artículo 135 contempla "
+            "la suspensión definitiva de la actividad, "
+            "a diferencia de demolición de obra.",
+            [],
+        )
+
+
+
+
+
+
+    def test_atribucion_con_corresponde(self):
+        self.comprobar(
+            "Según el numeral 11 del artículo 135, "
+            "corresponde la demolición de obra.",
+            ["MEDIDA_NO_CORRESPONDE_NUMERAL"],
+        )
+
+    def test_atribucion_con_dispone(self):
+        self.comprobar(
+            "El numeral 11 del artículo 135 dispone "
+            "la demolición de obra.",
+            ["MEDIDA_NO_CORRESPONDE_NUMERAL"],
+        )
+
+    def test_negacion_con_tampoco(self):
+        self.comprobar(
+            "El numeral 11 del artículo 135 contempla "
+            "la multa especial por infracción urbanística, "
+            "pero tampoco la demolición de obra.",
+            [],
+        )
+
+
 if __name__ == "__main__":
     unittest.main()

@@ -306,6 +306,181 @@ class ValidadorRespuestasRAG:
                 ),
             })
 
+
+        # Regla 6: correspondencia entre numeral y medida correctiva.
+        # Solo se evalúan atribuciones explícitas respaldadas por
+        # registros estructurados con medidas identificables.
+
+        medidas_por_numeral = {}
+
+        bloques_estructurados = re.split(
+            r"(?im)^\s*\[ESTRUCTURADO\s+\d+\]\s*$",
+            contexto,
+        )
+
+        for bloque in bloques_estructurados[1:]:
+            campo_articulo_135 = re.search(
+                r"(?im)^\s*Art[ií]culo:\s*(135)\s*$",
+                bloque,
+            )
+            campo_numeral_135 = re.search(
+                r"(?im)^\s*Numeral:\s*(\d+)\s*$",
+                bloque,
+            )
+            campo_medidas_135 = re.search(
+                r"(?im)^\s*Medidas correctivas registradas:\s*([^\n]*)",
+                bloque,
+            )
+
+            if not (
+                campo_articulo_135
+                and campo_numeral_135
+                and campo_medidas_135
+            ):
+                continue
+
+            medidas = {
+                medida.strip().casefold().rstrip(".")
+                for medida in campo_medidas_135.group(1).split(";")
+                if medida.strip()
+            }
+
+            if not medidas:
+                continue
+
+            clave = ("135", campo_numeral_135.group(1))
+
+            if clave in medidas_por_numeral:
+                medidas_por_numeral[clave].update(medidas)
+            else:
+                medidas_por_numeral[clave] = medidas
+
+        catalogo_medidas = set()
+
+        for medidas in medidas_por_numeral.values():
+            catalogo_medidas.update(medidas)
+
+        # Se buscan medidas completas, priorizando las más largas.
+        medidas_ordenadas = sorted(
+            catalogo_medidas,
+            key=len,
+            reverse=True,
+        )
+
+        patron_atribucion_135 = re.compile(
+            r"\bnumeral\s+(\d+)\s+del\s+"
+            r"art[ií]culo\s+135\b"
+            r"(?:\s*,\s*|\s+)"
+            r"(?:contempla|establece|prevé|incluye|permite|"
+            r"dispone|corresponde)\s+"
+            r"(?:la|el|las|los)\s+",
+            re.I,
+        )
+
+        for oracion_135 in re.split(r"(?<=[.!?])\s+", respuesta):
+            atribuciones = list(
+                patron_atribucion_135.finditer(oracion_135)
+            )
+
+            for indice, atribucion in enumerate(atribuciones):
+                numeral_135 = atribucion.group(1)
+                clave = ("135", numeral_135)
+
+                if clave not in medidas_por_numeral:
+                    continue
+
+                # La siguiente atribución marca el límite
+                # de las medidas correspondientes a este numeral.
+                limite = (
+                    atribuciones[indice + 1].start()
+                    if indice + 1 < len(atribuciones)
+                    else len(oracion_135)
+                )
+
+                texto_atribuido = (
+                    oracion_135[atribucion.end():limite]
+                    .strip()
+                    .casefold()
+                )
+
+                if re.match(
+                    r"^(?:no|ninguna|ningún)\b",
+                    texto_atribuido,
+                ):
+                    continue
+
+                medidas_encontradas = []
+
+                for medida in medidas_ordenadas:
+                    patron_medida = (
+                        r"(?<!\w)"
+                        + re.escape(medida)
+                        + r"(?=$|[.,;:]|\s)"
+                    )
+
+                    for coincidencia in re.finditer(
+                        patron_medida,
+                        texto_atribuido,
+                    ):
+                        inicio_medida = coincidencia.start()
+                        fin_medida = coincidencia.end()
+
+                        # Evitar contar medidas superpuestas.
+                        if any(
+                            inicio_medida < fin_anterior
+                            and fin_medida > inicio_anterior
+                            for inicio_anterior, fin_anterior, _
+                            in medidas_encontradas
+                        ):
+                            continue
+
+                        medidas_encontradas.append(
+                            (inicio_medida, fin_medida, medida)
+                        )
+
+                for inicio_medida, _, medida in sorted(
+                    medidas_encontradas
+                ):
+                    if medida in medidas_por_numeral[clave]:
+                        continue
+
+                    # Revisar expresiones que niegan o comparan
+                    # la medida, sin atribuirla al numeral.
+                    texto_previo = texto_atribuido[:inicio_medida]
+
+                    patron_exclusion = (
+                        r"(?:"
+                        r"\b(?:no|tampoco)\s+"
+                        r"(?:necesariamente\s+)?"
+                        r"(?:(?:la|el|las|los)\s+)?"
+                        r"|\ba\s+diferencia\s+de\s+"
+                        r"(?:(?:la|el|las|los)\s+)?"
+                        r"|\ben\s+lugar\s+de\s+"
+                        r"(?:(?:la|el|las|los)\s+)?"
+                        r")$"
+                    )
+
+                    if re.search(
+                        patron_exclusion,
+                        texto_previo,
+                        re.I,
+                    ):
+                        continue
+
+                    advertencias.append({
+                        "tipo": "MEDIDA_NO_CORRESPONDE_NUMERAL",
+                        "detalle": (
+                            f"La respuesta atribuye la medida "
+                            f"'{medida}' al numeral {numeral_135} "
+                            "del artículo 135, pero esa medida "
+                            "no figura entre las registradas "
+                            "para ese numeral en el contexto "
+                            "estructurado recuperado. "
+                            "Se requiere revisión jurídica."
+                        ),
+                        "fragmento": atribucion.group(0) + medida,
+                    })
+
         return {
             "estado": (
                 "REQUIERE_REVISION"
