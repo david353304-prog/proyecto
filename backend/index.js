@@ -186,7 +186,8 @@ app.post("/api/chat", (req, res) => {
                             )
                             .map(alerta => ({
                                 tipo: alerta.tipo,
-                                detalle: alerta.detalle
+                                detalle: alerta.detalle,
+                                fragmento: alerta.fragmento
                             }))
                         : []
                 };

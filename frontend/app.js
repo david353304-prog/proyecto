@@ -231,14 +231,58 @@ function agregarMensaje(texto, tipo, validacion = null) {
             : [];
 
         if (advertencias.length > 0) {
-            const aviso = document.createElement("p");
+            const lista = document.createElement("div");
+            lista.className = "lista-advertencias";
 
-            aviso.textContent =
-                "Esta respuesta presenta advertencias y requiere revisión.";
+            const encabezado = document.createElement("p");
+            encabezado.textContent =
+                "Advertencias de la validación documental:";
 
-            metadatos.appendChild(aviso);
+            lista.appendChild(encabezado);
+
+            advertencias.forEach((alerta) => {
+                if (
+                    !alerta ||
+                    typeof alerta !== "object" ||
+                    Array.isArray(alerta)
+                ) {
+                    return;
+                }
+
+                const elemento = document.createElement("div");
+                elemento.className = "advertencia-individual";
+
+                const tipo = document.createElement("strong");
+                tipo.textContent =
+                    alerta.tipo || "Advertencia documental";
+
+                elemento.appendChild(tipo);
+
+                if (alerta.detalle) {
+                    const detalle = document.createElement("p");
+                    detalle.textContent = alerta.detalle;
+                    elemento.appendChild(detalle);
+                }
+
+                if (
+                    typeof alerta.fragmento === "string" &&
+                    alerta.fragmento.trim()
+                ) {
+                    const etiqueta = document.createElement("p");
+                    etiqueta.textContent = "Fragmento detectado:";
+
+                    const fragmento = document.createElement("blockquote");
+                    fragmento.textContent = alerta.fragmento;
+
+                    elemento.appendChild(etiqueta);
+                    elemento.appendChild(fragmento);
+                }
+
+                lista.appendChild(elemento);
+            });
+
+            metadatos.appendChild(lista);
         }
-
         mensaje.appendChild(metadatos);
     }
 

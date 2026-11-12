@@ -3,11 +3,17 @@ from sentence_transformers import SentenceTransformer
 try:
     from .buscador_general_1801 import BuscadorGeneral1801
     from .buscar_estructurado_135 import BuscadorEstructurado135
-    from .buscador_articulos_clave import buscar_articulos_clave
+    from .buscador_articulos_clave import (
+        buscar_articulos_clave,
+        buscar_referencias_cruzadas,
+    )
 except ImportError:
     from buscador_general_1801 import BuscadorGeneral1801
     from buscar_estructurado_135 import BuscadorEstructurado135
-    from buscador_articulos_clave import buscar_articulos_clave
+    from buscador_articulos_clave import (
+        buscar_articulos_clave,
+        buscar_referencias_cruzadas,
+    )
 
 
 class RecuperadorCombinado1801:
@@ -72,6 +78,33 @@ class RecuperadorCombinado1801:
                 "url_fuente": articulo["url_fuente"],
                 "similitud": 1.0,
                 "origen_recuperacion": "titulo_numero"
+            })
+
+        # Recuperación de artículos citados expresamente
+        # dentro de los artículos encontrados inicialmente.
+        referencias_cruzadas = buscar_referencias_cruzadas(
+            articulos_clave,
+            limite=10
+        )
+
+        for articulo in referencias_cruzadas:
+            identificador = "articulo_" + str(articulo["articulo"])
+
+            if identificador in identificadores:
+                continue
+
+            identificadores.add(identificador)
+
+            resultados_hibridos.append({
+                "id": identificador,
+                "articulo": articulo["articulo"],
+                "titulo": articulo["titulo"],
+                "texto": articulo["texto"],
+                "fuente": articulo["fuente"],
+                "url_fuente": articulo["url_fuente"],
+                "similitud": 0.0,
+                "origen_recuperacion": "referencia_cruzada",
+                "referenciado_por": articulo["referenciado_por"]
             })
 
         for resultado in resultados_generales:

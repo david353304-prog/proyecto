@@ -90,3 +90,127 @@ def buscar_articulos_clave(pregunta, limite=5):
     )
 
     return resultados[:limite]
+
+
+
+def buscar_referencias_cruzadas(articulos_iniciales, limite=10):
+    """
+    Recupera referencias cruzadas pertenecientes a la misma ley
+    del documento de origen.
+
+    Excluye referencias identificadas expresamente como pertenecientes
+    a otras leyes.
+    """
+    if not isinstance(articulos_iniciales, list):
+        raise TypeError("Los artículos iniciales deben ser una lista.")
+
+    if not isinstance(limite, int) or isinstance(limite, bool) or limite < 1:
+        raise ValueError("El límite debe ser un entero positivo.")
+
+    with RUTA_CORPUS.open(encoding="utf-8") as archivo:
+        articulos_corpus = json.load(archivo)
+
+    por_numero = {
+        str(articulo.get("numero", "")).strip().upper(): articulo
+        for articulo in articulos_corpus
+    }
+
+    iniciales = {
+        str(articulo.get("articulo", "")).strip().upper()
+        for articulo in articulos_iniciales
+    }
+
+    referencias = {}
+
+    patron_articulo = re.compile(
+        r"\barticulos?\s+(\d{1,3}[a-z]?)\b",
+        re.I
+    )
+
+    patron_ley = re.compile(
+        r"\bley\s+(\d+)\s+de\s+(\d{4})\b",
+        re.I
+    )
+
+    patron_esta_ley = re.compile(
+        r"\bde\s+(?:la\s+)?(?:esta|presente)\s+ley\b",
+        re.I
+    )
+
+    for inicial in articulos_iniciales:
+
+        numero_origen = str(
+            inicial.get("articulo", "")
+        ).strip().upper()
+
+        texto = normalizar(inicial.get("texto", ""))
+
+        fuente = normalizar(inicial.get("fuente", ""))
+
+        ley_origen_match = patron_ley.search(fuente)
+
+        if not ley_origen_match:
+            continue
+
+        ley_origen = (
+            ley_origen_match.group(1),
+            ley_origen_match.group(2)
+        )
+
+        for coincidencia in patron_articulo.finditer(texto):
+
+            numero_referencia = coincidencia.group(1).upper()
+
+            if numero_referencia in iniciales:
+                continue
+
+            if numero_referencia not in por_numero:
+                continue
+
+            # Examinar únicamente el texto inmediato de la referencia.
+            cola = texto[coincidencia.end():]
+            cola = re.split(r"[,.;:]", cola, maxsplit=1)[0]
+
+            ley_explicita = patron_ley.search(cola)
+
+            if ley_explicita:
+                ley_referencia = (
+                    ley_explicita.group(1),
+                    ley_explicita.group(2)
+                )
+
+            elif patron_esta_ley.search(cola):
+                ley_referencia = ley_origen
+
+            else:
+                # No asumir la pertenencia a una ley sin evidencia.
+                continue
+
+            if ley_referencia != ley_origen:
+                continue
+
+            if numero_referencia in referencias:
+                continue
+
+            documento = por_numero[numero_referencia]
+
+            referencias[numero_referencia] = {
+                "articulo": numero_referencia,
+                "titulo": documento.get("titulo"),
+                "texto": documento.get("texto"),
+                "fuente": documento.get("fuente"),
+                "url_fuente": documento.get("url_fuente"),
+                "puntuacion": 0,
+                "coincidencias": [],
+                "origen_recuperacion": "referencia_cruzada",
+                "referenciado_por": numero_origen,
+                "ley_referencia": (
+                    f"Ley {ley_referencia[0]} de "
+                    f"{ley_referencia[1]}"
+                )
+            }
+
+            if len(referencias) >= limite:
+                return list(referencias.values())
+
+    return list(referencias.values())

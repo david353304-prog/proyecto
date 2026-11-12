@@ -88,7 +88,8 @@ class BuscadorGeneral1801:
                 "texto": fragmento["texto"],
                 "fuente": fragmento["fuente"],
                 "url_fuente": fragmento["url_fuente"],
-                "similitud": float(similitud)
+                "similitud": float(similitud),
+                "posicion_faiss": int(posicion)
             })
 
         return resultados

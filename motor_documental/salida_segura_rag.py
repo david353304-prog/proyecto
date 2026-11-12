@@ -35,6 +35,7 @@ def preparar_salida_publica(resultado):
                 {
                     "tipo": alerta.get("tipo"),
                     "detalle": alerta.get("detalle"),
+                    "fragmento": alerta.get("fragmento"),
                 }
                 for alerta in validacion.get("advertencias", [])
                 if isinstance(alerta, dict)
