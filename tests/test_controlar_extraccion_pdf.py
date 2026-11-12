@@ -264,3 +264,73 @@ class TestControladorExtraccionPDF(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class TestMetadatosVaciosPDF(unittest.TestCase):
+    """Verifica que una extracción exitosa no tenga metadatos vacíos."""
+
+    def test_rechaza_paginas_o_caracteres_en_cero(self):
+        import io
+        import json
+        import tempfile
+        from unittest.mock import patch
+
+        from motor_documental.controlar_extraccion_pdf import (
+            controlar_extraccion_pdf,
+        )
+
+        nombre = "12345678-1234-1234-1234-123456789abc.pdf"
+
+        casos = [
+            (0, 100),
+            (1, 0),
+            (0, 0),
+            (-1, 100),
+            (1, -1),
+            (201, 100),
+            (1, 1000001),
+            (1.5, 100),
+            (1, 10.5),
+            (True, 100),
+            (1, False),
+            ("1", 100),
+            (1, "100"),
+            (None, 100),
+            (1, None),
+        ]
+
+        for paginas, caracteres in casos:
+            with self.subTest(
+                paginas=paginas,
+                caracteres=caracteres,
+            ):
+                respuesta_python = {
+                    "estado": "correcto",
+                    "documento": nombre,
+                    "total_paginas_con_texto": paginas,
+                    "total_caracteres": caracteres,
+                }
+
+                class ProcesoSimulado:
+                    returncode = 0
+
+                def ejecutar_simulado(*args, **kwargs):
+                    salida = kwargs["stdout"]
+                    salida.write(
+                        json.dumps(respuesta_python).encode("utf-8")
+                    )
+                    return ProcesoSimulado()
+
+                with patch(
+                    "motor_documental.controlar_extraccion_pdf.subprocess.run",
+                    side_effect=ejecutar_simulado,
+                ):
+                    resultado = controlar_extraccion_pdf(nombre)
+
+                self.assertEqual(
+                    resultado,
+                    {
+                        "estado": "error",
+                        "codigo": "RESPUESTA_INVALIDA",
+                    },
+                )

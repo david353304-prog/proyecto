@@ -13,7 +13,12 @@ import pymupdf
 
 
 CARPETA_DOCUMENTOS = (
-    Path(__file__).resolve().parent / "documentos_subidos"
+    Path(os.environ["DIRECTORIO_PDF_PRUEBAS"]).resolve()
+    if (
+        os.environ.get("NODE_ENV") == "test"
+        and os.environ.get("DIRECTORIO_PDF_PRUEBAS")
+    )
+    else Path(__file__).resolve().parent / "documentos_subidos"
 )
 
 LIMITE_PDF_BYTES = 10 * 1024 * 1024

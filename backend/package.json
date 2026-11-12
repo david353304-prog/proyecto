@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "node --test --test-concurrency=1 tests/test_seguridad_api.js"
+    "test": "node --test --test-concurrency=1 tests/test_*.js"
   },
   "keywords": [],
   "author": "",

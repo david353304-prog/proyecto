@@ -125,9 +125,9 @@ def controlar_extraccion_pdf(nombre_archivo):
         datos.get("estado") == "correcto"
         and documento == nombre_archivo
         and type(paginas) is int
-        and 0 <= paginas <= 200
+        and 1 <= paginas <= 200
         and type(caracteres) is int
-        and 0 <= caracteres <= 1000000
+        and 1 <= caracteres <= 1000000
     )
 
     if not respuesta_valida:

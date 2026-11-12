@@ -6,14 +6,23 @@ const fs = require("node:fs/promises");
 const express = require("express");
 const multer = require("multer");
 
+const {
+    ejecutarExtraccionPDF
+} = require("./ejecutar_extraccion_pdf.js");
+
 const app = express();
 const PORT = process.env.PORT || 3000;
 
 // Carpeta independiente para los PDF cargados por usuarios.
-const carpetaDocumentosSubidos = path.resolve(
-    __dirname,
-    "../motor_documental/documentos_subidos"
-);
+const carpetaDocumentosSubidos = (
+    process.env.NODE_ENV === "test" &&
+    process.env.DIRECTORIO_PDF_PRUEBAS
+)
+    ? path.resolve(process.env.DIRECTORIO_PDF_PRUEBAS)
+    : path.resolve(
+        __dirname,
+        "../motor_documental/documentos_subidos"
+    );
 
 // Almacenamiento independiente para los PDF cargados.
 const almacenamientoPDF = multer.diskStorage({
@@ -457,13 +466,45 @@ app.post("/upload_pdf/", (req, res) => {
                 });
             }
 
+            // Extrae metadatos del PDF mediante el controlador Python.
+            const extraccion = await ejecutarExtraccionPDF(
+                req.file.filename
+            );
+
+            if (extraccion.estado !== "correcto") {
+                await eliminarArchivoPDF(req.file.path);
+
+                if (extraccion.codigo === "TIEMPO_AGOTADO") {
+                    return res.status(504).json({
+                        error: "La extracción del PDF superó el tiempo permitido."
+                    });
+                }
+
+                if (extraccion.codigo === "EXTRACCION_RECHAZADA") {
+                    return res.status(422).json({
+                        error: "El PDF no contiene texto extraíble válido o fue rechazado."
+                    });
+                }
+
+                return res.status(502).json({
+                    error: "No fue posible extraer el contenido del PDF."
+                });
+            }
+
             return res.status(201).json({
                 estado: "aceptado",
-                mensaje: "Documento PDF recibido y validado correctamente.",
+                mensaje: "Documento PDF recibido, validado y procesado correctamente.",
                 documento: {
                     nombre: req.file.filename,
                     tamano_bytes: req.file.size,
-                    indexado: false
+                    indexado: false,
+                    extraccion: {
+                        estado: "correcto",
+                        total_paginas_con_texto:
+                            extraccion.total_paginas_con_texto,
+                        total_caracteres:
+                            extraccion.total_caracteres
+                    }
                 }
             });
 
