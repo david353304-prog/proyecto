@@ -1,0 +1,697 @@
+{
+  "corpus": "Ley 1801 de 2016",
+  "modelo": "es_core_news_sm",
+  "total_articulos": 249,
+  "articulos_con_texto": 249,
+  "total_tokens": 53943,
+  "total_tipos": 5059,
+  "relacion_tipo_token": 0.0938,
+  "longitud_media_articulo_tokens": 216.64,
+  "frecuencias": [
+    [
+      "de",
+      4980
+    ],
+    [
+      "la",
+      2409
+    ],
+    [
+      "o",
+      1457
+    ],
+    [
+      "el",
+      1391
+    ],
+    [
+      "y",
+      1387
+    ],
+    [
+      "en",
+      1347
+    ],
+    [
+      "las",
+      1024
+    ],
+    [
+      "los",
+      1012
+    ],
+    [
+      "que",
+      928
+    ],
+    [
+      "a",
+      893
+    ],
+    [
+      "por",
+      607
+    ],
+    [
+      "del",
+      562
+    ],
+    [
+      "se",
+      513
+    ],
+    [
+      "para",
+      510
+    ],
+    [
+      "policía",
+      389
+    ],
+    [
+      "con",
+      373
+    ],
+    [
+      "artículo",
+      364
+    ],
+    [
+      "numeral",
+      355
+    ],
+    [
+      "actividad",
+      351
+    ],
+    [
+      "público",
+      334
+    ],
+    [
+      "no",
+      327
+    ],
+    [
+      "multa",
+      326
+    ],
+    [
+      "parágrafo",
+      280
+    ],
+    [
+      "general",
+      275
+    ],
+    [
+      "tipo",
+      259
+    ],
+    [
+      "2",
+      250
+    ],
+    [
+      "comportamientos",
+      248
+    ],
+    [
+      "4",
+      246
+    ],
+    [
+      "al",
+      243
+    ],
+    [
+      "su",
+      237
+    ]
+  ],
+  "lemas_frecuentes": [
+    [
+      "actividad",
+      490
+    ],
+    [
+      "público",
+      448
+    ],
+    [
+      "policía",
+      389
+    ],
+    [
+      "artículo",
+      377
+    ],
+    [
+      "numeral",
+      361
+    ],
+    [
+      "multa",
+      353
+    ],
+    [
+      "autoridad",
+      301
+    ],
+    [
+      "medida",
+      296
+    ],
+    [
+      "comportamiento",
+      288
+    ],
+    [
+      "general",
+      284
+    ],
+    [
+      "parágrafo",
+      280
+    ],
+    [
+      "tipo",
+      264
+    ],
+    [
+      "2",
+      250
+    ],
+    [
+      "4",
+      246
+    ],
+    [
+      "1",
+      231
+    ],
+    [
+      "ley",
+      228
+    ],
+    [
+      "convivencia",
+      226
+    ],
+    [
+      "persona",
+      219
+    ],
+    [
+      "3",
+      206
+    ],
+    [
+      "nacional",
+      203
+    ],
+    [
+      "suspensión",
+      203
+    ],
+    [
+      "lugar",
+      182
+    ],
+    [
+      "bien",
+      146
+    ],
+    [
+      "correctivo",
+      142
+    ],
+    [
+      "complejo",
+      140
+    ],
+    [
+      "temporal",
+      137
+    ],
+    [
+      "aglomeración",
+      134
+    ],
+    [
+      "presente",
+      132
+    ],
+    [
+      "especial",
+      131
+    ],
+    [
+      "siguiente",
+      128
+    ]
+  ],
+  "categorias_pos": {
+    "PROPN": 4733,
+    "NUM": 2392,
+    "NOUN": 13258,
+    "DET": 6973,
+    "ADJ": 5592,
+    "ADP": 9995,
+    "AUX": 852,
+    "CCONJ": 3004,
+    "VERB": 3686,
+    "ADV": 929,
+    "SCONJ": 535,
+    "PRON": 1940,
+    "PUNCT": 8,
+    "INTJ": 1,
+    "SYM": 44,
+    "PART": 1
+  },
+  "entidades_frecuentes": [
+    {
+      "texto": "Policía",
+      "tipo": "PER",
+      "frecuencia": 220
+    },
+    {
+      "texto": "la Ley",
+      "tipo": "LOC",
+      "frecuencia": 89
+    },
+    {
+      "texto": "Suspensión",
+      "tipo": "LOC",
+      "frecuencia": 66
+    },
+    {
+      "texto": "Código",
+      "tipo": "MISC",
+      "frecuencia": 61
+    },
+    {
+      "texto": "PARÁGRAFO 1",
+      "tipo": "MISC",
+      "frecuencia": 61
+    },
+    {
+      "texto": "Sentencia de la Corte Constitucional",
+      "tipo": "MISC",
+      "frecuencia": 58
+    },
+    {
+      "texto": "PARÁGRAFO 2",
+      "tipo": "MISC",
+      "frecuencia": 50
+    },
+    {
+      "texto": "PARÁGRAFO",
+      "tipo": "ORG",
+      "frecuencia": 46
+    },
+    {
+      "texto": "Suspensión",
+      "tipo": "PER",
+      "frecuencia": 43
+    },
+    {
+      "texto": "Policía Nacional",
+      "tipo": "MISC",
+      "frecuencia": 40
+    },
+    {
+      "texto": "Destrucción",
+      "tipo": "PER",
+      "frecuencia": 39
+    },
+    {
+      "texto": "Declarado EXEQUIBLE",
+      "tipo": "MISC",
+      "frecuencia": 39
+    },
+    {
+      "texto": "Multa General",
+      "tipo": "MISC",
+      "frecuencia": 32
+    },
+    {
+      "texto": "PARÁGRAFO 3",
+      "tipo": "MISC",
+      "frecuencia": 32
+    },
+    {
+      "texto": "Sentencia de la Corte Constitucional C-223",
+      "tipo": "MISC",
+      "frecuencia": 30
+    },
+    {
+      "texto": "Declarado INEXEQUIBLE",
+      "tipo": "MISC",
+      "frecuencia": 27
+    },
+    {
+      "texto": "Los siguientes comportamientos",
+      "tipo": "MISC",
+      "frecuencia": 25
+    },
+    {
+      "texto": "PARÁGRAFO 4",
+      "tipo": "MISC",
+      "frecuencia": 21
+    },
+    {
+      "texto": "Art",
+      "tipo": "LOC",
+      "frecuencia": 19
+    },
+    {
+      "texto": "Participación",
+      "tipo": "PER",
+      "frecuencia": 19
+    },
+    {
+      "texto": "Incumplir",
+      "tipo": "LOC",
+      "frecuencia": 17
+    },
+    {
+      "texto": "Numeral 2 Multa General",
+      "tipo": "MISC",
+      "frecuencia": 16
+    },
+    {
+      "texto": "Gobierno nacional",
+      "tipo": "LOC",
+      "frecuencia": 15
+    },
+    {
+      "texto": "Corregido por el Art",
+      "tipo": "ORG",
+      "frecuencia": 15
+    },
+    {
+      "texto": "Decreto 555",
+      "tipo": "MISC",
+      "frecuencia": 15
+    },
+    {
+      "texto": "Art",
+      "tipo": "MISC",
+      "frecuencia": 15
+    },
+    {
+      "texto": "Numeral 3 Multa General",
+      "tipo": "MISC",
+      "frecuencia": 14
+    },
+    {
+      "texto": "Realizar",
+      "tipo": "MISC",
+      "frecuencia": 14
+    },
+    {
+      "texto": "PARÁGRAFO",
+      "tipo": "MISC",
+      "frecuencia": 14
+    },
+    {
+      "texto": "NOTA",
+      "tipo": "ORG",
+      "frecuencia": 14
+    }
+  ],
+  "bigramas_frecuentes": [
+    {
+      "terminos": [
+        "de",
+        "la"
+      ],
+      "frecuencia": 795
+    },
+    {
+      "terminos": [
+        "de",
+        "los"
+      ],
+      "frecuencia": 386
+    },
+    {
+      "terminos": [
+        "en",
+        "el"
+      ],
+      "frecuencia": 315
+    },
+    {
+      "terminos": [
+        "de",
+        "policía"
+      ],
+      "frecuencia": 305
+    },
+    {
+      "terminos": [
+        "a",
+        "la"
+      ],
+      "frecuencia": 288
+    },
+    {
+      "terminos": [
+        "de",
+        "las"
+      ],
+      "frecuencia": 286
+    },
+    {
+      "terminos": [
+        "multa",
+        "general"
+      ],
+      "frecuencia": 236
+    },
+    {
+      "terminos": [
+        "general",
+        "tipo"
+      ],
+      "frecuencia": 226
+    },
+    {
+      "terminos": [
+        "la",
+        "ley"
+      ],
+      "frecuencia": 173
+    },
+    {
+      "terminos": [
+        "de",
+        "actividad"
+      ],
+      "frecuencia": 148
+    },
+    {
+      "terminos": [
+        "las",
+        "autoridades"
+      ],
+      "frecuencia": 142
+    },
+    {
+      "terminos": [
+        "de",
+        "público"
+      ],
+      "frecuencia": 129
+    },
+    {
+      "terminos": [
+        "la",
+        "autoridad"
+      ],
+      "frecuencia": 127
+    },
+    {
+      "terminos": [
+        "tipo",
+        "4"
+      ],
+      "frecuencia": 123
+    },
+    {
+      "terminos": [
+        "en",
+        "la"
+      ],
+      "frecuencia": 122
+    },
+    {
+      "terminos": [
+        "por",
+        "el"
+      ],
+      "frecuencia": 121
+    },
+    {
+      "terminos": [
+        "la",
+        "convivencia"
+      ],
+      "frecuencia": 119
+    },
+    {
+      "terminos": [
+        "medidas",
+        "correctivas"
+      ],
+      "frecuencia": 118
+    },
+    {
+      "terminos": [
+        "sentencia",
+        "de"
+      ],
+      "frecuencia": 118
+    },
+    {
+      "terminos": [
+        "la",
+        "corte"
+      ],
+      "frecuencia": 118
+    },
+    {
+      "terminos": [
+        "suspensión",
+        "temporal"
+      ],
+      "frecuencia": 115
+    },
+    {
+      "terminos": [
+        "temporal",
+        "de"
+      ],
+      "frecuencia": 115
+    },
+    {
+      "terminos": [
+        "corte",
+        "constitucional"
+      ],
+      "frecuencia": 114
+    },
+    {
+      "terminos": [
+        "aglomeraciones",
+        "de"
+      ],
+      "frecuencia": 110
+    },
+    {
+      "terminos": [
+        "para",
+        "la"
+      ],
+      "frecuencia": 99
+    },
+    {
+      "terminos": [
+        "que",
+        "se"
+      ],
+      "frecuencia": 99
+    },
+    {
+      "terminos": [
+        "las",
+        "personas"
+      ],
+      "frecuencia": 98
+    },
+    {
+      "terminos": [
+        "las",
+        "normas"
+      ],
+      "frecuencia": 95
+    },
+    {
+      "terminos": [
+        "mediante",
+        "sentencia"
+      ],
+      "frecuencia": 95
+    },
+    {
+      "terminos": [
+        "para",
+        "el"
+      ],
+      "frecuencia": 93
+    }
+  ],
+  "concordancias_kwic": {
+    "multa": [
+      "rrectivas: COMPORTAMIENTOS MEDIDA CORRECTIVA A APLICAR Numeral 1 Multa General tipo 2 Numeral 2 Amonestación; Participación en programa",
+      "ama comunitario o actividad pedagógica de convivencia. Numeral 3 Multa General tipo 3. Numeral 4 Participación en programa comunitario ",
+      "n en programa comunitario o actividad pedagógica de convivencia; Multa General tipo 2. Numeral 5 Construcción, cerramiento, reparación ",
+      "ateriales de muebles o inmuebles; Destrucción de bien. Numeral 6 Multa General tipo 2; Prohibición de ingreso a actividad que involucra",
+      "público complejas o no complejas; Destrucción de bien. Numeral 7 Multa General tipo 2; Prohibición de ingreso a actividad que involucra"
+    ],
+    "comparendo": [
+      "ención al motivo de policía in situ quedará plasmado en orden de comparendo o en sala de mediación policial, se dejará constancia de todo lo",
+      "o, que admita la imposición de multa general, impondrán orden de comparendo al infractor, evidenciando el hecho. Es deber de toda persona na",
+      "urante los cinco (5) días hábiles siguientes a la expedición del comparendo, se le disminuirá el valor de la multa en un cincuenta (50%) por",
+      " máximo de cinco (5) días hábiles siguientes a la expedición del comparendo, solicitar a la autoridad de policía que se conmute la multa por",
+      "de acuerdo con la aplicación de la multa señalada en la orden de comparendo o con el cumplimiento de la medida de participación en programa "
+    ],
+    "medida correctiva": [
+      "ambién constituya una conducta tipificada en el Código Penal, la medida correctiva a imponer no podrá tener la misma naturaleza que la sanción prev",
+      "plicación de las siguientes medidas correctivas: COMPORTAMIENTOS MEDIDA CORRECTIVA A APLICAR Numeral 1 Multa General tipo 2 Numeral 2 Amonestación;",
+      "aplicación de las siguientes medidas correctivas: COMPORTAMIENTOSMEDIDA CORRECTIVA A APLICAR Numeral 1 Multa General tipo 3; Remoción de bienes, De",
+      "les aplicarán las siguientes medidas correctivas: COMPORTAMIENTOSMEDIDA CORRECTIVAA APLICAR Numeral 1 Multa General tipo 4. Destrucción de bien. Su",
+      "plicación de las siguientes medidas correctivas: COMPORTAMIENTOS MEDIDA CORRECTIVA A APLICAR Numeral 1 Multa General tipo 3; Disolución de reunión "
+    ],
+    "espacio público": [
+      "la comunidad comportamientos que favorezcan la convivencia en el espacio público, áreas comunes, lugares abiertos al público o que siendo privado",
+      "gente. 2. Salvo actos circenses, prender o manipular fuego en el espacio público, lugar abierto al público, sin contar con la autorización del al",
+      " privados: 1. Bienes muebles o inmuebles que se encuentran en el espacio público, en lugar privado abierto al público o utilizados para fines soc",
+      "co, y perturben o afecten la tranquilidad de las personas. 2. En espacio público, lugares abiertos al público, o que siendo privados trasciendan ",
+      "sumir sustancias psicoactivas - incluso la dosis personal- en el espacio público o lugares abiertos al público ubicados dentro del área circundan"
+    ]
+  },
+  "colocaciones_juridicas": {
+    "medida correctiva": 68,
+    "multa general": 235,
+    "autoridad de policía": 50,
+    "espacio público": 62,
+    "orden de comparendo": 13,
+    "comportamientos contrarios a la convivencia": 22
+  },
+  "glosario": {
+    "comparendo": {
+      "explicacion": "Orden relacionada con un procedimiento de policía.",
+      "consulta_coloquial": "Me pusieron un comparendo, ¿qué hago?"
+    },
+    "multa": {
+      "explicacion": "Medida correctiva de carácter económico.",
+      "consulta_coloquial": "¿Cuánto tengo que pagar?"
+    },
+    "medida correctiva": {
+      "explicacion": "Medida contemplada por el Código Nacional de Seguridad y Convivencia Ciudadana.",
+      "consulta_coloquial": "¿Qué me puede pasar si incumplo una norma?"
+    },
+    "espacio público": {
+      "explicacion": "Espacios destinados al uso y disfrute colectivo.",
+      "consulta_coloquial": "¿Puedo hacer esto en la calle o en un parque?"
+    },
+    "autoridad de policía": {
+      "explicacion": "Autoridad con competencias establecidas en el Código.",
+      "consulta_coloquial": "¿Quién puede intervenir o imponer una medida?"
+    }
+  },
+  "limitaciones_ner": "El modelo general de español puede clasificar incorrectamente entidades jurídicas. Sus etiquetas requieren interpretación humana."
+}
