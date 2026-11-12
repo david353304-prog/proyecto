@@ -1,0 +1,15 @@
+# Dependencias principales del chatbot jurídico RAG
+# Entorno de referencia: Python 3.12.3
+
+# Búsqueda vectorial y operaciones numéricas
+faiss-cpu==1.16.0
+numpy==2.5.4
+
+# Embeddings semánticos
+sentence-transformers==6.2.0
+
+# Generación de respuestas mediante Gemini
+google-genai==3.2.0
+
+# Procesamiento de documentos PDF
+pymupdf==2.1
