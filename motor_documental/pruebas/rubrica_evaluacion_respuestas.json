@@ -1,0 +1,38 @@
+{
+  "nombre": "Rúbrica de evaluación de respuestas RAG",
+  "version": "1.0",
+  "total_preguntas": 50,
+  "escala": {
+    "minimo": 0,
+    "maximo": 2
+  },
+  "indicadores": {
+    "exactitud": {
+      "0": "La respuesta contiene errores sustanciales respecto al corpus o no responde correctamente.",
+      "1": "La respuesta es parcialmente correcta, incompleta o contiene imprecisiones.",
+      "2": "La respuesta es correcta y suficientemente completa respecto al corpus consultado."
+    },
+    "fidelidad_contexto": {
+      "0": "Contiene afirmaciones jurídicas importantes sin respaldo documental.",
+      "1": "Parte de las afirmaciones está respaldada, pero existen omisiones o afirmaciones insuficientemente sustentadas.",
+      "2": "Todas las afirmaciones jurídicas relevantes están respaldadas por el contexto utilizado."
+    },
+    "correccion_citas": {
+      "0": "Las citas están ausentes, son incorrectas o no permiten identificar el respaldo.",
+      "1": "Las citas son parcialmente correctas, incompletas o insuficientemente precisas.",
+      "2": "Las citas identifican correctamente los artículos y apartados pertinentes que respaldan las afirmaciones."
+    }
+  },
+  "reglas": [
+    "Cada indicador se evalúa por separado.",
+    "No asignar puntos únicamente por encontrar un artículo en el contexto.",
+    "Comparar las afirmaciones con el texto documental correspondiente.",
+    "Registrar observaciones cuando existan errores u omisiones.",
+    "Mantener la evaluación pendiente cuando falte evidencia suficiente.",
+    "No confundir coincidencia con el corpus con vigencia jurídica actual.",
+    "No modificar la respuesta original generada por el modelo."
+  ],
+  "puntuacion_maxima_por_pregunta": 6,
+  "puntuacion_maxima_banco": 300,
+  "verificacion_vigencia_normativa": "Proceso independiente de esta rúbrica."
+}
