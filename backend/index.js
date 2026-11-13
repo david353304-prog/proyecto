@@ -209,7 +209,7 @@ app.get("/api/estado", (req, res) => {
 
 
 // Recibe preguntas y las envía al motor RAG de Python.
-app.post("/api/chat", (req, res) => {
+app.post("/api/chat", async (req, res) => {
     const pregunta = req.body?.pregunta;
 
     if (typeof pregunta !== "string" || !pregunta.trim()) {
@@ -224,177 +224,140 @@ app.post("/api/chat", (req, res) => {
         });
     }
 
-    const python = path.resolve(__dirname, "../.venv/bin/python");
-    const puente = path.resolve(__dirname, "puente_rag.py");
+    const controlador = new AbortController();
+    const temporizador = setTimeout(() => controlador.abort(), 120000);
 
-    const proceso = spawn(python, [puente], {
-        cwd: path.resolve(__dirname, ".."),
-        env: process.env
-    });
-
-    let salida = "";
-    let errores = "";
-    let finalizado = false;
-    let tiempoAgotado = false;
-    let salidaExcesiva = false;
-
-    const LIMITE_SALIDA_BYTES = 1024 * 1024;
-    let bytesSalida = 0;
-    let bytesErrores = 0;
-
-    const temporizador = setTimeout(() => {
-        tiempoAgotado = true;
-        proceso.kill();
-    }, 120000);
-
-    function controlarSalida(datos, tipo) {
-        if (salidaExcesiva || finalizado) return;
-
-        const bytes = Buffer.byteLength(datos);
-
-        if (tipo === "stdout") {
-            bytesSalida += bytes;
-        } else {
-            bytesErrores += bytes;
-        }
-
-        if (
-            bytesSalida > LIMITE_SALIDA_BYTES ||
-            bytesErrores > LIMITE_SALIDA_BYTES
-        ) {
-            salidaExcesiva = true;
-            proceso.kill();
-            return;
-        }
-
-        if (tipo === "stdout") {
-            salida += datos.toString();
-        } else {
-            errores += datos.toString();
-        }
-    }
-
-    proceso.stdout.on("data", (datos) => {
-        controlarSalida(datos, "stdout");
-    });
-
-    proceso.stderr.on("data", (datos) => {
-        controlarSalida(datos, "stderr");
-    });
-
-    proceso.on("error", () => {
-        clearTimeout(temporizador);
-        if (!finalizado) {
-            finalizado = true;
-            if (salidaExcesiva) {
-                return res.status(502).json({
-                    error: "El motor documental superó el tamaño máximo de salida."
-                });
+    try {
+        const respuestaFastAPI = await fetch(
+            "http://127.0.0.1:8000/consultar",
+            {
+                method: "POST",
+                headers: {
+                    "Content-Type": "application/json"
+                },
+                body: JSON.stringify({
+                    pregunta: pregunta.trim()
+                }),
+                signal: controlador.signal
             }
-            if (tiempoAgotado) {
-                return res.status(504).json({
-                    error: "La consulta superó el tiempo máximo de procesamiento."
-                });
-            }
-            return res.status(500).json({
-                error: "No fue posible iniciar el motor documental."
+        );
+
+        if (!respuestaFastAPI.ok) {
+            return res.status(502).json({
+                error: "El motor documental no pudo procesar la consulta."
             });
         }
-    });
 
-    proceso.on("close", (codigo) => {
-        clearTimeout(temporizador);
+        const LIMITE_SALIDA_BYTES = 1024 * 1024;
+        const longitud = Number(
+            respuestaFastAPI.headers.get("content-length")
+        );
 
-        if (finalizado) return;
-        finalizado = true;
-
-        if (salidaExcesiva) {
+        if (Number.isFinite(longitud) && longitud > LIMITE_SALIDA_BYTES) {
             return res.status(502).json({
                 error: "El motor documental superó el tamaño máximo de salida."
             });
         }
 
-        if (tiempoAgotado) {
+        const fragmentos = [];
+        let bytesSalida = 0;
+
+        for await (const fragmento of respuestaFastAPI.body) {
+            bytesSalida += fragmento.length;
+
+            if (bytesSalida > LIMITE_SALIDA_BYTES) {
+                controlador.abort();
+                return res.status(502).json({
+                    error: "El motor documental superó el tamaño máximo de salida."
+                });
+            }
+
+            fragmentos.push(Buffer.from(fragmento));
+        }
+
+        const salida = Buffer.concat(fragmentos).toString("utf8");
+
+        let respuesta;
+
+        try {
+            respuesta = JSON.parse(salida);
+        } catch {
+            return res.status(500).json({
+                error: "El motor documental devolvió un JSON inválido."
+            });
+        }
+
+        if (
+            !respuesta ||
+            typeof respuesta !== "object" ||
+            Array.isArray(respuesta) ||
+            typeof respuesta.respuesta !== "string" ||
+            !respuesta.respuesta.trim()
+        ) {
+            return res.status(500).json({
+                error: "El motor documental devolvió una respuesta inválida."
+            });
+        }
+
+        const camposPublicos = [
+            "pregunta",
+            "respuesta",
+            "modelo",
+            "total_generales",
+            "total_estructurados"
+        ];
+
+        const salidaPublica = {};
+
+        for (const campo of camposPublicos) {
+            if (Object.prototype.hasOwnProperty.call(respuesta, campo)) {
+                salidaPublica[campo] = respuesta[campo];
+            }
+        }
+
+        const validacion = respuesta.validacion_documental;
+
+        if (
+            validacion &&
+            typeof validacion === "object" &&
+            !Array.isArray(validacion)
+        ) {
+            salidaPublica.validacion_documental = {
+                estado: validacion.estado,
+                advertencias: Array.isArray(validacion.advertencias)
+                    ? validacion.advertencias
+                        .filter(alerta =>
+                            alerta &&
+                            typeof alerta === "object" &&
+                            !Array.isArray(alerta)
+                        )
+                        .map(alerta => ({
+                            tipo: alerta.tipo,
+                            detalle: alerta.detalle,
+                            fragmento: alerta.fragmento
+                        }))
+                    : []
+            };
+        }
+
+        return res.json(salidaPublica);
+
+    } catch (error) {
+        if (error.name === "AbortError") {
             return res.status(504).json({
                 error: "La consulta superó el tiempo máximo de procesamiento."
             });
         }
 
-        if (codigo !== 0) {
-            return res.status(500).json({
-                error: "No fue posible procesar la consulta."
-            });
-        }
+        console.error("Error de comunicación con FastAPI:", error.message);
 
-        try {
-            const respuesta = JSON.parse(salida);
+        return res.status(502).json({
+            error: "No fue posible comunicarse con el motor documental."
+        });
 
-            if (
-                !respuesta ||
-                typeof respuesta !== "object" ||
-                Array.isArray(respuesta) ||
-                typeof respuesta.respuesta !== "string" ||
-                !respuesta.respuesta.trim()
-            ) {
-                return res.status(500).json({
-                    error: "El motor documental devolvió una respuesta inválida."
-                });
-            }
-
-            const camposPublicos = [
-                "pregunta",
-                "respuesta",
-                "modelo",
-                "total_generales",
-                "total_estructurados"
-            ];
-
-            const salidaPublica = {};
-
-            for (const campo of camposPublicos) {
-                if (Object.prototype.hasOwnProperty.call(respuesta, campo)) {
-                    salidaPublica[campo] = respuesta[campo];
-                }
-            }
-
-            const validacion = respuesta.validacion_documental;
-
-            if (
-                validacion &&
-                typeof validacion === "object" &&
-                !Array.isArray(validacion)
-            ) {
-                salidaPublica.validacion_documental = {
-                    estado: validacion.estado,
-                    advertencias: Array.isArray(validacion.advertencias)
-                        ? validacion.advertencias
-                            .filter(alerta =>
-                                alerta &&
-                                typeof alerta === "object" &&
-                                !Array.isArray(alerta)
-                            )
-                            .map(alerta => ({
-                                tipo: alerta.tipo,
-                                detalle: alerta.detalle,
-                                fragmento: alerta.fragmento
-                            }))
-                        : []
-                };
-            }
-
-            return res.json(salidaPublica);
-        } catch {
-            return res.status(500).json({
-                error: "El motor documental devolvió una respuesta inválida."
-            });
-        }
-    });
-
-    proceso.stdin.on("error", () => {});
-
-    proceso.stdin.end(JSON.stringify({
-        pregunta: pregunta.trim()
-    }));
+    } finally {
+        clearTimeout(temporizador);
+    }
 });
 
 

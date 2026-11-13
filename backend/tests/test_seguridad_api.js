@@ -3,37 +3,22 @@
 const test = require("node:test");
 const assert = require("node:assert/strict");
 const http = require("node:http");
-const { EventEmitter } = require("node:events");
-const { PassThrough } = require("node:stream");
-const cp = require("node:child_process");
 const path = require("node:path");
 
 const archivoBackend = path.resolve(__dirname, "../index.js");
+const URL_FASTAPI = "http://127.0.0.1:8000/consultar";
+const LIMITE = 1024 * 1024;
 
-async function probarRespuesta(salidaSimulada) {
-    const spawnOriginal = cp.spawn;
+async function probarAPI(simulacion, pregunta = "Consulta de prueba") {
+    const fetchOriginal = global.fetch;
     const listenOriginal = http.Server.prototype.listen;
-
     let servidor = null;
 
-    cp.spawn = function () {
-        const proceso = new EventEmitter();
-
-        proceso.stdout = new PassThrough();
-        proceso.stderr = new PassThrough();
-        proceso.stdin = new PassThrough();
-
-        proceso.kill = () => true;
-
-        proceso.stdin.on("finish", () => {
-            setImmediate(() => {
-                proceso.stdout.end(salidaSimulada);
-                proceso.stderr.end();
-                proceso.emit("close", 0);
-            });
-        });
-
-        return proceso;
+    global.fetch = async (url, opciones) => {
+        if (url === URL_FASTAPI) {
+            return simulacion(url, opciones);
+        }
+        return fetchOriginal(url, opciones);
     };
 
     http.Server.prototype.listen = function () {
@@ -51,18 +36,12 @@ async function probarRespuesta(salidaSimulada) {
             servidor.once("error", reject);
         });
 
-        const puerto = servidor.address().port;
-
-        const respuesta = await fetch(
-            `http://127.0.0.1:${puerto}/api/chat`,
+        const respuesta = await fetchOriginal(
+            `http://127.0.0.1:${servidor.address().port}/api/chat`,
             {
                 method: "POST",
-                headers: {
-                    "Content-Type": "application/json"
-                },
-                body: JSON.stringify({
-                    pregunta: "Consulta de prueba"
-                }),
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify({ pregunta }),
                 signal: AbortSignal.timeout(10000)
             }
         );
@@ -72,7 +51,7 @@ async function probarRespuesta(salidaSimulada) {
             datos: await respuesta.json()
         };
     } finally {
-        cp.spawn = spawnOriginal;
+        global.fetch = fetchOriginal;
         http.Server.prototype.listen = listenOriginal;
 
         if (servidor) {
@@ -83,8 +62,15 @@ async function probarRespuesta(salidaSimulada) {
     }
 }
 
+function respuestaSimulada(datos, estado = 200) {
+    return new Response(JSON.stringify(datos), {
+        status: estado,
+        headers: { "Content-Type": "application/json" }
+    });
+}
+
 test("La API acepta una respuesta pública válida", async () => {
-    const resultado = await probarRespuesta(JSON.stringify({
+    const resultado = await probarAPI(() => respuestaSimulada({
         pregunta: "Consulta de prueba",
         respuesta: "Respuesta pública",
         validacion_documental: {
@@ -98,24 +84,16 @@ test("La API acepta una respuesta pública válida", async () => {
 });
 
 test("La API rechaza respuestas sin texto público", async () => {
-    const resultado = await probarRespuesta(JSON.stringify({
-        pregunta: "Consulta de prueba",
-        validacion_documental: {
-            estado: "PENDIENTE_VALIDACION",
-            advertencias: []
-        }
+    const resultado = await probarAPI(() => respuestaSimulada({
+        pregunta: "Consulta de prueba"
     }));
 
     assert.equal(resultado.estado, 500);
-    assert.equal(
-        Object.hasOwn(resultado.datos, "respuesta"),
-        false
-    );
+    assert.equal(Object.hasOwn(resultado.datos, "respuesta"), false);
 });
 
 test("La API no expone respuesta_original", async () => {
-    const resultado = await probarRespuesta(JSON.stringify({
-        pregunta: "Consulta de prueba",
+    const resultado = await probarAPI(() => respuestaSimulada({
         respuesta: "Respuesta pública",
         respuesta_original: "CONTENIDO INTERNO",
         validacion_documental: {
@@ -132,255 +110,50 @@ test("La API no expone respuesta_original", async () => {
 });
 
 test("La API rechaza JSON inválido", async () => {
-    const resultado = await probarRespuesta("ESTO NO ES JSON");
+    const resultado = await probarAPI(() => new Response(
+        "ESTO NO ES JSON",
+        { status: 200 }
+    ));
 
     assert.equal(resultado.estado, 500);
     assert.equal(typeof resultado.datos.error, "string");
 });
 
+test("La API rechaza errores HTTP de FastAPI", async () => {
+    const resultado = await probarAPI(() => respuestaSimulada({
+        detail: "Error interno"
+    }, 500));
 
-test("La API devuelve HTTP 504 cuando se agota el tiempo", async () => {
-    const spawnOriginal = cp.spawn;
-    const listenOriginal = http.Server.prototype.listen;
-    const timeoutOriginal = global.setTimeout;
-    const clearOriginal = global.clearTimeout;
-
-    let servidor = null;
-    let temporizadorSimulado = null;
-    let procesoDetenido = false;
-
-    try {
-        cp.spawn = () => {
-            const proceso = new EventEmitter();
-
-            proceso.stdout = new PassThrough();
-            proceso.stderr = new PassThrough();
-            proceso.stdin = new PassThrough();
-
-            proceso.kill = () => {
-                procesoDetenido = true;
-                setImmediate(() => proceso.emit("close", null));
-                return true;
-            };
-
-            return proceso;
-        };
-
-        http.Server.prototype.listen = function () {
-            servidor = this;
-            return listenOriginal.call(this, 0, "127.0.0.1");
-        };
-
-        global.setTimeout = (funcion, tiempo) => {
-            if (tiempo === 120000) {
-                temporizadorSimulado = funcion;
-                return { simulado: true };
-            }
-
-            return timeoutOriginal(funcion, tiempo);
-        };
-
-        global.clearTimeout = identificador => {
-            if (identificador?.simulado) return;
-            return clearOriginal(identificador);
-        };
-
-        delete require.cache[require.resolve(archivoBackend)];
-        require(archivoBackend);
-
-        await new Promise((resolve, reject) => {
-            if (servidor.listening) return resolve();
-            servidor.once("listening", resolve);
-            servidor.once("error", reject);
-        });
-
-        const puerto = servidor.address().port;
-
-        const solicitud = fetch(
-            `http://127.0.0.1:${puerto}/api/chat`,
-            {
-                method: "POST",
-                headers: {
-                    "Content-Type": "application/json"
-                },
-                body: JSON.stringify({
-                    pregunta: "Prueba automatizada de timeout"
-                }),
-                signal: AbortSignal.timeout(10000)
-            }
-        );
-
-        for (let intento = 0; intento < 100; intento++) {
-            if (temporizadorSimulado) break;
-
-            await new Promise(resolve =>
-                timeoutOriginal(resolve, 10)
-            );
-        }
-
-        assert.equal(typeof temporizadorSimulado, "function");
-
-        temporizadorSimulado();
-
-        const respuesta = await solicitud;
-        const datos = await respuesta.json();
-
-        assert.equal(procesoDetenido, true);
-        assert.equal(respuesta.status, 504);
-        assert.equal(
-            datos.error,
-            "La consulta superó el tiempo máximo de procesamiento."
-        );
-
-    } finally {
-        cp.spawn = spawnOriginal;
-        http.Server.prototype.listen = listenOriginal;
-        global.setTimeout = timeoutOriginal;
-        global.clearTimeout = clearOriginal;
-
-        if (servidor) {
-            await new Promise(resolve => servidor.close(resolve));
-        }
-
-        delete require.cache[require.resolve(archivoBackend)];
-    }
+    assert.equal(resultado.estado, 502);
 });
 
-
-async function probarLimiteSalida(stdout, stderr, estadoEsperado) {
-    const spawnOriginal = cp.spawn;
-    const listenOriginal = http.Server.prototype.listen;
-
-    let servidor = null;
-    let detenido = false;
-
-    try {
-        cp.spawn = () => {
-            const proceso = new EventEmitter();
-
-            proceso.stdout = new PassThrough();
-            proceso.stderr = new PassThrough();
-            proceso.stdin = new PassThrough();
-
-            let cerrado = false;
-
-            const cerrar = codigo => {
-                if (cerrado) return;
-                cerrado = true;
-                setImmediate(() => proceso.emit("close", codigo));
-            };
-
-            proceso.kill = () => {
-                detenido = true;
-                cerrar(null);
-                return true;
-            };
-
-            proceso.stdin.on("finish", () => {
-                setImmediate(() => {
-                    proceso.stdout.write(stdout);
-                    proceso.stderr.write(stderr);
-
-                    proceso.stdout.end();
-                    proceso.stderr.end();
-
-                    cerrar(0);
-                });
-            });
-
-            return proceso;
-        };
-
-        http.Server.prototype.listen = function () {
-            servidor = this;
-            return listenOriginal.call(this, 0, "127.0.0.1");
-        };
-
-        delete require.cache[require.resolve(archivoBackend)];
-        require(archivoBackend);
-
-        await new Promise((resolve, reject) => {
-            if (servidor.listening) return resolve();
-            servidor.once("listening", resolve);
-            servidor.once("error", reject);
-        });
-
-        const respuesta = await fetch(
-            `http://127.0.0.1:${servidor.address().port}/api/chat`,
-            {
-                method: "POST",
-                headers: {
-                    "Content-Type": "application/json"
-                },
-                body: JSON.stringify({
-                    pregunta: "Prueba automatizada de tamaño"
-                }),
-                signal: AbortSignal.timeout(10000)
-            }
-        );
-
-        const datos = await respuesta.json();
-
-        assert.equal(respuesta.status, estadoEsperado);
-
-        if (estadoEsperado === 502) {
-            assert.equal(detenido, true);
-            assert.equal(
-                datos.error,
-                "El motor documental superó el tamaño máximo de salida."
-            );
-        } else {
-            assert.equal(detenido, false);
-            assert.equal(datos.respuesta, "Respuesta válida");
-        }
-
-    } finally {
-        cp.spawn = spawnOriginal;
-        http.Server.prototype.listen = listenOriginal;
-
-        if (servidor) {
-            await new Promise(resolve => servidor.close(resolve));
-        }
-
-        delete require.cache[require.resolve(archivoBackend)];
-    }
-}
-
-test("La API acepta una salida normal de Python", async () => {
-    const salida = JSON.stringify({
-        respuesta: "Respuesta válida"
+test("La API maneja fallos de conexión con FastAPI", async () => {
+    const resultado = await probarAPI(() => {
+        throw new Error("ECONNREFUSED simulado");
     });
 
-    await probarLimiteSalida(salida, "", 200);
+    assert.equal(resultado.estado, 502);
 });
 
-test("La API devuelve HTTP 502 si stdout supera 1 MiB", async () => {
-    const limite = 1024 * 1024;
-
-    await probarLimiteSalida(
-        "A".repeat(limite + 1),
-        "",
-        502
-    );
-});
-
-test("La API devuelve HTTP 502 si stderr supera 1 MiB", async () => {
-    const limite = 1024 * 1024;
-
-    const salida = JSON.stringify({
+test("La API acepta una respuesta HTTP normal", async () => {
+    const resultado = await probarAPI(() => respuestaSimulada({
         respuesta: "Respuesta válida"
-    });
+    }));
 
-    await probarLimiteSalida(
-        salida,
-        "E".repeat(limite + 1),
-        502
-    );
+    assert.equal(resultado.estado, 200);
+    assert.equal(resultado.datos.respuesta, "Respuesta válida");
 });
 
-test("La API acepta stdout exactamente de 1 MiB", async () => {
-    const limite = 1024 * 1024;
+test("La API rechaza respuestas superiores a 1 MiB", async () => {
+    const resultado = await probarAPI(() => new Response(
+        "A".repeat(LIMITE + 1),
+        { status: 200 }
+    ));
 
+    assert.equal(resultado.estado, 502);
+});
+
+test("La API acepta una respuesta exactamente de 1 MiB", async () => {
     const base = JSON.stringify({
         respuesta: "Respuesta válida",
         relleno: ""
@@ -389,60 +162,92 @@ test("La API acepta stdout exactamente de 1 MiB", async () => {
     const salida = JSON.stringify({
         respuesta: "Respuesta válida",
         relleno: "X".repeat(
-            limite - Buffer.byteLength(base)
+            LIMITE - Buffer.byteLength(base)
         )
     });
 
-    assert.equal(Buffer.byteLength(salida), limite);
+    assert.equal(Buffer.byteLength(salida), LIMITE);
 
-    await probarLimiteSalida(salida, "", 200);
+    const resultado = await probarAPI(() => new Response(salida, {
+        status: 200
+    }));
+
+    assert.equal(resultado.estado, 200);
+    assert.equal(resultado.datos.respuesta, "Respuesta válida");
 });
 
+test("La API conserva correctamente caracteres UTF-8", async () => {
+    const resultado = await probarAPI(() => respuestaSimulada({
+        respuesta: "Artículo 27: protección y convivencia ciudadana."
+    }));
 
-async function probarFalloPython(escenario, mensajeEsperado) {
-    const spawnOriginal = cp.spawn;
+    assert.equal(resultado.estado, 200);
+    assert.equal(
+        resultado.datos.respuesta,
+        "Artículo 27: protección y convivencia ciudadana."
+    );
+});
+
+test("La API rechaza preguntas vacías", async () => {
+    const resultado = await probarAPI(
+        () => {
+            throw new Error("No debería llamar a FastAPI");
+        },
+        " "
+    );
+
+    assert.equal(resultado.estado, 400);
+});
+
+test("La API rechaza preguntas superiores a 2000 caracteres", async () => {
+    const resultado = await probarAPI(
+        () => {
+            throw new Error("No debería llamar a FastAPI");
+        },
+        "A".repeat(2001)
+    );
+
+    assert.equal(resultado.estado, 400);
+});
+
+test("La API devuelve HTTP 504 cuando FastAPI agota el tiempo", async () => {
+    const fetchOriginal = global.fetch;
+    const setTimeoutOriginal = global.setTimeout;
+    const clearTimeoutOriginal = global.clearTimeout;
     const listenOriginal = http.Server.prototype.listen;
-    const jsonOriginal = require("express").response.json;
 
     let servidor = null;
-    let respuestasEnviadas = 0;
+    let temporizador = null;
+    let llamadaInterrumpida = false;
 
     try {
-        require("express").response.json = function (...argumentos) {
-            respuestasEnviadas++;
-            return jsonOriginal.apply(this, argumentos);
+        global.fetch = (url, opciones) => {
+            if (url !== URL_FASTAPI) {
+                return fetchOriginal(url, opciones);
+            }
+
+            return new Promise((resolve, reject) => {
+                opciones.signal.addEventListener("abort", () => {
+                    llamadaInterrumpida = true;
+                    const error = new Error("Solicitud interrumpida");
+                    error.name = "AbortError";
+                    reject(error);
+                }, { once: true });
+            });
         };
 
-        cp.spawn = () => {
-            const proceso = new EventEmitter();
+        global.setTimeout = (funcion, tiempo, ...argumentos) => {
+            if (tiempo === 120000) {
+                temporizador = funcion;
+                return { simulado: true };
+            }
 
-            proceso.stdout = new PassThrough();
-            proceso.stderr = new PassThrough();
-            proceso.stdin = new PassThrough();
-            proceso.kill = () => true;
+            return setTimeoutOriginal(funcion, tiempo, ...argumentos);
+        };
 
-            proceso.stdin.on("finish", () => {
-                setImmediate(() => {
-                    if (escenario === "error") {
-                        proceso.emit(
-                            "error",
-                            new Error("ENOENT simulado")
-                        );
-                    } else if (escenario === "codigo") {
-                        proceso.stdout.end();
-                        proceso.stderr.end();
-                        proceso.emit("close", 1);
-                    } else if (escenario === "doble") {
-                        proceso.emit(
-                            "error",
-                            new Error("Fallo simulado")
-                        );
-                        proceso.emit("close", 1);
-                    }
-                });
-            });
-
-            return proceso;
+        global.clearTimeout = identificador => {
+            if (identificador?.simulado) return;
+            return clearTimeoutOriginal(identificador);
         };
 
         http.Server.prototype.listen = function () {
@@ -459,34 +264,41 @@ async function probarFalloPython(escenario, mensajeEsperado) {
             servidor.once("error", reject);
         });
 
-        const respuesta = await fetch(
+        const solicitud = fetchOriginal(
             `http://127.0.0.1:${servidor.address().port}/api/chat`,
             {
                 method: "POST",
-                headers: {
-                    "Content-Type": "application/json"
-                },
+                headers: { "Content-Type": "application/json" },
                 body: JSON.stringify({
-                    pregunta: "Prueba de fallo del proceso"
+                    pregunta: "Prueba de timeout HTTP"
                 }),
                 signal: AbortSignal.timeout(10000)
             }
         );
 
+        for (let intento = 0; intento < 100; intento++) {
+            if (temporizador) break;
+            await new Promise(resolve => setTimeoutOriginal(resolve, 10));
+        }
+
+        assert.equal(typeof temporizador, "function");
+
+        temporizador();
+
+        const respuesta = await solicitud;
         const datos = await respuesta.json();
 
-        assert.equal(respuesta.status, 500);
-        assert.equal(datos.error, mensajeEsperado);
+        assert.equal(llamadaInterrumpida, true);
+        assert.equal(respuesta.status, 504);
         assert.equal(
-            respuestasEnviadas,
-            1,
-            "El backend debe enviar una sola respuesta"
+            datos.error,
+            "La consulta superó el tiempo máximo de procesamiento."
         );
-
     } finally {
-        cp.spawn = spawnOriginal;
+        global.fetch = fetchOriginal;
+        global.setTimeout = setTimeoutOriginal;
+        global.clearTimeout = clearTimeoutOriginal;
         http.Server.prototype.listen = listenOriginal;
-        require("express").response.json = jsonOriginal;
 
         if (servidor) {
             await new Promise(resolve => servidor.close(resolve));
@@ -494,25 +306,72 @@ async function probarFalloPython(escenario, mensajeEsperado) {
 
         delete require.cache[require.resolve(archivoBackend)];
     }
-}
-
-test("La API maneja errores al iniciar Python", async () => {
-    await probarFalloPython(
-        "error",
-        "No fue posible iniciar el motor documental."
-    );
 });
 
-test("La API maneja la terminación anormal de Python", async () => {
-    await probarFalloPython(
-        "codigo",
-        "No fue posible procesar la consulta."
+test("La API reconstruye caracteres UTF-8 divididos entre fragmentos", async () => {
+    const texto = "¿Qué señala el artículo 27 sobre la convivencia?";
+    const contenido = Buffer.from(
+        JSON.stringify({ respuesta: texto }),
+        "utf8"
     );
+
+    const posicion = contenido.indexOf(Buffer.from("ñ", "utf8"));
+
+    assert.notEqual(posicion, -1);
+
+    const fragmentos = [
+        contenido.subarray(0, posicion + 1),
+        contenido.subarray(posicion + 1)
+    ];
+
+    const resultado = await probarAPI(() => {
+        const cuerpo = new ReadableStream({
+            start(controlador) {
+                for (const fragmento of fragmentos) {
+                    controlador.enqueue(fragmento);
+                }
+                controlador.close();
+            }
+        });
+
+        return new Response(cuerpo, {
+            status: 200,
+            headers: {
+                "Content-Type": "application/json"
+            }
+        });
+    });
+
+    assert.equal(resultado.estado, 200);
+    assert.equal(resultado.datos.respuesta, texto);
 });
 
-test("La API evita respuestas duplicadas ante error y close", async () => {
-    await probarFalloPython(
-        "doble",
-        "No fue posible iniciar el motor documental."
+test("La API maneja una conexión HTTP interrumpida", async () => {
+    const resultado = await probarAPI(() => {
+        const cuerpo = new ReadableStream({
+            start(controlador) {
+                controlador.enqueue(
+                    Buffer.from('{"respuesta":"Respuesta incompleta')
+                );
+
+                controlador.error(
+                    new Error("Conexión interrumpida simulada")
+                );
+            }
+        });
+
+        return new Response(cuerpo, {
+            status: 200,
+            headers: {
+                "Content-Type": "application/json"
+            }
+        });
+    });
+
+    assert.equal(resultado.estado, 502);
+    assert.equal(typeof resultado.datos.error, "string");
+    assert.equal(
+        Object.hasOwn(resultado.datos, "respuesta"),
+        false
     );
 });

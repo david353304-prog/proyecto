@@ -1,5 +1,7 @@
 from motor_documental.validador_respuestas_rag import ValidadorRespuestasRAG
 import os
+import time
+import logging
 
 from google import genai
 from google.genai import types
@@ -10,6 +12,7 @@ from motor_documental.instrucciones_ia import construir_mensajes
 
 
 MODELO_GEMINI = "gemini-3.1-flash-lite"
+logger = logging.getLogger(__name__)
 
 
 class GeneradorRespuestasRAG:
@@ -35,17 +38,26 @@ class GeneradorRespuestasRAG:
 
         pregunta = pregunta.strip()
 
+        inicio_total = time.perf_counter()
+        inicio_etapa = time.perf_counter()
+
         resultados = self.recuperador.buscar(
             pregunta,
             cantidad_general=5,
             cantidad_estructurada=5
         )
 
+        logger.warning("RAG recuperación: %.2f s", time.perf_counter() - inicio_etapa)
+        inicio_etapa = time.perf_counter()
+
         contexto = preparar_contexto(
             resultados,
             modo_sustitucion_223a=True
         )
         mensajes = construir_mensajes(pregunta, contexto)
+
+        logger.warning("RAG contexto: %.2f s", time.perf_counter() - inicio_etapa)
+        inicio_etapa = time.perf_counter()
 
         respuesta = self.cliente.models.generate_content(
             model=MODELO_GEMINI,
@@ -56,6 +68,9 @@ class GeneradorRespuestasRAG:
                 max_output_tokens=1200
             )
         )
+
+        logger.warning("RAG Gemini: %.2f s", time.perf_counter() - inicio_etapa)
+        inicio_etapa = time.perf_counter()
 
         texto_respuesta = respuesta.text
 
@@ -70,6 +85,9 @@ class GeneradorRespuestasRAG:
             contexto=contexto
         )
 
+
+        logger.warning("RAG validación: %.2f s", time.perf_counter() - inicio_etapa)
+        logger.warning("RAG TOTAL: %.2f s", time.perf_counter() - inicio_total)
 
         respuesta_visible = texto_respuesta
 
