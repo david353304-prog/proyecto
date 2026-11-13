@@ -154,6 +154,56 @@ class ValidadorRespuestasRAG:
                 articulos_contexto.add("223A")
 
 
+        # Referencias cruzadas expresas en documentos recuperados.
+        # No se aceptan números aislados ni menciones de la respuesta
+        # que no estén respaldadas por el texto documental.
+        referencias_cruzadas = set()
+        numerales_cruzados = set()
+
+        for bloque in re.split(
+            r"(?m)^\s*\[(?:GENERAL(?: CONSERVADO)?|ESTRUCTURADO)\s+\d+\]\s*$",
+            contexto,
+        )[1:]:
+            campo_texto = re.search(
+                r"(?m)^[ \\t]*Texto:[ \\t]*(.*)$",
+                bloque,
+            )
+            if not campo_texto:
+                continue
+
+            texto_documental = campo_texto.group(1)
+            resto = bloque[campo_texto.end():]
+
+            for linea in resto.splitlines():
+                if re.match(
+                    r"^[ \\t]*(?:Fuente|URL|Similitud|Artículo|"
+                    r"Numeral|Sección|Medidas correctivas registradas):",
+                    linea,
+                    re.I,
+                ):
+                    break
+                texto_documental += " " + linea.strip()
+
+            for referencia in re.finditer(
+                r"\bart[ií]culo\s+(\d{1,3}[a-z]?)\b",
+                texto_documental,
+                re.I,
+            ):
+                referencias_cruzadas.add(
+                    normalizar_articulo(referencia.group(1))
+                )
+
+            for referencia in re.finditer(
+                r"\bnumeral\s+(\d+)\s+del\s+"
+                r"art[ií]culo\s+(\d{1,3}[a-z]?)\b",
+                texto_documental,
+                re.I,
+            ):
+                numerales_cruzados.add((
+                    normalizar_articulo(referencia.group(2)),
+                    referencia.group(1),
+                ))
+
         articulos_citados = set()
 
         # Identifica referencias directas y enumeraciones consecutivas.
@@ -185,7 +235,9 @@ class ValidadorRespuestasRAG:
 
                 posicion = siguiente.end()
 
-        for articulo in sorted(articulos_citados - articulos_contexto):
+        for articulo in sorted(
+            articulos_citados - articulos_contexto - referencias_cruzadas
+        ):
             advertencias.append({
                 "tipo": "ARTICULO_NO_EN_CONTEXTO",
                 "detalle": (
@@ -337,7 +389,7 @@ class ValidadorRespuestasRAG:
         }
 
         for articulo, numeral in sorted(
-            referencias_numerales - numerales_contexto
+            referencias_numerales - numerales_contexto - numerales_cruzados
         ):
             # La regla 4 informa cuando falta el artículo completo.
             # Esta regla se centra en numerales de artículos presentes.
