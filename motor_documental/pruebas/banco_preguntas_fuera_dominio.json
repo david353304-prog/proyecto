@@ -1,0 +1,18 @@
+[
+  {"id": "FD-001", "pregunta": "¿Cuál es el límite de velocidad en la ciudad según el código de tránsito?", "debe_ser_fuera_de_dominio": true},
+  {"id": "FD-002", "pregunta": "¿Cómo declaro renta y cuánto IVA debo pagar?", "debe_ser_fuera_de_dominio": true},
+  {"id": "FD-003", "pregunta": "¿Me pueden despedir sin justa causa y cuánto me pagan de cesantías?", "debe_ser_fuera_de_dominio": true},
+  {"id": "FD-004", "pregunta": "¿Cuál es la pena por homicidio en Colombia?", "debe_ser_fuera_de_dominio": true},
+  {"id": "FD-005", "pregunta": "¿Cómo tramito un divorcio?", "debe_ser_fuera_de_dominio": true},
+  {"id": "FD-006", "pregunta": "Dame una receta de arepas", "debe_ser_fuera_de_dominio": true},
+  {"id": "FD-007", "pregunta": "¿Cuánto cuesta el SOAT y cuándo vence la tecnomecánica?", "debe_ser_fuera_de_dominio": true},
+  {"id": "FD-008", "pregunta": "¿Qué pico y placa rige hoy en Bogotá?", "debe_ser_fuera_de_dominio": true},
+  {"id": "FD-009", "pregunta": "¿Cómo funciona el bitcoin?", "debe_ser_fuera_de_dominio": true},
+  {"id": "FD-010", "pregunta": "¿Quién ganó el partido de fútbol de ayer?", "debe_ser_fuera_de_dominio": true},
+  {"id": "FD-011", "pregunta": "¿Qué multa tengo por hacer ruido excesivo en mi conjunto?", "debe_ser_fuera_de_dominio": false},
+  {"id": "FD-012", "pregunta": "¿Qué es un comparendo según la Ley 1801 de 2016?", "debe_ser_fuera_de_dominio": false},
+  {"id": "FD-013", "pregunta": "¿Qué establece el artículo 135?", "debe_ser_fuera_de_dominio": false},
+  {"id": "FD-014", "pregunta": "¿Cuánto tiempo tengo para objetar una orden de comparendo de policía?", "debe_ser_fuera_de_dominio": false},
+  {"id": "FD-015", "pregunta": "¿Puedo consumir licor en el espacio público?", "debe_ser_fuera_de_dominio": false},
+  {"id": "FD-016", "pregunta": "¿Qué es una orden de Policía?", "debe_ser_fuera_de_dominio": false}
+]

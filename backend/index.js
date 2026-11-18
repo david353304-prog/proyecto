@@ -2,7 +2,14 @@ const { spawn } = require("node:child_process");
 const path = require("node:path");
 const crypto = require("node:crypto");
 const fs = require("node:fs/promises");
-
+// Carga opcional del archivo .env de la raíz (Node 20.12+); no pisa variables existentes.
+try {
+    if (typeof process.loadEnvFile === "function") {
+        process.loadEnvFile(path.resolve(__dirname, "../.env"));
+    }
+} catch {
+    // Sin .env: se usan las variables del sistema.
+}
 const express = require("express");
 const multer = require("multer");
 
@@ -43,9 +50,9 @@ const almacenamientoPDF = multer.diskStorage({
 const LIMITE_PDF_BYTES = 10 * 1024 * 1024;
 
 // Rutas para ejecutar el validador PDF con el entorno virtual.
-const pythonValidadorPDF = path.resolve(
-    __dirname,
-    "../.venv/bin/python"
+const pythonValidadorPDF = process.env.PYTHON_BIN || path.resolve(
+    __dirname, "../.venv",
+    process.platform === "win32" ? "Scripts/python.exe" : "bin/python"
 );
 
 const scriptValidadorPDF = path.resolve(
@@ -195,8 +202,28 @@ async function eliminarArchivoPDF(rutaArchivo) {
     }
 }
 
+// Política CORS de lista permitida; sin cabeceras permisivas por defecto.
+// Los clientes del mismo origen funcionan sin configurar CORS.
+const origenesPermitidos = new Set(
+    (process.env.CORS_ORIGINS || "")
+        .split(",").map(origen => origen.trim()).filter(Boolean)
+);
+app.use((req, res, next) => {
+    const origen = req.headers.origin;
+    if (origen && origenesPermitidos.has(origen)) {
+        res.setHeader("Access-Control-Allow-Origin", origen);
+        res.setHeader("Vary", "Origin");
+        res.setHeader("Access-Control-Allow-Methods", "GET, POST, OPTIONS");
+        res.setHeader("Access-Control-Allow-Headers", "Content-Type");
+    }
+    if (req.method === "OPTIONS") {
+        return res.sendStatus(origen && origenesPermitidos.has(origen) ? 204 : 403);
+    }
+    next();
+});
+
 // Permite recibir información en formato JSON.
-app.use(express.json());
+app.use(express.json({ limit: "16kb" }));
 
 // Ruta para comprobar que el servidor funciona.
 app.get("/api/estado", (req, res) => {
@@ -300,6 +327,7 @@ app.post("/api/chat", async (req, res) => {
         }
 
         const camposPublicos = [
+            "fuentes_recuperadas",
             "pregunta",
             "respuesta",
             "modelo",
@@ -314,6 +342,22 @@ app.post("/api/chat", async (req, res) => {
                 salidaPublica[campo] = respuesta[campo];
             }
         }
+
+        // Revalidar y acotar los datos documentales del servicio Python.
+        salidaPublica.fuentes_recuperadas = Array.isArray(respuesta.fuentes_recuperadas)
+            ? respuesta.fuentes_recuperadas.slice(0, 8)
+                .filter(f => f && typeof f === "object" &&
+                    !Array.isArray(f) && typeof f.texto === "string")
+                .map(f => ({
+                    articulo: String(f.articulo || "").slice(0, 30),
+                    numeral: String(f.numeral || "").slice(0, 30),
+                    titulo: String(f.titulo || "").slice(0, 160),
+                    texto: f.texto.slice(0, 1200),
+                    url_fuente: typeof f.url_fuente === "string" &&
+                        f.url_fuente.startsWith("https://")
+                        ? f.url_fuente.slice(0, 500) : ""
+                }))
+            : [];
 
         const validacion = respuesta.validacion_documental;
 
@@ -507,3 +551,8 @@ app.use(express.static(carpetaFrontend));
 app.listen(PORT, () => {
     console.log(`Servidor iniciado en el puerto ${PORT}`);
 });
+
+
+
+
+0%

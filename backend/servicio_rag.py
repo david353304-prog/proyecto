@@ -2,6 +2,10 @@
 
 from contextlib import asynccontextmanager
 
+from motor_documental.cargar_entorno import cargar_entorno
+
+cargar_entorno()
+
 from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel, Field
 from starlette.concurrency import run_in_threadpool
