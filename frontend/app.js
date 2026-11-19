@@ -245,6 +245,7 @@ function agregarMensaje(texto, tipo, validacion = null, fuentes = []) {
             FUERA_DE_DOMINIO: "Pregunta fuera del alcance del Código",
             FUERA_DE_ALCANCE: "Pregunta fuera del alcance del Código",
             SIN_RESPALDO: "Sin respaldo documental suficiente",
+            TEXTO_INEXEQUIBLE: "Texto declarado inexequible",
             "NO DISPONIBLE": "Estado de revisión no disponible"
         };
 

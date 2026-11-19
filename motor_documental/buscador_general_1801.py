@@ -36,8 +36,8 @@ class BuscadorGeneral1801:
                 "no coinciden."
             )
 
-    def buscar(self, pregunta, cantidad=5):
-        """Devuelve fragmentos ordenados por similitud."""
+    def buscar(self, pregunta, cantidad=5, articulos_excluidos=()):
+        """Devuelve hasta la cantidad pedida de fragmentos aptos por similitud."""
 
         if not isinstance(pregunta, str) or not pregunta.strip():
             raise ValueError(
@@ -54,6 +54,9 @@ class BuscadorGeneral1801:
             )
 
         cantidad = min(cantidad, self.indice.ntotal)
+        excluidos = set(articulos_excluidos)
+        # Cada fragmento excluido puede ocupar un puesto en la búsqueda FAISS.
+        reserva = sum(str(f["numero_articulo"]) in excluidos for f in self.metadatos)
 
         vector = self.modelo.encode(
             [pregunta],
@@ -68,7 +71,7 @@ class BuscadorGeneral1801:
 
         similitudes, posiciones = self.indice.search(
             vector,
-            cantidad
+            min(cantidad + reserva, self.indice.ntotal)
         )
 
         resultados = []
@@ -80,6 +83,8 @@ class BuscadorGeneral1801:
                 continue
 
             fragmento = self.metadatos[int(posicion)]
+            if str(fragmento["numero_articulo"]) in excluidos:
+                continue
 
             resultados.append({
                 "id": fragmento["id"],
@@ -91,5 +96,7 @@ class BuscadorGeneral1801:
                 "similitud": float(similitud),
                 "posicion_faiss": int(posicion)
             })
+            if len(resultados) == cantidad:
+                break
 
         return resultados

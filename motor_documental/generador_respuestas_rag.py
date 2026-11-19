@@ -10,7 +10,10 @@ from google.genai import types
 from motor_documental.recuperador_combinado_1801 import RecuperadorCombinado1801
 from motor_documental.preparar_contexto_rag import preparar_contexto
 from motor_documental.instrucciones_ia import MARCADOR_SIN_RESPALDO, construir_mensajes
-import re
+from motor_documental.vigencia_rag import (
+    articulos_mencionados, contexto_publicable, corpus_publicable,
+    respuesta_revision_pendiente, respuesta_texto_inexequible,
+)
 
 
 MODELO_GEMINI = "gemini-3.1-flash-lite"
@@ -28,6 +31,17 @@ def respuesta_fuera_dominio(pregunta):
             "validacion_documental": {"estado": "FUERA_DE_DOMINIO", "advertencias": []},
         }
     return None
+
+
+def respuesta_sin_respaldo(pregunta, resultados, modelo=MODELO_GEMINI):
+    return {
+        "pregunta": pregunta,
+        "respuesta": "No encontré respaldo suficiente en los fragmentos de la Ley 1801 de 2016.",
+        "modelo": modelo,
+        "total_generales": resultados["total_generales"],
+        "total_estructurados": resultados["total_estructurados"],
+        "validacion_documental": {"estado": "SIN_RESPALDO", "advertencias": []},
+    }
 
 
 class GeneradorRespuestasRAG:
@@ -57,23 +71,30 @@ class GeneradorRespuestasRAG:
         if fuera:
             return fuera
 
+        aviso = respuesta_texto_inexequible(pregunta) or respuesta_revision_pendiente(pregunta)
+        if aviso:
+            return aviso
+
         inicio_total = time.perf_counter()
         inicio_etapa = time.perf_counter()
 
         resultados = self.recuperador.buscar(
             pregunta,
             cantidad_general=5,
-            cantidad_estructurada=5
+            cantidad_estructurada=5,
+            articulos_permitidos=corpus_publicable().keys(),
         )
+        resultados = contexto_publicable(resultados)
+        if not (resultados["total_generales"] or resultados["total_estructurados"]):
+            return respuesta_sin_respaldo(pregunta, resultados, modelo="verificación documental")
 
         logger.warning("RAG recuperación: %.2f s", time.perf_counter() - inicio_etapa)
         inicio_etapa = time.perf_counter()
 
         contexto = preparar_contexto(
-            resultados,
-            modo_sustitucion_223a=True
+            resultados
         )
-        mensajes = construir_mensajes(pregunta, contexto)
+        mensajes = construir_mensajes(pregunta, contexto, publicable=True)
 
         logger.warning("RAG contexto: %.2f s", time.perf_counter() - inicio_etapa)
         inicio_etapa = time.perf_counter()
@@ -92,18 +113,13 @@ class GeneradorRespuestasRAG:
         inicio_etapa = time.perf_counter()
 
         texto_respuesta = (respuesta.text or "").strip()
+        articulos_citados = articulos_mencionados(texto_respuesta)
         if (
             MARCADOR_SIN_RESPALDO in texto_respuesta
-            or not re.search(r"\b(?:art[ií]culos?|arts?\.)\s*\**\s*\d", texto_respuesta, re.I)
+            or not articulos_citados
+            or not articulos_citados <= {a["articulo"] for a in resultados["resultados_generales"]}
         ):
-            return {
-                "pregunta": pregunta,
-                "respuesta": "No encontré respaldo suficiente en los fragmentos de la Ley 1801 de 2016.",
-                "modelo": MODELO_GEMINI,
-                "total_generales": resultados["total_generales"],
-                "total_estructurados": resultados["total_estructurados"],
-                "validacion_documental": {"estado": "SIN_RESPALDO", "advertencias": []},
-            }
+            return respuesta_sin_respaldo(pregunta, resultados)
 
         validacion_documental = ValidadorRespuestasRAG().validar(
             respuesta=texto_respuesta,

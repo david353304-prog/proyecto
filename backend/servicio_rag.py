@@ -13,6 +13,7 @@ from starlette.concurrency import run_in_threadpool
 
 from motor_documental.generador_respuestas_rag import GeneradorRespuestasRAG, respuesta_fuera_dominio
 from motor_documental.salida_segura_rag import preparar_salida_publica
+from motor_documental.vigencia_rag import respuesta_revision_pendiente, respuesta_texto_inexequible
 
 
 generador = None
@@ -51,9 +52,13 @@ async def consultar(datos: Consulta):
         )
 
     if generador is None:
-        fuera = respuesta_fuera_dominio(datos.pregunta.strip())
-        if fuera:
-            return preparar_salida_publica(fuera)
+        pregunta = datos.pregunta.strip()
+        respuesta = (
+            respuesta_fuera_dominio(pregunta) or respuesta_texto_inexequible(pregunta)
+            or respuesta_revision_pendiente(pregunta)
+        )
+        if respuesta:
+            return preparar_salida_publica(respuesta)
         raise HTTPException(status_code=503, detail="Generación sin configurar.")
 
     try:

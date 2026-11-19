@@ -1,4 +1,5 @@
 from sentence_transformers import SentenceTransformer
+from motor_documental.vigencia_rag import IDENTIFICADORES_INEXEQUIBLES
 
 try:
     from .buscador_general_1801 import BuscadorGeneral1801
@@ -43,46 +44,38 @@ class RecuperadorCombinado1801:
         self,
         pregunta,
         cantidad_general=5,
-        cantidad_estructurada=10
+        cantidad_estructurada=10,
+        articulos_permitidos=None,
     ):
         """Devuelve los dos grupos de resultados sin mezclarlos."""
 
         libro = clasificar_pregunta(pregunta)["libro"]
-        resultados_generales = self.general.buscar(
-            pregunta,
-            cantidad=cantidad_general * 2 if libro else cantidad_general
-        )
-        if libro:
-            # Una coincidencia temática desempata resultados cercanos.
-            resultados_generales.sort(
-                key=lambda r: r["similitud"] + (
-                    0.025 if libro_de_articulo(r["articulo"]) == libro else 0
-                ),
-                reverse=True,
-            )
-        resultados_generales = resultados_generales[:cantidad_general]
-
+        excluidos = IDENTIFICADORES_INEXEQUIBLES
+        if articulos_permitidos is not None:
+            excluidos = excluidos | {
+                str(f["numero_articulo"]) for f in self.general.metadatos
+                if str(f["numero_articulo"]) not in articulos_permitidos
+            }
         # Recuperación complementaria por título y número de artículo.
-        articulos_clave = buscar_articulos_clave(
-            pregunta,
-            limite=3
-        )
+        articulos_clave = [
+            a for a in buscar_articulos_clave(pregunta, limite=3)
+            if str(a["articulo"]) not in excluidos
+        ]
 
         # Los artículos clave se incorporan antes de los fragmentos FAISS.
         # Se conservan las claves y el formato que espera el contexto RAG.
-        identificadores = set()
+        articulos_completos = set()
         resultados_hibridos = []
 
         for articulo in articulos_clave:
-            identificador = "articulo_" + str(articulo["articulo"])
-
-            if identificador in identificadores:
+            numero = str(articulo["articulo"])
+            if numero in articulos_completos:
                 continue
 
-            identificadores.add(identificador)
+            articulos_completos.add(numero)
 
             resultados_hibridos.append({
-                "id": identificador,
+                "id": f"articulo_{numero}",
                 "articulo": articulo["articulo"],
                 "titulo": articulo["titulo"],
                 "texto": articulo["texto"],
@@ -100,15 +93,14 @@ class RecuperadorCombinado1801:
         )
 
         for articulo in referencias_cruzadas:
-            identificador = "articulo_" + str(articulo["articulo"])
-
-            if identificador in identificadores:
+            numero = str(articulo["articulo"])
+            if numero in articulos_completos or numero in excluidos:
                 continue
 
-            identificadores.add(identificador)
+            articulos_completos.add(numero)
 
             resultados_hibridos.append({
-                "id": identificador,
+                "id": f"articulo_{numero}",
                 "articulo": articulo["articulo"],
                 "titulo": articulo["titulo"],
                 "texto": articulo["texto"],
@@ -119,19 +111,21 @@ class RecuperadorCombinado1801:
                 "referenciado_por": articulo["referenciado_por"]
             })
 
-        for resultado in resultados_generales:
-            identificador = "articulo_" + str(
-                resultado.get("articulo", "")
+        resultados_generales = self.general.buscar(
+            pregunta,
+            cantidad=cantidad_general * 2 if libro else cantidad_general,
+            articulos_excluidos=excluidos | articulos_completos,
+        )
+        if libro:
+            resultados_generales.sort(
+                key=lambda r: r["similitud"] + (
+                    0.025 if libro_de_articulo(r["articulo"]) == libro else 0
+                ),
+                reverse=True,
             )
+        resultados_generales = resultados_hibridos + resultados_generales[:cantidad_general]
 
-            if identificador in identificadores:
-                continue
-
-            resultados_hibridos.append(resultado)
-
-        resultados_generales = resultados_hibridos
-
-        resultados_estructurados = self.estructurado.buscar(
+        resultados_estructurados = [] if articulos_permitidos is not None else self.estructurado.buscar(
             pregunta,
             cantidad=cantidad_estructurada
         )

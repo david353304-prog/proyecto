@@ -38,18 +38,23 @@ def clasificar_pregunta(pregunta):
         }
         libro = next((k for k, patron in temas.items() if re.search(patron, texto)), None)
     externo = re.search(
-        r"\b(limite de velocidad|codigo de transito|renta|iva|cesantias|"
-        r"pena por homicidio|divorcio|receta|soat|tecnomecanica|pico y placa|"
+        r"\b(renta|cesantias|pena por homicidio|divorcio|receta|"
         r"bitcoin|partido de futbol)\b", texto
     )
     fuente_externa = re.search(
         r"\b(?:codigo (?:de transito|penal|sustantivo del trabajo)|"
-        r"(?:multa|comparendo) de transito|estatuto tributario)\b", texto
+        r"(?:multas?|comparendos?) (?:de transito|por (?:exceso de velocidad|"
+        r"pasar(?:se)? (?:un|el) semaforo en rojo|pico y placa))|"
+        r"limite de velocidad|exceder (?:el limite de velocidad|la velocidad(?: permitida)?)|"
+        r"soat|tecnomecanica|pico y placa|"
+        r"estatuto tributario|impuesto (?:(?:de|sobre la) renta|predial)|"
+        r"multas? (?:de|por) (?:la )?renta|"
+        r"declar(?:ar|acion de) (?:la )?renta|"
+        r"iva|dian)\b", texto
     )
-    ley_1801 = re.search(r"\bley\s+1801\b", texto)
     return {
         "libro": libro,
-        "fuera_de_dominio": bool((fuente_externa and not ley_1801) or (externo and not libro)),
+        "fuera_de_dominio": bool(fuente_externa or (externo and not libro)),
     }
 
 
