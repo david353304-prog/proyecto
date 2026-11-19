@@ -1,181 +1,81 @@
-# Chatbot jurídico RAG — Ley 1801 de 2016
+# Chatbot jurídico RAG de la Ley 1801 de 2016
 
-Proyecto de asistente jurídico basado en la Ley 1801 de 2016
-(Código Nacional de Seguridad y Convivencia Ciudadana de Colombia).
-
-El sistema utiliza recuperación de información documental (RAG)
-para apoyar la generación de respuestas relacionadas con la norma.
-
-> **Advertencia:** Este proyecto está en desarrollo. Sus respuestas
-> deben contrastarse con el texto legal vigente y no sustituyen
-> el asesoramiento de un profesional del derecho.
-
-## 1. Arquitectura
-
-El sistema está compuesto por:
-
-- **Frontend:** interfaz web desarrollada con HTML, CSS y JavaScript.
-- **Backend:** servidor Node.js con Express.
-- **Puente Python:** comunicación entre la API y el motor documental.
-- **Motor RAG:** recuperación documental y generación de respuestas.
-- **FAISS:** búsqueda vectorial.
-- **Sentence Transformers:** generación de representaciones semánticas.
-- **Gemini:** modelo de lenguaje utilizado para generar respuestas.
-- **Validación documental:** controles sobre la información recuperada.
-
-Flujo general:
+Prototipo académico de consulta documental sobre el Código Nacional de Seguridad y Convivencia Ciudadana de Colombia. La interfaz presenta el historial de la conversación actual y permite desplegar fragmentos y fuentes. Las respuestas requieren verificación normativa y revisión jurídica.
 
 ```text
-Usuario
-   |
-Frontend
-   |
-POST /api/chat
-   |
-Backend Node.js
-   |
-Puente Python
-   |
-Motor documental RAG
-   |
-Respuesta pública
-   |
-Frontend
+Navegador → Express → FastAPI → FAISS → Gemini → validación documental
+              ↳ carga de PDFs → validación y extracción aisladas
 ```
 
-## 2. Requisitos
+## Instalación y ejecución
 
-Entorno de referencia utilizado durante el desarrollo:
+Usa Python 3.12 y Node.js 22 o posterior. Ejecuta desde la raíz del repositorio.
 
-- Python 3.12.3.
-- Node.js.
-- npm.
-- Acceso a las dependencias indicadas en `requirements.txt`.
-- Credencial válida de Gemini para consultas reales al modelo.
-
-El backend utiliza actualmente el intérprete Python ubicado en
-`.venv/bin/python`. Por tanto, se debe crear el entorno virtual
-con ese nombre en la raíz del repositorio.
-
-## 3. Instalación de Python
-
-Desde la raíz del proyecto:
+**Linux**
 
 ```bash
-python3 -m venv .venv
-.venv/bin/python -m pip install -r requirements.txt
+python3.12 -m venv .venv
+. .venv/bin/activate
+python -m pip install -r requirements.txt
+npm --prefix backend ci
 ```
 
-Las versiones de `requirements.txt` corresponden al entorno
-de desarrollo inspeccionado. La instalación desde cero
-todavía requiere una prueba independiente.
+**Windows PowerShell**
 
-## 4. Instalación de Node.js
-
-Desde la raíz del proyecto:
-
-```bash
-cd backend
-npm ci
+```powershell
+py -3.12 -m venv .venv
+.\.venv\Scripts\python.exe -m pip install -r requirements.txt
+npm.cmd --prefix backend ci
 ```
 
-El backend utiliza Express y cuenta con `package-lock.json`.
+Los comandos Python siguientes suponen el entorno virtual activo. En PowerShell puedes reemplazar `python` por `.\.venv\Scripts\python.exe`. La primera carga del modelo multilingüe requiere acceso a Hugging Face o una caché precargada.
 
-## 5. Configuración
+Configura `GEMINI_API_KEY` en el entorno de FastAPI o en el `.env`
+local a partir de `.env.example`. `PORT` cambia el puerto de Node,
+que por defecto es 3000. `CORS_ORIGINS` admite orígenes exactos
+separados por comas. Con el valor vacío, la interfaz funciona
+desde el mismo origen.
 
-El archivo `.env.example` documenta las variables utilizadas:
-
-- `GEMINI_API_KEY`: credencial para acceder a Gemini.
-- `PORT`: puerto del servidor; por defecto, `3000`.
-
-La clave real debe configurarse como variable de entorno
-o mediante los secretos de GitHub Codespaces.
-
-No se deben publicar claves API ni credenciales reales.
-
-**Nota:** `.env.example` es una referencia de configuración;
-su presencia no implica que el servidor cargue automáticamente
-un archivo `.env`.
-
-## 6. Ejecución del chatbot
-
-Desde la raíz del proyecto:
+En dos terminales, desde la raíz:
 
 ```bash
+python -m uvicorn backend.servicio_rag:app --host 127.0.0.1 --port 8000
 node backend/index.js
 ```
 
-El servidor utiliza el puerto `3000` de forma predeterminada,
-salvo que se configure otro mediante `PORT`.
+Abre `http://127.0.0.1:3000`. Sin credencial, FastAPI responde a los
+rechazos reconocidos por el clasificador y devuelve HTTP 503 para
+consultas que requieren generación. El servicio interno documenta sus
+rutas en `http://127.0.0.1:8000/docs`.
 
-En un entorno local, la interfaz puede abrirse en:
+## API pública
 
-```text
-http://localhost:3000
-```
-
-En GitHub Codespaces, utilizar la URL correspondiente
-al puerto reenviado.
-
-### Rutas de la API
-
-- `GET /api/estado`: consulta del estado del servidor.
-- `POST /api/chat`: envío de preguntas al motor documental.
-
-El frontend se sirve desde la carpeta `frontend/`.
-
-## 7. Pruebas automatizadas
-
-### Validador jurídico
-
-Desde la raíz del proyecto:
+| Ruta | Solicitud | Respuesta |
+|---|---|---|
+| `GET /api/estado` | Sin cuerpo | HTTP 200 con estado del servidor Node. |
+| `POST /api/chat` | JSON con `pregunta` de 1 a 2000 caracteres tras recortar blancos. | HTTP 200 con `respuesta`, `fuentes_recuperadas` y, cuando corresponde, `validacion_documental`. HTTP 400 para pregunta inválida, 502 para error del motor, 503 para generación indisponible y 504 para tiempo agotado. |
+| `POST /upload_pdf/` | Multipart con un archivo en el campo `documento`. Límite de 10 MiB. | HTTP 201 con nombre, tamaño, conteo de páginas con texto, caracteres e `indexado: false`. HTTP 400 para carga inválida, 413 para tamaño excedido y 422 si la validación o la extracción rechazan el PDF. |
 
 ```bash
-.venv/bin/python -m unittest discover -s tests -p "test_*.py" -q
+curl -H 'Content-Type: application/json' -d '{"pregunta":"¿Qué es un comparendo?"}' http://127.0.0.1:3000/api/chat
+curl -F 'documento=@documento.pdf' http://127.0.0.1:3000/upload_pdf/
 ```
 
-### Selector documental
+La carga de PDF tiene un directorio independiente y realiza validación y extracción local. El índice de recuperación se prepara de forma independiente y conserva el corpus de la Ley 1801.
+
+## Pruebas y evaluación
 
 ```bash
-.venv/bin/python -m unittest discover -s motor_documental/pruebas -p "test_*.py" -q
+python -m unittest discover -s tests
+python -m unittest discover -s motor_documental/pruebas -p "test_*.py"
+npm --prefix backend test
+python -m motor_documental.analisis.analisis_linguistico_corpus
+python -m motor_documental.pruebas.comparar_recuperacion --salida comparacion.json
+python -m motor_documental.pruebas.evaluar_api --salida evaluacion_http.json
 ```
 
-### Seguridad HTTP
+Ejecuta la evaluación HTTP con ambos servidores activos. Con credencial, conserva las respuestas observadas, los tiempos y los artículos esperados para revisión con la escala de `motor_documental/pruebas/rubrica_evaluacion_respuestas.json`. El indicador de diez segundos se mide en consultas HTTP exitosas del banco. Los rechazos fuera de dominio se reportan por separado.
 
-```bash
-cd backend
-npm test
-```
-
-En la última regresión completa registrada durante
-el desarrollo aprobaron 55 pruebas:
-
-- 38 del validador jurídico.
-- 5 del selector documental.
-- 12 de seguridad HTTP.
-
-Estas pruebas no sustituyen una evaluación integral
-con consultas reales a Gemini.
-
-## 8. Estado y limitaciones
-
-El proyecto continúa en desarrollo.
-
-Pendiente de verificar o completar:
-
-- Instalación reproducible en un entorno limpio.
-- Integración completa entre frontend, backend y motor RAG.
-- Pruebas reales de generación con Gemini.
-- Evaluación de precisión jurídica y citas normativas.
-- Revisión final de la experiencia de usuario.
-- Preparación para despliegue y operación.
-
-## 9. Seguridad
-
-El backend incorpora controles sobre las solicitudes,
-el procesamiento del motor Python y la respuesta pública.
-
-Las pruebas HTTP incluyen escenarios de error,
-tiempo de espera y límites de salida del proceso Python.
-
-No se deben almacenar credenciales reales en Git.
+Consulta la [matriz de revisión](documentacion/revision_entrega.md), el
+[contraste normativo](documentacion/documentacion_corpus.md) y el
+[informe lingüístico](documentacion/informe_analisis_linguistico.md).
