@@ -14,5 +14,8 @@
   {"id": "FD-013", "pregunta": "¿Qué establece el artículo 135?", "debe_ser_fuera_de_dominio": false},
   {"id": "FD-014", "pregunta": "¿Cuánto tiempo tengo para objetar una orden de comparendo de policía?", "debe_ser_fuera_de_dominio": false},
   {"id": "FD-015", "pregunta": "¿Puedo consumir licor en el espacio público?", "debe_ser_fuera_de_dominio": false},
-  {"id": "FD-016", "pregunta": "¿Qué es una orden de Policía?", "debe_ser_fuera_de_dominio": false}
+  {"id": "FD-016", "pregunta": "¿Qué es una orden de Policía?", "debe_ser_fuera_de_dominio": false},
+  {"id": "FD-017", "pregunta": "¿Qué dice el artículo 135 del Código de Tránsito sobre una multa?", "debe_ser_fuera_de_dominio": true},
+  {"id": "FD-018", "pregunta": "¿Qué procedimiento aplica a un comparendo de tránsito?", "debe_ser_fuera_de_dominio": true},
+  {"id": "FD-019", "pregunta": "¿Cuál es la multa por incumplir el Estatuto Tributario?", "debe_ser_fuera_de_dominio": true}
 ]

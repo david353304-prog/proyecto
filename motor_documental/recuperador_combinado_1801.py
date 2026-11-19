@@ -3,6 +3,7 @@ from sentence_transformers import SentenceTransformer
 try:
     from .buscador_general_1801 import BuscadorGeneral1801
     from .buscar_estructurado_135 import BuscadorEstructurado135
+    from .clasificador_tematico import clasificar_pregunta, libro_de_articulo
     from .buscador_articulos_clave import (
         buscar_articulos_clave,
         buscar_referencias_cruzadas,
@@ -10,13 +11,11 @@ try:
 except ImportError:
     from buscador_general_1801 import BuscadorGeneral1801
     from buscar_estructurado_135 import BuscadorEstructurado135
+    from clasificador_tematico import clasificar_pregunta, libro_de_articulo
     from buscador_articulos_clave import (
         buscar_articulos_clave,
         buscar_referencias_cruzadas,
     )
-
-
-from motor_documental.clasificador_tematico import clasificar_pregunta, orientar_por_libro
 
 
 class RecuperadorCombinado1801:
@@ -48,10 +47,20 @@ class RecuperadorCombinado1801:
     ):
         """Devuelve los dos grupos de resultados sin mezclarlos."""
 
+        libro = clasificar_pregunta(pregunta)["libro"]
         resultados_generales = self.general.buscar(
             pregunta,
-            cantidad=cantidad_general
+            cantidad=cantidad_general * 2 if libro else cantidad_general
         )
+        if libro:
+            # Una coincidencia temática desempata resultados cercanos.
+            resultados_generales.sort(
+                key=lambda r: r["similitud"] + (
+                    0.025 if libro_de_articulo(r["articulo"]) == libro else 0
+                ),
+                reverse=True,
+            )
+        resultados_generales = resultados_generales[:cantidad_general]
 
         # Recuperación complementaria por título y número de artículo.
         articulos_clave = buscar_articulos_clave(
@@ -120,8 +129,7 @@ class RecuperadorCombinado1801:
 
             resultados_hibridos.append(resultado)
 
-        clasificacion = clasificar_pregunta(pregunta)
-        resultados_generales = orientar_por_libro(resultados_hibridos, clasificacion["libro"])
+        resultados_generales = resultados_hibridos
 
         resultados_estructurados = self.estructurado.buscar(
             pregunta,

@@ -9,11 +9,25 @@ from google.genai import types
 
 from motor_documental.recuperador_combinado_1801 import RecuperadorCombinado1801
 from motor_documental.preparar_contexto_rag import preparar_contexto
-from motor_documental.instrucciones_ia import construir_mensajes
+from motor_documental.instrucciones_ia import MARCADOR_SIN_RESPALDO, construir_mensajes
+import re
 
 
 MODELO_GEMINI = "gemini-3.1-flash-lite"
 logger = logging.getLogger(__name__)
+
+
+def respuesta_fuera_dominio(pregunta):
+    if clasificar_pregunta(pregunta)["fuera_de_dominio"]:
+        return {
+            "pregunta": pregunta,
+            "respuesta": "La información solicitada queda fuera del corpus de la Ley 1801 de 2016.",
+            "modelo": "clasificador temático",
+            "total_generales": 0,
+            "total_estructurados": 0,
+            "validacion_documental": {"estado": "FUERA_DE_DOMINIO", "advertencias": []},
+        }
+    return None
 
 
 class GeneradorRespuestasRAG:
@@ -39,15 +53,9 @@ class GeneradorRespuestasRAG:
 
         pregunta = pregunta.strip()
 
-        if clasificar_pregunta(pregunta)["fuera_de_dominio"]:
-            return {
-                "pregunta": pregunta,
-                "respuesta": "La información solicitada queda fuera del corpus de la Ley 1801 de 2016.",
-                "modelo": "clasificador temático",
-                "total_generales": 0,
-                "total_estructurados": 0,
-                "validacion_documental": {"estado": "FUERA_DE_DOMINIO", "advertencias": []},
-            }
+        fuera = respuesta_fuera_dominio(pregunta)
+        if fuera:
+            return fuera
 
         inicio_total = time.perf_counter()
         inicio_etapa = time.perf_counter()
@@ -83,13 +91,19 @@ class GeneradorRespuestasRAG:
         logger.warning("RAG Gemini: %.2f s", time.perf_counter() - inicio_etapa)
         inicio_etapa = time.perf_counter()
 
-        texto_respuesta = respuesta.text
-
-        if not texto_respuesta:
-            texto_respuesta = (
-                "No fue posible generar una respuesta "
-                "con la información disponible."
-            )
+        texto_respuesta = (respuesta.text or "").strip()
+        if (
+            MARCADOR_SIN_RESPALDO in texto_respuesta
+            or not re.search(r"\b(?:art[ií]culos?|arts?\.)\s*\**\s*\d", texto_respuesta, re.I)
+        ):
+            return {
+                "pregunta": pregunta,
+                "respuesta": "No encontré respaldo suficiente en los fragmentos de la Ley 1801 de 2016.",
+                "modelo": MODELO_GEMINI,
+                "total_generales": resultados["total_generales"],
+                "total_estructurados": resultados["total_estructurados"],
+                "validacion_documental": {"estado": "SIN_RESPALDO", "advertencias": []},
+            }
 
         validacion_documental = ValidadorRespuestasRAG().validar(
             respuesta=texto_respuesta,

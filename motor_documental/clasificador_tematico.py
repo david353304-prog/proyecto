@@ -42,7 +42,15 @@ def clasificar_pregunta(pregunta):
         r"pena por homicidio|divorcio|receta|soat|tecnomecanica|pico y placa|"
         r"bitcoin|partido de futbol)\b", texto
     )
-    return {"libro": libro, "fuera_de_dominio": bool(externo and not libro)}
+    fuente_externa = re.search(
+        r"\b(?:codigo (?:de transito|penal|sustantivo del trabajo)|"
+        r"(?:multa|comparendo) de transito|estatuto tributario)\b", texto
+    )
+    ley_1801 = re.search(r"\bley\s+1801\b", texto)
+    return {
+        "libro": libro,
+        "fuera_de_dominio": bool((fuente_externa and not ley_1801) or (externo and not libro)),
+    }
 
 
 def orientar_por_libro(resultados, libro):
