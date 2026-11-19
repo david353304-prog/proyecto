@@ -34,11 +34,11 @@ expediente de un solo caso.
 
 | Requisito | Estado | Evidencia, pruebas y resultado | Pendiente |
 |---|---|---|---|
-| Corpus jurídico | Parcial, con alcance público de cinco artículos | [Fuente y metodología](documentacion_corpus.md), [JSON segmentado](../motor_documental/corpus/referencia_normativa.json), [expediente](../motor_documental/corpus/conciliacion_diferencias.json). Las 159 diferencias se desglosan en 650 bloques con fuente, fecha y ubicación. Se añadieron diez enlaces de reforma con apartado y el resolutivo C-223/17 para los textos originales afectados. | Cerrar las diferencias sustantivas y el alcance de cada sentencia, validar tablas y marcas editoriales y verificar aplicabilidad por apartado antes de ampliar el alcance. |
+| Corpus jurídico | Parcial, con 18 artículos total o parcialmente habilitados | [Selección](../motor_documental/corpus/ampliacion_publicable.json), [cotejo por bloque](../motor_documental/corpus/evidencia_ampliacion.json), [expediente](../motor_documental/corpus/conciliacion_diferencias.json). Se habilitaron 39 bloques adicionales y se conservaron los originales de archivo. | Cerrar diferencias sustantivas, revisar reformas y fallos aplicables a los apartados pendientes y validar tablas y notas editoriales. |
 | Análisis lingüístico | Ejecutado sobre el corpus histórico | [Informe](informe_analisis_linguistico.md), [resultados reproducibles](../motor_documental/analisis/resultados_linguisticos.json). spaCy en español procesó 249 artículos, 53.943 tokens y 5.059 tipos. Relación tipo/token 0,0938 y media 216,64. Se generaron entidades, colocaciones PMI, KWIC, glosario y frecuencias. | Validar una muestra etiquetada a mano para estimar la calidad de las entidades y repetir sobre el corpus conciliado. |
-| Recuperación y RAG | Medido en modo histórico y público | [Auditoría](../motor_documental/pruebas/auditar_evidencia.py), [medición histórica revisada](../motor_documental/pruebas/comparacion_recuperacion_banco_revisado.json), [alcance público](../motor_documental/pruebas/recuperacion_alcance_publicable.json). Se reprodujeron los rankings y métricas de las 50 preguntas, y se verificaron 866 vectores de dimensión 384 y 9 fragmentos del alcance público. El clasificador acertó en 37/37 casos. | Ampliar el corpus con evidencia jurídica, repetir métricas operativas y verificar fidelidad de la generación real. |
+| Recuperación y RAG | Medido en el índice público de 33 fragmentos | [Medición pública actual](../motor_documental/pruebas/recuperacion_publica_ampliada.json). El servicio recuperó el artículo esperado en 14 de 50 preguntas y se abstuvo en 36. La Precisión@5 fue 0,056, el Recall@5 0,28 y el MRR 0,28. | Ampliar los apartados revisados y verificar fidelidad de la generación real. |
 | Interfaz y API | Verificado en Windows | [README y API](../README.md), [pruebas Node](../backend/tests). Chrome sin ventana verificó pregunta sugerida, pregunta libre, historial de la sesión, reinicio, aviso y panel de fuentes con una respuesta de prueba. CORS devolvió 204 al origen permitido y 403 al no permitido. Las pruebas de carga verificaron PDF válido, inválido y sin texto, y `indexado: false`. | Verificar instalación y suite de PDF en Linux y hacer una prueba de navegador con generación real. El historial del prototipo vive en la conversación abierta. |
-| Evaluación y rendimiento | Parcial, sin Gemini | [Banco de 50](../motor_documental/pruebas/banco_evaluacion_50.json), [capturas históricas](../motor_documental/pruebas/evaluacion_respuestas_50.json), [corrida HTTP actual](../motor_documental/pruebas/evaluacion_api_alcance_publicable.json). Express → FastAPI rechazó 26/26 trampas sin citas, produjo un aviso documental y devolvió 49 respuestas HTTP 503. Hubo cero respuestas generadas. | Con credencial, calificar exactitud, fidelidad y citas frente al contexto. Medir latencia de las consultas que invoquen Gemini y contrastar con el umbral de 10 s. |
+| Evaluación y rendimiento | Parcial, sin Gemini | [Banco de 50](../motor_documental/pruebas/banco_evaluacion_50.json), [corrida HTTP actual](../motor_documental/pruebas/evaluacion_api_ampliada.json). Express → FastAPI rechazó 26/26 trampas sin citas. Entre las 50 preguntas hubo 36 abstenciones HTTP 200 y 14 respuestas HTTP 503. Hubo cero respuestas generadas. | Con credencial, calificar exactitud, fidelidad y citas frente al contexto y medir el umbral de 10 s con consultas que invoquen Gemini. |
 
 El [contraste con Jurinfo de la JEP](../motor_documental/corpus/contraste_jep.json)
 dio 156 coincidencias normalizadas de los 159 artículos del
@@ -46,6 +46,54 @@ expediente. Las diferencias 84, 92 y 242 quedan identificadas por
 bloque. Este cotejo textual no cierra la revisión jurídica.
 
 ## Banco revisado y selección de candidatos
+
+### Ampliación del alcance público
+
+El servicio consulta 18 artículos, 13 de ellos incorporados por
+apartado. Se verificaron **39 bloques** de ampliación contra
+Cancillería y Jurinfo. El manifiesto enlaza los actos modificatorios
+y fallos consultados cuando corresponden. Las selecciones acotadas
+no abarcan la totalidad del artículo.
+
+| Tema | Apartados habilitados | Pendiente de cotejo antes de habilitarlo |
+|---|---|---|
+| Bases y derechos | Arts. 1, 2, 5, 6, 7, incisos del 3 e introducción y principios 1–14 del 8 según la compilación | Parágrafo del art. 8 y reglas específicas sobre derechos de menores, movilidad, reunión y espacio público |
+| Comportamientos | Arts. 24 y 26, cuerpo del 25, introducción y numeral 1 de 77 y 94 | Medidas, demás numerales y reglas sectoriales; ruido, convivencia con animales, urbanismo y establecimientos |
+| Multas y comparendo | Dos primeros bloques del cuerpo del 180 y definición del 218 | Cuantías, tipos específicos, descuentos, cobro, requisitos y objeción |
+| Autoridades y órdenes | Primer inciso del 150 y cuerpo más numerales 1 y 2 del 206 | Régimen de incumplimiento, comisiones, instancias y otras competencias |
+| Procedimiento | Cuerpo y numerales 1–4 del 222 y numerales 1–2 del 223 | Apelación, sanciones y actas del 222, audiencia, recursos, decisión y ejecución del 223, y régimen especial del 223A |
+
+[Selección, límites y fuentes](../motor_documental/corpus/ampliacion_publicable.json) ·
+[Cotejo por bloque](../motor_documental/corpus/evidencia_ampliacion.json)
+
+La ampliación usa 33 fragmentos de hasta 100 tokens, más los tokens
+especiales, con solapamiento de 20 y vectores normalizados de 384
+dimensiones. Se fijó la revisión del modelo y se generó un índice
+FAISS público separado del histórico. El texto entregado al generador
+es el extracto oficial y la nota de alcance va en un campo separado.
+Las reglas de enrutamiento son conservadoras y se abstienen si la
+pregunta no coincide con un tema habilitado. Tratándose del artículo
+150, el extracto respalda tanto la definición como el carácter verbal
+de una orden.
+
+La validación reconoce `[GENERAL n]`. Una prueba con el texto real
+del art. 2 mantiene la respuesta que cita su numeral 1 y rechaza la
+del numeral 99, también en la forma «artículo 2, numeral 99». La API
+oculta la afirmación, fuentes y detalles de la cita rechazada.
+
+Aunque 17 preguntas del banco remiten a un número de artículo presente,
+solo 14 recuperaron el artículo esperado. RAG-012 y RAG-015 piden listas
+más amplias que los numerales cotejados. RAG-048 plantea una multa ya
+impuesta y el alcance habilitado es definitorio. Esas tres preguntas
+quedaron sin recuperación. Las otras 33 abstenciones remiten a artículos
+fuera del subconjunto. En Windows pasaron 92 pruebas de Python y una
+se omitió por permisos de enlaces simbólicos. Node aprobó 25.
+
+```bash
+python -m motor_documental.corpus.verificar_ampliacion ley1801-jep.html
+python -m motor_documental.indice_publicable
+python -m motor_documental.pruebas.comparar_recuperacion --publicable --salida recuperacion_publica.json
+```
 
 El caso RAG-011 sobre aglomeraciones complejas se conserva con su
 procedencia y texto original en [el archivo histórico](../motor_documental/pruebas/rag_011_historico.json).
@@ -129,7 +177,7 @@ y evaluar respuestas, citas y latencia completa con Gemini.
 
 ## Revisión técnica de respuestas históricas
 
-### Cobertura de la API pública
+### Cobertura de la API pública anterior a la ampliación
 
 Solo tres de las 50 preguntas tienen un artículo esperado dentro
 del alcance público. Sobre las 50, el híbrido acotado obtuvo

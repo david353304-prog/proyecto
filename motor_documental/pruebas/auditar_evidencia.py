@@ -45,7 +45,9 @@ def auditar(ruta_metricas):
     historico = {a["numero"]: a["texto"] for a in json.loads(ruta_historico.read_bytes())}
     if medicion["sha256_corpus"] not in huellas_del_json(ruta_historico):
         raise ValueError("El corpus de la medición no coincide con el histórico.")
-    publicable = corpus_publicable()
+    # Esta auditoría histórica comprueba únicamente el subconjunto original.
+    numeros_originales = json.loads((MOTOR / "corpus" / "alcance_publicable.json").read_bytes())["articulos"]
+    publicable = {n: corpus_publicable()[n] for n in numeros_originales}
     for numero, registro in publicable.items():
         if clave_textual(registro["texto"]) != clave_textual(historico[numero]):
             raise ValueError(f"Texto cotejado sin equivalente histórico: {numero}.")

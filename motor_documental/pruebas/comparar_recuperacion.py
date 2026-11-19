@@ -16,11 +16,46 @@ from motor_documental.pruebas.evaluar_recuperacion_50 import (
     RUTA_BANCO, calcular_metricas, cargar_banco, normalizar_articulo,
 )
 from motor_documental.recuperador_combinado_1801 import RecuperadorCombinado1801
-from motor_documental.vigencia_rag import IDENTIFICADORES_INEXEQUIBLES, corpus_publicable
+from motor_documental.vigencia_rag import (
+    IDENTIFICADORES_INEXEQUIBLES, articulos_para_consulta, corpus_publicable,
+)
+from motor_documental.indice_publicable import RecuperadorPublicable, huella_corpus
 
 
 CARPETA = Path(__file__).resolve().parent
 MODELO = "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2"
+
+
+def evaluar_publicable(banco):
+    recuperador = RecuperadorPublicable()
+    filas = []
+    for caso in banco:
+        inicio = perf_counter()
+        pregunta = caso["pregunta"]
+        permitidos = set() if clasificar_pregunta(pregunta)["fuera_de_dominio"] else articulos_para_consulta(pregunta)
+        recuperados = []
+        if permitidos:
+            resultado = recuperador.buscar(pregunta, cantidad_general=5, articulos_permitidos=permitidos)
+            recuperados = [a["articulo"] for a in resultado["resultados_generales"]]
+        filas.append({
+            "id": caso["id"], "esperados": sorted(map(normalizar_articulo, caso["articulos_esperados"])),
+            "recuperados": recuperados, "abstencion_documental": not recuperados,
+            "recuperacion_ms": round((perf_counter() - inicio) * 1000, 3),
+        })
+    return {
+        "modo": "indice_publico_y_enrutamiento_de_produccion",
+        "sha256_corpus_publicable": huella_corpus(),
+        "sha256_banco": hashlib.sha256(RUTA_BANCO.read_bytes()).hexdigest(),
+        "total_preguntas": len(filas),
+        "articulos_publicables": sorted(corpus_publicable(), key=int),
+        "fragmentos_indizados": recuperador.indice.ntotal,
+        "preguntas_con_referencia_publicable": sum(
+            bool(corpus_publicable().keys() & set(f["esperados"])) for f in filas
+        ),
+        "abstenciones_documentales": sum(f["abstencion_documental"] for f in filas),
+        "metricas": calcular_metricas(filas),
+        "resultados": filas,
+    }
 
 
 def main():
@@ -29,7 +64,12 @@ def main():
     parser.add_argument("--publicable", action="store_true", help="Aplica el alcance del servicio público.")
     args = parser.parse_args()
     banco = cargar_banco()
-    permitidos = set(corpus_publicable()) if args.publicable else None
+    if args.publicable:
+        args.salida.write_text(
+            json.dumps(evaluar_publicable(banco), ensure_ascii=False, indent=2) + "\n",
+            encoding="utf-8",
+        )
+        return
     ruta = CARPETA.parent / "corpus" / "articulos_ley_1801.json"
     datos = ruta.read_bytes()
     articulos = json.loads(datos)
@@ -67,7 +107,6 @@ def main():
             recuperados = list(dict.fromkeys(
                 numeros[i] for i in posiciones[0]
                 if i >= 0 and numeros[i] not in IDENTIFICADORES_INEXEQUIBLES
-                and (permitidos is None or numeros[i] in permitidos)
             ))[:50]
             registros[nombre].append({
                 "id": caso["id"], "esperados": esperados, "recuperados": recuperados,
@@ -76,7 +115,6 @@ def main():
         inicio = perf_counter()
         resultado = hibrido.buscar(
             caso["pregunta"], cantidad_general=5, cantidad_estructurada=5,
-            articulos_permitidos=permitidos,
         )
         recuperados = list(dict.fromkeys(
             normalizar_articulo(r["articulo"])
@@ -94,12 +132,6 @@ def main():
         "banco": RUTA_BANCO.name,
         "sha256_banco": hashlib.sha256(RUTA_BANCO.read_bytes()).hexdigest(),
         "articulos_excluidos": sorted(IDENTIFICADORES_INEXEQUIBLES, key=int),
-        "articulos_publicables": sorted(permitidos, key=int) if permitidos is not None else None,
-        "preguntas_con_referencia_publicable": sum(
-            bool(permitidos.intersection(
-                normalizar_articulo(a) for a in caso["articulos_esperados"]
-            )) for caso in banco
-        ) if permitidos is not None else None,
         "max_tokens_modelo": modelo.max_seq_length,
         "articulos_que_superan_max_tokens": sum(
             len(tokens) > modelo.max_seq_length for tokens in
