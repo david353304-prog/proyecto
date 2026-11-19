@@ -269,6 +269,12 @@ app.post("/api/chat", async (req, res) => {
             }
         );
 
+        if (respuestaFastAPI.status === 503) {
+            return res.status(503).json({
+                error: "La generación de respuestas no está disponible."
+            });
+        }
+
         if (!respuestaFastAPI.ok) {
             return res.status(502).json({
                 error: "El motor documental no pudo procesar la consulta."

@@ -1,6 +1,7 @@
 """Servicio FastAPI para el chatbot jurídico RAG."""
 
 from contextlib import asynccontextmanager
+import os
 
 from motor_documental.cargar_entorno import cargar_entorno
 
@@ -10,7 +11,7 @@ from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel, Field
 from starlette.concurrency import run_in_threadpool
 
-from motor_documental.generador_respuestas_rag import GeneradorRespuestasRAG
+from motor_documental.generador_respuestas_rag import GeneradorRespuestasRAG, respuesta_fuera_dominio
 from motor_documental.salida_segura_rag import preparar_salida_publica
 
 
@@ -20,7 +21,8 @@ generador = None
 @asynccontextmanager
 async def lifespan(app: FastAPI):
     global generador
-    generador = GeneradorRespuestasRAG()
+    if os.environ.get("GEMINI_API_KEY"):
+        generador = GeneradorRespuestasRAG()
     yield
     generador = None
 
@@ -47,6 +49,12 @@ async def consultar(datos: Consulta):
             status_code=400,
             detail="La pregunta no puede estar vacía."
         )
+
+    if generador is None:
+        fuera = respuesta_fuera_dominio(datos.pregunta.strip())
+        if fuera:
+            return preparar_salida_publica(fuera)
+        raise HTTPException(status_code=503, detail="Generación sin configurar.")
 
     try:
         resultado = await run_in_threadpool(

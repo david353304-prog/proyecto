@@ -242,6 +242,9 @@ function agregarMensaje(texto, tipo, validacion = null, fuentes = []) {
         const nombresEstados = {
             PENDIENTE_VALIDACION: "Pendiente de revisión jurídica",
             REQUIERE_REVISION: "Requiere revisión jurídica",
+            FUERA_DE_DOMINIO: "Pregunta fuera del alcance del Código",
+            FUERA_DE_ALCANCE: "Pregunta fuera del alcance del Código",
+            SIN_RESPALDO: "Sin respaldo documental suficiente",
             "NO DISPONIBLE": "Estado de revisión no disponible"
         };
 

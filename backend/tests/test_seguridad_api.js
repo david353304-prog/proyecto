@@ -92,6 +92,17 @@ test("La API rechaza respuestas sin texto público", async () => {
     assert.equal(Object.hasOwn(resultado.datos, "respuesta"), false);
 });
 
+test("La API comunica la indisponibilidad del motor sin exponer detalles", async () => {
+    const resultado = await probarAPI(() => respuestaSimulada({
+        detail: "Configuración interna"
+    }, 503));
+
+    assert.equal(resultado.estado, 503);
+    assert.deepEqual(resultado.datos, {
+        error: "La generación de respuestas no está disponible."
+    });
+});
+
 test("La API no expone respuesta_original", async () => {
     const resultado = await probarAPI(() => respuestaSimulada({
         respuesta: "Respuesta pública",
