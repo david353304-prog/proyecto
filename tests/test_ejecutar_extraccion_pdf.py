@@ -3,6 +3,7 @@ import subprocess
 import sys
 import unittest
 from pathlib import Path
+from types import SimpleNamespace
 from unittest.mock import patch
 
 from motor_documental import ejecutar_extraccion_pdf as modulo
@@ -11,13 +12,16 @@ from motor_documental import ejecutar_extraccion_pdf as modulo
 class TestEjecutorExtraccionPDF(unittest.TestCase):
 
     def test_establece_limites_de_recursos(self):
-        with patch.object(modulo.resource, "setrlimit") as limite:
+        resource = SimpleNamespace(RLIMIT_AS=1, RLIMIT_CPU=2, RLIMIT_FSIZE=3)
+        with patch.object(modulo, "resource", resource), patch.object(
+            resource, "setrlimit", create=True
+        ) as limite:
             modulo.establecer_limites()
 
         self.assertEqual(limite.call_count, 3)
 
         limite.assert_any_call(
-            modulo.resource.RLIMIT_AS,
+            resource.RLIMIT_AS,
             (
                 modulo.LIMITE_MEMORIA_BYTES,
                 modulo.LIMITE_MEMORIA_BYTES
@@ -25,7 +29,7 @@ class TestEjecutorExtraccionPDF(unittest.TestCase):
         )
 
         limite.assert_any_call(
-            modulo.resource.RLIMIT_CPU,
+            resource.RLIMIT_CPU,
             (
                 modulo.LIMITE_CPU_SEGUNDOS,
                 modulo.LIMITE_CPU_SEGUNDOS
@@ -33,7 +37,7 @@ class TestEjecutorExtraccionPDF(unittest.TestCase):
         )
 
         limite.assert_any_call(
-            modulo.resource.RLIMIT_FSIZE,
+            resource.RLIMIT_FSIZE,
             (
                 modulo.LIMITE_ARCHIVO_BYTES,
                 modulo.LIMITE_ARCHIVO_BYTES

@@ -6,6 +6,7 @@ const http = require("node:http");
 const path = require("node:path");
 const fs = require("node:fs/promises");
 const os = require("node:os");
+const PYTHON = require("../python_venv.js");
 
 const archivoBackend = path.resolve(
     __dirname,
@@ -153,13 +154,8 @@ test("La carga PDF rechaza archivos que no son PDF", async () => {
 test("La carga PDF acepta un documento válido", async () => {
     const { spawnSync } = require("node:child_process");
 
-    const python = path.resolve(
-        __dirname,
-        "../../.venv/bin/python"
-    );
-
     const generador = spawnSync(
-        python,
+        PYTHON,
         [
             "-c",
             [
@@ -240,13 +236,8 @@ test("La carga PDF acepta un documento válido", async () => {
 test("La carga PDF rechaza documentos sin texto", async () => {
     const { spawnSync } = require("node:child_process");
 
-    const python = path.resolve(
-        __dirname,
-        "../../.venv/bin/python"
-    );
-
     const generador = spawnSync(
-        python,
+        PYTHON,
         [
             "-c",
             [

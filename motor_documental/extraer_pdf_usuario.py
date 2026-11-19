@@ -35,6 +35,57 @@ class ErrorExtraccionPDF(ValueError):
     """Error controlado durante la extracción."""
 
 
+def _abrir_pdf(ruta):
+    if os.name != "nt":
+        return os.open(ruta, os.O_RDONLY | os.O_NOFOLLOW | os.O_NONBLOCK)
+
+    import ctypes
+    import msvcrt
+    from ctypes import wintypes
+
+    kernel32 = ctypes.WinDLL("kernel32", use_last_error=True)
+    crear_archivo = kernel32.CreateFileW
+    crear_archivo.argtypes = (
+        wintypes.LPCWSTR, wintypes.DWORD, wintypes.DWORD, wintypes.LPVOID,
+        wintypes.DWORD, wintypes.DWORD, wintypes.HANDLE
+    )
+    crear_archivo.restype = wintypes.HANDLE
+
+    acceso_lectura = 0x80000000
+    compartir_lectura_y_borrado = 0x01 | 0x04
+    abrir_existente = 3
+    abrir_punto_reanalisis = 0x00200000
+    handle = crear_archivo(
+        str(ruta), acceso_lectura, compartir_lectura_y_borrado, None,
+        abrir_existente, abrir_punto_reanalisis, None
+    )
+    if handle == wintypes.HANDLE(-1).value:
+        raise ctypes.WinError(ctypes.get_last_error())
+
+    try:
+        # Consulta los atributos del objeto abierto, incluso si se reemplaza la ruta.
+        consultar = kernel32.GetFileInformationByHandleEx
+        consultar.argtypes = (
+            wintypes.HANDLE, ctypes.c_int, wintypes.LPVOID, wintypes.DWORD
+        )
+        consultar.restype = wintypes.BOOL
+        atributos_y_etiqueta = (wintypes.DWORD * 2)()
+        clase_atributos_y_etiqueta = 9
+        if not consultar(
+            handle, clase_atributos_y_etiqueta, atributos_y_etiqueta,
+            ctypes.sizeof(atributos_y_etiqueta)
+        ):
+            raise ctypes.WinError(ctypes.get_last_error())
+        if atributos_y_etiqueta[0] & stat.FILE_ATTRIBUTE_REPARSE_POINT:
+            raise ErrorExtraccionPDF("El documento es un punto de reanálisis.")
+
+        return msvcrt.open_osfhandle(handle, os.O_RDONLY | os.O_BINARY)
+    except BaseException:
+        kernel32.CloseHandle.argtypes = (wintypes.HANDLE,)
+        kernel32.CloseHandle(handle)
+        raise
+
+
 def extraer_pdf_usuario(nombre_archivo):
     """Extrae texto por página de un PDF previamente recibido."""
 
@@ -50,10 +101,7 @@ def extraer_pdf_usuario(nombre_archivo):
     caracteres_totales = 0
 
     try:
-        descriptor = os.open(
-            ruta,
-            os.O_RDONLY | os.O_NOFOLLOW | os.O_NONBLOCK
-        )
+        descriptor = _abrir_pdf(ruta)
 
         try:
             informacion = os.fstat(descriptor)

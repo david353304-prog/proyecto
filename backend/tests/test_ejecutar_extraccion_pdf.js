@@ -12,10 +12,7 @@ const {
     ejecutarExtraccionPDF
 } = require("../ejecutar_extraccion_pdf.js");
 
-const PYTHON = path.resolve(
-    __dirname,
-    "../../.venv/bin/python"
-);
+const PYTHON = require("../python_venv.js");
 
 test("El puente rechaza nombres PDF inválidos", async () => {
     const resultado = await ejecutarExtraccionPDF(

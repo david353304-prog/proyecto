@@ -3,10 +3,7 @@
 const { spawn } = require("node:child_process");
 const path = require("node:path");
 
-const PYTHON = path.resolve(
-    __dirname,
-    "../.venv/bin/python"
-);
+const PYTHON = require("./python_venv.js");
 
 const CONTROLADOR = path.resolve(
     __dirname,
