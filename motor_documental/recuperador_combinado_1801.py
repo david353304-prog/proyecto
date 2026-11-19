@@ -16,6 +16,9 @@ except ImportError:
     )
 
 
+from motor_documental.clasificador_tematico import clasificar_pregunta, orientar_por_libro
+
+
 class RecuperadorCombinado1801:
     """Recupera candidatos jurídicos desde dos índices FAISS."""
 
@@ -117,7 +120,8 @@ class RecuperadorCombinado1801:
 
             resultados_hibridos.append(resultado)
 
-        resultados_generales = resultados_hibridos
+        clasificacion = clasificar_pregunta(pregunta)
+        resultados_generales = orientar_por_libro(resultados_hibridos, clasificacion["libro"])
 
         resultados_estructurados = self.estructurado.buscar(
             pregunta,

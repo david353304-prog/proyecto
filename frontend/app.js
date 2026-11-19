@@ -195,7 +195,7 @@ function formatearRespuesta(texto) {
 }
 
 // Crea mensajes usando texto seguro, sin interpretar HTML.
-function agregarMensaje(texto, tipo, validacion = null) {
+function agregarMensaje(texto, tipo, validacion = null, fuentes = []) {
     const mensaje = document.createElement("div");
 
     mensaje.classList.add("mensaje", `mensaje-${tipo}`);
@@ -203,6 +203,34 @@ function agregarMensaje(texto, tipo, validacion = null) {
         mensaje.appendChild(formatearRespuesta(texto));
     } else {
         mensaje.textContent = String(texto);
+    }
+
+    if (tipo === "asistente" && Array.isArray(fuentes) && fuentes.length) {
+        const detalles = document.createElement("details");
+        detalles.className = "fuentes-recuperadas";
+        const resumen = document.createElement("summary");
+        resumen.textContent = `Ver fragmentos recuperados (${fuentes.length})`;
+        detalles.appendChild(resumen);
+        for (const fuente of fuentes) {
+            const seccion = document.createElement("section");
+            const titulo = document.createElement("strong");
+            titulo.textContent = `Artículo ${fuente.articulo || "no indicado"}` +
+                (fuente.numeral ? `, numeral ${fuente.numeral}` : "");
+            const fragmento = document.createElement("blockquote");
+            fragmento.textContent = fuente.texto || "";
+            seccion.append(titulo, fragmento);
+            if (typeof fuente.url_fuente === "string" &&
+                fuente.url_fuente.startsWith("https://")) {
+                const enlace = document.createElement("a");
+                enlace.href = fuente.url_fuente;
+                enlace.target = "_blank";
+                enlace.rel = "noopener noreferrer";
+                enlace.textContent = "Consultar fuente normativa";
+                seccion.appendChild(enlace);
+            }
+            detalles.appendChild(seccion);
+        }
+        mensaje.appendChild(detalles);
     }
 
     if (tipo === "asistente" && validacion) {
@@ -384,7 +412,8 @@ async function enviarPregunta(pregunta) {
         agregarMensaje(
             datos.respuesta,
             "asistente",
-            datos.validacion_documental
+            datos.validacion_documental,
+            datos.fuentes_recuperadas
         );
     } catch (error) {
         if (

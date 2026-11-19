@@ -42,4 +42,44 @@ def preparar_salida_publica(resultado):
             ],
         }
 
+
+    # Mostrar únicamente fragmentos documentales explícitamente recuperados.
+    recuperados = resultado.get("resultados_recuperados", {})
+    fuentes = []
+    vistos = set()
+    if isinstance(recuperados, dict):
+        grupos = (
+            recuperados.get("resultados_generales", []),
+            recuperados.get("resultados_estructurados_135", []),
+        )
+        for grupo in grupos:
+            if not isinstance(grupo, list):
+                continue
+            for registro in grupo:
+                if not isinstance(registro, dict):
+                    continue
+                articulo = str(registro.get("articulo", "")).strip()[:30]
+                numeral = str(registro.get("numeral") or "").strip()[:30]
+                texto = registro.get("texto") or registro.get("comportamiento") or ""
+                if not isinstance(texto, str) or not texto.strip():
+                    continue
+                url = registro.get("url_fuente", "")
+                if not isinstance(url, str) or not url.startswith("https://"):
+                    url = ""
+                clave = (articulo, numeral, texto[:120])
+                if clave in vistos:
+                    continue
+                vistos.add(clave)
+                fuentes.append({
+                    "articulo": articulo,
+                    "numeral": numeral,
+                    "titulo": str(registro.get("titulo") or "")[:160],
+                    "texto": texto[:1200],
+                    "url_fuente": url[:500],
+                })
+                if len(fuentes) >= 8:
+                    break
+            if len(fuentes) >= 8:
+                break
+    salida["fuentes_recuperadas"] = fuentes
     return salida

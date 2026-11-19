@@ -537,3 +537,9 @@ textarea:focus-visible {
     font-size: 12px;
     color: #64748b;
 }
+
+/* Fuentes verificables de cada respuesta RAG. */
+.fuentes-recuperadas { margin-top: 12px; font-size: .9rem; }
+.fuentes-recuperadas summary { cursor: pointer; font-weight: 600; }
+.fuentes-recuperadas section { margin: 10px 0; padding: 10px; border: 1px solid #a0a0a055; border-radius: 8px; }
+.fuentes-recuperadas blockquote { margin: 8px 0; white-space: pre-wrap; overflow-wrap: anywhere; max-height: 220px; overflow-y: auto; }

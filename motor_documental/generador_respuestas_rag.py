@@ -1,4 +1,5 @@
 from motor_documental.validador_respuestas_rag import ValidadorRespuestasRAG
+from motor_documental.clasificador_tematico import clasificar_pregunta
 import os
 import time
 import logging
@@ -37,6 +38,16 @@ class GeneradorRespuestasRAG:
             raise ValueError("La pregunta no puede estar vacía.")
 
         pregunta = pregunta.strip()
+
+        if clasificar_pregunta(pregunta)["fuera_de_dominio"]:
+            return {
+                "pregunta": pregunta,
+                "respuesta": "La información solicitada queda fuera del corpus de la Ley 1801 de 2016.",
+                "modelo": "clasificador temático",
+                "total_generales": 0,
+                "total_estructurados": 0,
+                "validacion_documental": {"estado": "FUERA_DE_DOMINIO", "advertencias": []},
+            }
 
         inicio_total = time.perf_counter()
         inicio_etapa = time.perf_counter()
