@@ -29,6 +29,17 @@ def preparar_salida_publica(resultado):
     validacion = salida.get("validacion_documental")
 
     if isinstance(validacion, dict):
+        if validacion.get("estado") == "REQUIERE_REVISION":
+            salida["validacion_documental"] = {
+                "estado": "REQUIERE_REVISION",
+                "advertencias": [
+                    {"tipo": alerta.get("tipo")}
+                    for alerta in validacion.get("advertencias", [])
+                    if isinstance(alerta, dict)
+                ],
+            }
+            salida["fuentes_recuperadas"] = []
+            return salida
         salida["validacion_documental"] = {
             "estado": validacion.get("estado"),
             "advertencias": [

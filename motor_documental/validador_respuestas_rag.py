@@ -326,8 +326,8 @@ class ValidadorRespuestasRAG:
 
         # Reconocer numerales en articulos generales.
         bloques_generales = re.findall(
-            r"(?ms)^\[GENERAL CONSERVADO \d+\][^\S\n]*\n"
-            r"(.*?)(?=^\[GENERAL CONSERVADO \d+\]|"
+            r"(?ms)^\[GENERAL(?: CONSERVADO)? \d+\][^\S\n]*\n"
+            r"(.*?)(?=^\[GENERAL(?: CONSERVADO)? \d+\]|"
             r"^===|^\[ESTRUCTURADO \d+\]|\Z)",
             contexto,
         )
@@ -387,6 +387,14 @@ class ValidadorRespuestasRAG:
                 respuesta
             )
         }
+        referencias_numerales.update(
+            (coincidencia.group(1).upper(), coincidencia.group(2))
+            for coincidencia in re.finditer(
+                r"\bart[ií]culo\s+(\d{1,3}[a-z]?)\s*[,;:]\s*numeral\s+(\d+)\b",
+                respuesta.replace("**", ""),
+                re.I,
+            )
+        )
 
         for articulo, numeral in sorted(
             referencias_numerales - numerales_contexto - numerales_cruzados
