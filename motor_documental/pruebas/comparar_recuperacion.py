@@ -13,9 +13,10 @@ from sentence_transformers import SentenceTransformer
 from motor_documental.buscador_general_1801 import BuscadorGeneral1801
 from motor_documental.clasificador_tematico import clasificar_pregunta
 from motor_documental.pruebas.evaluar_recuperacion_50 import (
-    calcular_metricas, cargar_banco, normalizar_articulo,
+    RUTA_BANCO, calcular_metricas, cargar_banco, normalizar_articulo,
 )
 from motor_documental.recuperador_combinado_1801 import RecuperadorCombinado1801
+from motor_documental.vigencia_rag import IDENTIFICADORES_INEXEQUIBLES, corpus_publicable
 
 
 CARPETA = Path(__file__).resolve().parent
@@ -25,8 +26,10 @@ MODELO = "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2"
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--salida", type=Path, required=True)
+    parser.add_argument("--publicable", action="store_true", help="Aplica el alcance del servicio público.")
     args = parser.parse_args()
     banco = cargar_banco()
+    permitidos = set(corpus_publicable()) if args.publicable else None
     ruta = CARPETA.parent / "corpus" / "articulos_ley_1801.json"
     datos = ruta.read_bytes()
     articulos = json.loads(datos)
@@ -61,13 +64,20 @@ def main():
         for nombre, (indice, numeros) in estrategias.items():
             inicio = perf_counter()
             _, posiciones = indice.search(vector, indice.ntotal)
-            recuperados = list(dict.fromkeys(numeros[i] for i in posiciones[0] if i >= 0))[:50]
+            recuperados = list(dict.fromkeys(
+                numeros[i] for i in posiciones[0]
+                if i >= 0 and numeros[i] not in IDENTIFICADORES_INEXEQUIBLES
+                and (permitidos is None or numeros[i] in permitidos)
+            ))[:50]
             registros[nombre].append({
                 "id": caso["id"], "esperados": esperados, "recuperados": recuperados,
                 "recuperacion_ms": round(codificacion_ms + (perf_counter() - inicio) * 1000, 3),
             })
         inicio = perf_counter()
-        resultado = hibrido.buscar(caso["pregunta"], cantidad_general=5, cantidad_estructurada=5)
+        resultado = hibrido.buscar(
+            caso["pregunta"], cantidad_general=5, cantidad_estructurada=5,
+            articulos_permitidos=permitidos,
+        )
         recuperados = list(dict.fromkeys(
             normalizar_articulo(r["articulo"])
             for r in resultado["resultados_generales"] + resultado["resultados_estructurados_135"]
@@ -81,6 +91,15 @@ def main():
     resultado = {
         "modelo": MODELO,
         "sha256_corpus": hashlib.sha256(datos).hexdigest(),
+        "banco": RUTA_BANCO.name,
+        "sha256_banco": hashlib.sha256(RUTA_BANCO.read_bytes()).hexdigest(),
+        "articulos_excluidos": sorted(IDENTIFICADORES_INEXEQUIBLES, key=int),
+        "articulos_publicables": sorted(permitidos, key=int) if permitidos is not None else None,
+        "preguntas_con_referencia_publicable": sum(
+            bool(permitidos.intersection(
+                normalizar_articulo(a) for a in caso["articulos_esperados"]
+            )) for caso in banco
+        ) if permitidos is not None else None,
         "max_tokens_modelo": modelo.max_seq_length,
         "articulos_que_superan_max_tokens": sum(
             len(tokens) > modelo.max_seq_length for tokens in

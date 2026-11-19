@@ -1,0 +1,2519 @@
+{
+  "modelo": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+  "sha256_corpus": "80b7731924bab0a1ae2a70acea60629db380f106c234474dfc37eca9c195336f",
+  "banco": "banco_evaluacion_50.json",
+  "sha256_banco": "dbeab26c86e8cebc541e301b673347584214630b447af06343e3c311c20beaa9",
+  "articulos_excluidos": [
+    "47",
+    "48",
+    "49",
+    "50",
+    "51",
+    "52",
+    "53",
+    "54",
+    "55",
+    "56",
+    "57",
+    "58",
+    "59",
+    "60",
+    "61",
+    "62",
+    "63",
+    "64",
+    "65",
+    "66",
+    "67",
+    "68",
+    "69",
+    "70",
+    "71",
+    "72",
+    "73",
+    "74",
+    "75",
+    "162"
+  ],
+  "articulos_publicables": [
+    "1",
+    "2",
+    "5",
+    "6",
+    "7"
+  ],
+  "preguntas_con_referencia_publicable": 3,
+  "max_tokens_modelo": 128,
+  "articulos_que_superan_max_tokens": 167,
+  "total_preguntas": 50,
+  "evaluacion": {
+    "articulo_completo": {
+      "metricas": {
+        "precision_at_1": 0.04,
+        "hit_at_1": 0.04,
+        "recall_at_1": 0.04,
+        "precision_at_3": 0.02,
+        "hit_at_3": 0.06,
+        "recall_at_3": 0.06,
+        "precision_at_5": 0.012,
+        "hit_at_5": 0.06,
+        "recall_at_5": 0.06,
+        "precision_at_10": 0.006,
+        "hit_at_10": 0.06,
+        "recall_at_10": 0.06,
+        "precision_at_20": 0.003,
+        "hit_at_20": 0.06,
+        "recall_at_20": 0.06,
+        "precision_at_50": 0.0012,
+        "hit_at_50": 0.06,
+        "recall_at_50": 0.06,
+        "mrr": 0.05
+      },
+      "p50_recuperacion_ms": 64.961,
+      "p95_recuperacion_ms": 92.258,
+      "resultados": [
+        {
+          "id": "RAG-001",
+          "esperados": [
+            "1"
+          ],
+          "recuperados": [
+            "1",
+            "2",
+            "7",
+            "6",
+            "5"
+          ],
+          "recuperacion_ms": 55.503,
+          "primera_posicion_relevante": 1
+        },
+        {
+          "id": "RAG-002",
+          "esperados": [
+            "2"
+          ],
+          "recuperados": [
+            "1",
+            "2",
+            "7",
+            "6",
+            "5"
+          ],
+          "recuperacion_ms": 47.581,
+          "primera_posicion_relevante": 2
+        },
+        {
+          "id": "RAG-003",
+          "esperados": [
+            "8"
+          ],
+          "recuperados": [
+            "1",
+            "7",
+            "2",
+            "5",
+            "6"
+          ],
+          "recuperacion_ms": 84.421,
+          "primera_posicion_relevante": null
+        },
+        {
+          "id": "RAG-004",
+          "esperados": [
+            "27"
+          ],
+          "recuperados": [
+            "5",
+            "7",
+            "2",
+            "6",
+            "1"
+          ],
+          "recuperacion_ms": 92.939,
+          "primera_posicion_relevante": null
+        },
+        {
+          "id": "RAG-005",
+          "esperados": [
+            "33"
+          ],
+          "recuperados": [
+            "5",
+            "1",
+            "2",
+            "7",
+            "6"
+          ],
+          "recuperacion_ms": 48.448,
+          "primera_posicion_relevante": null
+        },
+        {
+          "id": "RAG-006",
+          "esperados": [
+            "35"
+          ],
+          "recuperados": [
+            "5",
+            "6",
+            "1",
+            "2",
+            "7"
+          ],
+          "recuperacion_ms": 81.582,
+          "primera_posicion_relevante": null
+        },
+        {
+          "id": "RAG-007",
+          "esperados": [
+            "36"
+          ],
+          "recuperados": [
+            "2",
+            "1",
+            "6",
+            "7",
+            "5"
+          ],
+          "recuperacion_ms": 62.583,
+          "primera_posicion_relevante": null
+        },
+        {
+          "id": "RAG-008",
+          "esperados": [
+            "38"
+          ],
+          "recuperados": [
+            "5",
+            "7",
+            "6",
+            "2",
+            "1"
+          ],
+          "recuperacion_ms": 74.751,
+          "primera_posicion_relevante": null
+        },
+        {
+          "id": "RAG-009",
+          "esperados": [
+            "39"
+          ],
+          "recuperados": [
+            "1",
+            "7",
+            "2",
+            "5",
+            "6"
+          ],
+          "recuperacion_ms": 50.655,
+          "primera_posicion_relevante": null
+        },
+        {
+          "id": "RAG-010",
+          "esperados": [
+            "40"
+          ],
+          "recuperados": [
+            "7",
+            "2",
+            "6",
+            "5",
+            "1"
+          ],
+          "recuperacion_ms": 88.385,
+          "primera_posicion_relevante": null
+        },
+        {
+          "id": "RAG-051",
+          "esperados": [
+            "5"
+          ],
+          "recuperados": [
+            "5",
+            "7",
+            "1",
+            "2",
+            "6"
+          ],
+          "recuperacion_ms": 78.927,
+          "primera_posicion_relevante": 1
+        },
+        {
+          "id": "RAG-012",
+          "esperados": [
+            "77"
+          ],
+          "recuperados": [
+            "6",
+            "5",
+            "2",
+            "7",
+            "1"
+          ],
+          "recuperacion_ms": 57.343,
+          "primera_posicion_relevante": null
+        },
+        {
+          "id": "RAG-013",
+          "esperados": [
+            "92"
+          ],
+          "recuperados": [
+            "5",
+            "1",
+            "7",
+            "2",
+            "6"
+          ],
+          "recuperacion_ms": 79.014,
+          "primera_posicion_relevante": null
+        },
+        {
+          "id": "RAG-014",
+          "esperados": [
+            "93"
+          ],
+          "recuperados": [
+            "5",
+            "6",
+            "1",
+            "2",
+            "7"
+          ],
+          "recuperacion_ms": 41.823,
+          "primera_posicion_relevante": null
+        },
+        {
+          "id": "RAG-015",
+          "esperados": [
+            "94"
+          ],
+          "recuperados": [
+            "6",
+            "2",
+            "5",
+            "7",
+            "1"
+          ],
+          "recuperacion_ms": 48.17,
+          "primera_posicion_relevante": null
+        },
+        {
+          "id": "RAG-016",
+          "esperados": [
+            "95"
+          ],
+          "recuperados": [
+            "1",
+            "5",
+            "7",
+            "2",
+            "6"
+          ],
+          "recuperacion_ms": 71.023,
+          "primera_posicion_relevante": null
+        },
+        {
+          "id": "RAG-017",
+          "esperados": [
+            "111"
+          ],
+          "recuperados": [
+            "1",
+            "5",
+            "7",
+            "2",
+            "6"
+          ],
+          "recuperacion_ms": 69.014,
+          "primera_posicion_relevante": null
+        },
+        {
+          "id": "RAG-018",
+          "esperados": [
+            "124"
+          ],
+          "recuperados": [
+            "5",
+            "6",
+            "2",
+            "7",
+            "1"
+          ],
+          "recuperacion_ms": 81.884,
+          "primera_posicion_relevante": null
+        },
+        {
+          "id": "RAG-019",
+          "esperados": [
+            "135"
+          ],
+          "recuperados": [
+            "1",
+            "2",
+            "6",
+            "5",
+            "7"
+          ],
+          "recuperacion_ms": 35.156,
+          "primera_posicion_relevante": null
+        },
+        {
+          "id": "RAG-020",
+          "esperados": [
+            "140"
+          ],
+          "recuperados": [
+            "6",
+            "2",
+            "5",
+            "1",
+            "7"
+          ],
+          "recuperacion_ms": 52.21,
+          "primera_posicion_relevante": null
+        },
+        {
+          "id": "RAG-021",
+          "esperados": [
+            "146"
+          ],
+          "recuperados": [
+            "1",
+            "6",
+            "2",
+            "7",
+            "5"
+          ],
+          "recuperacion_ms": 77.408,
+          "primera_posicion_relevante": null
+        },
+        {
+          "id": "RAG-022",
+          "esperados": [
+            "150"
+          ],
+          "recuperados": [
+            "1",
+            "6",
+            "5",
+            "2",
+            "7"
+          ],
+          "recuperacion_ms": 91.426,
+          "primera_posicion_relevante": null
+        },
+        {
+          "id": "RAG-023",
+          "esperados": [
+            "155"
+          ],
+          "recuperados": [
+            "1",
+            "6",
+            "2",
+            "5",
+            "7"
+          ],
+          "recuperacion_ms": 71.851,
+          "primera_posicion_relevante": null
+        },
+        {
+          "id": "RAG-024",
+          "esperados": [
+            "163"
+          ],
+          "recuperados": [
+            "1",
+            "6",
+            "2",
+            "7",
+            "5"
+          ],
+          "recuperacion_ms": 78.359,
+          "primera_posicion_relevante": null
+        },
+        {
+          "id": "RAG-025",
+          "esperados": [
+            "180"
+          ],
+          "recuperados": [
+            "1",
+            "7",
+            "5",
+            "6",
+            "2"
+          ],
+          "recuperacion_ms": 56.943,
+          "primera_posicion_relevante": null
+        },
+        {
+          "id": "RAG-026",
+          "esperados": [
+            "206"
+          ],
+          "recuperados": [
+            "1",
+            "6",
+            "5",
+            "2",
+            "7"
+          ],
+          "recuperacion_ms": 45.756,
+          "primera_posicion_relevante": null
+        },
+        {
+          "id": "RAG-027",
+          "esperados": [
+            "222"
+          ],
+          "recuperados": [
+            "5",
+            "1",
+            "7",
+            "2",
+            "6"
+          ],
+          "recuperacion_ms": 74.661,
+          "primera_posicion_relevante": null
+        },
+        {
+          "id": "RAG-028",
+          "esperados": [
+            "223"
+          ],
+          "recuperados": [
+            "5",
+            "7",
+            "1",
+            "2",
+            "6"
+          ],
+          "recuperacion_ms": 81.512,
+          "primera_posicion_relevante": null
+        },
+        {
+          "id": "RAG-029",
+          "esperados": [
+            "223A"
+          ],
+          "recuperados": [
+            "1",
+            "7",
+            "5",
+            "6",
+            "2"
+          ],
+          "recuperacion_ms": 47.24,
+          "primera_posicion_relevante": null
+        },
+        {
+          "id": "RAG-030",
+          "esperados": [
+            "237"
+          ],
+          "recuperados": [
+            "1",
+            "2",
+            "7",
+            "5",
+            "6"
+          ],
+          "recuperacion_ms": 49.062,
+          "primera_posicion_relevante": null
+        },
+        {
+          "id": "RAG-031",
+          "esperados": [
+            "27"
+          ],
+          "recuperados": [
+            "1",
+            "7",
+            "5",
+            "2",
+            "6"
+          ],
+          "recuperacion_ms": 54.797,
+          "primera_posicion_relevante": null
+        },
+        {
+          "id": "RAG-032",
+          "esperados": [
+            "33"
+          ],
+          "recuperados": [
+            "1",
+            "2",
+            "5",
+            "7",
+            "6"
+          ],
+          "recuperacion_ms": 97.181,
+          "primera_posicion_relevante": null
+        },
+        {
+          "id": "RAG-033",
+          "esperados": [
+            "35"
+          ],
+          "recuperados": [
+            "1",
+            "5",
+            "6",
+            "2",
+            "7"
+          ],
+          "recuperacion_ms": 55.891,
+          "primera_posicion_relevante": null
+        },
+        {
+          "id": "RAG-034",
+          "esperados": [
+            "38"
+          ],
+          "recuperados": [
+            "1",
+            "7",
+            "5",
+            "2",
+            "6"
+          ],
+          "recuperacion_ms": 50.34,
+          "primera_posicion_relevante": null
+        },
+        {
+          "id": "RAG-035",
+          "esperados": [
+            "77"
+          ],
+          "recuperados": [
+            "1",
+            "5",
+            "6",
+            "2",
+            "7"
+          ],
+          "recuperacion_ms": 54.712,
+          "primera_posicion_relevante": null
+        },
+        {
+          "id": "RAG-036",
+          "esperados": [
+            "92"
+          ],
+          "recuperados": [
+            "1",
+            "5",
+            "7",
+            "2",
+            "6"
+          ],
+          "recuperacion_ms": 51.131,
+          "primera_posicion_relevante": null
+        },
+        {
+          "id": "RAG-037",
+          "esperados": [
+            "93"
+          ],
+          "recuperados": [
+            "1",
+            "2",
+            "5",
+            "6",
+            "7"
+          ],
+          "recuperacion_ms": 40.269,
+          "primera_posicion_relevante": null
+        },
+        {
+          "id": "RAG-038",
+          "esperados": [
+            "94"
+          ],
+          "recuperados": [
+            "1",
+            "2",
+            "7",
+            "6",
+            "5"
+          ],
+          "recuperacion_ms": 81.216,
+          "primera_posicion_relevante": null
+        },
+        {
+          "id": "RAG-039",
+          "esperados": [
+            "95"
+          ],
+          "recuperados": [
+            "1",
+            "7",
+            "6",
+            "5",
+            "2"
+          ],
+          "recuperacion_ms": 91.163,
+          "primera_posicion_relevante": null
+        },
+        {
+          "id": "RAG-040",
+          "esperados": [
+            "111"
+          ],
+          "recuperados": [
+            "1",
+            "2",
+            "5",
+            "6",
+            "7"
+          ],
+          "recuperacion_ms": 60.95,
+          "primera_posicion_relevante": null
+        },
+        {
+          "id": "RAG-041",
+          "esperados": [
+            "124"
+          ],
+          "recuperados": [
+            "1",
+            "5",
+            "7",
+            "2",
+            "6"
+          ],
+          "recuperacion_ms": 77.865,
+          "primera_posicion_relevante": null
+        },
+        {
+          "id": "RAG-042",
+          "esperados": [
+            "135"
+          ],
+          "recuperados": [
+            "1",
+            "2",
+            "6",
+            "5",
+            "7"
+          ],
+          "recuperacion_ms": 47.543,
+          "primera_posicion_relevante": null
+        },
+        {
+          "id": "RAG-043",
+          "esperados": [
+            "140"
+          ],
+          "recuperados": [
+            "2",
+            "6",
+            "5",
+            "7",
+            "1"
+          ],
+          "recuperacion_ms": 43.446,
+          "primera_posicion_relevante": null
+        },
+        {
+          "id": "RAG-044",
+          "esperados": [
+            "146"
+          ],
+          "recuperados": [
+            "5",
+            "1",
+            "2",
+            "7",
+            "6"
+          ],
+          "recuperacion_ms": 74.779,
+          "primera_posicion_relevante": null
+        },
+        {
+          "id": "RAG-045",
+          "esperados": [
+            "150"
+          ],
+          "recuperados": [
+            "1",
+            "7",
+            "5",
+            "2",
+            "6"
+          ],
+          "recuperacion_ms": 99.312,
+          "primera_posicion_relevante": null
+        },
+        {
+          "id": "RAG-046",
+          "esperados": [
+            "155"
+          ],
+          "recuperados": [
+            "1",
+            "5",
+            "6",
+            "2",
+            "7"
+          ],
+          "recuperacion_ms": 42.925,
+          "primera_posicion_relevante": null
+        },
+        {
+          "id": "RAG-047",
+          "esperados": [
+            "163"
+          ],
+          "recuperados": [
+            "1",
+            "2",
+            "6",
+            "7",
+            "5"
+          ],
+          "recuperacion_ms": 46.107,
+          "primera_posicion_relevante": null
+        },
+        {
+          "id": "RAG-048",
+          "esperados": [
+            "180"
+          ],
+          "recuperados": [
+            "1",
+            "7",
+            "5",
+            "2",
+            "6"
+          ],
+          "recuperacion_ms": 67.339,
+          "primera_posicion_relevante": null
+        },
+        {
+          "id": "RAG-049",
+          "esperados": [
+            "222"
+          ],
+          "recuperados": [
+            "1",
+            "5",
+            "7",
+            "2",
+            "6"
+          ],
+          "recuperacion_ms": 79.819,
+          "primera_posicion_relevante": null
+        },
+        {
+          "id": "RAG-050",
+          "esperados": [
+            "223"
+          ],
+          "recuperados": [
+            "5",
+            "1",
+            "7",
+            "6",
+            "2"
+          ],
+          "recuperacion_ms": 82.88,
+          "primera_posicion_relevante": null
+        }
+      ]
+    },
+    "fragmentos_faiss": {
+      "metricas": {
+        "precision_at_1": 0.04,
+        "hit_at_1": 0.04,
+        "recall_at_1": 0.04,
+        "precision_at_3": 0.02,
+        "hit_at_3": 0.06,
+        "recall_at_3": 0.06,
+        "precision_at_5": 0.012,
+        "hit_at_5": 0.06,
+        "recall_at_5": 0.06,
+        "precision_at_10": 0.006,
+        "hit_at_10": 0.06,
+        "recall_at_10": 0.06,
+        "precision_at_20": 0.003,
+        "hit_at_20": 0.06,
+        "recall_at_20": 0.06,
+        "precision_at_50": 0.0012,
+        "hit_at_50": 0.06,
+        "recall_at_50": 0.06,
+        "mrr": 0.05
+      },
+      "p50_recuperacion_ms": 66.14,
+      "p95_recuperacion_ms": 93.171,
+      "resultados": [
+        {
+          "id": "RAG-001",
+          "esperados": [
+            "1"
+          ],
+          "recuperados": [
+            "1",
+            "2",
+            "7",
+            "6",
+            "5"
+          ],
+          "recuperacion_ms": 55.979,
+          "primera_posicion_relevante": 1
+        },
+        {
+          "id": "RAG-002",
+          "esperados": [
+            "2"
+          ],
+          "recuperados": [
+            "1",
+            "2",
+            "7",
+            "6",
+            "5"
+          ],
+          "recuperacion_ms": 48.387,
+          "primera_posicion_relevante": 2
+        },
+        {
+          "id": "RAG-003",
+          "esperados": [
+            "8"
+          ],
+          "recuperados": [
+            "1",
+            "2",
+            "7",
+            "5",
+            "6"
+          ],
+          "recuperacion_ms": 84.949,
+          "primera_posicion_relevante": null
+        },
+        {
+          "id": "RAG-004",
+          "esperados": [
+            "27"
+          ],
+          "recuperados": [
+            "5",
+            "7",
+            "2",
+            "6",
+            "1"
+          ],
+          "recuperacion_ms": 93.687,
+          "primera_posicion_relevante": null
+        },
+        {
+          "id": "RAG-005",
+          "esperados": [
+            "33"
+          ],
+          "recuperados": [
+            "5",
+            "1",
+            "2",
+            "7",
+            "6"
+          ],
+          "recuperacion_ms": 49.485,
+          "primera_posicion_relevante": null
+        },
+        {
+          "id": "RAG-006",
+          "esperados": [
+            "35"
+          ],
+          "recuperados": [
+            "2",
+            "5",
+            "6",
+            "7",
+            "1"
+          ],
+          "recuperacion_ms": 83.438,
+          "primera_posicion_relevante": null
+        },
+        {
+          "id": "RAG-007",
+          "esperados": [
+            "36"
+          ],
+          "recuperados": [
+            "2",
+            "1",
+            "6",
+            "7",
+            "5"
+          ],
+          "recuperacion_ms": 63.735,
+          "primera_posicion_relevante": null
+        },
+        {
+          "id": "RAG-008",
+          "esperados": [
+            "38"
+          ],
+          "recuperados": [
+            "2",
+            "7",
+            "5",
+            "6",
+            "1"
+          ],
+          "recuperacion_ms": 75.799,
+          "primera_posicion_relevante": null
+        },
+        {
+          "id": "RAG-009",
+          "esperados": [
+            "39"
+          ],
+          "recuperados": [
+            "1",
+            "7",
+            "2",
+            "5",
+            "6"
+          ],
+          "recuperacion_ms": 51.223,
+          "primera_posicion_relevante": null
+        },
+        {
+          "id": "RAG-010",
+          "esperados": [
+            "40"
+          ],
+          "recuperados": [
+            "7",
+            "6",
+            "2",
+            "5",
+            "1"
+          ],
+          "recuperacion_ms": 89.279,
+          "primera_posicion_relevante": null
+        },
+        {
+          "id": "RAG-051",
+          "esperados": [
+            "5"
+          ],
+          "recuperados": [
+            "5",
+            "7",
+            "1",
+            "2",
+            "6"
+          ],
+          "recuperacion_ms": 80.601,
+          "primera_posicion_relevante": 1
+        },
+        {
+          "id": "RAG-012",
+          "esperados": [
+            "77"
+          ],
+          "recuperados": [
+            "6",
+            "5",
+            "7",
+            "2",
+            "1"
+          ],
+          "recuperacion_ms": 58.261,
+          "primera_posicion_relevante": null
+        },
+        {
+          "id": "RAG-013",
+          "esperados": [
+            "92"
+          ],
+          "recuperados": [
+            "5",
+            "1",
+            "7",
+            "2",
+            "6"
+          ],
+          "recuperacion_ms": 79.599,
+          "primera_posicion_relevante": null
+        },
+        {
+          "id": "RAG-014",
+          "esperados": [
+            "93"
+          ],
+          "recuperados": [
+            "2",
+            "5",
+            "6",
+            "1",
+            "7"
+          ],
+          "recuperacion_ms": 42.334,
+          "primera_posicion_relevante": null
+        },
+        {
+          "id": "RAG-015",
+          "esperados": [
+            "94"
+          ],
+          "recuperados": [
+            "6",
+            "7",
+            "2",
+            "5",
+            "1"
+          ],
+          "recuperacion_ms": 49.047,
+          "primera_posicion_relevante": null
+        },
+        {
+          "id": "RAG-016",
+          "esperados": [
+            "95"
+          ],
+          "recuperados": [
+            "1",
+            "5",
+            "7",
+            "2",
+            "6"
+          ],
+          "recuperacion_ms": 72.083,
+          "primera_posicion_relevante": null
+        },
+        {
+          "id": "RAG-017",
+          "esperados": [
+            "111"
+          ],
+          "recuperados": [
+            "1",
+            "5",
+            "2",
+            "7",
+            "6"
+          ],
+          "recuperacion_ms": 69.956,
+          "primera_posicion_relevante": null
+        },
+        {
+          "id": "RAG-018",
+          "esperados": [
+            "124"
+          ],
+          "recuperados": [
+            "2",
+            "5",
+            "7",
+            "6",
+            "1"
+          ],
+          "recuperacion_ms": 82.846,
+          "primera_posicion_relevante": null
+        },
+        {
+          "id": "RAG-019",
+          "esperados": [
+            "135"
+          ],
+          "recuperados": [
+            "2",
+            "1",
+            "6",
+            "5",
+            "7"
+          ],
+          "recuperacion_ms": 35.571,
+          "primera_posicion_relevante": null
+        },
+        {
+          "id": "RAG-020",
+          "esperados": [
+            "140"
+          ],
+          "recuperados": [
+            "2",
+            "6",
+            "5",
+            "1",
+            "7"
+          ],
+          "recuperacion_ms": 52.617,
+          "primera_posicion_relevante": null
+        },
+        {
+          "id": "RAG-021",
+          "esperados": [
+            "146"
+          ],
+          "recuperados": [
+            "2",
+            "1",
+            "6",
+            "5",
+            "7"
+          ],
+          "recuperacion_ms": 78.306,
+          "primera_posicion_relevante": null
+        },
+        {
+          "id": "RAG-022",
+          "esperados": [
+            "150"
+          ],
+          "recuperados": [
+            "2",
+            "1",
+            "6",
+            "5",
+            "7"
+          ],
+          "recuperacion_ms": 92.448,
+          "primera_posicion_relevante": null
+        },
+        {
+          "id": "RAG-023",
+          "esperados": [
+            "155"
+          ],
+          "recuperados": [
+            "6",
+            "1",
+            "2",
+            "5",
+            "7"
+          ],
+          "recuperacion_ms": 72.914,
+          "primera_posicion_relevante": null
+        },
+        {
+          "id": "RAG-024",
+          "esperados": [
+            "163"
+          ],
+          "recuperados": [
+            "2",
+            "1",
+            "6",
+            "7",
+            "5"
+          ],
+          "recuperacion_ms": 79.327,
+          "primera_posicion_relevante": null
+        },
+        {
+          "id": "RAG-025",
+          "esperados": [
+            "180"
+          ],
+          "recuperados": [
+            "1",
+            "2",
+            "5",
+            "7",
+            "6"
+          ],
+          "recuperacion_ms": 58.274,
+          "primera_posicion_relevante": null
+        },
+        {
+          "id": "RAG-026",
+          "esperados": [
+            "206"
+          ],
+          "recuperados": [
+            "2",
+            "1",
+            "6",
+            "5",
+            "7"
+          ],
+          "recuperacion_ms": 46.659,
+          "primera_posicion_relevante": null
+        },
+        {
+          "id": "RAG-027",
+          "esperados": [
+            "222"
+          ],
+          "recuperados": [
+            "2",
+            "5",
+            "1",
+            "7",
+            "6"
+          ],
+          "recuperacion_ms": 75.687,
+          "primera_posicion_relevante": null
+        },
+        {
+          "id": "RAG-028",
+          "esperados": [
+            "223"
+          ],
+          "recuperados": [
+            "2",
+            "5",
+            "7",
+            "1",
+            "6"
+          ],
+          "recuperacion_ms": 82.369,
+          "primera_posicion_relevante": null
+        },
+        {
+          "id": "RAG-029",
+          "esperados": [
+            "223A"
+          ],
+          "recuperados": [
+            "1",
+            "7",
+            "5",
+            "2",
+            "6"
+          ],
+          "recuperacion_ms": 47.985,
+          "primera_posicion_relevante": null
+        },
+        {
+          "id": "RAG-030",
+          "esperados": [
+            "237"
+          ],
+          "recuperados": [
+            "1",
+            "2",
+            "5",
+            "7",
+            "6"
+          ],
+          "recuperacion_ms": 50.619,
+          "primera_posicion_relevante": null
+        },
+        {
+          "id": "RAG-031",
+          "esperados": [
+            "27"
+          ],
+          "recuperados": [
+            "2",
+            "1",
+            "7",
+            "6",
+            "5"
+          ],
+          "recuperacion_ms": 55.304,
+          "primera_posicion_relevante": null
+        },
+        {
+          "id": "RAG-032",
+          "esperados": [
+            "33"
+          ],
+          "recuperados": [
+            "1",
+            "2",
+            "5",
+            "7",
+            "6"
+          ],
+          "recuperacion_ms": 97.796,
+          "primera_posicion_relevante": null
+        },
+        {
+          "id": "RAG-033",
+          "esperados": [
+            "35"
+          ],
+          "recuperados": [
+            "2",
+            "1",
+            "5",
+            "6",
+            "7"
+          ],
+          "recuperacion_ms": 56.612,
+          "primera_posicion_relevante": null
+        },
+        {
+          "id": "RAG-034",
+          "esperados": [
+            "38"
+          ],
+          "recuperados": [
+            "1",
+            "7",
+            "5",
+            "2",
+            "6"
+          ],
+          "recuperacion_ms": 50.857,
+          "primera_posicion_relevante": null
+        },
+        {
+          "id": "RAG-035",
+          "esperados": [
+            "77"
+          ],
+          "recuperados": [
+            "1",
+            "5",
+            "6",
+            "2",
+            "7"
+          ],
+          "recuperacion_ms": 55.338,
+          "primera_posicion_relevante": null
+        },
+        {
+          "id": "RAG-036",
+          "esperados": [
+            "92"
+          ],
+          "recuperados": [
+            "1",
+            "5",
+            "7",
+            "2",
+            "6"
+          ],
+          "recuperacion_ms": 51.555,
+          "primera_posicion_relevante": null
+        },
+        {
+          "id": "RAG-037",
+          "esperados": [
+            "93"
+          ],
+          "recuperados": [
+            "2",
+            "1",
+            "5",
+            "6",
+            "7"
+          ],
+          "recuperacion_ms": 40.722,
+          "primera_posicion_relevante": null
+        },
+        {
+          "id": "RAG-038",
+          "esperados": [
+            "94"
+          ],
+          "recuperados": [
+            "1",
+            "2",
+            "7",
+            "6",
+            "5"
+          ],
+          "recuperacion_ms": 82.078,
+          "primera_posicion_relevante": null
+        },
+        {
+          "id": "RAG-039",
+          "esperados": [
+            "95"
+          ],
+          "recuperados": [
+            "1",
+            "2",
+            "7",
+            "6",
+            "5"
+          ],
+          "recuperacion_ms": 92.54,
+          "primera_posicion_relevante": null
+        },
+        {
+          "id": "RAG-040",
+          "esperados": [
+            "111"
+          ],
+          "recuperados": [
+            "2",
+            "1",
+            "6",
+            "5",
+            "7"
+          ],
+          "recuperacion_ms": 61.722,
+          "primera_posicion_relevante": null
+        },
+        {
+          "id": "RAG-041",
+          "esperados": [
+            "124"
+          ],
+          "recuperados": [
+            "1",
+            "5",
+            "7",
+            "2",
+            "6"
+          ],
+          "recuperacion_ms": 78.533,
+          "primera_posicion_relevante": null
+        },
+        {
+          "id": "RAG-042",
+          "esperados": [
+            "135"
+          ],
+          "recuperados": [
+            "1",
+            "2",
+            "6",
+            "5",
+            "7"
+          ],
+          "recuperacion_ms": 48.17,
+          "primera_posicion_relevante": null
+        },
+        {
+          "id": "RAG-043",
+          "esperados": [
+            "140"
+          ],
+          "recuperados": [
+            "2",
+            "7",
+            "6",
+            "5",
+            "1"
+          ],
+          "recuperacion_ms": 44.044,
+          "primera_posicion_relevante": null
+        },
+        {
+          "id": "RAG-044",
+          "esperados": [
+            "146"
+          ],
+          "recuperados": [
+            "5",
+            "2",
+            "1",
+            "7",
+            "6"
+          ],
+          "recuperacion_ms": 75.491,
+          "primera_posicion_relevante": null
+        },
+        {
+          "id": "RAG-045",
+          "esperados": [
+            "150"
+          ],
+          "recuperados": [
+            "2",
+            "1",
+            "7",
+            "5",
+            "6"
+          ],
+          "recuperacion_ms": 100.315,
+          "primera_posicion_relevante": null
+        },
+        {
+          "id": "RAG-046",
+          "esperados": [
+            "155"
+          ],
+          "recuperados": [
+            "2",
+            "1",
+            "6",
+            "5",
+            "7"
+          ],
+          "recuperacion_ms": 43.414,
+          "primera_posicion_relevante": null
+        },
+        {
+          "id": "RAG-047",
+          "esperados": [
+            "163"
+          ],
+          "recuperados": [
+            "2",
+            "1",
+            "6",
+            "5",
+            "7"
+          ],
+          "recuperacion_ms": 46.638,
+          "primera_posicion_relevante": null
+        },
+        {
+          "id": "RAG-048",
+          "esperados": [
+            "180"
+          ],
+          "recuperados": [
+            "1",
+            "7",
+            "5",
+            "2",
+            "6"
+          ],
+          "recuperacion_ms": 68.545,
+          "primera_posicion_relevante": null
+        },
+        {
+          "id": "RAG-049",
+          "esperados": [
+            "222"
+          ],
+          "recuperados": [
+            "2",
+            "1",
+            "5",
+            "7",
+            "6"
+          ],
+          "recuperacion_ms": 81.313,
+          "primera_posicion_relevante": null
+        },
+        {
+          "id": "RAG-050",
+          "esperados": [
+            "223"
+          ],
+          "recuperados": [
+            "2",
+            "5",
+            "1",
+            "7",
+            "6"
+          ],
+          "recuperacion_ms": 83.937,
+          "primera_posicion_relevante": null
+        }
+      ]
+    },
+    "hibrido_prototipo": {
+      "metricas": {
+        "precision_at_1": 0.02,
+        "hit_at_1": 0.02,
+        "recall_at_1": 0.02,
+        "precision_at_3": 0.02,
+        "hit_at_3": 0.06,
+        "recall_at_3": 0.06,
+        "precision_at_5": 0.012,
+        "hit_at_5": 0.06,
+        "recall_at_5": 0.06,
+        "precision_at_10": 0.006,
+        "hit_at_10": 0.06,
+        "recall_at_10": 0.06,
+        "precision_at_20": 0.003,
+        "hit_at_20": 0.06,
+        "recall_at_20": 0.06,
+        "precision_at_50": 0.0012,
+        "hit_at_50": 0.06,
+        "recall_at_50": 0.06,
+        "mrr": 0.04
+      },
+      "p50_recuperacion_ms": 234.893,
+      "p95_recuperacion_ms": 314.01,
+      "resultados": [
+        {
+          "id": "RAG-001",
+          "esperados": [
+            "1"
+          ],
+          "recuperados": [
+            "7",
+            "1",
+            "2",
+            "6",
+            "5"
+          ],
+          "recuperacion_ms": 157.02,
+          "primera_posicion_relevante": 2
+        },
+        {
+          "id": "RAG-002",
+          "esperados": [
+            "2"
+          ],
+          "recuperados": [
+            "2",
+            "1",
+            "7",
+            "6",
+            "5"
+          ],
+          "recuperacion_ms": 271.887,
+          "primera_posicion_relevante": 1
+        },
+        {
+          "id": "RAG-003",
+          "esperados": [
+            "8"
+          ],
+          "recuperados": [
+            "1",
+            "2",
+            "7",
+            "5"
+          ],
+          "recuperacion_ms": 236.871,
+          "primera_posicion_relevante": null
+        },
+        {
+          "id": "RAG-004",
+          "esperados": [
+            "27"
+          ],
+          "recuperados": [
+            "5",
+            "7",
+            "2",
+            "6"
+          ],
+          "recuperacion_ms": 201.797,
+          "primera_posicion_relevante": null
+        },
+        {
+          "id": "RAG-005",
+          "esperados": [
+            "33"
+          ],
+          "recuperados": [
+            "5",
+            "1",
+            "2",
+            "7"
+          ],
+          "recuperacion_ms": 211.258,
+          "primera_posicion_relevante": null
+        },
+        {
+          "id": "RAG-006",
+          "esperados": [
+            "35"
+          ],
+          "recuperados": [
+            "2",
+            "5",
+            "6",
+            "7"
+          ],
+          "recuperacion_ms": 234.257,
+          "primera_posicion_relevante": null
+        },
+        {
+          "id": "RAG-007",
+          "esperados": [
+            "36"
+          ],
+          "recuperados": [
+            "2",
+            "1",
+            "6"
+          ],
+          "recuperacion_ms": 279.229,
+          "primera_posicion_relevante": null
+        },
+        {
+          "id": "RAG-008",
+          "esperados": [
+            "38"
+          ],
+          "recuperados": [
+            "2",
+            "7",
+            "5"
+          ],
+          "recuperacion_ms": 356.507,
+          "primera_posicion_relevante": null
+        },
+        {
+          "id": "RAG-009",
+          "esperados": [
+            "39"
+          ],
+          "recuperados": [
+            "1",
+            "7",
+            "2",
+            "5",
+            "6"
+          ],
+          "recuperacion_ms": 239.323,
+          "primera_posicion_relevante": null
+        },
+        {
+          "id": "RAG-010",
+          "esperados": [
+            "40"
+          ],
+          "recuperados": [
+            "7",
+            "6",
+            "2"
+          ],
+          "recuperacion_ms": 251.041,
+          "primera_posicion_relevante": null
+        },
+        {
+          "id": "RAG-051",
+          "esperados": [
+            "5"
+          ],
+          "recuperados": [
+            "7",
+            "5",
+            "1",
+            "2",
+            "6"
+          ],
+          "recuperacion_ms": 264.999,
+          "primera_posicion_relevante": 2
+        },
+        {
+          "id": "RAG-012",
+          "esperados": [
+            "77"
+          ],
+          "recuperados": [
+            "6",
+            "5",
+            "7",
+            "2"
+          ],
+          "recuperacion_ms": 276.665,
+          "primera_posicion_relevante": null
+        },
+        {
+          "id": "RAG-013",
+          "esperados": [
+            "92"
+          ],
+          "recuperados": [
+            "5",
+            "1",
+            "7",
+            "2"
+          ],
+          "recuperacion_ms": 223.485,
+          "primera_posicion_relevante": null
+        },
+        {
+          "id": "RAG-014",
+          "esperados": [
+            "93"
+          ],
+          "recuperados": [
+            "2",
+            "5",
+            "6",
+            "1"
+          ],
+          "recuperacion_ms": 200.068,
+          "primera_posicion_relevante": null
+        },
+        {
+          "id": "RAG-015",
+          "esperados": [
+            "94"
+          ],
+          "recuperados": [
+            "6",
+            "7",
+            "2"
+          ],
+          "recuperacion_ms": 189.096,
+          "primera_posicion_relevante": null
+        },
+        {
+          "id": "RAG-016",
+          "esperados": [
+            "95"
+          ],
+          "recuperados": [
+            "1",
+            "5",
+            "7",
+            "2"
+          ],
+          "recuperacion_ms": 242.641,
+          "primera_posicion_relevante": null
+        },
+        {
+          "id": "RAG-017",
+          "esperados": [
+            "111"
+          ],
+          "recuperados": [
+            "1",
+            "5",
+            "2",
+            "7"
+          ],
+          "recuperacion_ms": 300.683,
+          "primera_posicion_relevante": null
+        },
+        {
+          "id": "RAG-018",
+          "esperados": [
+            "124"
+          ],
+          "recuperados": [
+            "2",
+            "5",
+            "7",
+            "6"
+          ],
+          "recuperacion_ms": 182.066,
+          "primera_posicion_relevante": null
+        },
+        {
+          "id": "RAG-019",
+          "esperados": [
+            "135"
+          ],
+          "recuperados": [
+            "2",
+            "1",
+            "6",
+            "5"
+          ],
+          "recuperacion_ms": 178.904,
+          "primera_posicion_relevante": null
+        },
+        {
+          "id": "RAG-020",
+          "esperados": [
+            "140"
+          ],
+          "recuperados": [
+            "2",
+            "6"
+          ],
+          "recuperacion_ms": 295.838,
+          "primera_posicion_relevante": null
+        },
+        {
+          "id": "RAG-021",
+          "esperados": [
+            "146"
+          ],
+          "recuperados": [
+            "2",
+            "1",
+            "6",
+            "5"
+          ],
+          "recuperacion_ms": 298.358,
+          "primera_posicion_relevante": null
+        },
+        {
+          "id": "RAG-022",
+          "esperados": [
+            "150"
+          ],
+          "recuperados": [
+            "2",
+            "1",
+            "6",
+            "5"
+          ],
+          "recuperacion_ms": 247.196,
+          "primera_posicion_relevante": null
+        },
+        {
+          "id": "RAG-023",
+          "esperados": [
+            "155"
+          ],
+          "recuperados": [
+            "6",
+            "1",
+            "2"
+          ],
+          "recuperacion_ms": 231.006,
+          "primera_posicion_relevante": null
+        },
+        {
+          "id": "RAG-024",
+          "esperados": [
+            "163"
+          ],
+          "recuperados": [
+            "2",
+            "1",
+            "6",
+            "7",
+            "5"
+          ],
+          "recuperacion_ms": 294.356,
+          "primera_posicion_relevante": null
+        },
+        {
+          "id": "RAG-025",
+          "esperados": [
+            "180"
+          ],
+          "recuperados": [
+            "1",
+            "2",
+            "5",
+            "7",
+            "6"
+          ],
+          "recuperacion_ms": 225.121,
+          "primera_posicion_relevante": null
+        },
+        {
+          "id": "RAG-026",
+          "esperados": [
+            "206"
+          ],
+          "recuperados": [
+            "2",
+            "1",
+            "6",
+            "5"
+          ],
+          "recuperacion_ms": 213.933,
+          "primera_posicion_relevante": null
+        },
+        {
+          "id": "RAG-027",
+          "esperados": [
+            "222"
+          ],
+          "recuperados": [
+            "2",
+            "5",
+            "1",
+            "7"
+          ],
+          "recuperacion_ms": 308.547,
+          "primera_posicion_relevante": null
+        },
+        {
+          "id": "RAG-028",
+          "esperados": [
+            "223"
+          ],
+          "recuperados": [
+            "2",
+            "5",
+            "7",
+            "1"
+          ],
+          "recuperacion_ms": 176.348,
+          "primera_posicion_relevante": null
+        },
+        {
+          "id": "RAG-029",
+          "esperados": [
+            "223A"
+          ],
+          "recuperados": [
+            "1",
+            "7",
+            "5",
+            "2",
+            "6"
+          ],
+          "recuperacion_ms": 168.889,
+          "primera_posicion_relevante": null
+        },
+        {
+          "id": "RAG-030",
+          "esperados": [
+            "237"
+          ],
+          "recuperados": [
+            "1",
+            "2",
+            "5",
+            "7"
+          ],
+          "recuperacion_ms": 240.803,
+          "primera_posicion_relevante": null
+        },
+        {
+          "id": "RAG-031",
+          "esperados": [
+            "27"
+          ],
+          "recuperados": [
+            "2",
+            "1",
+            "7",
+            "6",
+            "5"
+          ],
+          "recuperacion_ms": 258.398,
+          "primera_posicion_relevante": null
+        },
+        {
+          "id": "RAG-032",
+          "esperados": [
+            "33"
+          ],
+          "recuperados": [
+            "1",
+            "2",
+            "5"
+          ],
+          "recuperacion_ms": 187.643,
+          "primera_posicion_relevante": null
+        },
+        {
+          "id": "RAG-033",
+          "esperados": [
+            "35"
+          ],
+          "recuperados": [
+            "2",
+            "1",
+            "5",
+            "6"
+          ],
+          "recuperacion_ms": 161.765,
+          "primera_posicion_relevante": null
+        },
+        {
+          "id": "RAG-034",
+          "esperados": [
+            "38"
+          ],
+          "recuperados": [
+            "1",
+            "7",
+            "5",
+            "2"
+          ],
+          "recuperacion_ms": 210.322,
+          "primera_posicion_relevante": null
+        },
+        {
+          "id": "RAG-035",
+          "esperados": [
+            "77"
+          ],
+          "recuperados": [
+            "1",
+            "5",
+            "6",
+            "2"
+          ],
+          "recuperacion_ms": 157.335,
+          "primera_posicion_relevante": null
+        },
+        {
+          "id": "RAG-036",
+          "esperados": [
+            "92"
+          ],
+          "recuperados": [
+            "1",
+            "5",
+            "7",
+            "2"
+          ],
+          "recuperacion_ms": 153.447,
+          "primera_posicion_relevante": null
+        },
+        {
+          "id": "RAG-037",
+          "esperados": [
+            "93"
+          ],
+          "recuperados": [
+            "2",
+            "1",
+            "5",
+            "6"
+          ],
+          "recuperacion_ms": 194.899,
+          "primera_posicion_relevante": null
+        },
+        {
+          "id": "RAG-038",
+          "esperados": [
+            "94"
+          ],
+          "recuperados": [
+            "1",
+            "2",
+            "7",
+            "6"
+          ],
+          "recuperacion_ms": 227.15,
+          "primera_posicion_relevante": null
+        },
+        {
+          "id": "RAG-039",
+          "esperados": [
+            "95"
+          ],
+          "recuperados": [
+            "1",
+            "2",
+            "7",
+            "6"
+          ],
+          "recuperacion_ms": 273.816,
+          "primera_posicion_relevante": null
+        },
+        {
+          "id": "RAG-040",
+          "esperados": [
+            "111"
+          ],
+          "recuperados": [
+            "2",
+            "1",
+            "6",
+            "5"
+          ],
+          "recuperacion_ms": 260.057,
+          "primera_posicion_relevante": null
+        },
+        {
+          "id": "RAG-041",
+          "esperados": [
+            "124"
+          ],
+          "recuperados": [
+            "1",
+            "5",
+            "7",
+            "2"
+          ],
+          "recuperacion_ms": 312.319,
+          "primera_posicion_relevante": null
+        },
+        {
+          "id": "RAG-042",
+          "esperados": [
+            "135"
+          ],
+          "recuperados": [
+            "1",
+            "2",
+            "6",
+            "5"
+          ],
+          "recuperacion_ms": 153.891,
+          "primera_posicion_relevante": null
+        },
+        {
+          "id": "RAG-043",
+          "esperados": [
+            "140"
+          ],
+          "recuperados": [
+            "2",
+            "7",
+            "6",
+            "5"
+          ],
+          "recuperacion_ms": 164.547,
+          "primera_posicion_relevante": null
+        },
+        {
+          "id": "RAG-044",
+          "esperados": [
+            "146"
+          ],
+          "recuperados": [
+            "5",
+            "2",
+            "1",
+            "7"
+          ],
+          "recuperacion_ms": 271.193,
+          "primera_posicion_relevante": null
+        },
+        {
+          "id": "RAG-045",
+          "esperados": [
+            "150"
+          ],
+          "recuperados": [
+            "2",
+            "1",
+            "7",
+            "5"
+          ],
+          "recuperacion_ms": 335.697,
+          "primera_posicion_relevante": null
+        },
+        {
+          "id": "RAG-046",
+          "esperados": [
+            "155"
+          ],
+          "recuperados": [
+            "2",
+            "1",
+            "6",
+            "5"
+          ],
+          "recuperacion_ms": 158.774,
+          "primera_posicion_relevante": null
+        },
+        {
+          "id": "RAG-047",
+          "esperados": [
+            "163"
+          ],
+          "recuperados": [
+            "2",
+            "1",
+            "6"
+          ],
+          "recuperacion_ms": 169.863,
+          "primera_posicion_relevante": null
+        },
+        {
+          "id": "RAG-048",
+          "esperados": [
+            "180"
+          ],
+          "recuperados": [
+            "7",
+            "1",
+            "5",
+            "2",
+            "6"
+          ],
+          "recuperacion_ms": 235.529,
+          "primera_posicion_relevante": null
+        },
+        {
+          "id": "RAG-049",
+          "esperados": [
+            "222"
+          ],
+          "recuperados": [
+            "2",
+            "1",
+            "5",
+            "7"
+          ],
+          "recuperacion_ms": 251.866,
+          "primera_posicion_relevante": null
+        },
+        {
+          "id": "RAG-050",
+          "esperados": [
+            "223"
+          ],
+          "recuperados": [
+            "2",
+            "5",
+            "1",
+            "7"
+          ],
+          "recuperacion_ms": 315.394,
+          "primera_posicion_relevante": null
+        }
+      ]
+    }
+  },
+  "clasificador": [
+    {
+      "id": "FD-001",
+      "esperado": true,
+      "obtenido": true
+    },
+    {
+      "id": "FD-002",
+      "esperado": true,
+      "obtenido": true
+    },
+    {
+      "id": "FD-003",
+      "esperado": true,
+      "obtenido": true
+    },
+    {
+      "id": "FD-004",
+      "esperado": true,
+      "obtenido": true
+    },
+    {
+      "id": "FD-005",
+      "esperado": true,
+      "obtenido": true
+    },
+    {
+      "id": "FD-006",
+      "esperado": true,
+      "obtenido": true
+    },
+    {
+      "id": "FD-007",
+      "esperado": true,
+      "obtenido": true
+    },
+    {
+      "id": "FD-008",
+      "esperado": true,
+      "obtenido": true
+    },
+    {
+      "id": "FD-009",
+      "esperado": true,
+      "obtenido": true
+    },
+    {
+      "id": "FD-010",
+      "esperado": true,
+      "obtenido": true
+    },
+    {
+      "id": "FD-011",
+      "esperado": false,
+      "obtenido": false
+    },
+    {
+      "id": "FD-012",
+      "esperado": false,
+      "obtenido": false
+    },
+    {
+      "id": "FD-013",
+      "esperado": false,
+      "obtenido": false
+    },
+    {
+      "id": "FD-014",
+      "esperado": false,
+      "obtenido": false
+    },
+    {
+      "id": "FD-015",
+      "esperado": false,
+      "obtenido": false
+    },
+    {
+      "id": "FD-016",
+      "esperado": false,
+      "obtenido": false
+    },
+    {
+      "id": "FD-017",
+      "esperado": true,
+      "obtenido": true
+    },
+    {
+      "id": "FD-018",
+      "esperado": true,
+      "obtenido": true
+    },
+    {
+      "id": "FD-019",
+      "esperado": true,
+      "obtenido": true
+    },
+    {
+      "id": "FD-020",
+      "esperado": true,
+      "obtenido": true
+    },
+    {
+      "id": "FD-021",
+      "esperado": true,
+      "obtenido": true
+    },
+    {
+      "id": "FD-022",
+      "esperado": true,
+      "obtenido": true
+    },
+    {
+      "id": "FD-023",
+      "esperado": true,
+      "obtenido": true
+    },
+    {
+      "id": "FD-024",
+      "esperado": true,
+      "obtenido": true
+    },
+    {
+      "id": "FD-025",
+      "esperado": false,
+      "obtenido": false
+    },
+    {
+      "id": "FD-026",
+      "esperado": false,
+      "obtenido": false
+    },
+    {
+      "id": "FD-027",
+      "esperado": false,
+      "obtenido": false
+    },
+    {
+      "id": "FD-028",
+      "esperado": true,
+      "obtenido": true
+    },
+    {
+      "id": "FD-029",
+      "esperado": true,
+      "obtenido": true
+    },
+    {
+      "id": "FD-030",
+      "esperado": true,
+      "obtenido": true
+    },
+    {
+      "id": "FD-031",
+      "esperado": true,
+      "obtenido": true
+    },
+    {
+      "id": "FD-032",
+      "esperado": true,
+      "obtenido": true
+    },
+    {
+      "id": "FD-033",
+      "esperado": true,
+      "obtenido": true
+    },
+    {
+      "id": "FD-034",
+      "esperado": true,
+      "obtenido": true
+    },
+    {
+      "id": "FD-035",
+      "esperado": false,
+      "obtenido": false
+    },
+    {
+      "id": "FD-036",
+      "esperado": false,
+      "obtenido": false
+    },
+    {
+      "id": "FD-037",
+      "esperado": true,
+      "obtenido": true
+    }
+  ]
+}

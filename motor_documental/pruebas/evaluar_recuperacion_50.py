@@ -7,6 +7,7 @@ from collections import Counter
 from motor_documental.recuperador_combinado_1801 import (
     RecuperadorCombinado1801,
 )
+from motor_documental.vigencia_rag import IDENTIFICADORES_INEXEQUIBLES
 
 BASE = Path(__file__).resolve().parents[2]
 
@@ -16,7 +17,7 @@ RUTA_BANCO = (
 
 RUTA_SALIDA = (
     BASE
-    / "motor_documental/pruebas/evaluacion_recuperacion_50_resultados.json"
+    / "motor_documental/pruebas/evaluacion_recuperacion_banco_revisado.json"
 )
 
 K_VALORES = (1, 3, 5, 10, 20, 50)
@@ -31,8 +32,8 @@ def cargar_banco():
         RUTA_BANCO.read_text(encoding="utf-8")
     )
 
-    if not isinstance(banco, list) or len(banco) != 50:
-        raise ValueError("El banco debe contener 50 preguntas.")
+    if not isinstance(banco, list) or len(banco) < 50:
+        raise ValueError("El banco debe contener al menos 50 preguntas.")
 
     ids = [p["id"] for p in banco]
 
@@ -45,6 +46,8 @@ def cargar_banco():
 
         if not p.get("articulos_esperados"):
             raise ValueError(f"Sin artículos esperados: {p['id']}")
+        if IDENTIFICADORES_INEXEQUIBLES.intersection(map(normalizar_articulo, p["articulos_esperados"])):
+            raise ValueError(f"Artículo histórico excluido en el banco activo: {p['id']}")
 
         if not p.get("respuesta_referencia", "").strip():
             raise ValueError(f"Sin respuesta de referencia: {p['id']}")
@@ -191,7 +194,7 @@ def main():
         encontrados = set(esperados) & set(recuperados)
 
         print(
-            f"[{indice:02d}/50] {prueba['id']} | "
+            f"[{indice:02d}/{len(banco)}] {prueba['id']} | "
             f"Esperados: {esperados} | "
             f"Encontrados: {sorted(encontrados)}"
         )
@@ -210,8 +213,8 @@ def main():
         for r in registros
     )
 
-    print(f"Preguntas con algún artículo correcto: {total_aciertos}/50")
-    print(f"Preguntas sin coincidencias: {50-total_aciertos}/50")
+    print(f"Preguntas con algún artículo correcto: {total_aciertos}/{len(banco)}")
+    print(f"Preguntas sin coincidencias: {len(banco)-total_aciertos}/{len(banco)}")
 
     errores = [
         r for r in registros

@@ -57,13 +57,19 @@ def main():
             fila["respuesta_referencia"] = caso["respuesta_referencia"]
             fila["articulos_esperados"] = caso["articulos_esperados"]
             mediciones.append(fila)
-    tiempos = [f["segundos"] for f in mediciones if f["http"] == 200]
+    exitosas = [f for f in mediciones if f["http"] == 200]
+    # Un rechazo documental inmediato no mide el tiempo de generación.
+    tiempos = [
+        f["segundos"] for f in exitosas
+        if str(f["respuesta"].get("modelo", "")).startswith("gemini-")
+    ]
     resultado = {
         "url": args.url,
         "trampas": consultas,
         "trampas_rechazadas": sum(caso["rechazo_sin_fuentes"] for caso in consultas),
         "consultas_banco": mediciones,
-        "consultas_banco_http_200": len(tiempos),
+        "consultas_banco_http_200": len(exitosas),
+        "consultas_banco_generadas": len(tiempos),
         "p50_banco_s": median(tiempos) if tiempos else None,
         "p95_banco_s": quantiles(tiempos, n=100, method="inclusive")[94] if len(tiempos) >= 2 else None,
         "banco_menos_de_10_s": sum(valor < 10 for valor in tiempos),

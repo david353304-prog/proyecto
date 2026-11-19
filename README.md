@@ -43,9 +43,11 @@ python -m uvicorn backend.servicio_rag:app --host 127.0.0.1 --port 8000
 node backend/index.js
 ```
 
-Abre `http://127.0.0.1:3000`. Sin credencial, FastAPI responde a los
-rechazos reconocidos por el clasificador y devuelve HTTP 503 para
-consultas que requieren generación. El servicio interno documenta sus
+Abre `http://127.0.0.1:3000`. El alcance público inicial describe el
+texto cotejado de los artículos 1, 2, 5, 6 y 7. El corpus histórico
+permanece disponible para experimentos locales. Sin credencial, FastAPI
+responde a los rechazos deterministas y devuelve HTTP 503 para consultas
+que requieren generación. El servicio interno documenta sus
 rutas en `http://127.0.0.1:8000/docs`.
 
 ## API pública
@@ -70,11 +72,14 @@ python -m unittest discover -s tests
 python -m unittest discover -s motor_documental/pruebas -p "test_*.py"
 npm --prefix backend test
 python -m motor_documental.analisis.analisis_linguistico_corpus
+python -m motor_documental.corpus.conciliar_diferencias --salida conciliacion.json
+python -m motor_documental.pruebas.auditar_evidencia
 python -m motor_documental.pruebas.comparar_recuperacion --salida comparacion.json
+python -m motor_documental.pruebas.comparar_recuperacion --publicable --salida comparacion_publicable.json
 python -m motor_documental.pruebas.evaluar_api --salida evaluacion_http.json
 ```
 
-Ejecuta la evaluación HTTP con ambos servidores activos. Con credencial, conserva las respuestas observadas, los tiempos y los artículos esperados para revisión con la escala de `motor_documental/pruebas/rubrica_evaluacion_respuestas.json`. El indicador de diez segundos se mide en consultas HTTP exitosas del banco. Los rechazos fuera de dominio se reportan por separado.
+Ejecuta la evaluación HTTP con ambos servidores activos. Con credencial, conserva las respuestas observadas, los tiempos y los artículos esperados para revisión con la escala de `motor_documental/pruebas/rubrica_evaluacion_respuestas.json`. El indicador de diez segundos se mide en consultas exitosas del banco que invocaron Gemini. Los rechazos deterministas y fuera de dominio se reportan por separado.
 
 Consulta la [matriz de revisión](documentacion/revision_entrega.md), el
 [contraste normativo](documentacion/documentacion_corpus.md) y el

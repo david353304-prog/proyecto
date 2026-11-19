@@ -13,15 +13,60 @@ y omitió una por falta del permiso de Windows para crear enlaces
 simbólicos. El selector documental aprobó 5 pruebas y Node aprobó
 25. El contraste se reprodujo byte a byte con la misma descarga.
 
+En la fase de conciliación, la suite principal de Python ejecutó
+81 pruebas, con 80 aprobadas y la misma omisión de Windows.
+La prueba del corpus verificó cobertura exacta de las 159 diferencias,
+reproducción del expediente y ausencia de aprobaciones para el índice.
+En esta fase no se midió generación con Gemini ni latencia completa.
+
+En la revisión siguiente, el clasificador aplica las señales externas
+específicas incluso cuando la consulta menciona la Ley 1801. Las preguntas
+mixtas con esas señales se rechazan como una sola consulta. La salvaguarda
+de C-223/17 muestra un aviso para consultas explícitas, excluye los textos
+originales del contexto y bloquea citas generadas hacia esos artículos.
+Las pruebas de generación usan un cliente simulado y el aviso también
+se probó por FastAPI sin credencial.
+En Windows se ejecutaron 87 pruebas de Python, con 86 aprobadas y
+una omitida por permisos de enlaces simbólicos. Node aprobó 25
+pruebas. El expediente original se reprodujo byte a byte. Una
+prueba del comando de conciliación con otro insumo generó un
+expediente de un solo caso.
+
 | Requisito | Estado | Evidencia, pruebas y resultado | Pendiente |
 |---|---|---|---|
-| Corpus jurídico | Parcial | [Contraste y fuentes](documentacion_corpus.md), [JSON segmentado](../motor_documental/corpus/referencia_normativa.json). Corrida sobre 249 artículos, con 90 coincidencias normalizadas y 159 diferencias por revisar. Se identificaron 267 parágrafos, 627 numerales y 88 literales según los encabezados del HTML. Se registró C-223/17 en los 29 textos originales afectados. | Conciliar diferencias y tablas, verificar la vigencia disposición por disposición, revisar licencia específica del material editorial y aprobar la migración del corpus utilizado por el RAG. |
+| Corpus jurídico | Parcial, con alcance público de cinco artículos | [Fuente y metodología](documentacion_corpus.md), [JSON segmentado](../motor_documental/corpus/referencia_normativa.json), [expediente](../motor_documental/corpus/conciliacion_diferencias.json). Las 159 diferencias se desglosan en 650 bloques con fuente, fecha y ubicación. Se añadieron diez enlaces de reforma con apartado y el resolutivo C-223/17 para los textos originales afectados. | Cerrar las diferencias sustantivas y el alcance de cada sentencia, validar tablas y marcas editoriales y verificar aplicabilidad por apartado antes de ampliar el alcance. |
 | Análisis lingüístico | Ejecutado sobre el corpus histórico | [Informe](informe_analisis_linguistico.md), [resultados reproducibles](../motor_documental/analisis/resultados_linguisticos.json). spaCy en español procesó 249 artículos, 53.943 tokens y 5.059 tipos. Relación tipo/token 0,0938 y media 216,64. Se generaron entidades, colocaciones PMI, KWIC, glosario y frecuencias. | Validar una muestra etiquetada a mano para estimar la calidad de las entidades y repetir sobre el corpus conciliado. |
-| Recuperación y RAG | Recuperación medida, generación actual pendiente | [Comparación FAISS](../motor_documental/pruebas/comparacion_recuperacion_resultados.json), [pruebas de abstención](../tests/test_abstencion_rag.py). Orientación suave por libro en candidatos semánticos y preservación de referencias cruzadas. En HTTP, 13/13 trampas se rechazaron con el clasificador y sin fuentes. | Repetir con corpus conciliado y consultas nuevas. Revisar las respuestas reales y las citas de parágrafo, numeral y literal con una credencial de Gemini. |
+| Recuperación y RAG | Medido en modo histórico y público | [Auditoría](../motor_documental/pruebas/auditar_evidencia.py), [medición histórica revisada](../motor_documental/pruebas/comparacion_recuperacion_banco_revisado.json), [alcance público](../motor_documental/pruebas/recuperacion_alcance_publicable.json). Se reprodujeron los rankings y métricas de las 50 preguntas, y se verificaron 866 vectores de dimensión 384 y 9 fragmentos del alcance público. El clasificador acertó en 37/37 casos. | Ampliar el corpus con evidencia jurídica, repetir métricas operativas y verificar fidelidad de la generación real. |
 | Interfaz y API | Verificado en Windows | [README y API](../README.md), [pruebas Node](../backend/tests). Chrome sin ventana verificó pregunta sugerida, pregunta libre, historial de la sesión, reinicio, aviso y panel de fuentes con una respuesta de prueba. CORS devolvió 204 al origen permitido y 403 al no permitido. Las pruebas de carga verificaron PDF válido, inválido y sin texto, y `indexado: false`. | Verificar instalación y suite de PDF en Linux y hacer una prueba de navegador con generación real. El historial del prototipo vive en la conversación abierta. |
-| Evaluación y rendimiento | Parcial | [Banco de 50](../motor_documental/pruebas/banco_evaluacion_50.json), [capturas históricas](../motor_documental/pruebas/evaluacion_respuestas_50.json), [corrida HTTP](../motor_documental/pruebas/evaluacion_api_sin_credencial.json). El recorrido real Express → FastAPI respondió HTTP 503 a las 50 preguntas que requerían generación. El mayor tiempo observado en los 13 rechazos fuera de dominio fue 0,0813 s. | Medir la consulta completa con Gemini para comprobar el límite de 10 s. Evaluar exactitud, fidelidad y citas sobre las respuestas actuales y completar la revisión jurídica del banco y del corpus. |
+| Evaluación y rendimiento | Parcial, sin Gemini | [Banco de 50](../motor_documental/pruebas/banco_evaluacion_50.json), [capturas históricas](../motor_documental/pruebas/evaluacion_respuestas_50.json), [corrida HTTP actual](../motor_documental/pruebas/evaluacion_api_alcance_publicable.json). Express → FastAPI rechazó 26/26 trampas sin citas, produjo un aviso documental y devolvió 49 respuestas HTTP 503. Hubo cero respuestas generadas. | Con credencial, calificar exactitud, fidelidad y citas frente al contexto. Medir latencia de las consultas que invoquen Gemini y contrastar con el umbral de 10 s. |
 
-## Recuperación documental
+El [contraste con Jurinfo de la JEP](../motor_documental/corpus/contraste_jep.json)
+dio 156 coincidencias normalizadas de los 159 artículos del
+expediente. Las diferencias 84, 92 y 242 quedan identificadas por
+bloque. Este cotejo textual no cierra la revisión jurídica.
+
+## Banco revisado y selección de candidatos
+
+El caso RAG-011 sobre aglomeraciones complejas se conserva con su
+procedencia y texto original en [el archivo histórico](../motor_documental/pruebas/rag_011_historico.json).
+El artículo 73 original quedó comprendido en el resolutivo primero
+de [C-223/17](https://www.corteconstitucional.gov.co/relatoria/2017/C-223-17.htm).
+El [banco activo](../motor_documental/pruebas/banco_evaluacion_50.json)
+mantiene 50 preguntas mediante RAG-051. Su referencia es la definición
+de convivencia del artículo 5, cotejada el 18 de noviembre de 2026.
+Las otras 49 respuestas de referencia conservan su estado de revisión
+previo. [Compilación de Cancillería](https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm)
+
+La búsqueda combina los artículos completos seleccionados por título
+o referencia con hasta `k` fragmentos semánticos adicionales. Reserva
+espacio en el ranking para los fragmentos de artículos excluidos y los
+ya cubiertos por un artículo completo. Calcula el embedding de la
+pregunta una sola vez en esa búsqueda FAISS. La regresión con un índice
+en memoria confirmó que recupera los dos fragmentos aptos aun con cuatro
+resultados excluidos por delante. El índice histórico en disco y las
+capturas de generación previas se conservaron.
+
+## Recuperación documental histórica
 
 Se conservó `paraphrase-multilingual-MiniLM-L12-v2` porque soporta
 español, se ejecuta en CPU, coincide con los 384 componentes del
@@ -60,7 +105,41 @@ sanitarias. El MRR más bajo del híbrido frente a fragmentos indica
 que conviene medir también cuándo sus candidatos adicionales
 desplazan al resultado pertinente.
 
+## Recuperación con el banco revisado
+
+Se ejecutó el mismo comparador con RAG-051 en el banco y con los
+artículos bloqueados por C-223/17 excluidos del ranking de las tres
+estrategias. Se registraron las métricas para k de 1, 3, 5, 10, 20 y 50,
+además de MRR. Las diferencias frente a la corrida histórica reflejan
+el cambio de banco y el filtro, además del ajuste del recuperador.
+
+| Estrategia | Precisión@5 | Recall@5 | MRR | Posición del art. 5 para RAG-051 |
+|---|---:|---:|---:|---:|
+| Un vector por artículo | 0,168 | 0,84 | 0,7012 | 1 |
+| Fragmentos FAISS | 0,180 | 0,90 | 0,7623 | 1 |
+| Híbrido del prototipo | 0,180 | 0,90 | 0,7177 | 4 |
+
+La [medición nueva](../motor_documental/pruebas/comparacion_recuperacion_banco_revisado.json)
+registra los rankings y las huellas del corpus y del banco. Los
+[resultados históricos](../motor_documental/pruebas/comparacion_recuperacion_resultados.json)
+permanecen separados. La medida se refiere a recuperación documental.
+Sigue pendiente revisar la vigencia y el alcance de las referencias
+restantes, incluidas las que se basan en disposiciones reformadas,
+y evaluar respuestas, citas y latencia completa con Gemini.
+
 ## Revisión técnica de respuestas históricas
+
+### Cobertura de la API pública
+
+Solo tres de las 50 preguntas tienen un artículo esperado dentro
+del alcance público. Sobre las 50, el híbrido acotado obtuvo
+Precisión@5 de 0,012, Recall@5 de 0,06 y MRR de 0,04. Las dos
+estrategias semánticas acotadas obtuvieron 0,012, 0,06 y 0,05,
+respectivamente. La principal causa de pérdida de cobertura son
+las 47 referencias fuera del subconjunto cotejado. Antes de
+interpretar estas cifras como calidad de generación, hay que
+revisar por separado la cobertura normativa y la fidelidad de
+las respuestas sobre la cobertura disponible.
 
 Las 50 capturas del grupo contienen respuesta y contexto de una
 versión anterior. El archivo original marca 49 pendientes de
