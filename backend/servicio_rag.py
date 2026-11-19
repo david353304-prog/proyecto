@@ -11,9 +11,13 @@ from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel, Field
 from starlette.concurrency import run_in_threadpool
 
-from motor_documental.generador_respuestas_rag import GeneradorRespuestasRAG, respuesta_fuera_dominio
+from motor_documental.generador_respuestas_rag import (
+    GeneradorRespuestasRAG, respuesta_fuera_dominio, respuesta_sin_respaldo,
+)
 from motor_documental.salida_segura_rag import preparar_salida_publica
-from motor_documental.vigencia_rag import respuesta_revision_pendiente, respuesta_texto_inexequible
+from motor_documental.vigencia_rag import (
+    articulos_para_consulta, respuesta_revision_pendiente, respuesta_texto_inexequible,
+)
 
 
 generador = None
@@ -59,6 +63,11 @@ async def consultar(datos: Consulta):
         )
         if respuesta:
             return preparar_salida_publica(respuesta)
+        if not articulos_para_consulta(pregunta):
+            return preparar_salida_publica(respuesta_sin_respaldo(
+                pregunta, {"total_generales": 0, "total_estructurados": 0},
+                modelo="verificación documental",
+            ))
         raise HTTPException(status_code=503, detail="Generación sin configurar.")
 
     try:

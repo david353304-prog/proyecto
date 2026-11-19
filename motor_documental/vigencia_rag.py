@@ -35,6 +35,7 @@ def corpus_publicable():
     carpeta = Path(__file__).resolve().parent / "corpus"
     alcance = json.loads((carpeta / "alcance_publicable.json").read_bytes())
     referencia = json.loads((carpeta / "referencia_normativa.json").read_bytes())
+    ampliacion = json.loads((carpeta / "ampliacion_publicable.json").read_bytes())
     registros = {
         a["articulo"]: {
             "articulo": a["articulo"],
@@ -55,7 +56,59 @@ def corpus_publicable():
     }
     if registros.keys() != alcance["articulos"].keys():
         raise ValueError("El alcance documental no coincide con los artículos cotejados.")
+    oficiales = {a["articulo"]: a for a in referencia["articulos"]}
+    for numero, ficha in ampliacion["articulos"].items():
+        a = oficiales[numero]
+        if numero in IDENTIFICADORES_INEXEQUIBLES or numero in registros or a["fecha_consulta"] != ampliacion["fecha_consulta"]:
+            raise ValueError(f"Selección pública inválida para el artículo {numero}.")
+        unidades = {u["id"].removeprefix(a["id"] + "-"): u for u in a["unidades"]}
+        bloques = [
+            unidades[unidad]["bloques"][i]
+            for unidad, indices in ficha["seleccion"].items() for i in indices
+        ]
+        registros[numero] = {
+            "articulo": numero, "id": a["id"], "titulo": a["epigrafe"],
+            "texto": " ".join([f"ARTÍCULO {numero}. {a['epigrafe']}.", *bloques]),
+            "fuente": "Ley 1801 de 2016, apartados cotejados en Cancillería",
+            "url_fuente": a["fuente"],
+            "alcance": ficha["alcance"],
+            "consulta": ficha["consulta"],
+            "numerales": [
+                unidades[unidad]["etiqueta"] for unidad in ficha["seleccion"]
+                if unidades[unidad]["tipo"] == "numeral"
+            ],
+        }
     return registros
+
+
+def articulos_para_consulta(pregunta):
+    corpus = corpus_publicable()
+    texto = normalizar(pregunta)
+    explicitos = articulos_mencionados(pregunta)
+    if explicitos:
+        if explicitos - corpus.keys():
+            return set()
+        solicitados = set(re.findall(r"\bnumeral\s+(\d+)\b", texto))
+        descripcion = re.search(r"\b(?:que (?:dice|establece|contiene|regula)|de que trata)\b", texto)
+        return {
+            numero for numero in explicitos
+            if "consulta" not in corpus[numero]
+            or (
+                solicitados <= set(corpus[numero]["numerales"])
+                and (descripcion or re.search(corpus[numero]["consulta"], texto))
+            )
+        }
+    patrones = {
+        "1": r"objetivo general|objeto del codigo|para que (?:sirve|existe) el codigo",
+        "2": r"objetivos? especific|objetivos? del codigo",
+        "5": r"definicion de convivencia|que (?:es|entiende).{0,30}(?:por )?convivencia",
+        "6": r"categorias (?:juridicas|de convivencia)",
+        "7": r"finalidades? de la convivencia|fines? (?:esenciales )?de la convivencia",
+    }
+    return {
+        numero for numero, registro in corpus.items()
+        if re.search(registro.get("consulta", patrones.get(numero, r"(?!)")), texto)
+    }
 
 
 def respuesta_revision_pendiente(pregunta):

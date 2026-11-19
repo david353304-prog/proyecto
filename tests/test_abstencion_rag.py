@@ -95,6 +95,28 @@ class TestAbstencionRAG(unittest.TestCase):
         self.generador.recuperador.buscar.assert_not_called()
         self.generador.cliente.models.generate_content.assert_not_called()
 
+    def test_numeral_real_del_articulo_2_en_contexto_general(self):
+        self.generador.recuperador.buscar.return_value["resultados_generales"] = [{"articulo": "2"}]
+        generar = self.generador.cliente.models.generate_content
+        respuesta = "El numeral 1 del artículo 2 promueve comportamientos favorables a la convivencia."
+        generar.return_value = SimpleNamespace(text=respuesta)
+        resultado = preparar_salida_publica(self.generador.responder("¿Qué dice el artículo 2?"))
+        contexto = generar.call_args.kwargs["contents"]
+        self.assertIn("[GENERAL 1]", contexto)
+        self.assertIn("1. Propiciar en la comunidad", contexto)
+        self.assertEqual(resultado["respuesta"], respuesta)
+
+        for inventada in (
+            "El numeral 99 del artículo 2 promueve comportamientos favorables.",
+            "El artículo 2, numeral 99, promueve comportamientos favorables.",
+        ):
+            generar.return_value = SimpleNamespace(text=inventada)
+            resultado = preparar_salida_publica(self.generador.responder("¿Qué dice el artículo 2?"))
+            self.assertEqual(resultado["validacion_documental"]["estado"], "REQUIERE_REVISION")
+            self.assertNotEqual(resultado["respuesta"], inventada)
+            self.assertNotIn("99", str(resultado["validacion_documental"]))
+            self.assertEqual(resultado["fuentes_recuperadas"], [])
+
     def test_solo_candidatos_inexequibles_no_llaman_al_modelo(self):
         self.generador.recuperador.buscar.return_value = {
             "resultados_generales": [{"articulo": "75", "texto": "TEXTO HISTÓRICO"}],
@@ -102,10 +124,26 @@ class TestAbstencionRAG(unittest.TestCase):
             "total_generales": 1,
             "total_estructurados": 0,
         }
-        resultado = preparar_salida_publica(self.generador.responder("¿Qué regula el Código?"))
+        resultado = preparar_salida_publica(self.generador.responder("¿Cuál es el objeto del Código?"))
         self.assertEqual(resultado["validacion_documental"]["estado"], "SIN_RESPALDO")
         self.assertEqual(resultado["total_generales"], 0)
         self.assertEqual(resultado["fuentes_recuperadas"], [])
+        self.generador.cliente.models.generate_content.assert_not_called()
+
+    def test_preguntas_del_codigo_sin_respaldo_no_reciben_citas_ajenas(self):
+        for pregunta in (
+            "¿Cuál es la multa exacta por hacer ruido en un negocio?",
+            "¿Qué plazo tengo para objetar un comparendo de Policía?",
+            "¿Qué medidas correctivas impone el Código por obra sin licencia?",
+            "¿Cuánto cuesta una multa del artículo 180?",
+            "¿Qué dice el numeral 5 del artículo 77?",
+        ):
+            with self.subTest(pregunta=pregunta):
+                resultado = preparar_salida_publica(self.generador.responder(pregunta))
+                self.assertEqual(resultado["validacion_documental"]["estado"], "SIN_RESPALDO")
+                self.assertEqual(resultado["fuentes_recuperadas"], [])
+                self.assertNotIn("artículo ", resultado["respuesta"])
+        self.generador.recuperador.buscar.assert_not_called()
         self.generador.cliente.models.generate_content.assert_not_called()
 
     def test_api_sin_gemini_entrega_el_aviso(self):

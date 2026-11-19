@@ -1,0 +1,90 @@
+{
+  "fecha_consulta": "2026-11-18",
+  "fuente_secundaria": "https://jurinfo.jep.gov.co/normograma/compilacion/docs/ley_1801_2016.htm",
+  "articulos": {
+    "3": {
+      "seleccion": {"cuerpo": [0, 1]},
+      "alcance": "Ámbito personal y sujeción de la actuación policial al procedimiento único. Se conserva la salvedad de las leyes especiales.",
+      "consulta": "ambito de aplicacion|a quien(?:es)? se aplica|personas naturales o juridicas",
+      "evidencia": []
+    },
+    "8": {
+      "seleccion": {
+        "cuerpo": [0],
+        "numeral-1": [0], "numeral-2": [0], "numeral-3": [0], "numeral-4": [0],
+        "numeral-5": [0], "numeral-6": [0], "numeral-7": [0], "numeral-8": [0],
+        "numeral-9": [0], "numeral-10": [0], "numeral-11": [0], "numeral-12": [0],
+        "numeral-13": [0], "numeral-14": [0]
+      },
+      "alcance": "Principios y criterios de proporcionalidad y necesidad, según el art. 2 de la Ley 2318 de 2023 y la enumeración de la compilación. Queda fuera el parágrafo que remite a reglas especiales para menores.",
+      "consulta": "principios fundamentales|principios (?:que orientan|del codigo)|proporcionalidad y razonabilidad",
+      "evidencia": ["https://www.funcionpublica.gov.co/eva/gestornormativo/norma_pdf.php?i=217131"]
+    },
+    "24": {
+      "seleccion": {"cuerpo": [0, 1]},
+      "alcance": "Contenido del Libro Segundo y promoción de la convivencia. C-090/24 cita su objeto al examinar una disposición distinta.",
+      "consulta": "contenido del libro segundo|que regula el libro segundo",
+      "evidencia": ["https://www.corteconstitucional.gov.co/relatoria/2024/C-090-24.htm"]
+    },
+    "25": {
+      "seleccion": {"cuerpo": [0]},
+      "alcance": "Regla general sobre la relación entre comportamientos y medidas. Los parágrafos y las consecuencias concretas quedan fuera.",
+      "consulta": "que(?: consecuencias)? (?:tienen|generan) los comportamientos contrarios|relacion entre.*comportamientos.*medidas",
+      "evidencia": []
+    },
+    "26": {
+      "seleccion": {"cuerpo": [0]},
+      "alcance": "Deber general de favorecer la convivencia. Se conserva la referencia al respeto de las demás personas.",
+      "consulta": "deber(?:es)? (?:de|para la) convivencia|comportarse de manera favorable",
+      "evidencia": []
+    },
+    "77": {
+      "seleccion": {"cuerpo": [0], "numeral-1": [0]},
+      "alcance": "Inciso introductorio y numeral 1 sobre perturbación por ocupación ilegal. T-391/22 aplica este numeral en su caso. Quedan fuera las medidas, el desalojo y los demás numerales.",
+      "consulta": "ocupacion ilegal|ocup(?:a|ar|aron|en|ado).{0,40}(?:inmueble|predio|terreno)|perturb[a-z]*.{0,35}(?:posesion|tenencia)",
+      "evidencia": ["https://www.corteconstitucional.gov.co/Relatoria/2022/T-391-22.htm"]
+    },
+    "94": {
+      "seleccion": {"cuerpo": [0], "numeral-1": [0]},
+      "alcance": "Encabezado y numeral 1 sobre incumplimiento sanitario o de seguridad. Quedan fuera las medidas y la remisión a reglas sectoriales concretas.",
+      "consulta": "sanidad|sanitari[a-z]+|salubridad",
+      "evidencia": []
+    },
+    "150": {
+      "seleccion": {"cuerpo": [0]},
+      "alcance": "Definición y fines de la orden de Policía. El inciso segundo y el parágrafo quedan fuera; C-391/17 estudia otra expresión del artículo.",
+      "consulta": "que (?:es|significa|se entiende por) (?:una |la )?orden de policia|definicion de (?:la )?orden de policia|orden(?:es)? de policia pued(?:e|en) ser verbal(?:es)?",
+      "evidencia": ["https://www.corteconstitucional.gov.co/relatoria/2017/c-391-17.htm"]
+    },
+    "180": {
+      "seleccion": {"cuerpo": [0, 1]},
+      "alcance": "Definición y división en multas generales y especiales en la redacción del art. 19 de la Ley 2450 de 2025. Se excluyen valores, clases particulares, descuentos y cobro.",
+      "consulta": "que (?:es|son) (?:las? |una )?multas?|definicion de (?:la )?multa|como se clasifican las multas|multas generales y especiales",
+      "evidencia": ["https://dapre.presidencia.gov.co/normativa/normativa/LEY%202450%20DEL%204%20DE%20MARZO%20DE%202025.pdf"]
+    },
+    "206": {
+      "seleccion": {"cuerpo": [0], "numeral-1": [0], "numeral-2": [0]},
+      "alcance": "Conciliación y materias de conocimiento en los numerales 1 y 2 del texto reformado por el art. 6 de la Ley 2492 de 2025. No cubre instancias, comisiones ni medidas asignadas.",
+      "consulta": "(?:inspector|corregidor).{0,70}(?:concili|competenc|atribucion|funcion|conoc)|(?:funcion|atribucion|competenc|conoc).{0,70}(?:inspector|corregidor)",
+      "evidencia": ["https://dapre.presidencia.gov.co/normativa/normativa/LEY%20No%202492%20DEL%2023%20DE%20JULIO%20DE%202025.pdf"]
+    },
+    "218": {
+      "seleccion": {"cuerpo": [0]},
+      "alcance": "Definición de orden de comparendo, corroborada además por T-234/21. No cubre objeciones, sanciones ni descuentos.",
+      "consulta": "que (?:es|significa|se entiende por) (?:una |un |el |la )?(?:orden de )?comparendo|definicion (?:de|del) (?:la orden de )?comparendo",
+      "evidencia": ["https://www.corteconstitucional.gov.co/relatoria/2021/t-234-21.htm"]
+    },
+    "222": {
+      "seleccion": {"cuerpo": [0], "numeral-1": [0], "numeral-2": [0], "numeral-3": [0], "numeral-4": [0]},
+      "alcance": "Etapas y descargos del proceso verbal inmediato. Se excluyen los parágrafos. C-282/17 resolvió sobre el efecto devolutivo en el parágrafo 1.",
+      "consulta": "proceso verbal inmediato|descargos",
+      "evidencia": ["https://www.corteconstitucional.gov.co/Relatoria/2017/C-282-17"]
+    },
+    "223": {
+      "seleccion": {"numeral-1": [0], "numeral-2": [0]},
+      "alcance": "Inicio de la acción y citación. Se excluyen competencias reformadas, audiencia y recursos; C-349/17 condicionó el parágrafo 1.",
+      "consulta": "proceso verbal abreviado",
+      "evidencia": ["https://www.corteconstitucional.gov.co/relatoria/2017/c-349-17.htm"]
+    }
+  }
+}

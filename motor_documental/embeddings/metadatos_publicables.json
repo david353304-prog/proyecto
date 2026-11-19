@@ -1,0 +1,141 @@
+{
+  "modelo": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+  "revision_modelo": "e8f8c211226b894fcb81acc59f3b34ba3efd5f42",
+  "sha256_corpus": "f3a52046908a905ffb705f5e07217e53189ba6c62dffab935b6304c626b4d3ac",
+  "sha256_indice": "e567c6112f402d5ded2f32b2a1c6f297874077200b8c5aab2b72dd0f49a61fca",
+  "dimension": 384,
+  "fragmentos": [
+    {
+      "articulo": "1",
+      "texto": "ARTÍCULO 1. OBJETO. Las disposiciones previstas en este Código son de carácter preventivo y buscan establecer las condiciones para la convivencia en el territorio nacional al propiciar el cumplimiento de los deberes y obligaciones de las personas naturales y jurídicas, así como determinar el ejercicio del poder, la función y la actividad de Policía, de conformidad con la Constitución Política y el ordenamiento jurídico vigente."
+    },
+    {
+      "articulo": "2",
+      "texto": "ARTÍCULO 2. OBJETIVOS ESPECÍFICOS. Con el fin de mantener las condiciones necesarias para la convivencia en el territorio nacional, los objetivos específicos de este Código son los siguientes: 1. Propiciar en la comunidad comportamientos que favorezcan la convivencia en el espacio público, áreas comunes, lugares abiertos al público o que siendo privados trasciendan a lo público. 2. Promover el respeto, el ejercicio responsable de la libertad, la dignidad, los"
+    },
+    {
+      "articulo": "2",
+      "texto": "público. 2. Promover el respeto, el ejercicio responsable de la libertad, la dignidad, los deberes y los derechos correlativos de la personalidad humana. 3. Promover el uso de mecanismos alternativos, o comunitarios, para la conciliación y solución pacífica de desacuerdos entre particulares. 4. Definir comportamientos, medidas, medios y procedimientos de Policía. 5. Establecer la competencia de las autoridades de Policía en el orden nacional, departamental, distrital y"
+    },
+    {
+      "articulo": "2",
+      "texto": "cer la competencia de las autoridades de Policía en el orden nacional, departamental, distrital y municipal, con observancia del principio de autonomía territorial. 6. Establecer un procedimiento respetuoso del debido proceso, idóneo, inmediato, expedito y eficaz para la atención oportuna de los comportamientos relacionados con la convivencia en el territorio nacional."
+    },
+    {
+      "articulo": "5",
+      "texto": "ARTÍCULO 5. DEFINICIÓN. Para los efectos de este Código, se entiende por convivencia, la interacción pacífica, respetuosa y armónica entre las personas, con los bienes, y con el ambiente, en el marco del ordenamiento jurídico."
+    },
+    {
+      "articulo": "6",
+      "texto": "ARTÍCULO 6. CATEGORÍAS JURÍDICAS. Las categorías de convivencia son: seguridad, tranquilidad, ambiente y salud pública, y su alcance es el siguiente: 1. Seguridad: Garantizar la protección de los derechos y libertades constitucionales y legales de las personas en el territorio nacional. 2. Tranquilidad: Lograr que las personas ejerzan sus derechos y libertades, sin abusar de los mismos, y con plena observancia de los derechos ajenos. 3. Ambiente"
+    },
+    {
+      "articulo": "6",
+      "texto": "sin abusar de los mismos, y con plena observancia de los derechos ajenos. 3. Ambiente: Favorecer la protección de los recursos naturales, el patrimonio ecológico, el goce y la relación sostenible con el ambiente. 4. Salud Pública: Es la responsabilidad estatal y ciudadana de protección de la salud como un derecho esencial, individual, colectivo y comunitario logrado en función de las condiciones de bienestar y calidad de vida."
+    },
+    {
+      "articulo": "7",
+      "texto": "ARTÍCULO 7. FINALIDADES DE LA CONVIVENCIA. Son fines esenciales de las normas de convivencia social previstas en este Código: 1. Que el ejercicio de los derechos y libertades sean garantizados y respetados en el marco de la Constitución y la ley. 2. El cumplimiento de los deberes contenidos en la Constitución, la ley y las normas que regulan la convivencia. 3. El respeto por las diferencias y la aceptación de ellas. 4. La resolución pacífica de los desacu"
+    },
+    {
+      "articulo": "7",
+      "texto": "El respeto por las diferencias y la aceptación de ellas. 4. La resolución pacífica de los desacuerdos que afecten la convivencia. 5. La convergencia de los intereses personales y generales para promover un desarrollo armónico. 6. prevalencia de los valores sociales de solidaridad, tolerancia, responsabilidad, honradez, respeto, bondad, libertad, justicia, igualdad, fraternidad, lealtad, prudencia y paz."
+    },
+    {
+      "articulo": "3",
+      "texto": "ARTÍCULO 3. ÁMBITO DE APLICACIÓN DEL DERECHO DE POLICÍA. El derecho de Policía se aplicará a todas las personas naturales o jurídicas, de conformidad con este Código. Las autoridades de Policía sujetarán sus actuaciones al procedimiento único de Policía, sin perjuicio de las competencias que les asistan en procedimientos regulados por leyes especiales."
+    },
+    {
+      "articulo": "8",
+      "texto": "ARTÍCULO 8. PRINCIPIOS. Son principios fundamentales del Código: 1. La protección de la vida y el respeto a la dignidad humana. 2. Protección y respeto a los derechos humanos. 3. La prevalencia de los derechos de niños, niñas y adolescentes y su protección integral. 4. La igualdad ante la ley. 5. La libertad y la autorregulación. 6. El reconocimiento y respeto de las diferencias culturales, la autonomía e identidad regional, la diversidad y la no"
+    },
+    {
+      "articulo": "8",
+      "texto": "respeto de las diferencias culturales, la autonomía e identidad regional, la diversidad y la no discriminación. 7. El debido proceso. 8. La protección de la diversidad e integridad del ambiente y el patrimonio ecológico. 9. Protección y respeto por los animales en su calidad de seres sintientes. 10. La solidaridad. 11. La solución pacífica de las controversias y desacuerdos de los conflictos. 12. El respeto al ordenamiento jurídico y a las autoridades legalmente constituidas."
+    },
+    {
+      "articulo": "8",
+      "texto": "los conflictos. 12. El respeto al ordenamiento jurídico y a las autoridades legalmente constituidas. 13. Proporcionalidad y razonabilidad. La adopción de medios de Policía y medidas correctivas debe ser proporcional y razonable atendiendo las circunstancias de cada caso y la finalidad de la norma. Por lo tanto, se debe procurar que la afectación de derechos y libertades no sea superior al beneficio perseguido y evitar todo exceso innecesario. 14. Necesidad. Las autoridades"
+    },
+    {
+      "articulo": "8",
+      "texto": "sea superior al beneficio perseguido y evitar todo exceso innecesario. 14. Necesidad. Las autoridades de Policía sólo podrán adoptar los medios y medidas rigurosamente necesarias e idóneas para la preservación y restablecimiento del orden público cuando la aplicación de otros mecanismos de protección, restauración, educación o de prevención resulte ineficaz para alcanzar el fin propuesto."
+    },
+    {
+      "articulo": "24",
+      "texto": "ARTÍCULO 24. CONTENIDO. El presente libro establece los comportamientos contrarios a la convivencia que no deben ser realizados por las personas que habitan o visitan el territorio nacional. El cumplimiento de los comportamientos favorables a la convivencia y el rechazo de los que le son contrarios, serán promovidos por las entidades estatales y organizaciones de la sociedad civil, y en particular por las autoridades de Policía, quienes exaltarán los primeros y ejercerán un control sobre"
+    },
+    {
+      "articulo": "24",
+      "texto": "particular por las autoridades de Policía, quienes exaltarán los primeros y ejercerán un control sobre los segundos."
+    },
+    {
+      "articulo": "25",
+      "texto": "ARTÍCULO 25. COMPORTAMIENTOS CONTRARIOS A LA CONVIVENCIA Y MEDIDAS CORRECTIVAS. Quienes incurran en comportamientos contrarios a la convivencia serán objeto de medidas correctivas de conformidad con esta ley, sin perjuicio de las demás acciones que en derecho correspondan."
+    },
+    {
+      "articulo": "26",
+      "texto": "ARTÍCULO 26. DEBERES DE CONVIVENCIA. Es deber de todas las personas en el territorio nacional comportarse de manera favorable a la convivencia. Para ello, además de evitar comportamientos contrarios a la misma, deben regular sus comportamientos a fin de respetar a las demás personas, en el ejercicio de sus derechos y deberes ciudadanos, en su vida, honra y bienes, de conformidad con la Constitución Política y las leyes, y especialmente con lo dispuesto en"
+    },
+    {
+      "articulo": "26",
+      "texto": "bienes, de conformidad con la Constitución Política y las leyes, y especialmente con lo dispuesto en la presente ley."
+    },
+    {
+      "articulo": "77",
+      "texto": "ARTÍCULO 77. COMPORTAMIENTOS CONTRARIOS A LA POSESIÓN Y MERA TENENCIA DE BIENES INMUEBLES. Son aquellos contrarios a la posesión, la mera tenencia de los bienes inmuebles de particulares, bienes fiscales, bienes de uso público, bienes de utilidad pública o social, bienes destinados a prestación de servicios públicos. Estos son los siguientes: 1. Perturbar, alterar o interrumpir"
+    },
+    {
+      "articulo": "77",
+      "texto": "de servicios públicos. Estos son los siguientes: 1. Perturbar, alterar o interrumpir la posesión o mera tenencia de un bien inmueble ocupándolo ilegalmente."
+    },
+    {
+      "articulo": "94",
+      "texto": "ARTÍCULO 94. COMPORTAMIENTOS RELACIONADOS CON LA SALUD PÚBLICA QUE AFECTAN LA ACTIVIDAD ECONÓMICA. Los siguientes comportamientos relacionados con la salud pública afectan la actividad económica y por lo tanto no deben realizarse: 1. Incumplir las normas o disposiciones de seguridad o sanidad, para el desarrollo de la actividad económica, de acuerdo con su objeto social, previo concepto de la autoridad especializada."
+    },
+    {
+      "articulo": "150",
+      "texto": "ARTÍCULO 150. ORDEN DE POLICÍA. La orden de Policía es un mandato claro, preciso y conciso dirigido en forma individual o de carácter general, escrito o verbal, emanado de la autoridad de Policía, para prevenir o superar comportamientos o hechos contrarios a la convivencia, o para restablecerla."
+    },
+    {
+      "articulo": "180",
+      "texto": "ARTÍCULO 180. MULTAS. Es la imposición del pago de una suma de dinero en moneda colombiana, cuya graduación depende del comportamiento realizado, según la cual varía el monto de la multa. Así mismo, la desobediencia, resistencia, desacato, o reiteración del comportamiento contrario a la convivencia, incrementará el valor de la multa, sin perjuicio de los intereses causados y el costo del cobro coactivo. las multas se"
+    },
+    {
+      "articulo": "180",
+      "texto": "perjuicio de los intereses causados y el costo del cobro coactivo. las multas se clasifican en generales y especiales."
+    },
+    {
+      "articulo": "206",
+      "texto": "ARTÍCULO 206. ATRIBUCIONES DE LOS INSPECTORES DE CONVIVENCIA Y PAZ RURALES, URBANOS Y CORREGIDORES. Les corresponde la aplicación de las siguientes medidas: 1. Conciliar para la solución de conflictos de convivencia, cuando sea procedente. 2. Conocer sobre los comportamientos contrarios a la convivencia en materia de seguridad, tranquilidad, ambiente y recursos naturales, derecho de reunión, protección a los bienes y privacidad,"
+    },
+    {
+      "articulo": "206",
+      "texto": ", tranquilidad, ambiente y recursos naturales, derecho de reunión, protección a los bienes y privacidad, actividad económica, urbanismo, espacio público y libertad de circulación."
+    },
+    {
+      "articulo": "218",
+      "texto": "ARTÍCULO 218. DEFINICIÓN DE ORDEN DE COMPARENDO. Entiéndase por esta, la acción del personal uniformado de la Policía Nacional que consiste en entregar un documento oficial que contiene orden escrita o virtual para presentarse ante autoridad de Policía o cumplir medida correctiva."
+    },
+    {
+      "articulo": "222",
+      "texto": "ARTÍCULO 222. TRÁMITE DEL PROCESO VERBAL INMEDIATO. Se tramitarán por el proceso verbal inmediato los comportamientos contrarios a la convivencia, de competencia del personal uniformado de la Policía Nacional, los comandantes de estación o subestación de Policía, y los comandantes del Centro de Atención Inmediata de Policía, en las etapas siguientes: 1. Se podrá iniciar de oficio o a petición de quien tenga interés directo o acuda en defensa de las normas"
+    },
+    {
+      "articulo": "222",
+      "texto": "iniciar de oficio o a petición de quien tenga interés directo o acuda en defensa de las normas de convivencia. 2. Una vez identificado el presunto infractor, la autoridad de Policía lo abordará en el sitio donde ocurran los hechos, si ello fuera posible o, en aquel donde lo encuentren, y le informará que su acción u omisión configura un comportamiento contrario a la convivencia. 3. El presunto infractor deberá ser oído en descargos. 4. La autoridad de"
+    },
+    {
+      "articulo": "222",
+      "texto": ". 3. El presunto infractor deberá ser oído en descargos. 4. La autoridad de Policía hará una primera ponderación de los hechos y procurará una mediación policial entre las partes en conflicto. De no lograr la mediación, impondrá la medida correctiva a través de la orden de Policía."
+    },
+    {
+      "articulo": "223",
+      "texto": "ARTÍCULO 223. TRÁMITE DEL PROCESO VERBAL ABREVIADO. 1. Iniciación de la acción. La acción de Policía puede iniciarse de oficio o a petición de la persona que tenga interés en la aplicación del régimen de Policía, contra el presunto infractor. Cuando la autoridad conozca en flagrancia del comportamiento contrario a la convivencia, podrá iniciar de inmediato la audiencia pública. 2. Citación. Las mencionadas autoridades, a los cinco (5) días siguientes de conocida"
+    },
+    {
+      "articulo": "223",
+      "texto": "audiencia pública. 2. Citación. Las mencionadas autoridades, a los cinco (5) días siguientes de conocida la querella o el comportamiento contrario a la convivencia, en caso de que no hubiera sido posible iniciar la audiencia de manera inmediata, citará a audiencia pública al quejoso y al presunto infractor, mediante comunicación escrita, correo certificado, medio electrónico, medio de comunicación del que disponga, o por el medio más expedito o idóneo, donde se señale dicho comportamiento."
+    }
+  ]
+}

@@ -1,0 +1,463 @@
+{
+  "fecha_consulta": "2026-11-18",
+  "total_bloques": 39,
+  "sha256_html_jep": "47c14539ab19405f76ab2f676ab0c5ed3a21f28effbe5d641f1719f00f34b294",
+  "bloques": [
+    {
+      "articulo": "3",
+      "unidad": "cuerpo",
+      "bloque": 0,
+      "cancilleria": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#3",
+      "jurinfo": "https://jurinfo.jep.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#3",
+      "fuentes_adicionales": [],
+      "sha256_texto_cancilleria": "1f8243a926293c553c978ae344aa154d3a5502f0e1c496e8681e92732174789f",
+      "alcance": "Ámbito personal y sujeción de la actuación policial al procedimiento único. Se conserva la salvedad de las leyes especiales."
+    },
+    {
+      "articulo": "3",
+      "unidad": "cuerpo",
+      "bloque": 1,
+      "cancilleria": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#3",
+      "jurinfo": "https://jurinfo.jep.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#3",
+      "fuentes_adicionales": [],
+      "sha256_texto_cancilleria": "9bba420c4c90c1ca312c9612b1c875d388a13a2718701010985cfe4acf5af62b",
+      "alcance": "Ámbito personal y sujeción de la actuación policial al procedimiento único. Se conserva la salvedad de las leyes especiales."
+    },
+    {
+      "articulo": "8",
+      "unidad": "cuerpo",
+      "bloque": 0,
+      "cancilleria": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#8",
+      "jurinfo": "https://jurinfo.jep.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#8",
+      "fuentes_adicionales": [
+        "https://www.funcionpublica.gov.co/eva/gestornormativo/norma_pdf.php?i=217131"
+      ],
+      "sha256_texto_cancilleria": "448ef8a0e94d99116cb50f8d2cb3fc782041af76abaddc213563238e3e6e025e",
+      "alcance": "Principios y criterios de proporcionalidad y necesidad, según el art. 2 de la Ley 2318 de 2023 y la enumeración de la compilación. Queda fuera el parágrafo que remite a reglas especiales para menores."
+    },
+    {
+      "articulo": "8",
+      "unidad": "numeral-1",
+      "bloque": 0,
+      "cancilleria": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#8",
+      "jurinfo": "https://jurinfo.jep.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#8",
+      "fuentes_adicionales": [
+        "https://www.funcionpublica.gov.co/eva/gestornormativo/norma_pdf.php?i=217131"
+      ],
+      "sha256_texto_cancilleria": "2beafecb585221e90c5cdc6904f72919f4e12695477c1d7b7e6ee9dfb289ab85",
+      "alcance": "Principios y criterios de proporcionalidad y necesidad, según el art. 2 de la Ley 2318 de 2023 y la enumeración de la compilación. Queda fuera el parágrafo que remite a reglas especiales para menores."
+    },
+    {
+      "articulo": "8",
+      "unidad": "numeral-2",
+      "bloque": 0,
+      "cancilleria": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#8",
+      "jurinfo": "https://jurinfo.jep.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#8",
+      "fuentes_adicionales": [
+        "https://www.funcionpublica.gov.co/eva/gestornormativo/norma_pdf.php?i=217131"
+      ],
+      "sha256_texto_cancilleria": "04959b5afc00bc7fe58794ce87b591df33f58f89b625c760c92ee38d5af11065",
+      "alcance": "Principios y criterios de proporcionalidad y necesidad, según el art. 2 de la Ley 2318 de 2023 y la enumeración de la compilación. Queda fuera el parágrafo que remite a reglas especiales para menores."
+    },
+    {
+      "articulo": "8",
+      "unidad": "numeral-3",
+      "bloque": 0,
+      "cancilleria": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#8",
+      "jurinfo": "https://jurinfo.jep.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#8",
+      "fuentes_adicionales": [
+        "https://www.funcionpublica.gov.co/eva/gestornormativo/norma_pdf.php?i=217131"
+      ],
+      "sha256_texto_cancilleria": "df64d6a0c7488c0c1ad502182fbf5d75c0e60d4da98d56d81d93440cb4f9438e",
+      "alcance": "Principios y criterios de proporcionalidad y necesidad, según el art. 2 de la Ley 2318 de 2023 y la enumeración de la compilación. Queda fuera el parágrafo que remite a reglas especiales para menores."
+    },
+    {
+      "articulo": "8",
+      "unidad": "numeral-4",
+      "bloque": 0,
+      "cancilleria": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#8",
+      "jurinfo": "https://jurinfo.jep.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#8",
+      "fuentes_adicionales": [
+        "https://www.funcionpublica.gov.co/eva/gestornormativo/norma_pdf.php?i=217131"
+      ],
+      "sha256_texto_cancilleria": "47170d501d1258786e7eafcc6d81e0f5a6729c7645feda59725a27e28f83978a",
+      "alcance": "Principios y criterios de proporcionalidad y necesidad, según el art. 2 de la Ley 2318 de 2023 y la enumeración de la compilación. Queda fuera el parágrafo que remite a reglas especiales para menores."
+    },
+    {
+      "articulo": "8",
+      "unidad": "numeral-5",
+      "bloque": 0,
+      "cancilleria": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#8",
+      "jurinfo": "https://jurinfo.jep.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#8",
+      "fuentes_adicionales": [
+        "https://www.funcionpublica.gov.co/eva/gestornormativo/norma_pdf.php?i=217131"
+      ],
+      "sha256_texto_cancilleria": "944de9b62d82e05548aa6462afcbba266d80bef179c54fc846de2208ab837ed8",
+      "alcance": "Principios y criterios de proporcionalidad y necesidad, según el art. 2 de la Ley 2318 de 2023 y la enumeración de la compilación. Queda fuera el parágrafo que remite a reglas especiales para menores."
+    },
+    {
+      "articulo": "8",
+      "unidad": "numeral-6",
+      "bloque": 0,
+      "cancilleria": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#8",
+      "jurinfo": "https://jurinfo.jep.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#8",
+      "fuentes_adicionales": [
+        "https://www.funcionpublica.gov.co/eva/gestornormativo/norma_pdf.php?i=217131"
+      ],
+      "sha256_texto_cancilleria": "c4458d9628083e9e2e58e2468cfc7cbfbd4d28040b4657248cc79561bdf818c3",
+      "alcance": "Principios y criterios de proporcionalidad y necesidad, según el art. 2 de la Ley 2318 de 2023 y la enumeración de la compilación. Queda fuera el parágrafo que remite a reglas especiales para menores."
+    },
+    {
+      "articulo": "8",
+      "unidad": "numeral-7",
+      "bloque": 0,
+      "cancilleria": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#8",
+      "jurinfo": "https://jurinfo.jep.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#8",
+      "fuentes_adicionales": [
+        "https://www.funcionpublica.gov.co/eva/gestornormativo/norma_pdf.php?i=217131"
+      ],
+      "sha256_texto_cancilleria": "fbfd34b917e3ccf5a1529d0f67fefe74f4e6bd75d20c23080a6cb1af2e5f03cd",
+      "alcance": "Principios y criterios de proporcionalidad y necesidad, según el art. 2 de la Ley 2318 de 2023 y la enumeración de la compilación. Queda fuera el parágrafo que remite a reglas especiales para menores."
+    },
+    {
+      "articulo": "8",
+      "unidad": "numeral-8",
+      "bloque": 0,
+      "cancilleria": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#8",
+      "jurinfo": "https://jurinfo.jep.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#8",
+      "fuentes_adicionales": [
+        "https://www.funcionpublica.gov.co/eva/gestornormativo/norma_pdf.php?i=217131"
+      ],
+      "sha256_texto_cancilleria": "d34f28a17d3d278be4504c60fb427941cdac25667a1922b638ae6d98b8a13b78",
+      "alcance": "Principios y criterios de proporcionalidad y necesidad, según el art. 2 de la Ley 2318 de 2023 y la enumeración de la compilación. Queda fuera el parágrafo que remite a reglas especiales para menores."
+    },
+    {
+      "articulo": "8",
+      "unidad": "numeral-9",
+      "bloque": 0,
+      "cancilleria": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#8",
+      "jurinfo": "https://jurinfo.jep.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#8",
+      "fuentes_adicionales": [
+        "https://www.funcionpublica.gov.co/eva/gestornormativo/norma_pdf.php?i=217131"
+      ],
+      "sha256_texto_cancilleria": "62dcb52e08abd50aaf2f460defeefc61094c258bc221850a4f1fc3a5dab6890b",
+      "alcance": "Principios y criterios de proporcionalidad y necesidad, según el art. 2 de la Ley 2318 de 2023 y la enumeración de la compilación. Queda fuera el parágrafo que remite a reglas especiales para menores."
+    },
+    {
+      "articulo": "8",
+      "unidad": "numeral-10",
+      "bloque": 0,
+      "cancilleria": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#8",
+      "jurinfo": "https://jurinfo.jep.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#8",
+      "fuentes_adicionales": [
+        "https://www.funcionpublica.gov.co/eva/gestornormativo/norma_pdf.php?i=217131"
+      ],
+      "sha256_texto_cancilleria": "e1a7679808c38004339293ff35f37b00d3193894c47358ddafadca97e184d9e1",
+      "alcance": "Principios y criterios de proporcionalidad y necesidad, según el art. 2 de la Ley 2318 de 2023 y la enumeración de la compilación. Queda fuera el parágrafo que remite a reglas especiales para menores."
+    },
+    {
+      "articulo": "8",
+      "unidad": "numeral-11",
+      "bloque": 0,
+      "cancilleria": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#8",
+      "jurinfo": "https://jurinfo.jep.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#8",
+      "fuentes_adicionales": [
+        "https://www.funcionpublica.gov.co/eva/gestornormativo/norma_pdf.php?i=217131"
+      ],
+      "sha256_texto_cancilleria": "93b2e09524a14bd509bfeb4d911d5d7e09486f74878b58991be416a4e7bd0343",
+      "alcance": "Principios y criterios de proporcionalidad y necesidad, según el art. 2 de la Ley 2318 de 2023 y la enumeración de la compilación. Queda fuera el parágrafo que remite a reglas especiales para menores."
+    },
+    {
+      "articulo": "8",
+      "unidad": "numeral-12",
+      "bloque": 0,
+      "cancilleria": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#8",
+      "jurinfo": "https://jurinfo.jep.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#8",
+      "fuentes_adicionales": [
+        "https://www.funcionpublica.gov.co/eva/gestornormativo/norma_pdf.php?i=217131"
+      ],
+      "sha256_texto_cancilleria": "9379ab0a3bf29bd9b7f926980ab14ca5058abc4a9e0513ee2a0bee170bd76866",
+      "alcance": "Principios y criterios de proporcionalidad y necesidad, según el art. 2 de la Ley 2318 de 2023 y la enumeración de la compilación. Queda fuera el parágrafo que remite a reglas especiales para menores."
+    },
+    {
+      "articulo": "8",
+      "unidad": "numeral-13",
+      "bloque": 0,
+      "cancilleria": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#8",
+      "jurinfo": "https://jurinfo.jep.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#8",
+      "fuentes_adicionales": [
+        "https://www.funcionpublica.gov.co/eva/gestornormativo/norma_pdf.php?i=217131"
+      ],
+      "sha256_texto_cancilleria": "66d53d4bcb1c81f3e63e52052cfb279a59c71792f678a813267a160fcf7fde86",
+      "alcance": "Principios y criterios de proporcionalidad y necesidad, según el art. 2 de la Ley 2318 de 2023 y la enumeración de la compilación. Queda fuera el parágrafo que remite a reglas especiales para menores."
+    },
+    {
+      "articulo": "8",
+      "unidad": "numeral-14",
+      "bloque": 0,
+      "cancilleria": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#8",
+      "jurinfo": "https://jurinfo.jep.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#8",
+      "fuentes_adicionales": [
+        "https://www.funcionpublica.gov.co/eva/gestornormativo/norma_pdf.php?i=217131"
+      ],
+      "sha256_texto_cancilleria": "bafef771f097b726149f36beb9d8fae07fa43df87e39a7c6a83a67aa2edda4bf",
+      "alcance": "Principios y criterios de proporcionalidad y necesidad, según el art. 2 de la Ley 2318 de 2023 y la enumeración de la compilación. Queda fuera el parágrafo que remite a reglas especiales para menores."
+    },
+    {
+      "articulo": "24",
+      "unidad": "cuerpo",
+      "bloque": 0,
+      "cancilleria": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#24",
+      "jurinfo": "https://jurinfo.jep.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#24",
+      "fuentes_adicionales": [
+        "https://www.corteconstitucional.gov.co/relatoria/2024/C-090-24.htm"
+      ],
+      "sha256_texto_cancilleria": "944aace5667c2350c74bd41246bbdf22e667ee35a62923c394a2af594e464f24",
+      "alcance": "Contenido del Libro Segundo y promoción de la convivencia. C-090/24 cita su objeto al examinar una disposición distinta."
+    },
+    {
+      "articulo": "24",
+      "unidad": "cuerpo",
+      "bloque": 1,
+      "cancilleria": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#24",
+      "jurinfo": "https://jurinfo.jep.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#24",
+      "fuentes_adicionales": [
+        "https://www.corteconstitucional.gov.co/relatoria/2024/C-090-24.htm"
+      ],
+      "sha256_texto_cancilleria": "94ce615f9df7ae2d397513633a72b87fd599423f0b5ce78d303f230cba499374",
+      "alcance": "Contenido del Libro Segundo y promoción de la convivencia. C-090/24 cita su objeto al examinar una disposición distinta."
+    },
+    {
+      "articulo": "25",
+      "unidad": "cuerpo",
+      "bloque": 0,
+      "cancilleria": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#25",
+      "jurinfo": "https://jurinfo.jep.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#25",
+      "fuentes_adicionales": [],
+      "sha256_texto_cancilleria": "446bd09faa1437771801393f61816dbea7f09d6a110546480745674cf4a8cdaf",
+      "alcance": "Regla general sobre la relación entre comportamientos y medidas. Los parágrafos y las consecuencias concretas quedan fuera."
+    },
+    {
+      "articulo": "26",
+      "unidad": "cuerpo",
+      "bloque": 0,
+      "cancilleria": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#26",
+      "jurinfo": "https://jurinfo.jep.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#26",
+      "fuentes_adicionales": [],
+      "sha256_texto_cancilleria": "46cd6e6db30f3e96fc61da0206732c8c2f7ccbdd506a1001e7f2edd88c937760",
+      "alcance": "Deber general de favorecer la convivencia. Se conserva la referencia al respeto de las demás personas."
+    },
+    {
+      "articulo": "77",
+      "unidad": "cuerpo",
+      "bloque": 0,
+      "cancilleria": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#77",
+      "jurinfo": "https://jurinfo.jep.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#77",
+      "fuentes_adicionales": [
+        "https://www.corteconstitucional.gov.co/Relatoria/2022/T-391-22.htm"
+      ],
+      "sha256_texto_cancilleria": "9843931a1e3f1db5bfb93c8c5fa1c9cd25b4e6113ffca7d78cc120f5988bd95d",
+      "alcance": "Inciso introductorio y numeral 1 sobre perturbación por ocupación ilegal. T-391/22 aplica este numeral en su caso. Quedan fuera las medidas, el desalojo y los demás numerales."
+    },
+    {
+      "articulo": "77",
+      "unidad": "numeral-1",
+      "bloque": 0,
+      "cancilleria": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#77",
+      "jurinfo": "https://jurinfo.jep.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#77",
+      "fuentes_adicionales": [
+        "https://www.corteconstitucional.gov.co/Relatoria/2022/T-391-22.htm"
+      ],
+      "sha256_texto_cancilleria": "edb562dfd54a22a0023801b954128e46cfe1f5905e3ede1892ea2955f5bb954e",
+      "alcance": "Inciso introductorio y numeral 1 sobre perturbación por ocupación ilegal. T-391/22 aplica este numeral en su caso. Quedan fuera las medidas, el desalojo y los demás numerales."
+    },
+    {
+      "articulo": "94",
+      "unidad": "cuerpo",
+      "bloque": 0,
+      "cancilleria": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#94",
+      "jurinfo": "https://jurinfo.jep.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#94",
+      "fuentes_adicionales": [],
+      "sha256_texto_cancilleria": "cc436664fa8a2510a0114cbb346b9c4f7be664022e7e851c22cfc829725ed26e",
+      "alcance": "Encabezado y numeral 1 sobre incumplimiento sanitario o de seguridad. Quedan fuera las medidas y la remisión a reglas sectoriales concretas."
+    },
+    {
+      "articulo": "94",
+      "unidad": "numeral-1",
+      "bloque": 0,
+      "cancilleria": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#94",
+      "jurinfo": "https://jurinfo.jep.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#94",
+      "fuentes_adicionales": [],
+      "sha256_texto_cancilleria": "bcef8e96a958e8b000b58357ce0310ae7f10e43801d59485545a522117a47795",
+      "alcance": "Encabezado y numeral 1 sobre incumplimiento sanitario o de seguridad. Quedan fuera las medidas y la remisión a reglas sectoriales concretas."
+    },
+    {
+      "articulo": "150",
+      "unidad": "cuerpo",
+      "bloque": 0,
+      "cancilleria": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#150",
+      "jurinfo": "https://jurinfo.jep.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#150",
+      "fuentes_adicionales": [
+        "https://www.corteconstitucional.gov.co/relatoria/2017/c-391-17.htm"
+      ],
+      "sha256_texto_cancilleria": "4d5e40f845e411b91657aa97355f72975960d613cb936df4fd5f27bd8be81381",
+      "alcance": "Definición y fines de la orden de Policía. El inciso segundo y el parágrafo quedan fuera; C-391/17 estudia otra expresión del artículo."
+    },
+    {
+      "articulo": "180",
+      "unidad": "cuerpo",
+      "bloque": 0,
+      "cancilleria": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#180",
+      "jurinfo": "https://jurinfo.jep.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#180",
+      "fuentes_adicionales": [
+        "https://dapre.presidencia.gov.co/normativa/normativa/LEY%202450%20DEL%204%20DE%20MARZO%20DE%202025.pdf"
+      ],
+      "sha256_texto_cancilleria": "3fa1e9ed4ff90bb2df91a77e6ab7ea72c14202a6608d5138fe0462bdc749dada",
+      "alcance": "Definición y división en multas generales y especiales en la redacción del art. 19 de la Ley 2450 de 2025. Se excluyen valores, clases particulares, descuentos y cobro."
+    },
+    {
+      "articulo": "180",
+      "unidad": "cuerpo",
+      "bloque": 1,
+      "cancilleria": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#180",
+      "jurinfo": "https://jurinfo.jep.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#180",
+      "fuentes_adicionales": [
+        "https://dapre.presidencia.gov.co/normativa/normativa/LEY%202450%20DEL%204%20DE%20MARZO%20DE%202025.pdf"
+      ],
+      "sha256_texto_cancilleria": "cbef97a9da617dcf04fc148ea32e62cb70a7a05d0574a04351ba2b36e312e0b3",
+      "alcance": "Definición y división en multas generales y especiales en la redacción del art. 19 de la Ley 2450 de 2025. Se excluyen valores, clases particulares, descuentos y cobro."
+    },
+    {
+      "articulo": "206",
+      "unidad": "cuerpo",
+      "bloque": 0,
+      "cancilleria": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#206",
+      "jurinfo": "https://jurinfo.jep.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#206",
+      "fuentes_adicionales": [
+        "https://dapre.presidencia.gov.co/normativa/normativa/LEY%20No%202492%20DEL%2023%20DE%20JULIO%20DE%202025.pdf"
+      ],
+      "sha256_texto_cancilleria": "43dbc487c4aa753e200fbada23d4a21c5d665550695fc56788e954b3fe32297f",
+      "alcance": "Conciliación y materias de conocimiento en los numerales 1 y 2 del texto reformado por el art. 6 de la Ley 2492 de 2025. No cubre instancias, comisiones ni medidas asignadas."
+    },
+    {
+      "articulo": "206",
+      "unidad": "numeral-1",
+      "bloque": 0,
+      "cancilleria": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#206",
+      "jurinfo": "https://jurinfo.jep.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#206",
+      "fuentes_adicionales": [
+        "https://dapre.presidencia.gov.co/normativa/normativa/LEY%20No%202492%20DEL%2023%20DE%20JULIO%20DE%202025.pdf"
+      ],
+      "sha256_texto_cancilleria": "7a8859f7781634d47c1f81e03f972044bf29be6226d34305989004d38886e043",
+      "alcance": "Conciliación y materias de conocimiento en los numerales 1 y 2 del texto reformado por el art. 6 de la Ley 2492 de 2025. No cubre instancias, comisiones ni medidas asignadas."
+    },
+    {
+      "articulo": "206",
+      "unidad": "numeral-2",
+      "bloque": 0,
+      "cancilleria": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#206",
+      "jurinfo": "https://jurinfo.jep.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#206",
+      "fuentes_adicionales": [
+        "https://dapre.presidencia.gov.co/normativa/normativa/LEY%20No%202492%20DEL%2023%20DE%20JULIO%20DE%202025.pdf"
+      ],
+      "sha256_texto_cancilleria": "41a9dab2226ab4632ac9925c4371445f0b29519a6302aa9fe9dd1c0bafa68f0e",
+      "alcance": "Conciliación y materias de conocimiento en los numerales 1 y 2 del texto reformado por el art. 6 de la Ley 2492 de 2025. No cubre instancias, comisiones ni medidas asignadas."
+    },
+    {
+      "articulo": "218",
+      "unidad": "cuerpo",
+      "bloque": 0,
+      "cancilleria": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#218",
+      "jurinfo": "https://jurinfo.jep.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#218",
+      "fuentes_adicionales": [
+        "https://www.corteconstitucional.gov.co/relatoria/2021/t-234-21.htm"
+      ],
+      "sha256_texto_cancilleria": "b16783d24c9d6426fd325a21c314abfacb90c0b8bde204b3c0991989e956eaba",
+      "alcance": "Definición de orden de comparendo, corroborada además por T-234/21. No cubre objeciones, sanciones ni descuentos."
+    },
+    {
+      "articulo": "222",
+      "unidad": "cuerpo",
+      "bloque": 0,
+      "cancilleria": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#222",
+      "jurinfo": "https://jurinfo.jep.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#222",
+      "fuentes_adicionales": [
+        "https://www.corteconstitucional.gov.co/Relatoria/2017/C-282-17"
+      ],
+      "sha256_texto_cancilleria": "f5f68fd23ab11bab8c9d0d32db662961a6e2ae60cf2a831661a9452c4fda722d",
+      "alcance": "Etapas y descargos del proceso verbal inmediato. Se excluyen los parágrafos. C-282/17 resolvió sobre el efecto devolutivo en el parágrafo 1."
+    },
+    {
+      "articulo": "222",
+      "unidad": "numeral-1",
+      "bloque": 0,
+      "cancilleria": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#222",
+      "jurinfo": "https://jurinfo.jep.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#222",
+      "fuentes_adicionales": [
+        "https://www.corteconstitucional.gov.co/Relatoria/2017/C-282-17"
+      ],
+      "sha256_texto_cancilleria": "ed1dc6c60a7921217a7ffd9ecc15329561c0d3e06a957f2125fd9503b48dfd25",
+      "alcance": "Etapas y descargos del proceso verbal inmediato. Se excluyen los parágrafos. C-282/17 resolvió sobre el efecto devolutivo en el parágrafo 1."
+    },
+    {
+      "articulo": "222",
+      "unidad": "numeral-2",
+      "bloque": 0,
+      "cancilleria": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#222",
+      "jurinfo": "https://jurinfo.jep.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#222",
+      "fuentes_adicionales": [
+        "https://www.corteconstitucional.gov.co/Relatoria/2017/C-282-17"
+      ],
+      "sha256_texto_cancilleria": "f17ffb0346890958478faed01602cda3ab639110c7671ea67daf1b250de94bb9",
+      "alcance": "Etapas y descargos del proceso verbal inmediato. Se excluyen los parágrafos. C-282/17 resolvió sobre el efecto devolutivo en el parágrafo 1."
+    },
+    {
+      "articulo": "222",
+      "unidad": "numeral-3",
+      "bloque": 0,
+      "cancilleria": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#222",
+      "jurinfo": "https://jurinfo.jep.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#222",
+      "fuentes_adicionales": [
+        "https://www.corteconstitucional.gov.co/Relatoria/2017/C-282-17"
+      ],
+      "sha256_texto_cancilleria": "764b71f696b218a686d5d795fe67bb4f1163604613ab69e3d21770508e6d9104",
+      "alcance": "Etapas y descargos del proceso verbal inmediato. Se excluyen los parágrafos. C-282/17 resolvió sobre el efecto devolutivo en el parágrafo 1."
+    },
+    {
+      "articulo": "222",
+      "unidad": "numeral-4",
+      "bloque": 0,
+      "cancilleria": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#222",
+      "jurinfo": "https://jurinfo.jep.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#222",
+      "fuentes_adicionales": [
+        "https://www.corteconstitucional.gov.co/Relatoria/2017/C-282-17"
+      ],
+      "sha256_texto_cancilleria": "76f52bc220bd8aea654569cb5cc5be1465093ffb65135a89c94ff748b334b3fc",
+      "alcance": "Etapas y descargos del proceso verbal inmediato. Se excluyen los parágrafos. C-282/17 resolvió sobre el efecto devolutivo en el parágrafo 1."
+    },
+    {
+      "articulo": "223",
+      "unidad": "numeral-1",
+      "bloque": 0,
+      "cancilleria": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#223",
+      "jurinfo": "https://jurinfo.jep.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#223",
+      "fuentes_adicionales": [
+        "https://www.corteconstitucional.gov.co/relatoria/2017/c-349-17.htm"
+      ],
+      "sha256_texto_cancilleria": "0ce337ffb7ceaa007fa8cef012b2647503e60b089b14b61b67e1cedca9f323fc",
+      "alcance": "Inicio de la acción y citación. Se excluyen competencias reformadas, audiencia y recursos; C-349/17 condicionó el parágrafo 1."
+    },
+    {
+      "articulo": "223",
+      "unidad": "numeral-2",
+      "bloque": 0,
+      "cancilleria": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#223",
+      "jurinfo": "https://jurinfo.jep.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#223",
+      "fuentes_adicionales": [
+        "https://www.corteconstitucional.gov.co/relatoria/2017/c-349-17.htm"
+      ],
+      "sha256_texto_cancilleria": "457aa2e927e062321bb447f91858fd4b584f286d7cfb785ac1a11c80ca417430",
+      "alcance": "Inicio de la acción y citación. Se excluyen competencias reformadas, audiencia y recursos; C-349/17 condicionó el parágrafo 1."
+    }
+  ]
+}

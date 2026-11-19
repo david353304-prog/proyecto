@@ -7,11 +7,11 @@ import logging
 from google import genai
 from google.genai import types
 
-from motor_documental.recuperador_combinado_1801 import RecuperadorCombinado1801
+from motor_documental.indice_publicable import RecuperadorPublicable
 from motor_documental.preparar_contexto_rag import preparar_contexto
 from motor_documental.instrucciones_ia import MARCADOR_SIN_RESPALDO, construir_mensajes
 from motor_documental.vigencia_rag import (
-    articulos_mencionados, contexto_publicable, corpus_publicable,
+    articulos_mencionados, articulos_para_consulta, contexto_publicable,
     respuesta_revision_pendiente, respuesta_texto_inexequible,
 )
 
@@ -51,7 +51,7 @@ class GeneradorRespuestasRAG:
                 "No se encontró GEMINI_API_KEY en el entorno."
             )
 
-        self.recuperador = RecuperadorCombinado1801()
+        self.recuperador = RecuperadorPublicable()
 
         self.cliente = genai.Client(
             api_key=os.environ["GEMINI_API_KEY"],
@@ -74,6 +74,11 @@ class GeneradorRespuestasRAG:
         aviso = respuesta_texto_inexequible(pregunta) or respuesta_revision_pendiente(pregunta)
         if aviso:
             return aviso
+        candidatos = articulos_para_consulta(pregunta)
+        if not candidatos:
+            return respuesta_sin_respaldo(pregunta, {
+                "total_generales": 0, "total_estructurados": 0
+            }, modelo="verificación documental")
 
         inicio_total = time.perf_counter()
         inicio_etapa = time.perf_counter()
@@ -81,9 +86,11 @@ class GeneradorRespuestasRAG:
         resultados = self.recuperador.buscar(
             pregunta,
             cantidad_general=5,
-            cantidad_estructurada=5,
-            articulos_permitidos=corpus_publicable().keys(),
+            articulos_permitidos=candidatos,
         )
+        resultados["resultados_generales"] = [
+            a for a in resultados["resultados_generales"] if a["articulo"] in candidatos
+        ]
         resultados = contexto_publicable(resultados)
         if not (resultados["total_generales"] or resultados["total_estructurados"]):
             return respuesta_sin_respaldo(pregunta, resultados, modelo="verificación documental")
