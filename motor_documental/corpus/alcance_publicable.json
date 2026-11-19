@@ -1,0 +1,17 @@
+{
+  "fecha_consulta": "2026-11-18",
+  "diario_oficial": "49949 del 29 de julio de 2016",
+  "fuentes_cotejo": [
+    "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm",
+    "https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=80538",
+    "https://jurinfo.jep.gov.co/normograma/compilacion/docs/ley_1801_2016.htm"
+  ],
+  "criterio": "Cotejo documental del texto y de las notas visibles en las compilaciones. Habilitado para descripción informativa del texto consultado. La aplicabilidad jurídica a casos concretos queda fuera del alcance.",
+  "articulos": {
+    "1": "Objeto preventivo y fines generales del Código.",
+    "2": "Los seis objetivos específicos enumerados por el Código.",
+    "5": "Definición de convivencia.",
+    "6": "Las cuatro categorías jurídicas de convivencia.",
+    "7": "Finalidades de la convivencia."
+  }
+}

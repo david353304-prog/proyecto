@@ -31,12 +31,13 @@ ocurre en el artículo 223A.
 | Disposición | Hallazgo verificable |
 |---|---|
 | 8 y 10 | La compilación registra reforma de los principios y de los deberes de las autoridades por los arts. 2 y 3 de la Ley 2318 de 2023. [Compilación oficial](https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#8) |
-| 33 y 92 | La Ley 2450 de 2025 reformó el art. 33 y añadió disposiciones sobre ruido al art. 92. Las respuestas del banco sobre ruido requieren cotejarse con la nueva redacción. [Art. 33](https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#33) · [Art. 92](https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#92) |
+| 33 y 93 | La Ley 2450 de 2025 reformó el art. 33 y añadió disposiciones sobre ruido al art. 93. Las respuestas del banco sobre ruido requieren cotejarse con la nueva redacción. [Art. 33](https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#33) · [Art. 93](https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#93) |
 | 33.2.c y 140.7 | C-253/19 declaró inexequibles expresiones sobre bebidas alcohólicas y sustancias psicoactivas del texto entonces examinado. El alcance de la decisión debe distinguirse de las redacciones posteriores. [Corte Constitucional](https://www.corteconstitucional.gov.co/comunicados/no.%2018%20comunicado%2006%20de%20junio%20de%202019.pdf) |
 | 47 a 75 | C-223/17 declaró inexequibles los artículos del Título VI sujetos a reserva de ley estatutaria y difirió los efectos hasta antes del 20 de junio de 2019. [Parte resolutiva](https://www.corteconstitucional.gov.co/secretaria/edictos/EDICTOS%20OCTUBRE%202017.php) |
 | 88 | La compilación registra la modificación del servicio de baño por el art. 2 de la Ley 2633 de 2026. [Art. 88](https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#88) |
 | 117, 119 y 126–134 | La Ley 2054 de 2020 modificó las disposiciones sobre animales y la terminología de los caninos de manejo especial. [Compilación oficial](https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#126) |
 | 155 | C-281/17 examinó el texto original. El art. 40 de la Ley 2197 de 2022 lo reformó y C-081/23 examinó el nuevo parágrafo 5 y sus condicionamientos. [C-281/17](https://www.corteconstitucional.gov.co/relatoria/2017/C-281-17.htm) · [C-380/23, síntesis de C-081/23](https://www.corteconstitucional.gov.co/relatoria/2023/c-380-23) |
+| 162 | El resolutivo segundo de C-223/17 declaró inexequible el artículo completo. El histórico conserva su texto y la compilación lo señala como inexequible. [C-223/17](https://www.corteconstitucional.gov.co/relatoria/2017/C-223-17.htm) |
 | 223A | El art. 47 de la Ley 2197 de 2022 adicionó el procedimiento, con corrección del art. 25 del Decreto 207 de 2022. [Art. 223A](https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#223A) |
 
 El estado verificable registrado para los artículos 47 a 75 se refiere
@@ -55,6 +56,92 @@ queda pendiente de verificar antes de redistribuirlos.
 Para reproducir el contraste, descarga el HTML de Cancillería y ejecuta
 `python -m motor_documental.corpus.contrastar_corpus ley1801.html --fecha-consulta AAAA-MM-DD --salida referencia.json`.
 Compara la huella del HTML si repites la corrida con una descarga nueva.
+
+## Hoja de conciliación para revisión
+
+[`conciliacion_diferencias.json`](../motor_documental/corpus/conciliacion_diferencias.json)
+conserva los 159 artículos marcados en el contraste inicial. Por artículo
+incluye los dos textos completos, la URL de cada fuente, las páginas del
+PDF, los bloques divergentes, las notas de la compilación y una decisión
+propuesta. Los índices de cada bloque se cuentan desde cero sobre tokens
+de palabra y el extremo final es exclusivo.
+
+Las categorías pueden coexistir. La clasificación principal prioriza
+las señales judiciales, luego las reformas o correcciones normativas,
+luego las diferencias atribuibles a formato mediante equivalencias
+tipográficas acotadas o límites de extracción. Los casos restantes
+requieren revisión jurídica específica. Una nota de reforma puede
+referirse a un cambio ya incorporado en el histórico. Las menciones a
+sentencias son pistas para comprobar partes resolutivas. La hoja
+identifica por separado el alcance cotejado de C-223/17.
+
+| Clasificación principal | Casos |
+|---|---:|
+| Extracción o formato | 48 |
+| Reforma o corrección normativa | 27 |
+| Decisión judicial | 77 |
+| Revisión jurídica específica | 7 |
+| Total | 159 |
+
+Los 159 casos siguen abiertos para revisión del grupo. Cada propuesta
+mantiene `aprobado_para_indice: false`. El cotejo legal debe fijar texto,
+apartado, fecha de efectos y fuente antes de incorporar una disposición.
+El corpus histórico y el índice operativo conservan su estado previo.
+
+Para reproducir el expediente desde la raíz con `.venv` activo:
+
+```bash
+python -m motor_documental.corpus.conciliar_diferencias --salida conciliacion_revision.json
+python -m unittest discover -s tests -p "test_conciliacion_corpus.py"
+```
+
+El generador toma la cobertura de las marcas `diferencias_por_revisar`
+de la referencia. Para una descarga futura usa `--referencia` y
+`--salida` con rutas distintas. `--historico` permite elegir el
+corpus con el que se hizo el contraste. La prueba histórica comprueba
+por separado los 159 casos y las huellas SHA-256 del expediente
+del 18 de noviembre de 2026.
+
+Mientras se usa el índice histórico, las consultas explícitas sobre
+el artículo 162 o los textos originales de los artículos 47 a 75
+reciben un aviso con enlace a C-223/17. Los candidatos de esos artículos
+se excluyen del contexto generativo y de los fragmentos públicos.
+La salvaguarda se aplica a esos textos históricos y la revisión del resto
+del corpus sigue abierta.
+
+## Alcance público y evidencia por apartado
+
+El expediente contiene 650 bloques de contraste en 159 artículos. Cada
+bloque ubica el epígrafe, cuerpo, numeral, literal o parágrafo de la
+referencia, y conserva su URL y fecha. En una eliminación se indica
+una ubicación adyacente, que no prueba que el texto eliminado formara
+parte de ese apartado. Para los artículos 8, 10, 33, 88, 93, 166, 167,
+180, 181 y 206 se añadió el enlace oficial de la reforma y su apartado.
+La ficha de cada artículo distingue esas fuentes de las notas
+editoriales de la compilación. El cotejo oficial de una reforma y la
+revisión de su aplicabilidad son pasos distintos.
+
+El [contraste con Jurinfo de la JEP](../motor_documental/corpus/contraste_jep.json)
+procesó los mismos 159 artículos. Coincidieron 156 al comparar tokens.
+Las tres diferencias restantes son la separación de ordinales en 84 y
+242, y la mención de una directriz COPNIA que aparece en la extracción
+de Cancillería para el art. 92 y no en la de Jurinfo. La mención queda
+pendiente de revisión editorial. La concordancia de dos compilaciones
+no prueba vigencia ni sustituye el cotejo del acto modificatorio o de
+la parte resolutiva.
+
+```bash
+python -m motor_documental.corpus.contraste_jep ley1801-jep.html --fecha-consulta 2026-11-18
+```
+
+El [registro de alcance público](../motor_documental/corpus/alcance_publicable.json)
+incluye los artículos 1, 2, 5, 6 y 7, tras comparar el texto y las
+anotaciones visibles de las compilaciones oficiales. El servicio usa
+la redacción de Cancillería para contexto y fuentes. Los vectores
+históricos solo ordenan resultados del subconjunto. La auditoría comprueba
+que sus nueve fragmentos sean subsecuencias contiguas del texto
+cotejado tras normalizar la puntuación. El cotejo habilita una descripción
+documental acotada. No certifica aplicación jurídica a casos concretos.
 
 ## 1. Objetivo
 
