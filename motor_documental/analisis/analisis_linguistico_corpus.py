@@ -1,7 +1,10 @@
 """Análisis lingüístico académico de la Ley 1801 de 2016."""
 
 import json
+import hashlib
+import math
 import re
+import unicodedata
 from collections import Counter
 from pathlib import Path
 
@@ -50,30 +53,42 @@ GLOSARIO = {
     },
 }
 
+PATRONES_ENTIDADES = {
+    "AUTORIDAD": r"\b(?:Policía Nacional|Corte Constitucional|Ministerio del Interior|"
+                 r"inspector(?:es)? de Policía|alcald(?:e|es|ía|ías)|corregidor(?:es)?)\b",
+    "LUGAR": r"\b(?:Colombia|Bogotá|espacio público|territorio nacional)\b",
+    "MONTO": r"\b\d+(?:[.,]\d+)?\s*(?:%|pesos\b|(?:sml[dv]v|uvb|uvt)\b)|"
+             r"\b(?:\d+|\(\d+\))\s*salarios mínimos(?: legales)?\b",
+    "PLAZO": r"\b(?:\d+|[a-záéíóú]+\s+\(\d+\))\s+"
+             r"(?:horas?|días?|mes(?:es)?|años?)(?:\s+hábiles)?\b",
+}
+
 
 def main():
-    articulos = json.loads(CORPUS.read_text(encoding="utf-8"))
+    datos = CORPUS.read_bytes()
+    articulos = json.loads(datos)
     nlp = spacy.load("es_core_news_sm")
 
     textos = [
-        str(articulo.get("texto", "")).strip()
+        (" ".join(unicodedata.normalize("NFC", articulo["texto"]).split()), articulo["numero"])
         for articulo in articulos
+        if articulo.get("texto", "").strip()
     ]
-
-    textos = [texto for texto in textos if texto]
 
     frecuencias = Counter()
     lemas = Counter()
     categorias = Counter()
     entidades = Counter()
+    entidades_juridicas = {tipo: Counter() for tipo in PATRONES_ENTIDADES}
     bigramas = Counter()
+    trigramas = Counter()
     longitudes = []
     concordancias = {termino: [] for termino in TERMINOS}
 
     total_tokens = 0
     tipos = set()
 
-    for doc in nlp.pipe(textos, batch_size=16):
+    for doc, articulo in nlp.pipe(textos, as_tuples=True, batch_size=16):
         palabras = [
             token for token in doc
             if not token.is_space and not token.is_punct
@@ -108,15 +123,20 @@ def main():
         bigramas.update(
             zip(normalizadas, normalizadas[1:])
         )
+        trigramas.update(zip(normalizadas, normalizadas[1:], normalizadas[2:]))
 
         texto = doc.text
+        for tipo, patron in PATRONES_ENTIDADES.items():
+            entidades_juridicas[tipo].update(
+                m[0].casefold() for m in re.finditer(patron, texto, re.I)
+            )
 
         for termino in TERMINOS:
             if len(concordancias[termino]) >= 5:
                 continue
 
             patron = re.compile(
-                re.escape(termino),
+                r"\b" + re.escape(termino) + r"\b",
                 re.IGNORECASE
             )
 
@@ -125,21 +145,25 @@ def main():
                 fin = min(len(texto), coincidencia.end() + 65)
 
                 concordancias[termino].append(
-                    texto[inicio:fin].replace("\n", " ")
+                    {
+                        "articulo": articulo,
+                        "izquierda": texto[inicio:coincidencia.start()],
+                        "termino": coincidencia[0],
+                        "derecha": texto[coincidencia.end():fin],
+                    }
                 )
 
                 if len(concordancias[termino]) >= 5:
                     break
 
     corpus_normalizado = [
-        re.sub(r"\\s+", " ", texto.lower())
-        for texto in textos
+        texto.casefold() for texto, _ in textos
     ]
 
     colocaciones = {
         expresion: sum(
             len(re.findall(
-                r"(?<!\\w)" + re.escape(expresion) + r"(?!\\w)",
+                r"(?<!\w)" + re.escape(expresion) + r"(?!\w)",
                 texto
             ))
             for texto in corpus_normalizado
@@ -147,9 +171,24 @@ def main():
         for expresion in EXPRESIONES_JURIDICAS
     }
 
+    pares = sum(bigramas.values())
+    izquierdas, derechas = Counter(), Counter()
+    for (a, b), frecuencia in bigramas.items():
+        izquierdas[a] += frecuencia
+        derechas[b] += frecuencia
+    asociaciones = []
+    for (a, b), frecuencia in bigramas.items():
+        if frecuencia >= 5 and {a, b} & {"multa", "comparendo", "medida", "espacio"}:
+            pmi = math.log2(frecuencia * pares / (izquierdas[a] * derechas[b]))
+            asociaciones.append({"terminos": [a, b], "frecuencia": frecuencia, "pmi": round(pmi, 4)})
+    asociaciones.sort(key=lambda fila: (-fila["pmi"], fila["terminos"]))
+
     resultados = {
         "corpus": "Ley 1801 de 2016",
+        "sha256_corpus": hashlib.sha256(datos).hexdigest(),
         "modelo": "es_core_news_sm",
+        "version_modelo": nlp.meta["version"],
+        "version_spacy": spacy.__version__,
         "total_articulos": len(articulos),
         "articulos_con_texto": len(textos),
         "total_tokens": total_tokens,
@@ -172,6 +211,14 @@ def main():
             {"terminos": list(par), "frecuencia": cantidad}
             for par, cantidad in bigramas.most_common(30)
         ],
+        "trigramas_frecuentes": [
+            {"terminos": list(terna), "frecuencia": cantidad}
+            for terna, cantidad in trigramas.most_common(30)
+        ],
+        "entidades_por_patrones": {
+            tipo: conteo.most_common(30) for tipo, conteo in entidades_juridicas.items()
+        },
+        "colocaciones_pmi": asociaciones,
         "concordancias_kwic": concordancias,
         "colocaciones_juridicas": colocaciones,
         "glosario": GLOSARIO,

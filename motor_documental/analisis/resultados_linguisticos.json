@@ -1,6 +1,9 @@
 {
   "corpus": "Ley 1801 de 2016",
+  "sha256_corpus": "80b7731924bab0a1ae2a70acea60629db380f106c234474dfc37eca9c195336f",
   "modelo": "es_core_news_sm",
+  "version_modelo": "3.8.0",
+  "version_spacy": "3.8.18",
   "total_articulos": 249,
   "articulos_con_texto": 249,
   "total_tokens": 53943,
@@ -633,38 +636,860 @@
       "frecuencia": 93
     }
   ],
+  "trigramas_frecuentes": [
+    {
+      "terminos": [
+        "multa",
+        "general",
+        "tipo"
+      ],
+      "frecuencia": 226
+    },
+    {
+      "terminos": [
+        "general",
+        "tipo",
+        "4"
+      ],
+      "frecuencia": 121
+    },
+    {
+      "terminos": [
+        "sentencia",
+        "de",
+        "la"
+      ],
+      "frecuencia": 118
+    },
+    {
+      "terminos": [
+        "de",
+        "la",
+        "corte"
+      ],
+      "frecuencia": 118
+    },
+    {
+      "terminos": [
+        "la",
+        "corte",
+        "constitucional"
+      ],
+      "frecuencia": 114
+    },
+    {
+      "terminos": [
+        "suspensión",
+        "temporal",
+        "de"
+      ],
+      "frecuencia": 110
+    },
+    {
+      "terminos": [
+        "aglomeraciones",
+        "de",
+        "público"
+      ],
+      "frecuencia": 108
+    },
+    {
+      "terminos": [
+        "temporal",
+        "de",
+        "actividad"
+      ],
+      "frecuencia": 105
+    },
+    {
+      "terminos": [
+        "mediante",
+        "sentencia",
+        "de"
+      ],
+      "frecuencia": 95
+    },
+    {
+      "terminos": [
+        "de",
+        "la",
+        "ley"
+      ],
+      "frecuencia": 90
+    },
+    {
+      "terminos": [
+        "autoridades",
+        "de",
+        "policía"
+      ],
+      "frecuencia": 85
+    },
+    {
+      "terminos": [
+        "de",
+        "público",
+        "complejas"
+      ],
+      "frecuencia": 81
+    },
+    {
+      "terminos": [
+        "las",
+        "autoridades",
+        "de"
+      ],
+      "frecuencia": 75
+    },
+    {
+      "terminos": [
+        "la",
+        "policía",
+        "nacional"
+      ],
+      "frecuencia": 75
+    },
+    {
+      "terminos": [
+        "de",
+        "actividad",
+        "numeral"
+      ],
+      "frecuencia": 75
+    },
+    {
+      "terminos": [
+        "de",
+        "conformidad",
+        "con"
+      ],
+      "frecuencia": 73
+    },
+    {
+      "terminos": [
+        "la",
+        "aplicación",
+        "de"
+      ],
+      "frecuencia": 69
+    },
+    {
+      "terminos": [
+        "por",
+        "el",
+        "art"
+      ],
+      "frecuencia": 62
+    },
+    {
+      "terminos": [
+        "a",
+        "la",
+        "convivencia"
+      ],
+      "frecuencia": 61
+    },
+    {
+      "terminos": [
+        "destrucción",
+        "de",
+        "bien"
+      ],
+      "frecuencia": 59
+    },
+    {
+      "terminos": [
+        "de",
+        "los",
+        "comportamientos"
+      ],
+      "frecuencia": 57
+    },
+    {
+      "terminos": [
+        "en",
+        "el",
+        "presente"
+      ],
+      "frecuencia": 55
+    },
+    {
+      "terminos": [
+        "las",
+        "medidas",
+        "correctivas"
+      ],
+      "frecuencia": 54
+    },
+    {
+      "terminos": [
+        "exequible",
+        "mediante",
+        "sentencia"
+      ],
+      "frecuencia": 52
+    },
+    {
+      "terminos": [
+        "de",
+        "las",
+        "personas"
+      ],
+      "frecuencia": 50
+    },
+    {
+      "terminos": [
+        "de",
+        "la",
+        "policía"
+      ],
+      "frecuencia": 50
+    },
+    {
+      "terminos": [
+        "autoridad",
+        "de",
+        "policía"
+      ],
+      "frecuencia": 50
+    },
+    {
+      "terminos": [
+        "la",
+        "autoridad",
+        "de"
+      ],
+      "frecuencia": 47
+    },
+    {
+      "terminos": [
+        "aplicación",
+        "de",
+        "las"
+      ],
+      "frecuencia": 47
+    },
+    {
+      "terminos": [
+        "en",
+        "programa",
+        "comunitario"
+      ],
+      "frecuencia": 47
+    }
+  ],
+  "entidades_por_patrones": {
+    "AUTORIDAD": [
+      [
+        "corte constitucional",
+        114
+      ],
+      [
+        "policía nacional",
+        75
+      ],
+      [
+        "alcaldes",
+        30
+      ],
+      [
+        "alcalde",
+        30
+      ],
+      [
+        "inspector de policía",
+        11
+      ],
+      [
+        "inspectores de policía",
+        10
+      ],
+      [
+        "alcaldías",
+        5
+      ],
+      [
+        "ministerio del interior",
+        5
+      ],
+      [
+        "corregidores",
+        5
+      ],
+      [
+        "alcaldía",
+        4
+      ]
+    ],
+    "LUGAR": [
+      [
+        "espacio público",
+        62
+      ],
+      [
+        "territorio nacional",
+        18
+      ],
+      [
+        "bogotá",
+        4
+      ],
+      [
+        "colombia",
+        1
+      ]
+    ],
+    "MONTO": [
+      [
+        "15%",
+        6
+      ],
+      [
+        "50%",
+        5
+      ],
+      [
+        "25%",
+        3
+      ],
+      [
+        "75%",
+        3
+      ],
+      [
+        "60%",
+        2
+      ],
+      [
+        "10%",
+        1
+      ],
+      [
+        "100%",
+        1
+      ],
+      [
+        "30%",
+        1
+      ],
+      [
+        "40%",
+        1
+      ]
+    ],
+    "PLAZO": [
+      [
+        "cinco (5) días",
+        6
+      ],
+      [
+        "seis (6) meses",
+        6
+      ],
+      [
+        "diez (10) días",
+        5
+      ],
+      [
+        "veinticuatro (24) horas",
+        4
+      ],
+      [
+        "doce (12) meses",
+        4
+      ],
+      [
+        "dos (2) días",
+        4
+      ],
+      [
+        "un (1) año",
+        3
+      ],
+      [
+        "cinco (5) días hábiles",
+        3
+      ],
+      [
+        "tres (3) días",
+        3
+      ],
+      [
+        "tres (3) años",
+        3
+      ],
+      [
+        "tres (3) meses",
+        2
+      ],
+      [
+        "18 años",
+        2
+      ],
+      [
+        "16 años",
+        2
+      ],
+      [
+        "ocho (48) horas",
+        2
+      ],
+      [
+        "noventa (90) días hábiles",
+        2
+      ],
+      [
+        "dieciocho (18) años",
+        2
+      ],
+      [
+        "seis (6) horas",
+        2
+      ],
+      [
+        "tres (3) días hábiles",
+        2
+      ],
+      [
+        "48 horas",
+        1
+      ],
+      [
+        "quince (15) días",
+        1
+      ],
+      [
+        "cuatro (4) meses",
+        1
+      ],
+      [
+        "dos (2) años",
+        1
+      ],
+      [
+        "treinta (30) días",
+        1
+      ],
+      [
+        "dos (2) meses",
+        1
+      ],
+      [
+        "sesenta (60) días",
+        1
+      ],
+      [
+        "12 horas",
+        1
+      ],
+      [
+        "ocho (8) días",
+        1
+      ],
+      [
+        "3 días hábiles",
+        1
+      ],
+      [
+        "cinco (5) años",
+        1
+      ],
+      [
+        "29 días",
+        1
+      ]
+    ]
+  },
+  "colocaciones_pmi": [
+    {
+      "terminos": [
+        "medida",
+        "correctiva"
+      ],
+      "frecuencia": 53,
+      "pmi": 8.4554
+    },
+    {
+      "terminos": [
+        "espacio",
+        "público"
+      ],
+      "frecuencia": 62,
+      "pmi": 7.283
+    },
+    {
+      "terminos": [
+        "multa",
+        "general"
+      ],
+      "frecuencia": 236,
+      "pmi": 7.1431
+    },
+    {
+      "terminos": [
+        "multa",
+        "especial"
+      ],
+      "frecuencia": 45,
+      "pmi": 6.1414
+    },
+    {
+      "terminos": [
+        "esta",
+        "medida"
+      ],
+      "frecuencia": 7,
+      "pmi": 6.1091
+    },
+    {
+      "terminos": [
+        "medida",
+        "incurra"
+      ],
+      "frecuencia": 7,
+      "pmi": 5.8461
+    },
+    {
+      "terminos": [
+        "13",
+        "multa"
+      ],
+      "frecuencia": 9,
+      "pmi": 5.6757
+    },
+    {
+      "terminos": [
+        "9",
+        "multa"
+      ],
+      "frecuencia": 15,
+      "pmi": 5.6268
+    },
+    {
+      "terminos": [
+        "11",
+        "multa"
+      ],
+      "frecuencia": 11,
+      "pmi": 5.6137
+    },
+    {
+      "terminos": [
+        "10",
+        "multa"
+      ],
+      "frecuencia": 14,
+      "pmi": 5.5272
+    },
+    {
+      "terminos": [
+        "14",
+        "multa"
+      ],
+      "frecuencia": 7,
+      "pmi": 5.4707
+    },
+    {
+      "terminos": [
+        "12",
+        "multa"
+      ],
+      "frecuencia": 11,
+      "pmi": 5.3969
+    },
+    {
+      "terminos": [
+        "una",
+        "medida"
+      ],
+      "frecuencia": 10,
+      "pmi": 5.3342
+    },
+    {
+      "terminos": [
+        "7",
+        "multa"
+      ],
+      "frecuencia": 18,
+      "pmi": 5.3242
+    },
+    {
+      "terminos": [
+        "8",
+        "multa"
+      ],
+      "frecuencia": 12,
+      "pmi": 5.1938
+    },
+    {
+      "terminos": [
+        "comportamientos",
+        "medida"
+      ],
+      "frecuencia": 19,
+      "pmi": 5.0873
+    },
+    {
+      "terminos": [
+        "6",
+        "multa"
+      ],
+      "frecuencia": 17,
+      "pmi": 4.9434
+    },
+    {
+      "terminos": [
+        "5",
+        "multa"
+      ],
+      "frecuencia": 17,
+      "pmi": 4.7097
+    },
+    {
+      "terminos": [
+        "el",
+        "espacio"
+      ],
+      "frecuencia": 38,
+      "pmi": 4.5185
+    },
+    {
+      "terminos": [
+        "del",
+        "espacio"
+      ],
+      "frecuencia": 12,
+      "pmi": 4.163
+    },
+    {
+      "terminos": [
+        "1",
+        "multa"
+      ],
+      "frecuencia": 23,
+      "pmi": 4.0418
+    },
+    {
+      "terminos": [
+        "2",
+        "multa"
+      ],
+      "frecuencia": 23,
+      "pmi": 3.9273
+    },
+    {
+      "terminos": [
+        "3",
+        "multa"
+      ],
+      "frecuencia": 19,
+      "pmi": 3.9252
+    },
+    {
+      "terminos": [
+        "4",
+        "multa"
+      ],
+      "frecuencia": 20,
+      "pmi": 3.7432
+    },
+    {
+      "terminos": [
+        "la",
+        "medida"
+      ],
+      "frecuencia": 70,
+      "pmi": 3.6887
+    },
+    {
+      "terminos": [
+        "medida",
+        "se"
+      ],
+      "frecuencia": 12,
+      "pmi": 3.3758
+    },
+    {
+      "terminos": [
+        "de",
+        "comparendo"
+      ],
+      "frecuencia": 15,
+      "pmi": 3.1675
+    },
+    {
+      "terminos": [
+        "multa",
+        "tipo"
+      ],
+      "frecuencia": 7,
+      "pmi": 2.1543
+    },
+    {
+      "terminos": [
+        "en",
+        "espacio"
+      ],
+      "frecuencia": 5,
+      "pmi": 1.6389
+    },
+    {
+      "terminos": [
+        "medida",
+        "de"
+      ],
+      "frecuencia": 29,
+      "pmi": 1.3697
+    },
+    {
+      "terminos": [
+        "la",
+        "multa"
+      ],
+      "frecuencia": 29,
+      "pmi": 0.9875
+    },
+    {
+      "terminos": [
+        "de",
+        "multa"
+      ],
+      "frecuencia": 9,
+      "pmi": -1.7483
+    }
+  ],
   "concordancias_kwic": {
     "multa": [
-      "rrectivas: COMPORTAMIENTOS MEDIDA CORRECTIVA A APLICAR Numeral 1 Multa General tipo 2 Numeral 2 Amonestación; Participación en programa",
-      "ama comunitario o actividad pedagógica de convivencia. Numeral 3 Multa General tipo 3. Numeral 4 Participación en programa comunitario ",
-      "n en programa comunitario o actividad pedagógica de convivencia; Multa General tipo 2. Numeral 5 Construcción, cerramiento, reparación ",
-      "ateriales de muebles o inmuebles; Destrucción de bien. Numeral 6 Multa General tipo 2; Prohibición de ingreso a actividad que involucra",
-      "público complejas o no complejas; Destrucción de bien. Numeral 7 Multa General tipo 2; Prohibición de ingreso a actividad que involucra"
+      {
+        "articulo": "27",
+        "izquierda": "rrectivas: COMPORTAMIENTOS MEDIDA CORRECTIVA A APLICAR Numeral 1 ",
+        "termino": "Multa",
+        "derecha": " General tipo 2 Numeral 2 Amonestación; Participación en programa"
+      },
+      {
+        "articulo": "27",
+        "izquierda": "ama comunitario o actividad pedagógica de convivencia. Numeral 3 ",
+        "termino": "Multa",
+        "derecha": " General tipo 3. Numeral 4 Participación en programa comunitario "
+      },
+      {
+        "articulo": "27",
+        "izquierda": "n en programa comunitario o actividad pedagógica de convivencia; ",
+        "termino": "Multa",
+        "derecha": " General tipo 2. Numeral 5 Construcción, cerramiento, reparación "
+      },
+      {
+        "articulo": "27",
+        "izquierda": "ateriales de muebles o inmuebles; Destrucción de bien. Numeral 6 ",
+        "termino": "Multa",
+        "derecha": " General tipo 2; Prohibición de ingreso a actividad que involucra"
+      },
+      {
+        "articulo": "27",
+        "izquierda": "público complejas o no complejas; Destrucción de bien. Numeral 7 ",
+        "termino": "Multa",
+        "derecha": " General tipo 2; Prohibición de ingreso a actividad que involucra"
+      }
     ],
     "comparendo": [
-      "ención al motivo de policía in situ quedará plasmado en orden de comparendo o en sala de mediación policial, se dejará constancia de todo lo",
-      "o, que admita la imposición de multa general, impondrán orden de comparendo al infractor, evidenciando el hecho. Es deber de toda persona na",
-      "urante los cinco (5) días hábiles siguientes a la expedición del comparendo, se le disminuirá el valor de la multa en un cincuenta (50%) por",
-      " máximo de cinco (5) días hábiles siguientes a la expedición del comparendo, solicitar a la autoridad de policía que se conmute la multa por",
-      "de acuerdo con la aplicación de la multa señalada en la orden de comparendo o con el cumplimiento de la medida de participación en programa "
+      {
+        "articulo": "154",
+        "izquierda": "ención al motivo de policía in situ quedará plasmado en orden de ",
+        "termino": "comparendo",
+        "derecha": " o en sala de mediación policial, se dejará constancia de todo lo"
+      },
+      {
+        "articulo": "180",
+        "izquierda": "o, que admita la imposición de multa general, impondrán orden de ",
+        "termino": "comparendo",
+        "derecha": " al infractor, evidenciando el hecho. Es deber de toda persona na"
+      },
+      {
+        "articulo": "180",
+        "izquierda": "urante los cinco (5) días hábiles siguientes a la expedición del ",
+        "termino": "comparendo",
+        "derecha": ", se le disminuirá el valor de la multa en un cincuenta (50%) por"
+      },
+      {
+        "articulo": "180",
+        "izquierda": " máximo de cinco (5) días hábiles siguientes a la expedición del ",
+        "termino": "comparendo",
+        "derecha": ", solicitar a la autoridad de policía que se conmute la multa por"
+      },
+      {
+        "articulo": "180",
+        "izquierda": "de acuerdo con la aplicación de la multa señalada en la orden de ",
+        "termino": "comparendo",
+        "derecha": " o con el cumplimiento de la medida de participación en programa "
+      }
     ],
     "medida correctiva": [
-      "ambién constituya una conducta tipificada en el Código Penal, la medida correctiva a imponer no podrá tener la misma naturaleza que la sanción prev",
-      "plicación de las siguientes medidas correctivas: COMPORTAMIENTOS MEDIDA CORRECTIVA A APLICAR Numeral 1 Multa General tipo 2 Numeral 2 Amonestación;",
-      "aplicación de las siguientes medidas correctivas: COMPORTAMIENTOSMEDIDA CORRECTIVA A APLICAR Numeral 1 Multa General tipo 3; Remoción de bienes, De",
-      "les aplicarán las siguientes medidas correctivas: COMPORTAMIENTOSMEDIDA CORRECTIVAA APLICAR Numeral 1 Multa General tipo 4. Destrucción de bien. Su",
-      "plicación de las siguientes medidas correctivas: COMPORTAMIENTOS MEDIDA CORRECTIVA A APLICAR Numeral 1 Multa General tipo 3; Disolución de reunión "
+      {
+        "articulo": "25",
+        "izquierda": "ambién constituya una conducta tipificada en el Código Penal, la ",
+        "termino": "medida correctiva",
+        "derecha": " a imponer no podrá tener la misma naturaleza que la sanción prev"
+      },
+      {
+        "articulo": "27",
+        "izquierda": "plicación de las siguientes medidas correctivas: COMPORTAMIENTOS ",
+        "termino": "MEDIDA CORRECTIVA",
+        "derecha": " A APLICAR Numeral 1 Multa General tipo 2 Numeral 2 Amonestación;"
+      },
+      {
+        "articulo": "33",
+        "izquierda": "plicación de las siguientes medidas correctivas: COMPORTAMIENTOS ",
+        "termino": "MEDIDA CORRECTIVA",
+        "derecha": " A APLICAR Numeral 1 Multa General tipo 3; Disolución de reunión "
+      },
+      {
+        "articulo": "38",
+        "izquierda": "eral b) del numeral 1 del presente artículo, se impondrá solo la ",
+        "termino": "medida correctiva",
+        "derecha": " de suspensión temporal de actividad y se pondrá en conocimiento "
+      },
+      {
+        "articulo": "38",
+        "izquierda": " del numeral 1 del presente artículo, será procedente también la ",
+        "termino": "medida correctiva",
+        "derecha": " de suspensión definitiva de la actividad PARÁGRAFO 3. En los com"
+      }
     ],
     "espacio público": [
-      "la comunidad comportamientos que favorezcan la convivencia en el espacio público, áreas comunes, lugares abiertos al público o que siendo privado",
-      "gente. 2. Salvo actos circenses, prender o manipular fuego en el espacio público, lugar abierto al público, sin contar con la autorización del al",
-      " privados: 1. Bienes muebles o inmuebles que se encuentran en el espacio público, en lugar privado abierto al público o utilizados para fines soc",
-      "co, y perturben o afecten la tranquilidad de las personas. 2. En espacio público, lugares abiertos al público, o que siendo privados trasciendan ",
-      "sumir sustancias psicoactivas - incluso la dosis personal- en el espacio público o lugares abiertos al público ubicados dentro del área circundan"
+      {
+        "articulo": "2",
+        "izquierda": "la comunidad comportamientos que favorezcan la convivencia en el ",
+        "termino": "espacio público",
+        "derecha": ", áreas comunes, lugares abiertos al público o que siendo privado"
+      },
+      {
+        "articulo": "30",
+        "izquierda": "gente. 2. Salvo actos circenses, prender o manipular fuego en el ",
+        "termino": "espacio público",
+        "derecha": ", lugar abierto al público, sin contar con la autorización del al"
+      },
+      {
+        "articulo": "32",
+        "izquierda": " privados: 1. Bienes muebles o inmuebles que se encuentran en el ",
+        "termino": "espacio público",
+        "derecha": ", en lugar privado abierto al público o utilizados para fines soc"
+      },
+      {
+        "articulo": "33",
+        "izquierda": "co, y perturben o afecten la tranquilidad de las personas. 2. En ",
+        "termino": "espacio público",
+        "derecha": ", lugares abiertos al público, o que siendo privados trasciendan "
+      },
+      {
+        "articulo": "34",
+        "izquierda": "sumir sustancias psicoactivas - incluso la dosis personal- en el ",
+        "termino": "espacio público",
+        "derecha": " o lugares abiertos al público ubicados dentro del área circundan"
+      }
     ]
   },
   "colocaciones_juridicas": {
-    "medida correctiva": 68,
+    "medida correctiva": 53,
     "multa general": 235,
     "autoridad de policía": 50,
     "espacio público": 62,
