@@ -238,3 +238,32 @@ completa, cinco fueron HTTP 200 y uno fue HTTP 502. Por tanto, RNF1 queda
 incumplido incluso si se consideran solamente las respuestas exitosas.
 Los controles dirigidos conservan evidencia de recuperación ante fallos
 transitorios del proveedor.
+
+### Conclusión de cierre v2
+
+**TAREA 6: CERRADA TÉCNICAMENTE CON LIMITACIÓN EXTERNA DOCUMENTADA.**
+
+**RNF1: INCUMPLIDO EN LA EVALUACIÓN COMPLETA.**
+
+La implementación y las actividades de evaluación exigidas se realizaron
+y documentaron. El banco de 50 preguntas registró Precisión@5 de 0,144,
+Recall@5 de 0,72 y MRR de 0,72. El comparativo por ID documenta exactitud,
+fidelidad, 316 citas verificadas y 26/26 trampas rechazadas.
+
+En la evaluación completa, seis consultas alcanzaron o superaron 10 s,
+la máxima tardó 70,816 s y hubo dos HTTP 502. La recuperación local y la
+validación tuvieron máximos de 0,029 y 0,006 s. La mayor variabilidad
+observada correspondió a las solicitudes a Gemini. Los reintentos y
+las esperas entre intentos también aumentaron el tiempo total. La traza
+registra estados 429, 503 y 504 y agrupa la comunicación con el proveedor
+en el tiempo de cada intento. Los controles posteriores confirmaron el
+carácter transitorio de los fallos observados: los siete casos dieron
+HTTP 200 entre 0,966 y 4,693 s, con citas verificadas.
+
+La evidencia no demuestra que el servicio externo responda siempre en
+menos de 10 s. No se identificó una modificación local que garantice
+RNF1 sin comprometer otros requisitos. La limitación documentada
+justifica el cierre del trabajo técnico y no constituye una excepción
+académica al umbral. Con la tarea 2 completada, el prototipo queda
+funcional y preparado para la entrega académica con esta limitación.
+El cumplimiento íntegro de la guía sigue sin acreditarse por RNF1.
