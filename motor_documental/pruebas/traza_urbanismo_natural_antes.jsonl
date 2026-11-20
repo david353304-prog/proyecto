@@ -1,0 +1,29 @@
+{"consulta": 1, "evento": "inicio"}
+{"consulta": 1, "evento": "recuperacion", "segundos": 0.018014}
+{"consulta": 1, "evento": "contexto", "segundos": 1.6e-05, "sha256": "4473a2c7f5281f9d807316c0856515421f52b36927be87eae23fbd3339c2e738"}
+{"consulta": 1, "evento": "intento", "segundos": 0.87025, "error": "ClientError", "categoria": "limite_o_cuota", "http_proveedor": 429}
+{"consulta": 1, "evento": "intento", "segundos": 20.442934}
+{"consulta": 1, "evento": "generacion", "segundos": 23.755605}
+{"consulta": 1, "evento": "seleccion_citas", "segundos": 0.002701, "aceptada": true, "seleccion_por_id": true, "cantidad": 5, "todos_en_catalogo": true, "catalogo": ["P1", "P2", "P3", "P4", "P5"], "ids": ["P1", "P2", "P3", "P4", "P5"]}
+{"consulta": 1, "evento": "validacion", "segundos": 0.009038, "estado": "PENDIENTE_VALIDACION"}
+{"consulta": 1, "evento": "fin", "http": 200}
+{"consulta": 2, "evento": "inicio"}
+{"consulta": 2, "evento": "fin", "http": 200}
+{"consulta": 3, "evento": "inicio"}
+{"consulta": 3, "evento": "recuperacion", "segundos": 0.022599}
+{"consulta": 3, "evento": "contexto", "segundos": 1.9e-05, "sha256": "4473a2c7f5281f9d807316c0856515421f52b36927be87eae23fbd3339c2e738"}
+{"consulta": 3, "evento": "intento", "segundos": 2.081847}
+{"consulta": 3, "evento": "generacion", "segundos": 2.085745}
+{"consulta": 3, "evento": "seleccion_citas", "segundos": 0.00026, "aceptada": true, "seleccion_por_id": true, "cantidad": 5, "todos_en_catalogo": true, "catalogo": ["P1", "P2", "P3", "P4", "P5"], "ids": ["P1", "P2", "P3", "P4", "P5"]}
+{"consulta": 3, "evento": "validacion", "segundos": 0.001204, "estado": "PENDIENTE_VALIDACION"}
+{"consulta": 3, "evento": "fin", "http": 200}
+{"consulta": 4, "evento": "inicio"}
+{"consulta": 4, "evento": "recuperacion", "segundos": 0.0137}
+{"consulta": 4, "evento": "contexto", "segundos": 1.1e-05, "sha256": "3c10018dd1af219684c67c31a8580a9d04e9f7ec05c71cfae9e255276957ca9d"}
+{"consulta": 4, "evento": "intento", "segundos": 1.651763}
+{"consulta": 4, "evento": "generacion", "segundos": 1.654732}
+{"consulta": 4, "evento": "seleccion_citas", "segundos": 0.000119, "aceptada": true, "seleccion_por_id": true, "cantidad": 2, "todos_en_catalogo": true, "catalogo": ["P1", "P2"], "ids": ["P1", "P2"]}
+{"consulta": 4, "evento": "validacion", "segundos": 0.000732, "estado": "PENDIENTE_VALIDACION"}
+{"consulta": 4, "evento": "fin", "http": 200}
+{"consulta": 5, "evento": "inicio"}
+{"consulta": 5, "evento": "fin", "http": 200}

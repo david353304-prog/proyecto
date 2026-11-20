@@ -1,0 +1,35 @@
+{"consulta": 1, "evento": "inicio"}
+{"consulta": 1, "evento": "recuperacion", "segundos": 0.058207}
+{"consulta": 1, "evento": "contexto", "segundos": 5.4e-05, "sha256": "4473a2c7f5281f9d807316c0856515421f52b36927be87eae23fbd3339c2e738"}
+{"consulta": 1, "evento": "intento", "segundos": 2.662727}
+{"consulta": 1, "evento": "generacion", "segundos": 2.756409}
+{"consulta": 1, "evento": "seleccion_citas", "segundos": 0.006481, "aceptada": true, "seleccion_por_id": true, "cantidad": 5, "todos_en_catalogo": true, "catalogo": ["P1", "P2", "P3", "P4", "P5"], "ids": ["P1", "P2", "P3", "P4", "P5"]}
+{"consulta": 1, "evento": "validacion", "segundos": 0.024422, "estado": "PENDIENTE_VALIDACION"}
+{"consulta": 1, "evento": "fin", "http": 200}
+{"consulta": 2, "evento": "inicio"}
+{"consulta": 2, "evento": "recuperacion", "segundos": 0.041124}
+{"consulta": 2, "evento": "contexto", "segundos": 3e-05, "sha256": "4473a2c7f5281f9d807316c0856515421f52b36927be87eae23fbd3339c2e738"}
+{"consulta": 2, "evento": "intento", "segundos": 0.240396, "error": "ClientError", "categoria": "limite_o_cuota", "http_proveedor": 429}
+{"consulta": 2, "evento": "intento", "segundos": 2.782999}
+{"consulta": 2, "evento": "generacion", "segundos": 5.040446}
+{"consulta": 2, "evento": "seleccion_citas", "segundos": 0.000278, "aceptada": true, "seleccion_por_id": true, "cantidad": 5, "todos_en_catalogo": true, "catalogo": ["P1", "P2", "P3", "P4", "P5"], "ids": ["P1", "P2", "P3", "P4", "P5"]}
+{"consulta": 2, "evento": "validacion", "segundos": 0.002038, "estado": "PENDIENTE_VALIDACION"}
+{"consulta": 2, "evento": "fin", "http": 200}
+{"consulta": 3, "evento": "inicio"}
+{"consulta": 3, "evento": "recuperacion", "segundos": 0.039607}
+{"consulta": 3, "evento": "contexto", "segundos": 3.7e-05, "sha256": "4473a2c7f5281f9d807316c0856515421f52b36927be87eae23fbd3339c2e738"}
+{"consulta": 3, "evento": "intento", "segundos": 0.222755, "error": "ClientError", "categoria": "limite_o_cuota", "http_proveedor": 429}
+{"consulta": 3, "evento": "intento", "segundos": 0.20658, "error": "ClientError", "categoria": "limite_o_cuota", "http_proveedor": 429}
+{"consulta": 3, "evento": "intento", "segundos": 0.219574, "error": "ClientError", "categoria": "limite_o_cuota", "http_proveedor": 429}
+{"consulta": 3, "evento": "generacion", "segundos": 7.22545, "error": "ClientError", "categoria": "limite_o_cuota", "http_proveedor": 429}
+{"consulta": 3, "evento": "fin", "http": 500}
+{"consulta": 4, "evento": "inicio"}
+{"consulta": 4, "evento": "recuperacion", "segundos": 0.046168}
+{"consulta": 4, "evento": "contexto", "segundos": 5.3e-05, "sha256": "3c10018dd1af219684c67c31a8580a9d04e9f7ec05c71cfae9e255276957ca9d"}
+{"consulta": 4, "evento": "intento", "segundos": 0.326779, "error": "ClientError", "categoria": "limite_o_cuota", "http_proveedor": 429}
+{"consulta": 4, "evento": "intento", "segundos": 0.235184, "error": "ClientError", "categoria": "limite_o_cuota", "http_proveedor": 429}
+{"consulta": 4, "evento": "intento", "segundos": 0.197323, "error": "ClientError", "categoria": "limite_o_cuota", "http_proveedor": 429}
+{"consulta": 4, "evento": "generacion", "segundos": 7.532209, "error": "ClientError", "categoria": "limite_o_cuota", "http_proveedor": 429}
+{"consulta": 4, "evento": "fin", "http": 500}
+{"consulta": 5, "evento": "inicio"}
+{"consulta": 5, "evento": "fin", "http": 200}

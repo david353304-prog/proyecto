@@ -109,6 +109,8 @@ def corpus_publicable():
 def articulos_para_consulta(pregunta):
     corpus = corpus_publicable()
     texto = normalizar(pregunta)
+    # En consultas urbanísticas, «sin autorización» expresa la falta de licencia.
+    texto_urbanistico = re.sub(r"\bsin autorizacion\b", "sin licencia", texto)
     explicitos = articulos_mencionados(pregunta)
     if explicitos:
         if explicitos - corpus.keys():
@@ -125,7 +127,9 @@ def articulos_para_consulta(pregunta):
                 and len(solicitados) <= 1 and not paragrafo
                 and not re.search(corpus[numero]["exclusiones_consulta"], texto)
                 and solicitados <= set(corpus[numero]["numerales"])
-                and (solicitados or re.search(corpus[numero]["consulta"], texto))
+                and (solicitados or re.search(
+                    corpus[numero]["consulta"], texto_urbanistico if numero == "135" else texto
+                ))
             )
         }
     patrones = {
@@ -137,7 +141,10 @@ def articulos_para_consulta(pregunta):
     }
     return {
         numero for numero, registro in corpus.items()
-        if re.search(registro.get("consulta", patrones.get(numero, r"(?!)")), texto)
+        if re.search(
+            registro.get("consulta", patrones.get(numero, r"(?!)")),
+            texto_urbanistico if numero == "135" else texto,
+        )
         and not re.search(registro.get("exclusiones_consulta", r"(?!)"), texto)
     }
 

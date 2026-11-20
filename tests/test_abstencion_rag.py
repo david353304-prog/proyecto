@@ -511,14 +511,22 @@ class TestAbstencionRAG(unittest.TestCase):
         self.generador.recuperador.buscar.return_value["resultados_generales"] = [{"articulo": "135"}]
         cita = corpus_publicable()["135"]["texto"].split("Numeral 4 ", 1)[1]
         self.generador.cliente.models.generate_content.return_value = seleccion("135", "Numeral 4 " + cita)
-        resultado = preparar_salida_publica(
-            self.generador.responder("¿Qué pasa si construyo sin permisos?")
-        )
-        self.assertIn("Numeral 4 del artículo 135", resultado["respuesta"])
-        self.assertIn("Multa especial por infracción urbanística", resultado["respuesta"])
-        fuente = resultado["fuentes_recuperadas"][0]["texto"]
-        self.assertIn("En terrenos aptos", fuente)
-        self.assertNotIn("Numeral 5", fuente)
+        for pregunta in (
+            "¿Qué pasa si construyo sin permisos?",
+            "¿Qué sanciones contempla la Ley 1801 por construir sin autorización?",
+            "¿Qué dice el artículo 135 sobre obras sin licencia?",
+            "¿Qué dice el artículo 135 sobre construir sin autorización?",
+        ):
+            with self.subTest(pregunta=pregunta):
+                resultado = preparar_salida_publica(self.generador.responder(pregunta))
+                self.generador.recuperador.buscar.assert_called_with(
+                    pregunta, cantidad_general=5, articulos_permitidos={"135"}
+                )
+                self.assertIn("Numeral 4 del artículo 135", resultado["respuesta"])
+                self.assertIn("Multa especial por infracción urbanística", resultado["respuesta"])
+                fuente = resultado["fuentes_recuperadas"][0]["texto"]
+                self.assertIn("En terrenos aptos", fuente)
+                self.assertNotIn("Numeral 5", fuente)
 
     def test_solo_candidatos_inexequibles_no_llaman_al_modelo(self):
         self.generador.recuperador.buscar.return_value = {
@@ -538,6 +546,7 @@ class TestAbstencionRAG(unittest.TestCase):
             "¿Cuál es la multa exacta por hacer ruido en un negocio?",
             "¿Qué plazo tengo para objetar un comparendo de Policía?",
             "¿Cuál es el plazo para legalizar una obra del artículo 135?",
+            "¿Cuál es la cuantía de la multa por construir sin autorización?",
             "¿Cuánto cuesta una multa del artículo 180?",
             "¿Qué dice el numeral 6 del artículo 77?",
             "¿Qué dice el artículo 77?",
