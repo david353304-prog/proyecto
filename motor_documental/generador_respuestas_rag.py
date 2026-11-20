@@ -15,6 +15,7 @@ from motor_documental.instrucciones_ia import (
     MARCADOR_SIN_RESPALDO, MAX_CITAS_PUBLICABLES, construir_mensajes,
 )
 from motor_documental.vigencia_rag import (
+    SIMILITUD_MINIMA_DEFINICION, alcance_semantico_documental,
     articulos_mencionados, articulos_para_consulta, contexto_publicable,
     pasajes_del_contexto, respuesta_revision_pendiente, respuesta_texto_inexequible,
 )
@@ -190,9 +191,15 @@ def seleccionar_citas_directas(pregunta, pasajes):
          "180", ("las multas se clasifican en generales y especiales.",)),
         (r"cuales son las finalidades de la convivencia|cuales son los fines (?:esenciales )?de la convivencia",
          "7", ("Son fines esenciales", *(f"{n}. " for n in range(1, 7)))),
+        (r"que (?:es|son) (?:una |las )?medidas? correctivas?|definicion de (?:la |una )?medida correctiva",
+         "172", ("Las medidas correctivas, son acciones",)),
+        (r"(?:cuales son las|que) medidas correctivas(?: (?:contempla|establece|enumera) (?:el codigo|la ley 1801))?",
+         "173", ("Las medidas correctivas a aplicar", *(f"{n}. " for n in range(1, 21)))),
+        (r"que (?:es|significa|se entiende por) (?:una |un |el |la )?(?:orden de )?comparendo|definicion (?:de|del) (?:la orden de )?comparendo",
+         "218", ("Entiéndase por esta",)),
     )
     for patron, articulo, inicios in reglas:
-        if not re.fullmatch(patron, consulta):
+        if not re.fullmatch(patron, consulta) and articulo not in alcance_semantico_documental(pregunta):
             continue
         bloques = [p["texto"] for p in pasajes.values() if p["articulo"] == articulo]
         elegidos = [next((b for b in bloques if b.startswith(inicio)), None) for inicio in inicios]
@@ -231,6 +238,13 @@ class GeneradorRespuestasRAG:
         if aviso:
             return aviso
         candidatos = articulos_para_consulta(pregunta)
+        consulta_busqueda = pregunta
+        opciones_busqueda = {}
+        if not candidatos:
+            alcance = alcance_semantico_documental(pregunta)
+            candidatos = set(alcance)
+            consulta_busqueda = next(iter(alcance.values()), pregunta)
+            opciones_busqueda["similitud_minima"] = SIMILITUD_MINIMA_DEFINICION
         if not candidatos:
             return respuesta_sin_respaldo(pregunta, {
                 "total_generales": 0, "total_estructurados": 0
@@ -240,9 +254,10 @@ class GeneradorRespuestasRAG:
         inicio_etapa = time.perf_counter()
 
         resultados = self.recuperador.buscar(
-            pregunta,
+            consulta_busqueda,
             cantidad_general=5,
             articulos_permitidos=candidatos,
+            **opciones_busqueda,
         )
         resultados["resultados_generales"] = [
             a for a in resultados["resultados_generales"] if a["articulo"] in candidatos

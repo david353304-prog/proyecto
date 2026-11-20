@@ -47,6 +47,7 @@ def clasificar_pregunta(pregunta):
         r"pasar(?:se)? (?:un|el) semaforo en rojo|pico y placa))|"
         r"limite de velocidad|exceder (?:el limite de velocidad|la velocidad(?: permitida)?)|"
         r"soat|tecnomecanica|pico y placa|"
+        r"renovar (?:mi |la |una )?licencia de conduccion|"
         r"estatuto tributario|impuesto (?:(?:de|sobre la) renta|predial)|"
         r"multas? (?:de|por) (?:la )?renta|"
         r"declar(?:ar|acion de) (?:la )?renta|"

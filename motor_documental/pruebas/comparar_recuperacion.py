@@ -17,7 +17,8 @@ from motor_documental.pruebas.evaluar_recuperacion_50 import (
 )
 from motor_documental.recuperador_combinado_1801 import RecuperadorCombinado1801
 from motor_documental.vigencia_rag import (
-    IDENTIFICADORES_INEXEQUIBLES, articulos_para_consulta, corpus_publicable,
+    IDENTIFICADORES_INEXEQUIBLES, SIMILITUD_MINIMA_DEFINICION,
+    alcance_semantico_documental, articulos_para_consulta, corpus_publicable,
 )
 from motor_documental.indice_publicable import RecuperadorPublicable, huella_corpus
 
@@ -53,10 +54,20 @@ def evaluar_publicable(banco):
     for caso in banco:
         inicio = perf_counter()
         pregunta = caso["pregunta"]
-        permitidos = set() if clasificar_pregunta(pregunta)["fuera_de_dominio"] else articulos_para_consulta(pregunta)
+        consulta_busqueda = pregunta
+        permitidos, opciones = set(), {}
+        if not clasificar_pregunta(pregunta)["fuera_de_dominio"]:
+            permitidos = articulos_para_consulta(pregunta)
+            if not permitidos:
+                alcance = alcance_semantico_documental(pregunta)
+                permitidos = set(alcance)
+                consulta_busqueda = next(iter(alcance.values()), pregunta)
+                opciones["similitud_minima"] = SIMILITUD_MINIMA_DEFINICION
         recuperados = []
         if permitidos:
-            resultado = recuperador.buscar(pregunta, cantidad_general=5, articulos_permitidos=permitidos)
+            resultado = recuperador.buscar(
+                consulta_busqueda, cantidad_general=5, articulos_permitidos=permitidos, **opciones
+            )
             recuperados = [a["articulo"] for a in resultado["resultados_generales"]]
         filas.append({
             "id": caso["id"], "esperados": sorted(map(normalizar_articulo, caso["articulos_esperados"])),

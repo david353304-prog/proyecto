@@ -1,8 +1,8 @@
 {
   "modelo": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
   "revision_modelo": "e8f8c211226b894fcb81acc59f3b34ba3efd5f42",
-  "sha256_corpus": "e1095acca700aa3c8d84b62e411c45f32a55c9bdf49ccbb6c46f6132d7459b55",
-  "sha256_indice": "6ea62b8b5a1bfd00ae04bf487f5c2c46dea9b98e445f9d14d49bf535d7bf5eb7",
+  "sha256_corpus": "dda8a2e3f76b9e8669420a6162757def5d0fe61fad9cee70500737f31a26c1aa",
+  "sha256_indice": "06ece6643a1b96ae7b25179073c0588773cc16cf88bb81f507a0c82df5d5530a",
   "dimension": 384,
   "fragmentos": [
     {
@@ -2471,6 +2471,150 @@
       ],
       "fecha_revision_documental": "2026-11-19",
       "texto": "cumplimiento. Las personas que las desobedezcan serán obligadas a cumplirlas a través, si es necesario, de los medios, medidas y procedimientos establecidos en este Código. Si la orden no fuere de inmediato cumplimiento, la autoridad conminará a la persona para que la cumpla en un plazo determinado, sin perjuicio de las acciones legales pertinentes ."
+    },
+    {
+      "articulo": "172",
+      "id": "ley-1801-2016-art-172",
+      "titulo": "OBJETO DE LAS MEDIDAS CORRECTIVAS",
+      "tema": "CAPÍTULO II MEDIDAS CORRECTIVAS.",
+      "jerarquia": {
+        "libro": "LIBRO TERCERO MEDIOS DE POLICÍA, MEDIDAS CORRECTIVAS, AUTORIDADES DE POLICÍA Y COMPETENCIAS, PROCEDIMIENTOS, MECANISMOS ALTERNATIVOS DE SOLUCIÓN DE DESACUERDOS O CONFLICTOS.",
+        "título": "TÍTULO I MEDIOS DE POLICÍA Y MEDIDAS CORRECTIVAS.",
+        "capítulo": "CAPÍTULO II MEDIDAS CORRECTIVAS."
+      },
+      "fuente": "Ley 1801 de 2016, apartados cotejados en Cancillería",
+      "url_fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#172",
+      "fecha_consulta": "2026-11-18",
+      "estado_documental": "apartados_cotejados",
+      "apartados": [
+        "ley-1801-2016-art-172-cuerpo"
+      ],
+      "intervalo_texto": [
+        0,
+        402
+      ],
+      "fecha_revision_documental": "2026-11-20",
+      "texto": "ARTÍCULO 172. OBJETO DE LAS MEDIDAS CORRECTIVAS. Las medidas correctivas, son acciones impuestas por las autoridades de Policía a toda persona que incurra en comportamientos contrarios a la convivencia o el incumplimiento de los deberes específicos de convivencia. Las medidas correctivas tienen por objeto disuadir, prevenir, superar, resarcir, procurar, educar, proteger o restablecer la convivencia."
+    },
+    {
+      "articulo": "173",
+      "id": "ley-1801-2016-art-173",
+      "titulo": "LAS MEDIDAS CORRECTIVAS",
+      "tema": "CAPÍTULO II MEDIDAS CORRECTIVAS.",
+      "jerarquia": {
+        "libro": "LIBRO TERCERO MEDIOS DE POLICÍA, MEDIDAS CORRECTIVAS, AUTORIDADES DE POLICÍA Y COMPETENCIAS, PROCEDIMIENTOS, MECANISMOS ALTERNATIVOS DE SOLUCIÓN DE DESACUERDOS O CONFLICTOS.",
+        "título": "TÍTULO I MEDIOS DE POLICÍA Y MEDIDAS CORRECTIVAS.",
+        "capítulo": "CAPÍTULO II MEDIDAS CORRECTIVAS."
+      },
+      "fuente": "Ley 1801 de 2016, apartados cotejados en Cancillería",
+      "url_fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#173",
+      "fecha_consulta": "2026-11-18",
+      "estado_documental": "apartados_cotejados",
+      "apartados": [
+        "ley-1801-2016-art-173-cuerpo",
+        "ley-1801-2016-art-173-numeral-1",
+        "ley-1801-2016-art-173-numeral-2",
+        "ley-1801-2016-art-173-numeral-3",
+        "ley-1801-2016-art-173-numeral-4",
+        "ley-1801-2016-art-173-numeral-5"
+      ],
+      "intervalo_texto": [
+        0,
+        454
+      ],
+      "fecha_revision_documental": "2026-11-20",
+      "texto": "ARTÍCULO 173. LAS MEDIDAS CORRECTIVAS. Las medidas correctivas a aplicar en el marco de este Código por las autoridades de policía, son las siguientes: 1. Amonestación. 2. Participación en programa comunitario o actividad pedagógica de convivencia. 3. Disolución de reunión o actividad que involucra aglomeraciones de público no complejas. 4. Expulsión de domicilio. 5. Prohibición de ingreso a actividad que involucra aglomeraciones de público complejas"
+    },
+    {
+      "articulo": "173",
+      "id": "ley-1801-2016-art-173",
+      "titulo": "LAS MEDIDAS CORRECTIVAS",
+      "tema": "CAPÍTULO II MEDIDAS CORRECTIVAS.",
+      "jerarquia": {
+        "libro": "LIBRO TERCERO MEDIOS DE POLICÍA, MEDIDAS CORRECTIVAS, AUTORIDADES DE POLICÍA Y COMPETENCIAS, PROCEDIMIENTOS, MECANISMOS ALTERNATIVOS DE SOLUCIÓN DE DESACUERDOS O CONFLICTOS.",
+        "título": "TÍTULO I MEDIOS DE POLICÍA Y MEDIDAS CORRECTIVAS.",
+        "capítulo": "CAPÍTULO II MEDIDAS CORRECTIVAS."
+      },
+      "fuente": "Ley 1801 de 2016, apartados cotejados en Cancillería",
+      "url_fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#173",
+      "fecha_consulta": "2026-11-18",
+      "estado_documental": "apartados_cotejados",
+      "apartados": [
+        "ley-1801-2016-art-173-numeral-4",
+        "ley-1801-2016-art-173-numeral-5",
+        "ley-1801-2016-art-173-numeral-6",
+        "ley-1801-2016-art-173-numeral-7",
+        "ley-1801-2016-art-173-numeral-8",
+        "ley-1801-2016-art-173-numeral-9",
+        "ley-1801-2016-art-173-numeral-10",
+        "ley-1801-2016-art-173-numeral-11",
+        "ley-1801-2016-art-173-numeral-12"
+      ],
+      "intervalo_texto": [
+        356,
+        769
+      ],
+      "fecha_revision_documental": "2026-11-20",
+      "texto": "domicilio. 5. Prohibición de ingreso a actividad que involucra aglomeraciones de público complejas o no complejas. 6. Decomiso. 7. Multa General o Especial. 8. Construcción, cerramiento, reparación o mantenimiento de inmueble. 9. Remoción de bienes. 10. Reparación de daños materiales de muebles o inmuebles. 11. Reparación de daños materiales por perturbación a la posesión y tenencia de inmuebles o muebles. 12."
+    },
+    {
+      "articulo": "173",
+      "id": "ley-1801-2016-art-173",
+      "titulo": "LAS MEDIDAS CORRECTIVAS",
+      "tema": "CAPÍTULO II MEDIDAS CORRECTIVAS.",
+      "jerarquia": {
+        "libro": "LIBRO TERCERO MEDIOS DE POLICÍA, MEDIDAS CORRECTIVAS, AUTORIDADES DE POLICÍA Y COMPETENCIAS, PROCEDIMIENTOS, MECANISMOS ALTERNATIVOS DE SOLUCIÓN DE DESACUERDOS O CONFLICTOS.",
+        "título": "TÍTULO I MEDIOS DE POLICÍA Y MEDIDAS CORRECTIVAS.",
+        "capítulo": "CAPÍTULO II MEDIDAS CORRECTIVAS."
+      },
+      "fuente": "Ley 1801 de 2016, apartados cotejados en Cancillería",
+      "url_fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#173",
+      "fecha_consulta": "2026-11-18",
+      "estado_documental": "apartados_cotejados",
+      "apartados": [
+        "ley-1801-2016-art-173-numeral-11",
+        "ley-1801-2016-art-173-numeral-12",
+        "ley-1801-2016-art-173-numeral-13",
+        "ley-1801-2016-art-173-numeral-14",
+        "ley-1801-2016-art-173-numeral-15",
+        "ley-1801-2016-art-173-numeral-16",
+        "ley-1801-2016-art-173-numeral-17",
+        "ley-1801-2016-art-173-numeral-18",
+        "ley-1801-2016-art-173-numeral-19"
+      ],
+      "intervalo_texto": [
+        680,
+        1109
+      ],
+      "fecha_revision_documental": "2026-11-20",
+      "texto": "de daños materiales por perturbación a la posesión y tenencia de inmuebles o muebles. 12. Restablecimiento del derecho de servidumbre y reparación de daños materiales. 13. Restitución y protección de bienes inmuebles. 14. Destrucción de bien. 15. Demolición de obra. 16. Suspensión de construcción o demolición. 17. Suspensión de actividad que involucre aglomeración de público compleja. 18. Suspensión temporal de actividad. 19."
+    },
+    {
+      "articulo": "173",
+      "id": "ley-1801-2016-art-173",
+      "titulo": "LAS MEDIDAS CORRECTIVAS",
+      "tema": "CAPÍTULO II MEDIDAS CORRECTIVAS.",
+      "jerarquia": {
+        "libro": "LIBRO TERCERO MEDIOS DE POLICÍA, MEDIDAS CORRECTIVAS, AUTORIDADES DE POLICÍA Y COMPETENCIAS, PROCEDIMIENTOS, MECANISMOS ALTERNATIVOS DE SOLUCIÓN DE DESACUERDOS O CONFLICTOS.",
+        "título": "TÍTULO I MEDIOS DE POLICÍA Y MEDIDAS CORRECTIVAS.",
+        "capítulo": "CAPÍTULO II MEDIDAS CORRECTIVAS."
+      },
+      "fuente": "Ley 1801 de 2016, apartados cotejados en Cancillería",
+      "url_fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#173",
+      "fecha_consulta": "2026-11-18",
+      "estado_documental": "apartados_cotejados",
+      "apartados": [
+        "ley-1801-2016-art-173-numeral-17",
+        "ley-1801-2016-art-173-numeral-18",
+        "ley-1801-2016-art-173-numeral-19",
+        "ley-1801-2016-art-173-numeral-20"
+      ],
+      "intervalo_texto": [
+        1024,
+        1174
+      ],
+      "fecha_revision_documental": "2026-11-20",
+      "texto": "involucre aglomeración de público compleja. 18. Suspensión temporal de actividad. 19. Suspensión definitiva de actividad. 20. Inutilización de bienes."
     },
     {
       "articulo": "180",

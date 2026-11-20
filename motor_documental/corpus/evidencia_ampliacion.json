@@ -1,6 +1,6 @@
 {
   "fecha_consulta": "2026-11-18",
-  "total_bloques": 227,
+  "total_bloques": 249,
   "sha256_html_jep": "47c14539ab19405f76ab2f676ab0c5ed3a21f28effbe5d641f1719f00f34b294",
   "procedencia_insumos": {
     "cancilleria": {
@@ -2634,6 +2634,337 @@
       "sha256_texto_cancilleria": "9e71ec57d9dcd0fcc6a21850edd04bfaac2dd07a07703f7a00ce21f29c6bdc61",
       "alcance": "Definición, fines, cumplimiento obligatorio y plazo. C-391/17 declaró exequible por el cargo examinado la expresión del inciso segundo sobre el plazo. Se excluye el parágrafo penal.",
       "fecha_revision_documental": "2026-11-19"
+    },
+    {
+      "articulo": "172",
+      "unidad": "cuerpo",
+      "bloque": 0,
+      "cancilleria": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#172",
+      "jurinfo": "https://jurinfo.jep.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#172",
+      "fuentes_adicionales": [
+        "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#172",
+        "https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=80538",
+        "https://www.corteconstitucional.gov.co/Relatoria/2021/T-234-21.htm",
+        "https://www.corteconstitucional.gov.co/relatoria/2017/c-349-17.htm"
+      ],
+      "sha256_texto_cancilleria": "665fc3487030a164a3880c6d652aade971e3a1840af064121546e5f79a6c0d59",
+      "alcance": "Definición y finalidad del inciso principal. T-234/21 y C-349/17 recogen su alcance. Se excluyen los parágrafos sobre naturaleza y registro.",
+      "fecha_revision_documental": "2026-11-20"
+    },
+    {
+      "articulo": "173",
+      "unidad": "cuerpo",
+      "bloque": 0,
+      "cancilleria": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#173",
+      "jurinfo": "https://jurinfo.jep.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#173",
+      "fuentes_adicionales": [
+        "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#173",
+        "https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=80775",
+        "https://www.corteconstitucional.gov.co/relatoria/2017/c-349-17.htm"
+      ],
+      "sha256_texto_cancilleria": "372856bec36e0dfdb54c7a7a5c9117126c558ad55ad75e14739fd7d7056c9b5d",
+      "alcance": "Catálogo de medidas del artículo 173, corregido por el artículo 12 del Decreto 555 de 2017. La enumeración identifica medidas generales y no determina la procedencia en un caso concreto.",
+      "fecha_revision_documental": "2026-11-20"
+    },
+    {
+      "articulo": "173",
+      "unidad": "numeral-1",
+      "bloque": 0,
+      "cancilleria": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#173",
+      "jurinfo": "https://jurinfo.jep.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#173",
+      "fuentes_adicionales": [
+        "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#173",
+        "https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=80775",
+        "https://www.corteconstitucional.gov.co/relatoria/2017/c-349-17.htm"
+      ],
+      "sha256_texto_cancilleria": "adcd28baa34c29df59f31328cf888ca07a4b0b6ba095d189e27825608567bd5b",
+      "alcance": "Catálogo de medidas del artículo 173, corregido por el artículo 12 del Decreto 555 de 2017. La enumeración identifica medidas generales y no determina la procedencia en un caso concreto.",
+      "fecha_revision_documental": "2026-11-20"
+    },
+    {
+      "articulo": "173",
+      "unidad": "numeral-2",
+      "bloque": 0,
+      "cancilleria": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#173",
+      "jurinfo": "https://jurinfo.jep.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#173",
+      "fuentes_adicionales": [
+        "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#173",
+        "https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=80775",
+        "https://www.corteconstitucional.gov.co/relatoria/2017/c-349-17.htm"
+      ],
+      "sha256_texto_cancilleria": "e17840175ea94a6344fceccc3284e206e2835e69db9f81d3b627b0b81a627649",
+      "alcance": "Catálogo de medidas del artículo 173, corregido por el artículo 12 del Decreto 555 de 2017. La enumeración identifica medidas generales y no determina la procedencia en un caso concreto.",
+      "fecha_revision_documental": "2026-11-20"
+    },
+    {
+      "articulo": "173",
+      "unidad": "numeral-3",
+      "bloque": 0,
+      "cancilleria": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#173",
+      "jurinfo": "https://jurinfo.jep.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#173",
+      "fuentes_adicionales": [
+        "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#173",
+        "https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=80775",
+        "https://www.corteconstitucional.gov.co/relatoria/2017/c-349-17.htm"
+      ],
+      "sha256_texto_cancilleria": "dd681c8e44795b268fc54e4670903946c7d4d2f3653a51d7ffae08d1b231a303",
+      "alcance": "Catálogo de medidas del artículo 173, corregido por el artículo 12 del Decreto 555 de 2017. La enumeración identifica medidas generales y no determina la procedencia en un caso concreto.",
+      "fecha_revision_documental": "2026-11-20"
+    },
+    {
+      "articulo": "173",
+      "unidad": "numeral-4",
+      "bloque": 0,
+      "cancilleria": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#173",
+      "jurinfo": "https://jurinfo.jep.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#173",
+      "fuentes_adicionales": [
+        "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#173",
+        "https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=80775",
+        "https://www.corteconstitucional.gov.co/relatoria/2017/c-349-17.htm"
+      ],
+      "sha256_texto_cancilleria": "8777288f95476190e048fc467ffa206a30a95689946a90b111e49601bc21ee19",
+      "alcance": "Catálogo de medidas del artículo 173, corregido por el artículo 12 del Decreto 555 de 2017. La enumeración identifica medidas generales y no determina la procedencia en un caso concreto.",
+      "fecha_revision_documental": "2026-11-20"
+    },
+    {
+      "articulo": "173",
+      "unidad": "numeral-5",
+      "bloque": 0,
+      "cancilleria": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#173",
+      "jurinfo": "https://jurinfo.jep.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#173",
+      "fuentes_adicionales": [
+        "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#173",
+        "https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=80775",
+        "https://www.corteconstitucional.gov.co/relatoria/2017/c-349-17.htm"
+      ],
+      "sha256_texto_cancilleria": "b7406a9bb2fdcbc3b2bc27d884ea2658ee17a9345ec20a9f9a16ee998361ce13",
+      "alcance": "Catálogo de medidas del artículo 173, corregido por el artículo 12 del Decreto 555 de 2017. La enumeración identifica medidas generales y no determina la procedencia en un caso concreto.",
+      "fecha_revision_documental": "2026-11-20"
+    },
+    {
+      "articulo": "173",
+      "unidad": "numeral-6",
+      "bloque": 0,
+      "cancilleria": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#173",
+      "jurinfo": "https://jurinfo.jep.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#173",
+      "fuentes_adicionales": [
+        "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#173",
+        "https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=80775",
+        "https://www.corteconstitucional.gov.co/relatoria/2017/c-349-17.htm"
+      ],
+      "sha256_texto_cancilleria": "5a4df932bdb97bb1af92329d3762150effa71dac5f29579eeba4568bd0bb2880",
+      "alcance": "Catálogo de medidas del artículo 173, corregido por el artículo 12 del Decreto 555 de 2017. La enumeración identifica medidas generales y no determina la procedencia en un caso concreto.",
+      "fecha_revision_documental": "2026-11-20"
+    },
+    {
+      "articulo": "173",
+      "unidad": "numeral-7",
+      "bloque": 0,
+      "cancilleria": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#173",
+      "jurinfo": "https://jurinfo.jep.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#173",
+      "fuentes_adicionales": [
+        "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#173",
+        "https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=80775",
+        "https://www.corteconstitucional.gov.co/relatoria/2017/c-349-17.htm"
+      ],
+      "sha256_texto_cancilleria": "dcfaa2c3778f299ab4af7c6a411831db39226f8c5c007260f22b41792c519905",
+      "alcance": "Catálogo de medidas del artículo 173, corregido por el artículo 12 del Decreto 555 de 2017. La enumeración identifica medidas generales y no determina la procedencia en un caso concreto.",
+      "fecha_revision_documental": "2026-11-20"
+    },
+    {
+      "articulo": "173",
+      "unidad": "numeral-8",
+      "bloque": 0,
+      "cancilleria": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#173",
+      "jurinfo": "https://jurinfo.jep.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#173",
+      "fuentes_adicionales": [
+        "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#173",
+        "https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=80775",
+        "https://www.corteconstitucional.gov.co/relatoria/2017/c-349-17.htm"
+      ],
+      "sha256_texto_cancilleria": "6722f9dfc5f349d7a5c7969cdbce86704cfaaf14559f8aeaa31a3512123f0520",
+      "alcance": "Catálogo de medidas del artículo 173, corregido por el artículo 12 del Decreto 555 de 2017. La enumeración identifica medidas generales y no determina la procedencia en un caso concreto.",
+      "fecha_revision_documental": "2026-11-20"
+    },
+    {
+      "articulo": "173",
+      "unidad": "numeral-9",
+      "bloque": 0,
+      "cancilleria": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#173",
+      "jurinfo": "https://jurinfo.jep.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#173",
+      "fuentes_adicionales": [
+        "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#173",
+        "https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=80775",
+        "https://www.corteconstitucional.gov.co/relatoria/2017/c-349-17.htm"
+      ],
+      "sha256_texto_cancilleria": "0b49d6af82c0df9f5fa40eed19e040b8e619ecf69b33d9e07c148f259cf34bb3",
+      "alcance": "Catálogo de medidas del artículo 173, corregido por el artículo 12 del Decreto 555 de 2017. La enumeración identifica medidas generales y no determina la procedencia en un caso concreto.",
+      "fecha_revision_documental": "2026-11-20"
+    },
+    {
+      "articulo": "173",
+      "unidad": "numeral-10",
+      "bloque": 0,
+      "cancilleria": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#173",
+      "jurinfo": "https://jurinfo.jep.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#173",
+      "fuentes_adicionales": [
+        "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#173",
+        "https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=80775",
+        "https://www.corteconstitucional.gov.co/relatoria/2017/c-349-17.htm"
+      ],
+      "sha256_texto_cancilleria": "0e5c285bf8e191aa98d55be5200954e68e11b1805a8b0ebf7fb80483a05dd4d1",
+      "alcance": "Catálogo de medidas del artículo 173, corregido por el artículo 12 del Decreto 555 de 2017. La enumeración identifica medidas generales y no determina la procedencia en un caso concreto.",
+      "fecha_revision_documental": "2026-11-20"
+    },
+    {
+      "articulo": "173",
+      "unidad": "numeral-11",
+      "bloque": 0,
+      "cancilleria": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#173",
+      "jurinfo": "https://jurinfo.jep.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#173",
+      "fuentes_adicionales": [
+        "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#173",
+        "https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=80775",
+        "https://www.corteconstitucional.gov.co/relatoria/2017/c-349-17.htm"
+      ],
+      "sha256_texto_cancilleria": "34118c35e664a7b434abbe0675b969bad8ddb6cd56e303f587e7a13f60f14851",
+      "alcance": "Catálogo de medidas del artículo 173, corregido por el artículo 12 del Decreto 555 de 2017. La enumeración identifica medidas generales y no determina la procedencia en un caso concreto.",
+      "fecha_revision_documental": "2026-11-20"
+    },
+    {
+      "articulo": "173",
+      "unidad": "numeral-12",
+      "bloque": 0,
+      "cancilleria": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#173",
+      "jurinfo": "https://jurinfo.jep.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#173",
+      "fuentes_adicionales": [
+        "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#173",
+        "https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=80775",
+        "https://www.corteconstitucional.gov.co/relatoria/2017/c-349-17.htm"
+      ],
+      "sha256_texto_cancilleria": "91b10f073aeaabb41750a185cfd9c0adb74e543e529c812d1a4cfa36edef9c9c",
+      "alcance": "Catálogo de medidas del artículo 173, corregido por el artículo 12 del Decreto 555 de 2017. La enumeración identifica medidas generales y no determina la procedencia en un caso concreto.",
+      "fecha_revision_documental": "2026-11-20"
+    },
+    {
+      "articulo": "173",
+      "unidad": "numeral-13",
+      "bloque": 0,
+      "cancilleria": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#173",
+      "jurinfo": "https://jurinfo.jep.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#173",
+      "fuentes_adicionales": [
+        "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#173",
+        "https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=80775",
+        "https://www.corteconstitucional.gov.co/relatoria/2017/c-349-17.htm"
+      ],
+      "sha256_texto_cancilleria": "23fb6dcb5cc55fe2b6bbb99bc20202991cb6733704bf891017c25e4a5be4fc31",
+      "alcance": "Catálogo de medidas del artículo 173, corregido por el artículo 12 del Decreto 555 de 2017. La enumeración identifica medidas generales y no determina la procedencia en un caso concreto.",
+      "fecha_revision_documental": "2026-11-20"
+    },
+    {
+      "articulo": "173",
+      "unidad": "numeral-14",
+      "bloque": 0,
+      "cancilleria": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#173",
+      "jurinfo": "https://jurinfo.jep.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#173",
+      "fuentes_adicionales": [
+        "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#173",
+        "https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=80775",
+        "https://www.corteconstitucional.gov.co/relatoria/2017/c-349-17.htm"
+      ],
+      "sha256_texto_cancilleria": "f95c198b1c221bf235b16a433d78ffbf5a6e14285bcd690bb482676e7a5c0b56",
+      "alcance": "Catálogo de medidas del artículo 173, corregido por el artículo 12 del Decreto 555 de 2017. La enumeración identifica medidas generales y no determina la procedencia en un caso concreto.",
+      "fecha_revision_documental": "2026-11-20"
+    },
+    {
+      "articulo": "173",
+      "unidad": "numeral-15",
+      "bloque": 0,
+      "cancilleria": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#173",
+      "jurinfo": "https://jurinfo.jep.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#173",
+      "fuentes_adicionales": [
+        "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#173",
+        "https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=80775",
+        "https://www.corteconstitucional.gov.co/relatoria/2017/c-349-17.htm"
+      ],
+      "sha256_texto_cancilleria": "0a05bff5bf602d8c94f3cf3aed5218d76eeb66361648743cdc4de60cdc40e940",
+      "alcance": "Catálogo de medidas del artículo 173, corregido por el artículo 12 del Decreto 555 de 2017. La enumeración identifica medidas generales y no determina la procedencia en un caso concreto.",
+      "fecha_revision_documental": "2026-11-20"
+    },
+    {
+      "articulo": "173",
+      "unidad": "numeral-16",
+      "bloque": 0,
+      "cancilleria": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#173",
+      "jurinfo": "https://jurinfo.jep.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#173",
+      "fuentes_adicionales": [
+        "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#173",
+        "https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=80775",
+        "https://www.corteconstitucional.gov.co/relatoria/2017/c-349-17.htm"
+      ],
+      "sha256_texto_cancilleria": "559c15dc4b7f5e1f4e56020ea01f8da5407969033e4afe26a056de55391f1a49",
+      "alcance": "Catálogo de medidas del artículo 173, corregido por el artículo 12 del Decreto 555 de 2017. La enumeración identifica medidas generales y no determina la procedencia en un caso concreto.",
+      "fecha_revision_documental": "2026-11-20"
+    },
+    {
+      "articulo": "173",
+      "unidad": "numeral-17",
+      "bloque": 0,
+      "cancilleria": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#173",
+      "jurinfo": "https://jurinfo.jep.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#173",
+      "fuentes_adicionales": [
+        "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#173",
+        "https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=80775",
+        "https://www.corteconstitucional.gov.co/relatoria/2017/c-349-17.htm"
+      ],
+      "sha256_texto_cancilleria": "a9f755d0108a05aac8cf31442e83c828d89162d8225f8d6cc8feeec75d7c6941",
+      "alcance": "Catálogo de medidas del artículo 173, corregido por el artículo 12 del Decreto 555 de 2017. La enumeración identifica medidas generales y no determina la procedencia en un caso concreto.",
+      "fecha_revision_documental": "2026-11-20"
+    },
+    {
+      "articulo": "173",
+      "unidad": "numeral-18",
+      "bloque": 0,
+      "cancilleria": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#173",
+      "jurinfo": "https://jurinfo.jep.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#173",
+      "fuentes_adicionales": [
+        "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#173",
+        "https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=80775",
+        "https://www.corteconstitucional.gov.co/relatoria/2017/c-349-17.htm"
+      ],
+      "sha256_texto_cancilleria": "50fc8c4172b1864023c48448adc85a0475fb7faa78a3beb1f1414332a45ac18c",
+      "alcance": "Catálogo de medidas del artículo 173, corregido por el artículo 12 del Decreto 555 de 2017. La enumeración identifica medidas generales y no determina la procedencia en un caso concreto.",
+      "fecha_revision_documental": "2026-11-20"
+    },
+    {
+      "articulo": "173",
+      "unidad": "numeral-19",
+      "bloque": 0,
+      "cancilleria": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#173",
+      "jurinfo": "https://jurinfo.jep.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#173",
+      "fuentes_adicionales": [
+        "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#173",
+        "https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=80775",
+        "https://www.corteconstitucional.gov.co/relatoria/2017/c-349-17.htm"
+      ],
+      "sha256_texto_cancilleria": "c688ff8c301e7964ca36905e2d50d66ffafdb6537eb68897b99181e72bf50228",
+      "alcance": "Catálogo de medidas del artículo 173, corregido por el artículo 12 del Decreto 555 de 2017. La enumeración identifica medidas generales y no determina la procedencia en un caso concreto.",
+      "fecha_revision_documental": "2026-11-20"
+    },
+    {
+      "articulo": "173",
+      "unidad": "numeral-20",
+      "bloque": 0,
+      "cancilleria": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#173",
+      "jurinfo": "https://jurinfo.jep.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#173",
+      "fuentes_adicionales": [
+        "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#173",
+        "https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=80775",
+        "https://www.corteconstitucional.gov.co/relatoria/2017/c-349-17.htm"
+      ],
+      "sha256_texto_cancilleria": "921dfd6de87c6f8ac92c200c574e474f8ed3e1f13f1bee87ea1b66ad985e907c",
+      "alcance": "Catálogo de medidas del artículo 173, corregido por el artículo 12 del Decreto 555 de 2017. La enumeración identifica medidas generales y no determina la procedencia en un caso concreto.",
+      "fecha_revision_documental": "2026-11-20"
     },
     {
       "articulo": "180",

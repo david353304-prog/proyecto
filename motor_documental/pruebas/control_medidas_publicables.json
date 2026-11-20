@@ -1,0 +1,510 @@
+{
+  "estado_motor": {
+    "estado": "activo",
+    "modo_respuesta": "citas_extractivas",
+    "generacion_configurada": true,
+    "sha256_corpus_publicable": "dda8a2e3f76b9e8669420a6162757def5d0fe61fad9cee70500737f31a26c1aa"
+  },
+  "filas": [
+    {
+      "id": "0",
+      "pregunta": "¿Qué es la convivencia?",
+      "http": 200,
+      "segundos": 0.047699,
+      "respuesta": {
+        "fuentes_recuperadas": [
+          {
+            "articulo": "5",
+            "numeral": "",
+            "titulo": "DEFINICIÓN",
+            "texto": "ARTÍCULO 5. DEFINICIÓN. Para los efectos de este Código, se entiende por convivencia, la interacción pacífica, respetuosa y armónica entre las personas, con los bienes, y con el ambiente, en el marco del ordenamiento jurídico.",
+            "url_fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm"
+          }
+        ],
+        "pregunta": "¿Qué es la convivencia?",
+        "respuesta": "**Artículo 5.** «Para los efectos de este Código, se entiende por convivencia, la interacción pacífica, respetuosa y armónica entre las personas, con los bienes, y con el ambiente, en el marco del ordenamiento jurídico.»",
+        "modelo": "extracción documental",
+        "total_generales": 1,
+        "total_estructurados": 0,
+        "validacion_documental": {
+          "estado": "PENDIENTE_VALIDACION",
+          "advertencias": []
+        }
+      },
+      "llamada_gemini_confirmada": false,
+      "estado_documental": "PENDIENTE_VALIDACION"
+    },
+    {
+      "id": "1",
+      "pregunta": "¿Qué es una medida correctiva?",
+      "http": 200,
+      "segundos": 0.035744,
+      "respuesta": {
+        "fuentes_recuperadas": [
+          {
+            "articulo": "172",
+            "numeral": "",
+            "titulo": "OBJETO DE LAS MEDIDAS CORRECTIVAS",
+            "texto": "ARTÍCULO 172. OBJETO DE LAS MEDIDAS CORRECTIVAS. Las medidas correctivas, son acciones impuestas por las autoridades de Policía a toda persona que incurra en comportamientos contrarios a la convivencia o el incumplimiento de los deberes específicos de convivencia. Las medidas correctivas tienen por objeto disuadir, prevenir, superar, resarcir, procurar, educar, proteger o restablecer la convivencia.",
+            "url_fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#172"
+          }
+        ],
+        "pregunta": "¿Qué es una medida correctiva?",
+        "respuesta": "**Artículo 172.** «Las medidas correctivas, son acciones impuestas por las autoridades de Policía a toda persona que incurra en comportamientos contrarios a la convivencia o el incumplimiento de los deberes específicos de convivencia. Las medidas correctivas tienen por objeto disuadir, prevenir, superar, resarcir, procurar, educar, proteger o restablecer la convivencia.»",
+        "modelo": "extracción documental",
+        "total_generales": 1,
+        "total_estructurados": 0,
+        "validacion_documental": {
+          "estado": "PENDIENTE_VALIDACION",
+          "advertencias": []
+        }
+      },
+      "llamada_gemini_confirmada": false,
+      "estado_documental": "PENDIENTE_VALIDACION"
+    },
+    {
+      "id": "2",
+      "pregunta": "¿Qué es un comparendo?",
+      "http": 200,
+      "segundos": 0.040039,
+      "respuesta": {
+        "fuentes_recuperadas": [
+          {
+            "articulo": "218",
+            "numeral": "",
+            "titulo": "DEFINICIÓN DE ORDEN DE COMPARENDO",
+            "texto": "ARTÍCULO 218. DEFINICIÓN DE ORDEN DE COMPARENDO. Entiéndase por esta, la acción del personal uniformado de la Policía Nacional que consiste en entregar un documento oficial que contiene orden escrita o virtual para presentarse ante autoridad de Policía o cumplir medida correctiva.",
+            "url_fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#218"
+          }
+        ],
+        "pregunta": "¿Qué es un comparendo?",
+        "respuesta": "**Artículo 218.** «Entiéndase por esta, la acción del personal uniformado de la Policía Nacional que consiste en entregar un documento oficial que contiene orden escrita o virtual para presentarse ante autoridad de Policía o cumplir medida correctiva.»",
+        "modelo": "extracción documental",
+        "total_generales": 1,
+        "total_estructurados": 0,
+        "validacion_documental": {
+          "estado": "PENDIENTE_VALIDACION",
+          "advertencias": []
+        }
+      },
+      "llamada_gemini_confirmada": false,
+      "estado_documental": "PENDIENTE_VALIDACION"
+    },
+    {
+      "id": "3",
+      "pregunta": "¿Qué es una multa?",
+      "http": 200,
+      "segundos": 0.039161,
+      "respuesta": {
+        "fuentes_recuperadas": [
+          {
+            "articulo": "180",
+            "numeral": "",
+            "titulo": "MULTAS",
+            "texto": "ARTÍCULO 180. MULTAS. Es la imposición del pago de una suma de dinero en moneda colombiana, cuya graduación depende del comportamiento realizado, según la cual varía el monto de la multa. Así mismo, la desobediencia, resistencia, desacato, o reiteración del comportamiento contrario a la convivencia, incrementará el valor de la multa, sin perjuicio de los intereses causados y el costo del cobro coactivo. las multas se clasifican en generales y especiales.",
+            "url_fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#180"
+          }
+        ],
+        "pregunta": "¿Qué es una multa?",
+        "respuesta": "**Artículo 180.** «Es la imposición del pago de una suma de dinero en moneda colombiana, cuya graduación depende del comportamiento realizado, según la cual varía el monto de la multa. Así mismo, la desobediencia, resistencia, desacato, o reiteración del comportamiento contrario a la convivencia, incrementará el valor de la multa, sin perjuicio de los intereses causados y el costo del cobro coactivo.»",
+        "modelo": "extracción documental",
+        "total_generales": 1,
+        "total_estructurados": 0,
+        "validacion_documental": {
+          "estado": "PENDIENTE_VALIDACION",
+          "advertencias": []
+        }
+      },
+      "llamada_gemini_confirmada": false,
+      "estado_documental": "PENDIENTE_VALIDACION"
+    },
+    {
+      "id": "4",
+      "pregunta": "¿Cuáles son las autoridades de Policía?",
+      "http": 200,
+      "segundos": 0.022304,
+      "respuesta": {
+        "fuentes_recuperadas": [],
+        "pregunta": "¿Cuáles son las autoridades de Policía?",
+        "respuesta": "No encontré respaldo suficiente en los fragmentos de la Ley 1801 de 2016.",
+        "modelo": "verificación documental",
+        "total_generales": 0,
+        "total_estructurados": 0,
+        "validacion_documental": {
+          "estado": "SIN_RESPALDO",
+          "advertencias": []
+        }
+      },
+      "llamada_gemini_confirmada": false,
+      "estado_documental": "SIN_RESPALDO"
+    },
+    {
+      "id": "5",
+      "pregunta": "¿Cuáles son las finalidades de la convivencia?",
+      "http": 200,
+      "segundos": 0.035938,
+      "respuesta": {
+        "fuentes_recuperadas": [
+          {
+            "articulo": "7",
+            "numeral": "",
+            "titulo": "FINALIDADES DE LA CONVIVENCIA",
+            "texto": "ARTÍCULO 7. FINALIDADES DE LA CONVIVENCIA. Son fines esenciales de las normas de convivencia social previstas en este Código: 1. Que el ejercicio de los derechos y libertades sean garantizados y respetados en el marco de la Constitución y la ley. 2. El cumplimiento de los deberes contenidos en la Constitución, la ley y las normas que regulan la convivencia. 3. El respeto por las diferencias y la aceptación de ellas. 4. La resolución pacífica de los desacuerdos que afecten la convivencia. 5. La convergencia de los intereses personales y generales para promover un desarrollo armónico. 6. prevalencia de los valores sociales de solidaridad, tolerancia, responsabilidad, honradez, respeto, bondad, libertad, justicia, igualdad, fraternidad, lealtad, prudencia y paz.",
+            "url_fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#7"
+          }
+        ],
+        "pregunta": "¿Cuáles son las finalidades de la convivencia?",
+        "respuesta": "**Artículo 7.** «Son fines esenciales de las normas de convivencia social previstas en este Código:»\n\n**Numeral 1 del artículo 7.** «1. Que el ejercicio de los derechos y libertades sean garantizados y respetados en el marco de la Constitución y la ley.»\n\n**Numeral 2 del artículo 7.** «2. El cumplimiento de los deberes contenidos en la Constitución, la ley y las normas que regulan la convivencia.»\n\n**Numeral 3 del artículo 7.** «3. El respeto por las diferencias y la aceptación de ellas.»\n\n**Numeral 4 del artículo 7.** «4. La resolución pacífica de los desacuerdos que afecten la convivencia.»\n\n**Numeral 5 del artículo 7.** «5. La convergencia de los intereses personales y generales para promover un desarrollo armónico.»\n\n**Numeral 6 del artículo 7.** «6. prevalencia de los valores sociales de solidaridad, tolerancia, responsabilidad, honradez, respeto, bondad, libertad, justicia, igualdad, fraternidad, lealtad, prudencia y paz.»",
+        "modelo": "extracción documental",
+        "total_generales": 1,
+        "total_estructurados": 0,
+        "validacion_documental": {
+          "estado": "PENDIENTE_VALIDACION",
+          "advertencias": []
+        }
+      },
+      "llamada_gemini_confirmada": false,
+      "estado_documental": "PENDIENTE_VALIDACION"
+    },
+    {
+      "id": "6",
+      "pregunta": "¿Qué tipos de multas generales contempla el Código?",
+      "http": 200,
+      "segundos": 0.031929,
+      "respuesta": {
+        "fuentes_recuperadas": [],
+        "pregunta": "¿Qué tipos de multas generales contempla el Código?",
+        "respuesta": "No encontré respaldo suficiente en los fragmentos de la Ley 1801 de 2016.",
+        "modelo": "verificación documental",
+        "total_generales": 0,
+        "total_estructurados": 0,
+        "validacion_documental": {
+          "estado": "SIN_RESPALDO",
+          "advertencias": []
+        }
+      },
+      "llamada_gemini_confirmada": false,
+      "estado_documental": "SIN_RESPALDO"
+    },
+    {
+      "id": "7",
+      "pregunta": "¿Qué sucede si construyo sin licencia?",
+      "http": 200,
+      "segundos": 4.606433,
+      "respuesta": {
+        "fuentes_recuperadas": [
+          {
+            "articulo": "135",
+            "numeral": "",
+            "titulo": "COMPORTAMIENTOS CONTRARIOS A LA INTEGRIDAD URBANÍSTICA",
+            "texto": "ARTÍCULO 135. COMPORTAMIENTOS CONTRARIOS A LA INTEGRIDAD URBANÍSTICA. A) Parcelar, urbanizar, demoler, intervenir o construir: 4. En terrenos aptos para estas actuaciones, sin licencia o cuando esta hubiere caducado. PARÁGRAFO 1o. Cuando se trate de construcciones en terrenos no aptos o sin previa licencia, se impondrán de inmediato la medida de suspensión de construcción o demolición, y se solicitará a las empresas de servicios públicos domiciliarios la suspensión de los servicios correspondientes si no hubiese habitación. PARÁGRAFO 2o. Cuando se realice actuación urbanística sin previa licencia en predios aptos para estos menesteres, sin perjuicio de la medida de multa y de la suspensión temporal de la obra, se concederá un término de sesenta (60) días para que el infractor solicite el reconocimiento de la construcción ante la autoridad competente del distrito o municipio; si pasado este término no presenta licencia de reconocimiento, no podrá reanudar la obra y se duplicará el valor de la multa impuesta. Numeral 4 Multa especial por infracción urbanística; Demolición de obra; Construcción, cerramiento, reparación o mantenimiento de inmueble; Remoción de bienes.",
+            "url_fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#135"
+          }
+        ],
+        "pregunta": "¿Qué sucede si construyo sin licencia?",
+        "respuesta": "**Artículo 135.** «A) Parcelar, urbanizar, demoler, intervenir o construir:»\n\n**Numeral 4 del artículo 135.** «4. En terrenos aptos para estas actuaciones, sin licencia o cuando esta hubiere caducado.»\n\n**Parágrafo 1 del artículo 135.** «PARÁGRAFO 1o. Cuando se trate de construcciones en terrenos no aptos o sin previa licencia, se impondrán de inmediato la medida de suspensión de construcción o demolición, y se solicitará a las empresas de servicios públicos domiciliarios la suspensión de los servicios correspondientes si no hubiese habitación.»\n\n**Parágrafo 2 del artículo 135.** «PARÁGRAFO 2o. Cuando se realice actuación urbanística sin previa licencia en predios aptos para estos menesteres, sin perjuicio de la medida de multa y de la suspensión temporal de la obra, se concederá un término de sesenta (60) días para que el infractor solicite el reconocimiento de la construcción ante la autoridad competente del distrito o municipio; si pasado este término no presenta licencia de reconocimiento, no podrá reanudar la obra y se duplicará el valor de la multa impuesta.»\n\n**Numeral 4 del artículo 135.** «Numeral 4 Multa especial por infracción urbanística; Demolición de obra; Construcción, cerramiento, reparación o mantenimiento de inmueble; Remoción de bienes.»",
+        "modelo": "gemini-3.1-flash-lite",
+        "total_generales": 1,
+        "total_estructurados": 0,
+        "validacion_documental": {
+          "estado": "PENDIENTE_VALIDACION",
+          "advertencias": []
+        }
+      },
+      "llamada_gemini_confirmada": true,
+      "estado_documental": "PENDIENTE_VALIDACION"
+    },
+    {
+      "id": "8",
+      "pregunta": "¿Qué comportamientos afectan el espacio público?",
+      "http": 200,
+      "segundos": 0.024796,
+      "respuesta": {
+        "fuentes_recuperadas": [],
+        "pregunta": "¿Qué comportamientos afectan el espacio público?",
+        "respuesta": "No encontré respaldo suficiente en los fragmentos de la Ley 1801 de 2016.",
+        "modelo": "verificación documental",
+        "total_generales": 0,
+        "total_estructurados": 0,
+        "validacion_documental": {
+          "estado": "SIN_RESPALDO",
+          "advertencias": []
+        }
+      },
+      "llamada_gemini_confirmada": false,
+      "estado_documental": "SIN_RESPALDO"
+    },
+    {
+      "id": "9",
+      "pregunta": "¿Qué conductas alteran la tranquilidad?",
+      "http": 200,
+      "segundos": 0.020654,
+      "respuesta": {
+        "fuentes_recuperadas": [],
+        "pregunta": "¿Qué conductas alteran la tranquilidad?",
+        "respuesta": "No encontré respaldo suficiente en los fragmentos de la Ley 1801 de 2016.",
+        "modelo": "verificación documental",
+        "total_generales": 0,
+        "total_estructurados": 0,
+        "validacion_documental": {
+          "estado": "SIN_RESPALDO",
+          "advertencias": []
+        }
+      },
+      "llamada_gemini_confirmada": false,
+      "estado_documental": "SIN_RESPALDO"
+    },
+    {
+      "id": "10",
+      "pregunta": "¿Qué hago si no estoy de acuerdo con un comparendo?",
+      "http": 200,
+      "segundos": 0.023284,
+      "respuesta": {
+        "fuentes_recuperadas": [],
+        "pregunta": "¿Qué hago si no estoy de acuerdo con un comparendo?",
+        "respuesta": "No encontré respaldo suficiente en los fragmentos de la Ley 1801 de 2016.",
+        "modelo": "verificación documental",
+        "total_generales": 0,
+        "total_estructurados": 0,
+        "validacion_documental": {
+          "estado": "SIN_RESPALDO",
+          "advertencias": []
+        }
+      },
+      "llamada_gemini_confirmada": false,
+      "estado_documental": "SIN_RESPALDO"
+    },
+    {
+      "id": "11",
+      "pregunta": "¿En qué consiste el proceso verbal inmediato?",
+      "http": 200,
+      "segundos": 7.615719,
+      "respuesta": {
+        "fuentes_recuperadas": [
+          {
+            "articulo": "222",
+            "numeral": "",
+            "titulo": "TRÁMITE DEL PROCESO VERBAL INMEDIATO",
+            "texto": "ARTÍCULO 222. TRÁMITE DEL PROCESO VERBAL INMEDIATO. Se tramitarán por el proceso verbal inmediato los comportamientos contrarios a la convivencia, de competencia del personal uniformado de la Policía Nacional, los comandantes de estación o subestación de Policía, y los comandantes del Centro de Atención Inmediata de Policía, en las etapas siguientes: 1. Se podrá iniciar de oficio o a petición de quien tenga interés directo o acuda en defensa de las normas de convivencia. 2. Una vez identificado el presunto infractor, la autoridad de Policía lo abordará en el sitio donde ocurran los hechos, si ello fuera posible o, en aquel donde lo encuentren, y le informará que su acción u omisión configura un comportamiento contrario a la convivencia. 3. El presunto infractor deberá ser oído en descargos. 4. La autoridad de Policía hará una primera ponderación de los hechos y procurará una mediación policial entre las partes en conflicto. De no lograr la mediación, impondrá la medida correctiva a través de la orden de Policía. PARÁGRAFO 1o. En contra de la orden de Policía o la medida correctiva, procederá el recurso de apelación, el cual se concederá en el efecto devolutivo y se remitirá al Inspector de Policía dentro de las veinticuatro (24) horas siguientes. El recurso de apelación se resolverá dentro de los tres (3) días hábiles siguientes al recibo de la actuación y será notificado por medio más eficaz y expedito.",
+            "url_fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#222"
+          }
+        ],
+        "pregunta": "¿En qué consiste el proceso verbal inmediato?",
+        "respuesta": "**Artículo 222.** «Se tramitarán por el proceso verbal inmediato los comportamientos contrarios a la convivencia, de competencia del personal uniformado de la Policía Nacional, los comandantes de estación o subestación de Policía, y los comandantes del Centro de Atención Inmediata de Policía, en las etapas siguientes:»\n\n**Numeral 1 del artículo 222.** «1. Se podrá iniciar de oficio o a petición de quien tenga interés directo o acuda en defensa de las normas de convivencia.»\n\n**Numeral 2 del artículo 222.** «2. Una vez identificado el presunto infractor, la autoridad de Policía lo abordará en el sitio donde ocurran los hechos, si ello fuera posible o, en aquel donde lo encuentren, y le informará que su acción u omisión configura un comportamiento contrario a la convivencia.»\n\n**Numeral 3 del artículo 222.** «3. El presunto infractor deberá ser oído en descargos.»\n\n**Numeral 4 del artículo 222.** «4. La autoridad de Policía hará una primera ponderación de los hechos y procurará una mediación policial entre las partes en conflicto. De no lograr la mediación, impondrá la medida correctiva a través de la orden de Policía.»\n\n**Parágrafo 1 del artículo 222.** «PARÁGRAFO 1o. En contra de la orden de Policía o la medida correctiva, procederá el recurso de apelación, el cual se concederá en el efecto devolutivo y se remitirá al Inspector de Policía dentro de las veinticuatro (24) horas siguientes. El recurso de apelación se resolverá dentro de los tres (3) días hábiles siguientes al recibo de la actuación y será notificado por medio más eficaz y expedito.»\n\n**Nota de denominación.** Los extractos conservan la redacción de la compilación. La Ley 2492 de 2025, artículo 10, actualizó la denominación a Inspector de Convivencia y Paz.",
+        "modelo": "gemini-3.1-flash-lite",
+        "total_generales": 1,
+        "total_estructurados": 0,
+        "validacion_documental": {
+          "estado": "PENDIENTE_VALIDACION",
+          "advertencias": []
+        }
+      },
+      "llamada_gemini_confirmada": true,
+      "estado_documental": "PENDIENTE_VALIDACION"
+    },
+    {
+      "id": "12",
+      "pregunta": "¿Qué autoridad puede imponer una medida correctiva?",
+      "http": 200,
+      "segundos": 0.028632,
+      "respuesta": {
+        "fuentes_recuperadas": [],
+        "pregunta": "¿Qué autoridad puede imponer una medida correctiva?",
+        "respuesta": "No encontré respaldo suficiente en los fragmentos de la Ley 1801 de 2016.",
+        "modelo": "verificación documental",
+        "total_generales": 0,
+        "total_estructurados": 0,
+        "validacion_documental": {
+          "estado": "SIN_RESPALDO",
+          "advertencias": []
+        }
+      },
+      "llamada_gemini_confirmada": false,
+      "estado_documental": "SIN_RESPALDO"
+    },
+    {
+      "id": "13",
+      "pregunta": "¿Qué multa debo pagar por declarar renta tarde?",
+      "http": 200,
+      "segundos": 0.024196,
+      "respuesta": {
+        "fuentes_recuperadas": [],
+        "pregunta": "¿Qué multa debo pagar por declarar renta tarde?",
+        "respuesta": "La información solicitada queda fuera del corpus de la Ley 1801 de 2016.",
+        "modelo": "clasificador temático",
+        "total_generales": 0,
+        "total_estructurados": 0,
+        "validacion_documental": {
+          "estado": "FUERA_DE_DOMINIO",
+          "advertencias": []
+        }
+      },
+      "llamada_gemini_confirmada": false,
+      "estado_documental": "FUERA_DE_DOMINIO"
+    },
+    {
+      "id": "14",
+      "pregunta": "¿Cuánto cuesta renovar mi licencia de conducción según el Código?",
+      "http": 200,
+      "segundos": 0.022305,
+      "respuesta": {
+        "fuentes_recuperadas": [],
+        "pregunta": "¿Cuánto cuesta renovar mi licencia de conducción según el Código?",
+        "respuesta": "La información solicitada queda fuera del corpus de la Ley 1801 de 2016.",
+        "modelo": "clasificador temático",
+        "total_generales": 0,
+        "total_estructurados": 0,
+        "validacion_documental": {
+          "estado": "FUERA_DE_DOMINIO",
+          "advertencias": []
+        }
+      },
+      "llamada_gemini_confirmada": false,
+      "estado_documental": "FUERA_DE_DOMINIO"
+    },
+    {
+      "id": "15",
+      "pregunta": "¿Cuánto debo pagar exactamente por construir sin licencia?",
+      "http": 200,
+      "segundos": 0.020807,
+      "respuesta": {
+        "fuentes_recuperadas": [],
+        "pregunta": "¿Cuánto debo pagar exactamente por construir sin licencia?",
+        "respuesta": "No encontré respaldo suficiente en los fragmentos de la Ley 1801 de 2016.",
+        "modelo": "verificación documental",
+        "total_generales": 0,
+        "total_estructurados": 0,
+        "validacion_documental": {
+          "estado": "SIN_RESPALDO",
+          "advertencias": []
+        }
+      },
+      "llamada_gemini_confirmada": false,
+      "estado_documental": "SIN_RESPALDO"
+    },
+    {
+      "id": "16",
+      "pregunta": "¿Qué multa concreta me corresponde por una situación personal?",
+      "http": 200,
+      "segundos": 0.006721,
+      "respuesta": {
+        "fuentes_recuperadas": [],
+        "pregunta": "¿Qué multa concreta me corresponde por una situación personal?",
+        "respuesta": "No encontré respaldo suficiente en los fragmentos de la Ley 1801 de 2016.",
+        "modelo": "verificación documental",
+        "total_generales": 0,
+        "total_estructurados": 0,
+        "validacion_documental": {
+          "estado": "SIN_RESPALDO",
+          "advertencias": []
+        }
+      },
+      "llamada_gemini_confirmada": false,
+      "estado_documental": "SIN_RESPALDO"
+    },
+    {
+      "id": "17",
+      "pregunta": "¿Cuáles son las medidas correctivas?",
+      "http": 200,
+      "segundos": 0.06687,
+      "respuesta": {
+        "fuentes_recuperadas": [
+          {
+            "articulo": "173",
+            "numeral": "",
+            "titulo": "LAS MEDIDAS CORRECTIVAS",
+            "texto": "ARTÍCULO 173. LAS MEDIDAS CORRECTIVAS. Las medidas correctivas a aplicar en el marco de este Código por las autoridades de policía, son las siguientes: 1. Amonestación. 2. Participación en programa comunitario o actividad pedagógica de convivencia. 3. Disolución de reunión o actividad que involucra aglomeraciones de público no complejas. 4. Expulsión de domicilio. 5. Prohibición de ingreso a actividad que involucra aglomeraciones de público complejas o no complejas. 6. Decomiso. 7. Multa General o Especial. 8. Construcción, cerramiento, reparación o mantenimiento de inmueble. 9. Remoción de bienes. 10. Reparación de daños materiales de muebles o inmuebles. 11. Reparación de daños materiales por perturbación a la posesión y tenencia de inmuebles o muebles. 12. Restablecimiento del derecho de servidumbre y reparación de daños materiales. 13. Restitución y protección de bienes inmuebles. 14. Destrucción de bien. 15. Demolición de obra. 16. Suspensión de construcción o demolición. 17. Suspensión de actividad que involucre aglomeración de público compleja. 18. Suspensión temporal de actividad. 19. Suspensión definitiva de actividad. 20. Inutilización de bienes.",
+            "url_fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#173"
+          }
+        ],
+        "pregunta": "¿Cuáles son las medidas correctivas?",
+        "respuesta": "**Artículo 173.** «Las medidas correctivas a aplicar en el marco de este Código por las autoridades de policía, son las siguientes:»\n\n**Numeral 1 del artículo 173.** «1. Amonestación.»\n\n**Numeral 2 del artículo 173.** «2. Participación en programa comunitario o actividad pedagógica de convivencia.»\n\n**Numeral 3 del artículo 173.** «3. Disolución de reunión o actividad que involucra aglomeraciones de público no complejas.»\n\n**Numeral 4 del artículo 173.** «4. Expulsión de domicilio.»\n\n**Numeral 5 del artículo 173.** «5. Prohibición de ingreso a actividad que involucra aglomeraciones de público complejas o no complejas.»\n\n**Numeral 6 del artículo 173.** «6. Decomiso.»\n\n**Numeral 7 del artículo 173.** «7. Multa General o Especial.»\n\n**Numeral 8 del artículo 173.** «8. Construcción, cerramiento, reparación o mantenimiento de inmueble.»\n\n**Numeral 9 del artículo 173.** «9. Remoción de bienes.»\n\n**Numeral 10 del artículo 173.** «10. Reparación de daños materiales de muebles o inmuebles.»\n\n**Numeral 11 del artículo 173.** «11. Reparación de daños materiales por perturbación a la posesión y tenencia de inmuebles o muebles.»\n\n**Numeral 12 del artículo 173.** «12. Restablecimiento del derecho de servidumbre y reparación de daños materiales.»\n\n**Numeral 13 del artículo 173.** «13. Restitución y protección de bienes inmuebles.»\n\n**Numeral 14 del artículo 173.** «14. Destrucción de bien.»\n\n**Numeral 15 del artículo 173.** «15. Demolición de obra.»\n\n**Numeral 16 del artículo 173.** «16. Suspensión de construcción o demolición.»\n\n**Numeral 17 del artículo 173.** «17. Suspensión de actividad que involucre aglomeración de público compleja.»\n\n**Numeral 18 del artículo 173.** «18. Suspensión temporal de actividad.»\n\n**Numeral 19 del artículo 173.** «19. Suspensión definitiva de actividad.»\n\n**Numeral 20 del artículo 173.** «20. Inutilización de bienes.»",
+        "modelo": "extracción documental",
+        "total_generales": 1,
+        "total_estructurados": 0,
+        "validacion_documental": {
+          "estado": "PENDIENTE_VALIDACION",
+          "advertencias": []
+        }
+      },
+      "llamada_gemini_confirmada": false,
+      "estado_documental": "PENDIENTE_VALIDACION"
+    },
+    {
+      "id": "18",
+      "pregunta": "¿A qué se refiere el Código cuando habla de una medida correctiva?",
+      "http": 200,
+      "segundos": 0.040771,
+      "respuesta": {
+        "fuentes_recuperadas": [
+          {
+            "articulo": "172",
+            "numeral": "",
+            "titulo": "OBJETO DE LAS MEDIDAS CORRECTIVAS",
+            "texto": "ARTÍCULO 172. OBJETO DE LAS MEDIDAS CORRECTIVAS. Las medidas correctivas, son acciones impuestas por las autoridades de Policía a toda persona que incurra en comportamientos contrarios a la convivencia o el incumplimiento de los deberes específicos de convivencia. Las medidas correctivas tienen por objeto disuadir, prevenir, superar, resarcir, procurar, educar, proteger o restablecer la convivencia.",
+            "url_fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#172"
+          }
+        ],
+        "pregunta": "¿A qué se refiere el Código cuando habla de una medida correctiva?",
+        "respuesta": "**Artículo 172.** «Las medidas correctivas, son acciones impuestas por las autoridades de Policía a toda persona que incurra en comportamientos contrarios a la convivencia o el incumplimiento de los deberes específicos de convivencia. Las medidas correctivas tienen por objeto disuadir, prevenir, superar, resarcir, procurar, educar, proteger o restablecer la convivencia.»",
+        "modelo": "extracción documental",
+        "total_generales": 1,
+        "total_estructurados": 0,
+        "validacion_documental": {
+          "estado": "PENDIENTE_VALIDACION",
+          "advertencias": []
+        }
+      },
+      "llamada_gemini_confirmada": false,
+      "estado_documental": "PENDIENTE_VALIDACION"
+    },
+    {
+      "id": "19",
+      "pregunta": "¿Cómo define el Código la convivencia?",
+      "http": 200,
+      "segundos": 0.034877,
+      "respuesta": {
+        "fuentes_recuperadas": [
+          {
+            "articulo": "5",
+            "numeral": "",
+            "titulo": "DEFINICIÓN",
+            "texto": "ARTÍCULO 5. DEFINICIÓN. Para los efectos de este Código, se entiende por convivencia, la interacción pacífica, respetuosa y armónica entre las personas, con los bienes, y con el ambiente, en el marco del ordenamiento jurídico.",
+            "url_fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm"
+          }
+        ],
+        "pregunta": "¿Cómo define el Código la convivencia?",
+        "respuesta": "**Artículo 5.** «Para los efectos de este Código, se entiende por convivencia, la interacción pacífica, respetuosa y armónica entre las personas, con los bienes, y con el ambiente, en el marco del ordenamiento jurídico.»",
+        "modelo": "extracción documental",
+        "total_generales": 1,
+        "total_estructurados": 0,
+        "validacion_documental": {
+          "estado": "PENDIENTE_VALIDACION",
+          "advertencias": []
+        }
+      },
+      "llamada_gemini_confirmada": false,
+      "estado_documental": "PENDIENTE_VALIDACION"
+    },
+    {
+      "id": "20",
+      "pregunta": "¿Qué quiere decir el Código con un comparendo?",
+      "http": 200,
+      "segundos": 0.054032,
+      "respuesta": {
+        "fuentes_recuperadas": [],
+        "pregunta": "¿Qué quiere decir el Código con un comparendo?",
+        "respuesta": "No encontré respaldo suficiente en los fragmentos de la Ley 1801 de 2016.",
+        "modelo": "verificación documental",
+        "total_generales": 0,
+        "total_estructurados": 0,
+        "validacion_documental": {
+          "estado": "SIN_RESPALDO",
+          "advertencias": []
+        }
+      },
+      "llamada_gemini_confirmada": false,
+      "estado_documental": "SIN_RESPALDO"
+    }
+  ]
+}

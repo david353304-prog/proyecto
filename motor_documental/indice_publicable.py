@@ -135,12 +135,13 @@ class RecuperadorPublicable:
         ):
             raise ValueError("Dimensiones o metadatos del índice público desalineados.")
 
-    def buscar(self, pregunta, cantidad_general=5, articulos_permitidos=None):
+    def buscar(self, pregunta, cantidad_general=5, articulos_permitidos=None, similitud_minima=None):
         vector = self.modelo.encode([pregunta], normalize_embeddings=True)
-        _, posiciones = self.indice.search(np.ascontiguousarray(vector, dtype=np.float32), self.indice.ntotal)
+        similitudes, posiciones = self.indice.search(np.ascontiguousarray(vector, dtype=np.float32), self.indice.ntotal)
         orden = dict.fromkeys(
-            self.articulos[i] for i in posiciones[0]
+            self.articulos[i] for i, similitud in zip(posiciones[0], similitudes[0])
             if i >= 0 and (articulos_permitidos is None or self.articulos[i] in articulos_permitidos)
+            and (similitud_minima is None or similitud >= similitud_minima)
         )
         return {"resultados_generales": [{"articulo": a} for a in list(orden)[:cantidad_general]]}
 

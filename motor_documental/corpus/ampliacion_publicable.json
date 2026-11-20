@@ -192,6 +192,20 @@
       "consulta": "que (?:es|significa|se entiende por) (?:una |la )?orden de policia|definicion de (?:la )?orden de policia|orden(?:es)? de policia pued(?:e|en) ser verbal(?:es)?",
       "evidencia": ["https://www.corteconstitucional.gov.co/relatoria/2017/c-391-17.htm"]
     },
+    "172": {
+      "fecha_revision_documental": "2026-11-20",
+      "seleccion": {"cuerpo": [0]},
+      "alcance": "Definición y finalidad del inciso principal. T-234/21 y C-349/17 recogen su alcance. Se excluyen los parágrafos sobre naturaleza y registro.",
+      "consulta": "(?:que (?:es|son) (?:una |las )?medidas? correctivas?|definicion de (?:la |una )?medida correctiva)[?]?$",
+      "evidencia": ["https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#172", "https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=80538", "https://www.corteconstitucional.gov.co/Relatoria/2021/T-234-21.htm", "https://www.corteconstitucional.gov.co/relatoria/2017/c-349-17.htm"]
+    },
+    "173": {
+      "fecha_revision_documental": "2026-11-20",
+      "seleccion": {"cuerpo": [0], "numeral-1": [0], "numeral-2": [0], "numeral-3": [0], "numeral-4": [0], "numeral-5": [0], "numeral-6": [0], "numeral-7": [0], "numeral-8": [0], "numeral-9": [0], "numeral-10": [0], "numeral-11": [0], "numeral-12": [0], "numeral-13": [0], "numeral-14": [0], "numeral-15": [0], "numeral-16": [0], "numeral-17": [0], "numeral-18": [0], "numeral-19": [0], "numeral-20": [0]},
+      "alcance": "Catálogo de medidas del artículo 173, corregido por el artículo 12 del Decreto 555 de 2017. La enumeración identifica medidas generales y no determina la procedencia en un caso concreto.",
+      "consulta": "(?:cuales son las|que) medidas correctivas(?: (?:contempla|establece|enumera) (?:el codigo|la ley 1801))?[?]?$",
+      "evidencia": ["https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#173", "https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=80775", "https://www.corteconstitucional.gov.co/relatoria/2017/c-349-17.htm"]
+    },
     "180": {
       "seleccion": {"cuerpo": [0, 1]},
       "alcance": "Definición y división en multas generales y especiales en la redacción del art. 19 de la Ley 2450 de 2025. Se excluyen valores, clases particulares, descuentos y cobro.",

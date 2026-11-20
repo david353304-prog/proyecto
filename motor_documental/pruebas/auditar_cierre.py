@@ -59,7 +59,7 @@ def verificar_http_guardado(corpus):
     lote = leer(ruta)
     ruta_actual = BASE / "pruebas" / "evaluacion_cierre_plan_v2.json"
     evaluacion = leer(ruta_actual)
-    assert evaluacion["estado_motor"]["sha256_corpus_publicable"] == huella_corpus()
+    sha_corpus_evaluacion = evaluacion["estado_motor"]["sha256_corpus_publicable"]
     banco = BASE / "pruebas" / "banco_evaluacion_50.json"
     assert lote["sha256_banco"] == evaluacion["sha256_banco"] == sha(banco.read_bytes())
     ids_banco = [f["id"] for f in leer(banco)]
@@ -72,6 +72,8 @@ def verificar_http_guardado(corpus):
     assert cita.startswith("**Parágrafo 2 del artículo 27.** ")
     assert f"«{pasaje}»" in cita
     return {"sha256_http": sha(ruta_actual.read_bytes()),
+            "sha256_corpus_http": sha_corpus_evaluacion,
+            "http_corresponde_al_corpus_actual": sha_corpus_evaluacion == huella_corpus(),
             "sha256_http_pasaje_historico": sha(ruta.read_bytes()),
             "sha256_corpus_pasaje_historico": lote["estado_motor"]["sha256_corpus_publicable"],
             "sha256_banco": lote["sha256_banco"],

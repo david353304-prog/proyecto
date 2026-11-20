@@ -11,6 +11,9 @@ from motor_documental.clasificador_tematico import normalizar
 FUENTE_CORTE = "https://www.corteconstitucional.gov.co/relatoria/2017/C-223-17.htm"
 ARTICULOS_INEXEQUIBLES = frozenset({*range(47, 76), 162})
 IDENTIFICADORES_INEXEQUIBLES = frozenset(map(str, ARTICULOS_INEXEQUIBLES))
+# El alcance temático restringe primero el artículo. Este umbral solo
+# descarta similitudes bajas dentro de las definiciones autorizadas.
+SIMILITUD_MINIMA_DEFINICION = 0.35
 REFERENCIAS = re.compile(
     r"\b(?:articulos?|arts?\.)\s*\**\s*:?\s*(\d{1,3}[a-z]?\b"
     r"(?:\s*(?:,|y|e|o|a|al|hasta|[-–])\s*\d{1,3}[a-z]?\b)*)"
@@ -155,6 +158,27 @@ def articulos_para_consulta(pregunta):
             texto_urbanistico if numero == "135" else texto,
         )
     }
+
+
+def alcance_semantico_documental(pregunta):
+    """Admite paráfrasis de definiciones con un tema documental aprobado."""
+    texto = normalizar(pregunta).strip("¿?¡! .")
+    if articulos_mencionados(pregunta):
+        return {}
+    intencion = re.fullmatch(
+        r"(?:como define (?:el codigo|la ley)(?: a)?|"
+        r"a que se refiere (?:el codigo|la ley) (?:con|cuando habla de)|"
+        r"que quiere decir (?:el codigo|la ley) (?:con|cuando habla de)) (.+)", texto
+    )
+    if not intencion:
+        return {}
+    temas = {
+        "5": r"(?:la )?convivencia",
+        "172": r"(?:(?:una|la|las) )?medidas? correctivas?",
+        "218": r"(?:(?:una|un|el|la) )?(?:orden de )?comparendo",
+    }
+    return {n: intencion[1] for n, tema in temas.items() if n in corpus_publicable()
+            and re.fullmatch(tema, intencion[1])}
 
 
 def respuesta_revision_pendiente(pregunta):

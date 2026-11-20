@@ -622,3 +622,23 @@ class TestAbstencionRAG(unittest.TestCase):
                     self.assertIn("generación temporalmente", r.json()["detail"])
                     self.assertNotIn("dato interno", r.text)
             self.assertEqual(generar.call_count, 6)
+
+    def test_extractos_ampliados_exigen_apartados_completos(self):
+        for articulo, pregunta, total in (
+            ("172", "¿Qué es una medida correctiva?", 1),
+            ("218", "¿Qué es un comparendo?", 1),
+            ("173", "¿Cuáles son las medidas correctivas?", 21),
+        ):
+            with self.subTest(articulo=articulo):
+                catalogo = rag.pasajes_del_contexto([corpus_publicable()[articulo]])
+                cita = rag.seleccionar_citas_directas(pregunta, catalogo)
+                self.assertEqual(len(re.findall(r"«([^»]+)»", cita)), total)
+                catalogo.popitem()
+                self.assertIsNone(rag.seleccionar_citas_directas(pregunta, catalogo))
+        self.assertEqual(rag.alcance_semantico_documental(
+            "¿A qué se refiere el Código cuando habla de una medida correctiva?"), {"172": "una medida correctiva"})
+        self.assertEqual(rag.alcance_semantico_documental(
+            "¿A qué se refiere el Código con el comparendo del artículo 162?"), {})
+        self.assertEqual(self.generador.responder(
+            "¿Cuánto cuesta renovar mi licencia de conducción según el Código?"
+        )["validacion_documental"]["estado"], "FUERA_DE_DOMINIO")

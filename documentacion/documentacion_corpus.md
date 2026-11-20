@@ -1,5 +1,28 @@
 # Documentación del corpus jurídico del chatbot RAG
 
+## Ampliación de medidas correctivas del 20 de noviembre de 2026
+
+La selección pública pasó de 31 a 33 artículos y de 127 a 132
+ventanas de dimensión 384. El cotejo usa las capturas documentadas del
+18 de noviembre y la revisión oficial del 20. La evidencia por bloque
+conserva ambas fechas, las huellas y las fuentes.
+
+- **Artículo 172, inciso principal.** Incluye definición y finalidad.
+  Se excluyen los parágrafos sobre naturaleza y registro. T-234/21
+  recoge la definición y C-349/17 distingue el alcance de las medidas
+  en el procedimiento policial. [Ley 1801, art. 172](https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#172)
+  · [T-234/21](https://www.corteconstitucional.gov.co/relatoria/2021/t-234-21.htm)
+  · [C-349/17](https://www.corteconstitucional.gov.co/relatoria/2017/c-349-17.htm)
+- **Artículo 173, encabezado y numerales 1 a 20.** Se incorpora
+  el catálogo según el artículo 12 del Decreto 555 de 2017, incluida
+  la denominación corregida de la última medida. Una enumeración
+  general no determina qué medida procede en un caso concreto.
+  [Ley 1801, art. 173](https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#173)
+  · [Decreto 555 de 2017](https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=80775)
+
+[Cotejo por bloque](../motor_documental/corpus/evidencia_ampliacion.json)
+· [Auditoría del índice](../motor_documental/pruebas/auditoria_medidas_publicables.json)
+
 ## Alcance de la entrega según la guía del docente
 
 La p. 3 exige texto oficial vigente, fecha de consulta, identificación de
