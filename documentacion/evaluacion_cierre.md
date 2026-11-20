@@ -184,3 +184,40 @@ recuperación que permita habilitar estas respuestas con el alcance actual.
 · [26 trampas](../motor_documental/pruebas/trampas_pendientes_v2.json)
 · [Estado D-16628](https://www.corteconstitucional.gov.co/secretaria/estados/estado-no.-110-10-de-julio-de-2025.pdf)
 · [Ley 2294 de 2023](https://www.cancilleria.gov.co/normograma/compilacion/docs/ley_2294_2023.htm)
+
+### Confirmación dirigida para el cierre técnico v2
+
+Se repitieron los siete IDs que registraron al menos 10 s o HTTP 502
+en el banco completo. Los siete devolvieron HTTP 200 con 70 citas
+literales comprobadas en las fuentes visibles. Se conservó la misma
+huella del corpus y no se modificó la generación.
+
+| ID | Tiempo HTTP (s) | Intentos |
+| --- | ---: | --- |
+| RAG-003 | 2,304 | 1 |
+| RAG-008 | 1,857 | 1 |
+| RAG-035 | 1,210 | 1 |
+| RAG-037 | 3,489 | 2 (429, éxito) |
+| RAG-038 | 0,966 | 1 |
+| RAG-050 | 1,319 | 1 |
+| RAG-051 | 4,693 | 2 (429, éxito) |
+
+Los máximos por etapa fueron 0,118 s en recuperación, 0,000059 s en
+armado del contexto, 0,017 s en validación y 4,596 s en generación
+con reintentos. La traza mide cada solicitud al proveedor de extremo a
+extremo y no aísla el establecimiento de conexión. El código invoca
+una vez a Gemini por generación. Los demás intentos corresponden al
+mecanismo de reintento del SDK. Los dos 429 de este control terminaron
+en éxito dentro de 10 s. En el banco completo hubo 504 cercanos a 60 s
+y un intento único exitoso superior a 10 s. El límite externo de Node
+es de 120 s para la operación y el SDK tiene 60 s por solicitud, con
+hasta tres intentos. No se observó un fallo de ese límite de Node en
+los casos lentos revisados.
+
+La evidencia no justifica eliminar reintentos ni modificar los
+tiempos de espera. El requisito global sigue incumplido en el banco
+completo, con seis consultas de 50 que alcanzaron o superaron 10 s y
+dos 502. Se conserva esa corrida como evaluación completa de referencia.
+
+[Control de siete casos](../motor_documental/pruebas/control_latencia_cierre_v2.json)
+· [Traza por intento](../motor_documental/pruebas/traza_latencia_cierre_v2.jsonl)
