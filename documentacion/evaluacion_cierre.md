@@ -78,3 +78,38 @@ Hubo cuatro parciales, 14 abstenciones y ningún error HTTP ni retención.
 Las 26 trampas fueron rechazadas. Cuatro consultas superaron 10 s.
 Los [resultados por ID](../motor_documental/pruebas/comparacion_50_hitos_publicacion.json)
 y los [hitos](hitos_publicacion.md) identifican citas, cobertura y demoras.
+## Cierre del plan mínimo funcional v2
+
+Se reevaluó el banco original de 50 preguntas y 26 trampas con el
+corpus `e1095acca700aa3c8d84b62e411c45f32a55c9bdf49ccbb6c46f6132d7459b55`
+y FAISS de 127 vectores de dimensión 384. No hubo cambio de corpus,
+modelo, enrutamiento ni banco. El SHA del análisis lingüístico se
+validó sobre su proyección de pares número y texto, que usa una
+serialización distinta de la huella del índice.
+
+| Comprobación | Resultado |
+| --- | --- |
+| Arranque real | Frontend HTTP 200, consulta a Gemini con artículo 5 visible. |
+| Corpus | 31 artículos públicos con jerarquía, epígrafe, tema, apartados y evidencia. Sigue pendiente la licencia específica del PDF histórico y las notas editoriales, además de la revisión jurídica de las diferencias documentadas. |
+| Análisis | SpaCy reproducible, 6.453 tokens, 1.499 tipos y 61,78 tokens de media por fragmento. |
+| Recuperación operativa | 36/50. Precisión@5 0,144, Recall@5 0,72 y MRR 0,72. |
+| Comparación controlada sin enrutamiento | Artículo completo: P@5 0,140, Recall@5 0,70, MRR 0,6054. Ventanas solapadas: P@5 0,140, Recall@5 0,70, MRR 0,5948. |
+| Interfaz y PDF | Chrome verificó consultas, citas, fuentes, historial y reinicio. POST /upload_pdf/ pasó con indexado falso y huellas del índice y metadatos intactas. |
+| Exactitud frente al banco | 30 completas, 4 parciales, 14 abstenciones, 0 retenidas, 2 errores HTTP. Se rechazaron 26/26 trampas. |
+| Fidelidad y citas | 316 citas literales, del artículo esperado y verificables en la fuente visible. Se conserva la propuesta versionada de corrección del artículo 33 para las referencias históricas de RAG-005 y RAG-032. |
+| Pruebas | Python 117 aprobadas y una omitida. Node 26 aprobadas. |
+| Menos de 10 s | **Incumplido**. Seis consultas de 50 alcanzaron o excedieron 10 s, incluida una con error. Mediana de las 34 generaciones HTTP 200: 1,828 s, p95: 44,511 s y máximo: 70,816 s. |
+
+RAG-035 y RAG-037 pasaron de completas a HTTP 502. La traza registró
+429/503 en RAG-035 y tres 429 en RAG-037. RAG-051 tardó 70,816 s tras
+503 y 504, mientras que RAG-050 tardó 17,306 s con un único intento
+exitoso. La recuperación y la validación de esos casos tomaron menos
+de 0,04 s cada una. No se identificó un cuello de botella local que
+justificara modificar la arquitectura o recortar el tiempo de espera.
+
+[Recuperación](../motor_documental/pruebas/recuperacion_cierre_plan_v2.json)
+· [HTTP](../motor_documental/pruebas/evaluacion_cierre_plan_v2.json)
+· [Comparación por ID](../motor_documental/pruebas/comparacion_cierre_plan_v2.json)
+· [Traza por etapa](../motor_documental/pruebas/traza_cierre_plan_v2.jsonl)
+· [Chrome](../motor_documental/pruebas/chat_cierre_plan_v2.json)
+· [Informe técnico de dos páginas](../output/pdf/informe_tecnico_final.pdf).

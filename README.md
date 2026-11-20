@@ -7,9 +7,11 @@ separa las conductas de las medidas correctivas cuando ambas aparecen.
 Despliega **Ver fragmentos recuperados** para revisar el texto de respaldo
 y abrir la fuente normativa en otra pestaña.
 
-La revisión local del índice público usa 31 artículos y 127 vectores.
+El índice público usa apartados de 31 artículos y 127 vectores.
 Consulta los [hitos y controles de publicación](documentacion/hitos_publicacion.md)
 para identificar la huella evaluada, el alcance del cotejo y el estado de la rama remota.
+El [informe técnico final](output/pdf/informe_tecnico_final.pdf) resume
+las comprobaciones obligatorias y el resultado de latencia.
 
 ```text
 Navegador → Express → FastAPI → FAISS → Gemini → validación documental
@@ -53,7 +55,7 @@ node backend/index.js
 ```
 
 Abre `http://127.0.0.1:3000`. El servicio público consulta los
-apartados cotejados de 19 artículos. El alcance parcial por artículo
+apartados cotejados del índice público. El alcance parcial por artículo
 está documentado en la matriz de cobertura. El corpus histórico
 permanece disponible para experimentos locales. Sin credencial, FastAPI
 responde a los rechazos deterministas y devuelve HTTP 503 para consultas
