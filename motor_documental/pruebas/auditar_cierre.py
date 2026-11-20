@@ -30,6 +30,7 @@ ENTIDADES = {
     "alcaldiabogota.gov.co": "Alcaldía Mayor de Bogotá, SISJUR",
     "corteconstitucional.gov.co": "Corte Constitucional",
     "funcionpublica.gov.co": "Departamento Administrativo de la Función Pública",
+    "www1.funcionpublica.gov.co": "Departamento Administrativo de la Función Pública",
     "ins.gov.co": "Instituto Nacional de Salud",
 }
 
@@ -56,17 +57,24 @@ class PreguntasSugeridas(HTMLParser):
 def verificar_http_guardado(corpus):
     ruta = BASE / "pruebas" / "evaluacion_api_gemini_lotes_sucesivos.json"
     lote = leer(ruta)
-    assert lote["estado_motor"]["sha256_corpus_publicable"] == huella_corpus()
+    ruta_actual = BASE / "pruebas" / "evaluacion_cierre_plan_v2.json"
+    evaluacion = leer(ruta_actual)
+    assert evaluacion["estado_motor"]["sha256_corpus_publicable"] == huella_corpus()
     banco = BASE / "pruebas" / "banco_evaluacion_50.json"
-    assert lote["sha256_banco"] == sha(banco.read_bytes())
-    assert [f["id"] for f in lote["consultas_banco"]] == [f["id"] for f in leer(banco)]
+    assert lote["sha256_banco"] == evaluacion["sha256_banco"] == sha(banco.read_bytes())
+    ids_banco = [f["id"] for f in leer(banco)]
+    for corrida in (lote, evaluacion):
+        assert [f["id"] for f in corrida["consultas_banco"]] == ids_banco
     fila = next(f for f in lote["consultas_banco"] if f["id"] == "RAG-031")
     pasaje = re.search(r"«(PARÁGRAFO 2o\.[^»]+)»", fila["respuesta"]["respuesta"])[1]
     entrada = json.dumps({"citas": [{"articulo": "27", "texto": pasaje}]})
     cita = presentar_citas(entrada, [corpus["27"]])
     assert cita.startswith("**Parágrafo 2 del artículo 27.** ")
     assert f"«{pasaje}»" in cita
-    return {"sha256_http": sha(ruta.read_bytes()), "sha256_banco": lote["sha256_banco"],
+    return {"sha256_http": sha(ruta_actual.read_bytes()),
+            "sha256_http_pasaje_historico": sha(ruta.read_bytes()),
+            "sha256_corpus_pasaje_historico": lote["estado_motor"]["sha256_corpus_publicable"],
+            "sha256_banco": lote["sha256_banco"],
             "prueba_rotulo": {"id": fila["id"], "metodo": "reproducción determinista del pasaje guardado",
                               "sha256_pasaje": sha(pasaje.encode("utf-8")), "cita": cita}}
 

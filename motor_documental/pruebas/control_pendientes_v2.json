@@ -1,0 +1,359 @@
+{
+  "estado_motor": {
+    "estado": "activo",
+    "modo_respuesta": "citas_extractivas",
+    "generacion_configurada": true,
+    "sha256_corpus_publicable": "e1095acca700aa3c8d84b62e411c45f32a55c9bdf49ccbb6c46f6132d7459b55"
+  },
+  "filas": [
+    {
+      "id": "RAG-001",
+      "pregunta": "¿Cuál es el objetivo general del Código Nacional de Seguridad y Convivencia Ciudadana?",
+      "http": 200,
+      "segundos": 4.596509,
+      "respuesta": {
+        "fuentes_recuperadas": [
+          {
+            "articulo": "1",
+            "numeral": "",
+            "titulo": "OBJETO",
+            "texto": "ARTÍCULO 1. OBJETO. Las disposiciones previstas en este Código son de carácter preventivo y buscan establecer las condiciones para la convivencia en el territorio nacional al propiciar el cumplimiento de los deberes y obligaciones de las personas naturales y jurídicas, así como determinar el ejercicio del poder, la función y la actividad de Policía, de conformidad con la Constitución Política y el ordenamiento jurídico vigente.",
+            "url_fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#1"
+          }
+        ],
+        "pregunta": "¿Cuál es el objetivo general del Código Nacional de Seguridad y Convivencia Ciudadana?",
+        "respuesta": "**Artículo 1.** «Las disposiciones previstas en este Código son de carácter preventivo y buscan establecer las condiciones para la convivencia en el territorio nacional al propiciar el cumplimiento de los deberes y obligaciones de las personas naturales y jurídicas, así como determinar el ejercicio del poder, la función y la actividad de Policía, de conformidad con la Constitución Política y el ordenamiento jurídico vigente.»",
+        "modelo": "gemini-3.1-flash-lite",
+        "total_generales": 1,
+        "total_estructurados": 0,
+        "validacion_documental": {
+          "estado": "PENDIENTE_VALIDACION",
+          "advertencias": []
+        }
+      },
+      "llamada_gemini_confirmada": true,
+      "estado_documental": "PENDIENTE_VALIDACION"
+    },
+    {
+      "id": "RAG-003",
+      "pregunta": "¿Qué principios fundamentales orientan la aplicación del Código de Policía?",
+      "http": 200,
+      "segundos": 1.362774,
+      "respuesta": {
+        "fuentes_recuperadas": [
+          {
+            "articulo": "8",
+            "numeral": "",
+            "titulo": "PRINCIPIOS",
+            "texto": "ARTÍCULO 8. PRINCIPIOS. Son principios fundamentales del Código: 1. La protección de la vida y el respeto a la dignidad humana. 2. Protección y respeto a los derechos humanos. 3. La prevalencia de los derechos de niños, niñas y adolescentes y su protección integral. 4. La igualdad ante la ley. 5. La libertad y la autorregulación. 6. El reconocimiento y respeto de las diferencias culturales, la autonomía e identidad regional, la diversidad y la no discriminación. 7. El debido proceso. 8. La protección de la diversidad e integridad del ambiente y el patrimonio ecológico. 9. Protección y respeto por los animales en su calidad de seres sintientes. 10. La solidaridad. 11. La solución pacífica de las controversias y desacuerdos de los conflictos. 12. El respeto al ordenamiento jurídico y a las autoridades legalmente constituidas. 13. Proporcionalidad y razonabilidad. La adopción de medios de Policía y medidas correctivas debe ser proporcional y razonable atendiendo las circunstancias de cada caso y la finalidad de la norma. Por lo tanto, se debe procurar que la afectación de derechos y libertades no sea superior al beneficio perseguido y evitar todo exceso innecesario. 14. Necesidad. Las autoridades de Policía sólo podrán adoptar los medios y medidas rigurosamente necesarias e idóneas para la preservación y restablecimiento del orden público cuando la aplicación de otros mecanismos de protección, restauración, educación o de prevención resulte ineficaz para alcanzar el fin propuesto.",
+            "url_fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#8"
+          }
+        ],
+        "pregunta": "¿Qué principios fundamentales orientan la aplicación del Código de Policía?",
+        "respuesta": "**Artículo 8.** «Son principios fundamentales del Código:»\n\n**Numeral 1 del artículo 8.** «1. La protección de la vida y el respeto a la dignidad humana.»\n\n**Numeral 2 del artículo 8.** «2. Protección y respeto a los derechos humanos.»\n\n**Numeral 3 del artículo 8.** «3. La prevalencia de los derechos de niños, niñas y adolescentes y su protección integral.»\n\n**Numeral 4 del artículo 8.** «4. La igualdad ante la ley.»\n\n**Numeral 5 del artículo 8.** «5. La libertad y la autorregulación.»\n\n**Numeral 6 del artículo 8.** «6. El reconocimiento y respeto de las diferencias culturales, la autonomía e identidad regional, la diversidad y la no discriminación.»\n\n**Numeral 7 del artículo 8.** «7. El debido proceso.»\n\n**Numeral 8 del artículo 8.** «8. La protección de la diversidad e integridad del ambiente y el patrimonio ecológico.»\n\n**Numeral 9 del artículo 8.** «9. Protección y respeto por los animales en su calidad de seres sintientes.»\n\n**Numeral 10 del artículo 8.** «10. La solidaridad.»\n\n**Numeral 11 del artículo 8.** «11. La solución pacífica de las controversias y desacuerdos de los conflictos.»\n\n**Numeral 12 del artículo 8.** «12. El respeto al ordenamiento jurídico y a las autoridades legalmente constituidas.»\n\n**Numeral 13 del artículo 8.** «13. Proporcionalidad y razonabilidad. La adopción de medios de Policía y medidas correctivas debe ser proporcional y razonable atendiendo las circunstancias de cada caso y la finalidad de la norma. Por lo tanto, se debe procurar que la afectación de derechos y libertades no sea superior al beneficio perseguido y evitar todo exceso innecesario.»\n\n**Numeral 14 del artículo 8.** «14. Necesidad. Las autoridades de Policía sólo podrán adoptar los medios y medidas rigurosamente necesarias e idóneas para la preservación y restablecimiento del orden público cuando la aplicación de otros mecanismos de protección, restauración, educación o de prevención resulte ineficaz para alcanzar el fin propuesto.»",
+        "modelo": "gemini-3.1-flash-lite",
+        "total_generales": 1,
+        "total_estructurados": 0,
+        "validacion_documental": {
+          "estado": "PENDIENTE_VALIDACION",
+          "advertencias": []
+        }
+      },
+      "llamada_gemini_confirmada": true,
+      "estado_documental": "PENDIENTE_VALIDACION"
+    },
+    {
+      "id": "RAG-008",
+      "pregunta": "¿Qué comportamientos afectan la integridad de niños, niñas y adolescentes?",
+      "http": 200,
+      "segundos": 3.393435,
+      "respuesta": {
+        "fuentes_recuperadas": [
+          {
+            "articulo": "38",
+            "numeral": "",
+            "titulo": "COMPORTAMIENTOS QUE AFECTAN LA INTEGRIDAD DE NIÑOS, NIÑAS Y ADOLESCENTES",
+            "texto": "ARTÍCULO 38. COMPORTAMIENTOS QUE AFECTAN LA INTEGRIDAD DE NIÑOS, NIÑAS Y ADOLESCENTES. 1. Permitir, auspiciar, tolerar, inducir o constreñir el ingreso de los niños, niñas y adolescentes a los lugares donde: a) Se realicen espectáculos o actividades cinematográficas aptas solo para mayores de 18 años; b) Se preste el servicio de videojuegos salvo que sean aptos para la edad del niño, niña o adolescente, en las condiciones establecidas por la Ley 1554 de 2012; c) Se practiquen actividades peligrosas, de acuerdo con la reglamentación establecida por el Gobierno nacional; d) Se realicen actividades sexuales o pornográficas, o se ejerza la prostitución, o la explotación sexual; e) Se realicen actividades de diversión destinadas al consumo de bebidas alcohólicas y consumo de cigarrillo, tabaco y sus derivados y sustancias psicoactivas; f) Se desarrollen juegos de suerte y azar localizados; 2. Inducir, engañar o realizar cualquier acción para que los niños, niñas y adolescentes ingresen o participen de actividades que les están prohibidas por las normas vigentes. 3. Permitir o inducir a los niños, niñas y adolescentes a utilizar las telecomunicaciones, publicaciones y documentos para acceder a material pornográfico. 5. Facilitar, distribuir, ofrecer, comercializar, prestar o alquilar, cualquiera de los siguientes elementos, sustancias o bebidas, a niños, niñas o adolescentes: a) Material pornográfico; b) Bebidas alcohólicas, cigarrillo, tabaco y sus derivados, sustancias psicoactivas o cualquier sustancia que afecte su salud; c) Pólvora o sustancias prohibidas; d) Armas, neumáticas o de aire, o que se asimilen a estas, elementos cortantes, punzantes, contundentes o sus combinaciones; 6. Inducir a niños, niñas o adolescentes a: a) Consumir bebidas alcohólicas, cigarrillo, tabaco y sus derivados, sustancias psicoactivas o cualquier sustancia que afecte su salud; b) Participar en juegos de suerte y azar; c) Ingresar a fiestas o eventos similares en los cuales exista previa restricción de edad por parte de las autoridades de policía, o esté prohibido su ingreso por las normas vigentes. d) La explotación laboral. 8. Ejercer, permitir, favorecer o propiciar el abuso, los actos y la explotación sexual de niños, niñas o adolescentes. 9. Utilizar a niños, niñas y adolescentes para evitar el cumplimiento de una orden de policía. 10. Permitir que los niños, niñas y adolescentes hagan uso de piscinas y estructuras similares, de uso colectivo o de propiedad privada unihabitacional, sin el cumplimiento de los requisitos establecidos por la Ley 1209 de 2008 y las normas que la adicionen o modifiquen. 11. Permitir que los niños, niñas y adolescentes sean parte de confrontaciones violentas que puedan derivar en agresiones físicas.",
+            "url_fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#38"
+          }
+        ],
+        "pregunta": "¿Qué comportamientos afectan la integridad de niños, niñas y adolescentes?",
+        "respuesta": "**Numeral 1 del artículo 38.** «1. Permitir, auspiciar, tolerar, inducir o constreñir el ingreso de los niños, niñas y adolescentes a los lugares donde:»\n\n**Literal a del numeral 1 del artículo 38.** «a) Se realicen espectáculos o actividades cinematográficas aptas solo para mayores de 18 años;»\n\n**Literal b del numeral 1 del artículo 38.** «b) Se preste el servicio de videojuegos salvo que sean aptos para la edad del niño, niña o adolescente, en las condiciones establecidas por la Ley 1554 de 2012;»\n\n**Literal c del numeral 1 del artículo 38.** «c) Se practiquen actividades peligrosas, de acuerdo con la reglamentación establecida por el Gobierno nacional;»\n\n**Literal d del numeral 1 del artículo 38.** «d) Se realicen actividades sexuales o pornográficas, o se ejerza la prostitución, o la explotación sexual;»\n\n**Literal e del numeral 1 del artículo 38.** «e) Se realicen actividades de diversión destinadas al consumo de bebidas alcohólicas y consumo de cigarrillo, tabaco y sus derivados y sustancias psicoactivas;»\n\n**Literal f del numeral 1 del artículo 38.** «f) Se desarrollen juegos de suerte y azar localizados;»\n\n**Numeral 2 del artículo 38.** «2. Inducir, engañar o realizar cualquier acción para que los niños, niñas y adolescentes ingresen o participen de actividades que les están prohibidas por las normas vigentes.»\n\n**Numeral 3 del artículo 38.** «3. Permitir o inducir a los niños, niñas y adolescentes a utilizar las telecomunicaciones, publicaciones y documentos para acceder a material pornográfico.»\n\n**Numeral 5 del artículo 38.** «5. Facilitar, distribuir, ofrecer, comercializar, prestar o alquilar, cualquiera de los siguientes elementos, sustancias o bebidas, a niños, niñas o adolescentes:»\n\n**Literal a del numeral 5 del artículo 38.** «a) Material pornográfico;»\n\n**Literal b del numeral 5 del artículo 38.** «b) Bebidas alcohólicas, cigarrillo, tabaco y sus derivados, sustancias psicoactivas o cualquier sustancia que afecte su salud;»\n\n**Literal c del numeral 5 del artículo 38.** «c) Pólvora o sustancias prohibidas;»\n\n**Literal d del numeral 5 del artículo 38.** «d) Armas, neumáticas o de aire, o que se asimilen a estas, elementos cortantes, punzantes, contundentes o sus combinaciones;»\n\n**Numeral 6 del artículo 38.** «6. Inducir a niños, niñas o adolescentes a:»\n\n**Literal a del numeral 6 del artículo 38.** «a) Consumir bebidas alcohólicas, cigarrillo, tabaco y sus derivados, sustancias psicoactivas o cualquier sustancia que afecte su salud;»\n\n**Literal b del numeral 6 del artículo 38.** «b) Participar en juegos de suerte y azar;»\n\n**Literal c del numeral 6 del artículo 38.** «c) Ingresar a fiestas o eventos similares en los cuales exista previa restricción de edad por parte de las autoridades de policía, o esté prohibido su ingreso por las normas vigentes.»\n\n**Literal d del numeral 6 del artículo 38.** «d) La explotación laboral.»\n\n**Numeral 8 del artículo 38.** «8. Ejercer, permitir, favorecer o propiciar el abuso, los actos y la explotación sexual de niños, niñas o adolescentes.»\n\n**Numeral 9 del artículo 38.** «9. Utilizar a niños, niñas y adolescentes para evitar el cumplimiento de una orden de policía.»\n\n**Numeral 10 del artículo 38.** «10. Permitir que los niños, niñas y adolescentes hagan uso de piscinas y estructuras similares, de uso colectivo o de propiedad privada unihabitacional, sin el cumplimiento de los requisitos establecidos por la Ley 1209 de 2008 y las normas que la adicionen o modifiquen.»\n\n**Numeral 11 del artículo 38.** «11. Permitir que los niños, niñas y adolescentes sean parte de confrontaciones violentas que puedan derivar en agresiones físicas.»",
+        "modelo": "gemini-3.1-flash-lite",
+        "total_generales": 1,
+        "total_estructurados": 0,
+        "validacion_documental": {
+          "estado": "PENDIENTE_VALIDACION",
+          "advertencias": []
+        }
+      },
+      "llamada_gemini_confirmada": true,
+      "estado_documental": "PENDIENTE_VALIDACION"
+    },
+    {
+      "id": "RAG-051",
+      "pregunta": "¿Qué entiende el Código por convivencia y con qué elementos se relaciona?",
+      "http": 200,
+      "segundos": 4.347332,
+      "respuesta": {
+        "fuentes_recuperadas": [
+          {
+            "articulo": "5",
+            "numeral": "",
+            "titulo": "DEFINICIÓN",
+            "texto": "ARTÍCULO 5. DEFINICIÓN. Para los efectos de este Código, se entiende por convivencia, la interacción pacífica, respetuosa y armónica entre las personas, con los bienes, y con el ambiente, en el marco del ordenamiento jurídico.",
+            "url_fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm"
+          }
+        ],
+        "pregunta": "¿Qué entiende el Código por convivencia y con qué elementos se relaciona?",
+        "respuesta": "**Artículo 5.** «Para los efectos de este Código, se entiende por convivencia, la interacción pacífica, respetuosa y armónica entre las personas, con los bienes, y con el ambiente, en el marco del ordenamiento jurídico.»",
+        "modelo": "gemini-3.1-flash-lite",
+        "total_generales": 1,
+        "total_estructurados": 0,
+        "validacion_documental": {
+          "estado": "PENDIENTE_VALIDACION",
+          "advertencias": []
+        }
+      },
+      "llamada_gemini_confirmada": true,
+      "estado_documental": "PENDIENTE_VALIDACION"
+    },
+    {
+      "id": "RAG-035",
+      "pregunta": "Una persona ocupa un inmueble ajeno sin autorización. ¿Qué comportamientos relacionados con la posesión contempla la ley?",
+      "http": 200,
+      "segundos": 4.521166,
+      "respuesta": {
+        "fuentes_recuperadas": [
+          {
+            "articulo": "77",
+            "numeral": "",
+            "titulo": "COMPORTAMIENTOS CONTRARIOS A LA POSESIÓN Y MERA TENENCIA DE BIENES INMUEBLES",
+            "texto": "ARTÍCULO 77. COMPORTAMIENTOS CONTRARIOS A LA POSESIÓN Y MERA TENENCIA DE BIENES INMUEBLES. Son aquellos contrarios a la posesión, la mera tenencia de los bienes inmuebles de particulares, bienes fiscales, bienes de uso público, bienes de utilidad pública o social, bienes destinados a prestación de servicios públicos. Estos son los siguientes: 1. Perturbar, alterar o interrumpir la posesión o mera tenencia de un bien inmueble ocupándolo ilegalmente. 2. Perturbar la posesión o mera tenencia de un inmueble o mueble por causa de daños materiales o hechos que la alteren, o por no reparar las averías o daños en el propio inmueble que pongan en peligro, perjudiquen o molesten a los vecinos. 3. Instalar servicios públicos en inmuebles que hayan sido ocupados ilegalmente. 4. Omitir el cerramiento y mantenimiento de lotes y fachadas de edificaciones. 5. Impedir el ingreso, uso y disfrute de la posesión o tenencia de inmueble al titular de este derecho. Numeral 1 Restitución y protección de bienes inmuebles. Numeral 2 Reparación de daños materiales por perturbación a la posesión y tenencia de inmuebles o mueble. Numeral 3 Multa General tipo 3 Numeral 4 Multa General tipo 3; construcción, cerramiento, reparación o mantenimiento de inmueble. Numeral 5 Restitución y protección de bienes inmuebles.",
+            "url_fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#77"
+          }
+        ],
+        "pregunta": "Una persona ocupa un inmueble ajeno sin autorización. ¿Qué comportamientos relacionados con la posesión contempla la ley?",
+        "respuesta": "**Artículo 77.** «Son aquellos contrarios a la posesión, la mera tenencia de los bienes inmuebles de particulares, bienes fiscales, bienes de uso público, bienes de utilidad pública o social, bienes destinados a prestación de servicios públicos. Estos son los siguientes:»\n\n**Numeral 1 del artículo 77.** «1. Perturbar, alterar o interrumpir la posesión o mera tenencia de un bien inmueble ocupándolo ilegalmente.»\n\n**Numeral 2 del artículo 77.** «2. Perturbar la posesión o mera tenencia de un inmueble o mueble por causa de daños materiales o hechos que la alteren, o por no reparar las averías o daños en el propio inmueble que pongan en peligro, perjudiquen o molesten a los vecinos.»\n\n**Numeral 3 del artículo 77.** «3. Instalar servicios públicos en inmuebles que hayan sido ocupados ilegalmente.»\n\n**Numeral 4 del artículo 77.** «4. Omitir el cerramiento y mantenimiento de lotes y fachadas de edificaciones.»\n\n**Numeral 5 del artículo 77.** «5. Impedir el ingreso, uso y disfrute de la posesión o tenencia de inmueble al titular de este derecho.»\n\n**Numeral 1 del artículo 77.** «Numeral 1 Restitución y protección de bienes inmuebles.»",
+        "modelo": "gemini-3.1-flash-lite",
+        "total_generales": 1,
+        "total_estructurados": 0,
+        "validacion_documental": {
+          "estado": "PENDIENTE_VALIDACION",
+          "advertencias": []
+        }
+      },
+      "llamada_gemini_confirmada": true,
+      "estado_documental": "PENDIENTE_VALIDACION"
+    },
+    {
+      "id": "RAG-037",
+      "pregunta": "Un local comercial no informa a sus clientes sobre los protocolos de evacuación. ¿Qué comportamiento contempla la ley?",
+      "http": 200,
+      "segundos": 3.134247,
+      "respuesta": {
+        "fuentes_recuperadas": [
+          {
+            "articulo": "93",
+            "numeral": "",
+            "titulo": "COMPORTAMIENTOS RELACIONADOS CON LA SEGURIDAD Y TRANQUILIDAD QUE AFECTAN LA ACTIVIDAD ECONÓMICA",
+            "texto": "ARTÍCULO 93. COMPORTAMIENTOS RELACIONADOS CON LA SEGURIDAD Y TRANQUILIDAD QUE AFECTAN LA ACTIVIDAD ECONÓMICA. 1. No informar los protocolos de seguridad y evacuación en caso de emergencias a las personas que se encuentren en el lugar. Numeral 1 Multa General Tipo 1",
+            "url_fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#93"
+          }
+        ],
+        "pregunta": "Un local comercial no informa a sus clientes sobre los protocolos de evacuación. ¿Qué comportamiento contempla la ley?",
+        "respuesta": "**Numeral 1 del artículo 93.** «1. No informar los protocolos de seguridad y evacuación en caso de emergencias a las personas que se encuentren en el lugar.»\n\n**Numeral 1 del artículo 93.** «Numeral 1 Multa General Tipo 1»",
+        "modelo": "gemini-3.1-flash-lite",
+        "total_generales": 1,
+        "total_estructurados": 0,
+        "validacion_documental": {
+          "estado": "PENDIENTE_VALIDACION",
+          "advertencias": []
+        }
+      },
+      "llamada_gemini_confirmada": true,
+      "estado_documental": "PENDIENTE_VALIDACION"
+    },
+    {
+      "id": "RAG-038",
+      "pregunta": "Un restaurante incumple las condiciones sanitarias exigidas para funcionar. ¿Qué establece el Código de Policía?",
+      "http": 200,
+      "segundos": 3.392956,
+      "respuesta": {
+        "fuentes_recuperadas": [
+          {
+            "articulo": "94",
+            "numeral": "",
+            "titulo": "COMPORTAMIENTOS RELACIONADOS CON LA SALUD PÚBLICA QUE AFECTAN LA ACTIVIDAD ECONÓMICA",
+            "texto": "ARTÍCULO 94. COMPORTAMIENTOS RELACIONADOS CON LA SALUD PÚBLICA QUE AFECTAN LA ACTIVIDAD ECONÓMICA. Los siguientes comportamientos relacionados con la salud pública afectan la actividad económica y por lo tanto no deben realizarse: 1. Incumplir las normas o disposiciones de seguridad o sanidad, para el desarrollo de la actividad económica, de acuerdo con su objeto social, previo concepto de la autoridad especializada. 2. No separar en la fuente los residuos sólidos, ni depositarlos selectivamente en un lugar destinado para tal efecto. 3. Permitir el consumo de tabaco y/o sus derivados en lugares no autorizados por la ley y la normatividad vigente. 4. Permitir la permanencia de animales de cualquier especie que afecte las condiciones de higiene, salubridad y seguridad o que impida la correcta prestación del servicio de acuerdo con las disposiciones vigentes. 5. Comercializar en el establecimiento artículos de mala calidad, caducados o adulterados que puedan constituir peligro para la salud pública. 6. Comercializar, almacenar, poseer o tener especies de flora o fauna que ofrezcan peligro para la integridad y la salud. 7. No retirar frecuentemente los residuos de las áreas de producción o depósito y no evacuarlas de manera que se elimine la generación de malos olores, y se impida el refugio y alimento de animales y plagas. 8. No facilitar la utilización de los servicios sanitarios limpios y desinfectados a las personas que así lo requieran, en los establecimientos abiertos al público y proveer de los recursos requeridos para la higiene personal. 9. No destruir en la fuente los envases de bebidas embriagantes. Numeral 1 Multa General tipo 4; Suspensión temporal de actividad. Numeral 2 Multa General tipo 3. Numeral 3 Multa General tipo 1; Suspensión temporal de actividad. Numeral 4 Multa General tipo 3; Suspensión temporal de actividad. Numeral 5 Multa General tipo 4; Suspensión temporal de actividad Numeral 6 Multa General tipo 1; Suspensión temporal de actividad. Numeral 7 Multa General tipo 4; Suspensión temporal de actividad. Numeral 8 Amonestación. Numeral 9 Multa General tipo 1; Suspensión temporal de actividad.",
+            "url_fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#94"
+          }
+        ],
+        "pregunta": "Un restaurante incumple las condiciones sanitarias exigidas para funcionar. ¿Qué establece el Código de Policía?",
+        "respuesta": "**Artículo 94.** «Los siguientes comportamientos relacionados con la salud pública afectan la actividad económica y por lo tanto no deben realizarse:»\n\n**Numeral 1 del artículo 94.** «1. Incumplir las normas o disposiciones de seguridad o sanidad, para el desarrollo de la actividad económica, de acuerdo con su objeto social, previo concepto de la autoridad especializada.»\n\n**Numeral 1 del artículo 94.** «Numeral 1 Multa General tipo 4; Suspensión temporal de actividad.»",
+        "modelo": "gemini-3.1-flash-lite",
+        "total_generales": 1,
+        "total_estructurados": 0,
+        "validacion_documental": {
+          "estado": "PENDIENTE_VALIDACION",
+          "advertencias": []
+        }
+      },
+      "llamada_gemini_confirmada": true,
+      "estado_documental": "PENDIENTE_VALIDACION"
+    },
+    {
+      "id": "RAG-050",
+      "pregunta": "Un inspector de Policía debe resolver un conflicto de convivencia. ¿Cómo se desarrolla el proceso verbal abreviado?",
+      "http": 200,
+      "segundos": 3.376638,
+      "respuesta": {
+        "fuentes_recuperadas": [
+          {
+            "articulo": "223",
+            "numeral": "",
+            "titulo": "TRÁMITE DEL PROCESO VERBAL ABREVIADO",
+            "texto": "Se tramitarán por el proceso verbal abreviado los comportamientos contrarios a la convivencia, de competencia de los Inspectores de Policía , los Alcaldes y las autoridades especiales de Policía, en las etapas siguientes: 1. Iniciación de la acción. La acción de Policía puede iniciarse de oficio o a petición de la persona que tenga interés en la aplicación del régimen de Policía, contra el presunto infractor. Cuando la autoridad conozca en flagrancia del comportamiento contrario a la convivencia, podrá iniciar de inmediato la audiencia pública. 2. Citación. Las mencionadas autoridades, a los cinco (5) días siguientes de conocida la querella o el comportamiento contrario a la convivencia, en caso de que no hubiera sido posible iniciar la audiencia de manera inmediata, citará a audiencia pública al quejoso y al presunto infractor, mediante comunicación escrita, correo certificado, medio electrónico, medio de comunicación del que disponga, o por el medio más expedito o idóneo, donde se señale dicho comportamiento. 3. Audiencia pública. La audiencia pública se realizará en el lugar de los hechos, en el despacho del inspector o de la autoridad especial de Policía. Esta se surtirá mediante los siguientes pasos: a) Argumentos. En la audiencia la autoridad competente, otorgará tanto al presunto infractor como al quejoso un tiempo máximo de veinte (20) minutos para exponer sus argumentos y pruebas; b) Invitación a conciliar. La autoridad de Policía invitará al quejoso y al presunto infractor a resolver sus diferencias, de conformidad con el presente capítulo; c) Pruebas. Si el presunto infractor o el quejoso solicitan la práctica de pruebas adicionales, pertinentes y conducentes, y si la autoridad las considera viables o las requiere, las decretará y se practicarán en un término máximo de cinco (5) días. Igualmente la autoridad podrá decretar de oficio las pruebas que requiera y dispondrá que se practiquen dentro del mismo término. La audiencia se reanudará al día siguiente al del vencimiento de la práctica de pruebas. Tratándose de hechos notorios o de negaciones indefinidas, se podrá prescindir de la práctica de pruebas y la autoridad de Policía decidirá de plano. Cuando se requieran conocimientos técnicos especializados, los servidores públicos del sector central y descentralizado del nivel territorial, darán informes por solicitud de la autoridad de Policía; d) Decisión. Agotada la etapa probatoria, la autoridad de Policía valorará las pruebas y dictará la orden de Policía o medida correctiva, si hay lugar a ello, sustentando su decisión con los respectivos fundamentos normativos y hechos conducentes demostrados. La decisión quedará notificada en estrados. 4. Recursos. Contra la decisión proferida por la autoridad de Policía proceden los recursos de reposición y, en subsidio, el de apelación ante el superior jerárquico, los cuales se solicitarán, concederán y sustentarán dentro de la misma audiencia. El recurso de reposición se resolverá inmediatamente, y de ser procedente el recurso de apelación, se interpondrá y concederá en el efecto devolutivo dentro de la audiencia y se remitirá al superior jerárquico dentro de los dos (2) días siguientes, ante quien se sustentará dentro de los dos (2) días siguientes al recibo del recurso. El recurso de apelación se resolverá dentro de los ocho (8) días siguientes al recibo de la actuación. Para la aplicación de medidas correctivas en asuntos relativos a infracciones urbanísticas, el recurso de apelación se concederá en el efecto suspensivo. Los recursos solo procederán contra las decisiones definitivas de las autoridades de Policía. 5. Cumplimiento o ejecución de la orden de Policía o la medida correctiva. Una vez ejecutoriada la decisión que contenga una orden de Policía o una medida correctiva, esta se cumplirá en un término máximo de cinco (5) días.",
+            "url_fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#223"
+          },
+          {
+            "articulo": "223",
+            "numeral": "",
+            "titulo": "TRÁMITE DEL PROCESO VERBAL ABREVIADO",
+            "texto": "PARÁGRAFO 1o. Si el presunto infractor no se presenta a la audiencia sin comprobar la ocurrencia de caso fortuito o fuerza mayor, la autoridad tendrá por ciertos los hechos que dieron lugar al comportamiento contrario a la convivencia y entrará a resolver de fondo, con base en las pruebas allegadas y los informes de las autoridades, salvo que la autoridad de Policía considere indispensable decretar la práctica de una prueba adicional. PARÁGRAFO 2o. Casos en que se requiere inspección al lugar. Cuando la autoridad de Policía inicia la actuación y decreta inspección al lugar, fijará fecha y hora para la práctica de la audiencia, y notificará al presunto infractor o perturbador de convivencia y al quejoso personalmente, y de no ser posible, mediante aviso que se fijará en la puerta de acceso del lugar de los hechos o parte visible de este, con antelación no menor a veinticuatro (24) horas, de la fecha y hora de la diligencia. Para la práctica de la diligencia de inspección, la autoridad de Policía se trasladará al lugar de los hechos, con un servidor público técnico especializado cuando ello fuere necesario y los hechos no sean notorios y evidentes; durante la diligencia oirá a las partes máximo por quince (15) minutos cada una y recibirá y practicará las pruebas que considere conducentes para el esclarecimiento de los hechos. El informe técnico especializado se rendirá dentro de la diligencia de inspección ocular. Excepcionalmente y a juicio del inspector de Policía, podrá suspenderse la diligencia hasta por un término no mayor de tres (3) días con el objeto de que el servidor público rinda el informe técnico. La autoridad de Policía proferirá la decisión dentro de la misma diligencia de inspección, o si ella hubiere sido suspendida, a la terminación del plazo de suspensión. PARÁGRAFO 3o. Si el infractor o perturbador no cumple la orden de Policía o la medida correctiva, la autoridad de Policía competente, por intermedio de la entidad correspondiente, podrá ejecutarla a costa del obligado, si ello fuere posible. Los costos de la ejecución podrán cobrarse por la vía de la jurisdicción coactiva. PARÁGRAFO 4o. El numeral 4 del presente artículo no procederá en los procedimientos de única instancia.",
+            "url_fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#223"
+          }
+        ],
+        "pregunta": "Un inspector de Policía debe resolver un conflicto de convivencia. ¿Cómo se desarrolla el proceso verbal abreviado?",
+        "respuesta": "**Artículo 223.** «Se tramitarán por el proceso verbal abreviado los comportamientos contrarios a la convivencia, de competencia de los Inspectores de Policía , los Alcaldes y las autoridades especiales de Policía, en las etapas siguientes:»\n\n**Numeral 1 del artículo 223.** «1. Iniciación de la acción. La acción de Policía puede iniciarse de oficio o a petición de la persona que tenga interés en la aplicación del régimen de Policía, contra el presunto infractor. Cuando la autoridad conozca en flagrancia del comportamiento contrario a la convivencia, podrá iniciar de inmediato la audiencia pública.»\n\n**Numeral 2 del artículo 223.** «2. Citación. Las mencionadas autoridades, a los cinco (5) días siguientes de conocida la querella o el comportamiento contrario a la convivencia, en caso de que no hubiera sido posible iniciar la audiencia de manera inmediata, citará a audiencia pública al quejoso y al presunto infractor, mediante comunicación escrita, correo certificado, medio electrónico, medio de comunicación del que disponga, o por el medio más expedito o idóneo, donde se señale dicho comportamiento.»\n\n**Numeral 3 del artículo 223.** «3. Audiencia pública. La audiencia pública se realizará en el lugar de los hechos, en el despacho del inspector o de la autoridad especial de Policía. Esta se surtirá mediante los siguientes pasos:»\n\n**Literal a del numeral 3 del artículo 223.** «a) Argumentos. En la audiencia la autoridad competente, otorgará tanto al presunto infractor como al quejoso un tiempo máximo de veinte (20) minutos para exponer sus argumentos y pruebas;»\n\n**Literal b del numeral 3 del artículo 223.** «b) Invitación a conciliar. La autoridad de Policía invitará al quejoso y al presunto infractor a resolver sus diferencias, de conformidad con el presente capítulo;»\n\n**Literal c del numeral 3 del artículo 223.** «c) Pruebas. Si el presunto infractor o el quejoso solicitan la práctica de pruebas adicionales, pertinentes y conducentes, y si la autoridad las considera viables o las requiere, las decretará y se practicarán en un término máximo de cinco (5) días. Igualmente la autoridad podrá decretar de oficio las pruebas que requiera y dispondrá que se practiquen dentro del mismo término. La audiencia se reanudará al día siguiente al del vencimiento de la práctica de pruebas. Tratándose de hechos notorios o de negaciones indefinidas, se podrá prescindir de la práctica de pruebas y la autoridad de Policía decidirá de plano. Cuando se requieran conocimientos técnicos especializados, los servidores públicos del sector central y descentralizado del nivel territorial, darán informes por solicitud de la autoridad de Policía;»\n\n**Literal d del numeral 3 del artículo 223.** «d) Decisión. Agotada la etapa probatoria, la autoridad de Policía valorará las pruebas y dictará la orden de Policía o medida correctiva, si hay lugar a ello, sustentando su decisión con los respectivos fundamentos normativos y hechos conducentes demostrados. La decisión quedará notificada en estrados.»\n\n**Numeral 4 del artículo 223.** «4. Recursos. Contra la decisión proferida por la autoridad de Policía proceden los recursos de reposición y, en subsidio, el de apelación ante el superior jerárquico, los cuales se solicitarán, concederán y sustentarán dentro de la misma audiencia. El recurso de reposición se resolverá inmediatamente, y de ser procedente el recurso de apelación, se interpondrá y concederá en el efecto devolutivo dentro de la audiencia y se remitirá al superior jerárquico dentro de los dos (2) días siguientes, ante quien se sustentará dentro de los dos (2) días siguientes al recibo del recurso. El recurso de apelación se resolverá dentro de los ocho (8) días siguientes al recibo de la actuación.»\n\n**Numeral 4 del artículo 223.** «Para la aplicación de medidas correctivas en asuntos relativos a infracciones urbanísticas, el recurso de apelación se concederá en el efecto suspensivo.»\n\n**Numeral 4 del artículo 223.** «Los recursos solo procederán contra las decisiones definitivas de las autoridades de Policía.»\n\n**Numeral 5 del artículo 223.** «5. Cumplimiento o ejecución de la orden de Policía o la medida correctiva. Una vez ejecutoriada la decisión que contenga una orden de Policía o una medida correctiva, esta se cumplirá en un término máximo de cinco (5) días.»\n\n**Parágrafo 1 del artículo 223.** «PARÁGRAFO 1o. Si el presunto infractor no se presenta a la audiencia sin comprobar la ocurrencia de caso fortuito o fuerza mayor, la autoridad tendrá por ciertos los hechos que dieron lugar al comportamiento contrario a la convivencia y entrará a resolver de fondo, con base en las pruebas allegadas y los informes de las autoridades, salvo que la autoridad de Policía considere indispensable decretar la práctica de una prueba adicional.»\n\n**Parágrafo 2 del artículo 223.** «PARÁGRAFO 2o. Casos en que se requiere inspección al lugar. Cuando la autoridad de Policía inicia la actuación y decreta inspección al lugar, fijará fecha y hora para la práctica de la audiencia, y notificará al presunto infractor o perturbador de convivencia y al quejoso personalmente, y de no ser posible, mediante aviso que se fijará en la puerta de acceso del lugar de los hechos o parte visible de este, con antelación no menor a veinticuatro (24) horas, de la fecha y hora de la diligencia.»\n\n**Parágrafo 2 del artículo 223.** «Para la práctica de la diligencia de inspección, la autoridad de Policía se trasladará al lugar de los hechos, con un servidor público técnico especializado cuando ello fuere necesario y los hechos no sean notorios y evidentes; durante la diligencia oirá a las partes máximo por quince (15) minutos cada una y recibirá y practicará las pruebas que considere conducentes para el esclarecimiento de los hechos.»\n\n**Parágrafo 2 del artículo 223.** «El informe técnico especializado se rendirá dentro de la diligencia de inspección ocular. Excepcionalmente y a juicio del inspector de Policía, podrá suspenderse la diligencia hasta por un término no mayor de tres (3) días con el objeto de que el servidor público rinda el informe técnico.»\n\n**Parágrafo 2 del artículo 223.** «La autoridad de Policía proferirá la decisión dentro de la misma diligencia de inspección, o si ella hubiere sido suspendida, a la terminación del plazo de suspensión.»\n\n**Parágrafo 3 del artículo 223.** «PARÁGRAFO 3o. Si el infractor o perturbador no cumple la orden de Policía o la medida correctiva, la autoridad de Policía competente, por intermedio de la entidad correspondiente, podrá ejecutarla a costa del obligado, si ello fuere posible. Los costos de la ejecución podrán cobrarse por la vía de la jurisdicción coactiva.»\n\n**Parágrafo 4 del artículo 223.** «PARÁGRAFO 4o. El numeral 4 del presente artículo no procederá en los procedimientos de única instancia.»\n\n**Nota de denominación.** Los extractos conservan la redacción de la compilación. La Ley 2492 de 2025, artículo 10, actualizó la denominación a Inspector de Convivencia y Paz.\n\n**Condición de la sentencia C-349/17.** Ante la inasistencia, se suspende el procedimiento hasta por tres días para acreditar sumariamente una justa causa. Si se admite, se cita a una nueva audiencia.",
+        "modelo": "gemini-3.1-flash-lite",
+        "total_generales": 1,
+        "total_estructurados": 0,
+        "validacion_documental": {
+          "estado": "PENDIENTE_VALIDACION",
+          "advertencias": []
+        }
+      },
+      "llamada_gemini_confirmada": true,
+      "estado_documental": "PENDIENTE_VALIDACION"
+    },
+    {
+      "id": "RAG-005",
+      "pregunta": "¿Qué establece el Código sobre los ruidos que afectan la tranquilidad de los vecinos?",
+      "http": 200,
+      "segundos": 4.081763,
+      "respuesta": {
+        "fuentes_recuperadas": [
+          {
+            "articulo": "33",
+            "numeral": "",
+            "titulo": "COMPORTAMIENTOS QUE AFECTAN LA TRANQUILIDAD Y RELACIONES RESPETUOSAS DE LAS PERSONAS",
+            "texto": "1. En el vecindario o lugar de habitación urbana o rural: Perturbar o permitir que se afecte el sosiego con: a. Sonidos o ruidos en actividades, fiestas, reuniones o eventos similares que afecten la convivencia del vecindario, cuando generen molestia por su impacto auditivo, en cuyo caso podrán las autoridades de Policía desactivar temporalmente la fuente del ruido, en caso de que el residente se niegue a desactivarlo. b. Cualquier medio de producción de sonidos o dispositivos o accesorios o maquinaria que produzcan emisión sonora o vibraciones, desde bienes muebles o inmuebles, en cuyo caso podrán las autoridades identificar, registrar y desactivar temporalmente la fuente de emisión, salvo que sean originados en construcciones o reparaciones en horas permitidas. c. Actividades diferentes a las aquí señaladas en vía pública o en privado, cuando trascienda a lo público, y perturben o afecten la tranquilidad de las personas. Numeral 1 Multa General tipo 4 . Disolución de reunión o actividad que involucra aglomeraciones de público no complejas PARÁGRAFO 3o. Para los comportamientos contrarios a la convivencia señalados en el numeral 1, se tendrán en cuenta las condiciones de tiempo, modo y lugar que indiquen una perturbación evidente de la convivencia o el sosiego y la afectación a la convivencia, para lo cual en propiedades horizontales, sectores residenciales urbanos y rurales, se tendrán como plena prueba los testimonios, grabaciones, mediciones, entrevistas y actas desarrolladas por el comité de convivencia, así como de las personas del entorno que bajo la gravedad de juramento constituirán dichos medios probatorios, los cuales se pondrán de presente ante la autoridad de policía para aplicar de manera proporcional los medios de policía y las medidas correctivas que permitan restablecer la convivencia de manera inmediata en el lugar. PARÁGRAFO 4o. Para la adopción de las medidas correctivas señaladas en el numeral 1, que mediante implementos de medición, se pruebe el incumplimiento de los indicadores o descriptores acústicos según la normativa, la sola medición realizada en el sitio a través del medio técnico correspondiente por parte de la autoridad respectiva, y en la que se pruebe el incumplimiento de los niveles de ruido permitidos según la normativa, bastará para materializar el medio de policía de suspensión inmediata de la actividad, retiro del sitio y la medida correctiva de disolución de reunión o actividad que involucra aglomeraciones de público no complejas, sólo cuando éstas se realicen en espacios públicos, semipúblicos o semiprivados o en aquellas actividades de cualquier tipo o denominación que trasciendan a lo público y afecten la convivencia. Lo anterior no autoriza el ingreso a domicilio privado. PARÁGRAFO 5o. Para los comportamientos contrarios a la convivencia señalados en el numeral 1, que, mediante implementos de medición, se pruebe objetivamente el incumplimiento de los indicadores o descriptores acústicos según la normativa vigente, la sola medición realizada en el lugar a través de este componente técnico por la autoridad correspondiente, bastará para materializar el medio de policía de suspensión inmediata de la actividad, retiro del sitio y la medida correctiva de disolución de reunión o actividad que involucra aglomeraciones de público no complejas, sólo cuando éstas se realicen en espacios públicos, semipúblicos o semiprivados o en aquellas actividades de cualquier tipo o denominación que trasciendan a lo público y afecten la convivencia. Lo anterior no autoriza el ingreso a domicilio privado. El uso de implementos de medición acústica se complementa con los testimonios y los demás medios de prueba a disposición de la autoridad de policía. Cuando los demás medios de prueba indiquen la fuente del ruido los implementos de medición acústica podrán ser usados sólo para acreditar la superación de los niveles permitidos en el ambiente.",
+            "url_fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#33"
+          },
+          {
+            "articulo": "33",
+            "numeral": "",
+            "titulo": "COMPORTAMIENTOS QUE AFECTAN LA TRANQUILIDAD Y RELACIONES RESPETUOSAS DE LAS PERSONAS",
+            "texto": "PARÁGRAFO 6o. Se exceptuará de las medidas correctivas y sancionatorias dispuestas en el presente Código, las actividades y eventos que por su naturaleza generen afectación a la convivencia, y que superen los indicadores y descriptores acústicos establecidos por las autoridades competentes, cuando tramiten las autorizaciones a las que haya lugar, siempre y cuando garanticen que se realicen las acciones tendientes a reducir y mitigar el impacto acústico generado, a proteger a los receptores expuestos y a cumplir expresamente lo estipulado en el artículo 14 de esta ley. PARÁGRAFO 7o. La desactivación de la fuente sonora será reglamentada por el ente territorial correspondiente.",
+            "url_fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#33"
+          }
+        ],
+        "pregunta": "¿Qué establece el Código sobre los ruidos que afectan la tranquilidad de los vecinos?",
+        "respuesta": "**Numeral 1 del artículo 33.** «1. En el vecindario o lugar de habitación urbana o rural: Perturbar o permitir que se afecte el sosiego con:»\n\n**Literal a del numeral 1 del artículo 33.** «a. Sonidos o ruidos en actividades, fiestas, reuniones o eventos similares que afecten la convivencia del vecindario, cuando generen molestia por su impacto auditivo, en cuyo caso podrán las autoridades de Policía desactivar temporalmente la fuente del ruido, en caso de que el residente se niegue a desactivarlo.»\n\n**Literal b del numeral 1 del artículo 33.** «b. Cualquier medio de producción de sonidos o dispositivos o accesorios o maquinaria que produzcan emisión sonora o vibraciones, desde bienes muebles o inmuebles, en cuyo caso podrán las autoridades identificar, registrar y desactivar temporalmente la fuente de emisión, salvo que sean originados en construcciones o reparaciones en horas permitidas.»\n\n**Literal c del numeral 1 del artículo 33.** «c. Actividades diferentes a las aquí señaladas en vía pública o en privado, cuando trascienda a lo público, y perturben o afecten la tranquilidad de las personas.»\n\n**Numeral 1 del artículo 33.** «Numeral 1 Multa General tipo 4 . Disolución de reunión o actividad que involucra aglomeraciones de público no complejas»\n\n**Parágrafo 3 del artículo 33.** «PARÁGRAFO 3o. Para los comportamientos contrarios a la convivencia señalados en el numeral 1, se tendrán en cuenta las condiciones de tiempo, modo y lugar que indiquen una perturbación evidente de la convivencia o el sosiego y la afectación a la convivencia, para lo cual en propiedades horizontales, sectores residenciales urbanos y rurales, se tendrán como plena prueba los testimonios, grabaciones, mediciones, entrevistas y actas desarrolladas por el comité de convivencia, así como de las personas del entorno que bajo la gravedad de juramento constituirán dichos medios probatorios, los cuales se pondrán de presente ante la autoridad de policía para aplicar de manera proporcional los medios de policía y las medidas correctivas que permitan restablecer la convivencia de manera inmediata en el lugar.»\n\n**Parágrafo 4 del artículo 33.** «PARÁGRAFO 4o. Para la adopción de las medidas correctivas señaladas en el numeral 1, que mediante implementos de medición, se pruebe el incumplimiento de los indicadores o descriptores acústicos según la normativa, la sola medición realizada en el sitio a través del medio técnico correspondiente por parte de la autoridad respectiva, y en la que se pruebe el incumplimiento de los niveles de ruido permitidos según la normativa, bastará para materializar el medio de policía de suspensión inmediata de la actividad, retiro del sitio y la medida correctiva de disolución de reunión o actividad que involucra aglomeraciones de público no complejas, sólo cuando éstas se realicen en espacios públicos, semipúblicos o semiprivados o en aquellas actividades de cualquier tipo o denominación que trasciendan a lo público y afecten la convivencia. Lo anterior no autoriza el ingreso a domicilio privado.»\n\n**Parágrafo 5 del artículo 33.** «PARÁGRAFO 5o. Para los comportamientos contrarios a la convivencia señalados en el numeral 1, que, mediante implementos de medición, se pruebe objetivamente el incumplimiento de los indicadores o descriptores acústicos según la normativa vigente, la sola medición realizada en el lugar a través de este componente técnico por la autoridad correspondiente, bastará para materializar el medio de policía de suspensión inmediata de la actividad, retiro del sitio y la medida correctiva de disolución de reunión o actividad que involucra aglomeraciones de público no complejas, sólo cuando éstas se realicen en espacios públicos, semipúblicos o semiprivados o en aquellas actividades de cualquier tipo o denominación que trasciendan a lo público y afecten la convivencia. Lo anterior no autoriza el ingreso a domicilio privado.»\n\n**Artículo 33.** «El uso de implementos de medición acústica se complementa con los testimonios y los demás medios de prueba a disposición de la autoridad de policía. Cuando los demás medios de prueba indiquen la fuente del ruido los implementos de medición acústica podrán ser usados sólo para acreditar la superación de los niveles permitidos en el ambiente.»\n\n**Parágrafo 6 del artículo 33.** «PARÁGRAFO 6o. Se exceptuará de las medidas correctivas y sancionatorias dispuestas en el presente Código, las actividades y eventos que por su naturaleza generen afectación a la convivencia, y que superen los indicadores y descriptores acústicos establecidos por las autoridades competentes, cuando tramiten las autorizaciones a las que haya lugar, siempre y cuando garanticen que se realicen las acciones tendientes a reducir y mitigar el impacto acústico generado, a proteger a los receptores expuestos y a cumplir expresamente lo estipulado en el artículo 14 de esta ley.»\n\n**Parágrafo 7 del artículo 33.** «PARÁGRAFO 7o. La desactivación de la fuente sonora será reglamentada por el ente territorial correspondiente.»\n\n**Condición de la sentencia C-308/19.** Desactivar la fuente sonora no autoriza el ingreso a un domicilio. Antes deben verificarse las circunstancias que demuestren una perturbación evidente o el incumplimiento de los niveles autorizados mediante medición objetiva. La remisión del parágrafo 6 corresponde al artículo 14 de la Ley 2450 de 2025.",
+        "modelo": "gemini-3.1-flash-lite",
+        "total_generales": 1,
+        "total_estructurados": 0,
+        "validacion_documental": {
+          "estado": "PENDIENTE_VALIDACION",
+          "advertencias": []
+        }
+      },
+      "llamada_gemini_confirmada": true,
+      "estado_documental": "PENDIENTE_VALIDACION"
+    },
+    {
+      "id": "RAG-006",
+      "pregunta": "¿Qué comportamientos afectan las relaciones entre las personas y las autoridades de Policía?",
+      "http": 200,
+      "segundos": 2.948744,
+      "respuesta": {
+        "fuentes_recuperadas": [
+          {
+            "articulo": "35",
+            "numeral": "",
+            "titulo": "COMPORTAMIENTOS QUE AFECTAN LAS RELACIONES ENTRE LAS PERSONAS Y LAS AUTORIDADES",
+            "texto": "ARTÍCULO 35. COMPORTAMIENTOS QUE AFECTAN LAS RELACIONES ENTRE LAS PERSONAS Y LAS AUTORIDADES. 1. Irrespetar a las autoridades de Policía. 2. Incumplir, desacatar, desconocer e impedir la función o la orden de Policía. 3. Impedir, dificultar, obstaculizar o resistirse a procedimiento de identificación o individualización, por parte de las autoridades de Policía. 5. Ofrecer cualquier tipo de resistencia a la aplicación de una medida o la utilización de un medio de Policía. 6. Agredir por cualquier medio o lanzar objetos que puedan causar daño o sustancias que representen peligro a las autoridades de Policía. 7. Utilizar inadecuadamente el sistema de número único de seguridad y emergencia.",
+            "url_fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#35"
+          }
+        ],
+        "pregunta": "¿Qué comportamientos afectan las relaciones entre las personas y las autoridades de Policía?",
+        "respuesta": "**Numeral 1 del artículo 35.** «1. Irrespetar a las autoridades de Policía.»\n\n**Numeral 2 del artículo 35.** «2. Incumplir, desacatar, desconocer e impedir la función o la orden de Policía.»\n\n**Numeral 3 del artículo 35.** «3. Impedir, dificultar, obstaculizar o resistirse a procedimiento de identificación o individualización, por parte de las autoridades de Policía.»\n\n**Numeral 5 del artículo 35.** «5. Ofrecer cualquier tipo de resistencia a la aplicación de una medida o la utilización de un medio de Policía.»\n\n**Numeral 6 del artículo 35.** «6. Agredir por cualquier medio o lanzar objetos que puedan causar daño o sustancias que representen peligro a las autoridades de Policía.»\n\n**Numeral 7 del artículo 35.** «7. Utilizar inadecuadamente el sistema de número único de seguridad y emergencia.»\n\n**Alcance de los extractos.** Son supuestos generales. La sentencia C-223/25 no decidió de fondo sobre el numeral 1. Las citas no califican los hechos de una persona ni determinan una medida.",
+        "modelo": "gemini-3.1-flash-lite",
+        "total_generales": 1,
+        "total_estructurados": 0,
+        "validacion_documental": {
+          "estado": "PENDIENTE_VALIDACION",
+          "advertencias": []
+        }
+      },
+      "llamada_gemini_confirmada": true,
+      "estado_documental": "PENDIENTE_VALIDACION"
+    },
+    {
+      "id": "RAG-032",
+      "pregunta": "Mi vecino pone música a volumen muy alto durante la madrugada y no me deja dormir. ¿Qué norma regula esta situación?",
+      "http": 200,
+      "segundos": 8.044966,
+      "respuesta": {
+        "fuentes_recuperadas": [
+          {
+            "articulo": "33",
+            "numeral": "",
+            "titulo": "COMPORTAMIENTOS QUE AFECTAN LA TRANQUILIDAD Y RELACIONES RESPETUOSAS DE LAS PERSONAS",
+            "texto": "1. En el vecindario o lugar de habitación urbana o rural: Perturbar o permitir que se afecte el sosiego con: a. Sonidos o ruidos en actividades, fiestas, reuniones o eventos similares que afecten la convivencia del vecindario, cuando generen molestia por su impacto auditivo, en cuyo caso podrán las autoridades de Policía desactivar temporalmente la fuente del ruido, en caso de que el residente se niegue a desactivarlo. b. Cualquier medio de producción de sonidos o dispositivos o accesorios o maquinaria que produzcan emisión sonora o vibraciones, desde bienes muebles o inmuebles, en cuyo caso podrán las autoridades identificar, registrar y desactivar temporalmente la fuente de emisión, salvo que sean originados en construcciones o reparaciones en horas permitidas. c. Actividades diferentes a las aquí señaladas en vía pública o en privado, cuando trascienda a lo público, y perturben o afecten la tranquilidad de las personas. Numeral 1 Multa General tipo 4 . Disolución de reunión o actividad que involucra aglomeraciones de público no complejas PARÁGRAFO 3o. Para los comportamientos contrarios a la convivencia señalados en el numeral 1, se tendrán en cuenta las condiciones de tiempo, modo y lugar que indiquen una perturbación evidente de la convivencia o el sosiego y la afectación a la convivencia, para lo cual en propiedades horizontales, sectores residenciales urbanos y rurales, se tendrán como plena prueba los testimonios, grabaciones, mediciones, entrevistas y actas desarrolladas por el comité de convivencia, así como de las personas del entorno que bajo la gravedad de juramento constituirán dichos medios probatorios, los cuales se pondrán de presente ante la autoridad de policía para aplicar de manera proporcional los medios de policía y las medidas correctivas que permitan restablecer la convivencia de manera inmediata en el lugar. PARÁGRAFO 4o. Para la adopción de las medidas correctivas señaladas en el numeral 1, que mediante implementos de medición, se pruebe el incumplimiento de los indicadores o descriptores acústicos según la normativa, la sola medición realizada en el sitio a través del medio técnico correspondiente por parte de la autoridad respectiva, y en la que se pruebe el incumplimiento de los niveles de ruido permitidos según la normativa, bastará para materializar el medio de policía de suspensión inmediata de la actividad, retiro del sitio y la medida correctiva de disolución de reunión o actividad que involucra aglomeraciones de público no complejas, sólo cuando éstas se realicen en espacios públicos, semipúblicos o semiprivados o en aquellas actividades de cualquier tipo o denominación que trasciendan a lo público y afecten la convivencia. Lo anterior no autoriza el ingreso a domicilio privado. PARÁGRAFO 5o. Para los comportamientos contrarios a la convivencia señalados en el numeral 1, que, mediante implementos de medición, se pruebe objetivamente el incumplimiento de los indicadores o descriptores acústicos según la normativa vigente, la sola medición realizada en el lugar a través de este componente técnico por la autoridad correspondiente, bastará para materializar el medio de policía de suspensión inmediata de la actividad, retiro del sitio y la medida correctiva de disolución de reunión o actividad que involucra aglomeraciones de público no complejas, sólo cuando éstas se realicen en espacios públicos, semipúblicos o semiprivados o en aquellas actividades de cualquier tipo o denominación que trasciendan a lo público y afecten la convivencia. Lo anterior no autoriza el ingreso a domicilio privado. El uso de implementos de medición acústica se complementa con los testimonios y los demás medios de prueba a disposición de la autoridad de policía. Cuando los demás medios de prueba indiquen la fuente del ruido los implementos de medición acústica podrán ser usados sólo para acreditar la superación de los niveles permitidos en el ambiente.",
+            "url_fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#33"
+          },
+          {
+            "articulo": "33",
+            "numeral": "",
+            "titulo": "COMPORTAMIENTOS QUE AFECTAN LA TRANQUILIDAD Y RELACIONES RESPETUOSAS DE LAS PERSONAS",
+            "texto": "PARÁGRAFO 6o. Se exceptuará de las medidas correctivas y sancionatorias dispuestas en el presente Código, las actividades y eventos que por su naturaleza generen afectación a la convivencia, y que superen los indicadores y descriptores acústicos establecidos por las autoridades competentes, cuando tramiten las autorizaciones a las que haya lugar, siempre y cuando garanticen que se realicen las acciones tendientes a reducir y mitigar el impacto acústico generado, a proteger a los receptores expuestos y a cumplir expresamente lo estipulado en el artículo 14 de esta ley. PARÁGRAFO 7o. La desactivación de la fuente sonora será reglamentada por el ente territorial correspondiente.",
+            "url_fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#33"
+          }
+        ],
+        "pregunta": "Mi vecino pone música a volumen muy alto durante la madrugada y no me deja dormir. ¿Qué norma regula esta situación?",
+        "respuesta": "**Numeral 1 del artículo 33.** «1. En el vecindario o lugar de habitación urbana o rural: Perturbar o permitir que se afecte el sosiego con:»\n\n**Literal a del numeral 1 del artículo 33.** «a. Sonidos o ruidos en actividades, fiestas, reuniones o eventos similares que afecten la convivencia del vecindario, cuando generen molestia por su impacto auditivo, en cuyo caso podrán las autoridades de Policía desactivar temporalmente la fuente del ruido, en caso de que el residente se niegue a desactivarlo.»\n\n**Literal b del numeral 1 del artículo 33.** «b. Cualquier medio de producción de sonidos o dispositivos o accesorios o maquinaria que produzcan emisión sonora o vibraciones, desde bienes muebles o inmuebles, en cuyo caso podrán las autoridades identificar, registrar y desactivar temporalmente la fuente de emisión, salvo que sean originados en construcciones o reparaciones en horas permitidas.»\n\n**Literal c del numeral 1 del artículo 33.** «c. Actividades diferentes a las aquí señaladas en vía pública o en privado, cuando trascienda a lo público, y perturben o afecten la tranquilidad de las personas.»\n\n**Numeral 1 del artículo 33.** «Numeral 1 Multa General tipo 4 . Disolución de reunión o actividad que involucra aglomeraciones de público no complejas»\n\n**Parágrafo 3 del artículo 33.** «PARÁGRAFO 3o. Para los comportamientos contrarios a la convivencia señalados en el numeral 1, se tendrán en cuenta las condiciones de tiempo, modo y lugar que indiquen una perturbación evidente de la convivencia o el sosiego y la afectación a la convivencia, para lo cual en propiedades horizontales, sectores residenciales urbanos y rurales, se tendrán como plena prueba los testimonios, grabaciones, mediciones, entrevistas y actas desarrolladas por el comité de convivencia, así como de las personas del entorno que bajo la gravedad de juramento constituirán dichos medios probatorios, los cuales se pondrán de presente ante la autoridad de policía para aplicar de manera proporcional los medios de policía y las medidas correctivas que permitan restablecer la convivencia de manera inmediata en el lugar.»\n\n**Parágrafo 4 del artículo 33.** «PARÁGRAFO 4o. Para la adopción de las medidas correctivas señaladas en el numeral 1, que mediante implementos de medición, se pruebe el incumplimiento de los indicadores o descriptores acústicos según la normativa, la sola medición realizada en el sitio a través del medio técnico correspondiente por parte de la autoridad respectiva, y en la que se pruebe el incumplimiento de los niveles de ruido permitidos según la normativa, bastará para materializar el medio de policía de suspensión inmediata de la actividad, retiro del sitio y la medida correctiva de disolución de reunión o actividad que involucra aglomeraciones de público no complejas, sólo cuando éstas se realicen en espacios públicos, semipúblicos o semiprivados o en aquellas actividades de cualquier tipo o denominación que trasciendan a lo público y afecten la convivencia. Lo anterior no autoriza el ingreso a domicilio privado.»\n\n**Parágrafo 5 del artículo 33.** «PARÁGRAFO 5o. Para los comportamientos contrarios a la convivencia señalados en el numeral 1, que, mediante implementos de medición, se pruebe objetivamente el incumplimiento de los indicadores o descriptores acústicos según la normativa vigente, la sola medición realizada en el lugar a través de este componente técnico por la autoridad correspondiente, bastará para materializar el medio de policía de suspensión inmediata de la actividad, retiro del sitio y la medida correctiva de disolución de reunión o actividad que involucra aglomeraciones de público no complejas, sólo cuando éstas se realicen en espacios públicos, semipúblicos o semiprivados o en aquellas actividades de cualquier tipo o denominación que trasciendan a lo público y afecten la convivencia. Lo anterior no autoriza el ingreso a domicilio privado.»\n\n**Artículo 33.** «El uso de implementos de medición acústica se complementa con los testimonios y los demás medios de prueba a disposición de la autoridad de policía. Cuando los demás medios de prueba indiquen la fuente del ruido los implementos de medición acústica podrán ser usados sólo para acreditar la superación de los niveles permitidos en el ambiente.»\n\n**Parágrafo 6 del artículo 33.** «PARÁGRAFO 6o. Se exceptuará de las medidas correctivas y sancionatorias dispuestas en el presente Código, las actividades y eventos que por su naturaleza generen afectación a la convivencia, y que superen los indicadores y descriptores acústicos establecidos por las autoridades competentes, cuando tramiten las autorizaciones a las que haya lugar, siempre y cuando garanticen que se realicen las acciones tendientes a reducir y mitigar el impacto acústico generado, a proteger a los receptores expuestos y a cumplir expresamente lo estipulado en el artículo 14 de esta ley.»\n\n**Parágrafo 7 del artículo 33.** «PARÁGRAFO 7o. La desactivación de la fuente sonora será reglamentada por el ente territorial correspondiente.»\n\n**Condición de la sentencia C-308/19.** Desactivar la fuente sonora no autoriza el ingreso a un domicilio. Antes deben verificarse las circunstancias que demuestren una perturbación evidente o el incumplimiento de los niveles autorizados mediante medición objetiva. La remisión del parágrafo 6 corresponde al artículo 14 de la Ley 2450 de 2025.",
+        "modelo": "gemini-3.1-flash-lite",
+        "total_generales": 1,
+        "total_estructurados": 0,
+        "validacion_documental": {
+          "estado": "PENDIENTE_VALIDACION",
+          "advertencias": []
+        }
+      },
+      "llamada_gemini_confirmada": true,
+      "estado_documental": "PENDIENTE_VALIDACION"
+    },
+    {
+      "id": "RAG-010",
+      "pregunta": "¿Qué comportamientos afectan a los grupos sociales de especial protección constitucional?",
+      "http": 200,
+      "segundos": 0.020786,
+      "respuesta": {
+        "fuentes_recuperadas": [],
+        "pregunta": "¿Qué comportamientos afectan a los grupos sociales de especial protección constitucional?",
+        "respuesta": "No encontré respaldo suficiente en los fragmentos de la Ley 1801 de 2016.",
+        "modelo": "verificación documental",
+        "total_generales": 0,
+        "total_estructurados": 0,
+        "validacion_documental": {
+          "estado": "SIN_RESPALDO",
+          "advertencias": []
+        }
+      },
+      "llamada_gemini_confirmada": false,
+      "estado_documental": "SIN_RESPALDO"
+    }
+  ]
+}

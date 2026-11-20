@@ -1,12 +1,34 @@
 # Documentación del corpus jurídico del chatbot RAG
 
-## Auditoría del corpus público entregado
+## Auditoría del corpus público de 28 artículos (evidencia histórica)
 
 La selección de cierre reúne 28 artículos, 128 bloques aprobados y 63 ventanas. La auditoría reconstruye cada artículo desde su encabezado y los bloques seleccionados de la referencia. Verifica el texto y los caracteres de inicio y fin de cada ventana, y recalcula sus IDs de apartado por intersección con los bloques. Excluye los textos históricos bloqueados y comprueba que el material público carezca de marcas de notas editoriales. El registro indica entidad, URL, captura, revisión disponible, huella o posición del bloque y enlaces de cotejo. [Auditoría por bloque](../motor_documental/pruebas/auditoria_corpus_cierre.json)
 
 El expediente conserva 159 diferencias. La clasificación de 48 como extracción o formato indica candidatas a revisión. El cotejo estricto de los textos completos ignorando solo espacios no cerró ningún caso. Las 27 reformas, 77 diferencias vinculadas a decisiones judiciales y 7 de revisión jurídica siguen en el expediente histórico. Algunas selecciones tienen evidencia puntual para sus propios bloques. La aprobación de un bloque no cierra automáticamente el expediente del artículo.
 
 La procedencia identifica textos legales y compilaciones oficiales, así como el PDF histórico y la edición empleada. Falta acreditar una licencia específica del PDF EVA, las notas editoriales y los elementos de las compilaciones. El expediente preserva su atribución y el índice público excluye las notas. La revisión de condiciones de redistribución del PDF y de los contenidos editoriales permanece pendiente.
+
+
+## Control reproducido sobre el corpus público v2
+
+La auditoría del 19 de noviembre verificó 248 bloques de 31 artículos,
+127 ventanas y dimensión 384. Reconstruyó los textos y sus intervalos,
+verificó la procedencia de los bloques y la exclusión de textos
+inexequibles y comprobó la normalización de los vectores. La evaluación
+HTTP v2 corresponde a la huella actual. El pasaje histórico de RAG-031
+se conserva como prueba separada del rótulo del parágrafo 2.
+
+- Corpus: `e1095acca700aa3c8d84b62e411c45f32a55c9bdf49ccbb6c46f6132d7459b55`.
+- FAISS: `6ea62b8b5a1bfd00ae04bf487f5c2c46dea9b98e445f9d14d49bf535d7bf5eb7`.
+- Metadatos: `dc7e02316f4ed234b46f14d103dacf2d6f256c1c10caec4ddadf09265d9b0073`.
+
+[Auditoría actual por apartado](../motor_documental/pruebas/auditoria_corpus_pendientes_v2.json)
+
+El artículo 93 se publica con el numeral 1 y su fila de medida.
+La Ley 2450 de 2025 modificó el tratamiento del ruido, incluida la
+fila del numeral 3 en el parágrafo 2, y añadió el numeral 15 y
+disposiciones asociadas. Esos apartados quedan fuera de esta selección.
+[Ley 2450 de 2025](https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=259638)
 
 ## Fecha de captura y fecha de revisión
 
@@ -294,23 +316,36 @@ a las fuentes utilizadas.
 
 ## 9. Condiciones de uso
 
-El corpus procede de un documento normativo colombiano
-atribuido al Departamento Administrativo de la Función Pública.
+Consulta documental del 19 de noviembre de 2026. El artículo 41 de la
+Ley 23 de 1982 permite reproducir normas y decisiones judiciales cuando
+la reproducción se ajusta a la edición oficial y no existe prohibición.
+La Ley 1801 se publicó en el Diario Oficial 49.949 del 29 de julio de 2016.
+[Ley 23 de 1982, art. 41](https://www.cancilleria.gov.co/normograma/compilacion/docs/ley_0023_1982.htm)
 
-No se ha verificado una licencia específica aplicable
-al archivo PDF utilizado.
+Función Pública remite a las reglas de propiedad intelectual en sus
+condiciones generales del portal. La consulta del PDF EVA devolvió HTTP 502.
+La copia histórica carece de fecha original de descarga acreditada.
+Sigue pendiente acreditar autorización específica para redistribuir la
+edición PDF y sus elementos editoriales. Las notas quedan fuera del
+texto del índice público.
+[Condiciones del portal](https://www1.funcionpublica.gov.co/politica-de-privacidad-y-condiciones-de-uso)
+· [PDF EVA](https://www.funcionpublica.gov.co/eva/gestornormativo/norma_pdf.php?i=80538)
 
-Las condiciones de reutilización deben comprobarse
-antes de la entrega definitiva.
+## 10. Alcance documental y verificaciones pendientes
 
-## 10. Limitaciones
-
-- No se conoce la fecha original de consulta.
-- No se ha verificado integralmente la vigencia normativa.
-- No se documentan todas las modificaciones posteriores.
-- No existen metadatos explícitos de jerarquía normativa.
-- La extracción automática puede presentar errores.
-- La fragmentación puede separar información relacionada.
+- El índice público v2 contiene 31 artículos y 127 ventanas. El manifiesto
+  registra jerarquía, título, tema, fecha, fuente y apartados. El cotejo
+  se aplica por apartado. El expediente distingue captura y revisión.
+- El edicto de la Corte confirma los resolutivos de C-223/17 sobre los
+  textos originales de los artículos 47 a 75 y el artículo 162. Esos
+  textos quedan excluidos del índice público.
+  [Edicto de la Corte Constitucional](https://www.corteconstitucional.gov.co/secretaria/edictos/EDICTOS%20OCTUBRE%202017.php)
+- El expediente preserva las 159 diferencias y sus insumos. Los 48
+  candidatos de formato requieren verificar equivalencia, las 27
+  reformas requieren cotejar acto modificatorio y alcance, los 77
+  casos asociados a fallos requieren verificar resolutivos y efectos y
+  los 7 restantes requieren revisión jurídica individual. La publicación
+  de apartados cotejados no resuelve el expediente del artículo entero.
 
 ## 11. Alcance académico
 

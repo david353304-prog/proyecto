@@ -113,3 +113,74 @@ justificara modificar la arquitectura o recortar el tiempo de espera.
 · [Traza por etapa](../motor_documental/pruebas/traza_cierre_plan_v2.jsonl)
 · [Chrome](../motor_documental/pruebas/chat_cierre_plan_v2.json)
 · [Informe técnico de dos páginas](../output/pdf/informe_tecnico_final.pdf).
+
+
+## Control de los pendientes v2 del 19 de noviembre de 2026
+
+Se mantuvieron banco, corpus, índice y configuración de producción. La
+muestra dirigida incluye los seis casos históricos de 10 s o más, los
+dos errores, tres parciales, una consulta sencilla y una abstención
+representativa. Los grupos se solapan. Los 12 casos HTTP devolvieron 200.
+Hubo 11 generaciones en 1,363 a 8,045 s (mediana 3,393 s), una abstención
+en 0,021 s y 26/26 trampas rechazadas. Las 99 citas del control fueron
+literales en sus fuentes visibles. La muestra no reemplaza las métricas
+históricas del banco completo ni demuestra estabilidad del umbral.
+
+| ID | HTTP anterior / segundos | HTTP control / segundos |
+| --- | --- | --- |
+| RAG-003 | 200 / 17,354 | 200 / 1,363 |
+| RAG-008 | 200 / 63,510 | 200 / 3,393 |
+| RAG-035 | 502 / 10,534 | 200 / 4,521 |
+| RAG-037 | 502 / 7,376 | 200 / 3,134 |
+| RAG-038 | 200 / 34,280 | 200 / 3,393 |
+| RAG-050 | 200 / 17,306 | 200 / 3,377 |
+| RAG-051 | 200 / 70,816 | 200 / 4,347 |
+
+RAG-035 agotó tres intentos (429, 503, 503) de 0,232, 2,573 y 1,234 s.
+RAG-037 agotó tres intentos con 429 de 0,211, 0,270 y 0,309 s. El estado
+429 acredita un límite del proveedor sin identificar la cuota específica.
+FastAPI terminó en 500 en ambos casos y Node comunicó 502. Ambos
+controles nuevos tuvieron un intento exitoso, con citas visibles de los
+artículos 77 y 93 respectivamente. El control de RAG-032 tuvo un 503
+en 1,243 s y un intento exitoso en 4,745 s. La generación total de
+8,003 s incluye aproximadamente 2,015 s de diferencia respecto de los
+intentos. El registro separa ese coste de la latencia del proveedor.
+
+| Máximo por etapa (s) | Banco completo v2 | Control dirigido |
+| --- | ---: | ---: |
+| Recuperación local, incluida FAISS | 0,029249 | 0,054163 |
+| Armado del contexto | 0,000032 | 0,000036 |
+| Generación, incluidos reintentos | 70,788509 | 8,002804 |
+| Validación documental | 0,005759 | 0,009819 |
+| HTTP total | 70,816213 | 8,044966 |
+
+La traza del banco completo registró 51 intentos en 38 generaciones,
+con 13 intentos adicionales, cuatro 429, nueve 503 y dos 504.
+Los 504 duraron cerca de 59,6 s cada uno. RAG-050 superó 10 s con un
+solo intento exitoso. No se justificó un cambio de producción ni
+una reducción del tiempo de espera. El requisito de menos de 10 s
+queda incumplido en la evidencia completa.
+
+### Casos parciales y abstenciones del banco completo
+
+| ID | Diagnóstico y pendiente |
+| --- | --- |
+| RAG-005 y RAG-032 | La fila cotejada del art. 33.1 indica multa tipo 4 y el banco espera tipo 3. Se conserva la referencia original y su discrepancia documentada. |
+| RAG-006 | El art. 35 aporta los numerales 1 a 3 y 5 a 7. El numeral 4, sobre información falsa, permanece excluido. El estado D-16628 no aporta un pronunciamiento de fondo. |
+| RAG-025 | El art. 180 público ofrece definición y clasificación general/especial. Faltan tipos y valores, régimen de multas especiales y condiciones de objeción y descuentos. Requieren conciliar el art. 180, el art. 223A y la UVB. |
+
+Las 14 abstenciones de la línea base corresponden a alcance documental.
+Falta incorporar el artículo solicitado para RAG-010 (40), RAG-013 y
+RAG-036 (92), RAG-023 y RAG-046 (155), RAG-024 y RAG-047 (163),
+RAG-029 (223A) y RAG-030 (237). Los artículos ya presentes tienen
+alcance parcial para RAG-014 (93), RAG-018 (124), RAG-019 (135),
+RAG-020 (140) y RAG-048 (180). Las preguntas abarcan conductas,
+condiciones o medidas fuera de la selección pública. RAG-010
+reprodujo la abstención sin fuentes. No se identificó un fallo de
+recuperación que permita habilitar estas respuestas con el alcance actual.
+
+[Control dirigido](../motor_documental/pruebas/control_pendientes_v2.json)
+· [Traza](../motor_documental/pruebas/traza_pendientes_v2.jsonl)
+· [26 trampas](../motor_documental/pruebas/trampas_pendientes_v2.json)
+· [Estado D-16628](https://www.corteconstitucional.gov.co/secretaria/estados/estado-no.-110-10-de-julio-de-2025.pdf)
+· [Ley 2294 de 2023](https://www.cancilleria.gov.co/normograma/compilacion/docs/ley_2294_2023.htm)
