@@ -590,6 +590,11 @@ class TestAbstencionRAG(unittest.TestCase):
                 ("¿Qué es una multa?", "180", 1),
                 ("¿Cómo se clasifican las multas?", "180", 1),
                 ("¿Cuáles son las finalidades de la convivencia?", "7", 7),
+                ("¿Cuáles son las medidas correctivas establecidas por el Código?", "173", 21),
+                ("¿Qué medidas correctivas contempla la Ley 1801?", "173", 21),
+                ("¿Cuáles son las medidas correctivas previstas en la ley?", "173", 21),
+                ("¿Qué significa una medida correctiva según la ley?", "172", 1),
+                ("¿Qué se entiende por medida correctiva según el Código de Policía?", "172", 1),
             ):
                 with self.subTest(pregunta=pregunta):
                     self.generador.recuperador.buscar.return_value["resultados_generales"] = [{"articulo": articulo}]
@@ -605,6 +610,8 @@ class TestAbstencionRAG(unittest.TestCase):
                         self.assertIn(cita, datos["fuentes_recuperadas"][0]["texto"])
             for pregunta, esperado in (
                 ("¿Cuánto debo pagar exactamente por construir sin licencia?", "SIN_RESPALDO"),
+                ("¿Cuáles son las medidas correctivas aplicables a mi caso?", "SIN_RESPALDO"),
+                ("¿Qué significa una medida correctiva según el artículo 172, parágrafo 2?", "SIN_RESPALDO"),
                 ("¿Qué multa debo pagar por declarar renta tarde?", "FUERA_DE_DOMINIO"),
             ):
                 datos = cliente.post("/consultar", json={"pregunta": pregunta}).json()

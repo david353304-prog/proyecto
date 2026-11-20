@@ -109,6 +109,26 @@ def corpus_publicable():
     return registros
 
 
+def articulo_consulta_medidas(pregunta):
+    """Distingue la definición de las medidas de su catálogo general."""
+    texto = normalizar(pregunta).strip("¿?¡! .")
+    fuente = r"(?:el codigo(?: de policia)?|la ley(?: 1801(?: de 2016)?)?)"
+    if re.fullmatch(
+        r"(?:que (?:es|son|significa|se entiende por)|definicion de) "
+        r"(?:(?:una|la|las) )?medidas? correctivas?"
+        rf"(?: segun {fuente})?", texto
+    ):
+        return "172"
+    if re.fullmatch(
+        r"(?:cuales son (?:las )?|que )medidas correctivas"
+        rf"(?: (?:(?:contempla|establece|enumera) {fuente}|"
+        rf"(?:establecidas|previstas|contempladas) (?:por|en) {fuente}|segun {fuente}))?",
+        texto,
+    ):
+        return "173"
+    return None
+
+
 def articulos_para_consulta(pregunta):
     corpus = corpus_publicable()
     texto = normalizar(pregunta)
@@ -140,6 +160,9 @@ def articulos_para_consulta(pregunta):
                 ))
             )
         }
+    articulo_medidas = articulo_consulta_medidas(pregunta)
+    if articulo_medidas in corpus:
+        return {articulo_medidas}
     patrones = {
         "1": r"objetivo general|objeto del codigo|para que (?:sirve|existe) el codigo",
         "2": r"objetivos? especific|objetivos? del codigo",

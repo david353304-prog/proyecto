@@ -16,7 +16,7 @@ from motor_documental.instrucciones_ia import (
 )
 from motor_documental.vigencia_rag import (
     SIMILITUD_MINIMA_DEFINICION, alcance_semantico_documental,
-    articulos_mencionados, articulos_para_consulta, contexto_publicable,
+    articulo_consulta_medidas, articulos_mencionados, articulos_para_consulta, contexto_publicable,
     pasajes_del_contexto, respuesta_revision_pendiente, respuesta_texto_inexequible,
 )
 
@@ -182,6 +182,8 @@ class GeneracionNoDisponible(RuntimeError):
 def seleccionar_citas_directas(pregunta, pasajes):
     """Exige todos los bloques que responden a una intención documental simple."""
     consulta = normalizar(pregunta).strip("¿?¡! .")
+    articulo_medidas = articulo_consulta_medidas(pregunta)
+    alcance = alcance_semantico_documental(pregunta)
     reglas = (
         (r"que es (?:la )?convivencia|que (?:se entiende|entiende (?:el codigo|la ley)) por convivencia|definicion de convivencia",
          "5", ("Para los efectos de este Código, se entiende por convivencia",)),
@@ -191,15 +193,14 @@ def seleccionar_citas_directas(pregunta, pasajes):
          "180", ("las multas se clasifican en generales y especiales.",)),
         (r"cuales son las finalidades de la convivencia|cuales son los fines (?:esenciales )?de la convivencia",
          "7", ("Son fines esenciales", *(f"{n}. " for n in range(1, 7)))),
-        (r"que (?:es|son) (?:una |las )?medidas? correctivas?|definicion de (?:la |una )?medida correctiva",
-         "172", ("Las medidas correctivas, son acciones",)),
-        (r"(?:cuales son las|que) medidas correctivas(?: (?:contempla|establece|enumera) (?:el codigo|la ley 1801))?",
-         "173", ("Las medidas correctivas a aplicar", *(f"{n}. " for n in range(1, 21)))),
+        (None, "172", ("Las medidas correctivas, son acciones",)),
+        (None, "173", ("Las medidas correctivas a aplicar", *(f"{n}. " for n in range(1, 21)))),
         (r"que (?:es|significa|se entiende por) (?:una |un |el |la )?(?:orden de )?comparendo|definicion (?:de|del) (?:la orden de )?comparendo",
          "218", ("Entiéndase por esta",)),
     )
     for patron, articulo, inicios in reglas:
-        if not re.fullmatch(patron, consulta) and articulo not in alcance_semantico_documental(pregunta):
+        coincide = re.fullmatch(patron, consulta) if patron else articulo == articulo_medidas
+        if not coincide and articulo not in alcance:
             continue
         bloques = [p["texto"] for p in pasajes.values() if p["articulo"] == articulo]
         elegidos = [next((b for b in bloques if b.startswith(inicio)), None) for inicio in inicios]
