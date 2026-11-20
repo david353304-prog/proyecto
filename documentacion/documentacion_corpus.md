@@ -32,12 +32,12 @@ estado de vigencia y tema. La p. 6 exige el corpus en JSON y documentación
 de origen, fecha, segmentación, metadatos y licencia de uso. La p. 7 exige
 verificar vigencia y modificaciones antes de incluir cada artículo.
 
-La entrega para consulta corresponde a la selección pública de 31 artículos.
+La entrega para consulta corresponde a la selección pública de 33 artículos.
 Los JSON de referencia y selección identifican las unidades habilitadas.
 Los metadatos y la auditoría por bloque vinculan cada ventana con esas
 unidades. El estado de cotejo se interpreta junto con el alcance y las
-exclusiones de cada artículo. De los 159 artículos del expediente,
-22 tienen algún apartado en la selección pública. El cotejo de esos
+exclusiones de cada artículo. En la selección anterior de 31 artículos,
+22 de los 159 artículos del expediente tenían algún apartado habilitado. El cotejo de esos
 apartados deja abiertas las diferencias que afectan al resto del artículo.
 
 La guía no fija un mínimo de artículos ni exige entregar el PDF histórico.
@@ -53,20 +53,20 @@ El expediente conserva 159 diferencias. La clasificación de 48 como extracción
 La procedencia identifica textos legales y compilaciones oficiales, así como el PDF histórico y la edición empleada. Falta acreditar una licencia específica del PDF EVA, las notas editoriales y los elementos de las compilaciones. El expediente preserva su atribución y el índice público excluye las notas. La revisión de condiciones de redistribución del PDF y de los contenidos editoriales permanece pendiente.
 
 
-## Control reproducido sobre el corpus público v2
+## Control histórico del corpus público v2 de 31 artículos
 
 La auditoría del 19 de noviembre verificó 248 bloques de 31 artículos,
 127 ventanas y dimensión 384. Reconstruyó los textos y sus intervalos,
 verificó la procedencia de los bloques y la exclusión de textos
 inexequibles y comprobó la normalización de los vectores. La evaluación
-HTTP v2 corresponde a la huella actual. El pasaje histórico de RAG-031
+HTTP v2 corresponde a la huella del corpus de esa corrida. El pasaje histórico de RAG-031
 se conserva como prueba separada del rótulo del parágrafo 2.
 
 - Corpus: `e1095acca700aa3c8d84b62e411c45f32a55c9bdf49ccbb6c46f6132d7459b55`.
 - FAISS: `6ea62b8b5a1bfd00ae04bf487f5c2c46dea9b98e445f9d14d49bf535d7bf5eb7`.
 - Metadatos: `dc7e02316f4ed234b46f14d103dacf2d6f256c1c10caec4ddadf09265d9b0073`.
 
-[Auditoría actual por apartado](../motor_documental/pruebas/auditoria_corpus_pendientes_v2.json)
+[Auditoría histórica por apartado](../motor_documental/pruebas/auditoria_corpus_pendientes_v2.json)
 
 El artículo 93 se publica con el numeral 1 y su fila de medida.
 La Ley 2450 de 2025 modificó el tratamiento del ruido, incluida la
@@ -383,7 +383,8 @@ cotejados y funciona con el corpus y el índice públicos existentes.
 
 ## 10. Alcance documental y verificaciones pendientes
 
-- El índice público v2 contiene 31 artículos y 127 ventanas. El manifiesto
+- El índice público actual contiene apartados de 33 artículos y 132 ventanas
+  vectorizadas de dimensión 384. El manifiesto
   registra jerarquía, título, tema, fecha, fuente y apartados. El cotejo
   se aplica por apartado. El expediente distingue captura y revisión.
 - El edicto de la Corte confirma los resolutivos de C-223/17 sobre los

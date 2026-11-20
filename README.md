@@ -7,9 +7,10 @@ separa las conductas de las medidas correctivas cuando ambas aparecen.
 Despliega **Ver fragmentos recuperados** para revisar el texto de respaldo
 y abrir la fuente normativa en otra pestaña.
 
-El índice público usa apartados de 31 artículos y 127 vectores.
-Consulta los [hitos y controles de publicación](documentacion/hitos_publicacion.md)
-para identificar la huella evaluada, el alcance del cotejo y el estado de la rama remota.
+El índice público reúne apartados cotejados de 33 artículos y 132 vectores
+de dimensión 384. Los 249 artículos del corpus histórico se conservan
+como antecedente documental. El [alcance público actual y su auditoría](documentacion/documentacion_corpus.md#ampliación-de-medidas-correctivas-del-20-de-noviembre-de-2026)
+documentan los apartados habilitados y sus exclusiones.
 El [informe técnico final](output/pdf/informe_tecnico_final.pdf) resume
 las comprobaciones obligatorias y el resultado de latencia.
 
