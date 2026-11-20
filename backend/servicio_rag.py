@@ -1,18 +1,19 @@
 """Servicio FastAPI para el chatbot jurídico RAG."""
 
 from contextlib import asynccontextmanager
-import os
+import logging
 
 from motor_documental.cargar_entorno import cargar_entorno
 
 cargar_entorno()
 
 from fastapi import FastAPI, HTTPException
+from google.genai.errors import APIError
 from pydantic import BaseModel, Field
 from starlette.concurrency import run_in_threadpool
 
 from motor_documental.generador_respuestas_rag import (
-    GeneradorRespuestasRAG, respuesta_fuera_dominio, respuesta_sin_respaldo,
+    GeneracionNoDisponible, GeneradorRespuestasRAG, respuesta_fuera_dominio, respuesta_sin_respaldo,
 )
 from motor_documental.salida_segura_rag import preparar_salida_publica
 from motor_documental.indice_publicable import huella_corpus
@@ -27,8 +28,7 @@ generador = None
 @asynccontextmanager
 async def lifespan(app: FastAPI):
     global generador
-    if os.environ.get("GEMINI_API_KEY"):
-        generador = GeneradorRespuestasRAG()
+    generador = GeneradorRespuestasRAG()
     yield
     generador = None
 
@@ -48,7 +48,7 @@ def estado():
     return {
         "estado": "activo",
         "modo_respuesta": "citas_extractivas",
-        "generacion_configurada": generador is not None,
+        "generacion_configurada": generador is not None and generador.cliente is not None,
         "sha256_corpus_publicable": huella_corpus(),
     }
 
@@ -83,6 +83,13 @@ async def consultar(datos: Consulta):
         )
         return preparar_salida_publica(resultado)
 
+    except GeneracionNoDisponible:
+        raise HTTPException(status_code=503, detail="Generación sin configurar.") from None
+    except APIError as error:
+        if error.code in {429, 503, 504}:
+            logging.getLogger(__name__).warning("Generación externa indisponible: HTTP %s", error.code)
+            raise HTTPException(status_code=503, detail="Servicio de generación temporalmente limitado o no disponible.") from None
+        raise HTTPException(status_code=500, detail="No fue posible procesar la consulta.") from None
     except Exception:
         raise HTTPException(
             status_code=500,

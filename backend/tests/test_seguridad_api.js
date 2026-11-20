@@ -113,7 +113,7 @@ test("La API comunica la indisponibilidad del motor sin exponer detalles", async
 
     assert.equal(resultado.estado, 503);
     assert.deepEqual(resultado.datos, {
-        error: "La generación de respuestas no está disponible."
+        error: "El servicio de generación de respuestas no está disponible en este momento. Intenta nuevamente más tarde."
     });
 });
 

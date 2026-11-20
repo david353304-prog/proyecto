@@ -275,7 +275,7 @@ app.post("/api/chat", async (req, res) => {
 
         if (respuestaFastAPI.status === 503) {
             return res.status(503).json({
-                error: "La generación de respuestas no está disponible."
+                error: "El servicio de generación de respuestas no está disponible en este momento. Intenta nuevamente más tarde."
             });
         }
 

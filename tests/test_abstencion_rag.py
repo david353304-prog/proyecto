@@ -182,14 +182,14 @@ class TestAbstencionRAG(unittest.TestCase):
         cliente = TestClient(servicio_rag.app)
         mensaje = {"pregunta": "¿Qué objetivos específicos establece el Código?"}
         api = motor.cliente._api_client
-        for codigo, error in ((429, errors.ClientError), (503, errors.ServerError)):
+        for codigo, error in ((429, errors.ClientError), (503, errors.ServerError), (504, errors.ServerError)):
             with self.subTest(codigo=codigo), patch.object(
                 servicio_rag, "generador", motor
             ), patch.object(api._retry, "sleep"), patch.object(
                 api, "_request_once", side_effect=error(codigo, {"error": {"message": "dato privado"}})
             ) as intento:
                 respuesta = cliente.post("/consultar", json=mensaje)
-                self.assertEqual(respuesta.status_code, 500)
+                self.assertEqual(respuesta.status_code, 503)
                 self.assertEqual(intento.call_count, 3)
                 self.assertNotIn("dato privado", respuesta.text)
 
@@ -575,3 +575,50 @@ class TestAbstencionRAG(unittest.TestCase):
         self.assertEqual(respuesta.status_code, 200)
         self.assertEqual(respuesta.json()["validacion_documental"]["estado"], "TEXTO_INEXEQUIBLE")
         self.assertEqual(respuesta.json()["fuentes_recuperadas"], [])
+
+    def test_api_directa_y_fallos_del_proveedor(self):
+        from fastapi.testclient import TestClient
+        from google.genai.errors import ClientError, ServerError
+        from backend import servicio_rag
+
+        cliente = TestClient(servicio_rag.app)
+        generar = self.generador.cliente.models.generate_content
+        with patch.object(servicio_rag, "generador", self.generador):
+            for pregunta, articulo, cantidad in (
+                ("¿Qué es la convivencia?", "5", 1),
+                ("¿Qué entiende el Código por convivencia?", "5", 1),
+                ("¿Qué es una multa?", "180", 1),
+                ("¿Cómo se clasifican las multas?", "180", 1),
+                ("¿Cuáles son las finalidades de la convivencia?", "7", 7),
+            ):
+                with self.subTest(pregunta=pregunta):
+                    self.generador.recuperador.buscar.return_value["resultados_generales"] = [{"articulo": articulo}]
+                    r = cliente.post("/consultar", json={"pregunta": pregunta})
+                    self.assertEqual(r.status_code, 200)
+                    datos = r.json()
+                    self.assertEqual(datos["modelo"], "extracción documental")
+                    self.assertEqual(datos["validacion_documental"]["estado"], "PENDIENTE_VALIDACION")
+                    self.assertEqual([f["articulo"] for f in datos["fuentes_recuperadas"]], [articulo])
+                    citas = re.findall(r"«([^»]+)»", datos["respuesta"])
+                    self.assertEqual(len(citas), cantidad)
+                    for cita in citas:
+                        self.assertIn(cita, datos["fuentes_recuperadas"][0]["texto"])
+            for pregunta, esperado in (
+                ("¿Cuánto debo pagar exactamente por construir sin licencia?", "SIN_RESPALDO"),
+                ("¿Qué multa debo pagar por declarar renta tarde?", "FUERA_DE_DOMINIO"),
+            ):
+                datos = cliente.post("/consultar", json={"pregunta": pregunta}).json()
+                self.assertEqual(datos["validacion_documental"]["estado"], esperado)
+                self.assertEqual(datos["fuentes_recuperadas"], [])
+            generar.assert_not_called()
+            self.generador.recuperador.buscar.return_value["resultados_generales"] = [{"articulo": "135"}]
+            for codigo in (429, 503, 504):
+                clase = ClientError if codigo == 429 else ServerError
+                generar.side_effect = clase(codigo, {"error": {"message": "dato interno"}})
+                for pregunta in ("¿Qué pasa si construyo sin permisos?",
+                                 "¿Qué sanciones contempla la Ley 1801 por construir sin autorización?"):
+                    r = cliente.post("/consultar", json={"pregunta": pregunta})
+                    self.assertEqual(r.status_code, 503)
+                    self.assertIn("generación temporalmente", r.json()["detail"])
+                    self.assertNotIn("dato interno", r.text)
+            self.assertEqual(generar.call_count, 6)

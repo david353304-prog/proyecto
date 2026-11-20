@@ -1,0 +1,201 @@
+{
+  "estado_motor": {
+    "estado": "activo",
+    "modo_respuesta": "citas_extractivas",
+    "generacion_configurada": true,
+    "sha256_corpus_publicable": "e1095acca700aa3c8d84b62e411c45f32a55c9bdf49ccbb6c46f6132d7459b55"
+  },
+  "filas": [
+    {
+      "id": "0",
+      "pregunta": "¿Qué es la convivencia?",
+      "http": 200,
+      "segundos": 0.104829,
+      "respuesta": {
+        "fuentes_recuperadas": [
+          {
+            "articulo": "5",
+            "numeral": "",
+            "titulo": "DEFINICIÓN",
+            "texto": "ARTÍCULO 5. DEFINICIÓN. Para los efectos de este Código, se entiende por convivencia, la interacción pacífica, respetuosa y armónica entre las personas, con los bienes, y con el ambiente, en el marco del ordenamiento jurídico.",
+            "url_fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm"
+          }
+        ],
+        "pregunta": "¿Qué es la convivencia?",
+        "respuesta": "**Artículo 5.** «Para los efectos de este Código, se entiende por convivencia, la interacción pacífica, respetuosa y armónica entre las personas, con los bienes, y con el ambiente, en el marco del ordenamiento jurídico.»",
+        "modelo": "extracción documental",
+        "total_generales": 1,
+        "total_estructurados": 0,
+        "validacion_documental": {
+          "estado": "PENDIENTE_VALIDACION",
+          "advertencias": []
+        }
+      },
+      "llamada_gemini_confirmada": false,
+      "estado_documental": "PENDIENTE_VALIDACION"
+    },
+    {
+      "id": "1",
+      "pregunta": "¿Qué entiende el Código por convivencia?",
+      "http": 200,
+      "segundos": 0.043046,
+      "respuesta": {
+        "fuentes_recuperadas": [
+          {
+            "articulo": "5",
+            "numeral": "",
+            "titulo": "DEFINICIÓN",
+            "texto": "ARTÍCULO 5. DEFINICIÓN. Para los efectos de este Código, se entiende por convivencia, la interacción pacífica, respetuosa y armónica entre las personas, con los bienes, y con el ambiente, en el marco del ordenamiento jurídico.",
+            "url_fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm"
+          }
+        ],
+        "pregunta": "¿Qué entiende el Código por convivencia?",
+        "respuesta": "**Artículo 5.** «Para los efectos de este Código, se entiende por convivencia, la interacción pacífica, respetuosa y armónica entre las personas, con los bienes, y con el ambiente, en el marco del ordenamiento jurídico.»",
+        "modelo": "extracción documental",
+        "total_generales": 1,
+        "total_estructurados": 0,
+        "validacion_documental": {
+          "estado": "PENDIENTE_VALIDACION",
+          "advertencias": []
+        }
+      },
+      "llamada_gemini_confirmada": false,
+      "estado_documental": "PENDIENTE_VALIDACION"
+    },
+    {
+      "id": "2",
+      "pregunta": "¿Qué es una multa?",
+      "http": 200,
+      "segundos": 0.033421,
+      "respuesta": {
+        "fuentes_recuperadas": [
+          {
+            "articulo": "180",
+            "numeral": "",
+            "titulo": "MULTAS",
+            "texto": "ARTÍCULO 180. MULTAS. Es la imposición del pago de una suma de dinero en moneda colombiana, cuya graduación depende del comportamiento realizado, según la cual varía el monto de la multa. Así mismo, la desobediencia, resistencia, desacato, o reiteración del comportamiento contrario a la convivencia, incrementará el valor de la multa, sin perjuicio de los intereses causados y el costo del cobro coactivo. las multas se clasifican en generales y especiales.",
+            "url_fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#180"
+          }
+        ],
+        "pregunta": "¿Qué es una multa?",
+        "respuesta": "**Artículo 180.** «Es la imposición del pago de una suma de dinero en moneda colombiana, cuya graduación depende del comportamiento realizado, según la cual varía el monto de la multa. Así mismo, la desobediencia, resistencia, desacato, o reiteración del comportamiento contrario a la convivencia, incrementará el valor de la multa, sin perjuicio de los intereses causados y el costo del cobro coactivo.»",
+        "modelo": "extracción documental",
+        "total_generales": 1,
+        "total_estructurados": 0,
+        "validacion_documental": {
+          "estado": "PENDIENTE_VALIDACION",
+          "advertencias": []
+        }
+      },
+      "llamada_gemini_confirmada": false,
+      "estado_documental": "PENDIENTE_VALIDACION"
+    },
+    {
+      "id": "3",
+      "pregunta": "¿Cómo se clasifican las multas?",
+      "http": 200,
+      "segundos": 0.026519,
+      "respuesta": {
+        "fuentes_recuperadas": [
+          {
+            "articulo": "180",
+            "numeral": "",
+            "titulo": "MULTAS",
+            "texto": "ARTÍCULO 180. MULTAS. Es la imposición del pago de una suma de dinero en moneda colombiana, cuya graduación depende del comportamiento realizado, según la cual varía el monto de la multa. Así mismo, la desobediencia, resistencia, desacato, o reiteración del comportamiento contrario a la convivencia, incrementará el valor de la multa, sin perjuicio de los intereses causados y el costo del cobro coactivo. las multas se clasifican en generales y especiales.",
+            "url_fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#180"
+          }
+        ],
+        "pregunta": "¿Cómo se clasifican las multas?",
+        "respuesta": "**Artículo 180.** «las multas se clasifican en generales y especiales.»",
+        "modelo": "extracción documental",
+        "total_generales": 1,
+        "total_estructurados": 0,
+        "validacion_documental": {
+          "estado": "PENDIENTE_VALIDACION",
+          "advertencias": []
+        }
+      },
+      "llamada_gemini_confirmada": false,
+      "estado_documental": "PENDIENTE_VALIDACION"
+    },
+    {
+      "id": "4",
+      "pregunta": "¿Cuáles son las finalidades de la convivencia?",
+      "http": 200,
+      "segundos": 0.020218,
+      "respuesta": {
+        "fuentes_recuperadas": [
+          {
+            "articulo": "7",
+            "numeral": "",
+            "titulo": "FINALIDADES DE LA CONVIVENCIA",
+            "texto": "ARTÍCULO 7. FINALIDADES DE LA CONVIVENCIA. Son fines esenciales de las normas de convivencia social previstas en este Código: 1. Que el ejercicio de los derechos y libertades sean garantizados y respetados en el marco de la Constitución y la ley. 2. El cumplimiento de los deberes contenidos en la Constitución, la ley y las normas que regulan la convivencia. 3. El respeto por las diferencias y la aceptación de ellas. 4. La resolución pacífica de los desacuerdos que afecten la convivencia. 5. La convergencia de los intereses personales y generales para promover un desarrollo armónico. 6. prevalencia de los valores sociales de solidaridad, tolerancia, responsabilidad, honradez, respeto, bondad, libertad, justicia, igualdad, fraternidad, lealtad, prudencia y paz.",
+            "url_fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#7"
+          }
+        ],
+        "pregunta": "¿Cuáles son las finalidades de la convivencia?",
+        "respuesta": "**Artículo 7.** «Son fines esenciales de las normas de convivencia social previstas en este Código:»\n\n**Numeral 1 del artículo 7.** «1. Que el ejercicio de los derechos y libertades sean garantizados y respetados en el marco de la Constitución y la ley.»\n\n**Numeral 2 del artículo 7.** «2. El cumplimiento de los deberes contenidos en la Constitución, la ley y las normas que regulan la convivencia.»\n\n**Numeral 3 del artículo 7.** «3. El respeto por las diferencias y la aceptación de ellas.»\n\n**Numeral 4 del artículo 7.** «4. La resolución pacífica de los desacuerdos que afecten la convivencia.»\n\n**Numeral 5 del artículo 7.** «5. La convergencia de los intereses personales y generales para promover un desarrollo armónico.»\n\n**Numeral 6 del artículo 7.** «6. prevalencia de los valores sociales de solidaridad, tolerancia, responsabilidad, honradez, respeto, bondad, libertad, justicia, igualdad, fraternidad, lealtad, prudencia y paz.»",
+        "modelo": "extracción documental",
+        "total_generales": 1,
+        "total_estructurados": 0,
+        "validacion_documental": {
+          "estado": "PENDIENTE_VALIDACION",
+          "advertencias": []
+        }
+      },
+      "llamada_gemini_confirmada": false,
+      "estado_documental": "PENDIENTE_VALIDACION"
+    },
+    {
+      "id": "5",
+      "pregunta": "¿Cuánto debo pagar exactamente por construir sin licencia?",
+      "http": 200,
+      "segundos": 0.030132,
+      "respuesta": {
+        "fuentes_recuperadas": [],
+        "pregunta": "¿Cuánto debo pagar exactamente por construir sin licencia?",
+        "respuesta": "No encontré respaldo suficiente en los fragmentos de la Ley 1801 de 2016.",
+        "modelo": "verificación documental",
+        "total_generales": 0,
+        "total_estructurados": 0,
+        "validacion_documental": {
+          "estado": "SIN_RESPALDO",
+          "advertencias": []
+        }
+      },
+      "llamada_gemini_confirmada": false,
+      "estado_documental": "SIN_RESPALDO"
+    },
+    {
+      "id": "6",
+      "pregunta": "¿Qué multa debo pagar por declarar renta tarde?",
+      "http": 200,
+      "segundos": 0.013496,
+      "respuesta": {
+        "fuentes_recuperadas": [],
+        "pregunta": "¿Qué multa debo pagar por declarar renta tarde?",
+        "respuesta": "La información solicitada queda fuera del corpus de la Ley 1801 de 2016.",
+        "modelo": "clasificador temático",
+        "total_generales": 0,
+        "total_estructurados": 0,
+        "validacion_documental": {
+          "estado": "FUERA_DE_DOMINIO",
+          "advertencias": []
+        }
+      },
+      "llamada_gemini_confirmada": false,
+      "estado_documental": "FUERA_DE_DOMINIO"
+    },
+    {
+      "id": "7",
+      "pregunta": "¿Qué pasa si construyo sin permisos?",
+      "http": 503,
+      "segundos": 7.173631,
+      "respuesta": {
+        "error": "El servicio de generación de respuestas no está disponible en este momento. Intenta nuevamente más tarde."
+      },
+      "llamada_gemini_confirmada": false,
+      "estado_documental": null
+    }
+  ]
+}

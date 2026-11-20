@@ -111,6 +111,9 @@ def articulos_para_consulta(pregunta):
     texto = normalizar(pregunta)
     # En consultas urbanísticas, «sin autorización» expresa la falta de licencia.
     texto_urbanistico = re.sub(r"\bsin autorizacion\b", "sin licencia", texto)
+    texto_urbanistico = re.sub(
+        r"\bcuanto (?:debo|tengo que|hay que) pagar\b", "cuantia", texto_urbanistico
+    )
     explicitos = articulos_mencionados(pregunta)
     if explicitos:
         if explicitos - corpus.keys():
@@ -125,7 +128,9 @@ def articulos_para_consulta(pregunta):
             or (
                 not consulta_multiple and not numeral_sin_identificar
                 and len(solicitados) <= 1 and not paragrafo
-                and not re.search(corpus[numero]["exclusiones_consulta"], texto)
+                and not re.search(
+                    corpus[numero]["exclusiones_consulta"], texto_urbanistico if numero == "135" else texto
+                )
                 and solicitados <= set(corpus[numero]["numerales"])
                 and (solicitados or re.search(
                     corpus[numero]["consulta"], texto_urbanistico if numero == "135" else texto
@@ -145,7 +150,10 @@ def articulos_para_consulta(pregunta):
             registro.get("consulta", patrones.get(numero, r"(?!)")),
             texto_urbanistico if numero == "135" else texto,
         )
-        and not re.search(registro.get("exclusiones_consulta", r"(?!)"), texto)
+        and not re.search(
+            registro.get("exclusiones_consulta", r"(?!)"),
+            texto_urbanistico if numero == "135" else texto,
+        )
     }
 
 

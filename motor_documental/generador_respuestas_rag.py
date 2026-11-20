@@ -174,14 +174,40 @@ def respuesta_sin_respaldo(pregunta, resultados, modelo=MODELO_GEMINI):
     }
 
 
+class GeneracionNoDisponible(RuntimeError):
+    pass
+
+
+def seleccionar_citas_directas(pregunta, pasajes):
+    """Exige todos los bloques que responden a una intención documental simple."""
+    consulta = normalizar(pregunta).strip("¿?¡! .")
+    reglas = (
+        (r"que es (?:la )?convivencia|que (?:se entiende|entiende (?:el codigo|la ley)) por convivencia|definicion de convivencia",
+         "5", ("Para los efectos de este Código, se entiende por convivencia",)),
+        (r"que (?:es|son) (?:una |la |las )?multas?|definicion de (?:la )?multa",
+         "180", ("Es la imposición del pago de una suma de dinero",)),
+        (r"como se clasifican (?:las )?multas",
+         "180", ("las multas se clasifican en generales y especiales.",)),
+        (r"cuales son las finalidades de la convivencia|cuales son los fines (?:esenciales )?de la convivencia",
+         "7", ("Son fines esenciales", *(f"{n}. " for n in range(1, 7)))),
+    )
+    for patron, articulo, inicios in reglas:
+        if not re.fullmatch(patron, consulta):
+            continue
+        bloques = [p["texto"] for p in pasajes.values() if p["articulo"] == articulo]
+        elegidos = [next((b for b in bloques if b.startswith(inicio)), None) for inicio in inicios]
+        if all(elegidos):
+            return "\n\n".join(rotular_pasaje(articulo, bloque) for bloque in elegidos)
+    return None
+
+
 class GeneradorRespuestasRAG:
     def __init__(self):
-        if not os.environ.get("GEMINI_API_KEY"):
-            raise RuntimeError(
-                "No se encontró GEMINI_API_KEY en el entorno."
-            )
-
         self.recuperador = RecuperadorPublicable()
+
+        self.cliente = None
+        if not os.environ.get("GEMINI_API_KEY"):
+            return
 
         self.cliente = genai.Client(
             api_key=os.environ["GEMINI_API_KEY"],
@@ -232,6 +258,21 @@ class GeneradorRespuestasRAG:
             resultados
         )
         pasajes = pasajes_del_contexto(resultados["resultados_generales"])
+        cita_directa = seleccionar_citas_directas(pregunta, pasajes)
+        if cita_directa:
+            validacion = ValidadorRespuestasRAG().validar(respuesta=cita_directa, contexto=contexto)
+            if validacion["estado"] != "REQUIERE_REVISION":
+                return {
+                    "pregunta": pregunta,
+                    "respuesta": cita_directa,
+                    "validacion_documental": validacion,
+                    "modelo": "extracción documental",
+                    "total_generales": resultados["total_generales"],
+                    "total_estructurados": resultados["total_estructurados"],
+                    "resultados_recuperados": resultados,
+                }
+        if self.cliente is None:
+            raise GeneracionNoDisponible()
         catalogo = "\n".join(
             f"{i} [artículo {p['articulo']}] {p['texto']}" for i, p in pasajes.items()
         )
