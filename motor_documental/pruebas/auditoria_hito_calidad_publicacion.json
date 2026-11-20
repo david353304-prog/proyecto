@@ -1,0 +1,261 @@
+{
+  "banco": "dbeab26c86e8cebc541e301b673347584214630b447af06343e3c311c20beaa9",
+  "corpus": "f3153f86278f97bce99f39e490a36103b8e36a37059af45b7d6a9464a5b69d54",
+  "faiss": "1ca5bb84eca52f405cbf31ffe92e93880059bb98db4fe57b16d2cfa63af8285c",
+  "vectores": 117,
+  "recuperacion": {
+    "precision_at_1": 0.64,
+    "hit_at_1": 0.64,
+    "recall_at_1": 0.64,
+    "precision_at_3": 0.2133,
+    "hit_at_3": 0.64,
+    "recall_at_3": 0.64,
+    "precision_at_5": 0.128,
+    "hit_at_5": 0.64,
+    "recall_at_5": 0.64,
+    "precision_at_10": 0.064,
+    "hit_at_10": 0.64,
+    "recall_at_10": 0.64,
+    "precision_at_20": 0.032,
+    "hit_at_20": 0.64,
+    "recall_at_20": 0.64,
+    "precision_at_50": 0.0128,
+    "hit_at_50": 0.64,
+    "recall_at_50": 0.64,
+    "mrr": 0.64
+  },
+  "filas": [
+    {
+      "id": "RAG-001",
+      "citas": 1,
+      "fuentes_visibles": [
+        "1"
+      ],
+      "revision_manual": null
+    },
+    {
+      "id": "RAG-002",
+      "citas": 7,
+      "fuentes_visibles": [
+        "2"
+      ],
+      "revision_manual": null
+    },
+    {
+      "id": "RAG-003",
+      "citas": 15,
+      "fuentes_visibles": [
+        "8"
+      ],
+      "revision_manual": null
+    },
+    {
+      "id": "RAG-004",
+      "citas": 14,
+      "fuentes_visibles": [
+        "27"
+      ],
+      "revision_manual": "Las conductas a?adidas de los numerales 6 a 11 responden a la pregunta general. Las filas pendientes quedan fuera."
+    },
+    {
+      "id": "RAG-007",
+      "citas": 2,
+      "fuentes_visibles": [
+        "36"
+      ],
+      "revision_manual": null
+    },
+    {
+      "id": "RAG-009",
+      "citas": 2,
+      "fuentes_visibles": [
+        "39"
+      ],
+      "revision_manual": null
+    },
+    {
+      "id": "RAG-051",
+      "citas": 1,
+      "fuentes_visibles": [
+        "5"
+      ],
+      "revision_manual": null
+    },
+    {
+      "id": "RAG-012",
+      "citas": 11,
+      "fuentes_visibles": [
+        "77"
+      ],
+      "revision_manual": null
+    },
+    {
+      "id": "RAG-015",
+      "citas": 19,
+      "fuentes_visibles": [
+        "94"
+      ],
+      "revision_manual": null
+    },
+    {
+      "id": "RAG-016",
+      "citas": 3,
+      "fuentes_visibles": [
+        "95"
+      ],
+      "revision_manual": null
+    },
+    {
+      "id": "RAG-017",
+      "citas": 2,
+      "fuentes_visibles": [
+        "111"
+      ],
+      "revision_manual": null
+    },
+    {
+      "id": "RAG-021",
+      "citas": 41,
+      "fuentes_visibles": [
+        "146"
+      ],
+      "revision_manual": "El inventario completo de transporte es pertinente para la pregunta general; los supuestos de cada numeral se mantienen separados."
+    },
+    {
+      "id": "RAG-022",
+      "citas": 2,
+      "fuentes_visibles": [
+        "150"
+      ],
+      "revision_manual": null
+    },
+    {
+      "id": "RAG-026",
+      "citas": 23,
+      "fuentes_visibles": [
+        "206"
+      ],
+      "revision_manual": "Las competencias por instancia y las comisiones responden a la pregunta. La remisi?n al CGP permanece en la cita de 206; no aparece como una fuente recuperada independiente."
+    },
+    {
+      "id": "RAG-027",
+      "citas": 6,
+      "fuentes_visibles": [
+        "222"
+      ],
+      "revision_manual": null
+    },
+    {
+      "id": "RAG-028",
+      "citas": 19,
+      "fuentes_visibles": [
+        "223"
+      ],
+      "revision_manual": null
+    },
+    {
+      "id": "RAG-031",
+      "citas": 4,
+      "fuentes_visibles": [
+        "27"
+      ],
+      "revision_manual": null
+    },
+    {
+      "id": "RAG-035",
+      "citas": 7,
+      "fuentes_visibles": [
+        "77"
+      ],
+      "revision_manual": "La pregunta abre el alcance a comportamientos relativos a posesi?n. La medida del numeral 1 se presenta como previsi?n normativa."
+    },
+    {
+      "id": "RAG-037",
+      "citas": 2,
+      "fuentes_visibles": [
+        "93"
+      ],
+      "revision_manual": null
+    },
+    {
+      "id": "RAG-038",
+      "citas": 3,
+      "fuentes_visibles": [
+        "94"
+      ],
+      "revision_manual": null
+    },
+    {
+      "id": "RAG-039",
+      "citas": 3,
+      "fuentes_visibles": [
+        "95"
+      ],
+      "revision_manual": null
+    },
+    {
+      "id": "RAG-040",
+      "citas": 6,
+      "fuentes_visibles": [
+        "111"
+      ],
+      "revision_manual": null
+    },
+    {
+      "id": "RAG-041",
+      "citas": 4,
+      "fuentes_visibles": [
+        "124"
+      ],
+      "revision_manual": "El numeral 7 conserva el requisito de tolerar, permitir o inducir el ataque. El texto visible no afirma que haya ocurrido un ataque."
+    },
+    {
+      "id": "RAG-042",
+      "citas": 5,
+      "fuentes_visibles": [
+        "135"
+      ],
+      "revision_manual": null
+    },
+    {
+      "id": "RAG-043",
+      "citas": 4,
+      "fuentes_visibles": [
+        "140"
+      ],
+      "revision_manual": null
+    },
+    {
+      "id": "RAG-044",
+      "citas": 14,
+      "fuentes_visibles": [
+        "146"
+      ],
+      "revision_manual": "Las siete conductas de pasajeros y sus respectivas filas corresponden al alcance del ejemplo y permanecen visibles."
+    },
+    {
+      "id": "RAG-045",
+      "citas": 2,
+      "fuentes_visibles": [
+        "150"
+      ],
+      "revision_manual": "Los dos incisos distinguen la forma verbal de la obligatoriedad. La referencia es m?s amplia que la pregunta literal, pero el inciso adicional explica el contexto de una orden en un procedimiento."
+    },
+    {
+      "id": "RAG-049",
+      "citas": 6,
+      "fuentes_visibles": [
+        "222"
+      ],
+      "revision_manual": null
+    },
+    {
+      "id": "RAG-050",
+      "citas": 19,
+      "fuentes_visibles": [
+        "223"
+      ],
+      "revision_manual": null
+    }
+  ]
+}
