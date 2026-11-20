@@ -1,5 +1,26 @@
 # Documentación del corpus jurídico del chatbot RAG
 
+## Alcance de la entrega según la guía del docente
+
+La p. 3 exige texto oficial vigente, fecha de consulta, identificación de
+reformas y fallos pertinentes, limpieza y segmentación hasta parágrafo y
+numeral. Cada fragmento requiere identificador, jerarquía, epígrafe,
+estado de vigencia y tema. La p. 6 exige el corpus en JSON y documentación
+de origen, fecha, segmentación, metadatos y licencia de uso. La p. 7 exige
+verificar vigencia y modificaciones antes de incluir cada artículo.
+
+La entrega para consulta corresponde a la selección pública de 31 artículos.
+Los JSON de referencia y selección identifican las unidades habilitadas.
+Los metadatos y la auditoría por bloque vinculan cada ventana con esas
+unidades. El estado de cotejo se interpreta junto con el alcance y las
+exclusiones de cada artículo. De los 159 artículos del expediente,
+22 tienen algún apartado en la selección pública. El cotejo de esos
+apartados deja abiertas las diferencias que afectan al resto del artículo.
+
+La guía no fija un mínimo de artículos ni exige entregar el PDF histórico.
+Las condiciones de uso documentan la base de reproducción del texto
+normativo y el tratamiento de los elementos editoriales.
+
 ## Auditoría del corpus público de 28 artículos (evidencia histórica)
 
 La selección de cierre reúne 28 artículos, 128 bloques aprobados y 63 ventanas. La auditoría reconstruye cada artículo desde su encabezado y los bloques seleccionados de la referencia. Verifica el texto y los caracteres de inicio y fin de cada ventana, y recalcula sus IDs de apartado por intersección con los bloques. Excluye los textos históricos bloqueados y comprueba que el material público carezca de marcas de notas editoriales. El registro indica entidad, URL, captura, revisión disponible, huella o posición del bloque y enlaces de cotejo. [Auditoría por bloque](../motor_documental/pruebas/auditoria_corpus_cierre.json)

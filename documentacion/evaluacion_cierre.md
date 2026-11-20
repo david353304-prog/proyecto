@@ -221,3 +221,20 @@ dos 502. Se conserva esa corrida como evaluación completa de referencia.
 
 [Control de siete casos](../motor_documental/pruebas/control_latencia_cierre_v2.json)
 · [Traza por intento](../motor_documental/pruebas/traza_latencia_cierre_v2.jsonl)
+
+### Criterio del enunciado original
+
+La fase 6 (p. 5) exige al menos 50 preguntas con respuesta de referencia
+y artículos esperados, métricas de recuperación y de respuesta, y análisis
+de errores. El entregable de evaluación figura en la p. 6 y las preguntas
+trampa en la p. 7. La corrida v2, el comparativo por ID y la traza
+documentados arriba son la evidencia de estos criterios.
+
+RNF1 (p. 5) exige «Tiempo de respuesta inferior a 10 segundos por consulta
+en el entorno de pruebas». El enunciado no fija un promedio, percentil o
+carga concurrente. Se usa el tiempo HTTP de extremo a extremo de cada
+consulta. De los seis casos que alcanzaron o superaron 10 s en la corrida
+completa, cinco fueron HTTP 200 y uno fue HTTP 502. Por tanto, RNF1 queda
+incumplido incluso si se consideran solamente las respuestas exitosas.
+Los controles dirigidos conservan evidencia de recuperación ante fallos
+transitorios del proveedor.
