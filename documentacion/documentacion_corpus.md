@@ -331,6 +331,12 @@ texto del índice público.
 [Condiciones del portal](https://www1.funcionpublica.gov.co/politica-de-privacidad-y-condiciones-de-uso)
 · [PDF EVA](https://www.funcionpublica.gov.co/eva/gestornormativo/norma_pdf.php?i=80538)
 
+La entrega actual retira el archivo PDF histórico del árbol publicado.
+La copia local se conserva en su ruta original para reproducir la extracción
+histórica cuando se disponga del archivo. El historial de Git conserva
+la versión anteriormente publicada. El chatbot usa los apartados
+cotejados y funciona con el corpus y el índice públicos existentes.
+
 ## 10. Alcance documental y verificaciones pendientes
 
 - El índice público v2 contiene 31 artículos y 127 ventanas. El manifiesto
@@ -357,7 +363,7 @@ actualizadas ni el asesoramiento jurídico profesional.
 
 ## 12. Archivos relacionados
 
-- `motor_documental/corpus/Ley_1801_de_2016.pdf`
+- `motor_documental/corpus/Ley_1801_de_2016.pdf` (copia histórica local)
 - `motor_documental/corpus/articulos_ley_1801.json`
 - `motor_documental/fragmentos/fragmentos_ley_1801.json`
 - `motor_documental/extraer_texto.py`
