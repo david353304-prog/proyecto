@@ -129,11 +129,57 @@ def articulo_consulta_medidas(pregunta):
     return None
 
 
+def conceptos_para_consulta(pregunta):
+    """Identifica definiciones y pares comparables sin admitir condiciones de un caso."""
+    texto = normalizar(pregunta).strip("¿?¡! .")
+    conceptos = {
+        "180": r"multas?",
+        "172": r"medidas? correctivas?",
+        "218": r"(?:orden de )?comparendo",
+    }
+
+    def identificar(termino):
+        termino = re.sub(r"^(?:un|una|el|la|las) ", "", termino)
+        return next((n for n, patron in conceptos.items() if re.fullmatch(patron, termino)), None)
+
+    definicion = re.fullmatch(
+        r"(?:como define (?:el codigo|la ley(?: 1801)?)|"
+        r"que entiende (?:el codigo|la ley(?: 1801)?) por|"
+        r"a que se refiere (?:el codigo|la ley(?: 1801)?) (?:con|cuando habla de)|"
+        r"que quiere decir (?:el codigo|la ley(?: 1801)?) (?:con|cuando habla de)) (.+)",
+        texto,
+    )
+    if definicion:
+        articulo = identificar(definicion[1])
+        return (articulo,) if articulo else ()
+
+    comparacion = re.fullmatch(
+        r"(?:(?:que diferencia hay|cual es la diferencia|en que se diferencian)(?: entre)?|"
+        r"es lo mismo) (.+?) (?:y|que) (.+)", texto
+    )
+    if comparacion:
+        primero, segundo = map(identificar, comparacion.groups())
+        if {primero, segundo} == {"172", "180"}:
+            return (primero, segundo, "173")
+        if {primero, segundo} == {"218", "180"}:
+            return (primero, segundo)
+    return ()
+
+
+def consulta_suspension_sin_licencia(pregunta):
+    return bool(re.fullmatch(
+        r"por que (?:puede suspenderse|se puede suspender|se suspende) "
+        r"(?:una|la) (?:construccion|obra) (?:sin (?:previa )?licencia|que no tiene licencia)",
+        normalizar(pregunta).strip("¿?¡! ."),
+    ))
+
+
 def articulos_para_consulta(pregunta):
     corpus = corpus_publicable()
     texto = normalizar(pregunta)
     # En consultas urbanísticas, «sin autorización» expresa la falta de licencia.
     texto_urbanistico = re.sub(r"\bsin autorizacion\b", "sin licencia", texto)
+    texto_urbanistico = re.sub(r"\bque no tiene licencia\b", "sin licencia", texto_urbanistico)
     texto_urbanistico = re.sub(
         r"\bcuanto (?:debo|tengo que|hay que) pagar\b", "cuantia", texto_urbanistico
     )
@@ -160,6 +206,9 @@ def articulos_para_consulta(pregunta):
                 ))
             )
         }
+    conceptos = conceptos_para_consulta(pregunta)
+    if conceptos:
+        return set(conceptos) if set(conceptos) <= corpus.keys() else set()
     articulo_medidas = articulo_consulta_medidas(pregunta)
     if articulo_medidas in corpus:
         return {articulo_medidas}

@@ -649,3 +649,65 @@ class TestAbstencionRAG(unittest.TestCase):
         self.assertEqual(self.generador.responder(
             "¿Cuánto cuesta renovar mi licencia de conducción según el Código?"
         )["validacion_documental"]["estado"], "FUERA_DE_DOMINIO")
+
+    def test_parafrasis_y_comparaciones_documentales(self):
+        generar = self.generador.cliente.models.generate_content
+        casos = (
+            ("¿Qué es un comparendo?", ("218",), 1),
+            ("¿Cómo define el Código un comparendo?", ("218",), 1),
+            ("¿Qué entiende la Ley 1801 por comparendo?", ("218",), 1),
+            ("¿A qué se refiere el Código cuando habla de comparendo?", ("218",), 1),
+            ("¿Qué es una multa?", ("180",), 1),
+            ("¿Cómo define el Código una multa?", ("180",), 1),
+            ("¿Qué es una medida correctiva?", ("172",), 1),
+            ("¿Qué significa una medida correctiva según la ley?", ("172",), 1),
+            ("¿Qué diferencia hay entre una multa y una medida correctiva?", ("180", "172", "173"), 3),
+            ("¿Cuál es la diferencia entre un comparendo y una multa?", ("218", "180"), 2),
+            ("¿Es lo mismo un comparendo que una multa?", ("218", "180"), 2),
+            ("¿En qué se diferencian las medidas correctivas y las multas?", ("172", "180", "173"), 3),
+            ("¿Por qué puede suspenderse una construcción que no tiene licencia?", ("135",), 3),
+            ("¿Por qué se puede suspender una obra sin licencia?", ("135",), 3),
+        )
+        for pregunta, articulos, cantidad in casos:
+            with self.subTest(pregunta=pregunta):
+                self.generador.recuperador.buscar.return_value["resultados_generales"] = [
+                    {"articulo": a} for a in articulos
+                ]
+                datos = preparar_salida_publica(self.generador.responder(pregunta))
+                self.generador.recuperador.buscar.assert_called_with(
+                    pregunta, cantidad_general=5, articulos_permitidos=set(articulos)
+                )
+                self.assertEqual(datos["modelo"], "extracción documental")
+                self.assertEqual({f["articulo"] for f in datos["fuentes_recuperadas"]}, set(articulos))
+                citas = re.findall(r"«([^»]+)»", datos["respuesta"])
+                self.assertEqual(len(citas), cantidad)
+                for cita in citas:
+                    self.assertTrue(any(cita in f["texto"] for f in datos["fuentes_recuperadas"]))
+                if "173" in articulos:
+                    self.assertIn("Numeral 7 del artículo 173", datos["respuesta"])
+        generar.assert_not_called()
+        catalogo = rag.pasajes_del_contexto([corpus_publicable()["218"]])
+        self.assertIsNone(rag.seleccionar_citas_directas(
+            "¿Es lo mismo un comparendo que una multa?", catalogo
+        ))
+
+    def test_medidas_urbanisticas_generativas_y_cuantia_excluida(self):
+        self.generador.recuperador.buscar.return_value["resultados_generales"] = [{"articulo": "135"}]
+        generar = self.generador.cliente.models.generate_content
+        generar.return_value = SimpleNamespace(text='{"pasajes":["P2","P3","P5"]}')
+        for pregunta in ("¿Qué pasa si construyo sin permisos?",
+                         "¿Qué medidas contempla el Código ante una construcción sin licencia?"):
+            datos = preparar_salida_publica(self.generador.responder(pregunta))
+            self.assertEqual(datos["modelo"], rag.MODELO_GEMINI)
+            self.assertIn("Parágrafo 1 del artículo 135", datos["respuesta"])
+            self.assertIn("Multa especial por infracción urbanística", datos["respuesta"])
+        self.assertEqual(generar.call_count, 2)
+        for pregunta, estado in (
+            ("¿Cuánto debo pagar exactamente por construir sin licencia?", "SIN_RESPALDO"),
+            ("¿Es lo mismo un comparendo de tránsito que una multa?", "FUERA_DE_DOMINIO"),
+            ("¿Qué dice el artículo 162 para aplicar su texto original?", "TEXTO_INEXEQUIBLE"),
+        ):
+            datos = preparar_salida_publica(self.generador.responder(pregunta))
+            self.assertEqual(datos["validacion_documental"]["estado"], estado)
+            self.assertEqual(datos["fuentes_recuperadas"], [])
+        self.assertEqual(generar.call_count, 2)

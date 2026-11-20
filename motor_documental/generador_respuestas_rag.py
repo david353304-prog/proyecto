@@ -17,6 +17,7 @@ from motor_documental.instrucciones_ia import (
 from motor_documental.vigencia_rag import (
     SIMILITUD_MINIMA_DEFINICION, alcance_semantico_documental,
     articulo_consulta_medidas, articulos_mencionados, articulos_para_consulta, contexto_publicable,
+    conceptos_para_consulta, consulta_suspension_sin_licencia,
     pasajes_del_contexto, respuesta_revision_pendiente, respuesta_texto_inexequible,
 )
 
@@ -184,28 +185,54 @@ def seleccionar_citas_directas(pregunta, pasajes):
     consulta = normalizar(pregunta).strip("¿?¡! .")
     articulo_medidas = articulo_consulta_medidas(pregunta)
     alcance = alcance_semantico_documental(pregunta)
+
+    def citar(requisitos):
+        citas = []
+        for articulo, inicio in requisitos:
+            bloque = next(
+                (p["texto"] for p in pasajes.values()
+                 if p["articulo"] == articulo and p["texto"].startswith(inicio)),
+                None,
+            )
+            if bloque is None:
+                return None
+            citas.append(rotular_pasaje(articulo, bloque))
+        return "\n\n".join(citas)
+
+    definiciones = {
+        "172": "Las medidas correctivas, son acciones",
+        "173": "7. Multa General o Especial.",
+        "180": "Es la imposición del pago de una suma de dinero",
+        "218": "Entiéndase por esta",
+    }
+    conceptos = conceptos_para_consulta(pregunta)
+    if conceptos:
+        return citar((articulo, definiciones[articulo]) for articulo in conceptos)
+    if consulta_suspension_sin_licencia(pregunta):
+        return citar((
+            ("135", "A) Parcelar"),
+            ("135", "4. En terrenos aptos"),
+            ("135", "PARÁGRAFO 1o. Cuando se trate de construcciones"),
+        ))
     reglas = (
         (r"que es (?:la )?convivencia|que (?:se entiende|entiende (?:el codigo|la ley)) por convivencia|definicion de convivencia",
          "5", ("Para los efectos de este Código, se entiende por convivencia",)),
         (r"que (?:es|son) (?:una |la |las )?multas?|definicion de (?:la )?multa",
-         "180", ("Es la imposición del pago de una suma de dinero",)),
+         "180", (definiciones["180"],)),
         (r"como se clasifican (?:las )?multas",
          "180", ("las multas se clasifican en generales y especiales.",)),
         (r"cuales son las finalidades de la convivencia|cuales son los fines (?:esenciales )?de la convivencia",
          "7", ("Son fines esenciales", *(f"{n}. " for n in range(1, 7)))),
-        (None, "172", ("Las medidas correctivas, son acciones",)),
+        (None, "172", (definiciones["172"],)),
         (None, "173", ("Las medidas correctivas a aplicar", *(f"{n}. " for n in range(1, 21)))),
         (r"que (?:es|significa|se entiende por) (?:una |un |el |la )?(?:orden de )?comparendo|definicion (?:de|del) (?:la orden de )?comparendo",
-         "218", ("Entiéndase por esta",)),
+         "218", (definiciones["218"],)),
     )
     for patron, articulo, inicios in reglas:
         coincide = re.fullmatch(patron, consulta) if patron else articulo == articulo_medidas
         if not coincide and articulo not in alcance:
             continue
-        bloques = [p["texto"] for p in pasajes.values() if p["articulo"] == articulo]
-        elegidos = [next((b for b in bloques if b.startswith(inicio)), None) for inicio in inicios]
-        if all(elegidos):
-            return "\n\n".join(rotular_pasaje(articulo, bloque) for bloque in elegidos)
+        return citar((articulo, inicio) for inicio in inicios)
     return None
 
 
