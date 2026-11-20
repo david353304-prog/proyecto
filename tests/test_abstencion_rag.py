@@ -650,6 +650,46 @@ class TestAbstencionRAG(unittest.TestCase):
             "¿Cuánto cuesta renovar mi licencia de conducción según el Código?"
         )["validacion_documental"]["estado"], "FUERA_DE_DOMINIO")
 
+    def test_finalidad_medidas_y_cumplimiento_general_de_ordenes(self):
+        casos = (
+            ("¿Qué relación existe entre las conductas contrarias a la convivencia y las medidas correctivas?", "172"),
+            ("¿Cómo se relacionan las medidas correctivas con la finalidad de proteger la convivencia?", "172"),
+            ("¿Para qué sirven las medidas correctivas?", "172"),
+            ("¿Puedo ignorar una orden de Policía porque considero que es injusta?", "150"),
+            ("¿Es obligatorio cumplir una orden de Policía?", "150"),
+        )
+        for pregunta, articulo in casos:
+            with self.subTest(pregunta=pregunta):
+                self.generador.recuperador.buscar.return_value["resultados_generales"] = [
+                    {"articulo": articulo}
+                ]
+                datos = preparar_salida_publica(self.generador.responder(pregunta))
+                self.generador.recuperador.buscar.assert_called_with(
+                    pregunta, cantidad_general=5, articulos_permitidos={articulo}
+                )
+                self.assertEqual(datos["modelo"], "extracción documental")
+                self.assertEqual([f["articulo"] for f in datos["fuentes_recuperadas"]], [articulo])
+                citas = re.findall(r"«([^»]+)»", datos["respuesta"])
+                self.assertEqual(len(citas), 1)
+                self.assertIn(citas[0], datos["fuentes_recuperadas"][0]["texto"])
+                if articulo == "150":
+                    self.assertTrue(datos["respuesta"].startswith("Regla general"))
+                    self.assertIn("sin perjuicio de las acciones legales pertinentes", citas[0])
+        self.generador.cliente.models.generate_content.assert_not_called()
+
+    def test_cierre_conserva_abstenciones_de_contexto_insuficiente(self):
+        for pregunta in (
+            "¿Qué comportamientos afectan la tranquilidad según la Ley 1801?",
+            "¿Qué sanción individual me corresponde por una denuncia?",
+            "¿Cuánto debo pagar exactamente por construir sin licencia?",
+        ):
+            with self.subTest(pregunta=pregunta):
+                datos = preparar_salida_publica(self.generador.responder(pregunta))
+                self.assertEqual(datos["validacion_documental"]["estado"], "SIN_RESPALDO")
+                self.assertEqual(datos["fuentes_recuperadas"], [])
+        self.generador.recuperador.buscar.assert_not_called()
+        self.generador.cliente.models.generate_content.assert_not_called()
+
     def test_parafrasis_y_comparaciones_documentales(self):
         generar = self.generador.cliente.models.generate_content
         casos = (

@@ -17,7 +17,7 @@ from motor_documental.instrucciones_ia import (
 from motor_documental.vigencia_rag import (
     SIMILITUD_MINIMA_DEFINICION, alcance_semantico_documental,
     articulo_consulta_medidas, articulos_mencionados, articulos_para_consulta, contexto_publicable,
-    conceptos_para_consulta, consulta_suspension_sin_licencia,
+    conceptos_para_consulta, consulta_cumplimiento_orden, consulta_suspension_sin_licencia,
     pasajes_del_contexto, respuesta_revision_pendiente, respuesta_texto_inexequible,
 )
 
@@ -208,6 +208,11 @@ def seleccionar_citas_directas(pregunta, pasajes):
     conceptos = conceptos_para_consulta(pregunta)
     if conceptos:
         return citar((articulo, definiciones[articulo]) for articulo in conceptos)
+    if consulta_cumplimiento_orden(pregunta):
+        regla = citar((("150", "Las órdenes de Policía son de obligatorio cumplimiento."),))
+        if regla:
+            return "Regla general de cumplimiento de las órdenes de Policía.\n\n" + regla
+        return None
     if consulta_suspension_sin_licencia(pregunta):
         return citar((
             ("135", "A) Parcelar"),

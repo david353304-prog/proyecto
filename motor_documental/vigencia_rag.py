@@ -114,6 +114,13 @@ def articulo_consulta_medidas(pregunta):
     texto = normalizar(pregunta).strip("¿?¡! .")
     fuente = r"(?:el codigo(?: de policia)?|la ley(?: 1801(?: de 2016)?)?)"
     if re.fullmatch(
+        r"(?:que relacion (?:hay|existe) entre (?:las )?conductas contrarias a la convivencia y (?:las )?medidas correctivas|"
+        r"como se relacionan (?:las )?medidas correctivas con (?:la finalidad de )?(?:proteger|restablecer) la convivencia|"
+        r"para que sirven (?:las )?medidas correctivas|cual es (?:el objeto|la finalidad) de las medidas correctivas)",
+        texto,
+    ):
+        return "172"
+    if re.fullmatch(
         r"(?:que (?:es|son|significa|se entiende por)|definicion de) "
         r"(?:(?:una|la|las) )?medidas? correctivas?"
         rf"(?: segun {fuente})?", texto
@@ -127,6 +134,16 @@ def articulo_consulta_medidas(pregunta):
     ):
         return "173"
     return None
+
+
+def consulta_cumplimiento_orden(pregunta):
+    texto = normalizar(pregunta).strip("¿?¡! .")
+    return bool(re.fullmatch(
+        r"(?:puedo (?:ignorar|desobedecer|incumplir) (?:una|la) orden de policia"
+        r"(?:(?: porque| si) (?:considero|creo|pienso) que es injusta)?|"
+        r"es obligatorio cumplir (?:una|la) orden de policia)",
+        texto,
+    ))
 
 
 def conceptos_para_consulta(pregunta):
@@ -212,6 +229,8 @@ def articulos_para_consulta(pregunta):
     articulo_medidas = articulo_consulta_medidas(pregunta)
     if articulo_medidas in corpus:
         return {articulo_medidas}
+    if "150" in corpus and consulta_cumplimiento_orden(pregunta):
+        return {"150"}
     patrones = {
         "1": r"objetivo general|objeto del codigo|para que (?:sirve|existe) el codigo",
         "2": r"objetivos? especific|objetivos? del codigo",

@@ -51,6 +51,11 @@ def clasificar_pregunta(pregunta):
         r"estatuto tributario|impuesto (?:(?:de|sobre la) renta|predial)|"
         r"multas? (?:de|por) (?:la )?renta|"
         r"declar(?:ar|acion de) (?:la )?renta|"
+        r"(?:renovar|tramitar|solicitar) (?:el |un |mi )?pasaporte|"
+        r"(?:tramitar|solicitar) (?:una |la )?visa|"
+        r"liquidacion (?:laboral|(?:al|por) renunciar)|"
+        r"registrar (?:una|mi|la) empresa|pension de vejez|"
+        r"sancion tributaria|vacaciones.{0,30}empleador|"
         r"iva|dian)\b", texto
     )
     return {

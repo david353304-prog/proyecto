@@ -29,6 +29,28 @@ class PruebasClasificadorTematico(unittest.TestCase):
         self.assertEqual(libro_de_articulo("135"), "SEGUNDO")
         self.assertEqual(libro_de_articulo("223A"), "TERCERO")
 
+    def test_materias_externas_con_contexto(self):
+        for pregunta in (
+            "¿Cuánto cuesta renovar el pasaporte colombiano?",
+            "¿Cómo puedo tramitar una visa para Estados Unidos?",
+            "¿Cuánto me corresponde de liquidación al renunciar a mi empleo?",
+            "¿Qué documentos necesito para registrar una empresa?",
+            "¿Cómo puedo solicitar una pensión de vejez?",
+            "¿Qué sanción tributaria se aplica por no declarar ingresos?",
+            "¿Cuántos días de vacaciones debe pagarme mi empleador?",
+        ):
+            with self.subTest(pregunta=pregunta):
+                self.assertTrue(clasificar_pregunta(pregunta)["fuera_de_dominio"])
+        for pregunta in (
+            "¿Qué regula la Ley 1801 sobre el ruido de una empresa?",
+            "¿Puede la Policía suspender una actividad económica sin licencia?",
+            "¿Qué regula el artículo 150 sobre las órdenes de Policía?",
+            "¿Qué es el registro de medidas correctivas?",
+            "¿Qué dice el Código de Policía sobre los documentos de una actividad económica?",
+        ):
+            with self.subTest(pregunta=pregunta):
+                self.assertFalse(clasificar_pregunta(pregunta)["fuera_de_dominio"])
+
     def test_orientar_por_libro_conserva_articulos_clave(self):
         resultados = [
             {"articulo": "5"},
