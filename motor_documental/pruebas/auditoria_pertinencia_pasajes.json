@@ -1,0 +1,133 @@
+[
+  {
+    "id": "RAG-035",
+    "pregunta": "Una persona ocupa un inmueble ajeno sin autorización. ¿Qué comportamientos relacionados con la posesión contempla la ley?",
+    "respuesta": "**Artículo 77.** «Son aquellos contrarios a la posesión, la mera tenencia de los bienes inmuebles de particulares, bienes fiscales, bienes de uso público, bienes de utilidad pública o social, bienes destinados a prestación de servicios públicos. Estos son los siguientes:»\n\n**Numeral 1 del artículo 77.** «1. Perturbar, alterar o interrumpir la posesión o mera tenencia de un bien inmueble ocupándolo ilegalmente.»\n\n**Numeral 2 del artículo 77.** «2. Perturbar la posesión o mera tenencia de un inmueble o mueble por causa de daños materiales o hechos que la alteren, o por no reparar las averías o daños en el propio inmueble que pongan en peligro, perjudiquen o molesten a los vecinos.»\n\n**Numeral 3 del artículo 77.** «3. Instalar servicios públicos en inmuebles que hayan sido ocupados ilegalmente.»\n\n**Numeral 4 del artículo 77.** «4. Omitir el cerramiento y mantenimiento de lotes y fachadas de edificaciones.»\n\n**Numeral 5 del artículo 77.** «5. Impedir el ingreso, uso y disfrute de la posesión o tenencia de inmueble al titular de este derecho.»\n\n**Numeral 1 del artículo 77.** «Numeral 1 Restitución y protección de bienes inmuebles.»",
+    "citas": [
+      {
+        "rotulo": "Artículo 77",
+        "texto": "Son aquellos contrarios a la posesión, la mera tenencia de los bienes inmuebles de particulares, bienes fiscales, bienes de uso público, bienes de utilidad pública o social, bienes destinados a prestación de servicios públicos. Estos son los siguientes:",
+        "articulo": "77",
+        "literal_corpus": true,
+        "articulo_esperado": true,
+        "literal_fuente_visible": true
+      },
+      {
+        "rotulo": "Numeral 1 del artículo 77",
+        "texto": "1. Perturbar, alterar o interrumpir la posesión o mera tenencia de un bien inmueble ocupándolo ilegalmente.",
+        "articulo": "77",
+        "literal_corpus": true,
+        "articulo_esperado": true,
+        "literal_fuente_visible": true
+      },
+      {
+        "rotulo": "Numeral 2 del artículo 77",
+        "texto": "2. Perturbar la posesión o mera tenencia de un inmueble o mueble por causa de daños materiales o hechos que la alteren, o por no reparar las averías o daños en el propio inmueble que pongan en peligro, perjudiquen o molesten a los vecinos.",
+        "articulo": "77",
+        "literal_corpus": true,
+        "articulo_esperado": true,
+        "literal_fuente_visible": true
+      },
+      {
+        "rotulo": "Numeral 3 del artículo 77",
+        "texto": "3. Instalar servicios públicos en inmuebles que hayan sido ocupados ilegalmente.",
+        "articulo": "77",
+        "literal_corpus": true,
+        "articulo_esperado": true,
+        "literal_fuente_visible": true
+      },
+      {
+        "rotulo": "Numeral 4 del artículo 77",
+        "texto": "4. Omitir el cerramiento y mantenimiento de lotes y fachadas de edificaciones.",
+        "articulo": "77",
+        "literal_corpus": true,
+        "articulo_esperado": true,
+        "literal_fuente_visible": true
+      },
+      {
+        "rotulo": "Numeral 5 del artículo 77",
+        "texto": "5. Impedir el ingreso, uso y disfrute de la posesión o tenencia de inmueble al titular de este derecho.",
+        "articulo": "77",
+        "literal_corpus": true,
+        "articulo_esperado": true,
+        "literal_fuente_visible": true
+      },
+      {
+        "rotulo": "Numeral 1 del artículo 77",
+        "texto": "Numeral 1 Restitución y protección de bienes inmuebles.",
+        "articulo": "77",
+        "literal_corpus": true,
+        "articulo_esperado": true,
+        "literal_fuente_visible": true
+      }
+    ],
+    "dictamen": "Los numerales 2?5 son pertinentes porque la pregunta solicita conductas de posesi?n en general. Solo la fila 1 se vincula al ejemplo de ocupaci?n. Las citas describen reglas separadas.",
+    "regresion_detectada": false
+  },
+  {
+    "id": "RAG-041",
+    "pregunta": "El dueño de un animal lo deja deambular sin control y pone en riesgo a otras personas. ¿Qué establece el Código?",
+    "respuesta": "**Numeral 1 del artículo 124.** «1. Dejar deambular semoviente, animales feroces o dañinos, en espacio público y privado, lugar abierto al público, o medio de transporte público, sin las debidas medidas de seguridad.»\n\n**Numeral 7 del artículo 124.** «7. Tolerar, permitir o inducir por acción u omisión el que un animal ataque a una persona, a un animal o a bienes de terceros.»\n\n**Numeral 1 del artículo 124.** «Numeral 1 Multa General tipo 2»\n\n**Numeral 7 del artículo 124.** «Numeral 7 Multa General tipo 4»",
+    "citas": [
+      {
+        "rotulo": "Numeral 1 del artículo 124",
+        "texto": "1. Dejar deambular semoviente, animales feroces o dañinos, en espacio público y privado, lugar abierto al público, o medio de transporte público, sin las debidas medidas de seguridad.",
+        "articulo": "124",
+        "literal_corpus": true,
+        "articulo_esperado": true,
+        "literal_fuente_visible": true
+      },
+      {
+        "rotulo": "Numeral 7 del artículo 124",
+        "texto": "7. Tolerar, permitir o inducir por acción u omisión el que un animal ataque a una persona, a un animal o a bienes de terceros.",
+        "articulo": "124",
+        "literal_corpus": true,
+        "articulo_esperado": true,
+        "literal_fuente_visible": true
+      },
+      {
+        "rotulo": "Numeral 1 del artículo 124",
+        "texto": "Numeral 1 Multa General tipo 2",
+        "articulo": "124",
+        "literal_corpus": true,
+        "articulo_esperado": true,
+        "literal_fuente_visible": true
+      },
+      {
+        "rotulo": "Numeral 7 del artículo 124",
+        "texto": "Numeral 7 Multa General tipo 4",
+        "articulo": "124",
+        "literal_corpus": true,
+        "articulo_esperado": true,
+        "literal_fuente_visible": true
+      }
+    ],
+    "dictamen": "El numeral 7 incluye literalmente la condici?n de tolerar, permitir o inducir un ataque. Su fila separada no afirma que haya ocurrido un ataque. Numeral 1 y su fila responden al supuesto descrito.",
+    "regresion_detectada": false
+  },
+  {
+    "id": "RAG-045",
+    "pregunta": "Un policía me da una orden verbal durante un procedimiento. ¿Las órdenes de Policía pueden ser verbales?",
+    "respuesta": "**Artículo 150.** «La orden de Policía es un mandato claro, preciso y conciso dirigido en forma individual o de carácter general, escrito o verbal, emanado de la autoridad de Policía, para prevenir o superar comportamientos o hechos contrarios a la convivencia, o para restablecerla.»\n\n**Artículo 150.** «Las órdenes de Policía son de obligatorio cumplimiento. Las personas que las desobedezcan serán obligadas a cumplirlas a través, si es necesario, de los medios, medidas y procedimientos establecidos en este Código. Si la orden no fuere de inmediato cumplimiento, la autoridad conminará a la persona para que la cumpla en un plazo determinado, sin perjuicio de las acciones legales pertinentes .»",
+    "citas": [
+      {
+        "rotulo": "Artículo 150",
+        "texto": "La orden de Policía es un mandato claro, preciso y conciso dirigido en forma individual o de carácter general, escrito o verbal, emanado de la autoridad de Policía, para prevenir o superar comportamientos o hechos contrarios a la convivencia, o para restablecerla.",
+        "articulo": "150",
+        "literal_corpus": true,
+        "articulo_esperado": true,
+        "literal_fuente_visible": true
+      },
+      {
+        "rotulo": "Artículo 150",
+        "texto": "Las órdenes de Policía son de obligatorio cumplimiento. Las personas que las desobedezcan serán obligadas a cumplirlas a través, si es necesario, de los medios, medidas y procedimientos establecidos en este Código. Si la orden no fuere de inmediato cumplimiento, la autoridad conminará a la persona para que la cumpla en un plazo determinado, sin perjuicio de las acciones legales pertinentes .",
+        "articulo": "150",
+        "literal_corpus": true,
+        "articulo_esperado": true,
+        "literal_fuente_visible": true
+      }
+    ],
+    "dictamen": "El segundo inciso complementa la orden verbal en un procedimiento: obligatoriedad, incumplimiento y plazo cuando no es inmediata. La forma verbal por s? sola ya respond?a la pregunta m?s estrecha.",
+    "regresion_detectada": false
+  }
+]

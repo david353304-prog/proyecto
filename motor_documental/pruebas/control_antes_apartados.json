@@ -1,0 +1,50 @@
+{
+  "estado_motor": {
+    "estado": "activo",
+    "modo_respuesta": "citas_extractivas",
+    "generacion_configurada": true,
+    "sha256_corpus_publicable": "13d9f322bc8d85fbca763e0264838f6b984ff786f5bef132349d2c1eade58f0e"
+  },
+  "filas": [
+    {
+      "id": "RAG-003",
+      "pregunta": "¿Qué principios fundamentales orientan la aplicación del Código de Policía?",
+      "http": 200,
+      "segundos": 3.765199,
+      "respuesta": {
+        "fuentes_recuperadas": [],
+        "pregunta": "¿Qué principios fundamentales orientan la aplicación del Código de Policía?",
+        "respuesta": "No encontré respaldo suficiente en los fragmentos de la Ley 1801 de 2016.",
+        "modelo": "gemini-3.1-flash-lite",
+        "total_generales": 1,
+        "total_estructurados": 0,
+        "validacion_documental": {
+          "estado": "REQUIERE_REVISION",
+          "advertencias": []
+        }
+      },
+      "llamada_gemini_confirmada": true,
+      "estado_documental": "REQUIERE_REVISION"
+    },
+    {
+      "id": "RAG-022",
+      "pregunta": "¿Qué es una orden de Policía y cuáles son sus características?",
+      "http": 200,
+      "segundos": 5.920044,
+      "respuesta": {
+        "fuentes_recuperadas": [],
+        "pregunta": "¿Qué es una orden de Policía y cuáles son sus características?",
+        "respuesta": "No encontré respaldo suficiente en los fragmentos de la Ley 1801 de 2016.",
+        "modelo": "gemini-3.1-flash-lite",
+        "total_generales": 1,
+        "total_estructurados": 0,
+        "validacion_documental": {
+          "estado": "REQUIERE_REVISION",
+          "advertencias": []
+        }
+      },
+      "llamada_gemini_confirmada": true,
+      "estado_documental": "REQUIERE_REVISION"
+    }
+  ]
+}

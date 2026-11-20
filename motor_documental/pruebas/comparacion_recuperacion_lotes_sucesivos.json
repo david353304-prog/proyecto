@@ -1,0 +1,863 @@
+{
+  "sha256_banco": "dbeab26c86e8cebc541e301b673347584214630b447af06343e3c311c20beaa9",
+  "resumen": [
+    {
+      "lote": "movilidad",
+      "sha256_corpus": "f7e45f8839a96721dde450c1d8076c88d355d0c02bcb49f4a83becbef16f0a3a",
+      "articulos": 25,
+      "fragmentos": 47,
+      "aciertos": 20,
+      "sin_candidatos": 30,
+      "metricas": {
+        "precision_at_5": 0.08,
+        "recall_at_5": 0.4,
+        "mrr": 0.4
+      },
+      "cambios": []
+    },
+    {
+      "lote": "ordenes",
+      "sha256_corpus": "586cc52b5000fd73212807a7b0de7d8c57965814099e9a2deff48541db64527d",
+      "articulos": 26,
+      "fragmentos": 52,
+      "aciertos": 23,
+      "sin_candidatos": 27,
+      "metricas": {
+        "precision_at_5": 0.092,
+        "recall_at_5": 0.46,
+        "mrr": 0.46
+      },
+      "cambios": [
+        "RAG-007",
+        "RAG-031",
+        "RAG-042"
+      ]
+    },
+    {
+      "lote": "proteccion",
+      "sha256_corpus": "89e2d588feb7885a5f12aa2f6bee83da591595c557ce7fb3382d166ce03b43d7",
+      "articulos": 28,
+      "fragmentos": 56,
+      "aciertos": 25,
+      "sin_candidatos": 25,
+      "metricas": {
+        "precision_at_5": 0.1,
+        "recall_at_5": 0.5,
+        "mrr": 0.5
+      },
+      "cambios": [
+        "RAG-009",
+        "RAG-041"
+      ]
+    },
+    {
+      "lote": "convivencia",
+      "sha256_corpus": "3bd9a032cef749c47e1319f29bdf08ad3c02087fffbab00ddcfd63c0f5b7d40c",
+      "articulos": 28,
+      "fragmentos": 63,
+      "aciertos": 27,
+      "sin_candidatos": 23,
+      "metricas": {
+        "precision_at_5": 0.108,
+        "recall_at_5": 0.54,
+        "mrr": 0.54
+      },
+      "cambios": [
+        "RAG-012",
+        "RAG-015"
+      ]
+    }
+  ],
+  "filas": [
+    {
+      "id": "RAG-001",
+      "esperados": [
+        "1"
+      ],
+      "rankings": {
+        "movilidad": [
+          "1"
+        ],
+        "ordenes": [
+          "1"
+        ],
+        "proteccion": [
+          "1"
+        ],
+        "convivencia": [
+          "1"
+        ]
+      }
+    },
+    {
+      "id": "RAG-002",
+      "esperados": [
+        "2"
+      ],
+      "rankings": {
+        "movilidad": [
+          "2"
+        ],
+        "ordenes": [
+          "2"
+        ],
+        "proteccion": [
+          "2"
+        ],
+        "convivencia": [
+          "2"
+        ]
+      }
+    },
+    {
+      "id": "RAG-003",
+      "esperados": [
+        "8"
+      ],
+      "rankings": {
+        "movilidad": [
+          "8"
+        ],
+        "ordenes": [
+          "8"
+        ],
+        "proteccion": [
+          "8"
+        ],
+        "convivencia": [
+          "8"
+        ]
+      }
+    },
+    {
+      "id": "RAG-004",
+      "esperados": [
+        "27"
+      ],
+      "rankings": {
+        "movilidad": [
+          "27"
+        ],
+        "ordenes": [
+          "27"
+        ],
+        "proteccion": [
+          "27"
+        ],
+        "convivencia": [
+          "27"
+        ]
+      }
+    },
+    {
+      "id": "RAG-005",
+      "esperados": [
+        "33"
+      ],
+      "rankings": {
+        "movilidad": [],
+        "ordenes": [],
+        "proteccion": [],
+        "convivencia": []
+      }
+    },
+    {
+      "id": "RAG-006",
+      "esperados": [
+        "35"
+      ],
+      "rankings": {
+        "movilidad": [],
+        "ordenes": [],
+        "proteccion": [],
+        "convivencia": []
+      }
+    },
+    {
+      "id": "RAG-007",
+      "esperados": [
+        "36"
+      ],
+      "rankings": {
+        "movilidad": [],
+        "ordenes": [
+          "36"
+        ],
+        "proteccion": [
+          "36"
+        ],
+        "convivencia": [
+          "36"
+        ]
+      }
+    },
+    {
+      "id": "RAG-008",
+      "esperados": [
+        "38"
+      ],
+      "rankings": {
+        "movilidad": [],
+        "ordenes": [],
+        "proteccion": [],
+        "convivencia": []
+      }
+    },
+    {
+      "id": "RAG-009",
+      "esperados": [
+        "39"
+      ],
+      "rankings": {
+        "movilidad": [],
+        "ordenes": [],
+        "proteccion": [
+          "39"
+        ],
+        "convivencia": [
+          "39"
+        ]
+      }
+    },
+    {
+      "id": "RAG-010",
+      "esperados": [
+        "40"
+      ],
+      "rankings": {
+        "movilidad": [],
+        "ordenes": [],
+        "proteccion": [],
+        "convivencia": []
+      }
+    },
+    {
+      "id": "RAG-051",
+      "esperados": [
+        "5"
+      ],
+      "rankings": {
+        "movilidad": [
+          "5"
+        ],
+        "ordenes": [
+          "5"
+        ],
+        "proteccion": [
+          "5"
+        ],
+        "convivencia": [
+          "5"
+        ]
+      }
+    },
+    {
+      "id": "RAG-012",
+      "esperados": [
+        "77"
+      ],
+      "rankings": {
+        "movilidad": [],
+        "ordenes": [],
+        "proteccion": [],
+        "convivencia": [
+          "77"
+        ]
+      }
+    },
+    {
+      "id": "RAG-013",
+      "esperados": [
+        "92"
+      ],
+      "rankings": {
+        "movilidad": [],
+        "ordenes": [],
+        "proteccion": [],
+        "convivencia": []
+      }
+    },
+    {
+      "id": "RAG-014",
+      "esperados": [
+        "93"
+      ],
+      "rankings": {
+        "movilidad": [],
+        "ordenes": [],
+        "proteccion": [],
+        "convivencia": []
+      }
+    },
+    {
+      "id": "RAG-015",
+      "esperados": [
+        "94"
+      ],
+      "rankings": {
+        "movilidad": [],
+        "ordenes": [],
+        "proteccion": [],
+        "convivencia": [
+          "94"
+        ]
+      }
+    },
+    {
+      "id": "RAG-016",
+      "esperados": [
+        "95"
+      ],
+      "rankings": {
+        "movilidad": [],
+        "ordenes": [],
+        "proteccion": [],
+        "convivencia": []
+      }
+    },
+    {
+      "id": "RAG-017",
+      "esperados": [
+        "111"
+      ],
+      "rankings": {
+        "movilidad": [
+          "111"
+        ],
+        "ordenes": [
+          "111"
+        ],
+        "proteccion": [
+          "111"
+        ],
+        "convivencia": [
+          "111"
+        ]
+      }
+    },
+    {
+      "id": "RAG-018",
+      "esperados": [
+        "124"
+      ],
+      "rankings": {
+        "movilidad": [],
+        "ordenes": [],
+        "proteccion": [],
+        "convivencia": []
+      }
+    },
+    {
+      "id": "RAG-019",
+      "esperados": [
+        "135"
+      ],
+      "rankings": {
+        "movilidad": [],
+        "ordenes": [],
+        "proteccion": [],
+        "convivencia": []
+      }
+    },
+    {
+      "id": "RAG-020",
+      "esperados": [
+        "140"
+      ],
+      "rankings": {
+        "movilidad": [],
+        "ordenes": [],
+        "proteccion": [],
+        "convivencia": []
+      }
+    },
+    {
+      "id": "RAG-021",
+      "esperados": [
+        "146"
+      ],
+      "rankings": {
+        "movilidad": [],
+        "ordenes": [],
+        "proteccion": [],
+        "convivencia": []
+      }
+    },
+    {
+      "id": "RAG-022",
+      "esperados": [
+        "150"
+      ],
+      "rankings": {
+        "movilidad": [
+          "150"
+        ],
+        "ordenes": [
+          "150"
+        ],
+        "proteccion": [
+          "150"
+        ],
+        "convivencia": [
+          "150"
+        ]
+      }
+    },
+    {
+      "id": "RAG-023",
+      "esperados": [
+        "155"
+      ],
+      "rankings": {
+        "movilidad": [],
+        "ordenes": [],
+        "proteccion": [],
+        "convivencia": []
+      }
+    },
+    {
+      "id": "RAG-024",
+      "esperados": [
+        "163"
+      ],
+      "rankings": {
+        "movilidad": [],
+        "ordenes": [],
+        "proteccion": [],
+        "convivencia": []
+      }
+    },
+    {
+      "id": "RAG-025",
+      "esperados": [
+        "180"
+      ],
+      "rankings": {
+        "movilidad": [
+          "180"
+        ],
+        "ordenes": [
+          "180"
+        ],
+        "proteccion": [
+          "180"
+        ],
+        "convivencia": [
+          "180"
+        ]
+      }
+    },
+    {
+      "id": "RAG-026",
+      "esperados": [
+        "206"
+      ],
+      "rankings": {
+        "movilidad": [
+          "206"
+        ],
+        "ordenes": [
+          "206"
+        ],
+        "proteccion": [
+          "206"
+        ],
+        "convivencia": [
+          "206"
+        ]
+      }
+    },
+    {
+      "id": "RAG-027",
+      "esperados": [
+        "222"
+      ],
+      "rankings": {
+        "movilidad": [
+          "222"
+        ],
+        "ordenes": [
+          "222"
+        ],
+        "proteccion": [
+          "222"
+        ],
+        "convivencia": [
+          "222"
+        ]
+      }
+    },
+    {
+      "id": "RAG-028",
+      "esperados": [
+        "223"
+      ],
+      "rankings": {
+        "movilidad": [
+          "223"
+        ],
+        "ordenes": [
+          "223"
+        ],
+        "proteccion": [
+          "223"
+        ],
+        "convivencia": [
+          "223"
+        ]
+      }
+    },
+    {
+      "id": "RAG-029",
+      "esperados": [
+        "223A"
+      ],
+      "rankings": {
+        "movilidad": [],
+        "ordenes": [],
+        "proteccion": [],
+        "convivencia": []
+      }
+    },
+    {
+      "id": "RAG-030",
+      "esperados": [
+        "237"
+      ],
+      "rankings": {
+        "movilidad": [],
+        "ordenes": [],
+        "proteccion": [],
+        "convivencia": []
+      }
+    },
+    {
+      "id": "RAG-031",
+      "esperados": [
+        "27"
+      ],
+      "rankings": {
+        "movilidad": [],
+        "ordenes": [
+          "27"
+        ],
+        "proteccion": [
+          "27"
+        ],
+        "convivencia": [
+          "27"
+        ]
+      }
+    },
+    {
+      "id": "RAG-032",
+      "esperados": [
+        "33"
+      ],
+      "rankings": {
+        "movilidad": [],
+        "ordenes": [],
+        "proteccion": [],
+        "convivencia": []
+      }
+    },
+    {
+      "id": "RAG-033",
+      "esperados": [
+        "35"
+      ],
+      "rankings": {
+        "movilidad": [],
+        "ordenes": [],
+        "proteccion": [],
+        "convivencia": []
+      }
+    },
+    {
+      "id": "RAG-034",
+      "esperados": [
+        "38"
+      ],
+      "rankings": {
+        "movilidad": [],
+        "ordenes": [],
+        "proteccion": [],
+        "convivencia": []
+      }
+    },
+    {
+      "id": "RAG-035",
+      "esperados": [
+        "77"
+      ],
+      "rankings": {
+        "movilidad": [
+          "77"
+        ],
+        "ordenes": [
+          "77"
+        ],
+        "proteccion": [
+          "77"
+        ],
+        "convivencia": [
+          "77"
+        ]
+      }
+    },
+    {
+      "id": "RAG-036",
+      "esperados": [
+        "92"
+      ],
+      "rankings": {
+        "movilidad": [],
+        "ordenes": [],
+        "proteccion": [],
+        "convivencia": []
+      }
+    },
+    {
+      "id": "RAG-037",
+      "esperados": [
+        "93"
+      ],
+      "rankings": {
+        "movilidad": [
+          "93"
+        ],
+        "ordenes": [
+          "93"
+        ],
+        "proteccion": [
+          "93"
+        ],
+        "convivencia": [
+          "93"
+        ]
+      }
+    },
+    {
+      "id": "RAG-038",
+      "esperados": [
+        "94"
+      ],
+      "rankings": {
+        "movilidad": [
+          "94"
+        ],
+        "ordenes": [
+          "94"
+        ],
+        "proteccion": [
+          "94"
+        ],
+        "convivencia": [
+          "94"
+        ]
+      }
+    },
+    {
+      "id": "RAG-039",
+      "esperados": [
+        "95"
+      ],
+      "rankings": {
+        "movilidad": [],
+        "ordenes": [],
+        "proteccion": [],
+        "convivencia": []
+      }
+    },
+    {
+      "id": "RAG-040",
+      "esperados": [
+        "111"
+      ],
+      "rankings": {
+        "movilidad": [
+          "111"
+        ],
+        "ordenes": [
+          "111"
+        ],
+        "proteccion": [
+          "111"
+        ],
+        "convivencia": [
+          "111"
+        ]
+      }
+    },
+    {
+      "id": "RAG-041",
+      "esperados": [
+        "124"
+      ],
+      "rankings": {
+        "movilidad": [],
+        "ordenes": [],
+        "proteccion": [
+          "124"
+        ],
+        "convivencia": [
+          "124"
+        ]
+      }
+    },
+    {
+      "id": "RAG-042",
+      "esperados": [
+        "135"
+      ],
+      "rankings": {
+        "movilidad": [],
+        "ordenes": [
+          "135"
+        ],
+        "proteccion": [
+          "135"
+        ],
+        "convivencia": [
+          "135"
+        ]
+      }
+    },
+    {
+      "id": "RAG-043",
+      "esperados": [
+        "140"
+      ],
+      "rankings": {
+        "movilidad": [
+          "140"
+        ],
+        "ordenes": [
+          "140"
+        ],
+        "proteccion": [
+          "140"
+        ],
+        "convivencia": [
+          "140"
+        ]
+      }
+    },
+    {
+      "id": "RAG-044",
+      "esperados": [
+        "146"
+      ],
+      "rankings": {
+        "movilidad": [
+          "146"
+        ],
+        "ordenes": [
+          "146"
+        ],
+        "proteccion": [
+          "146"
+        ],
+        "convivencia": [
+          "146"
+        ]
+      }
+    },
+    {
+      "id": "RAG-045",
+      "esperados": [
+        "150"
+      ],
+      "rankings": {
+        "movilidad": [
+          "150"
+        ],
+        "ordenes": [
+          "150"
+        ],
+        "proteccion": [
+          "150"
+        ],
+        "convivencia": [
+          "150"
+        ]
+      }
+    },
+    {
+      "id": "RAG-046",
+      "esperados": [
+        "155"
+      ],
+      "rankings": {
+        "movilidad": [],
+        "ordenes": [],
+        "proteccion": [],
+        "convivencia": []
+      }
+    },
+    {
+      "id": "RAG-047",
+      "esperados": [
+        "163"
+      ],
+      "rankings": {
+        "movilidad": [],
+        "ordenes": [],
+        "proteccion": [],
+        "convivencia": []
+      }
+    },
+    {
+      "id": "RAG-048",
+      "esperados": [
+        "180"
+      ],
+      "rankings": {
+        "movilidad": [],
+        "ordenes": [],
+        "proteccion": [],
+        "convivencia": []
+      }
+    },
+    {
+      "id": "RAG-049",
+      "esperados": [
+        "222"
+      ],
+      "rankings": {
+        "movilidad": [
+          "222"
+        ],
+        "ordenes": [
+          "222"
+        ],
+        "proteccion": [
+          "222"
+        ],
+        "convivencia": [
+          "222"
+        ]
+      }
+    },
+    {
+      "id": "RAG-050",
+      "esperados": [
+        "223"
+      ],
+      "rankings": {
+        "movilidad": [
+          "223"
+        ],
+        "ordenes": [
+          "223"
+        ],
+        "proteccion": [
+          "223"
+        ],
+        "convivencia": [
+          "223"
+        ]
+      }
+    }
+  ]
+}

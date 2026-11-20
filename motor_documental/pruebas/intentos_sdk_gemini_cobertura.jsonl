@@ -1,0 +1,15 @@
+{"evento": "inicio", "consulta": 1}
+{"evento": "intento", "resultado": "respuesta_aceptada_sdk", "segundos": 9.542018}
+{"evento": "fin", "consulta": 1, "http": 200}
+{"evento": "inicio", "consulta": 2}
+{"evento": "intento", "resultado": "respuesta_aceptada_sdk", "segundos": 4.779139}
+{"evento": "fin", "consulta": 2, "http": 200}
+{"evento": "inicio", "consulta": 3}
+{"evento": "intento", "resultado": "respuesta_aceptada_sdk", "segundos": 7.024918}
+{"evento": "fin", "consulta": 3, "http": 200}
+{"evento": "inicio", "consulta": 4}
+{"evento": "intento", "resultado": "respuesta_aceptada_sdk", "segundos": 13.986327}
+{"evento": "fin", "consulta": 4, "http": 200}
+{"evento": "inicio", "consulta": 5}
+{"evento": "intento", "resultado": "respuesta_aceptada_sdk", "segundos": 11.66514}
+{"evento": "fin", "consulta": 5, "http": 200}

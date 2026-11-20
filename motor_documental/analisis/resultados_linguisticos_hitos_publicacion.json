@@ -1,0 +1,1137 @@
+{
+  "corpus": "Ley 1801 de 2016, apartados públicos",
+  "sha256_corpus": "e59895e2752227efff77e715005ed0639fbeca242df3c4832205400a07c63458",
+  "modelo": "es_core_news_sm",
+  "version_modelo": "3.8.0",
+  "version_spacy": "3.8.18",
+  "total_articulos": 31,
+  "articulos_con_texto": 31,
+  "total_tokens": 6453,
+  "total_tipos": 1499,
+  "relacion_tipo_token": 0.2323,
+  "longitud_media_articulo_tokens": 208.16,
+  "frecuencias": [
+    [
+      "de",
+      533
+    ],
+    [
+      "la",
+      298
+    ],
+    [
+      "o",
+      215
+    ],
+    [
+      "y",
+      210
+    ],
+    [
+      "en",
+      158
+    ],
+    [
+      "el",
+      146
+    ],
+    [
+      "los",
+      146
+    ],
+    [
+      "a",
+      126
+    ],
+    [
+      "las",
+      117
+    ],
+    [
+      "que",
+      109
+    ],
+    [
+      "se",
+      75
+    ],
+    [
+      "policía",
+      60
+    ],
+    [
+      "del",
+      57
+    ],
+    [
+      "por",
+      56
+    ],
+    [
+      "para",
+      50
+    ],
+    [
+      "numeral",
+      47
+    ],
+    [
+      "convivencia",
+      46
+    ],
+    [
+      "1",
+      41
+    ],
+    [
+      "público",
+      40
+    ],
+    [
+      "no",
+      40
+    ],
+    [
+      "al",
+      39
+    ],
+    [
+      "artículo",
+      38
+    ],
+    [
+      "con",
+      37
+    ],
+    [
+      "multa",
+      37
+    ],
+    [
+      "autoridad",
+      36
+    ],
+    [
+      "tipo",
+      35
+    ],
+    [
+      "comportamientos",
+      34
+    ],
+    [
+      "general",
+      34
+    ],
+    [
+      "3",
+      32
+    ],
+    [
+      "4",
+      27
+    ]
+  ],
+  "lemas_frecuentes": [
+    [
+      "policía",
+      60
+    ],
+    [
+      "público",
+      60
+    ],
+    [
+      "autoridad",
+      57
+    ],
+    [
+      "numeral",
+      48
+    ],
+    [
+      "convivencia",
+      46
+    ],
+    [
+      "comportamiento",
+      42
+    ],
+    [
+      "1",
+      41
+    ],
+    [
+      "artículo",
+      40
+    ],
+    [
+      "multa",
+      39
+    ],
+    [
+      "general",
+      36
+    ],
+    [
+      "tipo",
+      35
+    ],
+    [
+      "actividad",
+      34
+    ],
+    [
+      "3",
+      32
+    ],
+    [
+      "persona",
+      29
+    ],
+    [
+      "4",
+      27
+    ],
+    [
+      "medida",
+      26
+    ],
+    [
+      "contrario",
+      25
+    ],
+    [
+      "2",
+      24
+    ],
+    [
+      "lugar",
+      24
+    ],
+    [
+      "5",
+      21
+    ],
+    [
+      "siguiente",
+      19
+    ],
+    [
+      "bien",
+      18
+    ],
+    [
+      "transporte",
+      18
+    ],
+    [
+      "adolescente",
+      17
+    ],
+    [
+      "correctivo",
+      17
+    ],
+    [
+      "derecho",
+      16
+    ],
+    [
+      "orden",
+      16
+    ],
+    [
+      "sustancia",
+      16
+    ],
+    [
+      "parágrafo",
+      16
+    ],
+    [
+      "suspensión",
+      16
+    ]
+  ],
+  "categorias_pos": {
+    "PROPN": 438,
+    "NUM": 273,
+    "NOUN": 1701,
+    "DET": 835,
+    "ADJ": 670,
+    "ADP": 1104,
+    "AUX": 91,
+    "CCONJ": 442,
+    "VERB": 484,
+    "ADV": 97,
+    "SCONJ": 81,
+    "PRON": 230,
+    "INTJ": 1,
+    "SYM": 6
+  },
+  "entidades_frecuentes": [
+    {
+      "texto": "Policía",
+      "tipo": "PER",
+      "frecuencia": 39
+    },
+    {
+      "texto": "COMPORTAMIENTOS",
+      "tipo": "ORG",
+      "frecuencia": 14
+    },
+    {
+      "texto": "PARÁGRAFO",
+      "tipo": "ORG",
+      "frecuencia": 14
+    },
+    {
+      "texto": "Suspensión",
+      "tipo": "LOC",
+      "frecuencia": 8
+    },
+    {
+      "texto": "Código",
+      "tipo": "MISC",
+      "frecuencia": 7
+    },
+    {
+      "texto": "CONVIVENCIA",
+      "tipo": "MISC",
+      "frecuencia": 6
+    },
+    {
+      "texto": "AFECTAN",
+      "tipo": "ORG",
+      "frecuencia": 6
+    },
+    {
+      "texto": "Numeral 1 Multa General",
+      "tipo": "MISC",
+      "frecuencia": 5
+    },
+    {
+      "texto": "Portar armas",
+      "tipo": "MISC",
+      "frecuencia": 4
+    },
+    {
+      "texto": "la Ley",
+      "tipo": "LOC",
+      "frecuencia": 4
+    },
+    {
+      "texto": "Constitución",
+      "tipo": "LOC",
+      "frecuencia": 3
+    },
+    {
+      "texto": "ARTÍCULO",
+      "tipo": "ORG",
+      "frecuencia": 3
+    },
+    {
+      "texto": "PERSONAS",
+      "tipo": "ORG",
+      "frecuencia": 3
+    },
+    {
+      "texto": "NIÑOS",
+      "tipo": "MISC",
+      "frecuencia": 3
+    },
+    {
+      "texto": "NIÑAS",
+      "tipo": "MISC",
+      "frecuencia": 3
+    },
+    {
+      "texto": "ADOLESCENTES",
+      "tipo": "MISC",
+      "frecuencia": 3
+    },
+    {
+      "texto": "Numeral 3 Multa General",
+      "tipo": "MISC",
+      "frecuencia": 3
+    },
+    {
+      "texto": "Multa General",
+      "tipo": "MISC",
+      "frecuencia": 3
+    },
+    {
+      "texto": "Reparación",
+      "tipo": "PER",
+      "frecuencia": 3
+    },
+    {
+      "texto": "Conocer",
+      "tipo": "LOC",
+      "frecuencia": 3
+    },
+    {
+      "texto": "Constitución Política",
+      "tipo": "LOC",
+      "frecuencia": 2
+    },
+    {
+      "texto": "Promover",
+      "tipo": "MISC",
+      "frecuencia": 2
+    },
+    {
+      "texto": "Código: 1",
+      "tipo": "MISC",
+      "frecuencia": 2
+    },
+    {
+      "texto": "POLICÍA",
+      "tipo": "ORG",
+      "frecuencia": 2
+    },
+    {
+      "texto": "PONEN",
+      "tipo": "ORG",
+      "frecuencia": 2
+    },
+    {
+      "texto": "Los siguientes comportamientos",
+      "tipo": "MISC",
+      "frecuencia": 2
+    },
+    {
+      "texto": "Agredir",
+      "tipo": "PER",
+      "frecuencia": 2
+    },
+    {
+      "texto": "TRANQUILIDAD",
+      "tipo": "ORG",
+      "frecuencia": 2
+    },
+    {
+      "texto": "medición",
+      "tipo": "LOC",
+      "frecuencia": 2
+    },
+    {
+      "texto": "Lo anterior no autoriza el ingreso a domicilio privado",
+      "tipo": "MISC",
+      "frecuencia": 2
+    }
+  ],
+  "bigramas_frecuentes": [
+    {
+      "terminos": [
+        "de",
+        "los"
+      ],
+      "frecuencia": 62
+    },
+    {
+      "terminos": [
+        "de",
+        "la"
+      ],
+      "frecuencia": 62
+    },
+    {
+      "terminos": [
+        "de",
+        "policía"
+      ],
+      "frecuencia": 58
+    },
+    {
+      "terminos": [
+        "a",
+        "la"
+      ],
+      "frecuencia": 36
+    },
+    {
+      "terminos": [
+        "la",
+        "convivencia"
+      ],
+      "frecuencia": 35
+    },
+    {
+      "terminos": [
+        "en",
+        "el"
+      ],
+      "frecuencia": 35
+    },
+    {
+      "terminos": [
+        "de",
+        "las"
+      ],
+      "frecuencia": 34
+    },
+    {
+      "terminos": [
+        "multa",
+        "general"
+      ],
+      "frecuencia": 32
+    },
+    {
+      "terminos": [
+        "general",
+        "tipo"
+      ],
+      "frecuencia": 32
+    },
+    {
+      "terminos": [
+        "la",
+        "autoridad"
+      ],
+      "frecuencia": 29
+    },
+    {
+      "terminos": [
+        "las",
+        "autoridades"
+      ],
+      "frecuencia": 20
+    },
+    {
+      "terminos": [
+        "para",
+        "la"
+      ],
+      "frecuencia": 17
+    },
+    {
+      "terminos": [
+        "las",
+        "personas"
+      ],
+      "frecuencia": 17
+    },
+    {
+      "terminos": [
+        "contrarios",
+        "a"
+      ],
+      "frecuencia": 17
+    },
+    {
+      "terminos": [
+        "de",
+        "transporte"
+      ],
+      "frecuencia": 17
+    },
+    {
+      "terminos": [
+        "niños",
+        "niñas"
+      ],
+      "frecuencia": 16
+    },
+    {
+      "terminos": [
+        "autoridad",
+        "de"
+      ],
+      "frecuencia": 16
+    },
+    {
+      "terminos": [
+        "a",
+        "las"
+      ],
+      "frecuencia": 15
+    },
+    {
+      "terminos": [
+        "y",
+        "la"
+      ],
+      "frecuencia": 14
+    },
+    {
+      "terminos": [
+        "en",
+        "la"
+      ],
+      "frecuencia": 14
+    },
+    {
+      "terminos": [
+        "comportamientos",
+        "contrarios"
+      ],
+      "frecuencia": 14
+    },
+    {
+      "terminos": [
+        "niñas",
+        "y"
+      ],
+      "frecuencia": 13
+    },
+    {
+      "terminos": [
+        "y",
+        "adolescentes"
+      ],
+      "frecuencia": 13
+    },
+    {
+      "terminos": [
+        "en",
+        "los"
+      ],
+      "frecuencia": 13
+    },
+    {
+      "terminos": [
+        "que",
+        "se"
+      ],
+      "frecuencia": 13
+    },
+    {
+      "terminos": [
+        "numeral",
+        "1"
+      ],
+      "frecuencia": 12
+    },
+    {
+      "terminos": [
+        "orden",
+        "de"
+      ],
+      "frecuencia": 12
+    },
+    {
+      "terminos": [
+        "dentro",
+        "de"
+      ],
+      "frecuencia": 11
+    },
+    {
+      "terminos": [
+        "autoridades",
+        "de"
+      ],
+      "frecuencia": 10
+    },
+    {
+      "terminos": [
+        "los",
+        "comportamientos"
+      ],
+      "frecuencia": 10
+    }
+  ],
+  "trigramas_frecuentes": [
+    {
+      "terminos": [
+        "multa",
+        "general",
+        "tipo"
+      ],
+      "frecuencia": 32
+    },
+    {
+      "terminos": [
+        "a",
+        "la",
+        "convivencia"
+      ],
+      "frecuencia": 22
+    },
+    {
+      "terminos": [
+        "contrarios",
+        "a",
+        "la"
+      ],
+      "frecuencia": 17
+    },
+    {
+      "terminos": [
+        "autoridad",
+        "de",
+        "policía"
+      ],
+      "frecuencia": 16
+    },
+    {
+      "terminos": [
+        "la",
+        "autoridad",
+        "de"
+      ],
+      "frecuencia": 15
+    },
+    {
+      "terminos": [
+        "niños",
+        "niñas",
+        "y"
+      ],
+      "frecuencia": 13
+    },
+    {
+      "terminos": [
+        "niñas",
+        "y",
+        "adolescentes"
+      ],
+      "frecuencia": 13
+    },
+    {
+      "terminos": [
+        "comportamientos",
+        "contrarios",
+        "a"
+      ],
+      "frecuencia": 13
+    },
+    {
+      "terminos": [
+        "las",
+        "autoridades",
+        "de"
+      ],
+      "frecuencia": 10
+    },
+    {
+      "terminos": [
+        "autoridades",
+        "de",
+        "policía"
+      ],
+      "frecuencia": 10
+    },
+    {
+      "terminos": [
+        "general",
+        "tipo",
+        "4"
+      ],
+      "frecuencia": 10
+    },
+    {
+      "terminos": [
+        "orden",
+        "de",
+        "policía"
+      ],
+      "frecuencia": 10
+    },
+    {
+      "terminos": [
+        "general",
+        "tipo",
+        "3"
+      ],
+      "frecuencia": 9
+    },
+    {
+      "terminos": [
+        "suspensión",
+        "temporal",
+        "de"
+      ],
+      "frecuencia": 9
+    },
+    {
+      "terminos": [
+        "la",
+        "convivencia",
+        "en"
+      ],
+      "frecuencia": 8
+    },
+    {
+      "terminos": [
+        "de",
+        "la",
+        "autoridad"
+      ],
+      "frecuencia": 8
+    },
+    {
+      "terminos": [
+        "la",
+        "orden",
+        "de"
+      ],
+      "frecuencia": 8
+    },
+    {
+      "terminos": [
+        "de",
+        "daños",
+        "materiales"
+      ],
+      "frecuencia": 8
+    },
+    {
+      "terminos": [
+        "general",
+        "tipo",
+        "1"
+      ],
+      "frecuencia": 8
+    },
+    {
+      "terminos": [
+        "temporal",
+        "de",
+        "actividad"
+      ],
+      "frecuencia": 8
+    },
+    {
+      "terminos": [
+        "los",
+        "sistemas",
+        "de"
+      ],
+      "frecuencia": 8
+    },
+    {
+      "terminos": [
+        "de",
+        "las",
+        "personas"
+      ],
+      "frecuencia": 7
+    },
+    {
+      "terminos": [
+        "los",
+        "niños",
+        "niñas"
+      ],
+      "frecuencia": 7
+    },
+    {
+      "terminos": [
+        "de",
+        "policía",
+        "o"
+      ],
+      "frecuencia": 7
+    },
+    {
+      "terminos": [
+        "reparación",
+        "de",
+        "daños"
+      ],
+      "frecuencia": 7
+    },
+    {
+      "terminos": [
+        "de",
+        "transporte",
+        "público"
+      ],
+      "frecuencia": 7
+    },
+    {
+      "terminos": [
+        "el",
+        "territorio",
+        "nacional"
+      ],
+      "frecuencia": 6
+    },
+    {
+      "terminos": [
+        "el",
+        "cumplimiento",
+        "de"
+      ],
+      "frecuencia": 6
+    },
+    {
+      "terminos": [
+        "abiertos",
+        "al",
+        "público"
+      ],
+      "frecuencia": 6
+    },
+    {
+      "terminos": [
+        "de",
+        "las",
+        "autoridades"
+      ],
+      "frecuencia": 6
+    }
+  ],
+  "entidades_por_patrones": {
+    "AUTORIDAD": [
+      [
+        "alcaldes",
+        3
+      ],
+      [
+        "policía nacional",
+        2
+      ],
+      [
+        "inspector de policía",
+        2
+      ],
+      [
+        "alcalde",
+        1
+      ],
+      [
+        "instituto colombiano de bienestar familiar",
+        1
+      ],
+      [
+        "ministerio público",
+        1
+      ],
+      [
+        "corregidores",
+        1
+      ],
+      [
+        "inspectores de policía",
+        1
+      ]
+    ],
+    "LUGAR": [
+      [
+        "espacio público",
+        7
+      ],
+      [
+        "territorio nacional",
+        6
+      ]
+    ],
+    "MONTO": [],
+    "PLAZO": [
+      [
+        "cinco (5) días",
+        3
+      ],
+      [
+        "veinticuatro (24) horas",
+        2
+      ],
+      [
+        "dos (2) días",
+        2
+      ],
+      [
+        "sesenta (60) días",
+        1
+      ],
+      [
+        "tres (3) días hábiles",
+        1
+      ],
+      [
+        "ocho (8) días",
+        1
+      ],
+      [
+        "tres (3) días",
+        1
+      ]
+    ]
+  },
+  "colocaciones_pmi": [
+    {
+      "terminos": [
+        "medida",
+        "correctiva"
+      ],
+      "frecuencia": 9,
+      "pmi": 8.9484
+    },
+    {
+      "terminos": [
+        "multa",
+        "general"
+      ],
+      "frecuencia": 32,
+      "pmi": 7.3519
+    },
+    {
+      "terminos": [
+        "espacio",
+        "público"
+      ],
+      "frecuencia": 7,
+      "pmi": 7.3269
+    },
+    {
+      "terminos": [
+        "1",
+        "multa"
+      ],
+      "frecuencia": 6,
+      "pmi": 4.7024
+    },
+    {
+      "terminos": [
+        "la",
+        "medida"
+      ],
+      "frecuencia": 9,
+      "pmi": 3.8991
+    }
+  ],
+  "concordancias_kwic": {
+    "multa": [
+      {
+        "articulo": "27",
+        "izquierda": "ivas ilícitas o prohibidas, o en estado de embriaguez. Numeral 1 ",
+        "termino": "Multa",
+        "derecha": " General tipo 2. PARÁGRAFO 2o. En los comportamientos señalados e"
+      },
+      {
+        "articulo": "33",
+        "izquierda": "y perturben o afecten la tranquilidad de las personas. Numeral 1 ",
+        "termino": "Multa",
+        "derecha": " General tipo 4 . Disolución de reunión o actividad que involucra"
+      },
+      {
+        "articulo": "77",
+        "izquierda": "bación a la posesión y tenencia de inmuebles o mueble. Numeral 3 ",
+        "termino": "Multa",
+        "derecha": " General tipo 3 Numeral 4 Multa General tipo 3; construcción, cer"
+      },
+      {
+        "articulo": "77",
+        "izquierda": " de inmuebles o mueble. Numeral 3 Multa General tipo 3 Numeral 4 ",
+        "termino": "Multa",
+        "derecha": " General tipo 3; construcción, cerramiento, reparación o mantenim"
+      },
+      {
+        "articulo": "93",
+        "izquierda": "rgencias a las personas que se encuentren en el lugar. Numeral 1 ",
+        "termino": "Multa",
+        "derecha": " General Tipo 1"
+      }
+    ],
+    "comparendo": [
+      {
+        "articulo": "218",
+        "izquierda": "ARTÍCULO 218. DEFINICIÓN DE ORDEN DE ",
+        "termino": "COMPARENDO",
+        "derecha": ". Entiéndase por esta, la acción del personal uniformado de la Po"
+      }
+    ],
+    "medida correctiva": [
+      {
+        "articulo": "33",
+        "izquierda": "a de suspensión inmediata de la actividad, retiro del sitio y la ",
+        "termino": "medida correctiva",
+        "derecha": " de disolución de reunión o actividad que involucra aglomeracione"
+      },
+      {
+        "articulo": "33",
+        "izquierda": "a de suspensión inmediata de la actividad, retiro del sitio y la ",
+        "termino": "medida correctiva",
+        "derecha": " de disolución de reunión o actividad que involucra aglomeracione"
+      },
+      {
+        "articulo": "218",
+        "izquierda": "a o virtual para presentarse ante autoridad de Policía o cumplir ",
+        "termino": "medida correctiva",
+        "derecha": "."
+      },
+      {
+        "articulo": "222",
+        "izquierda": " las partes en conflicto. De no lograr la mediación, impondrá la ",
+        "termino": "medida correctiva",
+        "derecha": " a través de la orden de Policía. PARÁGRAFO 1o. En contra de la o"
+      },
+      {
+        "articulo": "222",
+        "izquierda": " de Policía. PARÁGRAFO 1o. En contra de la orden de Policía o la ",
+        "termino": "medida correctiva",
+        "derecha": ", procederá el recurso de apelación, el cual se concederá en el e"
+      }
+    ],
+    "espacio público": [
+      {
+        "articulo": "2",
+        "izquierda": "la comunidad comportamientos que favorezcan la convivencia en el ",
+        "termino": "espacio público",
+        "derecha": ", áreas comunes, lugares abiertos al público o que siendo privado"
+      },
+      {
+        "articulo": "36",
+        "izquierda": " LA MOVILIDAD O PERMANENCIA DE NIÑOS, NIÑAS Y ADOLESCENTES EN EL ",
+        "termino": "ESPACIO PÚBLICO",
+        "derecha": " O EN LUGARES ABIERTOS AL PÚBLICO. Con el fin de prevenir la ocur"
+      },
+      {
+        "articulo": "36",
+        "izquierda": "nte el alcalde podrá restringir su movilidad o permanencia en el ",
+        "termino": "espacio público",
+        "derecha": " o en lugares abiertos al público, de manera temporal y en forma "
+      },
+      {
+        "articulo": "111",
+        "izquierda": "mpetente. 8. Arrojar basura, llantas, residuos o escombros en el ",
+        "termino": "espacio público",
+        "derecha": " o en bienes de carácter público o privado. Numeral 1 Participaci"
+      },
+      {
+        "articulo": "124",
+        "izquierda": "S. 1. Dejar deambular semoviente, animales feroces o dañinos, en ",
+        "termino": "espacio público",
+        "derecha": " y privado, lugar abierto al público, o medio de transporte públi"
+      }
+    ]
+  },
+  "colocaciones_juridicas": {
+    "medida correctiva": 9,
+    "multa general": 32,
+    "autoridad de policía": 16,
+    "espacio público": 7,
+    "orden de comparendo": 1,
+    "comportamientos contrarios a la convivencia": 9
+  },
+  "glosario": {
+    "comparendo": {
+      "explicacion": "Orden relacionada con un procedimiento de policía.",
+      "consulta_coloquial": "Me pusieron un comparendo, ¿qué hago?"
+    },
+    "multa": {
+      "explicacion": "Medida correctiva de carácter económico.",
+      "consulta_coloquial": "¿Cuánto tengo que pagar?"
+    },
+    "medida correctiva": {
+      "explicacion": "Medida contemplada por el Código Nacional de Seguridad y Convivencia Ciudadana.",
+      "consulta_coloquial": "¿Qué me puede pasar si incumplo una norma?"
+    },
+    "espacio público": {
+      "explicacion": "Espacios destinados al uso y disfrute colectivo.",
+      "consulta_coloquial": "¿Puedo hacer esto en la calle o en un parque?"
+    },
+    "autoridad de policía": {
+      "explicacion": "Autoridad con competencias establecidas en el Código.",
+      "consulta_coloquial": "¿Quién puede intervenir o imponer una medida?"
+    }
+  },
+  "limitaciones_ner": "El modelo general de español puede clasificar incorrectamente entidades jurídicas. Sus etiquetas requieren interpretación humana.",
+  "fragmentos": 127,
+  "longitud_media_fragmento_tokens": 61.78
+}

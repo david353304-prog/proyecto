@@ -1,0 +1,7 @@
+{"consulta": 1, "evento": "inicio"}
+{"consulta": 1, "evento": "recuperacion", "segundos": 0.066089}
+{"consulta": 1, "evento": "contexto", "segundos": 4.4e-05, "sha256": "66f67324bd84a3d9c253bc1464beca2d8e664044bd589f0d9a5a4956b8516608"}
+{"consulta": 1, "evento": "intento", "segundos": 6.111075}
+{"consulta": 1, "evento": "generacion", "segundos": 6.192746}
+{"consulta": 1, "evento": "seleccion_citas", "segundos": 0.000113, "aceptada": false}
+{"consulta": 1, "evento": "fin", "http": 200}

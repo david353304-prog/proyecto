@@ -1,0 +1,84 @@
+{"consulta": 1, "evento": "inicio"}
+{"consulta": 1, "evento": "recuperacion", "segundos": 0.097833}
+{"consulta": 1, "evento": "contexto", "segundos": 8.1e-05, "sha256": "3b3893a8afcc3845519de521cb80fd2a82b970a8137c45f16d4827890345bb2a"}
+{"consulta": 1, "evento": "intento", "segundos": 11.391114}
+{"consulta": 1, "evento": "generacion", "segundos": 11.531472}
+{"consulta": 1, "evento": "seleccion_citas", "segundos": 0.00094, "aceptada": true}
+{"consulta": 1, "evento": "validacion", "segundos": 0.015068, "estado": "PENDIENTE_VALIDACION"}
+{"consulta": 1, "evento": "fin", "http": 200}
+{"consulta": 2, "evento": "inicio"}
+{"consulta": 2, "evento": "recuperacion", "segundos": 0.078293}
+{"consulta": 2, "evento": "contexto", "segundos": 3.1e-05, "sha256": "4e42d15d6cac2a2d188398e9f734554322b0f769bbc8f058ef895096c734b8ae"}
+{"consulta": 2, "evento": "intento", "segundos": 1.195181}
+{"consulta": 2, "evento": "generacion", "segundos": 1.200026}
+{"consulta": 2, "evento": "seleccion_citas", "segundos": 0.000122, "aceptada": true}
+{"consulta": 2, "evento": "validacion", "segundos": 0.000698, "estado": "PENDIENTE_VALIDACION"}
+{"consulta": 2, "evento": "fin", "http": 200}
+{"consulta": 3, "evento": "inicio"}
+{"consulta": 3, "evento": "recuperacion", "segundos": 0.052959}
+{"consulta": 3, "evento": "contexto", "segundos": 2.4e-05, "sha256": "2a6ebd58d46231df541b5114471a9c5452d08d82d5ef5bfb740b5ed589098c86"}
+{"consulta": 3, "evento": "intento", "segundos": 2.223124}
+{"consulta": 3, "evento": "generacion", "segundos": 2.228326}
+{"consulta": 3, "evento": "seleccion_citas", "segundos": 9.8e-05, "aceptada": true}
+{"consulta": 3, "evento": "validacion", "segundos": 0.000929, "estado": "PENDIENTE_VALIDACION"}
+{"consulta": 3, "evento": "fin", "http": 200}
+{"consulta": 4, "evento": "inicio"}
+{"consulta": 4, "evento": "recuperacion", "segundos": 0.050322}
+{"consulta": 4, "evento": "contexto", "segundos": 4e-05, "sha256": "4e42d15d6cac2a2d188398e9f734554322b0f769bbc8f058ef895096c734b8ae"}
+{"consulta": 4, "evento": "intento", "segundos": 1.568532}
+{"consulta": 4, "evento": "generacion", "segundos": 1.574325}
+{"consulta": 4, "evento": "seleccion_citas", "segundos": 0.000135, "aceptada": true}
+{"consulta": 4, "evento": "validacion", "segundos": 0.000689, "estado": "PENDIENTE_VALIDACION"}
+{"consulta": 4, "evento": "fin", "http": 200}
+{"consulta": 5, "evento": "inicio"}
+{"consulta": 5, "evento": "fin", "http": 200}
+{"consulta": 6, "evento": "inicio"}
+{"consulta": 6, "evento": "fin", "http": 200}
+{"consulta": 7, "evento": "inicio"}
+{"consulta": 7, "evento": "fin", "http": 200}
+{"consulta": 8, "evento": "inicio"}
+{"consulta": 8, "evento": "fin", "http": 200}
+{"consulta": 9, "evento": "inicio"}
+{"consulta": 9, "evento": "fin", "http": 200}
+{"consulta": 10, "evento": "inicio"}
+{"consulta": 10, "evento": "fin", "http": 200}
+{"consulta": 11, "evento": "inicio"}
+{"consulta": 11, "evento": "fin", "http": 200}
+{"consulta": 12, "evento": "inicio"}
+{"consulta": 12, "evento": "fin", "http": 200}
+{"consulta": 13, "evento": "inicio"}
+{"consulta": 13, "evento": "fin", "http": 200}
+{"consulta": 14, "evento": "inicio"}
+{"consulta": 14, "evento": "fin", "http": 200}
+{"consulta": 15, "evento": "inicio"}
+{"consulta": 15, "evento": "fin", "http": 200}
+{"consulta": 16, "evento": "inicio"}
+{"consulta": 16, "evento": "fin", "http": 200}
+{"consulta": 17, "evento": "inicio"}
+{"consulta": 17, "evento": "fin", "http": 200}
+{"consulta": 18, "evento": "inicio"}
+{"consulta": 18, "evento": "fin", "http": 200}
+{"consulta": 19, "evento": "inicio"}
+{"consulta": 19, "evento": "fin", "http": 200}
+{"consulta": 20, "evento": "inicio"}
+{"consulta": 20, "evento": "fin", "http": 200}
+{"consulta": 21, "evento": "inicio"}
+{"consulta": 21, "evento": "fin", "http": 200}
+{"consulta": 22, "evento": "inicio"}
+{"consulta": 22, "evento": "fin", "http": 200}
+{"consulta": 23, "evento": "inicio"}
+{"consulta": 23, "evento": "fin", "http": 200}
+{"consulta": 24, "evento": "inicio"}
+{"consulta": 24, "evento": "fin", "http": 200}
+{"consulta": 25, "evento": "inicio"}
+{"consulta": 25, "evento": "fin", "http": 200}
+{"consulta": 26, "evento": "inicio"}
+{"consulta": 26, "evento": "fin", "http": 200}
+{"consulta": 27, "evento": "inicio"}
+{"consulta": 27, "evento": "fin", "http": 200}
+{"consulta": 28, "evento": "inicio"}
+{"consulta": 28, "evento": "fin", "http": 200}
+{"consulta": 29, "evento": "inicio"}
+{"consulta": 29, "evento": "fin", "http": 200}
+{"consulta": 30, "evento": "inicio"}
+{"consulta": 30, "evento": "fin", "http": 200}

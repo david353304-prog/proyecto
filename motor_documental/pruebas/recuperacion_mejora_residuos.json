@@ -1,0 +1,664 @@
+{
+  "modo": "indice_publico_y_enrutamiento_de_produccion",
+  "sha256_corpus_publicable": "13d9f322bc8d85fbca763e0264838f6b984ff786f5bef132349d2c1eade58f0e",
+  "sha256_banco": "dbeab26c86e8cebc541e301b673347584214630b447af06343e3c311c20beaa9",
+  "total_preguntas": 50,
+  "articulos_publicables": [
+    "1",
+    "2",
+    "3",
+    "5",
+    "6",
+    "7",
+    "8",
+    "24",
+    "25",
+    "26",
+    "27",
+    "35",
+    "36",
+    "39",
+    "77",
+    "93",
+    "94",
+    "111",
+    "124",
+    "135",
+    "140",
+    "146",
+    "150",
+    "180",
+    "206",
+    "218",
+    "222",
+    "223"
+  ],
+  "fragmentos_indizados": 63,
+  "preguntas_con_referencia_publicable": 35,
+  "abstenciones_documentales": 23,
+  "metricas": {
+    "precision_at_1": 0.54,
+    "hit_at_1": 0.54,
+    "recall_at_1": 0.54,
+    "precision_at_3": 0.18,
+    "hit_at_3": 0.54,
+    "recall_at_3": 0.54,
+    "precision_at_5": 0.108,
+    "hit_at_5": 0.54,
+    "recall_at_5": 0.54,
+    "precision_at_10": 0.054,
+    "hit_at_10": 0.54,
+    "recall_at_10": 0.54,
+    "precision_at_20": 0.027,
+    "hit_at_20": 0.54,
+    "recall_at_20": 0.54,
+    "precision_at_50": 0.0108,
+    "hit_at_50": 0.54,
+    "recall_at_50": 0.54,
+    "mrr": 0.54
+  },
+  "diagnostico_sin_enrutamiento": {
+    "max_tokens_modelo": 128,
+    "articulos_truncados": 15,
+    "metricas": {
+      "articulo_completo": {
+        "precision_at_1": 0.4,
+        "hit_at_1": 0.4,
+        "recall_at_1": 0.4,
+        "precision_at_3": 0.1733,
+        "hit_at_3": 0.52,
+        "recall_at_3": 0.52,
+        "precision_at_5": 0.124,
+        "hit_at_5": 0.62,
+        "recall_at_5": 0.62,
+        "precision_at_10": 0.07,
+        "hit_at_10": 0.7,
+        "recall_at_10": 0.7,
+        "precision_at_20": 0.035,
+        "hit_at_20": 0.7,
+        "recall_at_20": 0.7,
+        "precision_at_50": 0.014,
+        "hit_at_50": 0.7,
+        "recall_at_50": 0.7,
+        "mrr": 0.4915
+      },
+      "fragmentos": {
+        "precision_at_1": 0.46,
+        "hit_at_1": 0.46,
+        "recall_at_1": 0.46,
+        "precision_at_3": 0.18,
+        "hit_at_3": 0.54,
+        "recall_at_3": 0.54,
+        "precision_at_5": 0.12,
+        "hit_at_5": 0.6,
+        "recall_at_5": 0.6,
+        "precision_at_10": 0.07,
+        "hit_at_10": 0.7,
+        "recall_at_10": 0.7,
+        "precision_at_20": 0.035,
+        "hit_at_20": 0.7,
+        "recall_at_20": 0.7,
+        "precision_at_50": 0.014,
+        "hit_at_50": 0.7,
+        "recall_at_50": 0.7,
+        "mrr": 0.5287
+      }
+    }
+  },
+  "resultados": [
+    {
+      "id": "RAG-001",
+      "esperados": [
+        "1"
+      ],
+      "recuperados": [
+        "1"
+      ],
+      "abstencion_documental": false,
+      "recuperacion_ms": 67.569,
+      "primera_posicion_relevante": 1
+    },
+    {
+      "id": "RAG-002",
+      "esperados": [
+        "2"
+      ],
+      "recuperados": [
+        "2"
+      ],
+      "abstencion_documental": false,
+      "recuperacion_ms": 44.756,
+      "primera_posicion_relevante": 1
+    },
+    {
+      "id": "RAG-003",
+      "esperados": [
+        "8"
+      ],
+      "recuperados": [
+        "8"
+      ],
+      "abstencion_documental": false,
+      "recuperacion_ms": 37.521,
+      "primera_posicion_relevante": 1
+    },
+    {
+      "id": "RAG-004",
+      "esperados": [
+        "27"
+      ],
+      "recuperados": [
+        "27"
+      ],
+      "abstencion_documental": false,
+      "recuperacion_ms": 42.84,
+      "primera_posicion_relevante": 1
+    },
+    {
+      "id": "RAG-005",
+      "esperados": [
+        "33"
+      ],
+      "recuperados": [],
+      "abstencion_documental": true,
+      "recuperacion_ms": 0.346,
+      "primera_posicion_relevante": null
+    },
+    {
+      "id": "RAG-006",
+      "esperados": [
+        "35"
+      ],
+      "recuperados": [],
+      "abstencion_documental": true,
+      "recuperacion_ms": 0.246,
+      "primera_posicion_relevante": null
+    },
+    {
+      "id": "RAG-007",
+      "esperados": [
+        "36"
+      ],
+      "recuperados": [
+        "36"
+      ],
+      "abstencion_documental": false,
+      "recuperacion_ms": 60.888,
+      "primera_posicion_relevante": 1
+    },
+    {
+      "id": "RAG-008",
+      "esperados": [
+        "38"
+      ],
+      "recuperados": [],
+      "abstencion_documental": true,
+      "recuperacion_ms": 0.539,
+      "primera_posicion_relevante": null
+    },
+    {
+      "id": "RAG-009",
+      "esperados": [
+        "39"
+      ],
+      "recuperados": [
+        "39"
+      ],
+      "abstencion_documental": false,
+      "recuperacion_ms": 62.466,
+      "primera_posicion_relevante": 1
+    },
+    {
+      "id": "RAG-010",
+      "esperados": [
+        "40"
+      ],
+      "recuperados": [],
+      "abstencion_documental": true,
+      "recuperacion_ms": 0.575,
+      "primera_posicion_relevante": null
+    },
+    {
+      "id": "RAG-051",
+      "esperados": [
+        "5"
+      ],
+      "recuperados": [
+        "5"
+      ],
+      "abstencion_documental": false,
+      "recuperacion_ms": 44.023,
+      "primera_posicion_relevante": 1
+    },
+    {
+      "id": "RAG-012",
+      "esperados": [
+        "77"
+      ],
+      "recuperados": [
+        "77"
+      ],
+      "abstencion_documental": false,
+      "recuperacion_ms": 42.992,
+      "primera_posicion_relevante": 1
+    },
+    {
+      "id": "RAG-013",
+      "esperados": [
+        "92"
+      ],
+      "recuperados": [],
+      "abstencion_documental": true,
+      "recuperacion_ms": 0.439,
+      "primera_posicion_relevante": null
+    },
+    {
+      "id": "RAG-014",
+      "esperados": [
+        "93"
+      ],
+      "recuperados": [],
+      "abstencion_documental": true,
+      "recuperacion_ms": 0.255,
+      "primera_posicion_relevante": null
+    },
+    {
+      "id": "RAG-015",
+      "esperados": [
+        "94"
+      ],
+      "recuperados": [
+        "94"
+      ],
+      "abstencion_documental": false,
+      "recuperacion_ms": 40.389,
+      "primera_posicion_relevante": 1
+    },
+    {
+      "id": "RAG-016",
+      "esperados": [
+        "95"
+      ],
+      "recuperados": [],
+      "abstencion_documental": true,
+      "recuperacion_ms": 0.276,
+      "primera_posicion_relevante": null
+    },
+    {
+      "id": "RAG-017",
+      "esperados": [
+        "111"
+      ],
+      "recuperados": [
+        "111"
+      ],
+      "abstencion_documental": false,
+      "recuperacion_ms": 41.792,
+      "primera_posicion_relevante": 1
+    },
+    {
+      "id": "RAG-018",
+      "esperados": [
+        "124"
+      ],
+      "recuperados": [],
+      "abstencion_documental": true,
+      "recuperacion_ms": 0.329,
+      "primera_posicion_relevante": null
+    },
+    {
+      "id": "RAG-019",
+      "esperados": [
+        "135"
+      ],
+      "recuperados": [],
+      "abstencion_documental": true,
+      "recuperacion_ms": 0.238,
+      "primera_posicion_relevante": null
+    },
+    {
+      "id": "RAG-020",
+      "esperados": [
+        "140"
+      ],
+      "recuperados": [],
+      "abstencion_documental": true,
+      "recuperacion_ms": 0.212,
+      "primera_posicion_relevante": null
+    },
+    {
+      "id": "RAG-021",
+      "esperados": [
+        "146"
+      ],
+      "recuperados": [],
+      "abstencion_documental": true,
+      "recuperacion_ms": 0.208,
+      "primera_posicion_relevante": null
+    },
+    {
+      "id": "RAG-022",
+      "esperados": [
+        "150"
+      ],
+      "recuperados": [
+        "150"
+      ],
+      "abstencion_documental": false,
+      "recuperacion_ms": 37.633,
+      "primera_posicion_relevante": 1
+    },
+    {
+      "id": "RAG-023",
+      "esperados": [
+        "155"
+      ],
+      "recuperados": [],
+      "abstencion_documental": true,
+      "recuperacion_ms": 0.372,
+      "primera_posicion_relevante": null
+    },
+    {
+      "id": "RAG-024",
+      "esperados": [
+        "163"
+      ],
+      "recuperados": [],
+      "abstencion_documental": true,
+      "recuperacion_ms": 0.236,
+      "primera_posicion_relevante": null
+    },
+    {
+      "id": "RAG-025",
+      "esperados": [
+        "180"
+      ],
+      "recuperados": [
+        "180"
+      ],
+      "abstencion_documental": false,
+      "recuperacion_ms": 40.262,
+      "primera_posicion_relevante": 1
+    },
+    {
+      "id": "RAG-026",
+      "esperados": [
+        "206"
+      ],
+      "recuperados": [
+        "206"
+      ],
+      "abstencion_documental": false,
+      "recuperacion_ms": 38.732,
+      "primera_posicion_relevante": 1
+    },
+    {
+      "id": "RAG-027",
+      "esperados": [
+        "222"
+      ],
+      "recuperados": [
+        "222"
+      ],
+      "abstencion_documental": false,
+      "recuperacion_ms": 36.484,
+      "primera_posicion_relevante": 1
+    },
+    {
+      "id": "RAG-028",
+      "esperados": [
+        "223"
+      ],
+      "recuperados": [
+        "223"
+      ],
+      "abstencion_documental": false,
+      "recuperacion_ms": 57.748,
+      "primera_posicion_relevante": 1
+    },
+    {
+      "id": "RAG-029",
+      "esperados": [
+        "223A"
+      ],
+      "recuperados": [],
+      "abstencion_documental": true,
+      "recuperacion_ms": 2.305,
+      "primera_posicion_relevante": null
+    },
+    {
+      "id": "RAG-030",
+      "esperados": [
+        "237"
+      ],
+      "recuperados": [],
+      "abstencion_documental": true,
+      "recuperacion_ms": 0.466,
+      "primera_posicion_relevante": null
+    },
+    {
+      "id": "RAG-031",
+      "esperados": [
+        "27"
+      ],
+      "recuperados": [
+        "27"
+      ],
+      "abstencion_documental": false,
+      "recuperacion_ms": 48.311,
+      "primera_posicion_relevante": 1
+    },
+    {
+      "id": "RAG-032",
+      "esperados": [
+        "33"
+      ],
+      "recuperados": [],
+      "abstencion_documental": true,
+      "recuperacion_ms": 0.339,
+      "primera_posicion_relevante": null
+    },
+    {
+      "id": "RAG-033",
+      "esperados": [
+        "35"
+      ],
+      "recuperados": [],
+      "abstencion_documental": true,
+      "recuperacion_ms": 0.281,
+      "primera_posicion_relevante": null
+    },
+    {
+      "id": "RAG-034",
+      "esperados": [
+        "38"
+      ],
+      "recuperados": [],
+      "abstencion_documental": true,
+      "recuperacion_ms": 0.295,
+      "primera_posicion_relevante": null
+    },
+    {
+      "id": "RAG-035",
+      "esperados": [
+        "77"
+      ],
+      "recuperados": [
+        "77"
+      ],
+      "abstencion_documental": false,
+      "recuperacion_ms": 49.21,
+      "primera_posicion_relevante": 1
+    },
+    {
+      "id": "RAG-036",
+      "esperados": [
+        "92"
+      ],
+      "recuperados": [],
+      "abstencion_documental": true,
+      "recuperacion_ms": 0.746,
+      "primera_posicion_relevante": null
+    },
+    {
+      "id": "RAG-037",
+      "esperados": [
+        "93"
+      ],
+      "recuperados": [
+        "93"
+      ],
+      "abstencion_documental": false,
+      "recuperacion_ms": 62.364,
+      "primera_posicion_relevante": 1
+    },
+    {
+      "id": "RAG-038",
+      "esperados": [
+        "94"
+      ],
+      "recuperados": [
+        "94"
+      ],
+      "abstencion_documental": false,
+      "recuperacion_ms": 61.677,
+      "primera_posicion_relevante": 1
+    },
+    {
+      "id": "RAG-039",
+      "esperados": [
+        "95"
+      ],
+      "recuperados": [],
+      "abstencion_documental": true,
+      "recuperacion_ms": 0.401,
+      "primera_posicion_relevante": null
+    },
+    {
+      "id": "RAG-040",
+      "esperados": [
+        "111"
+      ],
+      "recuperados": [
+        "111"
+      ],
+      "abstencion_documental": false,
+      "recuperacion_ms": 61.586,
+      "primera_posicion_relevante": 1
+    },
+    {
+      "id": "RAG-041",
+      "esperados": [
+        "124"
+      ],
+      "recuperados": [
+        "124"
+      ],
+      "abstencion_documental": false,
+      "recuperacion_ms": 71.678,
+      "primera_posicion_relevante": 1
+    },
+    {
+      "id": "RAG-042",
+      "esperados": [
+        "135"
+      ],
+      "recuperados": [
+        "135"
+      ],
+      "abstencion_documental": false,
+      "recuperacion_ms": 49.003,
+      "primera_posicion_relevante": 1
+    },
+    {
+      "id": "RAG-043",
+      "esperados": [
+        "140"
+      ],
+      "recuperados": [
+        "140"
+      ],
+      "abstencion_documental": false,
+      "recuperacion_ms": 45.333,
+      "primera_posicion_relevante": 1
+    },
+    {
+      "id": "RAG-044",
+      "esperados": [
+        "146"
+      ],
+      "recuperados": [
+        "146"
+      ],
+      "abstencion_documental": false,
+      "recuperacion_ms": 41.201,
+      "primera_posicion_relevante": 1
+    },
+    {
+      "id": "RAG-045",
+      "esperados": [
+        "150"
+      ],
+      "recuperados": [
+        "150"
+      ],
+      "abstencion_documental": false,
+      "recuperacion_ms": 42.209,
+      "primera_posicion_relevante": 1
+    },
+    {
+      "id": "RAG-046",
+      "esperados": [
+        "155"
+      ],
+      "recuperados": [],
+      "abstencion_documental": true,
+      "recuperacion_ms": 0.433,
+      "primera_posicion_relevante": null
+    },
+    {
+      "id": "RAG-047",
+      "esperados": [
+        "163"
+      ],
+      "recuperados": [],
+      "abstencion_documental": true,
+      "recuperacion_ms": 0.299,
+      "primera_posicion_relevante": null
+    },
+    {
+      "id": "RAG-048",
+      "esperados": [
+        "180"
+      ],
+      "recuperados": [],
+      "abstencion_documental": true,
+      "recuperacion_ms": 0.326,
+      "primera_posicion_relevante": null
+    },
+    {
+      "id": "RAG-049",
+      "esperados": [
+        "222"
+      ],
+      "recuperados": [
+        "222"
+      ],
+      "abstencion_documental": false,
+      "recuperacion_ms": 46.159,
+      "primera_posicion_relevante": 1
+    },
+    {
+      "id": "RAG-050",
+      "esperados": [
+        "223"
+      ],
+      "recuperados": [
+        "223"
+      ],
+      "abstencion_documental": false,
+      "recuperacion_ms": 49.768,
+      "primera_posicion_relevante": 1
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "aviso": true,
+  "sugerida": true,
+  "fuente": "ARTÍCULO 135. COMPORTAMIENTOS CONTRARIOS A LA INTEGRIDAD URBANÍSTICA. A) Parcelar, urbanizar, demoler, intervenir o construir: 4. En terrenos aptos para estas actuaciones, sin licencia o cuando esta hubiere caducado. Numeral 4 Multa especial por infracción urbanística; Demolición de obra; Construcción, cerramiento, reparación o mantenimiento de inmueble; Remoción de bienes.",
+  "enlace": "https:",
+  "historial": true,
+  "reinicio": true,
+  "datos": [
+    {
+      "fuentes_recuperadas": [
+        {
+          "articulo": "135",
+          "numeral": "",
+          "titulo": "COMPORTAMIENTOS CONTRARIOS A LA INTEGRIDAD URBANÍSTICA",
+          "texto": "ARTÍCULO 135. COMPORTAMIENTOS CONTRARIOS A LA INTEGRIDAD URBANÍSTICA. A) Parcelar, urbanizar, demoler, intervenir o construir: 4. En terrenos aptos para estas actuaciones, sin licencia o cuando esta hubiere caducado. Numeral 4 Multa especial por infracción urbanística; Demolición de obra; Construcción, cerramiento, reparación o mantenimiento de inmueble; Remoción de bienes.",
+          "url_fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#135"
+        }
+      ],
+      "pregunta": "Que pasa si construyo sin permisos?",
+      "respuesta": "**Numeral 4 del artículo 135.** «4. En terrenos aptos para estas actuaciones, sin licencia o cuando esta hubiere caducado. Numeral 4 Multa especial por infracción urbanística; Demolición de obra; Construcción, cerramiento, reparación o mantenimiento de inmueble; Remoción de bienes.»",
+      "modelo": "gemini-3.1-flash-lite",
+      "total_generales": 1,
+      "total_estructurados": 0,
+      "validacion_documental": {
+        "estado": "PENDIENTE_VALIDACION",
+        "advertencias": []
+      }
+    },
+    {
+      "fuentes_recuperadas": [],
+      "pregunta": "Que dice el articulo 77?",
+      "respuesta": "No encontré respaldo suficiente en los fragmentos de la Ley 1801 de 2016.",
+      "modelo": "verificación documental",
+      "total_generales": 0,
+      "total_estructurados": 0,
+      "validacion_documental": {
+        "estado": "SIN_RESPALDO",
+        "advertencias": []
+      }
+    }
+  ],
+  "cors_permitido_y_denegado": true
+}

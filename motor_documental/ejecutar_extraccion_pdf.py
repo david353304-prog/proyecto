@@ -6,8 +6,12 @@ No genera embeddings ni modifica índices FAISS.
 """
 
 import json
-import resource
 import sys
+
+if sys.platform != "win32":
+    import resource
+else:
+    resource = None
 
 if __package__:
     from .extraer_pdf_usuario import (
@@ -28,6 +32,10 @@ LIMITE_ARCHIVO_BYTES = 4096
 
 def establecer_limites():
     """Establece límites de recursos para este proceso."""
+
+    if resource is None:
+        # El controlador aplica el tiempo máximo y comprueba la salida.
+        return
 
     resource.setrlimit(
         resource.RLIMIT_AS,

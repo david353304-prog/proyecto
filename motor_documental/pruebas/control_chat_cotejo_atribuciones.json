@@ -1,0 +1,94 @@
+{
+  "estado_motor": {
+    "estado": "activo",
+    "modo_respuesta": "citas_extractivas",
+    "generacion_configurada": true,
+    "sha256_corpus_publicable": "514d04aed4e084e0ffe629453c25296a1f86626636e34a360d5b2c7f85436bb3"
+  },
+  "filas": [
+    {
+      "id": "RAG-004",
+      "pregunta": "¿Qué comportamientos ponen en riesgo la vida e integridad de las personas?",
+      "http": 200,
+      "segundos": 1.474294,
+      "respuesta": {
+        "fuentes_recuperadas": [
+          {
+            "articulo": "27",
+            "numeral": "",
+            "titulo": "COMPORTAMIENTOS QUE PONEN EN RIESGO LA VIDA E INTEGRIDAD",
+            "texto": "ARTÍCULO 27. COMPORTAMIENTOS QUE PONEN EN RIESGO LA VIDA E INTEGRIDAD. Los siguientes comportamientos ponen en riesgo la vida e integridad de las personas, y, por lo tanto, son contrarios a la convivencia: 1. Reñir, incitar o incurrir en confrontaciones violentas que puedan derivar en agresiones físicas. 2. Lanzar objetos que puedan causar daño o sustancias peligrosas a personas. 3. Agredir físicamente a personas por cualquier medio. 4. Amenazar con causar un daño físico a personas por cualquier medio. 5. No retirar o reparar, en los inmuebles, los elementos que ofrezcan riesgo a la vida e integridad. 6. Portar armas, elementos cortantes, punzantes o semejantes, o sustancias peligrosas, en áreas comunes o lugares abiertos al público. Se exceptúa a quien demuestre que tales elementos o sustancias constituyen una herramienta de su actividad deportiva, oficio, profesión o estudio. 7. Portar armas neumáticas, de aire, de fogueo, de letalidad reducida o sprays, rociadores, aspersores o aerosoles de pimienta o cualquier elemento que se asimile a armas de fuego, en lugares abiertos al público donde se desarrollen aglomeraciones de personas o en aquellos donde se consuman bebidas embriagantes, o se advierta su utilización irregular, o se incurra en un comportamiento contrario a la convivencia. 8. Portar armas, elementos y dispositivos menos letales que hayan sido modificados en sus características de fabricación, origen, diseño y propósito, sin perjuicio de las sanciones penales a que haya lugar. 9. Portar armas, elementos y dispositivos menos letales sin permiso de autoridad competente cuando estas lo requieran. 10. Portar armas, elementos y dispositivos menos letales cuando haya perdido vigencia el permiso respectivo. 11. Portar armas, elementos y dispositivos menos letales bajo el influjo de sustancias psicoactivas ilícitas o prohibidas, o en estado de embriaguez. Numeral 1 Multa General tipo 2. PARÁGRAFO 2o. En los comportamientos señalados en los numerales 1 al 5 del presente artículo, se deberá utilizar la mediación policial como medio para intentar resolver el conflicto.",
+            "url_fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#27"
+          }
+        ],
+        "pregunta": "¿Qué comportamientos ponen en riesgo la vida e integridad de las personas?",
+        "respuesta": "**Artículo 27.** «Los siguientes comportamientos ponen en riesgo la vida e integridad de las personas, y, por lo tanto, son contrarios a la convivencia:»\n\n**Numeral 1 del artículo 27.** «1. Reñir, incitar o incurrir en confrontaciones violentas que puedan derivar en agresiones físicas.»\n\n**Numeral 2 del artículo 27.** «2. Lanzar objetos que puedan causar daño o sustancias peligrosas a personas.»\n\n**Numeral 3 del artículo 27.** «3. Agredir físicamente a personas por cualquier medio.»\n\n**Numeral 4 del artículo 27.** «4. Amenazar con causar un daño físico a personas por cualquier medio.»\n\n**Numeral 5 del artículo 27.** «5. No retirar o reparar, en los inmuebles, los elementos que ofrezcan riesgo a la vida e integridad.»\n\n**Numeral 6 del artículo 27.** «6. Portar armas, elementos cortantes, punzantes o semejantes, o sustancias peligrosas, en áreas comunes o lugares abiertos al público. Se exceptúa a quien demuestre que tales elementos o sustancias constituyen una herramienta de su actividad deportiva, oficio, profesión o estudio.»\n\n**Numeral 7 del artículo 27.** «7. Portar armas neumáticas, de aire, de fogueo, de letalidad reducida o sprays, rociadores, aspersores o aerosoles de pimienta o cualquier elemento que se asimile a armas de fuego, en lugares abiertos al público donde se desarrollen aglomeraciones de personas o en aquellos donde se consuman bebidas embriagantes, o se advierta su utilización irregular, o se incurra en un comportamiento contrario a la convivencia.»\n\n**Numeral 8 del artículo 27.** «8. Portar armas, elementos y dispositivos menos letales que hayan sido modificados en sus características de fabricación, origen, diseño y propósito, sin perjuicio de las sanciones penales a que haya lugar.»\n\n**Numeral 9 del artículo 27.** «9. Portar armas, elementos y dispositivos menos letales sin permiso de autoridad competente cuando estas lo requieran.»\n\n**Numeral 10 del artículo 27.** «10. Portar armas, elementos y dispositivos menos letales cuando haya perdido vigencia el permiso respectivo.»\n\n**Numeral 11 del artículo 27.** «11. Portar armas, elementos y dispositivos menos letales bajo el influjo de sustancias psicoactivas ilícitas o prohibidas, o en estado de embriaguez.»\n\n**Numeral 1 del artículo 27.** «Numeral 1 Multa General tipo 2.»\n\n**Parágrafo 2 del artículo 27.** «PARÁGRAFO 2o. En los comportamientos señalados en los numerales 1 al 5 del presente artículo, se deberá utilizar la mediación policial como medio para intentar resolver el conflicto.»",
+        "modelo": "gemini-3.1-flash-lite",
+        "total_generales": 1,
+        "total_estructurados": 0,
+        "validacion_documental": {
+          "estado": "PENDIENTE_VALIDACION",
+          "advertencias": []
+        }
+      },
+      "llamada_gemini_confirmada": true,
+      "estado_documental": "PENDIENTE_VALIDACION"
+    },
+    {
+      "id": "RAG-026",
+      "pregunta": "¿Qué atribuciones tienen los inspectores de Policía?",
+      "http": 200,
+      "segundos": 1.040828,
+      "respuesta": {
+        "fuentes_recuperadas": [
+          {
+            "articulo": "206",
+            "numeral": "",
+            "titulo": "ATRIBUCIONES DE LOS INSPECTORES DE CONVIVENCIA Y PAZ RURALES, URBANOS Y CORREGIDORES",
+            "texto": "ARTÍCULO 206. ATRIBUCIONES DE LOS INSPECTORES DE CONVIVENCIA Y PAZ RURALES, URBANOS Y CORREGIDORES. Les corresponde la aplicación de las siguientes medidas: 1. Conciliar para la solución de conflictos de convivencia, cuando sea procedente. 2. Conocer sobre los comportamientos contrarios a la convivencia en materia de seguridad, tranquilidad, ambiente y recursos naturales, derecho de reunión, protección a los bienes y privacidad, actividad económica, urbanismo, espacio público y libertad de circulación. 3. Ejecutar la orden de restitución; en casos de tierras comunales. 4. Conocer, en única instancia, de la aplicación de las siguientes medidas correctivas: a. Reparación de daños materiales de muebles o inmuebles; b. Expulsión de domicilio; c. Prohibición de ingreso a actividad que involucra aglomeraciones de público complejas o no complejas; d. Decomiso. 5. Conocer en primera instancia de la aplicación de las siguientes medidas correctivas: a. Suspensión de construcción o demolición; b. Demolición de obra; d. Reparación de daños materiales por perturbación a la posesión y tenencia de inmuebles; e. Restitución y protección de bienes inmuebles, diferentes a los descritos en el numeral 17 del artículo 205 ; f. Restablecimiento del derecho de servidumbre y reparación de daños materiales; g. Remoción de bienes, en las infracciones urbanísticas; h. Multas; i. Suspensión definitiva de actividad. 6. Ejecutar las comisiones que trata el artículo 38 del Código General del Proceso o subcomisionar a una autoridad que tenga jurisdicción y competencia, quienes ejercerán transitoriamente como autoridad administrativa de policía. 7. Desarrollar estrategias en materia de pedagogía de paz, resolución de conflictos y justicia restaurativa. 8. Las demás que le señalen la Constitución, la ley, las ordenanzas y los acuerdos. PARÁGRAFO 1o. Las autoridades a que se refieren los artículos anteriores, deberán realizar las diligencias jurisdiccionales o administrativas por comisión de los jueces o subcomisión de los alcaldes de acuerdo con las normas especiales sobre la materia. Para el cumplimiento de la comisión o subcomisión podrán a su vez subcomisionar a otra autoridad que tenga jurisdicción y competencia, quienes ejercerán transitoriamente como autoridad administrativa de policía y estarán obligados a cumplir la subcomisión dentro de los términos que se le establezca.",
+            "url_fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#206"
+          }
+        ],
+        "pregunta": "¿Qué atribuciones tienen los inspectores de Policía?",
+        "respuesta": "**Artículo 206.** «Les corresponde la aplicación de las siguientes medidas:»\n\n**Numeral 1 del artículo 206.** «1. Conciliar para la solución de conflictos de convivencia, cuando sea procedente.»\n\n**Numeral 2 del artículo 206.** «2. Conocer sobre los comportamientos contrarios a la convivencia en materia de seguridad, tranquilidad, ambiente y recursos naturales, derecho de reunión, protección a los bienes y privacidad, actividad económica, urbanismo, espacio público y libertad de circulación.»\n\n**Numeral 3 del artículo 206.** «3. Ejecutar la orden de restitución; en casos de tierras comunales.»\n\n**Numeral 4 del artículo 206.** «4. Conocer, en única instancia, de la aplicación de las siguientes medidas correctivas:»\n\n**Literal a del numeral 4 del artículo 206.** «a. Reparación de daños materiales de muebles o inmuebles;»\n\n**Literal b del numeral 4 del artículo 206.** «b. Expulsión de domicilio;»\n\n**Literal c del numeral 4 del artículo 206.** «c. Prohibición de ingreso a actividad que involucra aglomeraciones de público complejas o no complejas;»\n\n**Literal d del numeral 4 del artículo 206.** «d. Decomiso.»\n\n**Numeral 5 del artículo 206.** «5. Conocer en primera instancia de la aplicación de las siguientes medidas correctivas:»\n\n**Literal a del numeral 5 del artículo 206.** «a. Suspensión de construcción o demolición;»\n\n**Literal b del numeral 5 del artículo 206.** «b. Demolición de obra;»\n\n**Literal d del numeral 5 del artículo 206.** «d. Reparación de daños materiales por perturbación a la posesión y tenencia de inmuebles;»\n\n**Literal e del numeral 5 del artículo 206.** «e. Restitución y protección de bienes inmuebles, diferentes a los descritos en el numeral 17 del artículo 205 ;»\n\n**Literal f del numeral 5 del artículo 206.** «f. Restablecimiento del derecho de servidumbre y reparación de daños materiales;»\n\n**Literal g del numeral 5 del artículo 206.** «g. Remoción de bienes, en las infracciones urbanísticas;»\n\n**Literal h del numeral 5 del artículo 206.** «h. Multas;»\n\n**Literal i del numeral 5 del artículo 206.** «i. Suspensión definitiva de actividad.»\n\n**Numeral 6 del artículo 206.** «6. Ejecutar las comisiones que trata el artículo 38 del Código General del Proceso o subcomisionar a una autoridad que tenga jurisdicción y competencia, quienes ejercerán transitoriamente como autoridad administrativa de policía.»\n\n**Numeral 7 del artículo 206.** «7. Desarrollar estrategias en materia de pedagogía de paz, resolución de conflictos y justicia restaurativa.»\n\n**Numeral 8 del artículo 206.** «8. Las demás que le señalen la Constitución, la ley, las ordenanzas y los acuerdos.»\n\n**Parágrafo 1 del artículo 206.** «PARÁGRAFO 1o. Las autoridades a que se refieren los artículos anteriores, deberán realizar las diligencias jurisdiccionales o administrativas por comisión de los jueces o subcomisión de los alcaldes de acuerdo con las normas especiales sobre la materia.»\n\n**Artículo 206.** «Para el cumplimiento de la comisión o subcomisión podrán a su vez subcomisionar a otra autoridad que tenga jurisdicción y competencia, quienes ejercerán transitoriamente como autoridad administrativa de policía y estarán obligados a cumplir la subcomisión dentro de los términos que se le establezca.»",
+        "modelo": "gemini-3.1-flash-lite",
+        "total_generales": 1,
+        "total_estructurados": 0,
+        "validacion_documental": {
+          "estado": "PENDIENTE_VALIDACION",
+          "advertencias": []
+        }
+      },
+      "llamada_gemini_confirmada": true,
+      "estado_documental": "PENDIENTE_VALIDACION"
+    },
+    {
+      "id": "RAG-031",
+      "pregunta": "Dos personas comienzan una pelea en la calle. ¿Qué establece el Código de Policía sobre este comportamiento?",
+      "http": 200,
+      "segundos": 1.317659,
+      "respuesta": {
+        "fuentes_recuperadas": [
+          {
+            "articulo": "27",
+            "numeral": "",
+            "titulo": "COMPORTAMIENTOS QUE PONEN EN RIESGO LA VIDA E INTEGRIDAD",
+            "texto": "ARTÍCULO 27. COMPORTAMIENTOS QUE PONEN EN RIESGO LA VIDA E INTEGRIDAD. Los siguientes comportamientos ponen en riesgo la vida e integridad de las personas, y, por lo tanto, son contrarios a la convivencia: 1. Reñir, incitar o incurrir en confrontaciones violentas que puedan derivar en agresiones físicas. 2. Lanzar objetos que puedan causar daño o sustancias peligrosas a personas. 3. Agredir físicamente a personas por cualquier medio. 4. Amenazar con causar un daño físico a personas por cualquier medio. 5. No retirar o reparar, en los inmuebles, los elementos que ofrezcan riesgo a la vida e integridad. 6. Portar armas, elementos cortantes, punzantes o semejantes, o sustancias peligrosas, en áreas comunes o lugares abiertos al público. Se exceptúa a quien demuestre que tales elementos o sustancias constituyen una herramienta de su actividad deportiva, oficio, profesión o estudio. 7. Portar armas neumáticas, de aire, de fogueo, de letalidad reducida o sprays, rociadores, aspersores o aerosoles de pimienta o cualquier elemento que se asimile a armas de fuego, en lugares abiertos al público donde se desarrollen aglomeraciones de personas o en aquellos donde se consuman bebidas embriagantes, o se advierta su utilización irregular, o se incurra en un comportamiento contrario a la convivencia. 8. Portar armas, elementos y dispositivos menos letales que hayan sido modificados en sus características de fabricación, origen, diseño y propósito, sin perjuicio de las sanciones penales a que haya lugar. 9. Portar armas, elementos y dispositivos menos letales sin permiso de autoridad competente cuando estas lo requieran. 10. Portar armas, elementos y dispositivos menos letales cuando haya perdido vigencia el permiso respectivo. 11. Portar armas, elementos y dispositivos menos letales bajo el influjo de sustancias psicoactivas ilícitas o prohibidas, o en estado de embriaguez. Numeral 1 Multa General tipo 2. PARÁGRAFO 2o. En los comportamientos señalados en los numerales 1 al 5 del presente artículo, se deberá utilizar la mediación policial como medio para intentar resolver el conflicto.",
+            "url_fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#27"
+          }
+        ],
+        "pregunta": "Dos personas comienzan una pelea en la calle. ¿Qué establece el Código de Policía sobre este comportamiento?",
+        "respuesta": "**Artículo 27.** «Los siguientes comportamientos ponen en riesgo la vida e integridad de las personas, y, por lo tanto, son contrarios a la convivencia:»\n\n**Numeral 1 del artículo 27.** «1. Reñir, incitar o incurrir en confrontaciones violentas que puedan derivar en agresiones físicas.»\n\n**Numeral 1 del artículo 27.** «Numeral 1 Multa General tipo 2.»\n\n**Parágrafo 2 del artículo 27.** «PARÁGRAFO 2o. En los comportamientos señalados en los numerales 1 al 5 del presente artículo, se deberá utilizar la mediación policial como medio para intentar resolver el conflicto.»",
+        "modelo": "gemini-3.1-flash-lite",
+        "total_generales": 1,
+        "total_estructurados": 0,
+        "validacion_documental": {
+          "estado": "PENDIENTE_VALIDACION",
+          "advertencias": []
+        }
+      },
+      "llamada_gemini_confirmada": true,
+      "estado_documental": "PENDIENTE_VALIDACION"
+    }
+  ]
+}

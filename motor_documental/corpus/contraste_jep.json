@@ -1,0 +1,1357 @@
+{
+  "fuente": "https://jurinfo.jep.gov.co/normograma/compilacion/docs/ley_1801_2016.htm",
+  "fecha_consulta": "2026-11-18",
+  "sha256_html": "47c14539ab19405f76ab2f676ab0c5ed3a21f28effbe5d641f1719f00f34b294",
+  "total": 159,
+  "estados": {
+    "coincidencia_textual": 156,
+    "diferencia_entre_compilaciones": 3
+  },
+  "casos": [
+    {
+      "articulo": "4",
+      "cancilleria": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#4",
+      "jurinfo_jep": "https://jurinfo.jep.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#4",
+      "estado_textual": "coincidencia_textual",
+      "bloques": [],
+      "cierra_revision_juridica": false
+    },
+    {
+      "articulo": "8",
+      "cancilleria": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#8",
+      "jurinfo_jep": "https://jurinfo.jep.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#8",
+      "estado_textual": "coincidencia_textual",
+      "bloques": [],
+      "cierra_revision_juridica": false
+    },
+    {
+      "articulo": "10",
+      "cancilleria": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#10",
+      "jurinfo_jep": "https://jurinfo.jep.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#10",
+      "estado_textual": "coincidencia_textual",
+      "bloques": [],
+      "cierra_revision_juridica": false
+    },
+    {
+      "articulo": "12",
+      "cancilleria": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#12",
+      "jurinfo_jep": "https://jurinfo.jep.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#12",
+      "estado_textual": "coincidencia_textual",
+      "bloques": [],
+      "cierra_revision_juridica": false
+    },
+    {
+      "articulo": "13",
+      "cancilleria": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#13",
+      "jurinfo_jep": "https://jurinfo.jep.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#13",
+      "estado_textual": "coincidencia_textual",
+      "bloques": [],
+      "cierra_revision_juridica": false
+    },
+    {
+      "articulo": "14",
+      "cancilleria": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#14",
+      "jurinfo_jep": "https://jurinfo.jep.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#14",
+      "estado_textual": "coincidencia_textual",
+      "bloques": [],
+      "cierra_revision_juridica": false
+    },
+    {
+      "articulo": "15",
+      "cancilleria": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#15",
+      "jurinfo_jep": "https://jurinfo.jep.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#15",
+      "estado_textual": "coincidencia_textual",
+      "bloques": [],
+      "cierra_revision_juridica": false
+    },
+    {
+      "articulo": "22",
+      "cancilleria": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#22",
+      "jurinfo_jep": "https://jurinfo.jep.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#22",
+      "estado_textual": "coincidencia_textual",
+      "bloques": [],
+      "cierra_revision_juridica": false
+    },
+    {
+      "articulo": "23",
+      "cancilleria": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#23",
+      "jurinfo_jep": "https://jurinfo.jep.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#23",
+      "estado_textual": "coincidencia_textual",
+      "bloques": [],
+      "cierra_revision_juridica": false
+    },
+    {
+      "articulo": "25",
+      "cancilleria": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#25",
+      "jurinfo_jep": "https://jurinfo.jep.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#25",
+      "estado_textual": "coincidencia_textual",
+      "bloques": [],
+      "cierra_revision_juridica": false
+    },
+    {
+      "articulo": "26",
+      "cancilleria": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#26",
+      "jurinfo_jep": "https://jurinfo.jep.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#26",
+      "estado_textual": "coincidencia_textual",
+      "bloques": [],
+      "cierra_revision_juridica": false
+    },
+    {
+      "articulo": "27",
+      "cancilleria": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#27",
+      "jurinfo_jep": "https://jurinfo.jep.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#27",
+      "estado_textual": "coincidencia_textual",
+      "bloques": [],
+      "cierra_revision_juridica": false
+    },
+    {
+      "articulo": "28",
+      "cancilleria": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#28",
+      "jurinfo_jep": "https://jurinfo.jep.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#28",
+      "estado_textual": "coincidencia_textual",
+      "bloques": [],
+      "cierra_revision_juridica": false
+    },
+    {
+      "articulo": "30",
+      "cancilleria": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#30",
+      "jurinfo_jep": "https://jurinfo.jep.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#30",
+      "estado_textual": "coincidencia_textual",
+      "bloques": [],
+      "cierra_revision_juridica": false
+    },
+    {
+      "articulo": "31",
+      "cancilleria": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#31",
+      "jurinfo_jep": "https://jurinfo.jep.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#31",
+      "estado_textual": "coincidencia_textual",
+      "bloques": [],
+      "cierra_revision_juridica": false
+    },
+    {
+      "articulo": "32",
+      "cancilleria": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#32",
+      "jurinfo_jep": "https://jurinfo.jep.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#32",
+      "estado_textual": "coincidencia_textual",
+      "bloques": [],
+      "cierra_revision_juridica": false
+    },
+    {
+      "articulo": "33",
+      "cancilleria": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#33",
+      "jurinfo_jep": "https://jurinfo.jep.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#33",
+      "estado_textual": "coincidencia_textual",
+      "bloques": [],
+      "cierra_revision_juridica": false
+    },
+    {
+      "articulo": "34",
+      "cancilleria": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#34",
+      "jurinfo_jep": "https://jurinfo.jep.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#34",
+      "estado_textual": "coincidencia_textual",
+      "bloques": [],
+      "cierra_revision_juridica": false
+    },
+    {
+      "articulo": "35",
+      "cancilleria": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#35",
+      "jurinfo_jep": "https://jurinfo.jep.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#35",
+      "estado_textual": "coincidencia_textual",
+      "bloques": [],
+      "cierra_revision_juridica": false
+    },
+    {
+      "articulo": "38",
+      "cancilleria": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#38",
+      "jurinfo_jep": "https://jurinfo.jep.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#38",
+      "estado_textual": "coincidencia_textual",
+      "bloques": [],
+      "cierra_revision_juridica": false
+    },
+    {
+      "articulo": "39",
+      "cancilleria": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#39",
+      "jurinfo_jep": "https://jurinfo.jep.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#39",
+      "estado_textual": "coincidencia_textual",
+      "bloques": [],
+      "cierra_revision_juridica": false
+    },
+    {
+      "articulo": "40",
+      "cancilleria": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#40",
+      "jurinfo_jep": "https://jurinfo.jep.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#40",
+      "estado_textual": "coincidencia_textual",
+      "bloques": [],
+      "cierra_revision_juridica": false
+    },
+    {
+      "articulo": "41",
+      "cancilleria": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#41",
+      "jurinfo_jep": "https://jurinfo.jep.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#41",
+      "estado_textual": "coincidencia_textual",
+      "bloques": [],
+      "cierra_revision_juridica": false
+    },
+    {
+      "articulo": "43",
+      "cancilleria": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#43",
+      "jurinfo_jep": "https://jurinfo.jep.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#43",
+      "estado_textual": "coincidencia_textual",
+      "bloques": [],
+      "cierra_revision_juridica": false
+    },
+    {
+      "articulo": "44",
+      "cancilleria": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#44",
+      "jurinfo_jep": "https://jurinfo.jep.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#44",
+      "estado_textual": "coincidencia_textual",
+      "bloques": [],
+      "cierra_revision_juridica": false
+    },
+    {
+      "articulo": "45",
+      "cancilleria": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#45",
+      "jurinfo_jep": "https://jurinfo.jep.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#45",
+      "estado_textual": "coincidencia_textual",
+      "bloques": [],
+      "cierra_revision_juridica": false
+    },
+    {
+      "articulo": "46",
+      "cancilleria": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#46",
+      "jurinfo_jep": "https://jurinfo.jep.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#46",
+      "estado_textual": "coincidencia_textual",
+      "bloques": [],
+      "cierra_revision_juridica": false
+    },
+    {
+      "articulo": "47",
+      "cancilleria": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#47",
+      "jurinfo_jep": "https://jurinfo.jep.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#47",
+      "estado_textual": "coincidencia_textual",
+      "bloques": [],
+      "cierra_revision_juridica": false
+    },
+    {
+      "articulo": "48",
+      "cancilleria": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#48",
+      "jurinfo_jep": "https://jurinfo.jep.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#48",
+      "estado_textual": "coincidencia_textual",
+      "bloques": [],
+      "cierra_revision_juridica": false
+    },
+    {
+      "articulo": "49",
+      "cancilleria": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#49",
+      "jurinfo_jep": "https://jurinfo.jep.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#49",
+      "estado_textual": "coincidencia_textual",
+      "bloques": [],
+      "cierra_revision_juridica": false
+    },
+    {
+      "articulo": "50",
+      "cancilleria": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#50",
+      "jurinfo_jep": "https://jurinfo.jep.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#50",
+      "estado_textual": "coincidencia_textual",
+      "bloques": [],
+      "cierra_revision_juridica": false
+    },
+    {
+      "articulo": "51",
+      "cancilleria": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#51",
+      "jurinfo_jep": "https://jurinfo.jep.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#51",
+      "estado_textual": "coincidencia_textual",
+      "bloques": [],
+      "cierra_revision_juridica": false
+    },
+    {
+      "articulo": "52",
+      "cancilleria": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#52",
+      "jurinfo_jep": "https://jurinfo.jep.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#52",
+      "estado_textual": "coincidencia_textual",
+      "bloques": [],
+      "cierra_revision_juridica": false
+    },
+    {
+      "articulo": "53",
+      "cancilleria": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#53",
+      "jurinfo_jep": "https://jurinfo.jep.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#53",
+      "estado_textual": "coincidencia_textual",
+      "bloques": [],
+      "cierra_revision_juridica": false
+    },
+    {
+      "articulo": "54",
+      "cancilleria": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#54",
+      "jurinfo_jep": "https://jurinfo.jep.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#54",
+      "estado_textual": "coincidencia_textual",
+      "bloques": [],
+      "cierra_revision_juridica": false
+    },
+    {
+      "articulo": "55",
+      "cancilleria": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#55",
+      "jurinfo_jep": "https://jurinfo.jep.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#55",
+      "estado_textual": "coincidencia_textual",
+      "bloques": [],
+      "cierra_revision_juridica": false
+    },
+    {
+      "articulo": "56",
+      "cancilleria": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#56",
+      "jurinfo_jep": "https://jurinfo.jep.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#56",
+      "estado_textual": "coincidencia_textual",
+      "bloques": [],
+      "cierra_revision_juridica": false
+    },
+    {
+      "articulo": "57",
+      "cancilleria": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#57",
+      "jurinfo_jep": "https://jurinfo.jep.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#57",
+      "estado_textual": "coincidencia_textual",
+      "bloques": [],
+      "cierra_revision_juridica": false
+    },
+    {
+      "articulo": "58",
+      "cancilleria": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#58",
+      "jurinfo_jep": "https://jurinfo.jep.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#58",
+      "estado_textual": "coincidencia_textual",
+      "bloques": [],
+      "cierra_revision_juridica": false
+    },
+    {
+      "articulo": "59",
+      "cancilleria": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#59",
+      "jurinfo_jep": "https://jurinfo.jep.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#59",
+      "estado_textual": "coincidencia_textual",
+      "bloques": [],
+      "cierra_revision_juridica": false
+    },
+    {
+      "articulo": "60",
+      "cancilleria": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#60",
+      "jurinfo_jep": "https://jurinfo.jep.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#60",
+      "estado_textual": "coincidencia_textual",
+      "bloques": [],
+      "cierra_revision_juridica": false
+    },
+    {
+      "articulo": "61",
+      "cancilleria": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#61",
+      "jurinfo_jep": "https://jurinfo.jep.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#61",
+      "estado_textual": "coincidencia_textual",
+      "bloques": [],
+      "cierra_revision_juridica": false
+    },
+    {
+      "articulo": "62",
+      "cancilleria": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#62",
+      "jurinfo_jep": "https://jurinfo.jep.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#62",
+      "estado_textual": "coincidencia_textual",
+      "bloques": [],
+      "cierra_revision_juridica": false
+    },
+    {
+      "articulo": "63",
+      "cancilleria": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#63",
+      "jurinfo_jep": "https://jurinfo.jep.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#63",
+      "estado_textual": "coincidencia_textual",
+      "bloques": [],
+      "cierra_revision_juridica": false
+    },
+    {
+      "articulo": "64",
+      "cancilleria": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#64",
+      "jurinfo_jep": "https://jurinfo.jep.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#64",
+      "estado_textual": "coincidencia_textual",
+      "bloques": [],
+      "cierra_revision_juridica": false
+    },
+    {
+      "articulo": "65",
+      "cancilleria": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#65",
+      "jurinfo_jep": "https://jurinfo.jep.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#65",
+      "estado_textual": "coincidencia_textual",
+      "bloques": [],
+      "cierra_revision_juridica": false
+    },
+    {
+      "articulo": "66",
+      "cancilleria": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#66",
+      "jurinfo_jep": "https://jurinfo.jep.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#66",
+      "estado_textual": "coincidencia_textual",
+      "bloques": [],
+      "cierra_revision_juridica": false
+    },
+    {
+      "articulo": "67",
+      "cancilleria": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#67",
+      "jurinfo_jep": "https://jurinfo.jep.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#67",
+      "estado_textual": "coincidencia_textual",
+      "bloques": [],
+      "cierra_revision_juridica": false
+    },
+    {
+      "articulo": "68",
+      "cancilleria": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#68",
+      "jurinfo_jep": "https://jurinfo.jep.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#68",
+      "estado_textual": "coincidencia_textual",
+      "bloques": [],
+      "cierra_revision_juridica": false
+    },
+    {
+      "articulo": "69",
+      "cancilleria": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#69",
+      "jurinfo_jep": "https://jurinfo.jep.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#69",
+      "estado_textual": "coincidencia_textual",
+      "bloques": [],
+      "cierra_revision_juridica": false
+    },
+    {
+      "articulo": "70",
+      "cancilleria": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#70",
+      "jurinfo_jep": "https://jurinfo.jep.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#70",
+      "estado_textual": "coincidencia_textual",
+      "bloques": [],
+      "cierra_revision_juridica": false
+    },
+    {
+      "articulo": "71",
+      "cancilleria": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#71",
+      "jurinfo_jep": "https://jurinfo.jep.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#71",
+      "estado_textual": "coincidencia_textual",
+      "bloques": [],
+      "cierra_revision_juridica": false
+    },
+    {
+      "articulo": "72",
+      "cancilleria": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#72",
+      "jurinfo_jep": "https://jurinfo.jep.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#72",
+      "estado_textual": "coincidencia_textual",
+      "bloques": [],
+      "cierra_revision_juridica": false
+    },
+    {
+      "articulo": "73",
+      "cancilleria": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#73",
+      "jurinfo_jep": "https://jurinfo.jep.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#73",
+      "estado_textual": "coincidencia_textual",
+      "bloques": [],
+      "cierra_revision_juridica": false
+    },
+    {
+      "articulo": "74",
+      "cancilleria": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#74",
+      "jurinfo_jep": "https://jurinfo.jep.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#74",
+      "estado_textual": "coincidencia_textual",
+      "bloques": [],
+      "cierra_revision_juridica": false
+    },
+    {
+      "articulo": "75",
+      "cancilleria": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#75",
+      "jurinfo_jep": "https://jurinfo.jep.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#75",
+      "estado_textual": "coincidencia_textual",
+      "bloques": [],
+      "cierra_revision_juridica": false
+    },
+    {
+      "articulo": "77",
+      "cancilleria": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#77",
+      "jurinfo_jep": "https://jurinfo.jep.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#77",
+      "estado_textual": "coincidencia_textual",
+      "bloques": [],
+      "cierra_revision_juridica": false
+    },
+    {
+      "articulo": "78",
+      "cancilleria": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#78",
+      "jurinfo_jep": "https://jurinfo.jep.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#78",
+      "estado_textual": "coincidencia_textual",
+      "bloques": [],
+      "cierra_revision_juridica": false
+    },
+    {
+      "articulo": "79",
+      "cancilleria": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#79",
+      "jurinfo_jep": "https://jurinfo.jep.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#79",
+      "estado_textual": "coincidencia_textual",
+      "bloques": [],
+      "cierra_revision_juridica": false
+    },
+    {
+      "articulo": "82",
+      "cancilleria": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#82",
+      "jurinfo_jep": "https://jurinfo.jep.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#82",
+      "estado_textual": "coincidencia_textual",
+      "bloques": [],
+      "cierra_revision_juridica": false
+    },
+    {
+      "articulo": "84",
+      "cancilleria": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#84",
+      "jurinfo_jep": "https://jurinfo.jep.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#84",
+      "estado_textual": "diferencia_entre_compilaciones",
+      "bloques": [
+        {
+          "operacion": "replace",
+          "fuente_oficial": "https://jurinfo.jep.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#84",
+          "fecha_consulta": "2026-11-18",
+          "ubicacion_en_referencia": "texto_cotejado",
+          "apartados": [
+            {
+              "id": "ley-1801-2016-art-84-paragrafo-1",
+              "tipo": "paragrafo",
+              "etiqueta": "1",
+              "paragrafo": "1"
+            }
+          ],
+          "cancilleria": "3o",
+          "cancilleria_tokens": [
+            148,
+            149
+          ],
+          "jep": "3 o",
+          "jep_tokens": [
+            148,
+            150
+          ]
+        }
+      ],
+      "cierra_revision_juridica": false
+    },
+    {
+      "articulo": "86",
+      "cancilleria": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#86",
+      "jurinfo_jep": "https://jurinfo.jep.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#86",
+      "estado_textual": "coincidencia_textual",
+      "bloques": [],
+      "cierra_revision_juridica": false
+    },
+    {
+      "articulo": "87",
+      "cancilleria": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#87",
+      "jurinfo_jep": "https://jurinfo.jep.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#87",
+      "estado_textual": "coincidencia_textual",
+      "bloques": [],
+      "cierra_revision_juridica": false
+    },
+    {
+      "articulo": "88",
+      "cancilleria": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#88",
+      "jurinfo_jep": "https://jurinfo.jep.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#88",
+      "estado_textual": "coincidencia_textual",
+      "bloques": [],
+      "cierra_revision_juridica": false
+    },
+    {
+      "articulo": "90",
+      "cancilleria": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#90",
+      "jurinfo_jep": "https://jurinfo.jep.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#90",
+      "estado_textual": "coincidencia_textual",
+      "bloques": [],
+      "cierra_revision_juridica": false
+    },
+    {
+      "articulo": "92",
+      "cancilleria": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#92",
+      "jurinfo_jep": "https://jurinfo.jep.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#92",
+      "estado_textual": "diferencia_entre_compilaciones",
+      "bloques": [
+        {
+          "operacion": "delete",
+          "fuente_oficial": "https://jurinfo.jep.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#92",
+          "fecha_consulta": "2026-11-18",
+          "ubicacion_en_referencia": "adyacente",
+          "apartados": [
+            {
+              "id": "ley-1801-2016-art-92-paragrafo-24",
+              "tipo": "paragrafo",
+              "etiqueta": "7",
+              "paragrafo": "7"
+            }
+          ],
+          "cancilleria": "Directriz COPNIA 3 de 2017",
+          "cancilleria_tokens": [
+            941,
+            946
+          ],
+          "jep": "",
+          "jep_tokens": [
+            941,
+            941
+          ]
+        }
+      ],
+      "cierra_revision_juridica": false
+    },
+    {
+      "articulo": "93",
+      "cancilleria": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#93",
+      "jurinfo_jep": "https://jurinfo.jep.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#93",
+      "estado_textual": "coincidencia_textual",
+      "bloques": [],
+      "cierra_revision_juridica": false
+    },
+    {
+      "articulo": "94",
+      "cancilleria": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#94",
+      "jurinfo_jep": "https://jurinfo.jep.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#94",
+      "estado_textual": "coincidencia_textual",
+      "bloques": [],
+      "cierra_revision_juridica": false
+    },
+    {
+      "articulo": "95",
+      "cancilleria": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#95",
+      "jurinfo_jep": "https://jurinfo.jep.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#95",
+      "estado_textual": "coincidencia_textual",
+      "bloques": [],
+      "cierra_revision_juridica": false
+    },
+    {
+      "articulo": "96",
+      "cancilleria": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#96",
+      "jurinfo_jep": "https://jurinfo.jep.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#96",
+      "estado_textual": "coincidencia_textual",
+      "bloques": [],
+      "cierra_revision_juridica": false
+    },
+    {
+      "articulo": "99",
+      "cancilleria": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#99",
+      "jurinfo_jep": "https://jurinfo.jep.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#99",
+      "estado_textual": "coincidencia_textual",
+      "bloques": [],
+      "cierra_revision_juridica": false
+    },
+    {
+      "articulo": "100",
+      "cancilleria": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#100",
+      "jurinfo_jep": "https://jurinfo.jep.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#100",
+      "estado_textual": "coincidencia_textual",
+      "bloques": [],
+      "cierra_revision_juridica": false
+    },
+    {
+      "articulo": "101",
+      "cancilleria": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#101",
+      "jurinfo_jep": "https://jurinfo.jep.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#101",
+      "estado_textual": "coincidencia_textual",
+      "bloques": [],
+      "cierra_revision_juridica": false
+    },
+    {
+      "articulo": "102",
+      "cancilleria": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#102",
+      "jurinfo_jep": "https://jurinfo.jep.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#102",
+      "estado_textual": "coincidencia_textual",
+      "bloques": [],
+      "cierra_revision_juridica": false
+    },
+    {
+      "articulo": "103",
+      "cancilleria": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#103",
+      "jurinfo_jep": "https://jurinfo.jep.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#103",
+      "estado_textual": "coincidencia_textual",
+      "bloques": [],
+      "cierra_revision_juridica": false
+    },
+    {
+      "articulo": "105",
+      "cancilleria": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#105",
+      "jurinfo_jep": "https://jurinfo.jep.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#105",
+      "estado_textual": "coincidencia_textual",
+      "bloques": [],
+      "cierra_revision_juridica": false
+    },
+    {
+      "articulo": "108",
+      "cancilleria": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#108",
+      "jurinfo_jep": "https://jurinfo.jep.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#108",
+      "estado_textual": "coincidencia_textual",
+      "bloques": [],
+      "cierra_revision_juridica": false
+    },
+    {
+      "articulo": "110",
+      "cancilleria": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#110",
+      "jurinfo_jep": "https://jurinfo.jep.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#110",
+      "estado_textual": "coincidencia_textual",
+      "bloques": [],
+      "cierra_revision_juridica": false
+    },
+    {
+      "articulo": "111",
+      "cancilleria": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#111",
+      "jurinfo_jep": "https://jurinfo.jep.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#111",
+      "estado_textual": "coincidencia_textual",
+      "bloques": [],
+      "cierra_revision_juridica": false
+    },
+    {
+      "articulo": "112",
+      "cancilleria": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#112",
+      "jurinfo_jep": "https://jurinfo.jep.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#112",
+      "estado_textual": "coincidencia_textual",
+      "bloques": [],
+      "cierra_revision_juridica": false
+    },
+    {
+      "articulo": "115",
+      "cancilleria": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#115",
+      "jurinfo_jep": "https://jurinfo.jep.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#115",
+      "estado_textual": "coincidencia_textual",
+      "bloques": [],
+      "cierra_revision_juridica": false
+    },
+    {
+      "articulo": "116",
+      "cancilleria": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#116",
+      "jurinfo_jep": "https://jurinfo.jep.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#116",
+      "estado_textual": "coincidencia_textual",
+      "bloques": [],
+      "cierra_revision_juridica": false
+    },
+    {
+      "articulo": "117",
+      "cancilleria": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#117",
+      "jurinfo_jep": "https://jurinfo.jep.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#117",
+      "estado_textual": "coincidencia_textual",
+      "bloques": [],
+      "cierra_revision_juridica": false
+    },
+    {
+      "articulo": "118",
+      "cancilleria": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#118",
+      "jurinfo_jep": "https://jurinfo.jep.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#118",
+      "estado_textual": "coincidencia_textual",
+      "bloques": [],
+      "cierra_revision_juridica": false
+    },
+    {
+      "articulo": "119",
+      "cancilleria": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#119",
+      "jurinfo_jep": "https://jurinfo.jep.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#119",
+      "estado_textual": "coincidencia_textual",
+      "bloques": [],
+      "cierra_revision_juridica": false
+    },
+    {
+      "articulo": "123",
+      "cancilleria": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#123",
+      "jurinfo_jep": "https://jurinfo.jep.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#123",
+      "estado_textual": "coincidencia_textual",
+      "bloques": [],
+      "cierra_revision_juridica": false
+    },
+    {
+      "articulo": "124",
+      "cancilleria": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#124",
+      "jurinfo_jep": "https://jurinfo.jep.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#124",
+      "estado_textual": "coincidencia_textual",
+      "bloques": [],
+      "cierra_revision_juridica": false
+    },
+    {
+      "articulo": "125",
+      "cancilleria": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#125",
+      "jurinfo_jep": "https://jurinfo.jep.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#125",
+      "estado_textual": "coincidencia_textual",
+      "bloques": [],
+      "cierra_revision_juridica": false
+    },
+    {
+      "articulo": "126",
+      "cancilleria": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#126",
+      "jurinfo_jep": "https://jurinfo.jep.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#126",
+      "estado_textual": "coincidencia_textual",
+      "bloques": [],
+      "cierra_revision_juridica": false
+    },
+    {
+      "articulo": "127",
+      "cancilleria": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#127",
+      "jurinfo_jep": "https://jurinfo.jep.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#127",
+      "estado_textual": "coincidencia_textual",
+      "bloques": [],
+      "cierra_revision_juridica": false
+    },
+    {
+      "articulo": "128",
+      "cancilleria": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#128",
+      "jurinfo_jep": "https://jurinfo.jep.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#128",
+      "estado_textual": "coincidencia_textual",
+      "bloques": [],
+      "cierra_revision_juridica": false
+    },
+    {
+      "articulo": "129",
+      "cancilleria": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#129",
+      "jurinfo_jep": "https://jurinfo.jep.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#129",
+      "estado_textual": "coincidencia_textual",
+      "bloques": [],
+      "cierra_revision_juridica": false
+    },
+    {
+      "articulo": "130",
+      "cancilleria": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#130",
+      "jurinfo_jep": "https://jurinfo.jep.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#130",
+      "estado_textual": "coincidencia_textual",
+      "bloques": [],
+      "cierra_revision_juridica": false
+    },
+    {
+      "articulo": "131",
+      "cancilleria": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#131",
+      "jurinfo_jep": "https://jurinfo.jep.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#131",
+      "estado_textual": "coincidencia_textual",
+      "bloques": [],
+      "cierra_revision_juridica": false
+    },
+    {
+      "articulo": "132",
+      "cancilleria": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#132",
+      "jurinfo_jep": "https://jurinfo.jep.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#132",
+      "estado_textual": "coincidencia_textual",
+      "bloques": [],
+      "cierra_revision_juridica": false
+    },
+    {
+      "articulo": "133",
+      "cancilleria": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#133",
+      "jurinfo_jep": "https://jurinfo.jep.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#133",
+      "estado_textual": "coincidencia_textual",
+      "bloques": [],
+      "cierra_revision_juridica": false
+    },
+    {
+      "articulo": "134",
+      "cancilleria": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#134",
+      "jurinfo_jep": "https://jurinfo.jep.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#134",
+      "estado_textual": "coincidencia_textual",
+      "bloques": [],
+      "cierra_revision_juridica": false
+    },
+    {
+      "articulo": "135",
+      "cancilleria": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#135",
+      "jurinfo_jep": "https://jurinfo.jep.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#135",
+      "estado_textual": "coincidencia_textual",
+      "bloques": [],
+      "cierra_revision_juridica": false
+    },
+    {
+      "articulo": "138",
+      "cancilleria": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#138",
+      "jurinfo_jep": "https://jurinfo.jep.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#138",
+      "estado_textual": "coincidencia_textual",
+      "bloques": [],
+      "cierra_revision_juridica": false
+    },
+    {
+      "articulo": "139",
+      "cancilleria": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#139",
+      "jurinfo_jep": "https://jurinfo.jep.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#139",
+      "estado_textual": "coincidencia_textual",
+      "bloques": [],
+      "cierra_revision_juridica": false
+    },
+    {
+      "articulo": "140",
+      "cancilleria": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#140",
+      "jurinfo_jep": "https://jurinfo.jep.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#140",
+      "estado_textual": "coincidencia_textual",
+      "bloques": [],
+      "cierra_revision_juridica": false
+    },
+    {
+      "articulo": "141",
+      "cancilleria": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#141",
+      "jurinfo_jep": "https://jurinfo.jep.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#141",
+      "estado_textual": "coincidencia_textual",
+      "bloques": [],
+      "cierra_revision_juridica": false
+    },
+    {
+      "articulo": "144",
+      "cancilleria": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#144",
+      "jurinfo_jep": "https://jurinfo.jep.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#144",
+      "estado_textual": "coincidencia_textual",
+      "bloques": [],
+      "cierra_revision_juridica": false
+    },
+    {
+      "articulo": "145",
+      "cancilleria": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#145",
+      "jurinfo_jep": "https://jurinfo.jep.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#145",
+      "estado_textual": "coincidencia_textual",
+      "bloques": [],
+      "cierra_revision_juridica": false
+    },
+    {
+      "articulo": "146",
+      "cancilleria": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#146",
+      "jurinfo_jep": "https://jurinfo.jep.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#146",
+      "estado_textual": "coincidencia_textual",
+      "bloques": [],
+      "cierra_revision_juridica": false
+    },
+    {
+      "articulo": "148",
+      "cancilleria": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#148",
+      "jurinfo_jep": "https://jurinfo.jep.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#148",
+      "estado_textual": "coincidencia_textual",
+      "bloques": [],
+      "cierra_revision_juridica": false
+    },
+    {
+      "articulo": "149",
+      "cancilleria": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#149",
+      "jurinfo_jep": "https://jurinfo.jep.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#149",
+      "estado_textual": "coincidencia_textual",
+      "bloques": [],
+      "cierra_revision_juridica": false
+    },
+    {
+      "articulo": "150",
+      "cancilleria": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#150",
+      "jurinfo_jep": "https://jurinfo.jep.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#150",
+      "estado_textual": "coincidencia_textual",
+      "bloques": [],
+      "cierra_revision_juridica": false
+    },
+    {
+      "articulo": "154",
+      "cancilleria": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#154",
+      "jurinfo_jep": "https://jurinfo.jep.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#154",
+      "estado_textual": "coincidencia_textual",
+      "bloques": [],
+      "cierra_revision_juridica": false
+    },
+    {
+      "articulo": "155",
+      "cancilleria": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#155",
+      "jurinfo_jep": "https://jurinfo.jep.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#155",
+      "estado_textual": "coincidencia_textual",
+      "bloques": [],
+      "cierra_revision_juridica": false
+    },
+    {
+      "articulo": "159",
+      "cancilleria": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#159",
+      "jurinfo_jep": "https://jurinfo.jep.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#159",
+      "estado_textual": "coincidencia_textual",
+      "bloques": [],
+      "cierra_revision_juridica": false
+    },
+    {
+      "articulo": "160",
+      "cancilleria": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#160",
+      "jurinfo_jep": "https://jurinfo.jep.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#160",
+      "estado_textual": "coincidencia_textual",
+      "bloques": [],
+      "cierra_revision_juridica": false
+    },
+    {
+      "articulo": "162",
+      "cancilleria": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#162",
+      "jurinfo_jep": "https://jurinfo.jep.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#162",
+      "estado_textual": "coincidencia_textual",
+      "bloques": [],
+      "cierra_revision_juridica": false
+    },
+    {
+      "articulo": "163",
+      "cancilleria": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#163",
+      "jurinfo_jep": "https://jurinfo.jep.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#163",
+      "estado_textual": "coincidencia_textual",
+      "bloques": [],
+      "cierra_revision_juridica": false
+    },
+    {
+      "articulo": "166",
+      "cancilleria": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#166",
+      "jurinfo_jep": "https://jurinfo.jep.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#166",
+      "estado_textual": "coincidencia_textual",
+      "bloques": [],
+      "cierra_revision_juridica": false
+    },
+    {
+      "articulo": "167",
+      "cancilleria": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#167",
+      "jurinfo_jep": "https://jurinfo.jep.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#167",
+      "estado_textual": "coincidencia_textual",
+      "bloques": [],
+      "cierra_revision_juridica": false
+    },
+    {
+      "articulo": "168",
+      "cancilleria": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#168",
+      "jurinfo_jep": "https://jurinfo.jep.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#168",
+      "estado_textual": "coincidencia_textual",
+      "bloques": [],
+      "cierra_revision_juridica": false
+    },
+    {
+      "articulo": "169",
+      "cancilleria": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#169",
+      "jurinfo_jep": "https://jurinfo.jep.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#169",
+      "estado_textual": "coincidencia_textual",
+      "bloques": [],
+      "cierra_revision_juridica": false
+    },
+    {
+      "articulo": "171",
+      "cancilleria": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#171",
+      "jurinfo_jep": "https://jurinfo.jep.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#171",
+      "estado_textual": "coincidencia_textual",
+      "bloques": [],
+      "cierra_revision_juridica": false
+    },
+    {
+      "articulo": "172",
+      "cancilleria": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#172",
+      "jurinfo_jep": "https://jurinfo.jep.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#172",
+      "estado_textual": "coincidencia_textual",
+      "bloques": [],
+      "cierra_revision_juridica": false
+    },
+    {
+      "articulo": "173",
+      "cancilleria": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#173",
+      "jurinfo_jep": "https://jurinfo.jep.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#173",
+      "estado_textual": "coincidencia_textual",
+      "bloques": [],
+      "cierra_revision_juridica": false
+    },
+    {
+      "articulo": "175",
+      "cancilleria": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#175",
+      "jurinfo_jep": "https://jurinfo.jep.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#175",
+      "estado_textual": "coincidencia_textual",
+      "bloques": [],
+      "cierra_revision_juridica": false
+    },
+    {
+      "articulo": "179",
+      "cancilleria": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#179",
+      "jurinfo_jep": "https://jurinfo.jep.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#179",
+      "estado_textual": "coincidencia_textual",
+      "bloques": [],
+      "cierra_revision_juridica": false
+    },
+    {
+      "articulo": "180",
+      "cancilleria": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#180",
+      "jurinfo_jep": "https://jurinfo.jep.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#180",
+      "estado_textual": "coincidencia_textual",
+      "bloques": [],
+      "cierra_revision_juridica": false
+    },
+    {
+      "articulo": "181",
+      "cancilleria": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#181",
+      "jurinfo_jep": "https://jurinfo.jep.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#181",
+      "estado_textual": "coincidencia_textual",
+      "bloques": [],
+      "cierra_revision_juridica": false
+    },
+    {
+      "articulo": "182",
+      "cancilleria": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#182",
+      "jurinfo_jep": "https://jurinfo.jep.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#182",
+      "estado_textual": "coincidencia_textual",
+      "bloques": [],
+      "cierra_revision_juridica": false
+    },
+    {
+      "articulo": "183",
+      "cancilleria": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#183",
+      "jurinfo_jep": "https://jurinfo.jep.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#183",
+      "estado_textual": "coincidencia_textual",
+      "bloques": [],
+      "cierra_revision_juridica": false
+    },
+    {
+      "articulo": "185A",
+      "cancilleria": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#185A",
+      "jurinfo_jep": "https://jurinfo.jep.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#185A",
+      "estado_textual": "coincidencia_textual",
+      "bloques": [],
+      "cierra_revision_juridica": false
+    },
+    {
+      "articulo": "185B",
+      "cancilleria": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#185B",
+      "jurinfo_jep": "https://jurinfo.jep.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#185B",
+      "estado_textual": "coincidencia_textual",
+      "bloques": [],
+      "cierra_revision_juridica": false
+    },
+    {
+      "articulo": "185C",
+      "cancilleria": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#185C",
+      "jurinfo_jep": "https://jurinfo.jep.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#185C",
+      "estado_textual": "coincidencia_textual",
+      "bloques": [],
+      "cierra_revision_juridica": false
+    },
+    {
+      "articulo": "190",
+      "cancilleria": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#190",
+      "jurinfo_jep": "https://jurinfo.jep.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#190",
+      "estado_textual": "coincidencia_textual",
+      "bloques": [],
+      "cierra_revision_juridica": false
+    },
+    {
+      "articulo": "191",
+      "cancilleria": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#191",
+      "jurinfo_jep": "https://jurinfo.jep.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#191",
+      "estado_textual": "coincidencia_textual",
+      "bloques": [],
+      "cierra_revision_juridica": false
+    },
+    {
+      "articulo": "195",
+      "cancilleria": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#195",
+      "jurinfo_jep": "https://jurinfo.jep.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#195",
+      "estado_textual": "coincidencia_textual",
+      "bloques": [],
+      "cierra_revision_juridica": false
+    },
+    {
+      "articulo": "197",
+      "cancilleria": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#197",
+      "jurinfo_jep": "https://jurinfo.jep.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#197",
+      "estado_textual": "coincidencia_textual",
+      "bloques": [],
+      "cierra_revision_juridica": false
+    },
+    {
+      "articulo": "198",
+      "cancilleria": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#198",
+      "jurinfo_jep": "https://jurinfo.jep.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#198",
+      "estado_textual": "coincidencia_textual",
+      "bloques": [],
+      "cierra_revision_juridica": false
+    },
+    {
+      "articulo": "205",
+      "cancilleria": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#205",
+      "jurinfo_jep": "https://jurinfo.jep.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#205",
+      "estado_textual": "coincidencia_textual",
+      "bloques": [],
+      "cierra_revision_juridica": false
+    },
+    {
+      "articulo": "206",
+      "cancilleria": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#206",
+      "jurinfo_jep": "https://jurinfo.jep.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#206",
+      "estado_textual": "coincidencia_textual",
+      "bloques": [],
+      "cierra_revision_juridica": false
+    },
+    {
+      "articulo": "209",
+      "cancilleria": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#209",
+      "jurinfo_jep": "https://jurinfo.jep.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#209",
+      "estado_textual": "coincidencia_textual",
+      "bloques": [],
+      "cierra_revision_juridica": false
+    },
+    {
+      "articulo": "210",
+      "cancilleria": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#210",
+      "jurinfo_jep": "https://jurinfo.jep.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#210",
+      "estado_textual": "coincidencia_textual",
+      "bloques": [],
+      "cierra_revision_juridica": false
+    },
+    {
+      "articulo": "212",
+      "cancilleria": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#212",
+      "jurinfo_jep": "https://jurinfo.jep.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#212",
+      "estado_textual": "coincidencia_textual",
+      "bloques": [],
+      "cierra_revision_juridica": false
+    },
+    {
+      "articulo": "214",
+      "cancilleria": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#214",
+      "jurinfo_jep": "https://jurinfo.jep.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#214",
+      "estado_textual": "coincidencia_textual",
+      "bloques": [],
+      "cierra_revision_juridica": false
+    },
+    {
+      "articulo": "219",
+      "cancilleria": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#219",
+      "jurinfo_jep": "https://jurinfo.jep.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#219",
+      "estado_textual": "coincidencia_textual",
+      "bloques": [],
+      "cierra_revision_juridica": false
+    },
+    {
+      "articulo": "220",
+      "cancilleria": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#220",
+      "jurinfo_jep": "https://jurinfo.jep.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#220",
+      "estado_textual": "coincidencia_textual",
+      "bloques": [],
+      "cierra_revision_juridica": false
+    },
+    {
+      "articulo": "221",
+      "cancilleria": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#221",
+      "jurinfo_jep": "https://jurinfo.jep.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#221",
+      "estado_textual": "coincidencia_textual",
+      "bloques": [],
+      "cierra_revision_juridica": false
+    },
+    {
+      "articulo": "222",
+      "cancilleria": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#222",
+      "jurinfo_jep": "https://jurinfo.jep.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#222",
+      "estado_textual": "coincidencia_textual",
+      "bloques": [],
+      "cierra_revision_juridica": false
+    },
+    {
+      "articulo": "223",
+      "cancilleria": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#223",
+      "jurinfo_jep": "https://jurinfo.jep.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#223",
+      "estado_textual": "coincidencia_textual",
+      "bloques": [],
+      "cierra_revision_juridica": false
+    },
+    {
+      "articulo": "223A",
+      "cancilleria": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#223A",
+      "jurinfo_jep": "https://jurinfo.jep.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#223A",
+      "estado_textual": "coincidencia_textual",
+      "bloques": [],
+      "cierra_revision_juridica": false
+    },
+    {
+      "articulo": "229",
+      "cancilleria": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#229",
+      "jurinfo_jep": "https://jurinfo.jep.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#229",
+      "estado_textual": "coincidencia_textual",
+      "bloques": [],
+      "cierra_revision_juridica": false
+    },
+    {
+      "articulo": "230",
+      "cancilleria": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#230",
+      "jurinfo_jep": "https://jurinfo.jep.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#230",
+      "estado_textual": "coincidencia_textual",
+      "bloques": [],
+      "cierra_revision_juridica": false
+    },
+    {
+      "articulo": "231",
+      "cancilleria": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#231",
+      "jurinfo_jep": "https://jurinfo.jep.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#231",
+      "estado_textual": "coincidencia_textual",
+      "bloques": [],
+      "cierra_revision_juridica": false
+    },
+    {
+      "articulo": "232",
+      "cancilleria": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#232",
+      "jurinfo_jep": "https://jurinfo.jep.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#232",
+      "estado_textual": "coincidencia_textual",
+      "bloques": [],
+      "cierra_revision_juridica": false
+    },
+    {
+      "articulo": "233",
+      "cancilleria": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#233",
+      "jurinfo_jep": "https://jurinfo.jep.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#233",
+      "estado_textual": "coincidencia_textual",
+      "bloques": [],
+      "cierra_revision_juridica": false
+    },
+    {
+      "articulo": "234",
+      "cancilleria": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#234",
+      "jurinfo_jep": "https://jurinfo.jep.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#234",
+      "estado_textual": "coincidencia_textual",
+      "bloques": [],
+      "cierra_revision_juridica": false
+    },
+    {
+      "articulo": "234A",
+      "cancilleria": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#234A",
+      "jurinfo_jep": "https://jurinfo.jep.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#234A",
+      "estado_textual": "coincidencia_textual",
+      "bloques": [],
+      "cierra_revision_juridica": false
+    },
+    {
+      "articulo": "236",
+      "cancilleria": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#236",
+      "jurinfo_jep": "https://jurinfo.jep.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#236",
+      "estado_textual": "coincidencia_textual",
+      "bloques": [],
+      "cierra_revision_juridica": false
+    },
+    {
+      "articulo": "237",
+      "cancilleria": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#237",
+      "jurinfo_jep": "https://jurinfo.jep.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#237",
+      "estado_textual": "coincidencia_textual",
+      "bloques": [],
+      "cierra_revision_juridica": false
+    },
+    {
+      "articulo": "237B",
+      "cancilleria": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#237B",
+      "jurinfo_jep": "https://jurinfo.jep.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#237B",
+      "estado_textual": "coincidencia_textual",
+      "bloques": [],
+      "cierra_revision_juridica": false
+    },
+    {
+      "articulo": "242",
+      "cancilleria": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#242",
+      "jurinfo_jep": "https://jurinfo.jep.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#242",
+      "estado_textual": "diferencia_entre_compilaciones",
+      "bloques": [
+        {
+          "operacion": "replace",
+          "fuente_oficial": "https://jurinfo.jep.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#242",
+          "fecha_consulta": "2026-11-18",
+          "ubicacion_en_referencia": "texto_cotejado",
+          "apartados": [
+            {
+              "id": "ley-1801-2016-art-242-cuerpo",
+              "tipo": "cuerpo"
+            }
+          ],
+          "cancilleria": "4o",
+          "cancilleria_tokens": [
+            30,
+            31
+          ],
+          "jep": "4 o",
+          "jep_tokens": [
+            30,
+            32
+          ]
+        }
+      ],
+      "cierra_revision_juridica": false
+    },
+    {
+      "articulo": "243",
+      "cancilleria": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#243",
+      "jurinfo_jep": "https://jurinfo.jep.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#243",
+      "estado_textual": "coincidencia_textual",
+      "bloques": [],
+      "cierra_revision_juridica": false
+    }
+  ]
+}

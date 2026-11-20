@@ -1,0 +1,91 @@
+{
+  "estado_motor": {
+    "estado": "activo",
+    "modo_respuesta": "citas_extractivas",
+    "generacion_configurada": true,
+    "sha256_corpus_publicable": "f776b4d07089828860b0e76f219ce229ef69e5bd43720064df6303b598833075"
+  },
+  "resultados": [
+    {
+      "id": "RAG-002",
+      "pregunta": "¿Cuáles son los objetivos específicos del Código de Policía?",
+      "http": 200,
+      "segundos": 13.955142,
+      "respuesta": {
+        "fuentes_recuperadas": [
+          {
+            "articulo": "2",
+            "numeral": "",
+            "titulo": "OBJETIVOS ESPECÍFICOS",
+            "texto": "ARTÍCULO 2. OBJETIVOS ESPECÍFICOS. Con el fin de mantener las condiciones necesarias para la convivencia en el territorio nacional, los objetivos específicos de este Código son los siguientes: 1. Propiciar en la comunidad comportamientos que favorezcan la convivencia en el espacio público, áreas comunes, lugares abiertos al público o que siendo privados trasciendan a lo público. 2. Promover el respeto, el ejercicio responsable de la libertad, la dignidad, los deberes y los derechos correlativos de la personalidad humana. 3. Promover el uso de mecanismos alternativos, o comunitarios, para la conciliación y solución pacífica de desacuerdos entre particulares. 4. Definir comportamientos, medidas, medios y procedimientos de Policía. 5. Establecer la competencia de las autoridades de Policía en el orden nacional, departamental, distrital y municipal, con observancia del principio de autonomía territorial. 6. Establecer un procedimiento respetuoso del debido proceso, idóneo, inmediato, expedito y eficaz para la atención oportuna de los comportamientos relacionados con la convivencia en el territorio nacional.",
+            "url_fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#2"
+          }
+        ],
+        "pregunta": "¿Cuáles son los objetivos específicos del Código de Policía?",
+        "respuesta": "**Numeral 1 del artículo 2.** «1. Propiciar en la comunidad comportamientos que favorezcan la convivencia en el espacio público, áreas comunes, lugares abiertos al público o que siendo privados trasciendan a lo público.»\n\n**Numeral 2 del artículo 2.** «2. Promover el respeto, el ejercicio responsable de la libertad, la dignidad, los deberes y los derechos correlativos de la personalidad humana.»\n\n**Numeral 3 del artículo 2.** «3. Promover el uso de mecanismos alternativos, o comunitarios, para la conciliación y solución pacífica de desacuerdos entre particulares.»\n\n**Numeral 4 del artículo 2.** «4. Definir comportamientos, medidas, medios y procedimientos de Policía.»\n\n**Numeral 5 del artículo 2.** «5. Establecer la competencia de las autoridades de Policía en el orden nacional, departamental, distrital y municipal, con observancia del principio de autonomía territorial.»\n\n**Numeral 6 del artículo 2.** «6. Establecer un procedimiento respetuoso del debido proceso, idóneo, inmediato, expedito y eficaz para la atención oportuna de los comportamientos relacionados con la convivencia en el territorio nacional.»",
+        "modelo": "gemini-3.1-flash-lite",
+        "total_generales": 1,
+        "total_estructurados": 0,
+        "validacion_documental": {
+          "estado": "PENDIENTE_VALIDACION",
+          "advertencias": []
+        }
+      },
+      "llamada_gemini_confirmada": true,
+      "estado_documental": "PENDIENTE_VALIDACION",
+      "numerales": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "citas_literales": true,
+      "fuentes_visibles": [
+        "2"
+      ],
+      "control_aprobado": true
+    },
+    {
+      "id": "RAG-004",
+      "pregunta": "¿Qué comportamientos ponen en riesgo la vida e integridad de las personas?",
+      "http": 200,
+      "segundos": 1.794709,
+      "respuesta": {
+        "fuentes_recuperadas": [
+          {
+            "articulo": "27",
+            "numeral": "",
+            "titulo": "COMPORTAMIENTOS QUE PONEN EN RIESGO LA VIDA E INTEGRIDAD",
+            "texto": "ARTÍCULO 27. COMPORTAMIENTOS QUE PONEN EN RIESGO LA VIDA E INTEGRIDAD. Los siguientes comportamientos ponen en riesgo la vida e integridad de las personas, y, por lo tanto, son contrarios a la convivencia: 1. Reñir, incitar o incurrir en confrontaciones violentas que puedan derivar en agresiones físicas. 2. Lanzar objetos que puedan causar daño o sustancias peligrosas a personas. 3. Agredir físicamente a personas por cualquier medio. 4. Amenazar con causar un daño físico a personas por cualquier medio. 5. No retirar o reparar, en los inmuebles, los elementos que ofrezcan riesgo a la vida e integridad.",
+            "url_fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#27"
+          }
+        ],
+        "pregunta": "¿Qué comportamientos ponen en riesgo la vida e integridad de las personas?",
+        "respuesta": "**Numeral 1 del artículo 27.** «1. Reñir, incitar o incurrir en confrontaciones violentas que puedan derivar en agresiones físicas.»\n\n**Numeral 2 del artículo 27.** «2. Lanzar objetos que puedan causar daño o sustancias peligrosas a personas.»\n\n**Numeral 3 del artículo 27.** «3. Agredir físicamente a personas por cualquier medio.»\n\n**Numeral 4 del artículo 27.** «4. Amenazar con causar un daño físico a personas por cualquier medio.»\n\n**Numeral 5 del artículo 27.** «5. No retirar o reparar, en los inmuebles, los elementos que ofrezcan riesgo a la vida e integridad.»",
+        "modelo": "gemini-3.1-flash-lite",
+        "total_generales": 1,
+        "total_estructurados": 0,
+        "validacion_documental": {
+          "estado": "PENDIENTE_VALIDACION",
+          "advertencias": []
+        }
+      },
+      "llamada_gemini_confirmada": true,
+      "estado_documental": "PENDIENTE_VALIDACION",
+      "numerales": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "citas_literales": true,
+      "fuentes_visibles": [
+        "27"
+      ],
+      "control_aprobado": true
+    }
+  ]
+}

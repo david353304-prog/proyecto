@@ -1,0 +1,748 @@
+{
+  "estado_motor": {
+    "estado": "activo",
+    "modo_respuesta": "citas_extractivas",
+    "generacion_configurada": true,
+    "sha256_corpus_publicable": "a2b92ae92020791edb8c31005a375bd2744ed3e1d41fac76c46f9235a3be60e6"
+  },
+  "sha256_indice": "6ce9bcb79bae46b38b732c5af633d247270b94be705353f97ecc202ab4815cb1",
+  "sha256_metadatos": "4c0b74b64014100243965f7ae4854f072e7ff085917560b6cae098a3a9665429",
+  "filas": [
+    {
+      "id": "RAG-002",
+      "pregunta": "¿Cuáles son los objetivos específicos del Código de Policía?",
+      "http": 200,
+      "segundos": 13.110442,
+      "respuesta": {
+        "fuentes_recuperadas": [
+          {
+            "articulo": "2",
+            "numeral": "",
+            "titulo": "OBJETIVOS ESPECÍFICOS",
+            "texto": "ARTÍCULO 2. OBJETIVOS ESPECÍFICOS. Con el fin de mantener las condiciones necesarias para la convivencia en el territorio nacional, los objetivos específicos de este Código son los siguientes: 1. Propiciar en la comunidad comportamientos que favorezcan la convivencia en el espacio público, áreas comunes, lugares abiertos al público o que siendo privados trasciendan a lo público. 2. Promover el respeto, el ejercicio responsable de la libertad, la dignidad, los deberes y los derechos correlativos de la personalidad humana. 3. Promover el uso de mecanismos alternativos, o comunitarios, para la conciliación y solución pacífica de desacuerdos entre particulares. 4. Definir comportamientos, medidas, medios y procedimientos de Policía. 5. Establecer la competencia de las autoridades de Policía en el orden nacional, departamental, distrital y municipal, con observancia del principio de autonomía territorial. 6. Establecer un procedimiento respetuoso del debido proceso, idóneo, inmediato, expedito y eficaz para la atención oportuna de los comportamientos relacionados con la convivencia en el territorio nacional.",
+            "url_fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#2"
+          }
+        ],
+        "pregunta": "¿Cuáles son los objetivos específicos del Código de Policía?",
+        "respuesta": "**Numeral 1 del artículo 2.** «1. Propiciar en la comunidad comportamientos que favorezcan la convivencia en el espacio público, áreas comunes, lugares abiertos al público o que siendo privados trasciendan a lo público.»\n\n**Numeral 2 del artículo 2.** «2. Promover el respeto, el ejercicio responsable de la libertad, la dignidad, los deberes y los derechos correlativos de la personalidad humana.»\n\n**Numeral 3 del artículo 2.** «3. Promover el uso de mecanismos alternativos, o comunitarios, para la conciliación y solución pacífica de desacuerdos entre particulares.»\n\n**Numeral 4 del artículo 2.** «4. Definir comportamientos, medidas, medios y procedimientos de Policía.»\n\n**Numeral 5 del artículo 2.** «5. Establecer la competencia de las autoridades de Policía en el orden nacional, departamental, distrital y municipal, con observancia del principio de autonomía territorial.»\n\n**Numeral 6 del artículo 2.** «6. Establecer un procedimiento respetuoso del debido proceso, idóneo, inmediato, expedito y eficaz para la atención oportuna de los comportamientos relacionados con la convivencia en el territorio nacional.»",
+        "modelo": "gemini-3.1-flash-lite",
+        "total_generales": 1,
+        "total_estructurados": 0,
+        "validacion_documental": {
+          "estado": "PENDIENTE_VALIDACION",
+          "advertencias": []
+        }
+      },
+      "llamada_gemini_confirmada": true,
+      "estado_documental": "PENDIENTE_VALIDACION",
+      "citas_verificadas": [
+        {
+          "articulo": "2",
+          "numeral": 1,
+          "rotulo_concordante": true,
+          "literal_corpus": true,
+          "literal_fuente_visible": true
+        },
+        {
+          "articulo": "2",
+          "numeral": 2,
+          "rotulo_concordante": true,
+          "literal_corpus": true,
+          "literal_fuente_visible": true
+        },
+        {
+          "articulo": "2",
+          "numeral": 3,
+          "rotulo_concordante": true,
+          "literal_corpus": true,
+          "literal_fuente_visible": true
+        },
+        {
+          "articulo": "2",
+          "numeral": 4,
+          "rotulo_concordante": true,
+          "literal_corpus": true,
+          "literal_fuente_visible": true
+        },
+        {
+          "articulo": "2",
+          "numeral": 5,
+          "rotulo_concordante": true,
+          "literal_corpus": true,
+          "literal_fuente_visible": true
+        },
+        {
+          "articulo": "2",
+          "numeral": 6,
+          "rotulo_concordante": true,
+          "literal_corpus": true,
+          "literal_fuente_visible": true
+        }
+      ]
+    },
+    {
+      "id": "RAG-017",
+      "pregunta": "¿Qué establece el Código sobre sacar la basura en horarios no autorizados?",
+      "http": 200,
+      "segundos": 10.304775,
+      "respuesta": {
+        "fuentes_recuperadas": [
+          {
+            "articulo": "111",
+            "numeral": "",
+            "titulo": "COMPORTAMIENTOS CONTRARIOS A LA LIMPIEZA Y RECOLECCIÓN DE RESIDUOS Y ESCOMBROS Y MALAS PRÁCTICAS HABITACIONALES",
+            "texto": "ARTÍCULO 111. COMPORTAMIENTOS CONTRARIOS A LA LIMPIEZA Y RECOLECCIÓN DE RESIDUOS Y ESCOMBROS Y MALAS PRÁCTICAS HABITACIONALES. 1. Sacar la basura en horarios no autorizados por la empresa prestadora del servicio o en sitio diferente al lugar de residencia o domicilio. 3. Arrojar residuos sólidos y escombros en sitios de uso público, no acordados ni autorizados por autoridad competente.",
+            "url_fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#111"
+          }
+        ],
+        "pregunta": "¿Qué establece el Código sobre sacar la basura en horarios no autorizados?",
+        "respuesta": "**Numeral 1 del artículo 111.** «1. Sacar la basura en horarios no autorizados por la empresa prestadora del servicio o en sitio diferente al lugar de residencia o domicilio.»",
+        "modelo": "gemini-3.1-flash-lite",
+        "total_generales": 1,
+        "total_estructurados": 0,
+        "validacion_documental": {
+          "estado": "PENDIENTE_VALIDACION",
+          "advertencias": []
+        }
+      },
+      "llamada_gemini_confirmada": true,
+      "estado_documental": "PENDIENTE_VALIDACION",
+      "citas_verificadas": [
+        {
+          "articulo": "111",
+          "numeral": 1,
+          "rotulo_concordante": true,
+          "literal_corpus": true,
+          "literal_fuente_visible": true
+        }
+      ]
+    },
+    {
+      "id": "RAG-037",
+      "pregunta": "Un local comercial no informa a sus clientes sobre los protocolos de evacuación. ¿Qué comportamiento contempla la ley?",
+      "http": 200,
+      "segundos": 18.06217,
+      "respuesta": {
+        "fuentes_recuperadas": [
+          {
+            "articulo": "93",
+            "numeral": "",
+            "titulo": "COMPORTAMIENTOS RELACIONADOS CON LA SEGURIDAD Y TRANQUILIDAD QUE AFECTAN LA ACTIVIDAD ECONÓMICA",
+            "texto": "ARTÍCULO 93. COMPORTAMIENTOS RELACIONADOS CON LA SEGURIDAD Y TRANQUILIDAD QUE AFECTAN LA ACTIVIDAD ECONÓMICA. 1. No informar los protocolos de seguridad y evacuación en caso de emergencias a las personas que se encuentren en el lugar.",
+            "url_fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#93"
+          }
+        ],
+        "pregunta": "Un local comercial no informa a sus clientes sobre los protocolos de evacuación. ¿Qué comportamiento contempla la ley?",
+        "respuesta": "**Numeral 1 del artículo 93.** «1. No informar los protocolos de seguridad y evacuación en caso de emergencias a las personas que se encuentren en el lugar.»",
+        "modelo": "gemini-3.1-flash-lite",
+        "total_generales": 1,
+        "total_estructurados": 0,
+        "validacion_documental": {
+          "estado": "PENDIENTE_VALIDACION",
+          "advertencias": []
+        }
+      },
+      "llamada_gemini_confirmada": true,
+      "estado_documental": "PENDIENTE_VALIDACION",
+      "citas_verificadas": [
+        {
+          "articulo": "93",
+          "numeral": 1,
+          "rotulo_concordante": true,
+          "literal_corpus": true,
+          "literal_fuente_visible": true
+        }
+      ]
+    },
+    {
+      "id": "RAG-040",
+      "pregunta": "Mis vecinos sacan la basura fuera del horario establecido y dejan residuos en la calle. ¿Qué norma regula este comportamiento?",
+      "http": 200,
+      "segundos": 3.005263,
+      "respuesta": {
+        "fuentes_recuperadas": [
+          {
+            "articulo": "111",
+            "numeral": "",
+            "titulo": "COMPORTAMIENTOS CONTRARIOS A LA LIMPIEZA Y RECOLECCIÓN DE RESIDUOS Y ESCOMBROS Y MALAS PRÁCTICAS HABITACIONALES",
+            "texto": "ARTÍCULO 111. COMPORTAMIENTOS CONTRARIOS A LA LIMPIEZA Y RECOLECCIÓN DE RESIDUOS Y ESCOMBROS Y MALAS PRÁCTICAS HABITACIONALES. 1. Sacar la basura en horarios no autorizados por la empresa prestadora del servicio o en sitio diferente al lugar de residencia o domicilio. 3. Arrojar residuos sólidos y escombros en sitios de uso público, no acordados ni autorizados por autoridad competente.",
+            "url_fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#111"
+          }
+        ],
+        "pregunta": "Mis vecinos sacan la basura fuera del horario establecido y dejan residuos en la calle. ¿Qué norma regula este comportamiento?",
+        "respuesta": "**Numeral 1 del artículo 111.** «1. Sacar la basura en horarios no autorizados por la empresa prestadora del servicio o en sitio diferente al lugar de residencia o domicilio.»\n\n**Numeral 3 del artículo 111.** «3. Arrojar residuos sólidos y escombros en sitios de uso público, no acordados ni autorizados por autoridad competente.»",
+        "modelo": "gemini-3.1-flash-lite",
+        "total_generales": 1,
+        "total_estructurados": 0,
+        "validacion_documental": {
+          "estado": "PENDIENTE_VALIDACION",
+          "advertencias": []
+        }
+      },
+      "llamada_gemini_confirmada": true,
+      "estado_documental": "PENDIENTE_VALIDACION",
+      "citas_verificadas": [
+        {
+          "articulo": "111",
+          "numeral": 1,
+          "rotulo_concordante": true,
+          "literal_corpus": true,
+          "literal_fuente_visible": true
+        },
+        {
+          "articulo": "111",
+          "numeral": 3,
+          "rotulo_concordante": true,
+          "literal_corpus": true,
+          "literal_fuente_visible": true
+        }
+      ]
+    },
+    {
+      "id": "FD-001",
+      "pregunta": "¿Cuál es el límite de velocidad en la ciudad según el código de tránsito?",
+      "http": 200,
+      "segundos": 0.012453,
+      "respuesta": {
+        "fuentes_recuperadas": [],
+        "pregunta": "¿Cuál es el límite de velocidad en la ciudad según el código de tránsito?",
+        "respuesta": "La información solicitada queda fuera del corpus de la Ley 1801 de 2016.",
+        "modelo": "clasificador temático",
+        "total_generales": 0,
+        "total_estructurados": 0,
+        "validacion_documental": {
+          "estado": "FUERA_DE_DOMINIO",
+          "advertencias": []
+        }
+      },
+      "llamada_gemini_confirmada": false,
+      "estado_documental": "FUERA_DE_DOMINIO",
+      "citas_verificadas": []
+    },
+    {
+      "id": "FD-002",
+      "pregunta": "¿Cómo declaro renta y cuánto IVA debo pagar?",
+      "http": 200,
+      "segundos": 0.028348,
+      "respuesta": {
+        "fuentes_recuperadas": [],
+        "pregunta": "¿Cómo declaro renta y cuánto IVA debo pagar?",
+        "respuesta": "La información solicitada queda fuera del corpus de la Ley 1801 de 2016.",
+        "modelo": "clasificador temático",
+        "total_generales": 0,
+        "total_estructurados": 0,
+        "validacion_documental": {
+          "estado": "FUERA_DE_DOMINIO",
+          "advertencias": []
+        }
+      },
+      "llamada_gemini_confirmada": false,
+      "estado_documental": "FUERA_DE_DOMINIO",
+      "citas_verificadas": []
+    },
+    {
+      "id": "FD-003",
+      "pregunta": "¿Me pueden despedir sin justa causa y cuánto me pagan de cesantías?",
+      "http": 200,
+      "segundos": 0.014204,
+      "respuesta": {
+        "fuentes_recuperadas": [],
+        "pregunta": "¿Me pueden despedir sin justa causa y cuánto me pagan de cesantías?",
+        "respuesta": "La información solicitada queda fuera del corpus de la Ley 1801 de 2016.",
+        "modelo": "clasificador temático",
+        "total_generales": 0,
+        "total_estructurados": 0,
+        "validacion_documental": {
+          "estado": "FUERA_DE_DOMINIO",
+          "advertencias": []
+        }
+      },
+      "llamada_gemini_confirmada": false,
+      "estado_documental": "FUERA_DE_DOMINIO",
+      "citas_verificadas": []
+    },
+    {
+      "id": "FD-004",
+      "pregunta": "¿Cuál es la pena por homicidio en Colombia?",
+      "http": 200,
+      "segundos": 0.01124,
+      "respuesta": {
+        "fuentes_recuperadas": [],
+        "pregunta": "¿Cuál es la pena por homicidio en Colombia?",
+        "respuesta": "La información solicitada queda fuera del corpus de la Ley 1801 de 2016.",
+        "modelo": "clasificador temático",
+        "total_generales": 0,
+        "total_estructurados": 0,
+        "validacion_documental": {
+          "estado": "FUERA_DE_DOMINIO",
+          "advertencias": []
+        }
+      },
+      "llamada_gemini_confirmada": false,
+      "estado_documental": "FUERA_DE_DOMINIO",
+      "citas_verificadas": []
+    },
+    {
+      "id": "FD-005",
+      "pregunta": "¿Cómo tramito un divorcio?",
+      "http": 200,
+      "segundos": 0.027897,
+      "respuesta": {
+        "fuentes_recuperadas": [],
+        "pregunta": "¿Cómo tramito un divorcio?",
+        "respuesta": "La información solicitada queda fuera del corpus de la Ley 1801 de 2016.",
+        "modelo": "clasificador temático",
+        "total_generales": 0,
+        "total_estructurados": 0,
+        "validacion_documental": {
+          "estado": "FUERA_DE_DOMINIO",
+          "advertencias": []
+        }
+      },
+      "llamada_gemini_confirmada": false,
+      "estado_documental": "FUERA_DE_DOMINIO",
+      "citas_verificadas": []
+    },
+    {
+      "id": "FD-006",
+      "pregunta": "Dame una receta de arepas",
+      "http": 200,
+      "segundos": 0.023668,
+      "respuesta": {
+        "fuentes_recuperadas": [],
+        "pregunta": "Dame una receta de arepas",
+        "respuesta": "La información solicitada queda fuera del corpus de la Ley 1801 de 2016.",
+        "modelo": "clasificador temático",
+        "total_generales": 0,
+        "total_estructurados": 0,
+        "validacion_documental": {
+          "estado": "FUERA_DE_DOMINIO",
+          "advertencias": []
+        }
+      },
+      "llamada_gemini_confirmada": false,
+      "estado_documental": "FUERA_DE_DOMINIO",
+      "citas_verificadas": []
+    },
+    {
+      "id": "FD-007",
+      "pregunta": "¿Cuánto cuesta el SOAT y cuándo vence la tecnomecánica?",
+      "http": 200,
+      "segundos": 0.007647,
+      "respuesta": {
+        "fuentes_recuperadas": [],
+        "pregunta": "¿Cuánto cuesta el SOAT y cuándo vence la tecnomecánica?",
+        "respuesta": "La información solicitada queda fuera del corpus de la Ley 1801 de 2016.",
+        "modelo": "clasificador temático",
+        "total_generales": 0,
+        "total_estructurados": 0,
+        "validacion_documental": {
+          "estado": "FUERA_DE_DOMINIO",
+          "advertencias": []
+        }
+      },
+      "llamada_gemini_confirmada": false,
+      "estado_documental": "FUERA_DE_DOMINIO",
+      "citas_verificadas": []
+    },
+    {
+      "id": "FD-008",
+      "pregunta": "¿Qué pico y placa rige hoy en Bogotá?",
+      "http": 200,
+      "segundos": 0.009164,
+      "respuesta": {
+        "fuentes_recuperadas": [],
+        "pregunta": "¿Qué pico y placa rige hoy en Bogotá?",
+        "respuesta": "La información solicitada queda fuera del corpus de la Ley 1801 de 2016.",
+        "modelo": "clasificador temático",
+        "total_generales": 0,
+        "total_estructurados": 0,
+        "validacion_documental": {
+          "estado": "FUERA_DE_DOMINIO",
+          "advertencias": []
+        }
+      },
+      "llamada_gemini_confirmada": false,
+      "estado_documental": "FUERA_DE_DOMINIO",
+      "citas_verificadas": []
+    },
+    {
+      "id": "FD-009",
+      "pregunta": "¿Cómo funciona el bitcoin?",
+      "http": 200,
+      "segundos": 0.008629,
+      "respuesta": {
+        "fuentes_recuperadas": [],
+        "pregunta": "¿Cómo funciona el bitcoin?",
+        "respuesta": "La información solicitada queda fuera del corpus de la Ley 1801 de 2016.",
+        "modelo": "clasificador temático",
+        "total_generales": 0,
+        "total_estructurados": 0,
+        "validacion_documental": {
+          "estado": "FUERA_DE_DOMINIO",
+          "advertencias": []
+        }
+      },
+      "llamada_gemini_confirmada": false,
+      "estado_documental": "FUERA_DE_DOMINIO",
+      "citas_verificadas": []
+    },
+    {
+      "id": "FD-010",
+      "pregunta": "¿Quién ganó el partido de fútbol de ayer?",
+      "http": 200,
+      "segundos": 0.008807,
+      "respuesta": {
+        "fuentes_recuperadas": [],
+        "pregunta": "¿Quién ganó el partido de fútbol de ayer?",
+        "respuesta": "La información solicitada queda fuera del corpus de la Ley 1801 de 2016.",
+        "modelo": "clasificador temático",
+        "total_generales": 0,
+        "total_estructurados": 0,
+        "validacion_documental": {
+          "estado": "FUERA_DE_DOMINIO",
+          "advertencias": []
+        }
+      },
+      "llamada_gemini_confirmada": false,
+      "estado_documental": "FUERA_DE_DOMINIO",
+      "citas_verificadas": []
+    },
+    {
+      "id": "FD-017",
+      "pregunta": "¿Qué dice el artículo 135 del Código de Tránsito sobre una multa?",
+      "http": 200,
+      "segundos": 0.010512,
+      "respuesta": {
+        "fuentes_recuperadas": [],
+        "pregunta": "¿Qué dice el artículo 135 del Código de Tránsito sobre una multa?",
+        "respuesta": "La información solicitada queda fuera del corpus de la Ley 1801 de 2016.",
+        "modelo": "clasificador temático",
+        "total_generales": 0,
+        "total_estructurados": 0,
+        "validacion_documental": {
+          "estado": "FUERA_DE_DOMINIO",
+          "advertencias": []
+        }
+      },
+      "llamada_gemini_confirmada": false,
+      "estado_documental": "FUERA_DE_DOMINIO",
+      "citas_verificadas": []
+    },
+    {
+      "id": "FD-018",
+      "pregunta": "¿Qué procedimiento aplica a un comparendo de tránsito?",
+      "http": 200,
+      "segundos": 0.008233,
+      "respuesta": {
+        "fuentes_recuperadas": [],
+        "pregunta": "¿Qué procedimiento aplica a un comparendo de tránsito?",
+        "respuesta": "La información solicitada queda fuera del corpus de la Ley 1801 de 2016.",
+        "modelo": "clasificador temático",
+        "total_generales": 0,
+        "total_estructurados": 0,
+        "validacion_documental": {
+          "estado": "FUERA_DE_DOMINIO",
+          "advertencias": []
+        }
+      },
+      "llamada_gemini_confirmada": false,
+      "estado_documental": "FUERA_DE_DOMINIO",
+      "citas_verificadas": []
+    },
+    {
+      "id": "FD-019",
+      "pregunta": "¿Cuál es la multa por incumplir el Estatuto Tributario?",
+      "http": 200,
+      "segundos": 0.008611,
+      "respuesta": {
+        "fuentes_recuperadas": [],
+        "pregunta": "¿Cuál es la multa por incumplir el Estatuto Tributario?",
+        "respuesta": "La información solicitada queda fuera del corpus de la Ley 1801 de 2016.",
+        "modelo": "clasificador temático",
+        "total_generales": 0,
+        "total_estructurados": 0,
+        "validacion_documental": {
+          "estado": "FUERA_DE_DOMINIO",
+          "advertencias": []
+        }
+      },
+      "llamada_gemini_confirmada": false,
+      "estado_documental": "FUERA_DE_DOMINIO",
+      "citas_verificadas": []
+    },
+    {
+      "id": "FD-020",
+      "pregunta": "¿Cuál es la multa por declarar renta tarde?",
+      "http": 200,
+      "segundos": 0.009073,
+      "respuesta": {
+        "fuentes_recuperadas": [],
+        "pregunta": "¿Cuál es la multa por declarar renta tarde?",
+        "respuesta": "La información solicitada queda fuera del corpus de la Ley 1801 de 2016.",
+        "modelo": "clasificador temático",
+        "total_generales": 0,
+        "total_estructurados": 0,
+        "validacion_documental": {
+          "estado": "FUERA_DE_DOMINIO",
+          "advertencias": []
+        }
+      },
+      "llamada_gemini_confirmada": false,
+      "estado_documental": "FUERA_DE_DOMINIO",
+      "citas_verificadas": []
+    },
+    {
+      "id": "FD-021",
+      "pregunta": "¿Qué procedimiento aplica si hay una multa por presentar el IVA tarde?",
+      "http": 200,
+      "segundos": 0.009534,
+      "respuesta": {
+        "fuentes_recuperadas": [],
+        "pregunta": "¿Qué procedimiento aplica si hay una multa por presentar el IVA tarde?",
+        "respuesta": "La información solicitada queda fuera del corpus de la Ley 1801 de 2016.",
+        "modelo": "clasificador temático",
+        "total_generales": 0,
+        "total_estructurados": 0,
+        "validacion_documental": {
+          "estado": "FUERA_DE_DOMINIO",
+          "advertencias": []
+        }
+      },
+      "llamada_gemini_confirmada": false,
+      "estado_documental": "FUERA_DE_DOMINIO",
+      "citas_verificadas": []
+    },
+    {
+      "id": "FD-022",
+      "pregunta": "¿Cómo impugno una multa de la DIAN por una declaración de renta extemporánea?",
+      "http": 200,
+      "segundos": 0.007694,
+      "respuesta": {
+        "fuentes_recuperadas": [],
+        "pregunta": "¿Cómo impugno una multa de la DIAN por una declaración de renta extemporánea?",
+        "respuesta": "La información solicitada queda fuera del corpus de la Ley 1801 de 2016.",
+        "modelo": "clasificador temático",
+        "total_generales": 0,
+        "total_estructurados": 0,
+        "validacion_documental": {
+          "estado": "FUERA_DE_DOMINIO",
+          "advertencias": []
+        }
+      },
+      "llamada_gemini_confirmada": false,
+      "estado_documental": "FUERA_DE_DOMINIO",
+      "citas_verificadas": []
+    },
+    {
+      "id": "FD-023",
+      "pregunta": "¿Qué procedimiento aplica a un comparendo por exceso de velocidad?",
+      "http": 200,
+      "segundos": 0.009914,
+      "respuesta": {
+        "fuentes_recuperadas": [],
+        "pregunta": "¿Qué procedimiento aplica a un comparendo por exceso de velocidad?",
+        "respuesta": "La información solicitada queda fuera del corpus de la Ley 1801 de 2016.",
+        "modelo": "clasificador temático",
+        "total_generales": 0,
+        "total_estructurados": 0,
+        "validacion_documental": {
+          "estado": "FUERA_DE_DOMINIO",
+          "advertencias": []
+        }
+      },
+      "llamada_gemini_confirmada": false,
+      "estado_documental": "FUERA_DE_DOMINIO",
+      "citas_verificadas": []
+    },
+    {
+      "id": "FD-024",
+      "pregunta": "¿Cuál es la multa por pasarse un semáforo en rojo?",
+      "http": 200,
+      "segundos": 0.008821,
+      "respuesta": {
+        "fuentes_recuperadas": [],
+        "pregunta": "¿Cuál es la multa por pasarse un semáforo en rojo?",
+        "respuesta": "La información solicitada queda fuera del corpus de la Ley 1801 de 2016.",
+        "modelo": "clasificador temático",
+        "total_generales": 0,
+        "total_estructurados": 0,
+        "validacion_documental": {
+          "estado": "FUERA_DE_DOMINIO",
+          "advertencias": []
+        }
+      },
+      "llamada_gemini_confirmada": false,
+      "estado_documental": "FUERA_DE_DOMINIO",
+      "citas_verificadas": []
+    },
+    {
+      "id": "FD-028",
+      "pregunta": "¿Cuál es la multa de renta?",
+      "http": 200,
+      "segundos": 0.019523,
+      "respuesta": {
+        "fuentes_recuperadas": [],
+        "pregunta": "¿Cuál es la multa de renta?",
+        "respuesta": "La información solicitada queda fuera del corpus de la Ley 1801 de 2016.",
+        "modelo": "clasificador temático",
+        "total_generales": 0,
+        "total_estructurados": 0,
+        "validacion_documental": {
+          "estado": "FUERA_DE_DOMINIO",
+          "advertencias": []
+        }
+      },
+      "llamada_gemini_confirmada": false,
+      "estado_documental": "FUERA_DE_DOMINIO",
+      "citas_verificadas": []
+    },
+    {
+      "id": "FD-029",
+      "pregunta": "¿Cuál es la multa por IVA?",
+      "http": 200,
+      "segundos": 0.026129,
+      "respuesta": {
+        "fuentes_recuperadas": [],
+        "pregunta": "¿Cuál es la multa por IVA?",
+        "respuesta": "La información solicitada queda fuera del corpus de la Ley 1801 de 2016.",
+        "modelo": "clasificador temático",
+        "total_generales": 0,
+        "total_estructurados": 0,
+        "validacion_documental": {
+          "estado": "FUERA_DE_DOMINIO",
+          "advertencias": []
+        }
+      },
+      "llamada_gemini_confirmada": false,
+      "estado_documental": "FUERA_DE_DOMINIO",
+      "citas_verificadas": []
+    },
+    {
+      "id": "FD-030",
+      "pregunta": "¿Qué dice la Ley 1801 del comparendo de tránsito?",
+      "http": 200,
+      "segundos": 0.008015,
+      "respuesta": {
+        "fuentes_recuperadas": [],
+        "pregunta": "¿Qué dice la Ley 1801 del comparendo de tránsito?",
+        "respuesta": "La información solicitada queda fuera del corpus de la Ley 1801 de 2016.",
+        "modelo": "clasificador temático",
+        "total_generales": 0,
+        "total_estructurados": 0,
+        "validacion_documental": {
+          "estado": "FUERA_DE_DOMINIO",
+          "advertencias": []
+        }
+      },
+      "llamada_gemini_confirmada": false,
+      "estado_documental": "FUERA_DE_DOMINIO",
+      "citas_verificadas": []
+    },
+    {
+      "id": "FD-031",
+      "pregunta": "¿Qué multa aplica por no pagar el impuesto predial?",
+      "http": 200,
+      "segundos": 0.010645,
+      "respuesta": {
+        "fuentes_recuperadas": [],
+        "pregunta": "¿Qué multa aplica por no pagar el impuesto predial?",
+        "respuesta": "La información solicitada queda fuera del corpus de la Ley 1801 de 2016.",
+        "modelo": "clasificador temático",
+        "total_generales": 0,
+        "total_estructurados": 0,
+        "validacion_documental": {
+          "estado": "FUERA_DE_DOMINIO",
+          "advertencias": []
+        }
+      },
+      "llamada_gemini_confirmada": false,
+      "estado_documental": "FUERA_DE_DOMINIO",
+      "citas_verificadas": []
+    },
+    {
+      "id": "FD-032",
+      "pregunta": "¿La Ley 1801 dice cómo se objeta una multa por IVA?",
+      "http": 200,
+      "segundos": 0.007148,
+      "respuesta": {
+        "fuentes_recuperadas": [],
+        "pregunta": "¿La Ley 1801 dice cómo se objeta una multa por IVA?",
+        "respuesta": "La información solicitada queda fuera del corpus de la Ley 1801 de 2016.",
+        "modelo": "clasificador temático",
+        "total_generales": 0,
+        "total_estructurados": 0,
+        "validacion_documental": {
+          "estado": "FUERA_DE_DOMINIO",
+          "advertencias": []
+        }
+      },
+      "llamada_gemini_confirmada": false,
+      "estado_documental": "FUERA_DE_DOMINIO",
+      "citas_verificadas": []
+    },
+    {
+      "id": "FD-033",
+      "pregunta": "Compara el comparendo de Policía de la Ley 1801 con un comparendo de tránsito.",
+      "http": 200,
+      "segundos": 0.030483,
+      "respuesta": {
+        "fuentes_recuperadas": [],
+        "pregunta": "Compara el comparendo de Policía de la Ley 1801 con un comparendo de tránsito.",
+        "respuesta": "La información solicitada queda fuera del corpus de la Ley 1801 de 2016.",
+        "modelo": "clasificador temático",
+        "total_generales": 0,
+        "total_estructurados": 0,
+        "validacion_documental": {
+          "estado": "FUERA_DE_DOMINIO",
+          "advertencias": []
+        }
+      },
+      "llamada_gemini_confirmada": false,
+      "estado_documental": "FUERA_DE_DOMINIO",
+      "citas_verificadas": []
+    },
+    {
+      "id": "FD-034",
+      "pregunta": "¿Qué multa de la Ley 1801 corresponde al ruido y cuál se aplica por no pagar el impuesto predial?",
+      "http": 200,
+      "segundos": 0.010589,
+      "respuesta": {
+        "fuentes_recuperadas": [],
+        "pregunta": "¿Qué multa de la Ley 1801 corresponde al ruido y cuál se aplica por no pagar el impuesto predial?",
+        "respuesta": "La información solicitada queda fuera del corpus de la Ley 1801 de 2016.",
+        "modelo": "clasificador temático",
+        "total_generales": 0,
+        "total_estructurados": 0,
+        "validacion_documental": {
+          "estado": "FUERA_DE_DOMINIO",
+          "advertencias": []
+        }
+      },
+      "llamada_gemini_confirmada": false,
+      "estado_documental": "FUERA_DE_DOMINIO",
+      "citas_verificadas": []
+    },
+    {
+      "id": "FD-037",
+      "pregunta": "¿Cuál es la multa por exceder la velocidad permitida?",
+      "http": 200,
+      "segundos": 0.011369,
+      "respuesta": {
+        "fuentes_recuperadas": [],
+        "pregunta": "¿Cuál es la multa por exceder la velocidad permitida?",
+        "respuesta": "La información solicitada queda fuera del corpus de la Ley 1801 de 2016.",
+        "modelo": "clasificador temático",
+        "total_generales": 0,
+        "total_estructurados": 0,
+        "validacion_documental": {
+          "estado": "FUERA_DE_DOMINIO",
+          "advertencias": []
+        }
+      },
+      "llamada_gemini_confirmada": false,
+      "estado_documental": "FUERA_DE_DOMINIO",
+      "citas_verificadas": []
+    }
+  ]
+}

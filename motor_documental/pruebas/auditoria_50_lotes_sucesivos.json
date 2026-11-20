@@ -1,0 +1,3236 @@
+{
+  "sha256_banco": "dbeab26c86e8cebc541e301b673347584214630b447af06343e3c311c20beaa9",
+  "linea_base_http": "evaluacion_api_gemini_cobertura.json, actualizada en los cuatro IDs por control_api_gemini_lote_movilidad.json",
+  "filas": [
+    {
+      "id": "RAG-001",
+      "pregunta": "¿Cuál es el objetivo general del Código Nacional de Seguridad y Convivencia Ciudadana?",
+      "articulo": "1",
+      "apartados_necesarios": "articulo completo",
+      "revision_o_brecha": "Objeto, deberes y ejercicio de policia",
+      "referencia_banco": "El Código busca establecer condiciones para la convivencia en el territorio nacional, promoviendo el cumplimiento de los deberes y obligaciones de las personas y regulando el ejercicio del poder, la función y la actividad de Policía.",
+      "fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#1",
+      "seleccion_publica": {
+        "articulo_completo": true
+      },
+      "alcance_publico": null,
+      "fuentes_adicionales": [],
+      "rankings": {
+        "movilidad": [
+          "1"
+        ],
+        "ordenes": [
+          "1"
+        ],
+        "proteccion": [
+          "1"
+        ],
+        "convivencia": [
+          "1"
+        ]
+      },
+      "resultado_previo": "completa",
+      "pendiente_prioritario": false,
+      "resultado_final": {
+        "calidad_frente_al_banco": "completa",
+        "motivo": "Los elementos de la referencia aparecen en las citas observadas.",
+        "http": 200,
+        "segundos_http": 5.364981,
+        "estado_documental": "PENDIENTE_VALIDACION",
+        "citas": [
+          {
+            "articulo": "1",
+            "literal_corpus": true,
+            "literal_fuente_visible": true,
+            "articulo_esperado": true,
+            "rotulo_numeral_concordante": true,
+            "rotulo_paragrafo_explicito": true
+          }
+        ],
+        "intentos_sdk": [
+          {
+            "consulta": 27,
+            "evento": "intento",
+            "segundos": 5.165088
+          }
+        ]
+      }
+    },
+    {
+      "id": "RAG-002",
+      "pregunta": "¿Cuáles son los objetivos específicos del Código de Policía?",
+      "articulo": "2",
+      "apartados_necesarios": "numerales 1 a 6",
+      "revision_o_brecha": "Los seis objetivos",
+      "referencia_banco": "Sus seis objetivos son promover comportamientos favorables a la convivencia, fomentar el respeto y el ejercicio responsable de los derechos y libertades, promover mecanismos alternativos de solución de conflictos, definir comportamientos y medidas de Policía, establecer las competencias de las autoridades y garantizar un procedimiento respetuoso del debido proceso, inmediato y eficaz.",
+      "fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#2",
+      "seleccion_publica": {
+        "articulo_completo": true
+      },
+      "alcance_publico": null,
+      "fuentes_adicionales": [],
+      "rankings": {
+        "movilidad": [
+          "2"
+        ],
+        "ordenes": [
+          "2"
+        ],
+        "proteccion": [
+          "2"
+        ],
+        "convivencia": [
+          "2"
+        ]
+      },
+      "resultado_previo": "error_http",
+      "pendiente_prioritario": false,
+      "resultado_final": {
+        "calidad_frente_al_banco": "completa",
+        "motivo": "Los elementos de la referencia aparecen en las citas observadas.",
+        "http": 200,
+        "segundos_http": 45.940243,
+        "estado_documental": "PENDIENTE_VALIDACION",
+        "citas": [
+          {
+            "articulo": "2",
+            "literal_corpus": true,
+            "literal_fuente_visible": true,
+            "articulo_esperado": true,
+            "rotulo_numeral_concordante": true,
+            "rotulo_paragrafo_explicito": true
+          },
+          {
+            "articulo": "2",
+            "literal_corpus": true,
+            "literal_fuente_visible": true,
+            "articulo_esperado": true,
+            "rotulo_numeral_concordante": true,
+            "rotulo_paragrafo_explicito": true
+          },
+          {
+            "articulo": "2",
+            "literal_corpus": true,
+            "literal_fuente_visible": true,
+            "articulo_esperado": true,
+            "rotulo_numeral_concordante": true,
+            "rotulo_paragrafo_explicito": true
+          },
+          {
+            "articulo": "2",
+            "literal_corpus": true,
+            "literal_fuente_visible": true,
+            "articulo_esperado": true,
+            "rotulo_numeral_concordante": true,
+            "rotulo_paragrafo_explicito": true
+          },
+          {
+            "articulo": "2",
+            "literal_corpus": true,
+            "literal_fuente_visible": true,
+            "articulo_esperado": true,
+            "rotulo_numeral_concordante": true,
+            "rotulo_paragrafo_explicito": true
+          },
+          {
+            "articulo": "2",
+            "literal_corpus": true,
+            "literal_fuente_visible": true,
+            "articulo_esperado": true,
+            "rotulo_numeral_concordante": true,
+            "rotulo_paragrafo_explicito": true
+          }
+        ],
+        "intentos_sdk": [
+          {
+            "consulta": 28,
+            "evento": "intento",
+            "segundos": 45.859346
+          }
+        ]
+      }
+    },
+    {
+      "id": "RAG-003",
+      "pregunta": "¿Qué principios fundamentales orientan la aplicación del Código de Policía?",
+      "articulo": "8",
+      "apartados_necesarios": "numerales 1 a 14",
+      "revision_o_brecha": "Principios y proporcionalidad, razonabilidad y necesidad; Ley 2318 art. 2",
+      "referencia_banco": "Los principios incluyen la protección de la vida y la dignidad humana, los derechos humanos, la protección integral de niños, niñas y adolescentes, la igualdad, la libertad, la autorregulación, la diversidad, el debido proceso, la protección ambiental y animal, la solidaridad, la solución pacífica de conflictos, el respeto a las autoridades, la proporcionalidad, la razonabilidad y la necesidad.",
+      "fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#8",
+      "seleccion_publica": {
+        "cuerpo": [
+          0
+        ],
+        "numeral-1": [
+          0
+        ],
+        "numeral-2": [
+          0
+        ],
+        "numeral-3": [
+          0
+        ],
+        "numeral-4": [
+          0
+        ],
+        "numeral-5": [
+          0
+        ],
+        "numeral-6": [
+          0
+        ],
+        "numeral-7": [
+          0
+        ],
+        "numeral-8": [
+          0
+        ],
+        "numeral-9": [
+          0
+        ],
+        "numeral-10": [
+          0
+        ],
+        "numeral-11": [
+          0
+        ],
+        "numeral-12": [
+          0
+        ],
+        "numeral-13": [
+          0
+        ],
+        "numeral-14": [
+          0
+        ]
+      },
+      "alcance_publico": "Principios y criterios de proporcionalidad y necesidad, según el art. 2 de la Ley 2318 de 2023 y la enumeración de la compilación. Queda fuera el parágrafo que remite a reglas especiales para menores.",
+      "fuentes_adicionales": [
+        "https://www.funcionpublica.gov.co/eva/gestornormativo/norma_pdf.php?i=217131"
+      ],
+      "rankings": {
+        "movilidad": [
+          "8"
+        ],
+        "ordenes": [
+          "8"
+        ],
+        "proteccion": [
+          "8"
+        ],
+        "convivencia": [
+          "8"
+        ]
+      },
+      "resultado_previo": "completa",
+      "pendiente_prioritario": false,
+      "resultado_final": {
+        "calidad_frente_al_banco": "retenida",
+        "motivo": "La salida extractiva no se publico.",
+        "http": 200,
+        "segundos_http": 1.231925,
+        "estado_documental": "REQUIERE_REVISION",
+        "citas": [],
+        "intentos_sdk": [
+          {
+            "consulta": 29,
+            "evento": "intento",
+            "segundos": 1.138365
+          }
+        ]
+      }
+    },
+    {
+      "id": "RAG-004",
+      "pregunta": "¿Qué comportamientos ponen en riesgo la vida e integridad de las personas?",
+      "articulo": "27",
+      "apartados_necesarios": "numerales 1 a 11",
+      "revision_o_brecha": "La referencia espera tambien armas y dispositivos; art. 39 Ley 2197 y Decreto 207",
+      "referencia_banco": "El artículo contempla las riñas y confrontaciones violentas, el lanzamiento de objetos peligrosos, las agresiones físicas, las amenazas, la falta de reparación de elementos peligrosos en inmuebles y diferentes comportamientos relacionados con el porte indebido de armas y dispositivos menos letales.",
+      "fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#27",
+      "seleccion_publica": {
+        "cuerpo": [
+          0
+        ],
+        "numeral-1": [
+          0
+        ],
+        "numeral-2": [
+          0
+        ],
+        "numeral-3": [
+          0
+        ],
+        "numeral-4": [
+          0
+        ],
+        "numeral-5": [
+          0
+        ],
+        "paragrafo-12": [
+          2
+        ],
+        "paragrafo-13": [
+          0
+        ]
+      },
+      "alcance_publico": "Inciso introductorio y numerales 1 a 5, fila 1 del parágrafo 1 y el parágrafo 2 sobre mediación, reformado por el art. 39 de la Ley 2197 de 2022. Quedan excluidas las demás filas y conductas.",
+      "fuentes_adicionales": [
+        "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#27",
+        "https://www.alcaldiabogota.gov.co/sisjur/normas/Norma1.jsp?i=68690",
+        "https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=176406"
+      ],
+      "rankings": {
+        "movilidad": [
+          "27"
+        ],
+        "ordenes": [
+          "27"
+        ],
+        "proteccion": [
+          "27"
+        ],
+        "convivencia": [
+          "27"
+        ]
+      },
+      "resultado_previo": "parcial",
+      "pendiente_prioritario": false,
+      "resultado_final": {
+        "calidad_frente_al_banco": "parcial",
+        "motivo": "faltan conductas sobre armas y dispositivos",
+        "http": 200,
+        "segundos_http": 5.221965,
+        "estado_documental": "PENDIENTE_VALIDACION",
+        "citas": [
+          {
+            "articulo": "27",
+            "literal_corpus": true,
+            "literal_fuente_visible": true,
+            "articulo_esperado": true,
+            "rotulo_numeral_concordante": true,
+            "rotulo_paragrafo_explicito": true
+          },
+          {
+            "articulo": "27",
+            "literal_corpus": true,
+            "literal_fuente_visible": true,
+            "articulo_esperado": true,
+            "rotulo_numeral_concordante": true,
+            "rotulo_paragrafo_explicito": true
+          },
+          {
+            "articulo": "27",
+            "literal_corpus": true,
+            "literal_fuente_visible": true,
+            "articulo_esperado": true,
+            "rotulo_numeral_concordante": true,
+            "rotulo_paragrafo_explicito": true
+          },
+          {
+            "articulo": "27",
+            "literal_corpus": true,
+            "literal_fuente_visible": true,
+            "articulo_esperado": true,
+            "rotulo_numeral_concordante": true,
+            "rotulo_paragrafo_explicito": true
+          },
+          {
+            "articulo": "27",
+            "literal_corpus": true,
+            "literal_fuente_visible": true,
+            "articulo_esperado": true,
+            "rotulo_numeral_concordante": true,
+            "rotulo_paragrafo_explicito": true
+          }
+        ],
+        "intentos_sdk": [
+          {
+            "consulta": 30,
+            "evento": "intento",
+            "segundos": 5.158213
+          }
+        ]
+      }
+    },
+    {
+      "id": "RAG-005",
+      "pregunta": "¿Qué establece el Código sobre los ruidos que afectan la tranquilidad de los vecinos?",
+      "articulo": "33",
+      "apartados_necesarios": "33.1 literales de ruido vecinal y cuadro",
+      "revision_o_brecha": "Ley 2450 art. 18, C-308/19 y C-253/19",
+      "referencia_banco": "El artículo 33 contempla como comportamiento contrario a la convivencia perturbar la tranquilidad del vecindario mediante sonidos, ruidos de fiestas, reuniones, dispositivos o maquinaria. Las autoridades pueden desactivar temporalmente las fuentes de ruido en las condiciones previstas por la norma. Para el numeral 1 contempla multa general tipo 3 y disolución de reuniones o actividades que involucren aglomeraciones de público no complejas.",
+      "fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#33",
+      "seleccion_publica": {},
+      "alcance_publico": null,
+      "fuentes_adicionales": [],
+      "rankings": {
+        "movilidad": [],
+        "ordenes": [],
+        "proteccion": [],
+        "convivencia": []
+      },
+      "resultado_previo": "abstencion",
+      "pendiente_prioritario": true,
+      "resultado_final": {
+        "calidad_frente_al_banco": "abstencion",
+        "motivo": "Sin candidatos dentro del alcance publico.",
+        "http": 200,
+        "segundos_http": 0.011025,
+        "estado_documental": "SIN_RESPALDO",
+        "citas": [],
+        "intentos_sdk": []
+      }
+    },
+    {
+      "id": "RAG-006",
+      "pregunta": "¿Qué comportamientos afectan las relaciones entre las personas y las autoridades de Policía?",
+      "articulo": "35",
+      "apartados_necesarios": "35.1-7 lista de conductas",
+      "revision_o_brecha": "C-600/19 y alcance de C-223/25",
+      "referencia_banco": "El artículo 35 contempla comportamientos como irrespetar a las autoridades de Policía, incumplir o desacatar sus órdenes, impedir procedimientos de identificación, suministrar información falsa, resistirse a medidas de Policía, agredir a las autoridades o utilizar inadecuadamente el sistema de emergencias.",
+      "fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#35",
+      "seleccion_publica": {
+        "numeral-2": [
+          0
+        ]
+      },
+      "alcance_publico": "Solo el numeral 2. C-600/19 declaró exequibles las expresiones demandadas por los cargos estudiados. C-223/25 se inhibió respecto del numeral 1. Se excluyen los demás numerales y las medidas.",
+      "fuentes_adicionales": [
+        "https://www.corteconstitucional.gov.co/relatoria/2019/C-600-19.htm",
+        "https://www.corteconstitucional.gov.co/relatoria/2025/C-223-25.htm"
+      ],
+      "rankings": {
+        "movilidad": [],
+        "ordenes": [],
+        "proteccion": [],
+        "convivencia": []
+      },
+      "resultado_previo": "abstencion",
+      "pendiente_prioritario": true,
+      "resultado_final": {
+        "calidad_frente_al_banco": "abstencion",
+        "motivo": "Sin candidatos dentro del alcance publico.",
+        "http": 200,
+        "segundos_http": 0.024146,
+        "estado_documental": "SIN_RESPALDO",
+        "citas": [],
+        "intentos_sdk": []
+      }
+    },
+    {
+      "id": "RAG-007",
+      "pregunta": "¿En qué circunstancias pueden los alcaldes restringir la permanencia de menores en espacios públicos?",
+      "articulo": "36",
+      "apartados_necesarios": "36 inciso y condiciones de restriccion y acompanamiento",
+      "revision_o_brecha": "contrastar los limites temporales y competenciales del inciso y paragrafo",
+      "referencia_banco": "Los alcaldes pueden restringir excepcionalmente la movilidad o permanencia de niños, niñas y adolescentes en espacios públicos o lugares abiertos al público, cuando sea necesario prevenir eventos que puedan poner en peligro su vida, integridad o salud. La restricción debe ser temporal y estar debidamente motivada. Su implementación debe contar con el acompañamiento del ICBF y del Ministerio Público.",
+      "fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#36",
+      "seleccion_publica": {
+        "cuerpo": [
+          0
+        ],
+        "paragrafo-1": [
+          0
+        ]
+      },
+      "alcance_publico": "Facultad excepcional, temporal y motivada y acompañamiento. No se identificó una reforma directa ni decisión específica en las fuentes consultadas.",
+      "fuentes_adicionales": [
+        "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#36",
+        "https://jurinfo.jep.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#36"
+      ],
+      "rankings": {
+        "movilidad": [],
+        "ordenes": [
+          "36"
+        ],
+        "proteccion": [
+          "36"
+        ],
+        "convivencia": [
+          "36"
+        ]
+      },
+      "resultado_previo": "abstencion",
+      "pendiente_prioritario": false,
+      "resultado_final": {
+        "calidad_frente_al_banco": "parcial",
+        "motivo": "falta el acompanamiento del paragrafo",
+        "http": 200,
+        "segundos_http": 4.203641,
+        "estado_documental": "PENDIENTE_VALIDACION",
+        "citas": [
+          {
+            "articulo": "36",
+            "literal_corpus": true,
+            "literal_fuente_visible": true,
+            "articulo_esperado": true,
+            "rotulo_numeral_concordante": true,
+            "rotulo_paragrafo_explicito": true
+          }
+        ],
+        "intentos_sdk": [
+          {
+            "consulta": 33,
+            "evento": "intento",
+            "segundos": 4.137107
+          }
+        ]
+      }
+    },
+    {
+      "id": "RAG-008",
+      "pregunta": "¿Qué comportamientos afectan la integridad de niños, niñas y adolescentes?",
+      "articulo": "38",
+      "apartados_necesarios": "38 numerales y literales de proteccion integral",
+      "revision_o_brecha": "contrastar literales, remisiones y notas de la compilacion",
+      "referencia_banco": "El artículo 38 prohíbe comportamientos que pongan en riesgo la integridad de niños, niñas y adolescentes. Entre ellos están permitir su ingreso a lugares con actividades para adultos o peligrosas, inducirlos a participar en actividades prohibidas, facilitarles material pornográfico, suministrarles sustancias psicoactivas o bebidas alcohólicas, inducirlos al consumo de estas sustancias, permitir situaciones de abuso o explotación sexual, utilizarlos para evadir órdenes de Policía, permitir el incumplimiento de requisitos de seguridad en piscinas e involucrarlos en confrontaciones violentas.",
+      "fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#38",
+      "seleccion_publica": {},
+      "alcance_publico": null,
+      "fuentes_adicionales": [],
+      "rankings": {
+        "movilidad": [],
+        "ordenes": [],
+        "proteccion": [],
+        "convivencia": []
+      },
+      "resultado_previo": "abstencion",
+      "pendiente_prioritario": true,
+      "resultado_final": {
+        "calidad_frente_al_banco": "abstencion",
+        "motivo": "Sin candidatos dentro del alcance publico.",
+        "http": 200,
+        "segundos_http": 0.008473,
+        "estado_documental": "SIN_RESPALDO",
+        "citas": [],
+        "intentos_sdk": []
+      }
+    },
+    {
+      "id": "RAG-009",
+      "pregunta": "¿Qué prohibiciones establece el Código para niños, niñas y adolescentes?",
+      "articulo": "39",
+      "apartados_necesarios": "39 prohibiciones especificas de sustancias para menores",
+      "revision_o_brecha": "contrastar el texto aplicable y las remisiones protectoras",
+      "referencia_banco": "El artículo 39 prohíbe a niños, niñas y adolescentes comercializar, distribuir, tener, almacenar, portar o consumir sustancias psicoactivas o tóxicas, alcohólicas y otras sustancias estimulantes que puedan afectar su salud o producir dependencia y que estén restringidas para menores de edad.",
+      "fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#39",
+      "seleccion_publica": {
+        "cuerpo": [
+          0
+        ],
+        "numeral-1": [
+          0
+        ]
+      },
+      "alcance_publico": "Prohibiciones del numeral 1. C-281/17 se inhibió respecto de este numeral y condicionó el parágrafo 3, excluido junto con las demás medidas y parágrafos.",
+      "fuentes_adicionales": [
+        "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#39",
+        "https://www.corteconstitucional.gov.co/relatoria/2017/C-281-17.htm"
+      ],
+      "rankings": {
+        "movilidad": [],
+        "ordenes": [],
+        "proteccion": [
+          "39"
+        ],
+        "convivencia": [
+          "39"
+        ]
+      },
+      "resultado_previo": "abstencion",
+      "pendiente_prioritario": false,
+      "resultado_final": {
+        "calidad_frente_al_banco": "completa",
+        "motivo": "Los elementos de la referencia aparecen en las citas observadas.",
+        "http": 200,
+        "segundos_http": 71.570877,
+        "estado_documental": "PENDIENTE_VALIDACION",
+        "citas": [
+          {
+            "articulo": "39",
+            "literal_corpus": true,
+            "literal_fuente_visible": true,
+            "articulo_esperado": true,
+            "rotulo_numeral_concordante": true,
+            "rotulo_paragrafo_explicito": true
+          }
+        ],
+        "intentos_sdk": [
+          {
+            "consulta": 35,
+            "evento": "intento",
+            "segundos": 58.354106,
+            "error": "ServerError",
+            "categoria": "http_proveedor",
+            "http_proveedor": 504
+          },
+          {
+            "consulta": 35,
+            "evento": "intento",
+            "segundos": 10.715958
+          }
+        ]
+      }
+    },
+    {
+      "id": "RAG-010",
+      "pregunta": "¿Qué comportamientos afectan a los grupos sociales de especial protección constitucional?",
+      "articulo": "40",
+      "apartados_necesarios": "40 numerales de proteccion especial y alcance de discriminacion",
+      "revision_o_brecha": "C-090/24, alcance del numeral 5",
+      "referencia_banco": "El artículo 40 contempla comportamientos como perpetrar o permitir maltrato físico, verbal, psicológico o sexual; utilizar a estas personas para obtener beneficios económicos; negarles la prelación que les corresponde; obstruir el acceso a información e insumos sobre derechos sexuales y reproductivos; irrespetar sus manifestaciones y reuniones por motivos discriminatorios; y limitar manifestaciones públicas de afecto que no constituyan actos sexuales ni exhibicionismo.",
+      "fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#40",
+      "seleccion_publica": {},
+      "alcance_publico": null,
+      "fuentes_adicionales": [],
+      "rankings": {
+        "movilidad": [],
+        "ordenes": [],
+        "proteccion": [],
+        "convivencia": []
+      },
+      "resultado_previo": "abstencion",
+      "pendiente_prioritario": true,
+      "resultado_final": {
+        "calidad_frente_al_banco": "abstencion",
+        "motivo": "Sin candidatos dentro del alcance publico.",
+        "http": 200,
+        "segundos_http": 0.0282,
+        "estado_documental": "SIN_RESPALDO",
+        "citas": [],
+        "intentos_sdk": []
+      }
+    },
+    {
+      "id": "RAG-051",
+      "pregunta": "¿Qué entiende el Código por convivencia y con qué elementos se relaciona?",
+      "articulo": "5",
+      "apartados_necesarios": "articulo completo",
+      "revision_o_brecha": "Definicion y relacion con personas, bienes y ambiente",
+      "referencia_banco": "Según el artículo 5, la convivencia consiste en relacionarse de forma pacífica, respetuosa y armónica con las demás personas, los bienes y el ambiente, dentro del ordenamiento jurídico.",
+      "fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm",
+      "seleccion_publica": {
+        "articulo_completo": true
+      },
+      "alcance_publico": null,
+      "fuentes_adicionales": [],
+      "rankings": {
+        "movilidad": [
+          "5"
+        ],
+        "ordenes": [
+          "5"
+        ],
+        "proteccion": [
+          "5"
+        ],
+        "convivencia": [
+          "5"
+        ]
+      },
+      "resultado_previo": "completa",
+      "pendiente_prioritario": false,
+      "resultado_final": {
+        "calidad_frente_al_banco": "completa",
+        "motivo": "Los elementos de la referencia aparecen en las citas observadas.",
+        "http": 200,
+        "segundos_http": 0.931457,
+        "estado_documental": "PENDIENTE_VALIDACION",
+        "citas": [
+          {
+            "articulo": "5",
+            "literal_corpus": true,
+            "literal_fuente_visible": true,
+            "articulo_esperado": true,
+            "rotulo_numeral_concordante": true,
+            "rotulo_paragrafo_explicito": true
+          }
+        ],
+        "intentos_sdk": [
+          {
+            "consulta": 37,
+            "evento": "intento",
+            "segundos": 0.840911
+          }
+        ]
+      }
+    },
+    {
+      "id": "RAG-012",
+      "pregunta": "¿Qué comportamientos son contrarios a la posesión o tenencia de bienes inmuebles?",
+      "articulo": "77",
+      "apartados_necesarios": "77 numerales 1-5 y medidas",
+      "revision_o_brecha": "T-391/22 y situaciones de las medidas",
+      "referencia_banco": "El artículo 77 contempla cinco comportamientos contrarios a la posesión y tenencia de inmuebles: ocupar ilegalmente un inmueble; perturbar su posesión mediante daños materiales o no reparar averías que afecten a los vecinos; instalar servicios públicos en inmuebles ocupados ilegalmente; omitir el cerramiento y mantenimiento de lotes y fachadas; e impedir al titular el ingreso, uso y disfrute del inmueble. Las medidas correctivas dependen del comportamiento e incluyen restitución y protección de bienes inmuebles, reparación de daños y multas.",
+      "fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#77",
+      "seleccion_publica": {
+        "cuerpo": [
+          0
+        ],
+        "numeral-1": [
+          0
+        ],
+        "numeral-2": [
+          0
+        ],
+        "numeral-3": [
+          0
+        ],
+        "numeral-4": [
+          0
+        ],
+        "numeral-5": [
+          0
+        ],
+        "paragrafo-6": [
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      },
+      "alcance_publico": "Conductas y filas de medidas en abstracto. T-391/22 estudió ocupación ilegal y T-533/24 el procedimiento y la caducidad en un caso de posesión. Se excluyen trámite, ejecución y desalojo.",
+      "fuentes_adicionales": [
+        "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#77",
+        "https://www.corteconstitucional.gov.co/Relatoria/2022/T-391-22.htm",
+        "https://www.corteconstitucional.gov.co/relatoria/2024/T-533-24.htm"
+      ],
+      "rankings": {
+        "movilidad": [],
+        "ordenes": [],
+        "proteccion": [],
+        "convivencia": [
+          "77"
+        ]
+      },
+      "resultado_previo": "abstencion",
+      "pendiente_prioritario": false,
+      "resultado_final": {
+        "calidad_frente_al_banco": "parcial",
+        "motivo": "conductas completas, omite cuadro",
+        "http": 200,
+        "segundos_http": 11.815573,
+        "estado_documental": "PENDIENTE_VALIDACION",
+        "citas": [
+          {
+            "articulo": "77",
+            "literal_corpus": true,
+            "literal_fuente_visible": true,
+            "articulo_esperado": true,
+            "rotulo_numeral_concordante": true,
+            "rotulo_paragrafo_explicito": true
+          },
+          {
+            "articulo": "77",
+            "literal_corpus": true,
+            "literal_fuente_visible": true,
+            "articulo_esperado": true,
+            "rotulo_numeral_concordante": true,
+            "rotulo_paragrafo_explicito": true
+          },
+          {
+            "articulo": "77",
+            "literal_corpus": true,
+            "literal_fuente_visible": true,
+            "articulo_esperado": true,
+            "rotulo_numeral_concordante": true,
+            "rotulo_paragrafo_explicito": true
+          },
+          {
+            "articulo": "77",
+            "literal_corpus": true,
+            "literal_fuente_visible": true,
+            "articulo_esperado": true,
+            "rotulo_numeral_concordante": true,
+            "rotulo_paragrafo_explicito": true
+          },
+          {
+            "articulo": "77",
+            "literal_corpus": true,
+            "literal_fuente_visible": true,
+            "articulo_esperado": true,
+            "rotulo_numeral_concordante": true,
+            "rotulo_paragrafo_explicito": true
+          }
+        ],
+        "intentos_sdk": [
+          {
+            "consulta": 38,
+            "evento": "intento",
+            "segundos": 1.539417,
+            "error": "ServerError",
+            "categoria": "http_proveedor",
+            "http_proveedor": 503
+          },
+          {
+            "consulta": 38,
+            "evento": "intento",
+            "segundos": 8.093142
+          }
+        ]
+      }
+    },
+    {
+      "id": "RAG-013",
+      "pregunta": "¿Qué comportamientos relacionados con el incumplimiento de normas afectan la actividad económica?",
+      "articulo": "92",
+      "apartados_necesarios": "92 lista general y cuadro",
+      "revision_o_brecha": "Decreto 555 art. 8, paragrafo 7 y art. 87, C-054/19",
+      "referencia_banco": "El artículo 92 establece comportamientos que afectan la actividad económica, como incumplir normas sanitarias y alimentarias, quebrantar horarios, desarrollar actividades diferentes a las registradas, superar la capacidad permitida, comercializar sustancias o bienes ilícitos, permitir actividades prohibidas, ocupar indebidamente el espacio público, incumplir las normas de uso del suelo y desarrollar actividades económicas sin los requisitos exigidos. Las medidas correctivas varían según el numeral e incluyen multas, suspensión temporal o definitiva de actividad y destrucción de bienes.",
+      "fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#92",
+      "seleccion_publica": {},
+      "alcance_publico": null,
+      "fuentes_adicionales": [],
+      "rankings": {
+        "movilidad": [],
+        "ordenes": [],
+        "proteccion": [],
+        "convivencia": []
+      },
+      "resultado_previo": "abstencion",
+      "pendiente_prioritario": true,
+      "resultado_final": {
+        "calidad_frente_al_banco": "abstencion",
+        "motivo": "Sin candidatos dentro del alcance publico.",
+        "http": 200,
+        "segundos_http": 0.009979,
+        "estado_documental": "SIN_RESPALDO",
+        "citas": [],
+        "intentos_sdk": []
+      }
+    },
+    {
+      "id": "RAG-014",
+      "pregunta": "¿Qué comportamientos de establecimientos comerciales afectan la seguridad y tranquilidad?",
+      "articulo": "93",
+      "apartados_necesarios": "93 lista general, incluido el alcance de la reforma por ruido",
+      "revision_o_brecha": "Ley 2450 arts. 21 y 22",
+      "referencia_banco": "El artículo 93 contempla comportamientos que afectan la seguridad y tranquilidad de los establecimientos económicos. Entre ellos están no informar los protocolos de seguridad y evacuación, auspiciar riñas, generar ruidos que afecten la tranquilidad, incumplir protocolos de seguridad, permitir el ingreso de personas armadas, no instalar señalización, impedir el ingreso de autoridades de Policía y mantener mercancías peligrosas o de procedencia ilícita. También contempla conductas discriminatorias.",
+      "fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#93",
+      "seleccion_publica": {
+        "numeral-1": [
+          0
+        ]
+      },
+      "alcance_publico": "Numeral 1 sobre informar los protocolos de seguridad y evacuación. El cotejo del 19 de noviembre de 2026 no identificó modificación directa ni decisión sobre este numeral. La Ley 2450 de 2025 modificó otros apartados. Se excluyen medidas y demás numerales.",
+      "fuentes_adicionales": [
+        "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#93",
+        "https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=259638"
+      ],
+      "rankings": {
+        "movilidad": [],
+        "ordenes": [],
+        "proteccion": [],
+        "convivencia": []
+      },
+      "resultado_previo": "abstencion",
+      "pendiente_prioritario": true,
+      "resultado_final": {
+        "calidad_frente_al_banco": "abstencion",
+        "motivo": "Sin candidatos dentro del alcance publico.",
+        "http": 200,
+        "segundos_http": 0.022439,
+        "estado_documental": "SIN_RESPALDO",
+        "citas": [],
+        "intentos_sdk": []
+      }
+    },
+    {
+      "id": "RAG-015",
+      "pregunta": "¿Qué comportamientos relacionados con la salud pública afectan la actividad económica?",
+      "articulo": "94",
+      "apartados_necesarios": "94 numerales 1-9 y medidas",
+      "revision_o_brecha": "verificar cuadro sanitario y remisiones",
+      "referencia_banco": "El artículo 94 contempla nueve comportamientos relacionados con la salud pública que afectan la actividad económica. Incluyen incumplir normas de seguridad o sanidad, no separar los residuos sólidos, permitir el consumo de tabaco en lugares no autorizados, permitir animales que afecten la higiene o seguridad, comercializar productos caducados o adulterados, manejar inadecuadamente residuos y no facilitar servicios sanitarios limpios. Las medidas correctivas incluyen multas, suspensión temporal de actividad y amonestación, según el numeral.",
+      "fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#94",
+      "seleccion_publica": {
+        "cuerpo": [
+          0
+        ],
+        "numeral-1": [
+          0
+        ],
+        "numeral-2": [
+          0
+        ],
+        "numeral-3": [
+          0
+        ],
+        "numeral-4": [
+          0
+        ],
+        "numeral-5": [
+          0
+        ],
+        "numeral-6": [
+          0
+        ],
+        "numeral-7": [
+          0
+        ],
+        "numeral-8": [
+          0
+        ],
+        "numeral-9": [
+          0
+        ],
+        "paragrafo-10": [
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ]
+      },
+      "alcance_publico": "Conductas y filas del primer parágrafo. No se identificó reforma directa en las fuentes consultadas. Se excluyen las reglas sectoriales concretas, reincidencia y ejecución.",
+      "fuentes_adicionales": [
+        "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#94",
+        "https://www.ins.gov.co/Normatividad/Leyes/LEY%201801%20DE%202016.pdf"
+      ],
+      "rankings": {
+        "movilidad": [],
+        "ordenes": [],
+        "proteccion": [],
+        "convivencia": [
+          "94"
+        ]
+      },
+      "resultado_previo": "abstencion",
+      "pendiente_prioritario": false,
+      "resultado_final": {
+        "calidad_frente_al_banco": "parcial",
+        "motivo": "conductas completas, omite las medidas",
+        "http": 200,
+        "segundos_http": 2.582495,
+        "estado_documental": "PENDIENTE_VALIDACION",
+        "citas": [
+          {
+            "articulo": "94",
+            "literal_corpus": true,
+            "literal_fuente_visible": true,
+            "articulo_esperado": true,
+            "rotulo_numeral_concordante": true,
+            "rotulo_paragrafo_explicito": true
+          },
+          {
+            "articulo": "94",
+            "literal_corpus": true,
+            "literal_fuente_visible": true,
+            "articulo_esperado": true,
+            "rotulo_numeral_concordante": true,
+            "rotulo_paragrafo_explicito": true
+          },
+          {
+            "articulo": "94",
+            "literal_corpus": true,
+            "literal_fuente_visible": true,
+            "articulo_esperado": true,
+            "rotulo_numeral_concordante": true,
+            "rotulo_paragrafo_explicito": true
+          },
+          {
+            "articulo": "94",
+            "literal_corpus": true,
+            "literal_fuente_visible": true,
+            "articulo_esperado": true,
+            "rotulo_numeral_concordante": true,
+            "rotulo_paragrafo_explicito": true
+          },
+          {
+            "articulo": "94",
+            "literal_corpus": true,
+            "literal_fuente_visible": true,
+            "articulo_esperado": true,
+            "rotulo_numeral_concordante": true,
+            "rotulo_paragrafo_explicito": true
+          },
+          {
+            "articulo": "94",
+            "literal_corpus": true,
+            "literal_fuente_visible": true,
+            "articulo_esperado": true,
+            "rotulo_numeral_concordante": true,
+            "rotulo_paragrafo_explicito": true
+          },
+          {
+            "articulo": "94",
+            "literal_corpus": true,
+            "literal_fuente_visible": true,
+            "articulo_esperado": true,
+            "rotulo_numeral_concordante": true,
+            "rotulo_paragrafo_explicito": true
+          },
+          {
+            "articulo": "94",
+            "literal_corpus": true,
+            "literal_fuente_visible": true,
+            "articulo_esperado": true,
+            "rotulo_numeral_concordante": true,
+            "rotulo_paragrafo_explicito": true
+          },
+          {
+            "articulo": "94",
+            "literal_corpus": true,
+            "literal_fuente_visible": true,
+            "articulo_esperado": true,
+            "rotulo_numeral_concordante": true,
+            "rotulo_paragrafo_explicito": true
+          }
+        ],
+        "intentos_sdk": [
+          {
+            "consulta": 41,
+            "evento": "intento",
+            "segundos": 2.488219
+          }
+        ]
+      }
+    },
+    {
+      "id": "RAG-016",
+      "pregunta": "¿Qué establece el Código sobre comprar o utilizar celulares reportados como hurtados?",
+      "articulo": "95",
+      "apartados_necesarios": "95.1 y su fila",
+      "revision_o_brecha": "verificar remisiones y regimen de bases de datos",
+      "referencia_banco": "El artículo 95, numeral 1, prohíbe comprar, alquilar o utilizar equipos terminales móviles que tengan reporte de hurto o extravío en la base de datos negativa, así como equipos cuyo número de identificación físico o electrónico haya sido alterado, reprogramado, remarcado o suprimido. La medida correctiva indicada es multa general tipo 2, destrucción del bien y suspensión temporal de actividad.",
+      "fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#95",
+      "seleccion_publica": {},
+      "alcance_publico": null,
+      "fuentes_adicionales": [],
+      "rankings": {
+        "movilidad": [],
+        "ordenes": [],
+        "proteccion": [],
+        "convivencia": []
+      },
+      "resultado_previo": "abstencion",
+      "pendiente_prioritario": true,
+      "resultado_final": {
+        "calidad_frente_al_banco": "abstencion",
+        "motivo": "Sin candidatos dentro del alcance publico.",
+        "http": 200,
+        "segundos_http": 0.007524,
+        "estado_documental": "SIN_RESPALDO",
+        "citas": [],
+        "intentos_sdk": []
+      }
+    },
+    {
+      "id": "RAG-017",
+      "pregunta": "¿Qué establece el Código sobre sacar la basura en horarios no autorizados?",
+      "articulo": "111",
+      "apartados_necesarios": "numeral 1 y su fila",
+      "revision_o_brecha": "La fila del cuadro queda fuera",
+      "referencia_banco": "El artículo 111, numeral 1, prohíbe sacar la basura en horarios no autorizados por la empresa prestadora del servicio o en un lugar diferente al correspondiente al domicilio. La medida correctiva es participación en programa comunitario o actividad pedagógica de convivencia.",
+      "fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#111",
+      "seleccion_publica": {
+        "numeral-1": [
+          0
+        ],
+        "numeral-3": [
+          0
+        ]
+      },
+      "alcance_publico": "Numerales 1 y 3 sobre horarios de disposición y residuos en sitios públicos no autorizados. El cotejo del 19 de noviembre de 2026 no identificó modificación directa ni decisión sobre estos numerales. Se excluyen medidas, horarios locales y demás conductas.",
+      "fuentes_adicionales": [
+        "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#111",
+        "https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=80538"
+      ],
+      "rankings": {
+        "movilidad": [
+          "111"
+        ],
+        "ordenes": [
+          "111"
+        ],
+        "proteccion": [
+          "111"
+        ],
+        "convivencia": [
+          "111"
+        ]
+      },
+      "resultado_previo": "parcial",
+      "pendiente_prioritario": false,
+      "resultado_final": {
+        "calidad_frente_al_banco": "parcial",
+        "motivo": "omite medida",
+        "http": 200,
+        "segundos_http": 9.717677,
+        "estado_documental": "PENDIENTE_VALIDACION",
+        "citas": [
+          {
+            "articulo": "111",
+            "literal_corpus": true,
+            "literal_fuente_visible": true,
+            "articulo_esperado": true,
+            "rotulo_numeral_concordante": true,
+            "rotulo_paragrafo_explicito": true
+          }
+        ],
+        "intentos_sdk": [
+          {
+            "consulta": 43,
+            "evento": "intento",
+            "segundos": 9.630193
+          }
+        ]
+      }
+    },
+    {
+      "id": "RAG-018",
+      "pregunta": "¿Qué comportamientos relacionados con la tenencia de animales afectan la convivencia?",
+      "articulo": "124",
+      "apartados_necesarios": "124.1-9 y cuadro",
+      "revision_o_brecha": "examinar reformas y terminologia de proteccion animal, incluida Ley 2054",
+      "referencia_banco": "El artículo 124 contempla nueve comportamientos relacionados con la tenencia de animales: permitir que animales deambulen sin medidas de seguridad; impedir el ingreso de perros lazarillos; no recoger sus excrementos; transportar perros de manejo especial sin los elementos de seguridad exigidos; incumplir las disposiciones sobre albergue; incumplir las normas de importación, registro, posesión o comercialización de animales sujetos a regulación; permitir ataques contra personas, animales o bienes; entrenar caninos para peleas o agresiones; y permitir que las mascotas esparzan basura. Las medidas correctivas dependen del numeral y comprenden multas generales tipos 1, 2 y 4.",
+      "fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#124",
+      "seleccion_publica": {
+        "numeral-1": [
+          0
+        ],
+        "numeral-7": [
+          0
+        ],
+        "paragrafo-11": [
+          2,
+          8
+        ]
+      },
+      "alcance_publico": "Numerales 1 y 7 y filas respectivas del parágrafo 2. La Ley 2054 de 2020 modificó la terminología relativa a perros de manejo especial y C-048/20 condicionó el numeral 2, fuera de la selección. Se excluyen las demás conductas y medidas.",
+      "fuentes_adicionales": [
+        "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#124",
+        "https://sidn.ramajudicial.gov.co/SIDN/NORMATIVA/TEXTOS_COMPLETOS/7_LEYES/LEYES%202020/Ley%202054%20de%202020.pdf",
+        "https://www.corteconstitucional.gov.co/relatoria/2020/C-048-20.htm"
+      ],
+      "rankings": {
+        "movilidad": [],
+        "ordenes": [],
+        "proteccion": [],
+        "convivencia": []
+      },
+      "resultado_previo": "abstencion",
+      "pendiente_prioritario": true,
+      "resultado_final": {
+        "calidad_frente_al_banco": "abstencion",
+        "motivo": "Sin candidatos dentro del alcance publico.",
+        "http": 200,
+        "segundos_http": 0.033204,
+        "estado_documental": "SIN_RESPALDO",
+        "citas": [],
+        "intentos_sdk": []
+      }
+    },
+    {
+      "id": "RAG-019",
+      "pregunta": "¿Qué comportamientos constituyen infracciones contra la integridad urbanística?",
+      "articulo": "135",
+      "apartados_necesarios": "135 literales y cuadro general",
+      "revision_o_brecha": "Decreto 555 art. 10 y T-535/24",
+      "referencia_banco": "El artículo 135 contempla comportamientos contrarios a la integridad urbanística. Se agrupan en cuatro categorías: parcelar, urbanizar, demoler, intervenir o construir en condiciones prohibidas; afectar inmuebles declarados de conservación o interés cultural; destinar inmuebles a usos o ubicaciones diferentes de los autorizados o contrarios a las normas del suelo; e incumplir obligaciones relacionadas con la seguridad, limpieza, protección y mantenimiento de las obras de construcción. Las medidas correctivas dependen del numeral e incluyen multas especiales, suspensión de actividades, suspensión de construcción o demolición y reparación de daños, entre otras.",
+      "fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#135",
+      "seleccion_publica": {
+        "literal-1": [
+          0
+        ],
+        "numeral-5": [
+          0
+        ],
+        "paragrafo-35": [
+          5
+        ]
+      },
+      "alcance_publico": "Literal A, numeral 4 en terrenos aptos sin licencia o con licencia caducada, y únicamente la fila 4 del parágrafo 7. Son medidas previstas en abstracto. T-535/24 exige considerar las garantías del caso antes de la ejecución. Quedan fuera plazos, cuantías, reconocimiento, otros terrenos y otras filas.",
+      "fuentes_adicionales": [
+        "https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=80775",
+        "https://www.corteconstitucional.gov.co/relatoria/2024/t-535-24.htm"
+      ],
+      "rankings": {
+        "movilidad": [],
+        "ordenes": [],
+        "proteccion": [],
+        "convivencia": []
+      },
+      "resultado_previo": "abstencion",
+      "pendiente_prioritario": true,
+      "resultado_final": {
+        "calidad_frente_al_banco": "abstencion",
+        "motivo": "Sin candidatos dentro del alcance publico.",
+        "http": 200,
+        "segundos_http": 0.01042,
+        "estado_documental": "SIN_RESPALDO",
+        "citas": [],
+        "intentos_sdk": []
+      }
+    },
+    {
+      "id": "RAG-020",
+      "pregunta": "¿Qué comportamientos afectan el cuidado y la integridad del espacio público?",
+      "articulo": "140",
+      "apartados_necesarios": "140.1-14 con reformas y condicionamientos",
+      "revision_o_brecha": "Decreto 555 art. 11, Ley 2000 y C-211/17, C-253/19 y C-127/23 para los apartados excluidos",
+      "referencia_banco": "El artículo 140 contempla comportamientos que afectan el cuidado y la integridad del espacio público, como omitir el mantenimiento y aseo de áreas públicas, realizar obras sin autorización, dañar mobiliario urbano, ocupar indebidamente el espacio público, deteriorar bienes públicos, promover ocupaciones contrarias a las normas, consumir o portar sustancias en los lugares contemplados por la norma, realizar grafitis sin autorización, verter aguas residuales, realizar necesidades fisiológicas y fijar publicidad sin permiso. También contempla comportamientos relacionados con el consumo y comercialización de sustancias psicoactivas en los lugares y condiciones descritos en sus numerales 13 y 14.",
+      "fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#140",
+      "seleccion_publica": {
+        "numeral-3": [
+          0
+        ],
+        "numeral-5": [
+          0
+        ],
+        "paragrafo-16": [
+          4,
+          7
+        ]
+      },
+      "alcance_publico": "Numerales 3 y 5 y sus filas del parágrafo 2, cotejados con la corrección del artículo 11 del Decreto 555 de 2017. La Ley 2000 de 2019 y los fallos sobre ocupación y sustancias afectan apartados excluidos. No es un inventario del artículo ni una determinación de medidas para un caso.",
+      "fuentes_adicionales": [
+        "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#140",
+        "https://www.alcaldiabogota.gov.co/sisjur/normas/Norma1.jsp?i=68690",
+        "https://www.corteconstitucional.gov.co/relatoria/2017/C-211-17.htm"
+      ],
+      "rankings": {
+        "movilidad": [],
+        "ordenes": [],
+        "proteccion": [],
+        "convivencia": []
+      },
+      "resultado_previo": "abstencion",
+      "pendiente_prioritario": true,
+      "resultado_final": {
+        "calidad_frente_al_banco": "abstencion",
+        "motivo": "Sin candidatos dentro del alcance publico.",
+        "http": 200,
+        "segundos_http": 0.008446,
+        "estado_documental": "SIN_RESPALDO",
+        "citas": [],
+        "intentos_sdk": []
+      }
+    },
+    {
+      "id": "RAG-021",
+      "pregunta": "¿Qué comportamientos están prohibidos en los sistemas de transporte público?",
+      "articulo": "146",
+      "apartados_necesarios": "146.1-16, literales del 10 y tabla",
+      "revision_o_brecha": "C-094/20 sobre camaras, cotejar los numerales y filas restantes",
+      "referencia_banco": "El artículo 146 contempla 16 comportamientos contrarios a la convivencia en los sistemas de transporte público. Entre ellos: controlar informalmente los tiempos de recorrido, impedir el acceso prioritario a personas en condición vulnerable, incumplir las reglas de transporte de mascotas, irrespetar turnos y sillas preferenciales, agredir a otros pasajeros, consumir productos prohibidos, evadir el pago del pasaje, dañar alarmas y sistemas de emergencia, obstaculizar la movilidad, poner en peligro la seguridad operacional, perturbar la tranquilidad, ingresar por lugares no autorizados, alterar puertas y equipos, incumplir condiciones de aseo por parte de las empresas e irrespetar a las autoridades del sistema. Las medidas correctivas dependen del numeral y comprenden amonestaciones y multas generales de tipos 1 a 4, además de reparación de daños en determinados casos.",
+      "fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#146",
+      "seleccion_publica": {
+        "numeral-5": [
+          0
+        ],
+        "numeral-7": [
+          0
+        ],
+        "numeral-8": [
+          0
+        ],
+        "numeral-9": [
+          0
+        ],
+        "numeral-19": [
+          0
+        ],
+        "numeral-20": [
+          0
+        ],
+        "numeral-24": [
+          0
+        ],
+        "paragrafo-25": [
+          6,
+          8,
+          9,
+          10,
+          12,
+          13,
+          17
+        ]
+      },
+      "alcance_publico": "Conductas de pasajeros de los numerales 5, 7, 8, 9, 11, 12 y 16 y sus filas del parágrafo 1. No se evidenció reforma directa de los bloques seleccionados en las fuentes consultadas. C-094/20 examinó el inciso primero del parágrafo 2 sobre cámaras, excluido junto con el resto del artículo.",
+      "fuentes_adicionales": [
+        "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#146",
+        "https://www.cancilleria.gov.co/sites/default/files/Normograma/docs/pdf/ley_1801_2016.pdf",
+        "https://www.corteconstitucional.gov.co/relatoria/2020/C-094-20.htm"
+      ],
+      "rankings": {
+        "movilidad": [],
+        "ordenes": [],
+        "proteccion": [],
+        "convivencia": []
+      },
+      "resultado_previo": "abstencion",
+      "pendiente_prioritario": true,
+      "resultado_final": {
+        "calidad_frente_al_banco": "abstencion",
+        "motivo": "Sin candidatos dentro del alcance publico.",
+        "http": 200,
+        "segundos_http": 0.026239,
+        "estado_documental": "SIN_RESPALDO",
+        "citas": [],
+        "intentos_sdk": []
+      }
+    },
+    {
+      "id": "RAG-022",
+      "pregunta": "¿Qué es una orden de Policía y cuáles son sus características?",
+      "articulo": "150",
+      "apartados_necesarios": "incisos 1 y 2",
+      "revision_o_brecha": "Definicion, obligatoriedad y plazo; C-391/17",
+      "referencia_banco": "Según el artículo 150, la orden de Policía es un mandato claro, preciso y conciso, dirigido individualmente o con carácter general, que puede ser escrito o verbal y debe emanar de una autoridad de Policía. Su finalidad es prevenir o superar comportamientos o hechos contrarios a la convivencia, o restablecerla. Es de obligatorio cumplimiento. Si no se cumple, la autoridad puede utilizar los medios, medidas y procedimientos establecidos en el Código. Cuando no sea de cumplimiento inmediato, puede establecer un plazo determinado.",
+      "fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#150",
+      "seleccion_publica": {
+        "cuerpo": [
+          0,
+          1
+        ]
+      },
+      "alcance_publico": "Definición, fines, cumplimiento obligatorio y plazo. C-391/17 declaró exequible por el cargo examinado la expresión del inciso segundo sobre el plazo. Se excluye el parágrafo penal.",
+      "fuentes_adicionales": [
+        "https://www.corteconstitucional.gov.co/relatoria/2017/c-391-17.htm"
+      ],
+      "rankings": {
+        "movilidad": [
+          "150"
+        ],
+        "ordenes": [
+          "150"
+        ],
+        "proteccion": [
+          "150"
+        ],
+        "convivencia": [
+          "150"
+        ]
+      },
+      "resultado_previo": "parcial",
+      "pendiente_prioritario": false,
+      "resultado_final": {
+        "calidad_frente_al_banco": "parcial",
+        "motivo": "omite plazo y medios de cumplimiento",
+        "http": 200,
+        "segundos_http": 10.135908,
+        "estado_documental": "PENDIENTE_VALIDACION",
+        "citas": [
+          {
+            "articulo": "150",
+            "literal_corpus": true,
+            "literal_fuente_visible": true,
+            "articulo_esperado": true,
+            "rotulo_numeral_concordante": true,
+            "rotulo_paragrafo_explicito": true
+          },
+          {
+            "articulo": "150",
+            "literal_corpus": true,
+            "literal_fuente_visible": true,
+            "articulo_esperado": true,
+            "rotulo_numeral_concordante": true,
+            "rotulo_paragrafo_explicito": true
+          }
+        ],
+        "intentos_sdk": [
+          {
+            "consulta": 48,
+            "evento": "intento",
+            "segundos": 10.039347
+          }
+        ]
+      }
+    },
+    {
+      "id": "RAG-023",
+      "pregunta": "¿En qué circunstancias puede realizarse un traslado por protección?",
+      "articulo": "155",
+      "apartados_necesarios": "155 causales, excepciones a mediacion, duracion y garantias",
+      "revision_o_brecha": "Ley 2197 y C-281/17",
+      "referencia_banco": "El artículo 155 permite el traslado por protección cuando la vida o integridad de una persona se encuentre en riesgo o peligro y no acepte la mediación policial, en los casos previstos por la norma: estar involucrada en una riña, deambular en estado de indefensión, presentar alteración del estado de conciencia por aspectos de orden mental, estar bajo efectos de alcohol o sustancias psicoactivas y presentar comportamientos agresivos o temerarios, realizar actividades peligrosas que pongan en riesgo la vida o integridad propia o de terceros, o encontrarse en peligro de ser agredida. Para los literales B, C y D no es necesario agotar previamente la mediación policial. El traslado no puede superar 12 horas y debe respetar las garantías establecidas en el artículo.",
+      "fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#155",
+      "seleccion_publica": {},
+      "alcance_publico": null,
+      "fuentes_adicionales": [],
+      "rankings": {
+        "movilidad": [],
+        "ordenes": [],
+        "proteccion": [],
+        "convivencia": []
+      },
+      "resultado_previo": "abstencion",
+      "pendiente_prioritario": true,
+      "resultado_final": {
+        "calidad_frente_al_banco": "abstencion",
+        "motivo": "Sin candidatos dentro del alcance publico.",
+        "http": 200,
+        "segundos_http": 0.011657,
+        "estado_documental": "SIN_RESPALDO",
+        "citas": [],
+        "intentos_sdk": []
+      }
+    },
+    {
+      "id": "RAG-024",
+      "pregunta": "¿En qué casos puede ingresar la Policía a un inmueble sin orden escrita?",
+      "articulo": "163",
+      "apartados_necesarios": "163 causales 1-7 y paragrafos",
+      "revision_o_brecha": "C-212/17, C-334/17 y adicion de causal de maltrato animal",
+      "referencia_banco": "El artículo 163 permite el ingreso de la Policía a un inmueble sin orden escrita cuando exista imperiosa necesidad en los siguientes casos: 1) socorrer a alguien que solicite auxilio; 2) extinguir un incendio, evitar su propagación, remediar una inundación u otra situación similar de peligro; 3) dar caza a un animal rabioso o feroz; 4) proteger bienes de personas ausentes cuando un extraño haya ingresado violentamente o por otro medio; 5) actuar cuando desde el interior se proceda por vía de hecho contra una persona o propiedad exterior; 6) proteger la vida e integridad ante el uso irregular de pólvora, fuegos pirotécnicos, juegos artificiales o globos; 7) socorrer a un animal cuando exista certeza y evidencia verificable de maltrato que ponga en riesgo inminente su vida o integridad. La autoridad debe rendir un informe escrito inmediato a su superior y entregar copia al propietario, poseedor o tenedor. También puede ingresar sin orden escrita a inmuebles abiertos al público por razones propias de sus funciones.",
+      "fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#163",
+      "seleccion_publica": {},
+      "alcance_publico": null,
+      "fuentes_adicionales": [],
+      "rankings": {
+        "movilidad": [],
+        "ordenes": [],
+        "proteccion": [],
+        "convivencia": []
+      },
+      "resultado_previo": "abstencion",
+      "pendiente_prioritario": true,
+      "resultado_final": {
+        "calidad_frente_al_banco": "abstencion",
+        "motivo": "Sin candidatos dentro del alcance publico.",
+        "http": 200,
+        "segundos_http": 0.026622,
+        "estado_documental": "SIN_RESPALDO",
+        "citas": [],
+        "intentos_sdk": []
+      }
+    },
+    {
+      "id": "RAG-025",
+      "pregunta": "¿Qué son las multas y cómo se clasifican en el Código de Policía?",
+      "articulo": "180",
+      "apartados_necesarios": "definicion, clasificacion, tipos y regimen de pago",
+      "revision_o_brecha": "Ley 2450 art. 19; los valores y descuentos de la referencia requieren cotejo",
+      "referencia_banco": "El artículo 180 define la multa como el pago de una suma de dinero en moneda colombiana, cuya cuantía depende del comportamiento realizado. Se clasifican en multas generales y especiales. Las multas generales son: tipo 1, dos salarios mínimos diarios legales vigentes; tipo 2, cuatro; tipo 3, ocho; y tipo 4, dieciséis. Las especiales comprenden las relacionadas con organizadores de actividades que involucran aglomeraciones de público complejas, infracciones urbanísticas y contaminación visual. El artículo también contempla descuentos por pronto pago y la posibilidad de objetar la medida dentro del término legal.",
+      "fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#180",
+      "seleccion_publica": {
+        "cuerpo": [
+          0,
+          1
+        ]
+      },
+      "alcance_publico": "Definición y división en multas generales y especiales en la redacción del art. 19 de la Ley 2450 de 2025. Se excluyen valores, clases particulares, descuentos y cobro.",
+      "fuentes_adicionales": [
+        "https://dapre.presidencia.gov.co/normativa/normativa/LEY%202450%20DEL%204%20DE%20MARZO%20DE%202025.pdf"
+      ],
+      "rankings": {
+        "movilidad": [
+          "180"
+        ],
+        "ordenes": [
+          "180"
+        ],
+        "proteccion": [
+          "180"
+        ],
+        "convivencia": [
+          "180"
+        ]
+      },
+      "resultado_previo": "parcial",
+      "pendiente_prioritario": false,
+      "resultado_final": {
+        "calidad_frente_al_banco": "parcial",
+        "motivo": "solo definicion y dos categorias; referencia mas amplia y valores pendientes",
+        "http": 200,
+        "segundos_http": 11.23392,
+        "estado_documental": "PENDIENTE_VALIDACION",
+        "citas": [
+          {
+            "articulo": "180",
+            "literal_corpus": true,
+            "literal_fuente_visible": true,
+            "articulo_esperado": true,
+            "rotulo_numeral_concordante": true,
+            "rotulo_paragrafo_explicito": true
+          },
+          {
+            "articulo": "180",
+            "literal_corpus": true,
+            "literal_fuente_visible": true,
+            "articulo_esperado": true,
+            "rotulo_numeral_concordante": true,
+            "rotulo_paragrafo_explicito": true
+          }
+        ],
+        "intentos_sdk": [
+          {
+            "consulta": 51,
+            "evento": "intento",
+            "segundos": 11.146438
+          }
+        ]
+      }
+    },
+    {
+      "id": "RAG-026",
+      "pregunta": "¿Qué atribuciones tienen los inspectores de Policía?",
+      "articulo": "206",
+      "apartados_necesarios": "numerales y reglas de competencia del articulo",
+      "revision_o_brecha": "Ley 2492 art. 6; se excluyen instancias y competencias restantes",
+      "referencia_banco": "El artículo 206 establece que los inspectores de Policía rurales, urbanos y corregidores pueden conciliar conflictos de convivencia cuando sea procedente; conocer comportamientos contrarios a la convivencia relacionados con seguridad, tranquilidad, ambiente, recursos naturales, derecho de reunión, protección de bienes y privacidad, actividad económica, urbanismo, espacio público y libertad de circulación; ejecutar órdenes de restitución de tierras comunales y ejercer las demás atribuciones legales. También conocen determinadas medidas correctivas en única instancia y otras en primera instancia, entre ellas multas, suspensión de construcciones, demolición de obras y restitución de bienes inmuebles. El artículo contempla además la ejecución de comisiones judiciales.",
+      "fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#206",
+      "seleccion_publica": {
+        "cuerpo": [
+          0
+        ],
+        "numeral-1": [
+          0
+        ],
+        "numeral-2": [
+          0
+        ]
+      },
+      "alcance_publico": "Conciliación y materias de conocimiento en los numerales 1 y 2 del texto reformado por el art. 6 de la Ley 2492 de 2025. No cubre instancias, comisiones ni medidas asignadas.",
+      "fuentes_adicionales": [
+        "https://dapre.presidencia.gov.co/normativa/normativa/LEY%20No%202492%20DEL%2023%20DE%20JULIO%20DE%202025.pdf"
+      ],
+      "rankings": {
+        "movilidad": [
+          "206"
+        ],
+        "ordenes": [
+          "206"
+        ],
+        "proteccion": [
+          "206"
+        ],
+        "convivencia": [
+          "206"
+        ]
+      },
+      "resultado_previo": "parcial",
+      "pendiente_prioritario": false,
+      "resultado_final": {
+        "calidad_frente_al_banco": "parcial",
+        "motivo": "solo numerales 1 y 2, faltan atribuciones restantes",
+        "http": 200,
+        "segundos_http": 1.1456,
+        "estado_documental": "PENDIENTE_VALIDACION",
+        "citas": [
+          {
+            "articulo": "206",
+            "literal_corpus": true,
+            "literal_fuente_visible": true,
+            "articulo_esperado": true,
+            "rotulo_numeral_concordante": true,
+            "rotulo_paragrafo_explicito": true
+          },
+          {
+            "articulo": "206",
+            "literal_corpus": true,
+            "literal_fuente_visible": true,
+            "articulo_esperado": true,
+            "rotulo_numeral_concordante": true,
+            "rotulo_paragrafo_explicito": true
+          }
+        ],
+        "intentos_sdk": [
+          {
+            "consulta": 52,
+            "evento": "intento",
+            "segundos": 1.043998
+          }
+        ]
+      }
+    },
+    {
+      "id": "RAG-027",
+      "pregunta": "¿Cómo se desarrolla el proceso verbal inmediato?",
+      "articulo": "222",
+      "apartados_necesarios": "inciso, numerales 1 a 4 y paragrafo 1",
+      "revision_o_brecha": "Apelacion y efecto devolutivo bajo C-282/17; paragrafo excluido",
+      "referencia_banco": "El artículo 222 establece el proceso verbal inmediato para comportamientos contrarios a la convivencia cuya competencia corresponde al personal uniformado de la Policía Nacional, comandantes de estación o subestación y comandantes de los Centros de Atención Inmediata. El procedimiento comprende: 1) inicio de oficio o a petición de una persona interesada; 2) identificación y abordaje del presunto infractor, informándole el comportamiento atribuido; 3) oportunidad para presentar descargos; 4) valoración inicial de los hechos y búsqueda de mediación policial. Si no se logra la mediación, se impone la medida correctiva mediante orden de Policía. Contra la orden procede apelación en los términos del artículo.",
+      "fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#222",
+      "seleccion_publica": {
+        "cuerpo": [
+          0
+        ],
+        "numeral-1": [
+          0
+        ],
+        "numeral-2": [
+          0
+        ],
+        "numeral-3": [
+          0
+        ],
+        "numeral-4": [
+          0
+        ]
+      },
+      "alcance_publico": "Etapas y descargos del proceso verbal inmediato. Se excluyen los parágrafos. C-282/17 resolvió sobre el efecto devolutivo en el parágrafo 1.",
+      "fuentes_adicionales": [
+        "https://www.corteconstitucional.gov.co/Relatoria/2017/C-282-17"
+      ],
+      "rankings": {
+        "movilidad": [
+          "222"
+        ],
+        "ordenes": [
+          "222"
+        ],
+        "proteccion": [
+          "222"
+        ],
+        "convivencia": [
+          "222"
+        ]
+      },
+      "resultado_previo": "parcial",
+      "pendiente_prioritario": false,
+      "resultado_final": {
+        "calidad_frente_al_banco": "parcial",
+        "motivo": "faltan competencia y apelacion",
+        "http": 200,
+        "segundos_http": 2.879234,
+        "estado_documental": "PENDIENTE_VALIDACION",
+        "citas": [
+          {
+            "articulo": "222",
+            "literal_corpus": true,
+            "literal_fuente_visible": true,
+            "articulo_esperado": true,
+            "rotulo_numeral_concordante": true,
+            "rotulo_paragrafo_explicito": true
+          },
+          {
+            "articulo": "222",
+            "literal_corpus": true,
+            "literal_fuente_visible": true,
+            "articulo_esperado": true,
+            "rotulo_numeral_concordante": true,
+            "rotulo_paragrafo_explicito": true
+          },
+          {
+            "articulo": "222",
+            "literal_corpus": true,
+            "literal_fuente_visible": true,
+            "articulo_esperado": true,
+            "rotulo_numeral_concordante": true,
+            "rotulo_paragrafo_explicito": true
+          },
+          {
+            "articulo": "222",
+            "literal_corpus": true,
+            "literal_fuente_visible": true,
+            "articulo_esperado": true,
+            "rotulo_numeral_concordante": true,
+            "rotulo_paragrafo_explicito": true
+          }
+        ],
+        "intentos_sdk": [
+          {
+            "consulta": 53,
+            "evento": "intento",
+            "segundos": 2.804252
+          }
+        ]
+      }
+    },
+    {
+      "id": "RAG-028",
+      "pregunta": "¿Cómo se desarrolla el proceso verbal abreviado?",
+      "articulo": "223",
+      "apartados_necesarios": "inciso, numerales 1 a 5 y paragrafos aplicables",
+      "revision_o_brecha": "C-349/17 y competencia reformada; audiencia y recursos excluidos",
+      "referencia_banco": "El artículo 223 regula el proceso verbal abreviado, competencia de inspectores de Policía, alcaldes y autoridades especiales de Policía. Comprende: 1) iniciación de oficio o a petición de parte; 2) citación del quejoso y presunto infractor; 3) audiencia pública, en la que se presentan argumentos, se invita a conciliar, se solicitan y practican pruebas y se adopta una decisión fundamentada; 4) posibilidad de interponer reposición y, cuando proceda, apelación; 5) cumplimiento de la orden o medida correctiva una vez ejecutoriada, dentro del término máximo de cinco días. El artículo también contempla reglas para inasistencia, inspección al lugar y ejecución de las medidas.",
+      "fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#223",
+      "seleccion_publica": {
+        "numeral-1": [
+          0
+        ],
+        "numeral-2": [
+          0
+        ]
+      },
+      "alcance_publico": "Inicio de la acción y citación. Se excluyen competencias reformadas, audiencia y recursos; C-349/17 condicionó el parágrafo 1.",
+      "fuentes_adicionales": [
+        "https://www.corteconstitucional.gov.co/relatoria/2017/c-349-17.htm"
+      ],
+      "rankings": {
+        "movilidad": [
+          "223"
+        ],
+        "ordenes": [
+          "223"
+        ],
+        "proteccion": [
+          "223"
+        ],
+        "convivencia": [
+          "223"
+        ]
+      },
+      "resultado_previo": "parcial",
+      "pendiente_prioritario": false,
+      "resultado_final": {
+        "calidad_frente_al_banco": "parcial",
+        "motivo": "solo inicio y citacion",
+        "http": 200,
+        "segundos_http": 26.350668,
+        "estado_documental": "PENDIENTE_VALIDACION",
+        "citas": [
+          {
+            "articulo": "223",
+            "literal_corpus": true,
+            "literal_fuente_visible": true,
+            "articulo_esperado": true,
+            "rotulo_numeral_concordante": true,
+            "rotulo_paragrafo_explicito": true
+          },
+          {
+            "articulo": "223",
+            "literal_corpus": true,
+            "literal_fuente_visible": true,
+            "articulo_esperado": true,
+            "rotulo_numeral_concordante": true,
+            "rotulo_paragrafo_explicito": true
+          }
+        ],
+        "intentos_sdk": [
+          {
+            "consulta": 54,
+            "evento": "intento",
+            "segundos": 7.261841,
+            "error": "ServerError",
+            "categoria": "http_proveedor",
+            "http_proveedor": 503
+          },
+          {
+            "consulta": 54,
+            "evento": "intento",
+            "segundos": 16.689615
+          }
+        ]
+      }
+    },
+    {
+      "id": "RAG-029",
+      "pregunta": "¿Qué procedimiento establece el artículo 223A para las multas tipo 1 a 4?",
+      "articulo": "223A",
+      "apartados_necesarios": "223A procedimiento y terminos de objecion, firmeza y pago",
+      "revision_o_brecha": "verificar texto modificado y plazos de tres y cinco dias",
+      "referencia_banco": "El artículo 223A establece un procedimiento especial para multas generales tipos 1 a 4, sin perjuicio del proceso verbal abreviado del artículo 223. Contempla: 1) aplicación de criterios de proporcionalidad, razonabilidad y necesidad; 2) término para objetar la orden de comparendo; 3) aceptación ficta de responsabilidad cuando se paga la multa o se cambia el pago de multas tipos 1 y 2 por participación en programa comunitario dentro del término señalado; 4) actualización del estado de cumplimiento por el inspector; 5) firmeza de la multa y posibilidad de cobro coactivo; 6) pérdida de descuentos por pronto pago cuando se objeta; 7) validez nacional de certificados de programas comunitarios; 8) control de medidas correctivas impuestas a extranjeros; 9) incremento del 50 % por multas anteriores reportadas y no pagadas, bajo las condiciones legales; 10) incremento por reiteración del mismo comportamiento: 75 % dentro del año siguiente a la firmeza de la primera medida y 50 % después de un año. El texto consultado contiene términos de tres y cinco días en numerales distintos.",
+      "fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#223A",
+      "seleccion_publica": {},
+      "alcance_publico": null,
+      "fuentes_adicionales": [],
+      "rankings": {
+        "movilidad": [],
+        "ordenes": [],
+        "proteccion": [],
+        "convivencia": []
+      },
+      "resultado_previo": "abstencion",
+      "pendiente_prioritario": true,
+      "resultado_final": {
+        "calidad_frente_al_banco": "abstencion",
+        "motivo": "Sin candidatos dentro del alcance publico.",
+        "http": 200,
+        "segundos_http": 0.013325,
+        "estado_documental": "SIN_RESPALDO",
+        "citas": [],
+        "intentos_sdk": []
+      }
+    },
+    {
+      "id": "RAG-030",
+      "pregunta": "¿Qué establece el Código sobre la información captada por sistemas de videovigilancia en espacios públicos?",
+      "articulo": "237",
+      "apartados_necesarios": "237 acceso, reserva y enlace de sistemas con condiciones",
+      "revision_o_brecha": "C-094/20 y alcance de las reservas de datos",
+      "referencia_banco": "El artículo 237 establece que la información, imágenes y datos captados o almacenados por sistemas de video o medios tecnológicos ubicados en espacios públicos o lugares abiertos al público se consideran públicos y de libre acceso, salvo que estén amparados por reserva legal. También dispone que los sistemas públicos o privados instalados en espacios públicos, áreas comunes, lugares abiertos al público o lugares privados que trasciendan a lo público se enlacen permanente o temporalmente a la red dispuesta por la Policía Nacional, conforme a la reglamentación del Gobierno. Para sistemas instalados en áreas comunes o lugares privados que trasciendan a lo público se requiere autorización previa de quien tenga legitimidad para otorgarla.",
+      "fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#237",
+      "seleccion_publica": {},
+      "alcance_publico": null,
+      "fuentes_adicionales": [],
+      "rankings": {
+        "movilidad": [],
+        "ordenes": [],
+        "proteccion": [],
+        "convivencia": []
+      },
+      "resultado_previo": "abstencion",
+      "pendiente_prioritario": true,
+      "resultado_final": {
+        "calidad_frente_al_banco": "abstencion",
+        "motivo": "Sin candidatos dentro del alcance publico.",
+        "http": 200,
+        "segundos_http": 0.032887,
+        "estado_documental": "SIN_RESPALDO",
+        "citas": [],
+        "intentos_sdk": []
+      }
+    },
+    {
+      "id": "RAG-031",
+      "pregunta": "Dos personas comienzan una pelea en la calle. ¿Qué establece el Código de Policía sobre este comportamiento?",
+      "articulo": "27",
+      "apartados_necesarios": "27.1, mediacion y su fila",
+      "revision_o_brecha": "Ley 2197 y Decreto 207, verificar fila y mediacion",
+      "referencia_banco": "El artículo 27 contempla como comportamiento contrario a la convivencia reñir, incitar o participar en confrontaciones violentas que puedan derivar en agresiones físicas. Por tanto, una pelea en la calle puede corresponder a este comportamiento. Para el numeral 1, el artículo establece como medida correctiva una multa general tipo 2. Además, dispone que debe utilizarse la mediación policial como medio para intentar resolver el conflicto.",
+      "fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#27",
+      "seleccion_publica": {
+        "cuerpo": [
+          0
+        ],
+        "numeral-1": [
+          0
+        ],
+        "numeral-2": [
+          0
+        ],
+        "numeral-3": [
+          0
+        ],
+        "numeral-4": [
+          0
+        ],
+        "numeral-5": [
+          0
+        ],
+        "paragrafo-12": [
+          2
+        ],
+        "paragrafo-13": [
+          0
+        ]
+      },
+      "alcance_publico": "Inciso introductorio y numerales 1 a 5, fila 1 del parágrafo 1 y el parágrafo 2 sobre mediación, reformado por el art. 39 de la Ley 2197 de 2022. Quedan excluidas las demás filas y conductas.",
+      "fuentes_adicionales": [
+        "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#27",
+        "https://www.alcaldiabogota.gov.co/sisjur/normas/Norma1.jsp?i=68690",
+        "https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=176406"
+      ],
+      "rankings": {
+        "movilidad": [],
+        "ordenes": [
+          "27"
+        ],
+        "proteccion": [
+          "27"
+        ],
+        "convivencia": [
+          "27"
+        ]
+      },
+      "resultado_previo": "abstencion",
+      "pendiente_prioritario": false,
+      "resultado_final": {
+        "calidad_frente_al_banco": "completa",
+        "motivo": "Los elementos de la referencia aparecen en las citas observadas.",
+        "http": 200,
+        "segundos_http": 11.476456,
+        "estado_documental": "PENDIENTE_VALIDACION",
+        "citas": [
+          {
+            "articulo": "27",
+            "literal_corpus": true,
+            "literal_fuente_visible": true,
+            "articulo_esperado": true,
+            "rotulo_numeral_concordante": true,
+            "rotulo_paragrafo_explicito": true
+          },
+          {
+            "articulo": "27",
+            "literal_corpus": true,
+            "literal_fuente_visible": true,
+            "articulo_esperado": true,
+            "rotulo_numeral_concordante": true,
+            "rotulo_paragrafo_explicito": true
+          },
+          {
+            "articulo": "27",
+            "literal_corpus": true,
+            "literal_fuente_visible": true,
+            "articulo_esperado": true,
+            "rotulo_numeral_concordante": true,
+            "rotulo_paragrafo_explicito": false
+          }
+        ],
+        "intentos_sdk": [
+          {
+            "consulta": 57,
+            "evento": "intento",
+            "segundos": 11.367432
+          }
+        ]
+      }
+    },
+    {
+      "id": "RAG-032",
+      "pregunta": "Mi vecino pone música a volumen muy alto durante la madrugada y no me deja dormir. ¿Qué norma regula esta situación?",
+      "articulo": "33",
+      "apartados_necesarios": "33.1.a y medidas",
+      "revision_o_brecha": "Ley 2450 art. 18, C-308/19 y C-253/19",
+      "referencia_banco": "El artículo 33, numeral 1, literal a, contempla como comportamiento contrario a la convivencia perturbar el sosiego del vecindario mediante sonidos o ruidos de actividades, fiestas, reuniones o eventos similares que generen molestias por su impacto auditivo. Para este comportamiento se establece multa general tipo 3 y puede proceder la disolución de la reunión o actividad que involucre aglomeraciones de público no complejas. Cuando el residente se niegue a desactivar la fuente del ruido, las autoridades de Policía pueden desactivarla temporalmente en los términos del artículo.",
+      "fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#33",
+      "seleccion_publica": {},
+      "alcance_publico": null,
+      "fuentes_adicionales": [],
+      "rankings": {
+        "movilidad": [],
+        "ordenes": [],
+        "proteccion": [],
+        "convivencia": []
+      },
+      "resultado_previo": "abstencion",
+      "pendiente_prioritario": true,
+      "resultado_final": {
+        "calidad_frente_al_banco": "abstencion",
+        "motivo": "Sin candidatos dentro del alcance publico.",
+        "http": 200,
+        "segundos_http": 0.03238,
+        "estado_documental": "SIN_RESPALDO",
+        "citas": [],
+        "intentos_sdk": []
+      }
+    },
+    {
+      "id": "RAG-033",
+      "pregunta": "Una persona insulta y desobedece a un policía durante un procedimiento. ¿Qué comportamientos podrían estar relacionados?",
+      "articulo": "35",
+      "apartados_necesarios": "35.1 y 35.2",
+      "revision_o_brecha": "C-600/19 y alcance de C-223/25",
+      "referencia_banco": "El artículo 35 contempla el irrespeto a las autoridades de Policía en su numeral 1 y el incumplimiento o desacato de sus funciones u órdenes en el numeral 2. La conducta aplicable depende de los hechos concretos del procedimiento.",
+      "fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#35",
+      "seleccion_publica": {
+        "numeral-2": [
+          0
+        ]
+      },
+      "alcance_publico": "Solo el numeral 2. C-600/19 declaró exequibles las expresiones demandadas por los cargos estudiados. C-223/25 se inhibió respecto del numeral 1. Se excluyen los demás numerales y las medidas.",
+      "fuentes_adicionales": [
+        "https://www.corteconstitucional.gov.co/relatoria/2019/C-600-19.htm",
+        "https://www.corteconstitucional.gov.co/relatoria/2025/C-223-25.htm"
+      ],
+      "rankings": {
+        "movilidad": [],
+        "ordenes": [],
+        "proteccion": [],
+        "convivencia": []
+      },
+      "resultado_previo": "abstencion",
+      "pendiente_prioritario": true,
+      "resultado_final": {
+        "calidad_frente_al_banco": "abstencion",
+        "motivo": "Sin candidatos dentro del alcance publico.",
+        "http": 200,
+        "segundos_http": 0.011928,
+        "estado_documental": "SIN_RESPALDO",
+        "citas": [],
+        "intentos_sdk": []
+      }
+    },
+    {
+      "id": "RAG-034",
+      "pregunta": "Un establecimiento permite situaciones que ponen en riesgo la integridad de menores de edad. ¿Qué establece el Código?",
+      "articulo": "38",
+      "apartados_necesarios": "38 numerales y literales sobre acceso y situaciones de riesgo",
+      "revision_o_brecha": "contrastar literales, remisiones y notas de la compilacion",
+      "referencia_banco": "El artículo 38 establece diferentes comportamientos que afectan la integridad de niños, niñas y adolescentes, entre ellos permitir su ingreso a establecimientos con actividades prohibidas para menores, facilitar el acceso a material pornográfico, suministrar sustancias restringidas, permitir situaciones de abuso o explotación sexual e involucrarlos en confrontaciones violentas. El numeral aplicable depende de la situación específica.",
+      "fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#38",
+      "seleccion_publica": {},
+      "alcance_publico": null,
+      "fuentes_adicionales": [],
+      "rankings": {
+        "movilidad": [],
+        "ordenes": [],
+        "proteccion": [],
+        "convivencia": []
+      },
+      "resultado_previo": "abstencion",
+      "pendiente_prioritario": true,
+      "resultado_final": {
+        "calidad_frente_al_banco": "abstencion",
+        "motivo": "Sin candidatos dentro del alcance publico.",
+        "http": 200,
+        "segundos_http": 0.013346,
+        "estado_documental": "SIN_RESPALDO",
+        "citas": [],
+        "intentos_sdk": []
+      }
+    },
+    {
+      "id": "RAG-035",
+      "pregunta": "Una persona ocupa un inmueble ajeno sin autorización. ¿Qué comportamientos relacionados con la posesión contempla la ley?",
+      "articulo": "77",
+      "apartados_necesarios": "numerales 1, 2, 5 y fila 1 del paragrafo",
+      "revision_o_brecha": "T-391/22 y T-533/24; conductas y medidas en abstracto",
+      "referencia_banco": "El artículo 77 contempla como comportamiento contrario a la posesión y tenencia ocupar ilegalmente un inmueble ajeno. También contempla perturbar la posesión mediante daños materiales, impedir el ingreso del titular y otras conductas que afectan el uso y disfrute del inmueble. Para el numeral 1 se establece la medida de restitución y protección de bienes inmuebles.",
+      "fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#77",
+      "seleccion_publica": {
+        "cuerpo": [
+          0
+        ],
+        "numeral-1": [
+          0
+        ],
+        "numeral-2": [
+          0
+        ],
+        "numeral-3": [
+          0
+        ],
+        "numeral-4": [
+          0
+        ],
+        "numeral-5": [
+          0
+        ],
+        "paragrafo-6": [
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      },
+      "alcance_publico": "Conductas y filas de medidas en abstracto. T-391/22 estudió ocupación ilegal y T-533/24 el procedimiento y la caducidad en un caso de posesión. Se excluyen trámite, ejecución y desalojo.",
+      "fuentes_adicionales": [
+        "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#77",
+        "https://www.corteconstitucional.gov.co/Relatoria/2022/T-391-22.htm",
+        "https://www.corteconstitucional.gov.co/relatoria/2024/T-533-24.htm"
+      ],
+      "rankings": {
+        "movilidad": [
+          "77"
+        ],
+        "ordenes": [
+          "77"
+        ],
+        "proteccion": [
+          "77"
+        ],
+        "convivencia": [
+          "77"
+        ]
+      },
+      "resultado_previo": "parcial",
+      "pendiente_prioritario": false,
+      "resultado_final": {
+        "calidad_frente_al_banco": "parcial",
+        "motivo": "omite restitucion esperada",
+        "http": 200,
+        "segundos_http": 8.106144,
+        "estado_documental": "PENDIENTE_VALIDACION",
+        "citas": [
+          {
+            "articulo": "77",
+            "literal_corpus": true,
+            "literal_fuente_visible": true,
+            "articulo_esperado": true,
+            "rotulo_numeral_concordante": true,
+            "rotulo_paragrafo_explicito": true
+          },
+          {
+            "articulo": "77",
+            "literal_corpus": true,
+            "literal_fuente_visible": true,
+            "articulo_esperado": true,
+            "rotulo_numeral_concordante": true,
+            "rotulo_paragrafo_explicito": true
+          },
+          {
+            "articulo": "77",
+            "literal_corpus": true,
+            "literal_fuente_visible": true,
+            "articulo_esperado": true,
+            "rotulo_numeral_concordante": true,
+            "rotulo_paragrafo_explicito": true
+          },
+          {
+            "articulo": "77",
+            "literal_corpus": true,
+            "literal_fuente_visible": true,
+            "articulo_esperado": true,
+            "rotulo_numeral_concordante": true,
+            "rotulo_paragrafo_explicito": true
+          },
+          {
+            "articulo": "77",
+            "literal_corpus": true,
+            "literal_fuente_visible": true,
+            "articulo_esperado": true,
+            "rotulo_numeral_concordante": true,
+            "rotulo_paragrafo_explicito": true
+          }
+        ],
+        "intentos_sdk": [
+          {
+            "consulta": 61,
+            "evento": "intento",
+            "segundos": 7.995224
+          }
+        ]
+      }
+    },
+    {
+      "id": "RAG-036",
+      "pregunta": "Un establecimiento comercial desarrolla una actividad incumpliendo las normas aplicables. ¿Qué establece el Código?",
+      "articulo": "92",
+      "apartados_necesarios": "92.16 y paragrafo 7 en relacion con 87",
+      "revision_o_brecha": "Decreto 555 art. 8, paragrafo 7 y art. 87, C-054/19",
+      "referencia_banco": "El artículo 92 regula los comportamientos relacionados con el cumplimiento de la normatividad que afectan la actividad económica. El establecimiento debe respetar los horarios, las actividades registradas, las condiciones de funcionamiento, las normas de uso del suelo y los requisitos legales aplicables. El numeral 16 contempla desarrollar la actividad económica sin cumplir los requisitos establecidos en la normatividad vigente. El parágrafo 7 precisa que este numeral debe interpretarse considerando los requisitos de apertura y funcionamiento del artículo 87.",
+      "fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#92",
+      "seleccion_publica": {},
+      "alcance_publico": null,
+      "fuentes_adicionales": [],
+      "rankings": {
+        "movilidad": [],
+        "ordenes": [],
+        "proteccion": [],
+        "convivencia": []
+      },
+      "resultado_previo": "abstencion",
+      "pendiente_prioritario": true,
+      "resultado_final": {
+        "calidad_frente_al_banco": "abstencion",
+        "motivo": "Sin candidatos dentro del alcance publico.",
+        "http": 200,
+        "segundos_http": 0.012181,
+        "estado_documental": "SIN_RESPALDO",
+        "citas": [],
+        "intentos_sdk": []
+      }
+    },
+    {
+      "id": "RAG-037",
+      "pregunta": "Un local comercial no informa a sus clientes sobre los protocolos de evacuación. ¿Qué comportamiento contempla la ley?",
+      "articulo": "93",
+      "apartados_necesarios": "numeral 1 y su fila",
+      "revision_o_brecha": "Ley 2450 arts. 21 y 22 afecta otras partes; fila n. 1 fuera",
+      "referencia_banco": "El artículo 93, numeral 1, contempla como comportamiento contrario a la seguridad y tranquilidad no informar los protocolos de seguridad y evacuación en caso de emergencias a las personas que se encuentren en el lugar. La medida correctiva establecida es una multa general tipo 1.",
+      "fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#93",
+      "seleccion_publica": {
+        "numeral-1": [
+          0
+        ]
+      },
+      "alcance_publico": "Numeral 1 sobre informar los protocolos de seguridad y evacuación. El cotejo del 19 de noviembre de 2026 no identificó modificación directa ni decisión sobre este numeral. La Ley 2450 de 2025 modificó otros apartados. Se excluyen medidas y demás numerales.",
+      "fuentes_adicionales": [
+        "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#93",
+        "https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=259638"
+      ],
+      "rankings": {
+        "movilidad": [
+          "93"
+        ],
+        "ordenes": [
+          "93"
+        ],
+        "proteccion": [
+          "93"
+        ],
+        "convivencia": [
+          "93"
+        ]
+      },
+      "resultado_previo": "parcial",
+      "pendiente_prioritario": false,
+      "resultado_final": {
+        "calidad_frente_al_banco": "parcial",
+        "motivo": "omite medida",
+        "http": 200,
+        "segundos_http": 11.182131,
+        "estado_documental": "PENDIENTE_VALIDACION",
+        "citas": [
+          {
+            "articulo": "93",
+            "literal_corpus": true,
+            "literal_fuente_visible": true,
+            "articulo_esperado": true,
+            "rotulo_numeral_concordante": true,
+            "rotulo_paragrafo_explicito": true
+          }
+        ],
+        "intentos_sdk": [
+          {
+            "consulta": 63,
+            "evento": "intento",
+            "segundos": 11.065429
+          }
+        ]
+      }
+    },
+    {
+      "id": "RAG-038",
+      "pregunta": "Un restaurante incumple las condiciones sanitarias exigidas para funcionar. ¿Qué establece el Código de Policía?",
+      "articulo": "94",
+      "apartados_necesarios": "numeral 1 y su fila",
+      "revision_o_brecha": "Se verifico el cuadro; concepto previo sigue siendo condicion de la conducta",
+      "referencia_banco": "El artículo 94, numeral 1, contempla incumplir las normas o disposiciones de seguridad o sanidad para desarrollar una actividad económica, de acuerdo con su objeto social y previo concepto de la autoridad especializada. La medida correctiva establecida es multa general tipo 4 y suspensión temporal de actividad.",
+      "fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#94",
+      "seleccion_publica": {
+        "cuerpo": [
+          0
+        ],
+        "numeral-1": [
+          0
+        ],
+        "numeral-2": [
+          0
+        ],
+        "numeral-3": [
+          0
+        ],
+        "numeral-4": [
+          0
+        ],
+        "numeral-5": [
+          0
+        ],
+        "numeral-6": [
+          0
+        ],
+        "numeral-7": [
+          0
+        ],
+        "numeral-8": [
+          0
+        ],
+        "numeral-9": [
+          0
+        ],
+        "paragrafo-10": [
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ]
+      },
+      "alcance_publico": "Conductas y filas del primer parágrafo. No se identificó reforma directa en las fuentes consultadas. Se excluyen las reglas sectoriales concretas, reincidencia y ejecución.",
+      "fuentes_adicionales": [
+        "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#94",
+        "https://www.ins.gov.co/Normatividad/Leyes/LEY%201801%20DE%202016.pdf"
+      ],
+      "rankings": {
+        "movilidad": [
+          "94"
+        ],
+        "ordenes": [
+          "94"
+        ],
+        "proteccion": [
+          "94"
+        ],
+        "convivencia": [
+          "94"
+        ]
+      },
+      "resultado_previo": "parcial",
+      "pendiente_prioritario": false,
+      "resultado_final": {
+        "calidad_frente_al_banco": "completa",
+        "motivo": "Los elementos de la referencia aparecen en las citas observadas.",
+        "http": 200,
+        "segundos_http": 52.494954,
+        "estado_documental": "PENDIENTE_VALIDACION",
+        "citas": [
+          {
+            "articulo": "94",
+            "literal_corpus": true,
+            "literal_fuente_visible": true,
+            "articulo_esperado": true,
+            "rotulo_numeral_concordante": true,
+            "rotulo_paragrafo_explicito": true
+          },
+          {
+            "articulo": "94",
+            "literal_corpus": true,
+            "literal_fuente_visible": true,
+            "articulo_esperado": true,
+            "rotulo_numeral_concordante": true,
+            "rotulo_paragrafo_explicito": true
+          }
+        ],
+        "intentos_sdk": [
+          {
+            "consulta": 64,
+            "evento": "intento",
+            "segundos": 52.420332
+          }
+        ]
+      }
+    },
+    {
+      "id": "RAG-039",
+      "pregunta": "Compré un celular usado y después descubrí que aparece reportado como robado. ¿Qué contempla la ley sobre estos equipos?",
+      "articulo": "95",
+      "apartados_necesarios": "95.1, paragrafo 2 y fila 1",
+      "revision_o_brecha": "verificar remisiones y regimen de bases de datos",
+      "referencia_banco": "El artículo 95, numeral 1, contempla como comportamiento contrario a la seguridad comprar, alquilar o utilizar un celular reportado como hurtado o extraviado. El parágrafo 2 establece que las personas deben verificar que el equipo no aparezca en la base de datos negativa y proceder a su registro en la base de datos positiva. Para el numeral 1 se establece multa general tipo 2, destrucción del bien y suspensión temporal de actividad.",
+      "fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#95",
+      "seleccion_publica": {},
+      "alcance_publico": null,
+      "fuentes_adicionales": [],
+      "rankings": {
+        "movilidad": [],
+        "ordenes": [],
+        "proteccion": [],
+        "convivencia": []
+      },
+      "resultado_previo": "abstencion",
+      "pendiente_prioritario": true,
+      "resultado_final": {
+        "calidad_frente_al_banco": "abstencion",
+        "motivo": "Sin candidatos dentro del alcance publico.",
+        "http": 200,
+        "segundos_http": 0.011354,
+        "estado_documental": "SIN_RESPALDO",
+        "citas": [],
+        "intentos_sdk": []
+      }
+    },
+    {
+      "id": "RAG-040",
+      "pregunta": "Mis vecinos sacan la basura fuera del horario establecido y dejan residuos en la calle. ¿Qué norma regula este comportamiento?",
+      "articulo": "111",
+      "apartados_necesarios": "numerales 1 y 8 y sus filas",
+      "revision_o_brecha": "Se seleccionaron 1 y 3; numeral 8 y sus medidas fuera",
+      "referencia_banco": "El artículo 111 contempla dos comportamientos relacionados: el numeral 1 prohíbe sacar la basura en horarios no autorizados y el numeral 8 prohíbe arrojar basura, llantas, residuos o escombros en el espacio público o en bienes públicos o privados. Para el numeral 1 se establece participación en programa comunitario o actividad pedagógica de convivencia. Para el numeral 8 se establece multa general tipo 4.",
+      "fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#111",
+      "seleccion_publica": {
+        "numeral-1": [
+          0
+        ],
+        "numeral-3": [
+          0
+        ]
+      },
+      "alcance_publico": "Numerales 1 y 3 sobre horarios de disposición y residuos en sitios públicos no autorizados. El cotejo del 19 de noviembre de 2026 no identificó modificación directa ni decisión sobre estos numerales. Se excluyen medidas, horarios locales y demás conductas.",
+      "fuentes_adicionales": [
+        "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#111",
+        "https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=80538"
+      ],
+      "rankings": {
+        "movilidad": [
+          "111"
+        ],
+        "ordenes": [
+          "111"
+        ],
+        "proteccion": [
+          "111"
+        ],
+        "convivencia": [
+          "111"
+        ]
+      },
+      "resultado_previo": "parcial",
+      "pendiente_prioritario": false,
+      "resultado_final": {
+        "calidad_frente_al_banco": "parcial",
+        "motivo": "numeral 3 en lugar del 8 esperado y sin medidas",
+        "http": 200,
+        "segundos_http": 20.28209,
+        "estado_documental": "PENDIENTE_VALIDACION",
+        "citas": [
+          {
+            "articulo": "111",
+            "literal_corpus": true,
+            "literal_fuente_visible": true,
+            "articulo_esperado": true,
+            "rotulo_numeral_concordante": true,
+            "rotulo_paragrafo_explicito": true
+          },
+          {
+            "articulo": "111",
+            "literal_corpus": true,
+            "literal_fuente_visible": true,
+            "articulo_esperado": true,
+            "rotulo_numeral_concordante": true,
+            "rotulo_paragrafo_explicito": true
+          }
+        ],
+        "intentos_sdk": [
+          {
+            "consulta": 66,
+            "evento": "intento",
+            "segundos": 20.185932
+          }
+        ]
+      }
+    },
+    {
+      "id": "RAG-041",
+      "pregunta": "El dueño de un animal lo deja deambular sin control y pone en riesgo a otras personas. ¿Qué establece el Código?",
+      "articulo": "124",
+      "apartados_necesarios": "124.1 y 124.7 y sus medidas",
+      "revision_o_brecha": "examinar reformas y terminologia de proteccion animal, incluida Ley 2054",
+      "referencia_banco": "El artículo 124, numeral 1, prohíbe dejar deambular animales feroces o dañinos en espacios públicos o privados abiertos al público y medios de transporte sin las medidas de seguridad correspondientes. Si además se permite o induce que el animal ataque a una persona, otro animal o bienes de terceros, puede relacionarse con el numeral 7. Para el numeral 1 se establece multa general tipo 2 y para el numeral 7 multa general tipo 4.",
+      "fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#124",
+      "seleccion_publica": {
+        "numeral-1": [
+          0
+        ],
+        "numeral-7": [
+          0
+        ],
+        "paragrafo-11": [
+          2,
+          8
+        ]
+      },
+      "alcance_publico": "Numerales 1 y 7 y filas respectivas del parágrafo 2. La Ley 2054 de 2020 modificó la terminología relativa a perros de manejo especial y C-048/20 condicionó el numeral 2, fuera de la selección. Se excluyen las demás conductas y medidas.",
+      "fuentes_adicionales": [
+        "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#124",
+        "https://sidn.ramajudicial.gov.co/SIDN/NORMATIVA/TEXTOS_COMPLETOS/7_LEYES/LEYES%202020/Ley%202054%20de%202020.pdf",
+        "https://www.corteconstitucional.gov.co/relatoria/2020/C-048-20.htm"
+      ],
+      "rankings": {
+        "movilidad": [],
+        "ordenes": [],
+        "proteccion": [
+          "124"
+        ],
+        "convivencia": [
+          "124"
+        ]
+      },
+      "resultado_previo": "abstencion",
+      "pendiente_prioritario": false,
+      "resultado_final": {
+        "calidad_frente_al_banco": "parcial",
+        "motivo": "solo numeral 1 y su medida; omite la eventual conducta de ataque",
+        "http": 200,
+        "segundos_http": 4.806614,
+        "estado_documental": "PENDIENTE_VALIDACION",
+        "citas": [
+          {
+            "articulo": "124",
+            "literal_corpus": true,
+            "literal_fuente_visible": true,
+            "articulo_esperado": true,
+            "rotulo_numeral_concordante": true,
+            "rotulo_paragrafo_explicito": true
+          },
+          {
+            "articulo": "124",
+            "literal_corpus": true,
+            "literal_fuente_visible": true,
+            "articulo_esperado": true,
+            "rotulo_numeral_concordante": true,
+            "rotulo_paragrafo_explicito": true
+          }
+        ],
+        "intentos_sdk": [
+          {
+            "consulta": 67,
+            "evento": "intento",
+            "segundos": 4.768567
+          }
+        ]
+      }
+    },
+    {
+      "id": "RAG-042",
+      "pregunta": "Estoy construyendo una vivienda sin contar con la licencia requerida. ¿Qué comportamientos urbanísticos contempla la ley?",
+      "articulo": "135",
+      "apartados_necesarios": "135 literal A numeral 4 y paragrafos 1 y 2",
+      "revision_o_brecha": "Decreto 555 art. 10 y T-535/24",
+      "referencia_banco": "El artículo 135, numeral 4, contempla como comportamiento contrario a la integridad urbanística construir en terrenos aptos para estas actuaciones sin licencia o cuando esta haya caducado. El parágrafo 2 establece que, cuando se trate de predios aptos, se concede un término de sesenta días para solicitar el reconocimiento de la construcción. Si no se presenta la licencia de reconocimiento dentro de ese término, no se puede reanudar la obra y se duplica el valor de la multa. El parágrafo 1 contempla suspensión inmediata de la construcción o demolición para los casos allí señalados.",
+      "fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#135",
+      "seleccion_publica": {
+        "literal-1": [
+          0
+        ],
+        "numeral-5": [
+          0
+        ],
+        "paragrafo-35": [
+          5
+        ]
+      },
+      "alcance_publico": "Literal A, numeral 4 en terrenos aptos sin licencia o con licencia caducada, y únicamente la fila 4 del parágrafo 7. Son medidas previstas en abstracto. T-535/24 exige considerar las garantías del caso antes de la ejecución. Quedan fuera plazos, cuantías, reconocimiento, otros terrenos y otras filas.",
+      "fuentes_adicionales": [
+        "https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=80775",
+        "https://www.corteconstitucional.gov.co/relatoria/2024/t-535-24.htm"
+      ],
+      "rankings": {
+        "movilidad": [],
+        "ordenes": [
+          "135"
+        ],
+        "proteccion": [
+          "135"
+        ],
+        "convivencia": [
+          "135"
+        ]
+      },
+      "resultado_previo": "abstencion",
+      "pendiente_prioritario": false,
+      "resultado_final": {
+        "calidad_frente_al_banco": "parcial",
+        "motivo": "omite plazos y condiciones excluidos",
+        "http": 200,
+        "segundos_http": 34.491254,
+        "estado_documental": "PENDIENTE_VALIDACION",
+        "citas": [
+          {
+            "articulo": "135",
+            "literal_corpus": true,
+            "literal_fuente_visible": true,
+            "articulo_esperado": true,
+            "rotulo_numeral_concordante": true,
+            "rotulo_paragrafo_explicito": true
+          },
+          {
+            "articulo": "135",
+            "literal_corpus": true,
+            "literal_fuente_visible": true,
+            "articulo_esperado": true,
+            "rotulo_numeral_concordante": true,
+            "rotulo_paragrafo_explicito": true
+          }
+        ],
+        "intentos_sdk": [
+          {
+            "consulta": 68,
+            "evento": "intento",
+            "segundos": 34.445376
+          }
+        ]
+      }
+    },
+    {
+      "id": "RAG-043",
+      "pregunta": "Una persona deteriora elementos del espacio público. ¿Qué comportamientos contrarios a la convivencia podrían aplicarse?",
+      "articulo": "140",
+      "apartados_necesarios": "140.3 y 140.5 y sus filas en paragrafo 2",
+      "revision_o_brecha": "Decreto 555 art. 11, Ley 2000 y C-211/17, C-253/19 y C-127/23 para los apartados excluidos",
+      "referencia_banco": "El artículo 140 contempla dos numerales especialmente relacionados con el deterioro de elementos del espacio público. El numeral 3 prohíbe alterar, remover, dañar o destruir mobiliario urbano o rural, como semáforos, señales viales, teléfonos públicos, hidrantes, faroles, bancas y cestas de basura. El numeral 5 prohíbe ensuciar, dañar o hacer uso indebido o abusivo de bienes fiscales o de uso público. Para el numeral 3 se establece multa general tipo 4, reparación de daños materiales y construcción, cerramiento, reparación o mantenimiento de inmueble. Para el numeral 5 se establece multa general tipo 3, reparación de daños materiales y medidas de mantenimiento.",
+      "fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#140",
+      "seleccion_publica": {
+        "numeral-3": [
+          0
+        ],
+        "numeral-5": [
+          0
+        ],
+        "paragrafo-16": [
+          4,
+          7
+        ]
+      },
+      "alcance_publico": "Numerales 3 y 5 y sus filas del parágrafo 2, cotejados con la corrección del artículo 11 del Decreto 555 de 2017. La Ley 2000 de 2019 y los fallos sobre ocupación y sustancias afectan apartados excluidos. No es un inventario del artículo ni una determinación de medidas para un caso.",
+      "fuentes_adicionales": [
+        "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#140",
+        "https://www.alcaldiabogota.gov.co/sisjur/normas/Norma1.jsp?i=68690",
+        "https://www.corteconstitucional.gov.co/relatoria/2017/C-211-17.htm"
+      ],
+      "rankings": {
+        "movilidad": [
+          "140"
+        ],
+        "ordenes": [
+          "140"
+        ],
+        "proteccion": [
+          "140"
+        ],
+        "convivencia": [
+          "140"
+        ]
+      },
+      "resultado_previo": "parcial",
+      "pendiente_prioritario": false,
+      "resultado_final": {
+        "calidad_frente_al_banco": "error_http",
+        "motivo": "FastAPI devolvio 500 tras tres 503 del proveedor; Node devolvio 502.",
+        "http": 502,
+        "segundos_http": 11.735344,
+        "estado_documental": null,
+        "citas": [],
+        "intentos_sdk": [
+          {
+            "consulta": 69,
+            "evento": "intento",
+            "segundos": 3.63376,
+            "error": "ServerError",
+            "categoria": "http_proveedor",
+            "http_proveedor": 503
+          },
+          {
+            "consulta": 69,
+            "evento": "intento",
+            "segundos": 0.805041,
+            "error": "ServerError",
+            "categoria": "http_proveedor",
+            "http_proveedor": 503
+          },
+          {
+            "consulta": 69,
+            "evento": "intento",
+            "segundos": 0.819822,
+            "error": "ServerError",
+            "categoria": "http_proveedor",
+            "http_proveedor": 503
+          }
+        ]
+      }
+    },
+    {
+      "id": "RAG-044",
+      "pregunta": "Un pasajero realiza comportamientos que afectan la convivencia dentro del transporte público. ¿Qué establece el Código?",
+      "articulo": "146",
+      "apartados_necesarios": "146.5, 7, 8, 9, 11, 12, 16 y respectivas filas",
+      "revision_o_brecha": "C-094/20 sobre camaras, cotejar los numerales y filas restantes",
+      "referencia_banco": "El artículo 146 prohíbe diferentes comportamientos en los sistemas de transporte público. Entre ellos se encuentran agredir, empujar o irrespetar a otras personas durante el acceso, permanencia o salida; evadir el pago del pasaje; obstaculizar la movilidad; dañar alarmas o sistemas de emergencia; perturbar la tranquilidad de los pasajeros; ingresar por sitios no autorizados e irrespetar a las autoridades del sistema. La medida correctiva depende del comportamiento específico y puede incluir amonestaciones o multas generales de diferentes tipos.",
+      "fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#146",
+      "seleccion_publica": {
+        "numeral-5": [
+          0
+        ],
+        "numeral-7": [
+          0
+        ],
+        "numeral-8": [
+          0
+        ],
+        "numeral-9": [
+          0
+        ],
+        "numeral-19": [
+          0
+        ],
+        "numeral-20": [
+          0
+        ],
+        "numeral-24": [
+          0
+        ],
+        "paragrafo-25": [
+          6,
+          8,
+          9,
+          10,
+          12,
+          13,
+          17
+        ]
+      },
+      "alcance_publico": "Conductas de pasajeros de los numerales 5, 7, 8, 9, 11, 12 y 16 y sus filas del parágrafo 1. No se evidenció reforma directa de los bloques seleccionados en las fuentes consultadas. C-094/20 examinó el inciso primero del parágrafo 2 sobre cámaras, excluido junto con el resto del artículo.",
+      "fuentes_adicionales": [
+        "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#146",
+        "https://www.cancilleria.gov.co/sites/default/files/Normograma/docs/pdf/ley_1801_2016.pdf",
+        "https://www.corteconstitucional.gov.co/relatoria/2020/C-094-20.htm"
+      ],
+      "rankings": {
+        "movilidad": [
+          "146"
+        ],
+        "ordenes": [
+          "146"
+        ],
+        "proteccion": [
+          "146"
+        ],
+        "convivencia": [
+          "146"
+        ]
+      },
+      "resultado_previo": "retenida",
+      "pendiente_prioritario": false,
+      "resultado_final": {
+        "calidad_frente_al_banco": "completa",
+        "motivo": "Los elementos de la referencia aparecen en las citas observadas.",
+        "http": 200,
+        "segundos_http": 6.32737,
+        "estado_documental": "PENDIENTE_VALIDACION",
+        "citas": [
+          {
+            "articulo": "146",
+            "literal_corpus": true,
+            "literal_fuente_visible": true,
+            "articulo_esperado": true,
+            "rotulo_numeral_concordante": true,
+            "rotulo_paragrafo_explicito": true
+          },
+          {
+            "articulo": "146",
+            "literal_corpus": true,
+            "literal_fuente_visible": true,
+            "articulo_esperado": true,
+            "rotulo_numeral_concordante": true,
+            "rotulo_paragrafo_explicito": true
+          },
+          {
+            "articulo": "146",
+            "literal_corpus": true,
+            "literal_fuente_visible": true,
+            "articulo_esperado": true,
+            "rotulo_numeral_concordante": true,
+            "rotulo_paragrafo_explicito": true
+          },
+          {
+            "articulo": "146",
+            "literal_corpus": true,
+            "literal_fuente_visible": true,
+            "articulo_esperado": true,
+            "rotulo_numeral_concordante": true,
+            "rotulo_paragrafo_explicito": true
+          },
+          {
+            "articulo": "146",
+            "literal_corpus": true,
+            "literal_fuente_visible": true,
+            "articulo_esperado": true,
+            "rotulo_numeral_concordante": true,
+            "rotulo_paragrafo_explicito": true
+          },
+          {
+            "articulo": "146",
+            "literal_corpus": true,
+            "literal_fuente_visible": true,
+            "articulo_esperado": true,
+            "rotulo_numeral_concordante": true,
+            "rotulo_paragrafo_explicito": true
+          },
+          {
+            "articulo": "146",
+            "literal_corpus": true,
+            "literal_fuente_visible": true,
+            "articulo_esperado": true,
+            "rotulo_numeral_concordante": true,
+            "rotulo_paragrafo_explicito": true
+          },
+          {
+            "articulo": "146",
+            "literal_corpus": true,
+            "literal_fuente_visible": true,
+            "articulo_esperado": true,
+            "rotulo_numeral_concordante": true,
+            "rotulo_paragrafo_explicito": true
+          },
+          {
+            "articulo": "146",
+            "literal_corpus": true,
+            "literal_fuente_visible": true,
+            "articulo_esperado": true,
+            "rotulo_numeral_concordante": true,
+            "rotulo_paragrafo_explicito": true
+          },
+          {
+            "articulo": "146",
+            "literal_corpus": true,
+            "literal_fuente_visible": true,
+            "articulo_esperado": true,
+            "rotulo_numeral_concordante": true,
+            "rotulo_paragrafo_explicito": true
+          },
+          {
+            "articulo": "146",
+            "literal_corpus": true,
+            "literal_fuente_visible": true,
+            "articulo_esperado": true,
+            "rotulo_numeral_concordante": true,
+            "rotulo_paragrafo_explicito": true
+          },
+          {
+            "articulo": "146",
+            "literal_corpus": true,
+            "literal_fuente_visible": true,
+            "articulo_esperado": true,
+            "rotulo_numeral_concordante": true,
+            "rotulo_paragrafo_explicito": true
+          },
+          {
+            "articulo": "146",
+            "literal_corpus": true,
+            "literal_fuente_visible": true,
+            "articulo_esperado": true,
+            "rotulo_numeral_concordante": true,
+            "rotulo_paragrafo_explicito": true
+          },
+          {
+            "articulo": "146",
+            "literal_corpus": true,
+            "literal_fuente_visible": true,
+            "articulo_esperado": true,
+            "rotulo_numeral_concordante": true,
+            "rotulo_paragrafo_explicito": true
+          }
+        ],
+        "intentos_sdk": [
+          {
+            "consulta": 70,
+            "evento": "intento",
+            "segundos": 6.25511
+          }
+        ]
+      }
+    },
+    {
+      "id": "RAG-045",
+      "pregunta": "Un policía me da una orden verbal durante un procedimiento. ¿Las órdenes de Policía pueden ser verbales?",
+      "articulo": "150",
+      "apartados_necesarios": "incisos 1 y 2",
+      "revision_o_brecha": "La pregunta pide si puede ser verbal y el banco agrega consecuencias; C-391/17",
+      "referencia_banco": "Sí. Según el artículo 150, las órdenes de Policía pueden ser escritas o verbales. Deben ser mandatos claros, precisos y concisos, emanados de una autoridad de Policía y tienen carácter obligatorio. Su finalidad es prevenir o superar comportamientos contrarios a la convivencia o restablecerla. Si no se cumplen, pueden aplicarse los medios y procedimientos establecidos en el Código.",
+      "fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#150",
+      "seleccion_publica": {
+        "cuerpo": [
+          0,
+          1
+        ]
+      },
+      "alcance_publico": "Definición, fines, cumplimiento obligatorio y plazo. C-391/17 declaró exequible por el cargo examinado la expresión del inciso segundo sobre el plazo. Se excluye el parágrafo penal.",
+      "fuentes_adicionales": [
+        "https://www.corteconstitucional.gov.co/relatoria/2017/c-391-17.htm"
+      ],
+      "rankings": {
+        "movilidad": [
+          "150"
+        ],
+        "ordenes": [
+          "150"
+        ],
+        "proteccion": [
+          "150"
+        ],
+        "convivencia": [
+          "150"
+        ]
+      },
+      "resultado_previo": "parcial",
+      "pendiente_prioritario": false,
+      "resultado_final": {
+        "calidad_frente_al_banco": "parcial",
+        "motivo": "confirma la posibilidad verbal, omite obligatoriedad y consecuencias adicionales del banco",
+        "http": 200,
+        "segundos_http": 71.974353,
+        "estado_documental": "PENDIENTE_VALIDACION",
+        "citas": [
+          {
+            "articulo": "150",
+            "literal_corpus": true,
+            "literal_fuente_visible": true,
+            "articulo_esperado": true,
+            "rotulo_numeral_concordante": true,
+            "rotulo_paragrafo_explicito": true
+          }
+        ],
+        "intentos_sdk": [
+          {
+            "consulta": 71,
+            "evento": "intento",
+            "segundos": 59.559505,
+            "error": "ServerError",
+            "categoria": "http_proveedor",
+            "http_proveedor": 504
+          },
+          {
+            "consulta": 71,
+            "evento": "intento",
+            "segundos": 10.212688
+          }
+        ]
+      }
+    },
+    {
+      "id": "RAG-046",
+      "pregunta": "Una persona se encuentra en una situación que pone en riesgo su integridad. ¿Cuándo procede un traslado por protección?",
+      "articulo": "155",
+      "apartados_necesarios": "155 causales, mediacion, plazo y garantias",
+      "revision_o_brecha": "Ley 2197 y C-281/17",
+      "referencia_banco": "El artículo 155 permite el traslado por protección cuando la vida o integridad de una persona se encuentre en riesgo o peligro y se presente alguno de los casos contemplados por la norma: participación en una riña, estado de indefensión, alteración del estado de conciencia por aspectos mentales, consumo de alcohol o sustancias psicoactivas acompañado de comportamientos agresivos o temerarios, actividades peligrosas que pongan en riesgo la vida o integridad, o peligro de ser agredida. En general debe intentarse la mediación policial, excepto en los literales B, C y D. El traslado no puede superar 12 horas y debe respetar las garantías previstas en el artículo.",
+      "fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#155",
+      "seleccion_publica": {},
+      "alcance_publico": null,
+      "fuentes_adicionales": [],
+      "rankings": {
+        "movilidad": [],
+        "ordenes": [],
+        "proteccion": [],
+        "convivencia": []
+      },
+      "resultado_previo": "abstencion",
+      "pendiente_prioritario": true,
+      "resultado_final": {
+        "calidad_frente_al_banco": "abstencion",
+        "motivo": "Sin candidatos dentro del alcance publico.",
+        "http": 200,
+        "segundos_http": 0.023931,
+        "estado_documental": "SIN_RESPALDO",
+        "citas": [],
+        "intentos_sdk": []
+      }
+    },
+    {
+      "id": "RAG-047",
+      "pregunta": "Una persona pide auxilio desde el interior de una vivienda. ¿Puede ingresar la Policía sin una orden escrita?",
+      "articulo": "163",
+      "apartados_necesarios": "163 inciso inicial, numeral 1 e informe del paragrafo 1",
+      "revision_o_brecha": "C-212/17, C-334/17 y adicion de causal de maltrato animal",
+      "referencia_banco": "Sí. El artículo 163 permite que la Policía ingrese a un inmueble sin orden escrita para socorrer a alguien que solicite auxilio. Esta facultad se encuentra condicionada a una situación de imperiosa necesidad. La autoridad uniformada debe rendir inmediatamente un informe escrito a su superior y entregar copia al propietario, poseedor o tenedor del inmueble, indicando la razón del ingreso.",
+      "fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#163",
+      "seleccion_publica": {},
+      "alcance_publico": null,
+      "fuentes_adicionales": [],
+      "rankings": {
+        "movilidad": [],
+        "ordenes": [],
+        "proteccion": [],
+        "convivencia": []
+      },
+      "resultado_previo": "abstencion",
+      "pendiente_prioritario": true,
+      "resultado_final": {
+        "calidad_frente_al_banco": "abstencion",
+        "motivo": "Sin candidatos dentro del alcance publico.",
+        "http": 200,
+        "segundos_http": 0.02426,
+        "estado_documental": "SIN_RESPALDO",
+        "citas": [],
+        "intentos_sdk": []
+      }
+    },
+    {
+      "id": "RAG-048",
+      "pregunta": "Me impusieron una multa por un comportamiento contrario a la convivencia. ¿Qué establece el Código sobre las multas?",
+      "articulo": "180",
+      "apartados_necesarios": "180 definicion, tipos, valores, objecion y descuentos",
+      "revision_o_brecha": "Ley 2450 art. 19 y reglas actuales de valores y descuentos",
+      "referencia_banco": "El artículo 180 define la multa como el pago de una suma de dinero en moneda colombiana por un comportamiento contrario a la convivencia. Las multas generales se clasifican en cuatro tipos: tipo 1, dos salarios mínimos diarios legales vigentes; tipo 2, cuatro; tipo 3, ocho; y tipo 4, dieciséis. También existen multas especiales. La persona puede objetar la medida dentro del término legal y el artículo contempla descuentos por pronto pago.",
+      "fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#180",
+      "seleccion_publica": {
+        "cuerpo": [
+          0,
+          1
+        ]
+      },
+      "alcance_publico": "Definición y división en multas generales y especiales en la redacción del art. 19 de la Ley 2450 de 2025. Se excluyen valores, clases particulares, descuentos y cobro.",
+      "fuentes_adicionales": [
+        "https://dapre.presidencia.gov.co/normativa/normativa/LEY%202450%20DEL%204%20DE%20MARZO%20DE%202025.pdf"
+      ],
+      "rankings": {
+        "movilidad": [],
+        "ordenes": [],
+        "proteccion": [],
+        "convivencia": []
+      },
+      "resultado_previo": "abstencion",
+      "pendiente_prioritario": true,
+      "resultado_final": {
+        "calidad_frente_al_banco": "abstencion",
+        "motivo": "Sin candidatos dentro del alcance publico.",
+        "http": 200,
+        "segundos_http": 0.024112,
+        "estado_documental": "SIN_RESPALDO",
+        "citas": [],
+        "intentos_sdk": []
+      }
+    },
+    {
+      "id": "RAG-049",
+      "pregunta": "Un policía inicia un procedimiento por un comportamiento contrario a la convivencia. ¿Cómo funciona el proceso verbal inmediato?",
+      "articulo": "222",
+      "apartados_necesarios": "inciso, numerales 1 a 4 y paragrafo 1",
+      "revision_o_brecha": "Apelacion y efecto devolutivo bajo C-282/17; paragrafo excluido",
+      "referencia_banco": "El artículo 222 regula el proceso verbal inmediato, aplicable a comportamientos de competencia del personal uniformado de la Policía Nacional y de los comandantes de estación, subestación y CAI. Puede comenzar de oficio o por solicitud de una persona interesada. La autoridad identifica al presunto infractor, le informa el comportamiento atribuido, escucha sus descargos, valora los hechos e intenta una mediación policial. Si no se logra resolver el conflicto mediante mediación, impone la medida correctiva mediante orden de Policía. Contra esta procede el recurso de apelación en las condiciones establecidas en el artículo.",
+      "fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#222",
+      "seleccion_publica": {
+        "cuerpo": [
+          0
+        ],
+        "numeral-1": [
+          0
+        ],
+        "numeral-2": [
+          0
+        ],
+        "numeral-3": [
+          0
+        ],
+        "numeral-4": [
+          0
+        ]
+      },
+      "alcance_publico": "Etapas y descargos del proceso verbal inmediato. Se excluyen los parágrafos. C-282/17 resolvió sobre el efecto devolutivo en el parágrafo 1.",
+      "fuentes_adicionales": [
+        "https://www.corteconstitucional.gov.co/Relatoria/2017/C-282-17"
+      ],
+      "rankings": {
+        "movilidad": [
+          "222"
+        ],
+        "ordenes": [
+          "222"
+        ],
+        "proteccion": [
+          "222"
+        ],
+        "convivencia": [
+          "222"
+        ]
+      },
+      "resultado_previo": "parcial",
+      "pendiente_prioritario": false,
+      "resultado_final": {
+        "calidad_frente_al_banco": "parcial",
+        "motivo": "faltan competencia y apelacion",
+        "http": 200,
+        "segundos_http": 3.344891,
+        "estado_documental": "PENDIENTE_VALIDACION",
+        "citas": [
+          {
+            "articulo": "222",
+            "literal_corpus": true,
+            "literal_fuente_visible": true,
+            "articulo_esperado": true,
+            "rotulo_numeral_concordante": true,
+            "rotulo_paragrafo_explicito": true
+          },
+          {
+            "articulo": "222",
+            "literal_corpus": true,
+            "literal_fuente_visible": true,
+            "articulo_esperado": true,
+            "rotulo_numeral_concordante": true,
+            "rotulo_paragrafo_explicito": true
+          },
+          {
+            "articulo": "222",
+            "literal_corpus": true,
+            "literal_fuente_visible": true,
+            "articulo_esperado": true,
+            "rotulo_numeral_concordante": true,
+            "rotulo_paragrafo_explicito": true
+          },
+          {
+            "articulo": "222",
+            "literal_corpus": true,
+            "literal_fuente_visible": true,
+            "articulo_esperado": true,
+            "rotulo_numeral_concordante": true,
+            "rotulo_paragrafo_explicito": true
+          }
+        ],
+        "intentos_sdk": [
+          {
+            "consulta": 75,
+            "evento": "intento",
+            "segundos": 3.283209
+          }
+        ]
+      }
+    },
+    {
+      "id": "RAG-050",
+      "pregunta": "Un inspector de Policía debe resolver un conflicto de convivencia. ¿Cómo se desarrolla el proceso verbal abreviado?",
+      "articulo": "223",
+      "apartados_necesarios": "inciso, numerales 1 a 5",
+      "revision_o_brecha": "Inicio y citacion cubiertos; audiencia, recursos y cumplimiento pendientes",
+      "referencia_banco": "El artículo 223 regula el proceso verbal abreviado, aplicable a los asuntos de competencia de los inspectores de Policía, alcaldes y autoridades especiales de Policía. El procedimiento comienza de oficio o a petición de una persona interesada. Después se cita al quejoso y al presunto infractor a audiencia pública. En la audiencia se escuchan los argumentos, se invita a conciliar, se decretan y practican las pruebas pertinentes y la autoridad adopta una decisión fundamentada. Contra la decisión proceden los recursos de reposición y, cuando corresponda, apelación. Una vez ejecutoriada, la orden o medida correctiva debe cumplirse dentro de un máximo de cinco días.",
+      "fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#223",
+      "seleccion_publica": {
+        "numeral-1": [
+          0
+        ],
+        "numeral-2": [
+          0
+        ]
+      },
+      "alcance_publico": "Inicio de la acción y citación. Se excluyen competencias reformadas, audiencia y recursos; C-349/17 condicionó el parágrafo 1.",
+      "fuentes_adicionales": [
+        "https://www.corteconstitucional.gov.co/relatoria/2017/c-349-17.htm"
+      ],
+      "rankings": {
+        "movilidad": [
+          "223"
+        ],
+        "ordenes": [
+          "223"
+        ],
+        "proteccion": [
+          "223"
+        ],
+        "convivencia": [
+          "223"
+        ]
+      },
+      "resultado_previo": "parcial",
+      "pendiente_prioritario": false,
+      "resultado_final": {
+        "calidad_frente_al_banco": "parcial",
+        "motivo": "solo inicio y citacion",
+        "http": 200,
+        "segundos_http": 1.145286,
+        "estado_documental": "PENDIENTE_VALIDACION",
+        "citas": [
+          {
+            "articulo": "223",
+            "literal_corpus": true,
+            "literal_fuente_visible": true,
+            "articulo_esperado": true,
+            "rotulo_numeral_concordante": true,
+            "rotulo_paragrafo_explicito": true
+          },
+          {
+            "articulo": "223",
+            "literal_corpus": true,
+            "literal_fuente_visible": true,
+            "articulo_esperado": true,
+            "rotulo_numeral_concordante": true,
+            "rotulo_paragrafo_explicito": true
+          }
+        ],
+        "intentos_sdk": [
+          {
+            "consulta": 76,
+            "evento": "intento",
+            "segundos": 1.095375
+          }
+        ]
+      }
+    }
+  ],
+  "prioridad_pendiente": [
+    {
+      "articulo": "33",
+      "casos": [
+        "RAG-005",
+        "RAG-032"
+      ],
+      "prioridad_por_casos": 2
+    },
+    {
+      "articulo": "35",
+      "casos": [
+        "RAG-006",
+        "RAG-033"
+      ],
+      "prioridad_por_casos": 2
+    },
+    {
+      "articulo": "38",
+      "casos": [
+        "RAG-008",
+        "RAG-034"
+      ],
+      "prioridad_por_casos": 2
+    },
+    {
+      "articulo": "92",
+      "casos": [
+        "RAG-013",
+        "RAG-036"
+      ],
+      "prioridad_por_casos": 2
+    },
+    {
+      "articulo": "95",
+      "casos": [
+        "RAG-016",
+        "RAG-039"
+      ],
+      "prioridad_por_casos": 2
+    },
+    {
+      "articulo": "155",
+      "casos": [
+        "RAG-023",
+        "RAG-046"
+      ],
+      "prioridad_por_casos": 2
+    },
+    {
+      "articulo": "163",
+      "casos": [
+        "RAG-024",
+        "RAG-047"
+      ],
+      "prioridad_por_casos": 2
+    },
+    {
+      "articulo": "40",
+      "casos": [
+        "RAG-010"
+      ],
+      "prioridad_por_casos": 1
+    },
+    {
+      "articulo": "93",
+      "casos": [
+        "RAG-014"
+      ],
+      "prioridad_por_casos": 1
+    },
+    {
+      "articulo": "124",
+      "casos": [
+        "RAG-018"
+      ],
+      "prioridad_por_casos": 1
+    },
+    {
+      "articulo": "135",
+      "casos": [
+        "RAG-019"
+      ],
+      "prioridad_por_casos": 1
+    },
+    {
+      "articulo": "140",
+      "casos": [
+        "RAG-020"
+      ],
+      "prioridad_por_casos": 1
+    },
+    {
+      "articulo": "146",
+      "casos": [
+        "RAG-021"
+      ],
+      "prioridad_por_casos": 1
+    },
+    {
+      "articulo": "180",
+      "casos": [
+        "RAG-048"
+      ],
+      "prioridad_por_casos": 1
+    },
+    {
+      "articulo": "223A",
+      "casos": [
+        "RAG-029"
+      ],
+      "prioridad_por_casos": 1
+    },
+    {
+      "articulo": "237",
+      "casos": [
+        "RAG-030"
+      ],
+      "prioridad_por_casos": 1
+    }
+  ],
+  "sha256_corpus_final": "3bd9a032cef749c47e1319f29bdf08ad3c02087fffbab00ddcfd63c0f5b7d40c",
+  "sha256_indice_final": "4b479fd101e854c52c6c12ffcc6488541e64fe01c777e78ad95beb93ab887cc1",
+  "sha256_evaluacion_http": "cd90c1001691e99afcefbed7b7bd365f55af611688913a9d47dd7ebcae18aa0f",
+  "metodo": "Exactitud por completitud de los elementos de referencia. Fidelidad por coincidencia literal con corpus y fuente visible. Citas por articulo, numeral y etiqueta explicita de paragrafo. Revision tecnica del banco y sus respuestas, sin validacion juridica general.",
+  "conteos_finales": {
+    "completa": 7,
+    "retenida": 1,
+    "parcial": 18,
+    "abstencion": 23,
+    "error_http": 1
+  }
+}

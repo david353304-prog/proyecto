@@ -1,0 +1,13 @@
+[
+  {"id":"A1","texto":"El acompañamiento del Instituto Colombiano de Bienestar Familiar y del Ministerio Público.","esperadas":{"AUTORIDAD":["instituto colombiano de bienestar familiar","ministerio público"]}},
+  {"id":"A2","texto":"El inspector de Policía y el alcalde actuaron en el territorio nacional.","esperadas":{"AUTORIDAD":["inspector de policía","alcalde"],"LUGAR":["territorio nacional"]}},
+  {"id":"A3","texto":"La Policía Nacional notificó la orden en Bogotá.","esperadas":{"AUTORIDAD":["policía nacional"],"LUGAR":["bogotá"]}},
+  {"id":"L1","texto":"Los comportamientos afectan el espacio público de Colombia.","esperadas":{"LUGAR":["espacio público","colombia"]}},
+  {"id":"M1","texto":"Una suma de 50.000 pesos y un descuento del 25 %.","esperadas":{"MONTO":["50.000 pesos","25 %"]}},
+  {"id":"M2","texto":"La medida se expresa como Multa General tipo 2.","esperadas":{}},
+  {"id":"P1","texto":"La diligencia tendrá lugar dentro de cuarenta y ocho (48) horas.","esperadas":{"PLAZO":["cuarenta y ocho (48) horas"]}},
+  {"id":"P2","texto":"Las personas de 17 años de edad podrán responder en cinco (5) días hábiles.","esperadas":{"PLAZO":["cinco (5) días hábiles"]}},
+  {"id":"P3","texto":"Para mayores de 18 años. La duración del acuerdo es de 6 meses.","esperadas":{"PLAZO":["6 meses"]}},
+  {"id":"P4","texto":"Se citará dentro de tres (3) días.","esperadas":{"PLAZO":["tres (3) días"]}},
+  {"id":"N1","texto":"El artículo 18, numeral 2, contiene una definición.","esperadas":{}}
+]

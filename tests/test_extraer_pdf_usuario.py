@@ -67,7 +67,12 @@ class TestExtraerPDFUsuario(unittest.TestCase):
         destino = self.carpeta / "destino.pdf"
         destino.write_bytes(b"contenido")
 
-        (self.carpeta / NOMBRE).symlink_to(destino)
+        try:
+            (self.carpeta / NOMBRE).symlink_to(destino)
+        except OSError as error:
+            if getattr(error, "winerror", None) == 1314:
+                self.skipTest("Windows denegó el permiso para crear enlaces simbólicos")
+            raise
 
         with self.assertRaises(modulo.ErrorExtraccionPDF):
             modulo.extraer_pdf_usuario(NOMBRE)
@@ -129,7 +134,7 @@ class TestExtraerPDFUsuario(unittest.TestCase):
         ruta = self.carpeta / NOMBRE
         ruta_movida = self.carpeta / "original_guardado.pdf"
 
-        apertura_original = modulo.os.open
+        apertura_original = modulo._abrir_pdf
 
         def abrir_y_cambiar_ruta(*args, **kwargs):
             descriptor = apertura_original(*args, **kwargs)
@@ -140,8 +145,8 @@ class TestExtraerPDFUsuario(unittest.TestCase):
             return descriptor
 
         with patch.object(
-            modulo.os,
-            "open",
+            modulo,
+            "_abrir_pdf",
             side_effect=abrir_y_cambiar_ruta
         ):
             resultado = modulo.extraer_pdf_usuario(NOMBRE)

@@ -1,0 +1,18 @@
+{
+  "procedencia": {
+    "archivo": "motor_documental/pruebas/banco_evaluacion_50.json",
+    "commit": "41aaf625e4e56e2543a1287b9bb3d25793482daf"
+  },
+  "motivo_exclusion": "El articulo 73 original fue declarado inexequible por C-223/17. El caso queda como antecedente.",
+  "sentencia": "https://www.corteconstitucional.gov.co/relatoria/2017/C-223-17.htm",
+  "sustituido_por": "RAG-051",
+  "caso_original": {
+    "id": "RAG-011",
+    "pregunta": "¿Qué obligaciones tienen los organizadores de eventos con aglomeraciones complejas de público?",
+    "articulos_esperados": [
+      "73"
+    ],
+    "respuesta_referencia": "El artículo 73 establece que los organizadores deben evitar comportamientos que pongan en riesgo la vida, la integridad y el correcto desarrollo de eventos con aglomeraciones complejas. Entre ellos están permitir el ingreso de menores sin cumplir la clasificación correspondiente, incumplir las normas de protección de niños y adolescentes, no disponer de personal médico, primeros auxilios, unidades sanitarias, señalización, vías despejadas, control de incendios, personal de seguridad y planes de emergencia. También deben respetar la capacidad, programación y horarios autorizados, atender las órdenes de Policía y disponer de los permisos y elementos de seguridad exigidos.",
+    "estado_revision": "pendiente_revision"
+  }
+}

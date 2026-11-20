@@ -1,0 +1,190 @@
+{
+  "estado_motor": {
+    "estado": "activo",
+    "modo_respuesta": "citas_extractivas",
+    "generacion_configurada": true,
+    "sha256_corpus_publicable": "3bd9a032cef749c47e1319f29bdf08ad3c02087fffbab00ddcfd63c0f5b7d40c"
+  },
+  "filas": [
+    {
+      "id": "RAG-003",
+      "pregunta": "¿Qué principios fundamentales orientan la aplicación del Código de Policía?",
+      "http": 200,
+      "segundos": 4.055459,
+      "respuesta": {
+        "fuentes_recuperadas": [],
+        "pregunta": "¿Qué principios fundamentales orientan la aplicación del Código de Policía?",
+        "respuesta": "No encontré respaldo suficiente en los fragmentos de la Ley 1801 de 2016.",
+        "modelo": "gemini-3.1-flash-lite",
+        "total_generales": 1,
+        "total_estructurados": 0,
+        "validacion_documental": {
+          "estado": "REQUIERE_REVISION",
+          "advertencias": []
+        }
+      },
+      "llamada_gemini_confirmada": true,
+      "estado_documental": "REQUIERE_REVISION"
+    },
+    {
+      "id": "RAG-007",
+      "pregunta": "¿En qué circunstancias pueden los alcaldes restringir la permanencia de menores en espacios públicos?",
+      "http": 200,
+      "segundos": 2.006154,
+      "respuesta": {
+        "fuentes_recuperadas": [
+          {
+            "articulo": "36",
+            "numeral": "",
+            "titulo": "FACULTADES DE LOS ALCALDES PARA LA RESTRICCIÓN DE LA MOVILIDAD O PERMANENCIA DE NIÑOS, NIÑAS Y ADOLESCENTES EN EL ESPACIO PÚBLICO O EN LUGARES ABIERTOS AL PÚBLI",
+            "texto": "ARTÍCULO 36. FACULTADES DE LOS ALCALDES PARA LA RESTRICCIÓN DE LA MOVILIDAD O PERMANENCIA DE NIÑOS, NIÑAS Y ADOLESCENTES EN EL ESPACIO PÚBLICO O EN LUGARES ABIERTOS AL PÚBLICO. Con el fin de prevenir la ocurrencia de eventos que puedan poner en peligro o afectar la vida, la integridad o la salud de los niños, niñas y adolescentes, excepcionalmente el alcalde podrá restringir su movilidad o permanencia en el espacio público o en lugares abiertos al público, de manera temporal y en forma motivada. PARÁGRAFO. En la implementación se contará con el acompañamiento del Instituto Colombiano de Bienestar Familiar y del Ministerio Público con el fin de determinar que la medida no atenta contra los derechos de los niños, niñas y adolescentes consagrados en el Código de la Infancia y Adolescencia.",
+            "url_fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#36"
+          }
+        ],
+        "pregunta": "¿En qué circunstancias pueden los alcaldes restringir la permanencia de menores en espacios públicos?",
+        "respuesta": "**Artículo 36.** «ARTÍCULO 36. FACULTADES DE LOS ALCALDES PARA LA RESTRICCIÓN DE LA MOVILIDAD O PERMANENCIA DE NIÑOS, NIÑAS Y ADOLESCENTES EN EL ESPACIO PÚBLICO O EN LUGARES ABIERTOS AL PÚBLICO. Con el fin de prevenir la ocurrencia de eventos que puedan poner en peligro o afectar la vida, la integridad o la salud de los niños, niñas y adolescentes, excepcionalmente el alcalde podrá restringir su movilidad o permanencia en el espacio público o en lugares abiertos al público, de manera temporal y en forma motivada.»\n\n**Parágrafo del artículo 36.** «PARÁGRAFO. En la implementación se contará con el acompañamiento del Instituto Colombiano de Bienestar Familiar y del Ministerio Público con el fin de determinar que la medida no atenta contra los derechos de los niños, niñas y adolescentes consagrados en el Código de la Infancia y Adolescencia.»",
+        "modelo": "gemini-3.1-flash-lite",
+        "total_generales": 1,
+        "total_estructurados": 0,
+        "validacion_documental": {
+          "estado": "PENDIENTE_VALIDACION",
+          "advertencias": []
+        }
+      },
+      "llamada_gemini_confirmada": true,
+      "estado_documental": "PENDIENTE_VALIDACION"
+    },
+    {
+      "id": "RAG-012",
+      "pregunta": "¿Qué comportamientos son contrarios a la posesión o tenencia de bienes inmuebles?",
+      "http": 200,
+      "segundos": 1.655427,
+      "respuesta": {
+        "fuentes_recuperadas": [
+          {
+            "articulo": "77",
+            "numeral": "",
+            "titulo": "COMPORTAMIENTOS CONTRARIOS A LA POSESIÓN Y MERA TENENCIA DE BIENES INMUEBLES",
+            "texto": "ARTÍCULO 77. COMPORTAMIENTOS CONTRARIOS A LA POSESIÓN Y MERA TENENCIA DE BIENES INMUEBLES. Son aquellos contrarios a la posesión, la mera tenencia de los bienes inmuebles de particulares, bienes fiscales, bienes de uso público, bienes de utilidad pública o social, bienes destinados a prestación de servicios públicos. Estos son los siguientes: 1. Perturbar, alterar o interrumpir la posesión o mera tenencia de un bien inmueble ocupándolo ilegalmente. 2. Perturbar la posesión o mera tenencia de un inmueble o mueble por causa de daños materiales o hechos que la alteren, o por no reparar las averías o daños en el propio inmueble que pongan en peligro, perjudiquen o molesten a los vecinos. 3. Instalar servicios públicos en inmuebles que hayan sido ocupados ilegalmente. 4. Omitir el cerramiento y mantenimiento de lotes y fachadas de edificaciones. 5. Impedir el ingreso, uso y disfrute de la posesión o tenencia de inmueble al titular de este derecho. Numeral 1 Restitución y protección de bienes inmuebles. Numeral 2 Reparación de daños materiales por perturbación a la posesión y tenencia de inmuebles o mueble. Numeral 3 Multa General tipo 3 Numeral 4 Multa General tipo 3; construcción, cerramiento, reparación o mantenimiento de inmueble. Numeral 5 Restitución y protección de bienes inmuebles.",
+            "url_fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#77"
+          }
+        ],
+        "pregunta": "¿Qué comportamientos son contrarios a la posesión o tenencia de bienes inmuebles?",
+        "respuesta": "**Numeral 1 del artículo 77.** «1. Perturbar, alterar o interrumpir la posesión o mera tenencia de un bien inmueble ocupándolo ilegalmente.»\n\n**Numeral 2 del artículo 77.** «2. Perturbar la posesión o mera tenencia de un inmueble o mueble por causa de daños materiales o hechos que la alteren, o por no reparar las averías o daños en el propio inmueble que pongan en peligro, perjudiquen o molesten a los vecinos.»\n\n**Numeral 3 del artículo 77.** «3. Instalar servicios públicos en inmuebles que hayan sido ocupados ilegalmente.»\n\n**Numeral 4 del artículo 77.** «4. Omitir el cerramiento y mantenimiento de lotes y fachadas de edificaciones.»\n\n**Numeral 5 del artículo 77.** «5. Impedir el ingreso, uso y disfrute de la posesión o tenencia de inmueble al titular de este derecho.»",
+        "modelo": "gemini-3.1-flash-lite",
+        "total_generales": 1,
+        "total_estructurados": 0,
+        "validacion_documental": {
+          "estado": "PENDIENTE_VALIDACION",
+          "advertencias": []
+        }
+      },
+      "llamada_gemini_confirmada": true,
+      "estado_documental": "PENDIENTE_VALIDACION"
+    },
+    {
+      "id": "RAG-015",
+      "pregunta": "¿Qué comportamientos relacionados con la salud pública afectan la actividad económica?",
+      "http": 200,
+      "segundos": 2.113564,
+      "respuesta": {
+        "fuentes_recuperadas": [
+          {
+            "articulo": "94",
+            "numeral": "",
+            "titulo": "COMPORTAMIENTOS RELACIONADOS CON LA SALUD PÚBLICA QUE AFECTAN LA ACTIVIDAD ECONÓMICA",
+            "texto": "ARTÍCULO 94. COMPORTAMIENTOS RELACIONADOS CON LA SALUD PÚBLICA QUE AFECTAN LA ACTIVIDAD ECONÓMICA. Los siguientes comportamientos relacionados con la salud pública afectan la actividad económica y por lo tanto no deben realizarse: 1. Incumplir las normas o disposiciones de seguridad o sanidad, para el desarrollo de la actividad económica, de acuerdo con su objeto social, previo concepto de la autoridad especializada. 2. No separar en la fuente los residuos sólidos, ni depositarlos selectivamente en un lugar destinado para tal efecto. 3. Permitir el consumo de tabaco y/o sus derivados en lugares no autorizados por la ley y la normatividad vigente. 4. Permitir la permanencia de animales de cualquier especie que afecte las condiciones de higiene, salubridad y seguridad o que impida la correcta prestación del servicio de acuerdo con las disposiciones vigentes. 5. Comercializar en el establecimiento artículos de mala calidad, caducados o adulterados que puedan constituir peligro para la salud pública. 6. Comercializar, almacenar, poseer o tener especies de flora o fauna que ofrezcan peligro para la integridad y la salud. 7. No retirar frecuentemente los residuos de las áreas de producción o depósito y no evacuarlas de manera que se elimine la generación de malos olores, y se impida el refugio y alimento de animales y plagas. 8. No facilitar la utilización de los servicios sanitarios limpios y desinfectados a las personas que así lo requieran, en los establecimientos abiertos al público y proveer de los recursos requeridos para la higiene personal. 9. No destruir en la fuente los envases de bebidas embriagantes. Numeral 1 Multa General tipo 4; Suspensión temporal de actividad. Numeral 2 Multa General tipo 3. Numeral 3 Multa General tipo 1; Suspensión temporal de actividad. Numeral 4 Multa General tipo 3; Suspensión temporal de actividad. Numeral 5 Multa General tipo 4; Suspensión temporal de actividad Numeral 6 Multa General tipo 1; Suspensión temporal de actividad. Numeral 7 Multa General tipo 4; Suspensión temporal de actividad. Numeral 8 Amonestación. Numeral 9 Multa General tipo 1; Suspensión temporal de actividad.",
+            "url_fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#94"
+          }
+        ],
+        "pregunta": "¿Qué comportamientos relacionados con la salud pública afectan la actividad económica?",
+        "respuesta": "**Numeral 1 del artículo 94.** «1. Incumplir las normas o disposiciones de seguridad o sanidad, para el desarrollo de la actividad económica, de acuerdo con su objeto social, previo concepto de la autoridad especializada.»\n\n**Numeral 2 del artículo 94.** «2. No separar en la fuente los residuos sólidos, ni depositarlos selectivamente en un lugar destinado para tal efecto.»\n\n**Numeral 3 del artículo 94.** «3. Permitir el consumo de tabaco y/o sus derivados en lugares no autorizados por la ley y la normatividad vigente.»\n\n**Numeral 4 del artículo 94.** «4. Permitir la permanencia de animales de cualquier especie que afecte las condiciones de higiene, salubridad y seguridad o que impida la correcta prestación del servicio de acuerdo con las disposiciones vigentes.»\n\n**Numeral 5 del artículo 94.** «5. Comercializar en el establecimiento artículos de mala calidad, caducados o adulterados que puedan constituir peligro para la salud pública.»\n\n**Numeral 6 del artículo 94.** «6. Comercializar, almacenar, poseer o tener especies de flora o fauna que ofrezcan peligro para la integridad y la salud.»\n\n**Numeral 7 del artículo 94.** «7. No retirar frecuentemente los residuos de las áreas de producción o depósito y no evacuarlas de manera que se elimine la generación de malos olores, y se impida el refugio y alimento de animales y plagas.»\n\n**Numeral 8 del artículo 94.** «8. No facilitar la utilización de los servicios sanitarios limpios y desinfectados a las personas que así lo requieran, en los establecimientos abiertos al público y proveer de los recursos requeridos para la higiene personal.»\n\n**Numeral 9 del artículo 94.** «9. No destruir en la fuente los envases de bebidas embriagantes.»",
+        "modelo": "gemini-3.1-flash-lite",
+        "total_generales": 1,
+        "total_estructurados": 0,
+        "validacion_documental": {
+          "estado": "PENDIENTE_VALIDACION",
+          "advertencias": []
+        }
+      },
+      "llamada_gemini_confirmada": true,
+      "estado_documental": "PENDIENTE_VALIDACION"
+    },
+    {
+      "id": "RAG-022",
+      "pregunta": "¿Qué es una orden de Policía y cuáles son sus características?",
+      "http": 200,
+      "segundos": 2.790437,
+      "respuesta": {
+        "fuentes_recuperadas": [],
+        "pregunta": "¿Qué es una orden de Policía y cuáles son sus características?",
+        "respuesta": "No encontré respaldo suficiente en los fragmentos de la Ley 1801 de 2016.",
+        "modelo": "gemini-3.1-flash-lite",
+        "total_generales": 1,
+        "total_estructurados": 0,
+        "validacion_documental": {
+          "estado": "REQUIERE_REVISION",
+          "advertencias": []
+        }
+      },
+      "llamada_gemini_confirmada": true,
+      "estado_documental": "REQUIERE_REVISION"
+    },
+    {
+      "id": "RAG-035",
+      "pregunta": "Una persona ocupa un inmueble ajeno sin autorización. ¿Qué comportamientos relacionados con la posesión contempla la ley?",
+      "http": 200,
+      "segundos": 1.252837,
+      "respuesta": {
+        "fuentes_recuperadas": [
+          {
+            "articulo": "77",
+            "numeral": "",
+            "titulo": "COMPORTAMIENTOS CONTRARIOS A LA POSESIÓN Y MERA TENENCIA DE BIENES INMUEBLES",
+            "texto": "ARTÍCULO 77. COMPORTAMIENTOS CONTRARIOS A LA POSESIÓN Y MERA TENENCIA DE BIENES INMUEBLES. Son aquellos contrarios a la posesión, la mera tenencia de los bienes inmuebles de particulares, bienes fiscales, bienes de uso público, bienes de utilidad pública o social, bienes destinados a prestación de servicios públicos. Estos son los siguientes: 1. Perturbar, alterar o interrumpir la posesión o mera tenencia de un bien inmueble ocupándolo ilegalmente. 2. Perturbar la posesión o mera tenencia de un inmueble o mueble por causa de daños materiales o hechos que la alteren, o por no reparar las averías o daños en el propio inmueble que pongan en peligro, perjudiquen o molesten a los vecinos. 3. Instalar servicios públicos en inmuebles que hayan sido ocupados ilegalmente. 4. Omitir el cerramiento y mantenimiento de lotes y fachadas de edificaciones. 5. Impedir el ingreso, uso y disfrute de la posesión o tenencia de inmueble al titular de este derecho. Numeral 1 Restitución y protección de bienes inmuebles. Numeral 2 Reparación de daños materiales por perturbación a la posesión y tenencia de inmuebles o mueble. Numeral 3 Multa General tipo 3 Numeral 4 Multa General tipo 3; construcción, cerramiento, reparación o mantenimiento de inmueble. Numeral 5 Restitución y protección de bienes inmuebles.",
+            "url_fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#77"
+          }
+        ],
+        "pregunta": "Una persona ocupa un inmueble ajeno sin autorización. ¿Qué comportamientos relacionados con la posesión contempla la ley?",
+        "respuesta": "**Numeral 1 del artículo 77.** «1. Perturbar, alterar o interrumpir la posesión o mera tenencia de un bien inmueble ocupándolo ilegalmente.»\n\n**Numeral 1 del artículo 77.** «Numeral 1 Restitución y protección de bienes inmuebles.»",
+        "modelo": "gemini-3.1-flash-lite",
+        "total_generales": 1,
+        "total_estructurados": 0,
+        "validacion_documental": {
+          "estado": "PENDIENTE_VALIDACION",
+          "advertencias": []
+        }
+      },
+      "llamada_gemini_confirmada": true,
+      "estado_documental": "PENDIENTE_VALIDACION"
+    },
+    {
+      "id": "RAG-043",
+      "pregunta": "Una persona deteriora elementos del espacio público. ¿Qué comportamientos contrarios a la convivencia podrían aplicarse?",
+      "http": 200,
+      "segundos": 2.529092,
+      "respuesta": {
+        "fuentes_recuperadas": [
+          {
+            "articulo": "140",
+            "numeral": "",
+            "titulo": "COMPORTAMIENTOS CONTRARIOS AL CUIDADO E INTEGRIDAD DEL ESPACIO PÚBLICO",
+            "texto": "ARTÍCULO 140. COMPORTAMIENTOS CONTRARIOS AL CUIDADO E INTEGRIDAD DEL ESPACIO PÚBLICO. 3. Alterar, remover, dañar o destruir el mobiliario urbano o rural tales como semáforos, señalización vial, teléfonos públicos, hidrantes, estaciones de transporte, faroles o elementos de iluminación, bancas o cestas de basura. 5. Ensuciar, dañar o hacer un uso indebido o abusivo de los bienes fiscales o de uso público o contrariar los reglamentos o manuales pertinentes. Numeral 3 Multa General tipo 4; Reparación de daños materiales de muebles o inmuebles; Construcción, cerramiento, reparación o mantenimiento de inmuebles. Numeral 5 Multa General tipo 3; Reparación de daños materiales de muebles o inmuebles; Construcción, cerramiento, reparación o mantenimiento de inmueble.",
+            "url_fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#140"
+          }
+        ],
+        "pregunta": "Una persona deteriora elementos del espacio público. ¿Qué comportamientos contrarios a la convivencia podrían aplicarse?",
+        "respuesta": "**Numeral 3 del artículo 140.** «3. Alterar, remover, dañar o destruir el mobiliario urbano o rural tales como semáforos, señalización vial, teléfonos públicos, hidrantes, estaciones de transporte, faroles o elementos de iluminación, bancas o cestas de basura.»\n\n**Numeral 5 del artículo 140.** «5. Ensuciar, dañar o hacer un uso indebido o abusivo de los bienes fiscales o de uso público o contrariar los reglamentos o manuales pertinentes.»\n\n**Numeral 3 del artículo 140.** «Numeral 3 Multa General tipo 4; Reparación de daños materiales de muebles o inmuebles; Construcción, cerramiento, reparación o mantenimiento de inmuebles.»\n\n**Numeral 5 del artículo 140.** «Numeral 5 Multa General tipo 3; Reparación de daños materiales de muebles o inmuebles; Construcción, cerramiento, reparación o mantenimiento de inmueble.»",
+        "modelo": "gemini-3.1-flash-lite",
+        "total_generales": 1,
+        "total_estructurados": 0,
+        "validacion_documental": {
+          "estado": "PENDIENTE_VALIDACION",
+          "advertencias": []
+        }
+      },
+      "llamada_gemini_confirmada": true,
+      "estado_documental": "PENDIENTE_VALIDACION"
+    }
+  ]
+}

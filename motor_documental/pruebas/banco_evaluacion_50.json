@@ -90,13 +90,16 @@
     "estado_revision": "pendiente_revision"
   },
   {
-    "id": "RAG-011",
-    "pregunta": "¿Qué obligaciones tienen los organizadores de eventos con aglomeraciones complejas de público?",
+    "id": "RAG-051",
+    "pregunta": "¿Qué entiende el Código por convivencia y con qué elementos se relaciona?",
     "articulos_esperados": [
-      "73"
+      "5"
     ],
-    "respuesta_referencia": "El artículo 73 establece que los organizadores deben evitar comportamientos que pongan en riesgo la vida, la integridad y el correcto desarrollo de eventos con aglomeraciones complejas. Entre ellos están permitir el ingreso de menores sin cumplir la clasificación correspondiente, incumplir las normas de protección de niños y adolescentes, no disponer de personal médico, primeros auxilios, unidades sanitarias, señalización, vías despejadas, control de incendios, personal de seguridad y planes de emergencia. También deben respetar la capacidad, programación y horarios autorizados, atender las órdenes de Policía y disponer de los permisos y elementos de seguridad exigidos.",
-    "estado_revision": "pendiente_revision"
+    "respuesta_referencia": "Según el artículo 5, la convivencia consiste en relacionarse de forma pacífica, respetuosa y armónica con las demás personas, los bienes y el ambiente, dentro del ordenamiento jurídico.",
+    "estado_revision": "cotejo_documental_realizado",
+    "fuente_referencia": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm",
+    "fecha_cotejo": "2026-11-18",
+    "sustituye": "RAG-011"
   },
   {
     "id": "RAG-012",

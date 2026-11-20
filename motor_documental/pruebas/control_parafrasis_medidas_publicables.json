@@ -1,0 +1,86 @@
+{
+  "estado_motor": {
+    "estado": "activo",
+    "modo_respuesta": "citas_extractivas",
+    "generacion_configurada": true,
+    "sha256_corpus_publicable": "dda8a2e3f76b9e8669420a6162757def5d0fe61fad9cee70500737f31a26c1aa"
+  },
+  "filas": [
+    {
+      "id": "0",
+      "pregunta": "¿A qué se refiere el Código cuando habla de una medida correctiva?",
+      "http": 200,
+      "segundos": 0.106063,
+      "respuesta": {
+        "fuentes_recuperadas": [
+          {
+            "articulo": "172",
+            "numeral": "",
+            "titulo": "OBJETO DE LAS MEDIDAS CORRECTIVAS",
+            "texto": "ARTÍCULO 172. OBJETO DE LAS MEDIDAS CORRECTIVAS. Las medidas correctivas, son acciones impuestas por las autoridades de Policía a toda persona que incurra en comportamientos contrarios a la convivencia o el incumplimiento de los deberes específicos de convivencia. Las medidas correctivas tienen por objeto disuadir, prevenir, superar, resarcir, procurar, educar, proteger o restablecer la convivencia.",
+            "url_fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#172"
+          }
+        ],
+        "pregunta": "¿A qué se refiere el Código cuando habla de una medida correctiva?",
+        "respuesta": "**Artículo 172.** «Las medidas correctivas, son acciones impuestas por las autoridades de Policía a toda persona que incurra en comportamientos contrarios a la convivencia o el incumplimiento de los deberes específicos de convivencia. Las medidas correctivas tienen por objeto disuadir, prevenir, superar, resarcir, procurar, educar, proteger o restablecer la convivencia.»",
+        "modelo": "extracción documental",
+        "total_generales": 1,
+        "total_estructurados": 0,
+        "validacion_documental": {
+          "estado": "PENDIENTE_VALIDACION",
+          "advertencias": []
+        }
+      },
+      "llamada_gemini_confirmada": false,
+      "estado_documental": "PENDIENTE_VALIDACION"
+    },
+    {
+      "id": "1",
+      "pregunta": "¿Cómo define el Código la convivencia?",
+      "http": 200,
+      "segundos": 0.039127,
+      "respuesta": {
+        "fuentes_recuperadas": [
+          {
+            "articulo": "5",
+            "numeral": "",
+            "titulo": "DEFINICIÓN",
+            "texto": "ARTÍCULO 5. DEFINICIÓN. Para los efectos de este Código, se entiende por convivencia, la interacción pacífica, respetuosa y armónica entre las personas, con los bienes, y con el ambiente, en el marco del ordenamiento jurídico.",
+            "url_fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm"
+          }
+        ],
+        "pregunta": "¿Cómo define el Código la convivencia?",
+        "respuesta": "**Artículo 5.** «Para los efectos de este Código, se entiende por convivencia, la interacción pacífica, respetuosa y armónica entre las personas, con los bienes, y con el ambiente, en el marco del ordenamiento jurídico.»",
+        "modelo": "extracción documental",
+        "total_generales": 1,
+        "total_estructurados": 0,
+        "validacion_documental": {
+          "estado": "PENDIENTE_VALIDACION",
+          "advertencias": []
+        }
+      },
+      "llamada_gemini_confirmada": false,
+      "estado_documental": "PENDIENTE_VALIDACION"
+    },
+    {
+      "id": "2",
+      "pregunta": "¿Qué quiere decir el Código con un comparendo?",
+      "http": 200,
+      "segundos": 0.037061,
+      "respuesta": {
+        "fuentes_recuperadas": [],
+        "pregunta": "¿Qué quiere decir el Código con un comparendo?",
+        "respuesta": "No encontré respaldo suficiente en los fragmentos de la Ley 1801 de 2016.",
+        "modelo": "verificación documental",
+        "total_generales": 0,
+        "total_estructurados": 0,
+        "validacion_documental": {
+          "estado": "SIN_RESPALDO",
+          "advertencias": []
+        }
+      },
+      "llamada_gemini_confirmada": false,
+      "estado_documental": "SIN_RESPALDO"
+    }
+  ]
+}

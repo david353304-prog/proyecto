@@ -1,0 +1,122 @@
+{
+  "estado_motor": {
+    "estado": "activo",
+    "modo_respuesta": "citas_extractivas",
+    "generacion_configurada": true,
+    "sha256_corpus_publicable": "41507d4d7e91d7527baffade9379c670a10cb42cc3b89f1cdb06e9da7d953324"
+  },
+  "filas": [
+    {
+      "id": "RAG-016",
+      "pregunta": "¿Qué establece el Código sobre comprar o utilizar celulares reportados como hurtados?",
+      "http": 200,
+      "segundos": 3.016353,
+      "respuesta": {
+        "fuentes_recuperadas": [
+          {
+            "articulo": "95",
+            "numeral": "",
+            "titulo": "COMPORTAMIENTOS QUE AFECTAN LA SEGURIDAD DE LAS PERSONAS Y SUS BIENES RELACIONADOS CON EQUIPOS TERMINALES MÓVILES",
+            "texto": "ARTÍCULO 95. COMPORTAMIENTOS QUE AFECTAN LA SEGURIDAD DE LAS PERSONAS Y SUS BIENES RELACIONADOS CON EQUIPOS TERMINALES MÓVILES. 1. Comprar, alquilar o usar equipo terminal móvil con reporte de hurto y/o extravío en la base de datos negativa de que trata el artículo 106 de la Ley 1453 de 2011 o equipo terminal móvil cuyo número de identificación físico o electrónico haya sido reprogramado, remarcado, modificado o suprimido. PARÁGRAFO 2o. Corresponde a las personas naturales o jurídicas verificar que el equipo a comprar, alquilar, usar, distribuir, almacenar o vender, no se encuentre reportado como hurtado y/o extraviado en la base de datos negativa de que trata el artículo 106 de la Ley 1453 de 2011 y proceder al registro en base de datos positiva. La consulta pública de la base de datos negativa estará disponible a través del sitio web que indique la Comisión de Regulación de Comunicaciones y para el registro de los equipos terminales móviles en la base de datos positiva los proveedores deberán disponer de los medios definidos en la regulación. Numeral 1 Multa General tipo 2; Destrucción de bien; Suspensión temporal de actividad.",
+            "url_fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#95"
+          }
+        ],
+        "pregunta": "¿Qué establece el Código sobre comprar o utilizar celulares reportados como hurtados?",
+        "respuesta": "**Numeral 1 del artículo 95.** «1. Comprar, alquilar o usar equipo terminal móvil con reporte de hurto y/o extravío en la base de datos negativa de que trata el artículo 106 de la Ley 1453 de 2011 o equipo terminal móvil cuyo número de identificación físico o electrónico haya sido reprogramado, remarcado, modificado o suprimido.»\n\n**Parágrafo 2 del artículo 95.** «PARÁGRAFO 2o. Corresponde a las personas naturales o jurídicas verificar que el equipo a comprar, alquilar, usar, distribuir, almacenar o vender, no se encuentre reportado como hurtado y/o extraviado en la base de datos negativa de que trata el artículo 106 de la Ley 1453 de 2011 y proceder al registro en base de datos positiva. La consulta pública de la base de datos negativa estará disponible a través del sitio web que indique la Comisión de Regulación de Comunicaciones y para el registro de los equipos terminales móviles en la base de datos positiva los proveedores deberán disponer de los medios definidos en la regulación.»\n\n**Numeral 1 del artículo 95.** «Numeral 1 Multa General tipo 2; Destrucción de bien; Suspensión temporal de actividad.»",
+        "modelo": "gemini-3.1-flash-lite",
+        "total_generales": 1,
+        "total_estructurados": 0,
+        "validacion_documental": {
+          "estado": "PENDIENTE_VALIDACION",
+          "advertencias": []
+        }
+      },
+      "llamada_gemini_confirmada": true,
+      "estado_documental": "PENDIENTE_VALIDACION"
+    },
+    {
+      "id": "RAG-039",
+      "pregunta": "Compré un celular usado y después descubrí que aparece reportado como robado. ¿Qué contempla la ley sobre estos equipos?",
+      "http": 200,
+      "segundos": 4.820362,
+      "respuesta": {
+        "fuentes_recuperadas": [
+          {
+            "articulo": "95",
+            "numeral": "",
+            "titulo": "COMPORTAMIENTOS QUE AFECTAN LA SEGURIDAD DE LAS PERSONAS Y SUS BIENES RELACIONADOS CON EQUIPOS TERMINALES MÓVILES",
+            "texto": "ARTÍCULO 95. COMPORTAMIENTOS QUE AFECTAN LA SEGURIDAD DE LAS PERSONAS Y SUS BIENES RELACIONADOS CON EQUIPOS TERMINALES MÓVILES. 1. Comprar, alquilar o usar equipo terminal móvil con reporte de hurto y/o extravío en la base de datos negativa de que trata el artículo 106 de la Ley 1453 de 2011 o equipo terminal móvil cuyo número de identificación físico o electrónico haya sido reprogramado, remarcado, modificado o suprimido. PARÁGRAFO 2o. Corresponde a las personas naturales o jurídicas verificar que el equipo a comprar, alquilar, usar, distribuir, almacenar o vender, no se encuentre reportado como hurtado y/o extraviado en la base de datos negativa de que trata el artículo 106 de la Ley 1453 de 2011 y proceder al registro en base de datos positiva. La consulta pública de la base de datos negativa estará disponible a través del sitio web que indique la Comisión de Regulación de Comunicaciones y para el registro de los equipos terminales móviles en la base de datos positiva los proveedores deberán disponer de los medios definidos en la regulación. Numeral 1 Multa General tipo 2; Destrucción de bien; Suspensión temporal de actividad.",
+            "url_fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#95"
+          }
+        ],
+        "pregunta": "Compré un celular usado y después descubrí que aparece reportado como robado. ¿Qué contempla la ley sobre estos equipos?",
+        "respuesta": "**Numeral 1 del artículo 95.** «1. Comprar, alquilar o usar equipo terminal móvil con reporte de hurto y/o extravío en la base de datos negativa de que trata el artículo 106 de la Ley 1453 de 2011 o equipo terminal móvil cuyo número de identificación físico o electrónico haya sido reprogramado, remarcado, modificado o suprimido.»\n\n**Parágrafo 2 del artículo 95.** «PARÁGRAFO 2o. Corresponde a las personas naturales o jurídicas verificar que el equipo a comprar, alquilar, usar, distribuir, almacenar o vender, no se encuentre reportado como hurtado y/o extraviado en la base de datos negativa de que trata el artículo 106 de la Ley 1453 de 2011 y proceder al registro en base de datos positiva. La consulta pública de la base de datos negativa estará disponible a través del sitio web que indique la Comisión de Regulación de Comunicaciones y para el registro de los equipos terminales móviles en la base de datos positiva los proveedores deberán disponer de los medios definidos en la regulación.»\n\n**Numeral 1 del artículo 95.** «Numeral 1 Multa General tipo 2; Destrucción de bien; Suspensión temporal de actividad.»",
+        "modelo": "gemini-3.1-flash-lite",
+        "total_generales": 1,
+        "total_estructurados": 0,
+        "validacion_documental": {
+          "estado": "PENDIENTE_VALIDACION",
+          "advertencias": []
+        }
+      },
+      "llamada_gemini_confirmada": true,
+      "estado_documental": "PENDIENTE_VALIDACION"
+    },
+    {
+      "id": "RAG-038",
+      "pregunta": "Un restaurante incumple las condiciones sanitarias exigidas para funcionar. ¿Qué establece el Código de Policía?",
+      "http": 200,
+      "segundos": 1.655094,
+      "respuesta": {
+        "fuentes_recuperadas": [
+          {
+            "articulo": "94",
+            "numeral": "",
+            "titulo": "COMPORTAMIENTOS RELACIONADOS CON LA SALUD PÚBLICA QUE AFECTAN LA ACTIVIDAD ECONÓMICA",
+            "texto": "ARTÍCULO 94. COMPORTAMIENTOS RELACIONADOS CON LA SALUD PÚBLICA QUE AFECTAN LA ACTIVIDAD ECONÓMICA. Los siguientes comportamientos relacionados con la salud pública afectan la actividad económica y por lo tanto no deben realizarse: 1. Incumplir las normas o disposiciones de seguridad o sanidad, para el desarrollo de la actividad económica, de acuerdo con su objeto social, previo concepto de la autoridad especializada. 2. No separar en la fuente los residuos sólidos, ni depositarlos selectivamente en un lugar destinado para tal efecto. 3. Permitir el consumo de tabaco y/o sus derivados en lugares no autorizados por la ley y la normatividad vigente. 4. Permitir la permanencia de animales de cualquier especie que afecte las condiciones de higiene, salubridad y seguridad o que impida la correcta prestación del servicio de acuerdo con las disposiciones vigentes. 5. Comercializar en el establecimiento artículos de mala calidad, caducados o adulterados que puedan constituir peligro para la salud pública. 6. Comercializar, almacenar, poseer o tener especies de flora o fauna que ofrezcan peligro para la integridad y la salud. 7. No retirar frecuentemente los residuos de las áreas de producción o depósito y no evacuarlas de manera que se elimine la generación de malos olores, y se impida el refugio y alimento de animales y plagas. 8. No facilitar la utilización de los servicios sanitarios limpios y desinfectados a las personas que así lo requieran, en los establecimientos abiertos al público y proveer de los recursos requeridos para la higiene personal. 9. No destruir en la fuente los envases de bebidas embriagantes. Numeral 1 Multa General tipo 4; Suspensión temporal de actividad. Numeral 2 Multa General tipo 3. Numeral 3 Multa General tipo 1; Suspensión temporal de actividad. Numeral 4 Multa General tipo 3; Suspensión temporal de actividad. Numeral 5 Multa General tipo 4; Suspensión temporal de actividad Numeral 6 Multa General tipo 1; Suspensión temporal de actividad. Numeral 7 Multa General tipo 4; Suspensión temporal de actividad. Numeral 8 Amonestación. Numeral 9 Multa General tipo 1; Suspensión temporal de actividad.",
+            "url_fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#94"
+          }
+        ],
+        "pregunta": "Un restaurante incumple las condiciones sanitarias exigidas para funcionar. ¿Qué establece el Código de Policía?",
+        "respuesta": "**Artículo 94.** «Los siguientes comportamientos relacionados con la salud pública afectan la actividad económica y por lo tanto no deben realizarse:»\n\n**Numeral 1 del artículo 94.** «1. Incumplir las normas o disposiciones de seguridad o sanidad, para el desarrollo de la actividad económica, de acuerdo con su objeto social, previo concepto de la autoridad especializada.»\n\n**Numeral 1 del artículo 94.** «Numeral 1 Multa General tipo 4; Suspensión temporal de actividad.»",
+        "modelo": "gemini-3.1-flash-lite",
+        "total_generales": 1,
+        "total_estructurados": 0,
+        "validacion_documental": {
+          "estado": "PENDIENTE_VALIDACION",
+          "advertencias": []
+        }
+      },
+      "llamada_gemini_confirmada": true,
+      "estado_documental": "PENDIENTE_VALIDACION"
+    },
+    {
+      "id": "RAG-043",
+      "pregunta": "Una persona deteriora elementos del espacio público. ¿Qué comportamientos contrarios a la convivencia podrían aplicarse?",
+      "http": 200,
+      "segundos": 1.479252,
+      "respuesta": {
+        "fuentes_recuperadas": [
+          {
+            "articulo": "140",
+            "numeral": "",
+            "titulo": "COMPORTAMIENTOS CONTRARIOS AL CUIDADO E INTEGRIDAD DEL ESPACIO PÚBLICO",
+            "texto": "ARTÍCULO 140. COMPORTAMIENTOS CONTRARIOS AL CUIDADO E INTEGRIDAD DEL ESPACIO PÚBLICO. 3. Alterar, remover, dañar o destruir el mobiliario urbano o rural tales como semáforos, señalización vial, teléfonos públicos, hidrantes, estaciones de transporte, faroles o elementos de iluminación, bancas o cestas de basura. 5. Ensuciar, dañar o hacer un uso indebido o abusivo de los bienes fiscales o de uso público o contrariar los reglamentos o manuales pertinentes. Numeral 3 Multa General tipo 4; Reparación de daños materiales de muebles o inmuebles; Construcción, cerramiento, reparación o mantenimiento de inmuebles. Numeral 5 Multa General tipo 3; Reparación de daños materiales de muebles o inmuebles; Construcción, cerramiento, reparación o mantenimiento de inmueble.",
+            "url_fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#140"
+          }
+        ],
+        "pregunta": "Una persona deteriora elementos del espacio público. ¿Qué comportamientos contrarios a la convivencia podrían aplicarse?",
+        "respuesta": "**Numeral 3 del artículo 140.** «3. Alterar, remover, dañar o destruir el mobiliario urbano o rural tales como semáforos, señalización vial, teléfonos públicos, hidrantes, estaciones de transporte, faroles o elementos de iluminación, bancas o cestas de basura.»\n\n**Numeral 5 del artículo 140.** «5. Ensuciar, dañar o hacer un uso indebido o abusivo de los bienes fiscales o de uso público o contrariar los reglamentos o manuales pertinentes.»\n\n**Numeral 3 del artículo 140.** «Numeral 3 Multa General tipo 4; Reparación de daños materiales de muebles o inmuebles; Construcción, cerramiento, reparación o mantenimiento de inmuebles.»\n\n**Numeral 5 del artículo 140.** «Numeral 5 Multa General tipo 3; Reparación de daños materiales de muebles o inmuebles; Construcción, cerramiento, reparación o mantenimiento de inmueble.»",
+        "modelo": "gemini-3.1-flash-lite",
+        "total_generales": 1,
+        "total_estructurados": 0,
+        "validacion_documental": {
+          "estado": "PENDIENTE_VALIDACION",
+          "advertencias": []
+        }
+      },
+      "llamada_gemini_confirmada": true,
+      "estado_documental": "PENDIENTE_VALIDACION"
+    }
+  ]
+}

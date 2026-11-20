@@ -1,0 +1,94 @@
+{
+  "estado_motor": {
+    "estado": "activo",
+    "modo_respuesta": "citas_extractivas",
+    "generacion_configurada": true,
+    "sha256_corpus_publicable": "13d9f322bc8d85fbca763e0264838f6b984ff786f5bef132349d2c1eade58f0e"
+  },
+  "filas": [
+    {
+      "id": "RAG-017",
+      "pregunta": "¿Qué establece el Código sobre sacar la basura en horarios no autorizados?",
+      "http": 200,
+      "segundos": 2.230334,
+      "respuesta": {
+        "fuentes_recuperadas": [
+          {
+            "articulo": "111",
+            "numeral": "",
+            "titulo": "COMPORTAMIENTOS CONTRARIOS A LA LIMPIEZA Y RECOLECCIÓN DE RESIDUOS Y ESCOMBROS Y MALAS PRÁCTICAS HABITACIONALES",
+            "texto": "ARTÍCULO 111. COMPORTAMIENTOS CONTRARIOS A LA LIMPIEZA Y RECOLECCIÓN DE RESIDUOS Y ESCOMBROS Y MALAS PRÁCTICAS HABITACIONALES. 1. Sacar la basura en horarios no autorizados por la empresa prestadora del servicio o en sitio diferente al lugar de residencia o domicilio. 3. Arrojar residuos sólidos y escombros en sitios de uso público, no acordados ni autorizados por autoridad competente. 8. Arrojar basura, llantas, residuos o escombros en el espacio público o en bienes de carácter público o privado. Numeral 1 Participación en programa comunitario o actividad pedagógica de convivencia. Numeral 3 Participación en programa comunitario o actividad pedagógica de convivencia. Numeral 8 Multa General tipo 4.",
+            "url_fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#111"
+          }
+        ],
+        "pregunta": "¿Qué establece el Código sobre sacar la basura en horarios no autorizados?",
+        "respuesta": "**Numeral 1 del artículo 111.** «1. Sacar la basura en horarios no autorizados por la empresa prestadora del servicio o en sitio diferente al lugar de residencia o domicilio.»\n\n**Numeral 1 del artículo 111.** «Numeral 1 Participación en programa comunitario o actividad pedagógica de convivencia.»",
+        "modelo": "gemini-3.1-flash-lite",
+        "total_generales": 1,
+        "total_estructurados": 0,
+        "validacion_documental": {
+          "estado": "PENDIENTE_VALIDACION",
+          "advertencias": []
+        }
+      },
+      "llamada_gemini_confirmada": true,
+      "estado_documental": "PENDIENTE_VALIDACION"
+    },
+    {
+      "id": "RAG-037",
+      "pregunta": "Un local comercial no informa a sus clientes sobre los protocolos de evacuación. ¿Qué comportamiento contempla la ley?",
+      "http": 200,
+      "segundos": 1.122308,
+      "respuesta": {
+        "fuentes_recuperadas": [
+          {
+            "articulo": "93",
+            "numeral": "",
+            "titulo": "COMPORTAMIENTOS RELACIONADOS CON LA SEGURIDAD Y TRANQUILIDAD QUE AFECTAN LA ACTIVIDAD ECONÓMICA",
+            "texto": "ARTÍCULO 93. COMPORTAMIENTOS RELACIONADOS CON LA SEGURIDAD Y TRANQUILIDAD QUE AFECTAN LA ACTIVIDAD ECONÓMICA. 1. No informar los protocolos de seguridad y evacuación en caso de emergencias a las personas que se encuentren en el lugar. Numeral 1 Multa General Tipo 1",
+            "url_fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#93"
+          }
+        ],
+        "pregunta": "Un local comercial no informa a sus clientes sobre los protocolos de evacuación. ¿Qué comportamiento contempla la ley?",
+        "respuesta": "**Numeral 1 del artículo 93.** «1. No informar los protocolos de seguridad y evacuación en caso de emergencias a las personas que se encuentren en el lugar.»\n\n**Numeral 1 del artículo 93.** «Numeral 1 Multa General Tipo 1»",
+        "modelo": "gemini-3.1-flash-lite",
+        "total_generales": 1,
+        "total_estructurados": 0,
+        "validacion_documental": {
+          "estado": "PENDIENTE_VALIDACION",
+          "advertencias": []
+        }
+      },
+      "llamada_gemini_confirmada": true,
+      "estado_documental": "PENDIENTE_VALIDACION"
+    },
+    {
+      "id": "RAG-040",
+      "pregunta": "Mis vecinos sacan la basura fuera del horario establecido y dejan residuos en la calle. ¿Qué norma regula este comportamiento?",
+      "http": 200,
+      "segundos": 1.320162,
+      "respuesta": {
+        "fuentes_recuperadas": [
+          {
+            "articulo": "111",
+            "numeral": "",
+            "titulo": "COMPORTAMIENTOS CONTRARIOS A LA LIMPIEZA Y RECOLECCIÓN DE RESIDUOS Y ESCOMBROS Y MALAS PRÁCTICAS HABITACIONALES",
+            "texto": "ARTÍCULO 111. COMPORTAMIENTOS CONTRARIOS A LA LIMPIEZA Y RECOLECCIÓN DE RESIDUOS Y ESCOMBROS Y MALAS PRÁCTICAS HABITACIONALES. 1. Sacar la basura en horarios no autorizados por la empresa prestadora del servicio o en sitio diferente al lugar de residencia o domicilio. 3. Arrojar residuos sólidos y escombros en sitios de uso público, no acordados ni autorizados por autoridad competente. 8. Arrojar basura, llantas, residuos o escombros en el espacio público o en bienes de carácter público o privado. Numeral 1 Participación en programa comunitario o actividad pedagógica de convivencia. Numeral 3 Participación en programa comunitario o actividad pedagógica de convivencia. Numeral 8 Multa General tipo 4.",
+            "url_fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#111"
+          }
+        ],
+        "pregunta": "Mis vecinos sacan la basura fuera del horario establecido y dejan residuos en la calle. ¿Qué norma regula este comportamiento?",
+        "respuesta": "**Numeral 1 del artículo 111.** «1. Sacar la basura en horarios no autorizados por la empresa prestadora del servicio o en sitio diferente al lugar de residencia o domicilio.»\n\n**Numeral 1 del artículo 111.** «Numeral 1 Participación en programa comunitario o actividad pedagógica de convivencia.»",
+        "modelo": "gemini-3.1-flash-lite",
+        "total_generales": 1,
+        "total_estructurados": 0,
+        "validacion_documental": {
+          "estado": "PENDIENTE_VALIDACION",
+          "advertencias": []
+        }
+      },
+      "llamada_gemini_confirmada": true,
+      "estado_documental": "PENDIENTE_VALIDACION"
+    }
+  ]
+}

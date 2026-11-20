@@ -1,0 +1,37 @@
+{"consulta": 1, "evento": "inicio"}
+{"consulta": 1, "evento": "recuperacion", "segundos": 0.017203}
+{"consulta": 1, "evento": "contexto", "segundos": 1.3e-05, "sha256": "43c127deb6d82fa1930d014d21553576f76f874ee17b6e339568d88d7b95e7ff"}
+{"consulta": 1, "evento": "validacion", "segundos": 0.005838, "estado": "PENDIENTE_VALIDACION"}
+{"consulta": 1, "evento": "fin", "http": 200}
+{"consulta": 2, "evento": "inicio"}
+{"consulta": 2, "evento": "recuperacion", "segundos": 0.011858}
+{"consulta": 2, "evento": "contexto", "segundos": 1.1e-05, "sha256": "43c127deb6d82fa1930d014d21553576f76f874ee17b6e339568d88d7b95e7ff"}
+{"consulta": 2, "evento": "validacion", "segundos": 0.00036, "estado": "PENDIENTE_VALIDACION"}
+{"consulta": 2, "evento": "fin", "http": 200}
+{"consulta": 3, "evento": "inicio"}
+{"consulta": 3, "evento": "recuperacion", "segundos": 0.013601}
+{"consulta": 3, "evento": "contexto", "segundos": 1.2e-05, "sha256": "3c10018dd1af219684c67c31a8580a9d04e9f7ec05c71cfae9e255276957ca9d"}
+{"consulta": 3, "evento": "validacion", "segundos": 0.000326, "estado": "PENDIENTE_VALIDACION"}
+{"consulta": 3, "evento": "fin", "http": 200}
+{"consulta": 4, "evento": "inicio"}
+{"consulta": 4, "evento": "recuperacion", "segundos": 0.017815}
+{"consulta": 4, "evento": "contexto", "segundos": 1.3e-05, "sha256": "3c10018dd1af219684c67c31a8580a9d04e9f7ec05c71cfae9e255276957ca9d"}
+{"consulta": 4, "evento": "validacion", "segundos": 0.000457, "estado": "PENDIENTE_VALIDACION"}
+{"consulta": 4, "evento": "fin", "http": 200}
+{"consulta": 5, "evento": "inicio"}
+{"consulta": 5, "evento": "recuperacion", "segundos": 0.012447}
+{"consulta": 5, "evento": "contexto", "segundos": 1.1e-05, "sha256": "cc260a011db44e56658154e4a63e7044f56f5e8c9f3dc7d37ba930028ad71157"}
+{"consulta": 5, "evento": "validacion", "segundos": 0.000506, "estado": "PENDIENTE_VALIDACION"}
+{"consulta": 5, "evento": "fin", "http": 200}
+{"consulta": 6, "evento": "inicio"}
+{"consulta": 6, "evento": "fin", "http": 200}
+{"consulta": 7, "evento": "inicio"}
+{"consulta": 7, "evento": "fin", "http": 200}
+{"consulta": 8, "evento": "inicio"}
+{"consulta": 8, "evento": "recuperacion", "segundos": 0.010769}
+{"consulta": 8, "evento": "contexto", "segundos": 1.1e-05, "sha256": "4473a2c7f5281f9d807316c0856515421f52b36927be87eae23fbd3339c2e738"}
+{"consulta": 8, "evento": "intento", "segundos": 0.410486, "error": "ClientError", "categoria": "limite_o_cuota", "http_proveedor": 429}
+{"consulta": 8, "evento": "intento", "segundos": 0.264041, "error": "ClientError", "categoria": "limite_o_cuota", "http_proveedor": 429}
+{"consulta": 8, "evento": "intento", "segundos": 0.216198, "error": "ClientError", "categoria": "limite_o_cuota", "http_proveedor": 429}
+{"consulta": 8, "evento": "generacion", "segundos": 7.123948, "error": "ClientError", "categoria": "limite_o_cuota", "http_proveedor": 429}
+{"consulta": 8, "evento": "fin", "http": 503}

@@ -19,6 +19,10 @@ let identificadorConversacion = 0;
 function formatearRespuesta(texto) {
     const contenedor = document.createElement("div");
     const lineas = String(texto).split(/\r?\n/);
+    const cita = /^\*\*[^*]+\.\*\* «/;
+    const agruparCitas = lineas.filter(linea => cita.test(linea.trim())).length >= 8 &&
+        lineas.some(linea => /«Numeral \d+ /.test(linea));
+    let grupoAnterior = null;
 
     let lista = null;
 
@@ -186,6 +190,18 @@ function formatearRespuesta(texto) {
 
         lista = null;
 
+        if (agruparCitas && cita.test(limpia)) {
+            const grupo = /«Numeral \d+ /.test(limpia)
+                ? "Medidas correctivas" : "Conductas y disposiciones";
+            if (grupo !== grupoAnterior) {
+                const titulo = document.createElement("h3");
+                titulo.className = "grupo-citas";
+                titulo.textContent = grupo;
+                contenedor.appendChild(titulo);
+                grupoAnterior = grupo;
+            }
+        }
+
         const parrafo = document.createElement("p");
         agregarTextoFormateado(parrafo, limpia);
         contenedor.appendChild(parrafo);
@@ -242,6 +258,10 @@ function agregarMensaje(texto, tipo, validacion = null, fuentes = []) {
         const nombresEstados = {
             PENDIENTE_VALIDACION: "Pendiente de revisión jurídica",
             REQUIERE_REVISION: "Requiere revisión jurídica",
+            FUERA_DE_DOMINIO: "Pregunta fuera del alcance del Código",
+            FUERA_DE_ALCANCE: "Pregunta fuera del alcance del Código",
+            SIN_RESPALDO: "Sin respaldo documental suficiente",
+            TEXTO_INEXEQUIBLE: "Texto declarado inexequible",
             "NO DISPONIBLE": "Estado de revisión no disponible"
         };
 
@@ -315,7 +335,11 @@ function agregarMensaje(texto, tipo, validacion = null, fuentes = []) {
     }
 
     conversacion.appendChild(mensaje);
-    conversacion.scrollTop = conversacion.scrollHeight;
+    if (tipo === "asistente" && mensaje.offsetHeight > conversacion.clientHeight) {
+        mensaje.scrollIntoView({ block: "start" });
+    } else {
+        conversacion.scrollTop = conversacion.scrollHeight;
+    }
 }
 
 // Activa o desactiva el indicador de procesamiento.

@@ -1,0 +1,78 @@
+{
+  "estado_motor": {
+    "estado": "activo",
+    "modo_respuesta": "citas_extractivas",
+    "generacion_configurada": true,
+    "sha256_corpus_publicable": "f3153f86278f97bce99f39e490a36103b8e36a37059af45b7d6a9464a5b69d54"
+  },
+  "filas": [
+    {
+      "id": "RAG-005",
+      "pregunta": "¿Qué establece el Código sobre los ruidos que afectan la tranquilidad de los vecinos?",
+      "http": 200,
+      "segundos": 2.066342,
+      "respuesta": {
+        "fuentes_recuperadas": [],
+        "pregunta": "¿Qué establece el Código sobre los ruidos que afectan la tranquilidad de los vecinos?",
+        "respuesta": "No encontré respaldo suficiente en los fragmentos de la Ley 1801 de 2016.",
+        "modelo": "gemini-3.1-flash-lite",
+        "total_generales": 1,
+        "total_estructurados": 0,
+        "validacion_documental": {
+          "estado": "SIN_RESPALDO",
+          "advertencias": []
+        }
+      },
+      "llamada_gemini_confirmada": true,
+      "estado_documental": "SIN_RESPALDO"
+    },
+    {
+      "id": "RAG-032",
+      "pregunta": "Mi vecino pone música a volumen muy alto durante la madrugada y no me deja dormir. ¿Qué norma regula esta situación?",
+      "http": 200,
+      "segundos": 1.475576,
+      "respuesta": {
+        "fuentes_recuperadas": [],
+        "pregunta": "Mi vecino pone música a volumen muy alto durante la madrugada y no me deja dormir. ¿Qué norma regula esta situación?",
+        "respuesta": "No encontré respaldo suficiente en los fragmentos de la Ley 1801 de 2016.",
+        "modelo": "gemini-3.1-flash-lite",
+        "total_generales": 1,
+        "total_estructurados": 0,
+        "validacion_documental": {
+          "estado": "SIN_RESPALDO",
+          "advertencias": []
+        }
+      },
+      "llamada_gemini_confirmada": true,
+      "estado_documental": "SIN_RESPALDO"
+    },
+    {
+      "id": "RAG-025",
+      "pregunta": "¿Qué son las multas y cómo se clasifican en el Código de Policía?",
+      "http": 200,
+      "segundos": 1.127638,
+      "respuesta": {
+        "fuentes_recuperadas": [
+          {
+            "articulo": "180",
+            "numeral": "",
+            "titulo": "MULTAS",
+            "texto": "ARTÍCULO 180. MULTAS. Es la imposición del pago de una suma de dinero en moneda colombiana, cuya graduación depende del comportamiento realizado, según la cual varía el monto de la multa. Así mismo, la desobediencia, resistencia, desacato, o reiteración del comportamiento contrario a la convivencia, incrementará el valor de la multa, sin perjuicio de los intereses causados y el costo del cobro coactivo. las multas se clasifican en generales y especiales.",
+            "url_fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#180"
+          }
+        ],
+        "pregunta": "¿Qué son las multas y cómo se clasifican en el Código de Policía?",
+        "respuesta": "**Artículo 180.** «Es la imposición del pago de una suma de dinero en moneda colombiana, cuya graduación depende del comportamiento realizado, según la cual varía el monto de la multa. Así mismo, la desobediencia, resistencia, desacato, o reiteración del comportamiento contrario a la convivencia, incrementará el valor de la multa, sin perjuicio de los intereses causados y el costo del cobro coactivo.»\n\n**Artículo 180.** «las multas se clasifican en generales y especiales.»",
+        "modelo": "gemini-3.1-flash-lite",
+        "total_generales": 1,
+        "total_estructurados": 0,
+        "validacion_documental": {
+          "estado": "PENDIENTE_VALIDACION",
+          "advertencias": []
+        }
+      },
+      "llamada_gemini_confirmada": true,
+      "estado_documental": "PENDIENTE_VALIDACION"
+    }
+  ]
+}

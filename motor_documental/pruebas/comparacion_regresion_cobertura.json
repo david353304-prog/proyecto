@@ -1,0 +1,1093 @@
+{
+  "sha256_banco": "dbeab26c86e8cebc541e301b673347584214630b447af06343e3c311c20beaa9",
+  "sha256_corpus_antes": "f776b4d07089828860b0e76f219ce229ef69e5bd43720064df6303b598833075",
+  "sha256_corpus_despues": "a2b92ae92020791edb8c31005a375bd2744ed3e1d41fac76c46f9235a3be60e6",
+  "articulo_2": {
+    "fragmentos_iguales": 3,
+    "fuente_publica_previa_igual_al_texto_actual": true,
+    "sha256_contexto_reconstruido": "3b3893a8afcc3845519de521cb80fd2a82b970a8137c45f16d4827890345bb2a",
+    "contexto_historico_capturado": false
+  },
+  "filas": [
+    {
+      "id": "RAG-001",
+      "antes": {
+        "recuperados": [
+          "1"
+        ],
+        "http": 200,
+        "estado": "PENDIENTE_VALIDACION",
+        "articulos_visibles": [
+          "1"
+        ],
+        "segundos": 2.806617
+      },
+      "despues": {
+        "recuperados": [
+          "1"
+        ],
+        "http": 200,
+        "estado": "PENDIENTE_VALIDACION",
+        "articulos_visibles": [
+          "1"
+        ],
+        "segundos": 4.948018
+      },
+      "texto_visible_identico": true,
+      "causa_observada": null
+    },
+    {
+      "id": "RAG-002",
+      "antes": {
+        "recuperados": [
+          "2"
+        ],
+        "http": 200,
+        "estado": "PENDIENTE_VALIDACION",
+        "articulos_visibles": [
+          "2"
+        ],
+        "segundos": 2.318273
+      },
+      "despues": {
+        "recuperados": [
+          "2"
+        ],
+        "http": 502,
+        "estado": null,
+        "articulos_visibles": [],
+        "segundos": 72.13088
+      },
+      "texto_visible_identico": false,
+      "causa_observada": "El motor devolvio HTTP 500 y Node lo presento como 502. No hubo respuesta visible. Fragmentos del articulo 2 iguales y mismo articulo recuperado. El contexto historico no se capturo directamente."
+    },
+    {
+      "id": "RAG-003",
+      "antes": {
+        "recuperados": [
+          "8"
+        ],
+        "http": 200,
+        "estado": "PENDIENTE_VALIDACION",
+        "articulos_visibles": [
+          "8"
+        ],
+        "segundos": 1.904631
+      },
+      "despues": {
+        "recuperados": [
+          "8"
+        ],
+        "http": 200,
+        "estado": "PENDIENTE_VALIDACION",
+        "articulos_visibles": [
+          "8"
+        ],
+        "segundos": 10.549303
+      },
+      "texto_visible_identico": true,
+      "causa_observada": null
+    },
+    {
+      "id": "RAG-004",
+      "antes": {
+        "recuperados": [
+          "27"
+        ],
+        "http": 200,
+        "estado": "PENDIENTE_VALIDACION",
+        "articulos_visibles": [
+          "27"
+        ],
+        "segundos": 1.553411
+      },
+      "despues": {
+        "recuperados": [
+          "27"
+        ],
+        "http": 200,
+        "estado": "PENDIENTE_VALIDACION",
+        "articulos_visibles": [
+          "27"
+        ],
+        "segundos": 10.997919
+      },
+      "texto_visible_identico": true,
+      "causa_observada": null
+    },
+    {
+      "id": "RAG-005",
+      "antes": {
+        "recuperados": [],
+        "http": 200,
+        "estado": "SIN_RESPALDO",
+        "articulos_visibles": [],
+        "segundos": 0.010015
+      },
+      "despues": {
+        "recuperados": [],
+        "http": 200,
+        "estado": "SIN_RESPALDO",
+        "articulos_visibles": [],
+        "segundos": 0.025615
+      },
+      "texto_visible_identico": true,
+      "causa_observada": null
+    },
+    {
+      "id": "RAG-006",
+      "antes": {
+        "recuperados": [],
+        "http": 200,
+        "estado": "SIN_RESPALDO",
+        "articulos_visibles": [],
+        "segundos": 0.009143
+      },
+      "despues": {
+        "recuperados": [],
+        "http": 200,
+        "estado": "SIN_RESPALDO",
+        "articulos_visibles": [],
+        "segundos": 0.011257
+      },
+      "texto_visible_identico": true,
+      "causa_observada": null
+    },
+    {
+      "id": "RAG-007",
+      "antes": {
+        "recuperados": [],
+        "http": 200,
+        "estado": "SIN_RESPALDO",
+        "articulos_visibles": [],
+        "segundos": 0.008933
+      },
+      "despues": {
+        "recuperados": [],
+        "http": 200,
+        "estado": "SIN_RESPALDO",
+        "articulos_visibles": [],
+        "segundos": 0.025209
+      },
+      "texto_visible_identico": true,
+      "causa_observada": null
+    },
+    {
+      "id": "RAG-008",
+      "antes": {
+        "recuperados": [],
+        "http": 200,
+        "estado": "SIN_RESPALDO",
+        "articulos_visibles": [],
+        "segundos": 0.008791
+      },
+      "despues": {
+        "recuperados": [],
+        "http": 200,
+        "estado": "SIN_RESPALDO",
+        "articulos_visibles": [],
+        "segundos": 0.035273
+      },
+      "texto_visible_identico": true,
+      "causa_observada": null
+    },
+    {
+      "id": "RAG-009",
+      "antes": {
+        "recuperados": [],
+        "http": 200,
+        "estado": "SIN_RESPALDO",
+        "articulos_visibles": [],
+        "segundos": 0.018475
+      },
+      "despues": {
+        "recuperados": [],
+        "http": 200,
+        "estado": "SIN_RESPALDO",
+        "articulos_visibles": [],
+        "segundos": 0.026466
+      },
+      "texto_visible_identico": true,
+      "causa_observada": null
+    },
+    {
+      "id": "RAG-010",
+      "antes": {
+        "recuperados": [],
+        "http": 200,
+        "estado": "SIN_RESPALDO",
+        "articulos_visibles": [],
+        "segundos": 0.01014
+      },
+      "despues": {
+        "recuperados": [],
+        "http": 200,
+        "estado": "SIN_RESPALDO",
+        "articulos_visibles": [],
+        "segundos": 0.014239
+      },
+      "texto_visible_identico": true,
+      "causa_observada": null
+    },
+    {
+      "id": "RAG-051",
+      "antes": {
+        "recuperados": [
+          "5"
+        ],
+        "http": 200,
+        "estado": "PENDIENTE_VALIDACION",
+        "articulos_visibles": [
+          "5"
+        ],
+        "segundos": 1.260698
+      },
+      "despues": {
+        "recuperados": [
+          "5"
+        ],
+        "http": 200,
+        "estado": "PENDIENTE_VALIDACION",
+        "articulos_visibles": [
+          "5"
+        ],
+        "segundos": 8.961623
+      },
+      "texto_visible_identico": true,
+      "causa_observada": null
+    },
+    {
+      "id": "RAG-012",
+      "antes": {
+        "recuperados": [],
+        "http": 200,
+        "estado": "SIN_RESPALDO",
+        "articulos_visibles": [],
+        "segundos": 0.021443
+      },
+      "despues": {
+        "recuperados": [],
+        "http": 200,
+        "estado": "SIN_RESPALDO",
+        "articulos_visibles": [],
+        "segundos": 0.010352
+      },
+      "texto_visible_identico": true,
+      "causa_observada": null
+    },
+    {
+      "id": "RAG-013",
+      "antes": {
+        "recuperados": [],
+        "http": 200,
+        "estado": "SIN_RESPALDO",
+        "articulos_visibles": [],
+        "segundos": 0.036137
+      },
+      "despues": {
+        "recuperados": [],
+        "http": 200,
+        "estado": "SIN_RESPALDO",
+        "articulos_visibles": [],
+        "segundos": 0.009056
+      },
+      "texto_visible_identico": true,
+      "causa_observada": null
+    },
+    {
+      "id": "RAG-014",
+      "antes": {
+        "recuperados": [],
+        "http": 200,
+        "estado": "SIN_RESPALDO",
+        "articulos_visibles": [],
+        "segundos": 0.026565
+      },
+      "despues": {
+        "recuperados": [],
+        "http": 200,
+        "estado": "SIN_RESPALDO",
+        "articulos_visibles": [],
+        "segundos": 0.011651
+      },
+      "texto_visible_identico": true,
+      "causa_observada": null
+    },
+    {
+      "id": "RAG-015",
+      "antes": {
+        "recuperados": [],
+        "http": 200,
+        "estado": "SIN_RESPALDO",
+        "articulos_visibles": [],
+        "segundos": 0.016554
+      },
+      "despues": {
+        "recuperados": [],
+        "http": 200,
+        "estado": "SIN_RESPALDO",
+        "articulos_visibles": [],
+        "segundos": 0.008897
+      },
+      "texto_visible_identico": true,
+      "causa_observada": null
+    },
+    {
+      "id": "RAG-016",
+      "antes": {
+        "recuperados": [],
+        "http": 200,
+        "estado": "SIN_RESPALDO",
+        "articulos_visibles": [],
+        "segundos": 0.015162
+      },
+      "despues": {
+        "recuperados": [],
+        "http": 200,
+        "estado": "SIN_RESPALDO",
+        "articulos_visibles": [],
+        "segundos": 0.008969
+      },
+      "texto_visible_identico": true,
+      "causa_observada": null
+    },
+    {
+      "id": "RAG-017",
+      "antes": {
+        "recuperados": [],
+        "http": 200,
+        "estado": "SIN_RESPALDO",
+        "articulos_visibles": [],
+        "segundos": 0.026038
+      },
+      "despues": {
+        "recuperados": [
+          "111"
+        ],
+        "http": 200,
+        "estado": "PENDIENTE_VALIDACION",
+        "articulos_visibles": [
+          "111"
+        ],
+        "segundos": 19.184298
+      },
+      "texto_visible_identico": false,
+      "causa_observada": "Nuevo respaldo en articulo 111 numeral 1. Falta la medida de referencia, excluida del corpus publico."
+    },
+    {
+      "id": "RAG-018",
+      "antes": {
+        "recuperados": [],
+        "http": 200,
+        "estado": "SIN_RESPALDO",
+        "articulos_visibles": [],
+        "segundos": 0.015493
+      },
+      "despues": {
+        "recuperados": [],
+        "http": 200,
+        "estado": "SIN_RESPALDO",
+        "articulos_visibles": [],
+        "segundos": 0.013423
+      },
+      "texto_visible_identico": true,
+      "causa_observada": null
+    },
+    {
+      "id": "RAG-019",
+      "antes": {
+        "recuperados": [],
+        "http": 200,
+        "estado": "SIN_RESPALDO",
+        "articulos_visibles": [],
+        "segundos": 0.015498
+      },
+      "despues": {
+        "recuperados": [],
+        "http": 200,
+        "estado": "SIN_RESPALDO",
+        "articulos_visibles": [],
+        "segundos": 0.008799
+      },
+      "texto_visible_identico": true,
+      "causa_observada": null
+    },
+    {
+      "id": "RAG-020",
+      "antes": {
+        "recuperados": [],
+        "http": 200,
+        "estado": "SIN_RESPALDO",
+        "articulos_visibles": [],
+        "segundos": 0.013367
+      },
+      "despues": {
+        "recuperados": [],
+        "http": 200,
+        "estado": "SIN_RESPALDO",
+        "articulos_visibles": [],
+        "segundos": 0.031576
+      },
+      "texto_visible_identico": true,
+      "causa_observada": null
+    },
+    {
+      "id": "RAG-021",
+      "antes": {
+        "recuperados": [],
+        "http": 200,
+        "estado": "SIN_RESPALDO",
+        "articulos_visibles": [],
+        "segundos": 0.032877
+      },
+      "despues": {
+        "recuperados": [],
+        "http": 200,
+        "estado": "SIN_RESPALDO",
+        "articulos_visibles": [],
+        "segundos": 0.030062
+      },
+      "texto_visible_identico": true,
+      "causa_observada": null
+    },
+    {
+      "id": "RAG-022",
+      "antes": {
+        "recuperados": [
+          "150"
+        ],
+        "http": 200,
+        "estado": "PENDIENTE_VALIDACION",
+        "articulos_visibles": [
+          "150"
+        ],
+        "segundos": 1.269868
+      },
+      "despues": {
+        "recuperados": [
+          "150"
+        ],
+        "http": 200,
+        "estado": "PENDIENTE_VALIDACION",
+        "articulos_visibles": [
+          "150"
+        ],
+        "segundos": 15.386733
+      },
+      "texto_visible_identico": true,
+      "causa_observada": null
+    },
+    {
+      "id": "RAG-023",
+      "antes": {
+        "recuperados": [],
+        "http": 200,
+        "estado": "SIN_RESPALDO",
+        "articulos_visibles": [],
+        "segundos": 0.012884
+      },
+      "despues": {
+        "recuperados": [],
+        "http": 200,
+        "estado": "SIN_RESPALDO",
+        "articulos_visibles": [],
+        "segundos": 0.014767
+      },
+      "texto_visible_identico": true,
+      "causa_observada": null
+    },
+    {
+      "id": "RAG-024",
+      "antes": {
+        "recuperados": [],
+        "http": 200,
+        "estado": "SIN_RESPALDO",
+        "articulos_visibles": [],
+        "segundos": 0.01236
+      },
+      "despues": {
+        "recuperados": [],
+        "http": 200,
+        "estado": "SIN_RESPALDO",
+        "articulos_visibles": [],
+        "segundos": 0.015107
+      },
+      "texto_visible_identico": true,
+      "causa_observada": null
+    },
+    {
+      "id": "RAG-025",
+      "antes": {
+        "recuperados": [
+          "180"
+        ],
+        "http": 200,
+        "estado": "PENDIENTE_VALIDACION",
+        "articulos_visibles": [
+          "180"
+        ],
+        "segundos": 1.487603
+      },
+      "despues": {
+        "recuperados": [
+          "180"
+        ],
+        "http": 200,
+        "estado": "PENDIENTE_VALIDACION",
+        "articulos_visibles": [
+          "180"
+        ],
+        "segundos": 10.38543
+      },
+      "texto_visible_identico": true,
+      "causa_observada": null
+    },
+    {
+      "id": "RAG-026",
+      "antes": {
+        "recuperados": [
+          "206"
+        ],
+        "http": 200,
+        "estado": "PENDIENTE_VALIDACION",
+        "articulos_visibles": [
+          "206"
+        ],
+        "segundos": 1.293067
+      },
+      "despues": {
+        "recuperados": [
+          "206"
+        ],
+        "http": 200,
+        "estado": "PENDIENTE_VALIDACION",
+        "articulos_visibles": [
+          "206"
+        ],
+        "segundos": 23.558578
+      },
+      "texto_visible_identico": true,
+      "causa_observada": null
+    },
+    {
+      "id": "RAG-027",
+      "antes": {
+        "recuperados": [
+          "222"
+        ],
+        "http": 200,
+        "estado": "PENDIENTE_VALIDACION",
+        "articulos_visibles": [
+          "222"
+        ],
+        "segundos": 1.866111
+      },
+      "despues": {
+        "recuperados": [
+          "222"
+        ],
+        "http": 200,
+        "estado": "PENDIENTE_VALIDACION",
+        "articulos_visibles": [
+          "222"
+        ],
+        "segundos": 2.415601
+      },
+      "texto_visible_identico": true,
+      "causa_observada": null
+    },
+    {
+      "id": "RAG-028",
+      "antes": {
+        "recuperados": [
+          "223"
+        ],
+        "http": 200,
+        "estado": "PENDIENTE_VALIDACION",
+        "articulos_visibles": [
+          "223"
+        ],
+        "segundos": 2.013012
+      },
+      "despues": {
+        "recuperados": [
+          "223"
+        ],
+        "http": 200,
+        "estado": "PENDIENTE_VALIDACION",
+        "articulos_visibles": [
+          "223"
+        ],
+        "segundos": 5.732471
+      },
+      "texto_visible_identico": true,
+      "causa_observada": null
+    },
+    {
+      "id": "RAG-029",
+      "antes": {
+        "recuperados": [],
+        "http": 200,
+        "estado": "SIN_RESPALDO",
+        "articulos_visibles": [],
+        "segundos": 0.011064
+      },
+      "despues": {
+        "recuperados": [],
+        "http": 200,
+        "estado": "SIN_RESPALDO",
+        "articulos_visibles": [],
+        "segundos": 0.009501
+      },
+      "texto_visible_identico": true,
+      "causa_observada": null
+    },
+    {
+      "id": "RAG-030",
+      "antes": {
+        "recuperados": [],
+        "http": 200,
+        "estado": "SIN_RESPALDO",
+        "articulos_visibles": [],
+        "segundos": 0.014544
+      },
+      "despues": {
+        "recuperados": [],
+        "http": 200,
+        "estado": "SIN_RESPALDO",
+        "articulos_visibles": [],
+        "segundos": 0.010094
+      },
+      "texto_visible_identico": true,
+      "causa_observada": null
+    },
+    {
+      "id": "RAG-031",
+      "antes": {
+        "recuperados": [],
+        "http": 200,
+        "estado": "SIN_RESPALDO",
+        "articulos_visibles": [],
+        "segundos": 0.03014
+      },
+      "despues": {
+        "recuperados": [],
+        "http": 200,
+        "estado": "SIN_RESPALDO",
+        "articulos_visibles": [],
+        "segundos": 0.008711
+      },
+      "texto_visible_identico": true,
+      "causa_observada": null
+    },
+    {
+      "id": "RAG-032",
+      "antes": {
+        "recuperados": [],
+        "http": 200,
+        "estado": "SIN_RESPALDO",
+        "articulos_visibles": [],
+        "segundos": 0.016188
+      },
+      "despues": {
+        "recuperados": [],
+        "http": 200,
+        "estado": "SIN_RESPALDO",
+        "articulos_visibles": [],
+        "segundos": 0.031866
+      },
+      "texto_visible_identico": true,
+      "causa_observada": null
+    },
+    {
+      "id": "RAG-033",
+      "antes": {
+        "recuperados": [],
+        "http": 200,
+        "estado": "SIN_RESPALDO",
+        "articulos_visibles": [],
+        "segundos": 0.01733
+      },
+      "despues": {
+        "recuperados": [],
+        "http": 200,
+        "estado": "SIN_RESPALDO",
+        "articulos_visibles": [],
+        "segundos": 0.027175
+      },
+      "texto_visible_identico": true,
+      "causa_observada": null
+    },
+    {
+      "id": "RAG-034",
+      "antes": {
+        "recuperados": [],
+        "http": 200,
+        "estado": "SIN_RESPALDO",
+        "articulos_visibles": [],
+        "segundos": 0.03209
+      },
+      "despues": {
+        "recuperados": [],
+        "http": 200,
+        "estado": "SIN_RESPALDO",
+        "articulos_visibles": [],
+        "segundos": 0.031079
+      },
+      "texto_visible_identico": true,
+      "causa_observada": null
+    },
+    {
+      "id": "RAG-035",
+      "antes": {
+        "recuperados": [
+          "77"
+        ],
+        "http": 200,
+        "estado": "PENDIENTE_VALIDACION",
+        "articulos_visibles": [
+          "77"
+        ],
+        "segundos": 3.770798
+      },
+      "despues": {
+        "recuperados": [
+          "77"
+        ],
+        "http": 200,
+        "estado": "PENDIENTE_VALIDACION",
+        "articulos_visibles": [
+          "77"
+        ],
+        "segundos": 11.14056
+      },
+      "texto_visible_identico": true,
+      "causa_observada": null
+    },
+    {
+      "id": "RAG-036",
+      "antes": {
+        "recuperados": [],
+        "http": 200,
+        "estado": "SIN_RESPALDO",
+        "articulos_visibles": [],
+        "segundos": 0.008657
+      },
+      "despues": {
+        "recuperados": [],
+        "http": 200,
+        "estado": "SIN_RESPALDO",
+        "articulos_visibles": [],
+        "segundos": 0.007708
+      },
+      "texto_visible_identico": true,
+      "causa_observada": null
+    },
+    {
+      "id": "RAG-037",
+      "antes": {
+        "recuperados": [],
+        "http": 200,
+        "estado": "SIN_RESPALDO",
+        "articulos_visibles": [],
+        "segundos": 0.007665
+      },
+      "despues": {
+        "recuperados": [
+          "93"
+        ],
+        "http": 200,
+        "estado": "PENDIENTE_VALIDACION",
+        "articulos_visibles": [
+          "93"
+        ],
+        "segundos": 17.894872
+      },
+      "texto_visible_identico": false,
+      "causa_observada": "Nuevo respaldo en articulo 93 numeral 1. Falta la medida de referencia, excluida del corpus publico."
+    },
+    {
+      "id": "RAG-038",
+      "antes": {
+        "recuperados": [
+          "94"
+        ],
+        "http": 200,
+        "estado": "PENDIENTE_VALIDACION",
+        "articulos_visibles": [
+          "94"
+        ],
+        "segundos": 9.436742
+      },
+      "despues": {
+        "recuperados": [
+          "94"
+        ],
+        "http": 200,
+        "estado": "PENDIENTE_VALIDACION",
+        "articulos_visibles": [
+          "94"
+        ],
+        "segundos": 10.037236
+      },
+      "texto_visible_identico": true,
+      "causa_observada": null
+    },
+    {
+      "id": "RAG-039",
+      "antes": {
+        "recuperados": [],
+        "http": 200,
+        "estado": "SIN_RESPALDO",
+        "articulos_visibles": [],
+        "segundos": 0.030723
+      },
+      "despues": {
+        "recuperados": [],
+        "http": 200,
+        "estado": "SIN_RESPALDO",
+        "articulos_visibles": [],
+        "segundos": 0.009971
+      },
+      "texto_visible_identico": true,
+      "causa_observada": null
+    },
+    {
+      "id": "RAG-040",
+      "antes": {
+        "recuperados": [],
+        "http": 200,
+        "estado": "SIN_RESPALDO",
+        "articulos_visibles": [],
+        "segundos": 0.035874
+      },
+      "despues": {
+        "recuperados": [
+          "111"
+        ],
+        "http": 200,
+        "estado": "PENDIENTE_VALIDACION",
+        "articulos_visibles": [
+          "111"
+        ],
+        "segundos": 7.766558
+      },
+      "texto_visible_identico": false,
+      "causa_observada": "Nuevo respaldo en articulo 111 numerales 1 y 3. La referencia espera el 8 y las medidas; permanecen fuera del corpus publico."
+    },
+    {
+      "id": "RAG-041",
+      "antes": {
+        "recuperados": [],
+        "http": 200,
+        "estado": "SIN_RESPALDO",
+        "articulos_visibles": [],
+        "segundos": 0.008611
+      },
+      "despues": {
+        "recuperados": [],
+        "http": 200,
+        "estado": "SIN_RESPALDO",
+        "articulos_visibles": [],
+        "segundos": 0.015649
+      },
+      "texto_visible_identico": true,
+      "causa_observada": null
+    },
+    {
+      "id": "RAG-042",
+      "antes": {
+        "recuperados": [],
+        "http": 200,
+        "estado": "SIN_RESPALDO",
+        "articulos_visibles": [],
+        "segundos": 0.008871
+      },
+      "despues": {
+        "recuperados": [],
+        "http": 200,
+        "estado": "SIN_RESPALDO",
+        "articulos_visibles": [],
+        "segundos": 0.017535
+      },
+      "texto_visible_identico": true,
+      "causa_observada": null
+    },
+    {
+      "id": "RAG-043",
+      "antes": {
+        "recuperados": [],
+        "http": 200,
+        "estado": "SIN_RESPALDO",
+        "articulos_visibles": [],
+        "segundos": 0.00766
+      },
+      "despues": {
+        "recuperados": [],
+        "http": 200,
+        "estado": "SIN_RESPALDO",
+        "articulos_visibles": [],
+        "segundos": 0.038832
+      },
+      "texto_visible_identico": true,
+      "causa_observada": null
+    },
+    {
+      "id": "RAG-044",
+      "antes": {
+        "recuperados": [],
+        "http": 200,
+        "estado": "SIN_RESPALDO",
+        "articulos_visibles": [],
+        "segundos": 0.010258
+      },
+      "despues": {
+        "recuperados": [],
+        "http": 200,
+        "estado": "SIN_RESPALDO",
+        "articulos_visibles": [],
+        "segundos": 0.036137
+      },
+      "texto_visible_identico": true,
+      "causa_observada": null
+    },
+    {
+      "id": "RAG-045",
+      "antes": {
+        "recuperados": [
+          "150"
+        ],
+        "http": 200,
+        "estado": "PENDIENTE_VALIDACION",
+        "articulos_visibles": [
+          "150"
+        ],
+        "segundos": 4.775711
+      },
+      "despues": {
+        "recuperados": [
+          "150"
+        ],
+        "http": 200,
+        "estado": "PENDIENTE_VALIDACION",
+        "articulos_visibles": [
+          "150"
+        ],
+        "segundos": 8.593564
+      },
+      "texto_visible_identico": true,
+      "causa_observada": null
+    },
+    {
+      "id": "RAG-046",
+      "antes": {
+        "recuperados": [],
+        "http": 200,
+        "estado": "SIN_RESPALDO",
+        "articulos_visibles": [],
+        "segundos": 0.006798
+      },
+      "despues": {
+        "recuperados": [],
+        "http": 200,
+        "estado": "SIN_RESPALDO",
+        "articulos_visibles": [],
+        "segundos": 0.010881
+      },
+      "texto_visible_identico": true,
+      "causa_observada": null
+    },
+    {
+      "id": "RAG-047",
+      "antes": {
+        "recuperados": [],
+        "http": 200,
+        "estado": "SIN_RESPALDO",
+        "articulos_visibles": [],
+        "segundos": 0.030433
+      },
+      "despues": {
+        "recuperados": [],
+        "http": 200,
+        "estado": "SIN_RESPALDO",
+        "articulos_visibles": [],
+        "segundos": 0.014339
+      },
+      "texto_visible_identico": true,
+      "causa_observada": null
+    },
+    {
+      "id": "RAG-048",
+      "antes": {
+        "recuperados": [],
+        "http": 200,
+        "estado": "SIN_RESPALDO",
+        "articulos_visibles": [],
+        "segundos": 0.054431
+      },
+      "despues": {
+        "recuperados": [],
+        "http": 200,
+        "estado": "SIN_RESPALDO",
+        "articulos_visibles": [],
+        "segundos": 0.020362
+      },
+      "texto_visible_identico": true,
+      "causa_observada": null
+    },
+    {
+      "id": "RAG-049",
+      "antes": {
+        "recuperados": [
+          "222"
+        ],
+        "http": 200,
+        "estado": "PENDIENTE_VALIDACION",
+        "articulos_visibles": [
+          "222"
+        ],
+        "segundos": 3.094522
+      },
+      "despues": {
+        "recuperados": [
+          "222"
+        ],
+        "http": 200,
+        "estado": "PENDIENTE_VALIDACION",
+        "articulos_visibles": [
+          "222"
+        ],
+        "segundos": 9.940859
+      },
+      "texto_visible_identico": true,
+      "causa_observada": null
+    },
+    {
+      "id": "RAG-050",
+      "antes": {
+        "recuperados": [
+          "223"
+        ],
+        "http": 200,
+        "estado": "PENDIENTE_VALIDACION",
+        "articulos_visibles": [
+          "223"
+        ],
+        "segundos": 2.471435
+      },
+      "despues": {
+        "recuperados": [
+          "223"
+        ],
+        "http": 200,
+        "estado": "PENDIENTE_VALIDACION",
+        "articulos_visibles": [
+          "223"
+        ],
+        "segundos": 17.312252
+      },
+      "texto_visible_identico": true,
+      "causa_observada": null
+    }
+  ]
+}

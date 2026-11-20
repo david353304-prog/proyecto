@@ -1,0 +1,567 @@
+{
+  "url": "http://127.0.0.1:4098/api/chat",
+  "estado_motor": {
+    "estado": "activo",
+    "modo_respuesta": "citas_extractivas",
+    "generacion_configurada": true,
+    "sha256_corpus_publicable": "41507d4d7e91d7527baffade9379c670a10cb42cc3b89f1cdb06e9da7d953324"
+  },
+  "sha256_banco": "dbeab26c86e8cebc541e301b673347584214630b447af06343e3c311c20beaa9",
+  "trampas": [
+    {
+      "id": "FD-001",
+      "pregunta": "¿Cuál es el límite de velocidad en la ciudad según el código de tránsito?",
+      "http": 200,
+      "segundos": 0.015877,
+      "respuesta": {
+        "fuentes_recuperadas": [],
+        "pregunta": "¿Cuál es el límite de velocidad en la ciudad según el código de tránsito?",
+        "respuesta": "La información solicitada queda fuera del corpus de la Ley 1801 de 2016.",
+        "modelo": "clasificador temático",
+        "total_generales": 0,
+        "total_estructurados": 0,
+        "validacion_documental": {
+          "estado": "FUERA_DE_DOMINIO",
+          "advertencias": []
+        }
+      },
+      "llamada_gemini_confirmada": false,
+      "estado_documental": "FUERA_DE_DOMINIO",
+      "rechazo_sin_fuentes": true
+    },
+    {
+      "id": "FD-002",
+      "pregunta": "¿Cómo declaro renta y cuánto IVA debo pagar?",
+      "http": 200,
+      "segundos": 0.023879,
+      "respuesta": {
+        "fuentes_recuperadas": [],
+        "pregunta": "¿Cómo declaro renta y cuánto IVA debo pagar?",
+        "respuesta": "La información solicitada queda fuera del corpus de la Ley 1801 de 2016.",
+        "modelo": "clasificador temático",
+        "total_generales": 0,
+        "total_estructurados": 0,
+        "validacion_documental": {
+          "estado": "FUERA_DE_DOMINIO",
+          "advertencias": []
+        }
+      },
+      "llamada_gemini_confirmada": false,
+      "estado_documental": "FUERA_DE_DOMINIO",
+      "rechazo_sin_fuentes": true
+    },
+    {
+      "id": "FD-003",
+      "pregunta": "¿Me pueden despedir sin justa causa y cuánto me pagan de cesantías?",
+      "http": 200,
+      "segundos": 0.032369,
+      "respuesta": {
+        "fuentes_recuperadas": [],
+        "pregunta": "¿Me pueden despedir sin justa causa y cuánto me pagan de cesantías?",
+        "respuesta": "La información solicitada queda fuera del corpus de la Ley 1801 de 2016.",
+        "modelo": "clasificador temático",
+        "total_generales": 0,
+        "total_estructurados": 0,
+        "validacion_documental": {
+          "estado": "FUERA_DE_DOMINIO",
+          "advertencias": []
+        }
+      },
+      "llamada_gemini_confirmada": false,
+      "estado_documental": "FUERA_DE_DOMINIO",
+      "rechazo_sin_fuentes": true
+    },
+    {
+      "id": "FD-004",
+      "pregunta": "¿Cuál es la pena por homicidio en Colombia?",
+      "http": 200,
+      "segundos": 0.011839,
+      "respuesta": {
+        "fuentes_recuperadas": [],
+        "pregunta": "¿Cuál es la pena por homicidio en Colombia?",
+        "respuesta": "La información solicitada queda fuera del corpus de la Ley 1801 de 2016.",
+        "modelo": "clasificador temático",
+        "total_generales": 0,
+        "total_estructurados": 0,
+        "validacion_documental": {
+          "estado": "FUERA_DE_DOMINIO",
+          "advertencias": []
+        }
+      },
+      "llamada_gemini_confirmada": false,
+      "estado_documental": "FUERA_DE_DOMINIO",
+      "rechazo_sin_fuentes": true
+    },
+    {
+      "id": "FD-005",
+      "pregunta": "¿Cómo tramito un divorcio?",
+      "http": 200,
+      "segundos": 0.015255,
+      "respuesta": {
+        "fuentes_recuperadas": [],
+        "pregunta": "¿Cómo tramito un divorcio?",
+        "respuesta": "La información solicitada queda fuera del corpus de la Ley 1801 de 2016.",
+        "modelo": "clasificador temático",
+        "total_generales": 0,
+        "total_estructurados": 0,
+        "validacion_documental": {
+          "estado": "FUERA_DE_DOMINIO",
+          "advertencias": []
+        }
+      },
+      "llamada_gemini_confirmada": false,
+      "estado_documental": "FUERA_DE_DOMINIO",
+      "rechazo_sin_fuentes": true
+    },
+    {
+      "id": "FD-006",
+      "pregunta": "Dame una receta de arepas",
+      "http": 200,
+      "segundos": 0.013392,
+      "respuesta": {
+        "fuentes_recuperadas": [],
+        "pregunta": "Dame una receta de arepas",
+        "respuesta": "La información solicitada queda fuera del corpus de la Ley 1801 de 2016.",
+        "modelo": "clasificador temático",
+        "total_generales": 0,
+        "total_estructurados": 0,
+        "validacion_documental": {
+          "estado": "FUERA_DE_DOMINIO",
+          "advertencias": []
+        }
+      },
+      "llamada_gemini_confirmada": false,
+      "estado_documental": "FUERA_DE_DOMINIO",
+      "rechazo_sin_fuentes": true
+    },
+    {
+      "id": "FD-007",
+      "pregunta": "¿Cuánto cuesta el SOAT y cuándo vence la tecnomecánica?",
+      "http": 200,
+      "segundos": 0.030917,
+      "respuesta": {
+        "fuentes_recuperadas": [],
+        "pregunta": "¿Cuánto cuesta el SOAT y cuándo vence la tecnomecánica?",
+        "respuesta": "La información solicitada queda fuera del corpus de la Ley 1801 de 2016.",
+        "modelo": "clasificador temático",
+        "total_generales": 0,
+        "total_estructurados": 0,
+        "validacion_documental": {
+          "estado": "FUERA_DE_DOMINIO",
+          "advertencias": []
+        }
+      },
+      "llamada_gemini_confirmada": false,
+      "estado_documental": "FUERA_DE_DOMINIO",
+      "rechazo_sin_fuentes": true
+    },
+    {
+      "id": "FD-008",
+      "pregunta": "¿Qué pico y placa rige hoy en Bogotá?",
+      "http": 200,
+      "segundos": 0.030488,
+      "respuesta": {
+        "fuentes_recuperadas": [],
+        "pregunta": "¿Qué pico y placa rige hoy en Bogotá?",
+        "respuesta": "La información solicitada queda fuera del corpus de la Ley 1801 de 2016.",
+        "modelo": "clasificador temático",
+        "total_generales": 0,
+        "total_estructurados": 0,
+        "validacion_documental": {
+          "estado": "FUERA_DE_DOMINIO",
+          "advertencias": []
+        }
+      },
+      "llamada_gemini_confirmada": false,
+      "estado_documental": "FUERA_DE_DOMINIO",
+      "rechazo_sin_fuentes": true
+    },
+    {
+      "id": "FD-009",
+      "pregunta": "¿Cómo funciona el bitcoin?",
+      "http": 200,
+      "segundos": 0.028604,
+      "respuesta": {
+        "fuentes_recuperadas": [],
+        "pregunta": "¿Cómo funciona el bitcoin?",
+        "respuesta": "La información solicitada queda fuera del corpus de la Ley 1801 de 2016.",
+        "modelo": "clasificador temático",
+        "total_generales": 0,
+        "total_estructurados": 0,
+        "validacion_documental": {
+          "estado": "FUERA_DE_DOMINIO",
+          "advertencias": []
+        }
+      },
+      "llamada_gemini_confirmada": false,
+      "estado_documental": "FUERA_DE_DOMINIO",
+      "rechazo_sin_fuentes": true
+    },
+    {
+      "id": "FD-010",
+      "pregunta": "¿Quién ganó el partido de fútbol de ayer?",
+      "http": 200,
+      "segundos": 0.028979,
+      "respuesta": {
+        "fuentes_recuperadas": [],
+        "pregunta": "¿Quién ganó el partido de fútbol de ayer?",
+        "respuesta": "La información solicitada queda fuera del corpus de la Ley 1801 de 2016.",
+        "modelo": "clasificador temático",
+        "total_generales": 0,
+        "total_estructurados": 0,
+        "validacion_documental": {
+          "estado": "FUERA_DE_DOMINIO",
+          "advertencias": []
+        }
+      },
+      "llamada_gemini_confirmada": false,
+      "estado_documental": "FUERA_DE_DOMINIO",
+      "rechazo_sin_fuentes": true
+    },
+    {
+      "id": "FD-017",
+      "pregunta": "¿Qué dice el artículo 135 del Código de Tránsito sobre una multa?",
+      "http": 200,
+      "segundos": 0.010937,
+      "respuesta": {
+        "fuentes_recuperadas": [],
+        "pregunta": "¿Qué dice el artículo 135 del Código de Tránsito sobre una multa?",
+        "respuesta": "La información solicitada queda fuera del corpus de la Ley 1801 de 2016.",
+        "modelo": "clasificador temático",
+        "total_generales": 0,
+        "total_estructurados": 0,
+        "validacion_documental": {
+          "estado": "FUERA_DE_DOMINIO",
+          "advertencias": []
+        }
+      },
+      "llamada_gemini_confirmada": false,
+      "estado_documental": "FUERA_DE_DOMINIO",
+      "rechazo_sin_fuentes": true
+    },
+    {
+      "id": "FD-018",
+      "pregunta": "¿Qué procedimiento aplica a un comparendo de tránsito?",
+      "http": 200,
+      "segundos": 0.00874,
+      "respuesta": {
+        "fuentes_recuperadas": [],
+        "pregunta": "¿Qué procedimiento aplica a un comparendo de tránsito?",
+        "respuesta": "La información solicitada queda fuera del corpus de la Ley 1801 de 2016.",
+        "modelo": "clasificador temático",
+        "total_generales": 0,
+        "total_estructurados": 0,
+        "validacion_documental": {
+          "estado": "FUERA_DE_DOMINIO",
+          "advertencias": []
+        }
+      },
+      "llamada_gemini_confirmada": false,
+      "estado_documental": "FUERA_DE_DOMINIO",
+      "rechazo_sin_fuentes": true
+    },
+    {
+      "id": "FD-019",
+      "pregunta": "¿Cuál es la multa por incumplir el Estatuto Tributario?",
+      "http": 200,
+      "segundos": 0.025145,
+      "respuesta": {
+        "fuentes_recuperadas": [],
+        "pregunta": "¿Cuál es la multa por incumplir el Estatuto Tributario?",
+        "respuesta": "La información solicitada queda fuera del corpus de la Ley 1801 de 2016.",
+        "modelo": "clasificador temático",
+        "total_generales": 0,
+        "total_estructurados": 0,
+        "validacion_documental": {
+          "estado": "FUERA_DE_DOMINIO",
+          "advertencias": []
+        }
+      },
+      "llamada_gemini_confirmada": false,
+      "estado_documental": "FUERA_DE_DOMINIO",
+      "rechazo_sin_fuentes": true
+    },
+    {
+      "id": "FD-020",
+      "pregunta": "¿Cuál es la multa por declarar renta tarde?",
+      "http": 200,
+      "segundos": 0.02926,
+      "respuesta": {
+        "fuentes_recuperadas": [],
+        "pregunta": "¿Cuál es la multa por declarar renta tarde?",
+        "respuesta": "La información solicitada queda fuera del corpus de la Ley 1801 de 2016.",
+        "modelo": "clasificador temático",
+        "total_generales": 0,
+        "total_estructurados": 0,
+        "validacion_documental": {
+          "estado": "FUERA_DE_DOMINIO",
+          "advertencias": []
+        }
+      },
+      "llamada_gemini_confirmada": false,
+      "estado_documental": "FUERA_DE_DOMINIO",
+      "rechazo_sin_fuentes": true
+    },
+    {
+      "id": "FD-021",
+      "pregunta": "¿Qué procedimiento aplica si hay una multa por presentar el IVA tarde?",
+      "http": 200,
+      "segundos": 0.021628,
+      "respuesta": {
+        "fuentes_recuperadas": [],
+        "pregunta": "¿Qué procedimiento aplica si hay una multa por presentar el IVA tarde?",
+        "respuesta": "La información solicitada queda fuera del corpus de la Ley 1801 de 2016.",
+        "modelo": "clasificador temático",
+        "total_generales": 0,
+        "total_estructurados": 0,
+        "validacion_documental": {
+          "estado": "FUERA_DE_DOMINIO",
+          "advertencias": []
+        }
+      },
+      "llamada_gemini_confirmada": false,
+      "estado_documental": "FUERA_DE_DOMINIO",
+      "rechazo_sin_fuentes": true
+    },
+    {
+      "id": "FD-022",
+      "pregunta": "¿Cómo impugno una multa de la DIAN por una declaración de renta extemporánea?",
+      "http": 200,
+      "segundos": 0.031038,
+      "respuesta": {
+        "fuentes_recuperadas": [],
+        "pregunta": "¿Cómo impugno una multa de la DIAN por una declaración de renta extemporánea?",
+        "respuesta": "La información solicitada queda fuera del corpus de la Ley 1801 de 2016.",
+        "modelo": "clasificador temático",
+        "total_generales": 0,
+        "total_estructurados": 0,
+        "validacion_documental": {
+          "estado": "FUERA_DE_DOMINIO",
+          "advertencias": []
+        }
+      },
+      "llamada_gemini_confirmada": false,
+      "estado_documental": "FUERA_DE_DOMINIO",
+      "rechazo_sin_fuentes": true
+    },
+    {
+      "id": "FD-023",
+      "pregunta": "¿Qué procedimiento aplica a un comparendo por exceso de velocidad?",
+      "http": 200,
+      "segundos": 0.032826,
+      "respuesta": {
+        "fuentes_recuperadas": [],
+        "pregunta": "¿Qué procedimiento aplica a un comparendo por exceso de velocidad?",
+        "respuesta": "La información solicitada queda fuera del corpus de la Ley 1801 de 2016.",
+        "modelo": "clasificador temático",
+        "total_generales": 0,
+        "total_estructurados": 0,
+        "validacion_documental": {
+          "estado": "FUERA_DE_DOMINIO",
+          "advertencias": []
+        }
+      },
+      "llamada_gemini_confirmada": false,
+      "estado_documental": "FUERA_DE_DOMINIO",
+      "rechazo_sin_fuentes": true
+    },
+    {
+      "id": "FD-024",
+      "pregunta": "¿Cuál es la multa por pasarse un semáforo en rojo?",
+      "http": 200,
+      "segundos": 0.027383,
+      "respuesta": {
+        "fuentes_recuperadas": [],
+        "pregunta": "¿Cuál es la multa por pasarse un semáforo en rojo?",
+        "respuesta": "La información solicitada queda fuera del corpus de la Ley 1801 de 2016.",
+        "modelo": "clasificador temático",
+        "total_generales": 0,
+        "total_estructurados": 0,
+        "validacion_documental": {
+          "estado": "FUERA_DE_DOMINIO",
+          "advertencias": []
+        }
+      },
+      "llamada_gemini_confirmada": false,
+      "estado_documental": "FUERA_DE_DOMINIO",
+      "rechazo_sin_fuentes": true
+    },
+    {
+      "id": "FD-028",
+      "pregunta": "¿Cuál es la multa de renta?",
+      "http": 200,
+      "segundos": 0.009349,
+      "respuesta": {
+        "fuentes_recuperadas": [],
+        "pregunta": "¿Cuál es la multa de renta?",
+        "respuesta": "La información solicitada queda fuera del corpus de la Ley 1801 de 2016.",
+        "modelo": "clasificador temático",
+        "total_generales": 0,
+        "total_estructurados": 0,
+        "validacion_documental": {
+          "estado": "FUERA_DE_DOMINIO",
+          "advertencias": []
+        }
+      },
+      "llamada_gemini_confirmada": false,
+      "estado_documental": "FUERA_DE_DOMINIO",
+      "rechazo_sin_fuentes": true
+    },
+    {
+      "id": "FD-029",
+      "pregunta": "¿Cuál es la multa por IVA?",
+      "http": 200,
+      "segundos": 0.008395,
+      "respuesta": {
+        "fuentes_recuperadas": [],
+        "pregunta": "¿Cuál es la multa por IVA?",
+        "respuesta": "La información solicitada queda fuera del corpus de la Ley 1801 de 2016.",
+        "modelo": "clasificador temático",
+        "total_generales": 0,
+        "total_estructurados": 0,
+        "validacion_documental": {
+          "estado": "FUERA_DE_DOMINIO",
+          "advertencias": []
+        }
+      },
+      "llamada_gemini_confirmada": false,
+      "estado_documental": "FUERA_DE_DOMINIO",
+      "rechazo_sin_fuentes": true
+    },
+    {
+      "id": "FD-030",
+      "pregunta": "¿Qué dice la Ley 1801 del comparendo de tránsito?",
+      "http": 200,
+      "segundos": 0.023939,
+      "respuesta": {
+        "fuentes_recuperadas": [],
+        "pregunta": "¿Qué dice la Ley 1801 del comparendo de tránsito?",
+        "respuesta": "La información solicitada queda fuera del corpus de la Ley 1801 de 2016.",
+        "modelo": "clasificador temático",
+        "total_generales": 0,
+        "total_estructurados": 0,
+        "validacion_documental": {
+          "estado": "FUERA_DE_DOMINIO",
+          "advertencias": []
+        }
+      },
+      "llamada_gemini_confirmada": false,
+      "estado_documental": "FUERA_DE_DOMINIO",
+      "rechazo_sin_fuentes": true
+    },
+    {
+      "id": "FD-031",
+      "pregunta": "¿Qué multa aplica por no pagar el impuesto predial?",
+      "http": 200,
+      "segundos": 0.008474,
+      "respuesta": {
+        "fuentes_recuperadas": [],
+        "pregunta": "¿Qué multa aplica por no pagar el impuesto predial?",
+        "respuesta": "La información solicitada queda fuera del corpus de la Ley 1801 de 2016.",
+        "modelo": "clasificador temático",
+        "total_generales": 0,
+        "total_estructurados": 0,
+        "validacion_documental": {
+          "estado": "FUERA_DE_DOMINIO",
+          "advertencias": []
+        }
+      },
+      "llamada_gemini_confirmada": false,
+      "estado_documental": "FUERA_DE_DOMINIO",
+      "rechazo_sin_fuentes": true
+    },
+    {
+      "id": "FD-032",
+      "pregunta": "¿La Ley 1801 dice cómo se objeta una multa por IVA?",
+      "http": 200,
+      "segundos": 0.025395,
+      "respuesta": {
+        "fuentes_recuperadas": [],
+        "pregunta": "¿La Ley 1801 dice cómo se objeta una multa por IVA?",
+        "respuesta": "La información solicitada queda fuera del corpus de la Ley 1801 de 2016.",
+        "modelo": "clasificador temático",
+        "total_generales": 0,
+        "total_estructurados": 0,
+        "validacion_documental": {
+          "estado": "FUERA_DE_DOMINIO",
+          "advertencias": []
+        }
+      },
+      "llamada_gemini_confirmada": false,
+      "estado_documental": "FUERA_DE_DOMINIO",
+      "rechazo_sin_fuentes": true
+    },
+    {
+      "id": "FD-033",
+      "pregunta": "Compara el comparendo de Policía de la Ley 1801 con un comparendo de tránsito.",
+      "http": 200,
+      "segundos": 0.008724,
+      "respuesta": {
+        "fuentes_recuperadas": [],
+        "pregunta": "Compara el comparendo de Policía de la Ley 1801 con un comparendo de tránsito.",
+        "respuesta": "La información solicitada queda fuera del corpus de la Ley 1801 de 2016.",
+        "modelo": "clasificador temático",
+        "total_generales": 0,
+        "total_estructurados": 0,
+        "validacion_documental": {
+          "estado": "FUERA_DE_DOMINIO",
+          "advertencias": []
+        }
+      },
+      "llamada_gemini_confirmada": false,
+      "estado_documental": "FUERA_DE_DOMINIO",
+      "rechazo_sin_fuentes": true
+    },
+    {
+      "id": "FD-034",
+      "pregunta": "¿Qué multa de la Ley 1801 corresponde al ruido y cuál se aplica por no pagar el impuesto predial?",
+      "http": 200,
+      "segundos": 0.010052,
+      "respuesta": {
+        "fuentes_recuperadas": [],
+        "pregunta": "¿Qué multa de la Ley 1801 corresponde al ruido y cuál se aplica por no pagar el impuesto predial?",
+        "respuesta": "La información solicitada queda fuera del corpus de la Ley 1801 de 2016.",
+        "modelo": "clasificador temático",
+        "total_generales": 0,
+        "total_estructurados": 0,
+        "validacion_documental": {
+          "estado": "FUERA_DE_DOMINIO",
+          "advertencias": []
+        }
+      },
+      "llamada_gemini_confirmada": false,
+      "estado_documental": "FUERA_DE_DOMINIO",
+      "rechazo_sin_fuentes": true
+    },
+    {
+      "id": "FD-037",
+      "pregunta": "¿Cuál es la multa por exceder la velocidad permitida?",
+      "http": 200,
+      "segundos": 0.023144,
+      "respuesta": {
+        "fuentes_recuperadas": [],
+        "pregunta": "¿Cuál es la multa por exceder la velocidad permitida?",
+        "respuesta": "La información solicitada queda fuera del corpus de la Ley 1801 de 2016.",
+        "modelo": "clasificador temático",
+        "total_generales": 0,
+        "total_estructurados": 0,
+        "validacion_documental": {
+          "estado": "FUERA_DE_DOMINIO",
+          "advertencias": []
+        }
+      },
+      "llamada_gemini_confirmada": false,
+      "estado_documental": "FUERA_DE_DOMINIO",
+      "rechazo_sin_fuentes": true
+    }
+  ],
+  "trampas_rechazadas": 26,
+  "consultas_banco": [],
+  "consultas_banco_http_200": 0,
+  "consultas_banco_generadas": 0,
+  "min_banco_s": null,
+  "p50_banco_s": null,
+  "p95_banco_s": null,
+  "banco_menos_de_10_s": 0,
+  "max_banco_s": null
+}

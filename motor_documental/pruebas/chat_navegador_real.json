@@ -1,0 +1,79 @@
+{
+  "url": "http://127.0.0.1:3000/",
+  "controles": [
+    {
+      "id": "RAG-051",
+      "pregunta": "¿Qué entiende el Código por convivencia y con qué elementos se relaciona?",
+      "respuesta": "De acuerdo con el artículo 5 de la Ley 1801 de 2016, el Código define la convivencia como la interacción pacífica, respetuosa y armónica que se establece entre tres elementos fundamentales:1. Las personas.2. Los bienes.3. El ambiente.Esta interacción debe desarrollarse siempre en el marco del ordenamiento jurídico.",
+      "citas": [],
+      "fuentes": [
+        {
+          "fragmento": "ARTÍCULO 5. DEFINICIÓN. Para los efectos de este Código, se entiende por convivencia, la interacción pacífica, respetuosa y armónica entre las personas, con los bienes, y con el ambiente, en el marco del ordenamiento jurídico.",
+          "url": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm"
+        }
+      ],
+      "evidenciaPlegada": true,
+      "anchoSinDesbordamiento": true
+    },
+    {
+      "id": "RAG-044",
+      "pregunta": "Un pasajero realiza comportamientos que afectan la convivencia dentro del transporte público. ¿Qué establece el Código?",
+      "respuesta": "No encontré respaldo suficiente en los fragmentos de la Ley 1801 de 2016.",
+      "citas": [],
+      "fuentes": [],
+      "evidenciaPlegada": false,
+      "anchoSinDesbordamiento": true
+    },
+    {
+      "id": "RAG-004",
+      "pregunta": "¿Qué comportamientos ponen en riesgo la vida e integridad de las personas?",
+      "respuesta": "No encontré respaldo suficiente en los fragmentos de la Ley 1801 de 2016.",
+      "citas": [],
+      "fuentes": [],
+      "evidenciaPlegada": false,
+      "anchoSinDesbordamiento": true
+    },
+    {
+      "id": "RAG-026",
+      "pregunta": "¿Qué atribuciones tienen los inspectores de Policía?",
+      "respuesta": "De acuerdo con el artículo 206 de la Ley 1801 de 2016, las atribuciones de los inspectores de convivencia y paz (rurales, urbanos y corregidores) son las siguientes:1. Conciliación: Tienen la facultad de conciliar para la solución de conflictos de convivencia, siempre que sea procedente (numeral 1).2. Conocimiento de comportamientos contrarios a la convivencia: Les corresponde conocer sobre los comportamientos contrarios a la convivencia en las siguientes materias: seguridad, tranquilidad, ambiente y recursos naturales, derecho de reunión, protección a los bienes y privacidad, actividad económica, urbanismo, espacio público y libertad de circulación (numeral 2).",
+      "citas": [
+        "Conciliación:",
+        "Conocimiento de comportamientos contrarios a la convivencia:"
+      ],
+      "fuentes": [
+        {
+          "fragmento": "ARTÍCULO 206. ATRIBUCIONES DE LOS INSPECTORES DE CONVIVENCIA Y PAZ RURALES, URBANOS Y CORREGIDORES. Les corresponde la aplicación de las siguientes medidas: 1. Conciliar para la solución de conflictos de convivencia, cuando sea procedente. 2. Conocer sobre los comportamientos contrarios a la convivencia en materia de seguridad, tranquilidad, ambiente y recursos naturales, derecho de reunión, protección a los bienes y privacidad, actividad económica, urbanismo, espacio público y libertad de circulación.",
+          "url": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#206"
+        }
+      ],
+      "evidenciaPlegada": true,
+      "anchoSinDesbordamiento": true
+    },
+    {
+      "id": "RAG-029",
+      "pregunta": "¿Qué procedimiento establece el artículo 223A para las multas tipo 1 a 4?",
+      "respuesta": "La disposición solicitada está fuera del alcance documental verificado del prototipo y requiere revisión antes de presentarse como aplicable.",
+      "citas": [],
+      "fuentes": [],
+      "evidenciaPlegada": false,
+      "anchoSinDesbordamiento": true
+    },
+    {
+      "id": "IMPUESTOS",
+      "pregunta": "¿Cuál es la multa por declarar renta tarde?",
+      "respuesta": "La información solicitada queda fuera del corpus de la Ley 1801 de 2016.",
+      "citas": [],
+      "fuentes": [],
+      "evidenciaPlegada": false,
+      "anchoSinDesbordamiento": true
+    }
+  ],
+  "interfaz": {
+    "historial": true,
+    "aviso": true,
+    "fragmentoVisible": true,
+    "reinicio": true,
+    "htmlSeguro": true
+  }
+}

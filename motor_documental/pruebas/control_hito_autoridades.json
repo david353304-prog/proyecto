@@ -1,0 +1,66 @@
+{
+  "estado_motor": {
+    "estado": "activo",
+    "modo_respuesta": "citas_extractivas",
+    "generacion_configurada": true,
+    "sha256_corpus_publicable": "806a037458a79c2b5ca346146426e3a6be6b448b65159b9f2b5257b6253437e5"
+  },
+  "filas": [
+    {
+      "id": "RAG-006",
+      "pregunta": "¿Qué comportamientos afectan las relaciones entre las personas y las autoridades de Policía?",
+      "http": 200,
+      "segundos": 4.947641,
+      "respuesta": {
+        "fuentes_recuperadas": [
+          {
+            "articulo": "35",
+            "numeral": "",
+            "titulo": "COMPORTAMIENTOS QUE AFECTAN LAS RELACIONES ENTRE LAS PERSONAS Y LAS AUTORIDADES",
+            "texto": "ARTÍCULO 35. COMPORTAMIENTOS QUE AFECTAN LAS RELACIONES ENTRE LAS PERSONAS Y LAS AUTORIDADES. 1. Irrespetar a las autoridades de Policía. 2. Incumplir, desacatar, desconocer e impedir la función o la orden de Policía. 3. Impedir, dificultar, obstaculizar o resistirse a procedimiento de identificación o individualización, por parte de las autoridades de Policía. 5. Ofrecer cualquier tipo de resistencia a la aplicación de una medida o la utilización de un medio de Policía. 6. Agredir por cualquier medio o lanzar objetos que puedan causar daño o sustancias que representen peligro a las autoridades de Policía. 7. Utilizar inadecuadamente el sistema de número único de seguridad y emergencia.",
+            "url_fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#35"
+          }
+        ],
+        "pregunta": "¿Qué comportamientos afectan las relaciones entre las personas y las autoridades de Policía?",
+        "respuesta": "**Numeral 1 del artículo 35.** «1. Irrespetar a las autoridades de Policía.»\n\n**Numeral 2 del artículo 35.** «2. Incumplir, desacatar, desconocer e impedir la función o la orden de Policía.»\n\n**Numeral 3 del artículo 35.** «3. Impedir, dificultar, obstaculizar o resistirse a procedimiento de identificación o individualización, por parte de las autoridades de Policía.»\n\n**Numeral 5 del artículo 35.** «5. Ofrecer cualquier tipo de resistencia a la aplicación de una medida o la utilización de un medio de Policía.»\n\n**Numeral 6 del artículo 35.** «6. Agredir por cualquier medio o lanzar objetos que puedan causar daño o sustancias que representen peligro a las autoridades de Policía.»\n\n**Numeral 7 del artículo 35.** «7. Utilizar inadecuadamente el sistema de número único de seguridad y emergencia.»\n\n**Alcance de los extractos.** Son supuestos generales. La sentencia C-223/25 no decidió de fondo sobre el numeral 1. Las citas no califican los hechos de una persona ni determinan una medida.",
+        "modelo": "gemini-3.1-flash-lite",
+        "total_generales": 1,
+        "total_estructurados": 0,
+        "validacion_documental": {
+          "estado": "PENDIENTE_VALIDACION",
+          "advertencias": []
+        }
+      },
+      "llamada_gemini_confirmada": true,
+      "estado_documental": "PENDIENTE_VALIDACION"
+    },
+    {
+      "id": "RAG-033",
+      "pregunta": "Una persona insulta y desobedece a un policía durante un procedimiento. ¿Qué comportamientos podrían estar relacionados?",
+      "http": 200,
+      "segundos": 1.776455,
+      "respuesta": {
+        "fuentes_recuperadas": [
+          {
+            "articulo": "35",
+            "numeral": "",
+            "titulo": "COMPORTAMIENTOS QUE AFECTAN LAS RELACIONES ENTRE LAS PERSONAS Y LAS AUTORIDADES",
+            "texto": "ARTÍCULO 35. COMPORTAMIENTOS QUE AFECTAN LAS RELACIONES ENTRE LAS PERSONAS Y LAS AUTORIDADES. 1. Irrespetar a las autoridades de Policía. 2. Incumplir, desacatar, desconocer e impedir la función o la orden de Policía. 3. Impedir, dificultar, obstaculizar o resistirse a procedimiento de identificación o individualización, por parte de las autoridades de Policía. 5. Ofrecer cualquier tipo de resistencia a la aplicación de una medida o la utilización de un medio de Policía. 6. Agredir por cualquier medio o lanzar objetos que puedan causar daño o sustancias que representen peligro a las autoridades de Policía. 7. Utilizar inadecuadamente el sistema de número único de seguridad y emergencia.",
+            "url_fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#35"
+          }
+        ],
+        "pregunta": "Una persona insulta y desobedece a un policía durante un procedimiento. ¿Qué comportamientos podrían estar relacionados?",
+        "respuesta": "**Numeral 1 del artículo 35.** «1. Irrespetar a las autoridades de Policía.»\n\n**Numeral 2 del artículo 35.** «2. Incumplir, desacatar, desconocer e impedir la función o la orden de Policía.»\n\n**Alcance de los extractos.** Son supuestos generales. La sentencia C-223/25 no decidió de fondo sobre el numeral 1. Las citas no califican los hechos de una persona ni determinan una medida.",
+        "modelo": "gemini-3.1-flash-lite",
+        "total_generales": 1,
+        "total_estructurados": 0,
+        "validacion_documental": {
+          "estado": "PENDIENTE_VALIDACION",
+          "advertencias": []
+        }
+      },
+      "llamada_gemini_confirmada": true,
+      "estado_documental": "PENDIENTE_VALIDACION"
+    }
+  ]
+}

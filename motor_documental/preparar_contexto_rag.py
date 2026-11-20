@@ -126,6 +126,8 @@ def preparar_contexto(
                     f"Fuente: {registro.get('fuente', 'No indicada')}",
                     f"URL: {registro.get('url_fuente', 'No indicada')}"
                 ])
+                if registro.get("alcance"):
+                    partes.append(f"Alcance documental del extracto: {registro['alcance']}")
 
     if estructurados:
         partes.append("\n=== REGISTROS ESTRUCTURADOS ===")

@@ -1,0 +1,14 @@
+{"consulta": 1, "evento": "inicio"}
+{"consulta": 1, "evento": "recuperacion", "segundos": 0.167014}
+{"consulta": 1, "evento": "contexto", "segundos": 2.4e-05, "sha256": "059e4c05282c1ace2ddcd2fb2dbece9643f9f3b18b11b9b8714e12addef1f89f"}
+{"consulta": 1, "evento": "intento", "segundos": 3.17752}
+{"consulta": 1, "evento": "generacion", "segundos": 3.295334}
+{"consulta": 1, "evento": "seleccion_citas", "segundos": 0.002691, "aceptada": false, "cantidad": 14, "citas": [{"articulo_en_contexto": true, "caracteres": 62, "literal": true}, {"articulo_en_contexto": true, "caracteres": 47, "literal": true}, {"articulo_en_contexto": true, "caracteres": 90, "literal": true}, {"articulo_en_contexto": true, "caracteres": 27, "literal": true}, {"articulo_en_contexto": true, "caracteres": 36, "literal": true}, {"articulo_en_contexto": true, "caracteres": 134, "literal": true}, {"articulo_en_contexto": true, "caracteres": 21, "literal": true}, {"articulo_en_contexto": true, "caracteres": 86, "literal": true}, {"articulo_en_contexto": true, "caracteres": 75, "literal": true}, {"articulo_en_contexto": true, "caracteres": 19, "literal": true}, {"articulo_en_contexto": true, "caracteres": 78, "literal": true}, {"articulo_en_contexto": true, "caracteres": 84, "literal": true}, {"articulo_en_contexto": true, "caracteres": 345, "literal": true}, {"articulo_en_contexto": true, "caracteres": 320, "literal": true}]}
+{"consulta": 1, "evento": "fin", "http": 200}
+{"consulta": 2, "evento": "inicio"}
+{"consulta": 2, "evento": "recuperacion", "segundos": 0.075363}
+{"consulta": 2, "evento": "contexto", "segundos": 5.8e-05, "sha256": "81c31bb4883281aea187c00bc78df441584440dcdbcdeb84a1c8ec93343c75eb"}
+{"consulta": 2, "evento": "intento", "segundos": 5.811841}
+{"consulta": 2, "evento": "generacion", "segundos": 5.818107}
+{"consulta": 2, "evento": "seleccion_citas", "segundos": 0.000344, "aceptada": false, "cantidad": 4, "citas": [{"articulo_en_contexto": true, "caracteres": 296, "literal": true}, {"articulo_en_contexto": true, "caracteres": 55, "literal": true}, {"articulo_en_contexto": true, "caracteres": 158, "literal": true}, {"articulo_en_contexto": true, "caracteres": 178, "literal": false}]}
+{"consulta": 2, "evento": "fin", "http": 200}

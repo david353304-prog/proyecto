@@ -1,0 +1,49 @@
+{"consulta": 1, "evento": "inicio"}
+{"consulta": 1, "evento": "recuperacion", "segundos": 0.035704}
+{"consulta": 1, "evento": "contexto", "segundos": 2.2e-05, "sha256": "0c517132a11a8a0a672d682765e6e6f4aa59c0e04b4bf1bb88c6ca219b757c25"}
+{"consulta": 1, "evento": "intento", "segundos": 2.073533}
+{"consulta": 1, "evento": "generacion", "segundos": 2.116659}
+{"consulta": 1, "evento": "seleccion_citas", "segundos": 0.001117, "aceptada": true, "seleccion_por_id": true, "cantidad": 3, "todos_en_catalogo": true, "catalogo": ["P1", "P2", "P3", "P4", "P5", "P6", "P7", "P8", "P9", "P10", "P11"], "ids": ["P1", "P2", "P7"]}
+{"consulta": 1, "evento": "validacion", "segundos": 0.011576, "estado": "PENDIENTE_VALIDACION"}
+{"consulta": 1, "evento": "fin", "http": 200}
+{"consulta": 2, "evento": "inicio"}
+{"consulta": 2, "evento": "recuperacion", "segundos": 0.024651}
+{"consulta": 2, "evento": "contexto", "segundos": 2.1e-05, "sha256": "81c31bb4883281aea187c00bc78df441584440dcdbcdeb84a1c8ec93343c75eb"}
+{"consulta": 2, "evento": "intento", "segundos": 1.712212}
+{"consulta": 2, "evento": "generacion", "segundos": 1.715982}
+{"consulta": 2, "evento": "seleccion_citas", "segundos": 0.000535, "aceptada": true, "seleccion_por_id": true, "cantidad": 1, "todos_en_catalogo": true, "catalogo": ["P1", "P2"], "ids": ["P1"]}
+{"consulta": 2, "evento": "validacion", "segundos": 0.000952, "estado": "PENDIENTE_VALIDACION"}
+{"consulta": 2, "evento": "fin", "http": 200}
+{"consulta": 3, "evento": "inicio"}
+{"consulta": 3, "evento": "recuperacion", "segundos": 0.045578}
+{"consulta": 3, "evento": "contexto", "segundos": 1.6e-05, "sha256": "3d5c0392b934d9f5e4f48d78e5308a214e7f9fc0911901cf3e14067804cfd5d8"}
+{"consulta": 3, "evento": "intento", "segundos": 0.159337, "error": "ClientError", "categoria": "limite_o_cuota", "http_proveedor": 429}
+{"consulta": 3, "evento": "intento", "segundos": 3.677848}
+{"consulta": 3, "evento": "generacion", "segundos": 5.972538}
+{"consulta": 3, "evento": "seleccion_citas", "segundos": 0.000416, "aceptada": true, "seleccion_por_id": true, "cantidad": 2, "todos_en_catalogo": true, "catalogo": ["P1", "P2", "P3", "P4"], "ids": ["P1", "P3"]}
+{"consulta": 3, "evento": "validacion", "segundos": 0.000773, "estado": "PENDIENTE_VALIDACION"}
+{"consulta": 3, "evento": "fin", "http": 200}
+{"consulta": 4, "evento": "inicio"}
+{"consulta": 4, "evento": "recuperacion", "segundos": 0.066708}
+{"consulta": 4, "evento": "contexto", "segundos": 1.7e-05, "sha256": "0c517132a11a8a0a672d682765e6e6f4aa59c0e04b4bf1bb88c6ca219b757c25"}
+{"consulta": 4, "evento": "intento", "segundos": 1.703214}
+{"consulta": 4, "evento": "generacion", "segundos": 1.706026}
+{"consulta": 4, "evento": "seleccion_citas", "segundos": 0.000203, "aceptada": true, "seleccion_por_id": true, "cantidad": 3, "todos_en_catalogo": true, "catalogo": ["P1", "P2", "P3", "P4", "P5", "P6", "P7", "P8", "P9", "P10", "P11"], "ids": ["P1", "P2", "P7"]}
+{"consulta": 4, "evento": "validacion", "segundos": 0.001293, "estado": "PENDIENTE_VALIDACION"}
+{"consulta": 4, "evento": "fin", "http": 200}
+{"consulta": 5, "evento": "inicio"}
+{"consulta": 5, "evento": "recuperacion", "segundos": 0.033868}
+{"consulta": 5, "evento": "contexto", "segundos": 1.7e-05, "sha256": "81c31bb4883281aea187c00bc78df441584440dcdbcdeb84a1c8ec93343c75eb"}
+{"consulta": 5, "evento": "intento", "segundos": 4.32327}
+{"consulta": 5, "evento": "generacion", "segundos": 4.328367}
+{"consulta": 5, "evento": "seleccion_citas", "segundos": 0.000194, "aceptada": true, "seleccion_por_id": true, "cantidad": 1, "todos_en_catalogo": true, "catalogo": ["P1", "P2"], "ids": ["P1"]}
+{"consulta": 5, "evento": "validacion", "segundos": 0.001364, "estado": "PENDIENTE_VALIDACION"}
+{"consulta": 5, "evento": "fin", "http": 200}
+{"consulta": 6, "evento": "inicio"}
+{"consulta": 6, "evento": "recuperacion", "segundos": 0.060403}
+{"consulta": 6, "evento": "contexto", "segundos": 1.8e-05, "sha256": "3d5c0392b934d9f5e4f48d78e5308a214e7f9fc0911901cf3e14067804cfd5d8"}
+{"consulta": 6, "evento": "intento", "segundos": 5.256958}
+{"consulta": 6, "evento": "generacion", "segundos": 5.26189}
+{"consulta": 6, "evento": "seleccion_citas", "segundos": 0.000225, "aceptada": true, "seleccion_por_id": true, "cantidad": 2, "todos_en_catalogo": true, "catalogo": ["P1", "P2", "P3", "P4"], "ids": ["P1", "P3"]}
+{"consulta": 6, "evento": "validacion", "segundos": 0.001063, "estado": "PENDIENTE_VALIDACION"}
+{"consulta": 6, "evento": "fin", "http": 200}

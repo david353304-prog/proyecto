@@ -1,0 +1,177 @@
+{
+  "url": "http://127.0.0.1:4098/",
+  "controles": [
+    {
+      "id": "RAG-033",
+      "pregunta": "Una persona insulta y desobedece a un policía durante un procedimiento. ¿Qué comportamientos podrían estar relacionados?",
+      "respuesta": "Numeral 1 del artículo 35. «1. Irrespetar a las autoridades de Policía.»Numeral 2 del artículo 35. «2. Incumplir, desacatar, desconocer e impedir la función o la orden de Policía.»Alcance de los extractos. Son supuestos generales. La sentencia C-223/25 no decidió de fondo sobre el numeral 1. Las citas no califican los hechos de una persona ni determinan una medida.",
+      "citas": [
+        "Numeral 1 del artículo 35.",
+        "Numeral 2 del artículo 35.",
+        "Alcance de los extractos."
+      ],
+      "fuentes": [
+        {
+          "fragmento": "ARTÍCULO 35. COMPORTAMIENTOS QUE AFECTAN LAS RELACIONES ENTRE LAS PERSONAS Y LAS AUTORIDADES. 1. Irrespetar a las autoridades de Policía. 2. Incumplir, desacatar, desconocer e impedir la función o la orden de Policía. 3. Impedir, dificultar, obstaculizar o resistirse a procedimiento de identificación o individualización, por parte de las autoridades de Policía. 5. Ofrecer cualquier tipo de resistencia a la aplicación de una medida o la utilización de un medio de Policía. 6. Agredir por cualquier medio o lanzar objetos que puedan causar daño o sustancias que representen peligro a las autoridades de Policía. 7. Utilizar inadecuadamente el sistema de número único de seguridad y emergencia.",
+          "url": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#35"
+        }
+      ],
+      "evidenciaPlegada": true,
+      "anchoSinDesbordamiento": true,
+      "grupos": [],
+      "inicioVisible": false
+    },
+    {
+      "id": "RAG-008",
+      "pregunta": "¿Qué comportamientos afectan la integridad de niños, niñas y adolescentes?",
+      "respuesta": "Numeral 1 del artículo 38. «1. Permitir, auspiciar, tolerar, inducir o constreñir el ingreso de los niños, niñas y adolescentes a los lugares donde:»Literal a del numeral 1 del artículo 38. «a) Se realicen espectáculos o actividades cinematográficas aptas solo para mayores de 18 años;»Literal b del numeral 1 del artículo 38. «b) Se preste el servicio de videojuegos salvo que sean aptos para la edad del niño, niña o adolescente, en las condiciones establecidas por la Ley 1554 de 2012;»Literal c del numeral 1 del artículo 38. «c) Se practiquen actividades peligrosas, de acuerdo con la reglamentación establecida por el Gobierno nacional;»Literal d del numeral 1 del artículo 38. «d) Se realicen actividades sexuales o pornográficas, o se ejerza la prostitución, o la explotación sexual;»Literal e del numeral 1 del artículo 38. «e) Se realicen actividades de diversión destinadas al consumo de bebidas alcohólicas y consumo de cigarrillo, tabaco y sus derivados y sustancias psicoactivas;»Literal f del numeral 1 del artículo 38. «f) Se desarrollen juegos de suerte y azar localizados;»Numeral 2 del artículo 38. «2. Inducir, engañar o realizar cualquier acción para que los niños, niñas y adolescentes ingresen o participen de actividades que les están prohibidas por las normas vigentes.»Numeral 3 del artículo 38. «3. Permitir o inducir a los niños, niñas y adolescentes a utilizar las telecomunicaciones, publicaciones y documentos para acceder a material pornográfico.»Numeral 5 del artículo 38. «5. Facilitar, distribuir, ofrecer, comercializar, prestar o alquilar, cualquiera de los siguientes elementos, sustancias o bebidas, a niños, niñas o adolescentes:»Literal a del numeral 5 del artículo 38. «a) Material pornográfico;»Literal b del numeral 5 del artículo 38. «b) Bebidas alcohólicas, cigarrillo, tabaco y sus derivados, sustancias psicoactivas o cualquier sustancia que afecte su salud;»Literal c del numeral 5 del artículo 38. «c) Pólvora o sustancias prohibidas;»Literal d del numeral 5 del artículo 38. «d) Armas, neumáticas o de aire, o que se asimilen a estas, elementos cortantes, punzantes, contundentes o sus combinaciones;»Numeral 6 del artículo 38. «6. Inducir a niños, niñas o adolescentes a:»Literal a del numeral 6 del artículo 38. «a) Consumir bebidas alcohólicas, cigarrillo, tabaco y sus derivados, sustancias psicoactivas o cualquier sustancia que afecte su salud;»Literal b del numeral 6 del artículo 38. «b) Participar en juegos de suerte y azar;»Literal c del numeral 6 del artículo 38. «c) Ingresar a fiestas o eventos similares en los cuales exista previa restricción de edad por parte de las autoridades de policía, o esté prohibido su ingreso por las normas vigentes.»Literal d del numeral 6 del artículo 38. «d) La explotación laboral.»Numeral 8 del artículo 38. «8. Ejercer, permitir, favorecer o propiciar el abuso, los actos y la explotación sexual de niños, niñas o adolescentes.»Numeral 9 del artículo 38. «9. Utilizar a niños, niñas y adolescentes para evitar el cumplimiento de una orden de policía.»Numeral 10 del artículo 38. «10. Permitir que los niños, niñas y adolescentes hagan uso de piscinas y estructuras similares, de uso colectivo o de propiedad privada unihabitacional, sin el cumplimiento de los requisitos establecidos por la Ley 1209 de 2008 y las normas que la adicionen o modifiquen.»Numeral 11 del artículo 38. «11. Permitir que los niños, niñas y adolescentes sean parte de confrontaciones violentas que puedan derivar en agresiones físicas.»",
+      "citas": [
+        "Numeral 1 del artículo 38.",
+        "Literal a del numeral 1 del artículo 38.",
+        "Literal b del numeral 1 del artículo 38.",
+        "Literal c del numeral 1 del artículo 38.",
+        "Literal d del numeral 1 del artículo 38.",
+        "Literal e del numeral 1 del artículo 38.",
+        "Literal f del numeral 1 del artículo 38.",
+        "Numeral 2 del artículo 38.",
+        "Numeral 3 del artículo 38.",
+        "Numeral 5 del artículo 38.",
+        "Literal a del numeral 5 del artículo 38.",
+        "Literal b del numeral 5 del artículo 38.",
+        "Literal c del numeral 5 del artículo 38.",
+        "Literal d del numeral 5 del artículo 38.",
+        "Numeral 6 del artículo 38.",
+        "Literal a del numeral 6 del artículo 38.",
+        "Literal b del numeral 6 del artículo 38.",
+        "Literal c del numeral 6 del artículo 38.",
+        "Literal d del numeral 6 del artículo 38.",
+        "Numeral 8 del artículo 38.",
+        "Numeral 9 del artículo 38.",
+        "Numeral 10 del artículo 38.",
+        "Numeral 11 del artículo 38."
+      ],
+      "fuentes": [
+        {
+          "fragmento": "ARTÍCULO 38. COMPORTAMIENTOS QUE AFECTAN LA INTEGRIDAD DE NIÑOS, NIÑAS Y ADOLESCENTES. 1. Permitir, auspiciar, tolerar, inducir o constreñir el ingreso de los niños, niñas y adolescentes a los lugares donde: a) Se realicen espectáculos o actividades cinematográficas aptas solo para mayores de 18 años; b) Se preste el servicio de videojuegos salvo que sean aptos para la edad del niño, niña o adolescente, en las condiciones establecidas por la Ley 1554 de 2012; c) Se practiquen actividades peligrosas, de acuerdo con la reglamentación establecida por el Gobierno nacional; d) Se realicen actividades sexuales o pornográficas, o se ejerza la prostitución, o la explotación sexual; e) Se realicen actividades de diversión destinadas al consumo de bebidas alcohólicas y consumo de cigarrillo, tabaco y sus derivados y sustancias psicoactivas; f) Se desarrollen juegos de suerte y azar localizados; 2. Inducir, engañar o realizar cualquier acción para que los niños, niñas y adolescentes ingresen o participen de actividades que les están prohibidas por las normas vigentes. 3. Permitir o inducir a los niños, niñas y adolescentes a utilizar las telecomunicaciones, publicaciones y documentos para acceder a material pornográfico. 5. Facilitar, distribuir, ofrecer, comercializar, prestar o alquilar, cualquiera de los siguientes elementos, sustancias o bebidas, a niños, niñas o adolescentes: a) Material pornográfico; b) Bebidas alcohólicas, cigarrillo, tabaco y sus derivados, sustancias psicoactivas o cualquier sustancia que afecte su salud; c) Pólvora o sustancias prohibidas; d) Armas, neumáticas o de aire, o que se asimilen a estas, elementos cortantes, punzantes, contundentes o sus combinaciones; 6. Inducir a niños, niñas o adolescentes a: a) Consumir bebidas alcohólicas, cigarrillo, tabaco y sus derivados, sustancias psicoactivas o cualquier sustancia que afecte su salud; b) Participar en juegos de suerte y azar; c) Ingresar a fiestas o eventos similares en los cuales exista previa restricción de edad por parte de las autoridades de policía, o esté prohibido su ingreso por las normas vigentes. d) La explotación laboral. 8. Ejercer, permitir, favorecer o propiciar el abuso, los actos y la explotación sexual de niños, niñas o adolescentes. 9. Utilizar a niños, niñas y adolescentes para evitar el cumplimiento de una orden de policía. 10. Permitir que los niños, niñas y adolescentes hagan uso de piscinas y estructuras similares, de uso colectivo o de propiedad privada unihabitacional, sin el cumplimiento de los requisitos establecidos por la Ley 1209 de 2008 y las normas que la adicionen o modifiquen. 11. Permitir que los niños, niñas y adolescentes sean parte de confrontaciones violentas que puedan derivar en agresiones físicas.",
+          "url": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#38"
+        }
+      ],
+      "evidenciaPlegada": true,
+      "anchoSinDesbordamiento": true,
+      "grupos": [],
+      "inicioVisible": true
+    },
+    {
+      "id": "RAG-034",
+      "pregunta": "Un establecimiento permite situaciones que ponen en riesgo la integridad de menores de edad. ¿Qué establece el Código?",
+      "respuesta": "Numeral 1 del artículo 38. «1. Permitir, auspiciar, tolerar, inducir o constreñir el ingreso de los niños, niñas y adolescentes a los lugares donde:»Literal a del numeral 1 del artículo 38. «a) Se realicen espectáculos o actividades cinematográficas aptas solo para mayores de 18 años;»Literal b del numeral 1 del artículo 38. «b) Se preste el servicio de videojuegos salvo que sean aptos para la edad del niño, niña o adolescente, en las condiciones establecidas por la Ley 1554 de 2012;»Literal c del numeral 1 del artículo 38. «c) Se practiquen actividades peligrosas, de acuerdo con la reglamentación establecida por el Gobierno nacional;»Literal d del numeral 1 del artículo 38. «d) Se realicen actividades sexuales o pornográficas, o se ejerza la prostitución, o la explotación sexual;»Literal e del numeral 1 del artículo 38. «e) Se realicen actividades de diversión destinadas al consumo de bebidas alcohólicas y consumo de cigarrillo, tabaco y sus derivados y sustancias psicoactivas;»Literal f del numeral 1 del artículo 38. «f) Se desarrollen juegos de suerte y azar localizados;»Numeral 2 del artículo 38. «2. Inducir, engañar o realizar cualquier acción para que los niños, niñas y adolescentes ingresen o participen de actividades que les están prohibidas por las normas vigentes.»Numeral 3 del artículo 38. «3. Permitir o inducir a los niños, niñas y adolescentes a utilizar las telecomunicaciones, publicaciones y documentos para acceder a material pornográfico.»Numeral 5 del artículo 38. «5. Facilitar, distribuir, ofrecer, comercializar, prestar o alquilar, cualquiera de los siguientes elementos, sustancias o bebidas, a niños, niñas o adolescentes:»Literal a del numeral 5 del artículo 38. «a) Material pornográfico;»Literal b del numeral 5 del artículo 38. «b) Bebidas alcohólicas, cigarrillo, tabaco y sus derivados, sustancias psicoactivas o cualquier sustancia que afecte su salud;»Literal c del numeral 5 del artículo 38. «c) Pólvora o sustancias prohibidas;»Literal d del numeral 5 del artículo 38. «d) Armas, neumáticas o de aire, o que se asimilen a estas, elementos cortantes, punzantes, contundentes o sus combinaciones;»Numeral 6 del artículo 38. «6. Inducir a niños, niñas o adolescentes a:»Literal a del numeral 6 del artículo 38. «a) Consumir bebidas alcohólicas, cigarrillo, tabaco y sus derivados, sustancias psicoactivas o cualquier sustancia que afecte su salud;»Literal b del numeral 6 del artículo 38. «b) Participar en juegos de suerte y azar;»Literal c del numeral 6 del artículo 38. «c) Ingresar a fiestas o eventos similares en los cuales exista previa restricción de edad por parte de las autoridades de policía, o esté prohibido su ingreso por las normas vigentes.»Literal d del numeral 6 del artículo 38. «d) La explotación laboral.»Numeral 8 del artículo 38. «8. Ejercer, permitir, favorecer o propiciar el abuso, los actos y la explotación sexual de niños, niñas o adolescentes.»Numeral 9 del artículo 38. «9. Utilizar a niños, niñas y adolescentes para evitar el cumplimiento de una orden de policía.»Numeral 10 del artículo 38. «10. Permitir que los niños, niñas y adolescentes hagan uso de piscinas y estructuras similares, de uso colectivo o de propiedad privada unihabitacional, sin el cumplimiento de los requisitos establecidos por la Ley 1209 de 2008 y las normas que la adicionen o modifiquen.»Numeral 11 del artículo 38. «11. Permitir que los niños, niñas y adolescentes sean parte de confrontaciones violentas que puedan derivar en agresiones físicas.»",
+      "citas": [
+        "Numeral 1 del artículo 38.",
+        "Literal a del numeral 1 del artículo 38.",
+        "Literal b del numeral 1 del artículo 38.",
+        "Literal c del numeral 1 del artículo 38.",
+        "Literal d del numeral 1 del artículo 38.",
+        "Literal e del numeral 1 del artículo 38.",
+        "Literal f del numeral 1 del artículo 38.",
+        "Numeral 2 del artículo 38.",
+        "Numeral 3 del artículo 38.",
+        "Numeral 5 del artículo 38.",
+        "Literal a del numeral 5 del artículo 38.",
+        "Literal b del numeral 5 del artículo 38.",
+        "Literal c del numeral 5 del artículo 38.",
+        "Literal d del numeral 5 del artículo 38.",
+        "Numeral 6 del artículo 38.",
+        "Literal a del numeral 6 del artículo 38.",
+        "Literal b del numeral 6 del artículo 38.",
+        "Literal c del numeral 6 del artículo 38.",
+        "Literal d del numeral 6 del artículo 38.",
+        "Numeral 8 del artículo 38.",
+        "Numeral 9 del artículo 38.",
+        "Numeral 10 del artículo 38.",
+        "Numeral 11 del artículo 38."
+      ],
+      "fuentes": [
+        {
+          "fragmento": "ARTÍCULO 38. COMPORTAMIENTOS QUE AFECTAN LA INTEGRIDAD DE NIÑOS, NIÑAS Y ADOLESCENTES. 1. Permitir, auspiciar, tolerar, inducir o constreñir el ingreso de los niños, niñas y adolescentes a los lugares donde: a) Se realicen espectáculos o actividades cinematográficas aptas solo para mayores de 18 años; b) Se preste el servicio de videojuegos salvo que sean aptos para la edad del niño, niña o adolescente, en las condiciones establecidas por la Ley 1554 de 2012; c) Se practiquen actividades peligrosas, de acuerdo con la reglamentación establecida por el Gobierno nacional; d) Se realicen actividades sexuales o pornográficas, o se ejerza la prostitución, o la explotación sexual; e) Se realicen actividades de diversión destinadas al consumo de bebidas alcohólicas y consumo de cigarrillo, tabaco y sus derivados y sustancias psicoactivas; f) Se desarrollen juegos de suerte y azar localizados; 2. Inducir, engañar o realizar cualquier acción para que los niños, niñas y adolescentes ingresen o participen de actividades que les están prohibidas por las normas vigentes. 3. Permitir o inducir a los niños, niñas y adolescentes a utilizar las telecomunicaciones, publicaciones y documentos para acceder a material pornográfico. 5. Facilitar, distribuir, ofrecer, comercializar, prestar o alquilar, cualquiera de los siguientes elementos, sustancias o bebidas, a niños, niñas o adolescentes: a) Material pornográfico; b) Bebidas alcohólicas, cigarrillo, tabaco y sus derivados, sustancias psicoactivas o cualquier sustancia que afecte su salud; c) Pólvora o sustancias prohibidas; d) Armas, neumáticas o de aire, o que se asimilen a estas, elementos cortantes, punzantes, contundentes o sus combinaciones; 6. Inducir a niños, niñas o adolescentes a: a) Consumir bebidas alcohólicas, cigarrillo, tabaco y sus derivados, sustancias psicoactivas o cualquier sustancia que afecte su salud; b) Participar en juegos de suerte y azar; c) Ingresar a fiestas o eventos similares en los cuales exista previa restricción de edad por parte de las autoridades de policía, o esté prohibido su ingreso por las normas vigentes. d) La explotación laboral. 8. Ejercer, permitir, favorecer o propiciar el abuso, los actos y la explotación sexual de niños, niñas o adolescentes. 9. Utilizar a niños, niñas y adolescentes para evitar el cumplimiento de una orden de policía. 10. Permitir que los niños, niñas y adolescentes hagan uso de piscinas y estructuras similares, de uso colectivo o de propiedad privada unihabitacional, sin el cumplimiento de los requisitos establecidos por la Ley 1209 de 2008 y las normas que la adicionen o modifiquen. 11. Permitir que los niños, niñas y adolescentes sean parte de confrontaciones violentas que puedan derivar en agresiones físicas.",
+          "url": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#38"
+        }
+      ],
+      "evidenciaPlegada": true,
+      "anchoSinDesbordamiento": true,
+      "grupos": [],
+      "inicioVisible": true
+    },
+    {
+      "id": "RAG-044",
+      "pregunta": "Un pasajero realiza comportamientos que afectan la convivencia dentro del transporte público. ¿Qué establece el Código?",
+      "respuesta": "Conductas y disposicionesNumeral 5 del artículo 146. «5. Agredir, empujar o irrespetar a las demás personas durante el acceso, permanencia o salida de estos.»Numeral 7 del artículo 146. «7. Evadir el pago de la tarifa, validación, tiquete o medios que utilicen los usuarios para acceder a la prestación del servicio esencial de transporte público de pasajeros, en cualquiera de sus modalidades.»Numeral 8 del artículo 146. «8. Destruir, obstruir, alterar o dañar los sistemas de alarma o emergencia de los vehículos destinados al transporte público o sus señales indicativas.»Numeral 9 del artículo 146. «9. Obstaculizar o impedir la movilidad o el flujo de usuarios en estos sistemas.»Numeral 11 del artículo 146. «11. Perturbar en los medios de transporte públicos, la tranquilidad de los demás ocupantes mediante cualquier acto molesto;»Numeral 12 del artículo 146. «12. Ingresar y salir de las estaciones o portales por sitios distintos a las puertas designadas para el efecto.»Numeral 16 del artículo 146. «16. Irrespetar a las autoridades del sistema.»Medidas correctivasNumeral 5 del artículo 146. «Numeral 5 Multa General Tipo 1»Numeral 7 del artículo 146. «Numeral 7 Multa General tipo 2»Numeral 8 del artículo 146. «Numeral 8 Multa General tipo 4»Numeral 9 del artículo 146. «Numeral 9 Multa General tipo 3»Numeral 11 del artículo 146. «Numeral 11 Amonestación»Numeral 12 del artículo 146. «Numeral 12 Multa General tipo 1»Numeral 16 del artículo 146. «Numeral 16 Multa General Tipo 3.»",
+      "citas": [
+        "Numeral 5 del artículo 146.",
+        "Numeral 7 del artículo 146.",
+        "Numeral 8 del artículo 146.",
+        "Numeral 9 del artículo 146.",
+        "Numeral 11 del artículo 146.",
+        "Numeral 12 del artículo 146.",
+        "Numeral 16 del artículo 146.",
+        "Numeral 5 del artículo 146.",
+        "Numeral 7 del artículo 146.",
+        "Numeral 8 del artículo 146.",
+        "Numeral 9 del artículo 146.",
+        "Numeral 11 del artículo 146.",
+        "Numeral 12 del artículo 146.",
+        "Numeral 16 del artículo 146."
+      ],
+      "fuentes": [
+        {
+          "fragmento": "Los siguientes comportamientos son contrarios a la convivencia en los sistemas de transporte público colectivo e individual de pasajeros y por lo tanto no deben efectuarse: 1. Realizar o permitir el control informal de los tiempos durante el rodamiento del vehículo, mientras se encuentran estos en circulación. 2. Impedir el ingreso o salida prioritaria a mujer embarazada, adulto mayor, persona con niños o niñas, o personas con discapacidad. 3. Transportar mascotas en vehículos de transporte público incumpliendo la reglamentación establecida para tales efectos por la autoridad competente. 4. Irrespetar la enumeración y los turnos establecidos en estos medios, así como el sistema de sillas preferenciales, y no ceder el lugar a otra persona por su condición vulnerable. 5. Agredir, empujar o irrespetar a las demás personas durante el acceso, permanencia o salida de estos. 6. Consumir alimentos, bebidas o derivados del tabaco o sustancias cuando estén prohibidas. 7. Evadir el pago de la tarifa, validación, tiquete o medios que utilicen los usuarios para acceder a la prestación del servicio esencial de transporte público de pasajeros, en cualquiera de sus modalidades. 8. Destruir, obstruir, alterar o dañar los sistemas de alarma o emergencia de los vehículos destinados al transporte público o sus señales indicativas. 9. Obstaculizar o impedir la movilidad o el flujo de usuarios en estos sistemas. 10. Poner en peligro la seguridad operacional de los sistemas de transporte masivo, colectivo o individual, aéreo, fluvial o terrestre, con los siguientes comportamientos: a) Operar durante el vuelo o sus fases preparatorias, teléfonos móviles, radios transmisores o receptores portátiles, computadoras y demás equipos electrónicos, que puedan interferir con los sistemas de vuelo, comunicaciones o navegación aérea, contrariando las indicaciones de la tripulación; b) Transitar, sin autorización de la autoridad aeronáutica, por las pistas de los aeropuertos, rampas o calles de rodaje; c) Introducir, sin autorización de las autoridades aeronáuticas, bienes muebles a las pistas, rampas o calles de rodaje de los aeropuertos; d) Operar, sin autorización de la autoridad aeronáutica, vehículos aéreos ultralivianos en aeropuertos controlados, parapentes, aeromodelos, paracaídas, cometas tripuladas o no, y demás artefactos de aviación deportiva cerca de las cabeceras de las pistas o dentro de sus zonas de aproximación; e) Sustraer, o hacer mal uso de los chalecos salvavidas y demás equipos para la atención en los sistemas de transporte público; f) Resistirse a los procesos de seguridad en los filtros de los sistemas de transporte público; g) Introducir al medio de transporte cualquier sustancia o elemento que pueda poner en peligro la salud de los tripulantes y demás pasajeros; h) Contravenir las obligaciones que se determinen en los reglamentos y/o manuales de uso y operación, que establezcan las autoridades encargadas al respecto; 11. Perturbar en los medios de transporte públicos, la tranquilidad de los demás ocupantes mediante cualquier acto molesto; 12. Ingresar y salir de las estaciones o portales por sitios distintos a las puertas designadas para el efecto. 13. Alterar, manipular, deteriorar, destruir o forzar, las puertas de las estaciones o de los buses articulados, metro, tranvía, vehículo férreo, cable aéreo, o de los diferentes medios de transporte de los sistemas de servicio público urbano de transporte masivo de pasajeros, impedir su uso y funcionamiento normal, salvo en situaciones de emergencia. 14. Omitir, por parte de las empresas prestadoras del servicio de transporte, el deber de mantener los vehículos de transporte público en condiciones de aseo óptimas para la prestación del servicio. 15. Perturbar en los medios de transporte públicos, la tranquilidad de los demás ocupantes mediante cualquier acto obsceno. 16. Irrespetar a las autoridades del sistema. Numeral 1 Amonestación Numeral 2 Multa General Tipo 1 Numeral 3 Multa General tipo 2 Numeral 4 Amonestación Numeral 5 Multa General Tipo 1 Numeral 6 Multa General Tipo 1",
+          "url": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#146"
+        },
+        {
+          "fragmento": "Numeral 7 Multa General tipo 2 Numeral 8 Multa General tipo 4 Numeral 9 Multa General tipo 3 Numeral 10 Multa General tipo 4 Numeral 11 Amonestación Numeral 12 Multa General tipo 1 Numeral 13 Multa General tipo 3; Reparación de daños materiales de muebles o inmuebles Numeral 14 Multa General Tipo 3. Numeral 15 Multa General Tipo 4. Numeral 16 Multa General Tipo 3.",
+          "url": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#146"
+        }
+      ],
+      "evidenciaPlegada": true,
+      "anchoSinDesbordamiento": true,
+      "grupos": [
+        "Conductas y disposiciones",
+        "Medidas correctivas"
+      ],
+      "inicioVisible": true
+    },
+    {
+      "id": "RAG-029",
+      "pregunta": "¿Qué procedimiento establece el artículo 223A para las multas tipo 1 a 4?",
+      "respuesta": "La disposición solicitada está fuera del alcance documental verificado del prototipo y requiere revisión antes de presentarse como aplicable.",
+      "citas": [],
+      "fuentes": [],
+      "evidenciaPlegada": false,
+      "anchoSinDesbordamiento": true,
+      "grupos": [],
+      "inicioVisible": false
+    },
+    {
+      "id": "IMPUESTOS",
+      "pregunta": "¿Cuál es la multa por declarar renta tarde?",
+      "respuesta": "La información solicitada queda fuera del corpus de la Ley 1801 de 2016.",
+      "citas": [],
+      "fuentes": [],
+      "evidenciaPlegada": false,
+      "anchoSinDesbordamiento": true,
+      "grupos": [],
+      "inicioVisible": false
+    }
+  ],
+  "interfaz": {
+    "historial": true,
+    "aviso": true,
+    "fragmentoVisible": true,
+    "reinicio": true,
+    "htmlSeguro": true
+  },
+  "errorSimulado": {
+    "mensaje": "El motor documental no está disponible.",
+    "clase": "mensaje mensaje-error",
+    "sinFuentes": true
+  }
+}

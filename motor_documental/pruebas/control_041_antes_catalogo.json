@@ -1,0 +1,30 @@
+{
+  "estado_motor": {
+    "estado": "activo",
+    "modo_respuesta": "citas_extractivas",
+    "generacion_configurada": true,
+    "sha256_corpus_publicable": "13d9f322bc8d85fbca763e0264838f6b984ff786f5bef132349d2c1eade58f0e"
+  },
+  "filas": [
+    {
+      "id": "RAG-041",
+      "pregunta": "El dueño de un animal lo deja deambular sin control y pone en riesgo a otras personas. ¿Qué establece el Código?",
+      "http": 200,
+      "segundos": 1.939396,
+      "respuesta": {
+        "fuentes_recuperadas": [],
+        "pregunta": "El dueño de un animal lo deja deambular sin control y pone en riesgo a otras personas. ¿Qué establece el Código?",
+        "respuesta": "No encontré respaldo suficiente en los fragmentos de la Ley 1801 de 2016.",
+        "modelo": "gemini-3.1-flash-lite",
+        "total_generales": 1,
+        "total_estructurados": 0,
+        "validacion_documental": {
+          "estado": "REQUIERE_REVISION",
+          "advertencias": []
+        }
+      },
+      "llamada_gemini_confirmada": true,
+      "estado_documental": "REQUIERE_REVISION"
+    }
+  ]
+}

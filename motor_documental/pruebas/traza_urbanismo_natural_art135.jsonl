@@ -1,0 +1,8 @@
+{"consulta": 1, "evento": "inicio"}
+{"consulta": 1, "evento": "recuperacion", "segundos": 0.015363}
+{"consulta": 1, "evento": "contexto", "segundos": 1.3e-05, "sha256": "4473a2c7f5281f9d807316c0856515421f52b36927be87eae23fbd3339c2e738"}
+{"consulta": 1, "evento": "intento", "segundos": 2.817167}
+{"consulta": 1, "evento": "generacion", "segundos": 2.858697}
+{"consulta": 1, "evento": "seleccion_citas", "segundos": 0.00307, "aceptada": true, "seleccion_por_id": true, "cantidad": 5, "todos_en_catalogo": true, "catalogo": ["P1", "P2", "P3", "P4", "P5"], "ids": ["P1", "P2", "P3", "P4", "P5"]}
+{"consulta": 1, "evento": "validacion", "segundos": 0.009296, "estado": "PENDIENTE_VALIDACION"}
+{"consulta": 1, "evento": "fin", "http": 200}

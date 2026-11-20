@@ -34,3 +34,6 @@ motor_documental/pruebas/indices_generados_135/
 
 # Documentos PDF cargados por usuarios
 /motor_documental/documentos_subidos/
+
+# PDF histórico conservado localmente. Su redistribución no está acreditada.
+/motor_documental/corpus/Ley_1801_de_2016.pdf

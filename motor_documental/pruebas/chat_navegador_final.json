@@ -1,0 +1,170 @@
+{
+  "url": "http://127.0.0.1:4098/",
+  "controles": [
+    {
+      "id": "RAG-051",
+      "pregunta": "¿Qué entiende el Código por convivencia y con qué elementos se relaciona?",
+      "respuesta": "Artículo 5. «Para los efectos de este Código, se entiende por convivencia, la interacción pacífica, respetuosa y armónica entre las personas, con los bienes, y con el ambiente, en el marco del ordenamiento jurídico.»",
+      "citas": [
+        "Artículo 5."
+      ],
+      "fuentes": [
+        {
+          "fragmento": "ARTÍCULO 5. DEFINICIÓN. Para los efectos de este Código, se entiende por convivencia, la interacción pacífica, respetuosa y armónica entre las personas, con los bienes, y con el ambiente, en el marco del ordenamiento jurídico.",
+          "url": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm"
+        }
+      ],
+      "evidenciaPlegada": true,
+      "anchoSinDesbordamiento": true,
+      "grupos": [],
+      "inicioVisible": false
+    },
+    {
+      "id": "RAG-044",
+      "pregunta": "Un pasajero realiza comportamientos que afectan la convivencia dentro del transporte público. ¿Qué establece el Código?",
+      "respuesta": "Conductas y disposicionesNumeral 5 del artículo 146. «5. Agredir, empujar o irrespetar a las demás personas durante el acceso, permanencia o salida de estos.»Numeral 7 del artículo 146. «7. Evadir el pago de la tarifa, validación, tiquete o medios que utilicen los usuarios para acceder a la prestación del servicio esencial de transporte público de pasajeros, en cualquiera de sus modalidades.»Numeral 8 del artículo 146. «8. Destruir, obstruir, alterar o dañar los sistemas de alarma o emergencia de los vehículos destinados al transporte público o sus señales indicativas.»Numeral 9 del artículo 146. «9. Obstaculizar o impedir la movilidad o el flujo de usuarios en estos sistemas.»Numeral 11 del artículo 146. «11. Perturbar en los medios de transporte públicos, la tranquilidad de los demás ocupantes mediante cualquier acto molesto;»Numeral 12 del artículo 146. «12. Ingresar y salir de las estaciones o portales por sitios distintos a las puertas designadas para el efecto.»Numeral 16 del artículo 146. «16. Irrespetar a las autoridades del sistema.»Medidas correctivasNumeral 5 del artículo 146. «Numeral 5 Multa General Tipo 1»Numeral 7 del artículo 146. «Numeral 7 Multa General tipo 2»Numeral 8 del artículo 146. «Numeral 8 Multa General tipo 4»Numeral 9 del artículo 146. «Numeral 9 Multa General tipo 3»Numeral 11 del artículo 146. «Numeral 11 Amonestación»Numeral 12 del artículo 146. «Numeral 12 Multa General tipo 1»Numeral 16 del artículo 146. «Numeral 16 Multa General Tipo 3.»",
+      "citas": [
+        "Numeral 5 del artículo 146.",
+        "Numeral 7 del artículo 146.",
+        "Numeral 8 del artículo 146.",
+        "Numeral 9 del artículo 146.",
+        "Numeral 11 del artículo 146.",
+        "Numeral 12 del artículo 146.",
+        "Numeral 16 del artículo 146.",
+        "Numeral 5 del artículo 146.",
+        "Numeral 7 del artículo 146.",
+        "Numeral 8 del artículo 146.",
+        "Numeral 9 del artículo 146.",
+        "Numeral 11 del artículo 146.",
+        "Numeral 12 del artículo 146.",
+        "Numeral 16 del artículo 146."
+      ],
+      "fuentes": [
+        {
+          "fragmento": "Los siguientes comportamientos son contrarios a la convivencia en los sistemas de transporte público colectivo e individual de pasajeros y por lo tanto no deben efectuarse: 1. Realizar o permitir el control informal de los tiempos durante el rodamiento del vehículo, mientras se encuentran estos en circulación. 2. Impedir el ingreso o salida prioritaria a mujer embarazada, adulto mayor, persona con niños o niñas, o personas con discapacidad. 3. Transportar mascotas en vehículos de transporte público incumpliendo la reglamentación establecida para tales efectos por la autoridad competente. 4. Irrespetar la enumeración y los turnos establecidos en estos medios, así como el sistema de sillas preferenciales, y no ceder el lugar a otra persona por su condición vulnerable. 5. Agredir, empujar o irrespetar a las demás personas durante el acceso, permanencia o salida de estos. 6. Consumir alimentos, bebidas o derivados del tabaco o sustancias cuando estén prohibidas. 7. Evadir el pago de la tarifa, validación, tiquete o medios que utilicen los usuarios para acceder a la prestación del servicio esencial de transporte público de pasajeros, en cualquiera de sus modalidades. 8. Destruir, obstruir, alterar o dañar los sistemas de alarma o emergencia de los vehículos destinados al transporte público o sus señales indicativas. 9. Obstaculizar o impedir la movilidad o el flujo de usuarios en estos sistemas. 10. Poner en peligro la seguridad operacional de los sistemas de transporte masivo, colectivo o individual, aéreo, fluvial o terrestre, con los siguientes comportamientos: a) Operar durante el vuelo o sus fases preparatorias, teléfonos móviles, radios transmisores o receptores portátiles, computadoras y demás equipos electrónicos, que puedan interferir con los sistemas de vuelo, comunicaciones o navegación aérea, contrariando las indicaciones de la tripulación; b) Transitar, sin autorización de la autoridad aeronáutica, por las pistas de los aeropuertos, rampas o calles de rodaje; c) Introducir, sin autorización de las autoridades aeronáuticas, bienes muebles a las pistas, rampas o calles de rodaje de los aeropuertos; d) Operar, sin autorización de la autoridad aeronáutica, vehículos aéreos ultralivianos en aeropuertos controlados, parapentes, aeromodelos, paracaídas, cometas tripuladas o no, y demás artefactos de aviación deportiva cerca de las cabeceras de las pistas o dentro de sus zonas de aproximación; e) Sustraer, o hacer mal uso de los chalecos salvavidas y demás equipos para la atención en los sistemas de transporte público; f) Resistirse a los procesos de seguridad en los filtros de los sistemas de transporte público; g) Introducir al medio de transporte cualquier sustancia o elemento que pueda poner en peligro la salud de los tripulantes y demás pasajeros; h) Contravenir las obligaciones que se determinen en los reglamentos y/o manuales de uso y operación, que establezcan las autoridades encargadas al respecto; 11. Perturbar en los medios de transporte públicos, la tranquilidad de los demás ocupantes mediante cualquier acto molesto; 12. Ingresar y salir de las estaciones o portales por sitios distintos a las puertas designadas para el efecto. 13. Alterar, manipular, deteriorar, destruir o forzar, las puertas de las estaciones o de los buses articulados, metro, tranvía, vehículo férreo, cable aéreo, o de los diferentes medios de transporte de los sistemas de servicio público urbano de transporte masivo de pasajeros, impedir su uso y funcionamiento normal, salvo en situaciones de emergencia. 14. Omitir, por parte de las empresas prestadoras del servicio de transporte, el deber de mantener los vehículos de transporte público en condiciones de aseo óptimas para la prestación del servicio. 15. Perturbar en los medios de transporte públicos, la tranquilidad de los demás ocupantes mediante cualquier acto obsceno. 16. Irrespetar a las autoridades del sistema. Numeral 1 Amonestación Numeral 2 Multa General Tipo 1 Numeral 3 Multa General tipo 2 Numeral 4 Amonestación Numeral 5 Multa General Tipo 1 Numeral 6 Multa General Tipo 1",
+          "url": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#146"
+        },
+        {
+          "fragmento": "Numeral 7 Multa General tipo 2 Numeral 8 Multa General tipo 4 Numeral 9 Multa General tipo 3 Numeral 10 Multa General tipo 4 Numeral 11 Amonestación Numeral 12 Multa General tipo 1 Numeral 13 Multa General tipo 3; Reparación de daños materiales de muebles o inmuebles Numeral 14 Multa General Tipo 3. Numeral 15 Multa General Tipo 4. Numeral 16 Multa General Tipo 3.",
+          "url": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#146"
+        }
+      ],
+      "evidenciaPlegada": true,
+      "anchoSinDesbordamiento": true,
+      "grupos": [
+        "Conductas y disposiciones",
+        "Medidas correctivas"
+      ],
+      "inicioVisible": true
+    },
+    {
+      "id": "RAG-004",
+      "pregunta": "¿Qué comportamientos ponen en riesgo la vida e integridad de las personas?",
+      "respuesta": "Conductas y disposicionesArtículo 27. «Los siguientes comportamientos ponen en riesgo la vida e integridad de las personas, y, por lo tanto, son contrarios a la convivencia:»Numeral 1 del artículo 27. «1. Reñir, incitar o incurrir en confrontaciones violentas que puedan derivar en agresiones físicas.»Numeral 2 del artículo 27. «2. Lanzar objetos que puedan causar daño o sustancias peligrosas a personas.»Numeral 3 del artículo 27. «3. Agredir físicamente a personas por cualquier medio.»Numeral 4 del artículo 27. «4. Amenazar con causar un daño físico a personas por cualquier medio.»Numeral 5 del artículo 27. «5. No retirar o reparar, en los inmuebles, los elementos que ofrezcan riesgo a la vida e integridad.»Numeral 6 del artículo 27. «6. Portar armas, elementos cortantes, punzantes o semejantes, o sustancias peligrosas, en áreas comunes o lugares abiertos al público. Se exceptúa a quien demuestre que tales elementos o sustancias constituyen una herramienta de su actividad deportiva, oficio, profesión o estudio.»Numeral 7 del artículo 27. «7. Portar armas neumáticas, de aire, de fogueo, de letalidad reducida o sprays, rociadores, aspersores o aerosoles de pimienta o cualquier elemento que se asimile a armas de fuego, en lugares abiertos al público donde se desarrollen aglomeraciones de personas o en aquellos donde se consuman bebidas embriagantes, o se advierta su utilización irregular, o se incurra en un comportamiento contrario a la convivencia.»Numeral 8 del artículo 27. «8. Portar armas, elementos y dispositivos menos letales que hayan sido modificados en sus características de fabricación, origen, diseño y propósito, sin perjuicio de las sanciones penales a que haya lugar.»Numeral 9 del artículo 27. «9. Portar armas, elementos y dispositivos menos letales sin permiso de autoridad competente cuando estas lo requieran.»Numeral 10 del artículo 27. «10. Portar armas, elementos y dispositivos menos letales cuando haya perdido vigencia el permiso respectivo.»Numeral 11 del artículo 27. «11. Portar armas, elementos y dispositivos menos letales bajo el influjo de sustancias psicoactivas ilícitas o prohibidas, o en estado de embriaguez.»Medidas correctivasNumeral 1 del artículo 27. «Numeral 1 Multa General tipo 2.»Conductas y disposicionesParágrafo 2 del artículo 27. «PARÁGRAFO 2o. En los comportamientos señalados en los numerales 1 al 5 del presente artículo, se deberá utilizar la mediación policial como medio para intentar resolver el conflicto.»",
+      "citas": [
+        "Artículo 27.",
+        "Numeral 1 del artículo 27.",
+        "Numeral 2 del artículo 27.",
+        "Numeral 3 del artículo 27.",
+        "Numeral 4 del artículo 27.",
+        "Numeral 5 del artículo 27.",
+        "Numeral 6 del artículo 27.",
+        "Numeral 7 del artículo 27.",
+        "Numeral 8 del artículo 27.",
+        "Numeral 9 del artículo 27.",
+        "Numeral 10 del artículo 27.",
+        "Numeral 11 del artículo 27.",
+        "Numeral 1 del artículo 27.",
+        "Parágrafo 2 del artículo 27."
+      ],
+      "fuentes": [
+        {
+          "fragmento": "ARTÍCULO 27. COMPORTAMIENTOS QUE PONEN EN RIESGO LA VIDA E INTEGRIDAD. Los siguientes comportamientos ponen en riesgo la vida e integridad de las personas, y, por lo tanto, son contrarios a la convivencia: 1. Reñir, incitar o incurrir en confrontaciones violentas que puedan derivar en agresiones físicas. 2. Lanzar objetos que puedan causar daño o sustancias peligrosas a personas. 3. Agredir físicamente a personas por cualquier medio. 4. Amenazar con causar un daño físico a personas por cualquier medio. 5. No retirar o reparar, en los inmuebles, los elementos que ofrezcan riesgo a la vida e integridad. 6. Portar armas, elementos cortantes, punzantes o semejantes, o sustancias peligrosas, en áreas comunes o lugares abiertos al público. Se exceptúa a quien demuestre que tales elementos o sustancias constituyen una herramienta de su actividad deportiva, oficio, profesión o estudio. 7. Portar armas neumáticas, de aire, de fogueo, de letalidad reducida o sprays, rociadores, aspersores o aerosoles de pimienta o cualquier elemento que se asimile a armas de fuego, en lugares abiertos al público donde se desarrollen aglomeraciones de personas o en aquellos donde se consuman bebidas embriagantes, o se advierta su utilización irregular, o se incurra en un comportamiento contrario a la convivencia. 8. Portar armas, elementos y dispositivos menos letales que hayan sido modificados en sus características de fabricación, origen, diseño y propósito, sin perjuicio de las sanciones penales a que haya lugar. 9. Portar armas, elementos y dispositivos menos letales sin permiso de autoridad competente cuando estas lo requieran. 10. Portar armas, elementos y dispositivos menos letales cuando haya perdido vigencia el permiso respectivo. 11. Portar armas, elementos y dispositivos menos letales bajo el influjo de sustancias psicoactivas ilícitas o prohibidas, o en estado de embriaguez. Numeral 1 Multa General tipo 2. PARÁGRAFO 2o. En los comportamientos señalados en los numerales 1 al 5 del presente artículo, se deberá utilizar la mediación policial como medio para intentar resolver el conflicto.",
+          "url": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#27"
+        }
+      ],
+      "evidenciaPlegada": true,
+      "anchoSinDesbordamiento": true,
+      "grupos": [
+        "Conductas y disposiciones",
+        "Medidas correctivas",
+        "Conductas y disposiciones"
+      ],
+      "inicioVisible": true
+    },
+    {
+      "id": "RAG-026",
+      "pregunta": "¿Qué atribuciones tienen los inspectores de Policía?",
+      "respuesta": "Artículo 206. «Les corresponde la aplicación de las siguientes medidas:»Numeral 1 del artículo 206. «1. Conciliar para la solución de conflictos de convivencia, cuando sea procedente.»Numeral 2 del artículo 206. «2. Conocer sobre los comportamientos contrarios a la convivencia en materia de seguridad, tranquilidad, ambiente y recursos naturales, derecho de reunión, protección a los bienes y privacidad, actividad económica, urbanismo, espacio público y libertad de circulación.»Numeral 3 del artículo 206. «3. Ejecutar la orden de restitución; en casos de tierras comunales.»Numeral 4 del artículo 206. «4. Conocer, en única instancia, de la aplicación de las siguientes medidas correctivas:»Literal a del numeral 4 del artículo 206. «a. Reparación de daños materiales de muebles o inmuebles;»Literal b del numeral 4 del artículo 206. «b. Expulsión de domicilio;»Literal c del numeral 4 del artículo 206. «c. Prohibición de ingreso a actividad que involucra aglomeraciones de público complejas o no complejas;»Literal d del numeral 4 del artículo 206. «d. Decomiso.»Numeral 5 del artículo 206. «5. Conocer en primera instancia de la aplicación de las siguientes medidas correctivas:»Literal a del numeral 5 del artículo 206. «a. Suspensión de construcción o demolición;»Literal b del numeral 5 del artículo 206. «b. Demolición de obra;»Literal d del numeral 5 del artículo 206. «d. Reparación de daños materiales por perturbación a la posesión y tenencia de inmuebles;»Literal e del numeral 5 del artículo 206. «e. Restitución y protección de bienes inmuebles, diferentes a los descritos en el numeral 17 del artículo 205 ;»Literal f del numeral 5 del artículo 206. «f. Restablecimiento del derecho de servidumbre y reparación de daños materiales;»Literal g del numeral 5 del artículo 206. «g. Remoción de bienes, en las infracciones urbanísticas;»Literal h del numeral 5 del artículo 206. «h. Multas;»Literal i del numeral 5 del artículo 206. «i. Suspensión definitiva de actividad.»Numeral 6 del artículo 206. «6. Ejecutar las comisiones que trata el artículo 38 del Código General del Proceso o subcomisionar a una autoridad que tenga jurisdicción y competencia, quienes ejercerán transitoriamente como autoridad administrativa de policía.»Numeral 7 del artículo 206. «7. Desarrollar estrategias en materia de pedagogía de paz, resolución de conflictos y justicia restaurativa.»Numeral 8 del artículo 206. «8. Las demás que le señalen la Constitución, la ley, las ordenanzas y los acuerdos.»Parágrafo 1 del artículo 206. «PARÁGRAFO 1o. Las autoridades a que se refieren los artículos anteriores, deberán realizar las diligencias jurisdiccionales o administrativas por comisión de los jueces o subcomisión de los alcaldes de acuerdo con las normas especiales sobre la materia.»Artículo 206. «Para el cumplimiento de la comisión o subcomisión podrán a su vez subcomisionar a otra autoridad que tenga jurisdicción y competencia, quienes ejercerán transitoriamente como autoridad administrativa de policía y estarán obligados a cumplir la subcomisión dentro de los términos que se le establezca.»",
+      "citas": [
+        "Artículo 206.",
+        "Numeral 1 del artículo 206.",
+        "Numeral 2 del artículo 206.",
+        "Numeral 3 del artículo 206.",
+        "Numeral 4 del artículo 206.",
+        "Literal a del numeral 4 del artículo 206.",
+        "Literal b del numeral 4 del artículo 206.",
+        "Literal c del numeral 4 del artículo 206.",
+        "Literal d del numeral 4 del artículo 206.",
+        "Numeral 5 del artículo 206.",
+        "Literal a del numeral 5 del artículo 206.",
+        "Literal b del numeral 5 del artículo 206.",
+        "Literal d del numeral 5 del artículo 206.",
+        "Literal e del numeral 5 del artículo 206.",
+        "Literal f del numeral 5 del artículo 206.",
+        "Literal g del numeral 5 del artículo 206.",
+        "Literal h del numeral 5 del artículo 206.",
+        "Literal i del numeral 5 del artículo 206.",
+        "Numeral 6 del artículo 206.",
+        "Numeral 7 del artículo 206.",
+        "Numeral 8 del artículo 206.",
+        "Parágrafo 1 del artículo 206.",
+        "Artículo 206."
+      ],
+      "fuentes": [
+        {
+          "fragmento": "ARTÍCULO 206. ATRIBUCIONES DE LOS INSPECTORES DE CONVIVENCIA Y PAZ RURALES, URBANOS Y CORREGIDORES. Les corresponde la aplicación de las siguientes medidas: 1. Conciliar para la solución de conflictos de convivencia, cuando sea procedente. 2. Conocer sobre los comportamientos contrarios a la convivencia en materia de seguridad, tranquilidad, ambiente y recursos naturales, derecho de reunión, protección a los bienes y privacidad, actividad económica, urbanismo, espacio público y libertad de circulación. 3. Ejecutar la orden de restitución; en casos de tierras comunales. 4. Conocer, en única instancia, de la aplicación de las siguientes medidas correctivas: a. Reparación de daños materiales de muebles o inmuebles; b. Expulsión de domicilio; c. Prohibición de ingreso a actividad que involucra aglomeraciones de público complejas o no complejas; d. Decomiso. 5. Conocer en primera instancia de la aplicación de las siguientes medidas correctivas: a. Suspensión de construcción o demolición; b. Demolición de obra; d. Reparación de daños materiales por perturbación a la posesión y tenencia de inmuebles; e. Restitución y protección de bienes inmuebles, diferentes a los descritos en el numeral 17 del artículo 205 ; f. Restablecimiento del derecho de servidumbre y reparación de daños materiales; g. Remoción de bienes, en las infracciones urbanísticas; h. Multas; i. Suspensión definitiva de actividad. 6. Ejecutar las comisiones que trata el artículo 38 del Código General del Proceso o subcomisionar a una autoridad que tenga jurisdicción y competencia, quienes ejercerán transitoriamente como autoridad administrativa de policía. 7. Desarrollar estrategias en materia de pedagogía de paz, resolución de conflictos y justicia restaurativa. 8. Las demás que le señalen la Constitución, la ley, las ordenanzas y los acuerdos. PARÁGRAFO 1o. Las autoridades a que se refieren los artículos anteriores, deberán realizar las diligencias jurisdiccionales o administrativas por comisión de los jueces o subcomisión de los alcaldes de acuerdo con las normas especiales sobre la materia. Para el cumplimiento de la comisión o subcomisión podrán a su vez subcomisionar a otra autoridad que tenga jurisdicción y competencia, quienes ejercerán transitoriamente como autoridad administrativa de policía y estarán obligados a cumplir la subcomisión dentro de los términos que se le establezca.",
+          "url": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#206"
+        }
+      ],
+      "evidenciaPlegada": true,
+      "anchoSinDesbordamiento": true,
+      "grupos": [],
+      "inicioVisible": true
+    },
+    {
+      "id": "RAG-029",
+      "pregunta": "¿Qué procedimiento establece el artículo 223A para las multas tipo 1 a 4?",
+      "respuesta": "La disposición solicitada está fuera del alcance documental verificado del prototipo y requiere revisión antes de presentarse como aplicable.",
+      "citas": [],
+      "fuentes": [],
+      "evidenciaPlegada": false,
+      "anchoSinDesbordamiento": true,
+      "grupos": [],
+      "inicioVisible": false
+    },
+    {
+      "id": "IMPUESTOS",
+      "pregunta": "¿Cuál es la multa por declarar renta tarde?",
+      "respuesta": "La información solicitada queda fuera del corpus de la Ley 1801 de 2016.",
+      "citas": [],
+      "fuentes": [],
+      "evidenciaPlegada": false,
+      "anchoSinDesbordamiento": true,
+      "grupos": [],
+      "inicioVisible": false
+    }
+  ],
+  "interfaz": {
+    "historial": true,
+    "aviso": true,
+    "fragmentoVisible": true,
+    "reinicio": true,
+    "htmlSeguro": true
+  },
+  "errorSimulado": {
+    "mensaje": "El motor documental no está disponible.",
+    "clase": "mensaje mensaje-error",
+    "sinFuentes": true
+  }
+}

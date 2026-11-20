@@ -1,0 +1,142 @@
+[
+  {
+    "id": "RAG-002",
+    "pregunta": "¿Cuáles son los objetivos específicos del Código de Policía?",
+    "http": 200,
+    "segundos": 9.74327,
+    "respuesta": {
+      "fuentes_recuperadas": [
+        {
+          "articulo": "2",
+          "numeral": "",
+          "titulo": "OBJETIVOS ESPECÍFICOS",
+          "texto": "ARTÍCULO 2. OBJETIVOS ESPECÍFICOS. Con el fin de mantener las condiciones necesarias para la convivencia en el territorio nacional, los objetivos específicos de este Código son los siguientes: 1. Propiciar en la comunidad comportamientos que favorezcan la convivencia en el espacio público, áreas comunes, lugares abiertos al público o que siendo privados trasciendan a lo público. 2. Promover el respeto, el ejercicio responsable de la libertad, la dignidad, los deberes y los derechos correlativos de la personalidad humana. 3. Promover el uso de mecanismos alternativos, o comunitarios, para la conciliación y solución pacífica de desacuerdos entre particulares. 4. Definir comportamientos, medidas, medios y procedimientos de Policía. 5. Establecer la competencia de las autoridades de Policía en el orden nacional, departamental, distrital y municipal, con observancia del principio de autonomía territorial. 6. Establecer un procedimiento respetuoso del debido proceso, idóneo, inmediato, expedito y eficaz para la atención oportuna de los comportamientos relacionados con la convivencia en el territorio nacional.",
+          "url_fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#2"
+        }
+      ],
+      "pregunta": "¿Cuáles son los objetivos específicos del Código de Policía?",
+      "respuesta": "**Numeral 1 del artículo 2.** «1. Propiciar en la comunidad comportamientos que favorezcan la convivencia en el espacio público, áreas comunes, lugares abiertos al público o que siendo privados trasciendan a lo público.»\n\n**Numeral 2 del artículo 2.** «2. Promover el respeto, el ejercicio responsable de la libertad, la dignidad, los deberes y los derechos correlativos de la personalidad humana.»\n\n**Numeral 3 del artículo 2.** «3. Promover el uso de mecanismos alternativos, o comunitarios, para la conciliación y solución pacífica de desacuerdos entre particulares.»\n\n**Numeral 4 del artículo 2.** «4. Definir comportamientos, medidas, medios y procedimientos de Policía.»\n\n**Numeral 5 del artículo 2.** «5. Establecer la competencia de las autoridades de Policía en el orden nacional, departamental, distrital y municipal, con observancia del principio de autonomía territorial.»\n\n**Numeral 6 del artículo 2.** «6. Establecer un procedimiento respetuoso del debido proceso, idóneo, inmediato, expedito y eficaz para la atención oportuna de los comportamientos relacionados con la convivencia en el territorio nacional.»",
+      "modelo": "gemini-3.1-flash-lite",
+      "total_generales": 1,
+      "total_estructurados": 0,
+      "validacion_documental": {
+        "estado": "PENDIENTE_VALIDACION",
+        "advertencias": []
+      }
+    },
+    "llamada_gemini_confirmada": true,
+    "estado_documental": "PENDIENTE_VALIDACION"
+  },
+  {
+    "id": "RAG-002",
+    "pregunta": "¿Cuáles son los objetivos específicos del Código de Policía?",
+    "http": 200,
+    "segundos": 4.86814,
+    "respuesta": {
+      "fuentes_recuperadas": [
+        {
+          "articulo": "2",
+          "numeral": "",
+          "titulo": "OBJETIVOS ESPECÍFICOS",
+          "texto": "ARTÍCULO 2. OBJETIVOS ESPECÍFICOS. Con el fin de mantener las condiciones necesarias para la convivencia en el territorio nacional, los objetivos específicos de este Código son los siguientes: 1. Propiciar en la comunidad comportamientos que favorezcan la convivencia en el espacio público, áreas comunes, lugares abiertos al público o que siendo privados trasciendan a lo público. 2. Promover el respeto, el ejercicio responsable de la libertad, la dignidad, los deberes y los derechos correlativos de la personalidad humana. 3. Promover el uso de mecanismos alternativos, o comunitarios, para la conciliación y solución pacífica de desacuerdos entre particulares. 4. Definir comportamientos, medidas, medios y procedimientos de Policía. 5. Establecer la competencia de las autoridades de Policía en el orden nacional, departamental, distrital y municipal, con observancia del principio de autonomía territorial. 6. Establecer un procedimiento respetuoso del debido proceso, idóneo, inmediato, expedito y eficaz para la atención oportuna de los comportamientos relacionados con la convivencia en el territorio nacional.",
+          "url_fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#2"
+        }
+      ],
+      "pregunta": "¿Cuáles son los objetivos específicos del Código de Policía?",
+      "respuesta": "**Numeral 1 del artículo 2.** «1. Propiciar en la comunidad comportamientos que favorezcan la convivencia en el espacio público, áreas comunes, lugares abiertos al público o que siendo privados trasciendan a lo público.»\n\n**Numeral 2 del artículo 2.** «2. Promover el respeto, el ejercicio responsable de la libertad, la dignidad, los deberes y los derechos correlativos de la personalidad humana.»\n\n**Numeral 3 del artículo 2.** «3. Promover el uso de mecanismos alternativos, o comunitarios, para la conciliación y solución pacífica de desacuerdos entre particulares.»\n\n**Numeral 4 del artículo 2.** «4. Definir comportamientos, medidas, medios y procedimientos de Policía.»\n\n**Numeral 5 del artículo 2.** «5. Establecer la competencia de las autoridades de Policía en el orden nacional, departamental, distrital y municipal, con observancia del principio de autonomía territorial.»\n\n**Numeral 6 del artículo 2.** «6. Establecer un procedimiento respetuoso del debido proceso, idóneo, inmediato, expedito y eficaz para la atención oportuna de los comportamientos relacionados con la convivencia en el territorio nacional.»",
+      "modelo": "gemini-3.1-flash-lite",
+      "total_generales": 1,
+      "total_estructurados": 0,
+      "validacion_documental": {
+        "estado": "PENDIENTE_VALIDACION",
+        "advertencias": []
+      }
+    },
+    "llamada_gemini_confirmada": true,
+    "estado_documental": "PENDIENTE_VALIDACION"
+  },
+  {
+    "id": "RAG-017",
+    "pregunta": "¿Qué establece el Código sobre sacar la basura en horarios no autorizados?",
+    "http": 200,
+    "segundos": 7.14314,
+    "respuesta": {
+      "fuentes_recuperadas": [
+        {
+          "articulo": "111",
+          "numeral": "",
+          "titulo": "COMPORTAMIENTOS CONTRARIOS A LA LIMPIEZA Y RECOLECCIÓN DE RESIDUOS Y ESCOMBROS Y MALAS PRÁCTICAS HABITACIONALES",
+          "texto": "ARTÍCULO 111. COMPORTAMIENTOS CONTRARIOS A LA LIMPIEZA Y RECOLECCIÓN DE RESIDUOS Y ESCOMBROS Y MALAS PRÁCTICAS HABITACIONALES. 1. Sacar la basura en horarios no autorizados por la empresa prestadora del servicio o en sitio diferente al lugar de residencia o domicilio. 3. Arrojar residuos sólidos y escombros en sitios de uso público, no acordados ni autorizados por autoridad competente.",
+          "url_fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#111"
+        }
+      ],
+      "pregunta": "¿Qué establece el Código sobre sacar la basura en horarios no autorizados?",
+      "respuesta": "**Numeral 1 del artículo 111.** «1. Sacar la basura en horarios no autorizados por la empresa prestadora del servicio o en sitio diferente al lugar de residencia o domicilio.»",
+      "modelo": "gemini-3.1-flash-lite",
+      "total_generales": 1,
+      "total_estructurados": 0,
+      "validacion_documental": {
+        "estado": "PENDIENTE_VALIDACION",
+        "advertencias": []
+      }
+    },
+    "llamada_gemini_confirmada": true,
+    "estado_documental": "PENDIENTE_VALIDACION"
+  },
+  {
+    "id": "RAG-037",
+    "pregunta": "Un local comercial no informa a sus clientes sobre los protocolos de evacuación. ¿Qué comportamiento contempla la ley?",
+    "http": 200,
+    "segundos": 14.116327,
+    "respuesta": {
+      "fuentes_recuperadas": [
+        {
+          "articulo": "93",
+          "numeral": "",
+          "titulo": "COMPORTAMIENTOS RELACIONADOS CON LA SEGURIDAD Y TRANQUILIDAD QUE AFECTAN LA ACTIVIDAD ECONÓMICA",
+          "texto": "ARTÍCULO 93. COMPORTAMIENTOS RELACIONADOS CON LA SEGURIDAD Y TRANQUILIDAD QUE AFECTAN LA ACTIVIDAD ECONÓMICA. 1. No informar los protocolos de seguridad y evacuación en caso de emergencias a las personas que se encuentren en el lugar.",
+          "url_fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#93"
+        }
+      ],
+      "pregunta": "Un local comercial no informa a sus clientes sobre los protocolos de evacuación. ¿Qué comportamiento contempla la ley?",
+      "respuesta": "**Numeral 1 del artículo 93.** «1. No informar los protocolos de seguridad y evacuación en caso de emergencias a las personas que se encuentren en el lugar.»",
+      "modelo": "gemini-3.1-flash-lite",
+      "total_generales": 1,
+      "total_estructurados": 0,
+      "validacion_documental": {
+        "estado": "PENDIENTE_VALIDACION",
+        "advertencias": []
+      }
+    },
+    "llamada_gemini_confirmada": true,
+    "estado_documental": "PENDIENTE_VALIDACION"
+  },
+  {
+    "id": "RAG-040",
+    "pregunta": "Mis vecinos sacan la basura fuera del horario establecido y dejan residuos en la calle. ¿Qué norma regula este comportamiento?",
+    "http": 200,
+    "segundos": 11.792737,
+    "respuesta": {
+      "fuentes_recuperadas": [
+        {
+          "articulo": "111",
+          "numeral": "",
+          "titulo": "COMPORTAMIENTOS CONTRARIOS A LA LIMPIEZA Y RECOLECCIÓN DE RESIDUOS Y ESCOMBROS Y MALAS PRÁCTICAS HABITACIONALES",
+          "texto": "ARTÍCULO 111. COMPORTAMIENTOS CONTRARIOS A LA LIMPIEZA Y RECOLECCIÓN DE RESIDUOS Y ESCOMBROS Y MALAS PRÁCTICAS HABITACIONALES. 1. Sacar la basura en horarios no autorizados por la empresa prestadora del servicio o en sitio diferente al lugar de residencia o domicilio. 3. Arrojar residuos sólidos y escombros en sitios de uso público, no acordados ni autorizados por autoridad competente.",
+          "url_fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#111"
+        }
+      ],
+      "pregunta": "Mis vecinos sacan la basura fuera del horario establecido y dejan residuos en la calle. ¿Qué norma regula este comportamiento?",
+      "respuesta": "**Numeral 1 del artículo 111.** «1. Sacar la basura en horarios no autorizados por la empresa prestadora del servicio o en sitio diferente al lugar de residencia o domicilio.»\n\n**Numeral 3 del artículo 111.** «3. Arrojar residuos sólidos y escombros en sitios de uso público, no acordados ni autorizados por autoridad competente.»",
+      "modelo": "gemini-3.1-flash-lite",
+      "total_generales": 1,
+      "total_estructurados": 0,
+      "validacion_documental": {
+        "estado": "PENDIENTE_VALIDACION",
+        "advertencias": []
+      }
+    },
+    "llamada_gemini_confirmada": true,
+    "estado_documental": "PENDIENTE_VALIDACION"
+  }
+]

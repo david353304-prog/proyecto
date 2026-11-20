@@ -1,0 +1,24 @@
+{"consulta": 1, "evento": "inicio"}
+{"consulta": 1, "evento": "recuperacion", "segundos": 0.060891}
+{"consulta": 1, "evento": "contexto", "segundos": 2.8e-05, "sha256": "ce3230c22248de341242f6702664a8b7dbc9db42854020a8e42f42f179afe08d"}
+{"consulta": 1, "evento": "intento", "segundos": 1.732375}
+{"consulta": 1, "evento": "generacion", "segundos": 1.823474}
+{"consulta": 1, "evento": "seleccion_citas", "segundos": 0.001785, "aceptada": true}
+{"consulta": 1, "evento": "validacion", "segundos": 0.017831, "estado": "PENDIENTE_VALIDACION"}
+{"consulta": 1, "evento": "fin", "http": 200}
+{"consulta": 2, "evento": "inicio"}
+{"consulta": 2, "evento": "recuperacion", "segundos": 0.11204}
+{"consulta": 2, "evento": "contexto", "segundos": 4.7e-05, "sha256": "c14518e774566a867118b749870c3f7c4c085d66c0dbbfa0a254e278d730b40f"}
+{"consulta": 2, "evento": "intento", "segundos": 0.967245}
+{"consulta": 2, "evento": "generacion", "segundos": 0.973172}
+{"consulta": 2, "evento": "seleccion_citas", "segundos": 9.8e-05, "aceptada": true}
+{"consulta": 2, "evento": "validacion", "segundos": 0.000585, "estado": "PENDIENTE_VALIDACION"}
+{"consulta": 2, "evento": "fin", "http": 200}
+{"consulta": 3, "evento": "inicio"}
+{"consulta": 3, "evento": "recuperacion", "segundos": 0.063655}
+{"consulta": 3, "evento": "contexto", "segundos": 3.6e-05, "sha256": "ce3230c22248de341242f6702664a8b7dbc9db42854020a8e42f42f179afe08d"}
+{"consulta": 3, "evento": "intento", "segundos": 1.220294}
+{"consulta": 3, "evento": "generacion", "segundos": 1.225408}
+{"consulta": 3, "evento": "seleccion_citas", "segundos": 0.000196, "aceptada": true}
+{"consulta": 3, "evento": "validacion", "segundos": 0.001407, "estado": "PENDIENTE_VALIDACION"}
+{"consulta": 3, "evento": "fin", "http": 200}

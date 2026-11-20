@@ -1,0 +1,362 @@
+{
+  "estado_motor": {
+    "estado": "activo",
+    "modo_respuesta": "citas_extractivas",
+    "generacion_configurada": true,
+    "sha256_corpus_publicable": "a2b92ae92020791edb8c31005a375bd2744ed3e1d41fac76c46f9235a3be60e6"
+  },
+  "filas": [
+    {
+      "consulta": 1,
+      "id": "RAG-002",
+      "http": 200,
+      "segundos_http": 11.979213,
+      "estado": "PENDIENTE_VALIDACION",
+      "articulos_visibles": [
+        "2"
+      ],
+      "citas": [
+        {
+          "articulo": "2",
+          "numeral": 1,
+          "rotulo_concordante": true,
+          "literal_corpus": true,
+          "literal_fuente_visible": true
+        },
+        {
+          "articulo": "2",
+          "numeral": 2,
+          "rotulo_concordante": true,
+          "literal_corpus": true,
+          "literal_fuente_visible": true
+        },
+        {
+          "articulo": "2",
+          "numeral": 3,
+          "rotulo_concordante": true,
+          "literal_corpus": true,
+          "literal_fuente_visible": true
+        },
+        {
+          "articulo": "2",
+          "numeral": 4,
+          "rotulo_concordante": true,
+          "literal_corpus": true,
+          "literal_fuente_visible": true
+        },
+        {
+          "articulo": "2",
+          "numeral": 5,
+          "rotulo_concordante": true,
+          "literal_corpus": true,
+          "literal_fuente_visible": true
+        },
+        {
+          "articulo": "2",
+          "numeral": 6,
+          "rotulo_concordante": true,
+          "literal_corpus": true,
+          "literal_fuente_visible": true
+        }
+      ]
+    },
+    {
+      "consulta": 2,
+      "id": "RAG-017",
+      "http": 200,
+      "segundos_http": 1.298178,
+      "estado": "PENDIENTE_VALIDACION",
+      "articulos_visibles": [
+        "111"
+      ],
+      "citas": [
+        {
+          "articulo": "111",
+          "numeral": 1,
+          "rotulo_concordante": true,
+          "literal_corpus": true,
+          "literal_fuente_visible": true
+        }
+      ]
+    },
+    {
+      "consulta": 3,
+      "id": "RAG-037",
+      "http": 200,
+      "segundos_http": 2.301648,
+      "estado": "PENDIENTE_VALIDACION",
+      "articulos_visibles": [
+        "93"
+      ],
+      "citas": [
+        {
+          "articulo": "93",
+          "numeral": 1,
+          "rotulo_concordante": true,
+          "literal_corpus": true,
+          "literal_fuente_visible": true
+        }
+      ]
+    },
+    {
+      "consulta": 4,
+      "id": "RAG-040",
+      "http": 200,
+      "segundos_http": 1.657681,
+      "estado": "PENDIENTE_VALIDACION",
+      "articulos_visibles": [
+        "111"
+      ],
+      "citas": [
+        {
+          "articulo": "111",
+          "numeral": 1,
+          "rotulo_concordante": true,
+          "literal_corpus": true,
+          "literal_fuente_visible": true
+        },
+        {
+          "articulo": "111",
+          "numeral": 3,
+          "rotulo_concordante": true,
+          "literal_corpus": true,
+          "literal_fuente_visible": true
+        }
+      ]
+    },
+    {
+      "consulta": 5,
+      "id": "FD-001",
+      "http": 200,
+      "segundos_http": 0.01273,
+      "estado": "FUERA_DE_DOMINIO",
+      "articulos_visibles": [],
+      "citas": []
+    },
+    {
+      "consulta": 6,
+      "id": "FD-002",
+      "http": 200,
+      "segundos_http": 0.033367,
+      "estado": "FUERA_DE_DOMINIO",
+      "articulos_visibles": [],
+      "citas": []
+    },
+    {
+      "consulta": 7,
+      "id": "FD-003",
+      "http": 200,
+      "segundos_http": 0.02355,
+      "estado": "FUERA_DE_DOMINIO",
+      "articulos_visibles": [],
+      "citas": []
+    },
+    {
+      "consulta": 8,
+      "id": "FD-004",
+      "http": 200,
+      "segundos_http": 0.010495,
+      "estado": "FUERA_DE_DOMINIO",
+      "articulos_visibles": [],
+      "citas": []
+    },
+    {
+      "consulta": 9,
+      "id": "FD-005",
+      "http": 200,
+      "segundos_http": 0.010569,
+      "estado": "FUERA_DE_DOMINIO",
+      "articulos_visibles": [],
+      "citas": []
+    },
+    {
+      "consulta": 10,
+      "id": "FD-006",
+      "http": 200,
+      "segundos_http": 0.030723,
+      "estado": "FUERA_DE_DOMINIO",
+      "articulos_visibles": [],
+      "citas": []
+    },
+    {
+      "consulta": 11,
+      "id": "FD-007",
+      "http": 200,
+      "segundos_http": 0.01023,
+      "estado": "FUERA_DE_DOMINIO",
+      "articulos_visibles": [],
+      "citas": []
+    },
+    {
+      "consulta": 12,
+      "id": "FD-008",
+      "http": 200,
+      "segundos_http": 0.00979,
+      "estado": "FUERA_DE_DOMINIO",
+      "articulos_visibles": [],
+      "citas": []
+    },
+    {
+      "consulta": 13,
+      "id": "FD-009",
+      "http": 200,
+      "segundos_http": 0.023398,
+      "estado": "FUERA_DE_DOMINIO",
+      "articulos_visibles": [],
+      "citas": []
+    },
+    {
+      "consulta": 14,
+      "id": "FD-010",
+      "http": 200,
+      "segundos_http": 0.02663,
+      "estado": "FUERA_DE_DOMINIO",
+      "articulos_visibles": [],
+      "citas": []
+    },
+    {
+      "consulta": 15,
+      "id": "FD-017",
+      "http": 200,
+      "segundos_http": 0.020281,
+      "estado": "FUERA_DE_DOMINIO",
+      "articulos_visibles": [],
+      "citas": []
+    },
+    {
+      "consulta": 16,
+      "id": "FD-018",
+      "http": 200,
+      "segundos_http": 0.010768,
+      "estado": "FUERA_DE_DOMINIO",
+      "articulos_visibles": [],
+      "citas": []
+    },
+    {
+      "consulta": 17,
+      "id": "FD-019",
+      "http": 200,
+      "segundos_http": 0.014314,
+      "estado": "FUERA_DE_DOMINIO",
+      "articulos_visibles": [],
+      "citas": []
+    },
+    {
+      "consulta": 18,
+      "id": "FD-020",
+      "http": 200,
+      "segundos_http": 0.014159,
+      "estado": "FUERA_DE_DOMINIO",
+      "articulos_visibles": [],
+      "citas": []
+    },
+    {
+      "consulta": 19,
+      "id": "FD-021",
+      "http": 200,
+      "segundos_http": 0.033635,
+      "estado": "FUERA_DE_DOMINIO",
+      "articulos_visibles": [],
+      "citas": []
+    },
+    {
+      "consulta": 20,
+      "id": "FD-022",
+      "http": 200,
+      "segundos_http": 0.016369,
+      "estado": "FUERA_DE_DOMINIO",
+      "articulos_visibles": [],
+      "citas": []
+    },
+    {
+      "consulta": 21,
+      "id": "FD-023",
+      "http": 200,
+      "segundos_http": 0.014194,
+      "estado": "FUERA_DE_DOMINIO",
+      "articulos_visibles": [],
+      "citas": []
+    },
+    {
+      "consulta": 22,
+      "id": "FD-024",
+      "http": 200,
+      "segundos_http": 0.012286,
+      "estado": "FUERA_DE_DOMINIO",
+      "articulos_visibles": [],
+      "citas": []
+    },
+    {
+      "consulta": 23,
+      "id": "FD-028",
+      "http": 200,
+      "segundos_http": 0.018145,
+      "estado": "FUERA_DE_DOMINIO",
+      "articulos_visibles": [],
+      "citas": []
+    },
+    {
+      "consulta": 24,
+      "id": "FD-029",
+      "http": 200,
+      "segundos_http": 0.022939,
+      "estado": "FUERA_DE_DOMINIO",
+      "articulos_visibles": [],
+      "citas": []
+    },
+    {
+      "consulta": 25,
+      "id": "FD-030",
+      "http": 200,
+      "segundos_http": 0.008834,
+      "estado": "FUERA_DE_DOMINIO",
+      "articulos_visibles": [],
+      "citas": []
+    },
+    {
+      "consulta": 26,
+      "id": "FD-031",
+      "http": 200,
+      "segundos_http": 0.019654,
+      "estado": "FUERA_DE_DOMINIO",
+      "articulos_visibles": [],
+      "citas": []
+    },
+    {
+      "consulta": 27,
+      "id": "FD-032",
+      "http": 200,
+      "segundos_http": 0.007891,
+      "estado": "FUERA_DE_DOMINIO",
+      "articulos_visibles": [],
+      "citas": []
+    },
+    {
+      "consulta": 28,
+      "id": "FD-033",
+      "http": 200,
+      "segundos_http": 0.007427,
+      "estado": "FUERA_DE_DOMINIO",
+      "articulos_visibles": [],
+      "citas": []
+    },
+    {
+      "consulta": 29,
+      "id": "FD-034",
+      "http": 200,
+      "segundos_http": 0.029043,
+      "estado": "FUERA_DE_DOMINIO",
+      "articulos_visibles": [],
+      "citas": []
+    },
+    {
+      "consulta": 30,
+      "id": "FD-037",
+      "http": 200,
+      "segundos_http": 0.027804,
+      "estado": "FUERA_DE_DOMINIO",
+      "articulos_visibles": [],
+      "citas": []
+    }
+  ]
+}

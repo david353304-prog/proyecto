@@ -1,0 +1,626 @@
+{
+  "estado_motor": {
+    "estado": "activo",
+    "modo_respuesta": "citas_extractivas",
+    "generacion_configurada": true,
+    "sha256_corpus_publicable": "41507d4d7e91d7527baffade9379c670a10cb42cc3b89f1cdb06e9da7d953324"
+  },
+  "filas": [
+    {
+      "id": "RAG-035",
+      "pregunta": "Una persona ocupa un inmueble ajeno sin autorización. ¿Qué comportamientos relacionados con la posesión contempla la ley?",
+      "http": 200,
+      "segundos": 3.166405,
+      "respuesta": {
+        "fuentes_recuperadas": [
+          {
+            "articulo": "77",
+            "numeral": "",
+            "titulo": "COMPORTAMIENTOS CONTRARIOS A LA POSESIÓN Y MERA TENENCIA DE BIENES INMUEBLES",
+            "texto": "ARTÍCULO 77. COMPORTAMIENTOS CONTRARIOS A LA POSESIÓN Y MERA TENENCIA DE BIENES INMUEBLES. Son aquellos contrarios a la posesión, la mera tenencia de los bienes inmuebles de particulares, bienes fiscales, bienes de uso público, bienes de utilidad pública o social, bienes destinados a prestación de servicios públicos. Estos son los siguientes: 1. Perturbar, alterar o interrumpir la posesión o mera tenencia de un bien inmueble ocupándolo ilegalmente. 2. Perturbar la posesión o mera tenencia de un inmueble o mueble por causa de daños materiales o hechos que la alteren, o por no reparar las averías o daños en el propio inmueble que pongan en peligro, perjudiquen o molesten a los vecinos. 3. Instalar servicios públicos en inmuebles que hayan sido ocupados ilegalmente. 4. Omitir el cerramiento y mantenimiento de lotes y fachadas de edificaciones. 5. Impedir el ingreso, uso y disfrute de la posesión o tenencia de inmueble al titular de este derecho. Numeral 1 Restitución y protección de bienes inmuebles. Numeral 2 Reparación de daños materiales por perturbación a la posesión y tenencia de inmuebles o mueble. Numeral 3 Multa General tipo 3 Numeral 4 Multa General tipo 3; construcción, cerramiento, reparación o mantenimiento de inmueble. Numeral 5 Restitución y protección de bienes inmuebles.",
+            "url_fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#77"
+          }
+        ],
+        "pregunta": "Una persona ocupa un inmueble ajeno sin autorización. ¿Qué comportamientos relacionados con la posesión contempla la ley?",
+        "respuesta": "**Artículo 77.** «Son aquellos contrarios a la posesión, la mera tenencia de los bienes inmuebles de particulares, bienes fiscales, bienes de uso público, bienes de utilidad pública o social, bienes destinados a prestación de servicios públicos. Estos son los siguientes:»\n\n**Numeral 1 del artículo 77.** «1. Perturbar, alterar o interrumpir la posesión o mera tenencia de un bien inmueble ocupándolo ilegalmente.»\n\n**Numeral 2 del artículo 77.** «2. Perturbar la posesión o mera tenencia de un inmueble o mueble por causa de daños materiales o hechos que la alteren, o por no reparar las averías o daños en el propio inmueble que pongan en peligro, perjudiquen o molesten a los vecinos.»\n\n**Numeral 3 del artículo 77.** «3. Instalar servicios públicos en inmuebles que hayan sido ocupados ilegalmente.»\n\n**Numeral 4 del artículo 77.** «4. Omitir el cerramiento y mantenimiento de lotes y fachadas de edificaciones.»\n\n**Numeral 5 del artículo 77.** «5. Impedir el ingreso, uso y disfrute de la posesión o tenencia de inmueble al titular de este derecho.»\n\n**Numeral 1 del artículo 77.** «Numeral 1 Restitución y protección de bienes inmuebles.»",
+        "modelo": "gemini-3.1-flash-lite",
+        "total_generales": 1,
+        "total_estructurados": 0,
+        "validacion_documental": {
+          "estado": "PENDIENTE_VALIDACION",
+          "advertencias": []
+        }
+      },
+      "llamada_gemini_confirmada": true,
+      "estado_documental": "PENDIENTE_VALIDACION"
+    },
+    {
+      "id": "RAG-045",
+      "pregunta": "Un policía me da una orden verbal durante un procedimiento. ¿Las órdenes de Policía pueden ser verbales?",
+      "http": 200,
+      "segundos": 4.456959,
+      "respuesta": {
+        "fuentes_recuperadas": [
+          {
+            "articulo": "150",
+            "numeral": "",
+            "titulo": "ORDEN DE POLICÍA",
+            "texto": "ARTÍCULO 150. ORDEN DE POLICÍA. La orden de Policía es un mandato claro, preciso y conciso dirigido en forma individual o de carácter general, escrito o verbal, emanado de la autoridad de Policía, para prevenir o superar comportamientos o hechos contrarios a la convivencia, o para restablecerla. Las órdenes de Policía son de obligatorio cumplimiento. Las personas que las desobedezcan serán obligadas a cumplirlas a través, si es necesario, de los medios, medidas y procedimientos establecidos en este Código. Si la orden no fuere de inmediato cumplimiento, la autoridad conminará a la persona para que la cumpla en un plazo determinado, sin perjuicio de las acciones legales pertinentes .",
+            "url_fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#150"
+          }
+        ],
+        "pregunta": "Un policía me da una orden verbal durante un procedimiento. ¿Las órdenes de Policía pueden ser verbales?",
+        "respuesta": "**Artículo 150.** «La orden de Policía es un mandato claro, preciso y conciso dirigido en forma individual o de carácter general, escrito o verbal, emanado de la autoridad de Policía, para prevenir o superar comportamientos o hechos contrarios a la convivencia, o para restablecerla.»\n\n**Artículo 150.** «Las órdenes de Policía son de obligatorio cumplimiento. Las personas que las desobedezcan serán obligadas a cumplirlas a través, si es necesario, de los medios, medidas y procedimientos establecidos en este Código. Si la orden no fuere de inmediato cumplimiento, la autoridad conminará a la persona para que la cumpla en un plazo determinado, sin perjuicio de las acciones legales pertinentes .»",
+        "modelo": "gemini-3.1-flash-lite",
+        "total_generales": 1,
+        "total_estructurados": 0,
+        "validacion_documental": {
+          "estado": "PENDIENTE_VALIDACION",
+          "advertencias": []
+        }
+      },
+      "llamada_gemini_confirmada": true,
+      "estado_documental": "PENDIENTE_VALIDACION"
+    },
+    {
+      "id": "RAG-041",
+      "pregunta": "El dueño de un animal lo deja deambular sin control y pone en riesgo a otras personas. ¿Qué establece el Código?",
+      "http": 200,
+      "segundos": 0.890437,
+      "respuesta": {
+        "fuentes_recuperadas": [
+          {
+            "articulo": "124",
+            "numeral": "",
+            "titulo": "COMPORTAMIENTOS QUE PONEN EN RIESGO LA CONVIVENCIA POR LA TENENCIA DE ANIMALES",
+            "texto": "ARTÍCULO 124. COMPORTAMIENTOS QUE PONEN EN RIESGO LA CONVIVENCIA POR LA TENENCIA DE ANIMALES. 1. Dejar deambular semoviente, animales feroces o dañinos, en espacio público y privado, lugar abierto al público, o medio de transporte público, sin las debidas medidas de seguridad. 7. Tolerar, permitir o inducir por acción u omisión el que un animal ataque a una persona, a un animal o a bienes de terceros. Numeral 1 Multa General tipo 2 Numeral 7 Multa General tipo 4",
+            "url_fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#124"
+          }
+        ],
+        "pregunta": "El dueño de un animal lo deja deambular sin control y pone en riesgo a otras personas. ¿Qué establece el Código?",
+        "respuesta": "**Numeral 1 del artículo 124.** «1. Dejar deambular semoviente, animales feroces o dañinos, en espacio público y privado, lugar abierto al público, o medio de transporte público, sin las debidas medidas de seguridad.»\n\n**Numeral 1 del artículo 124.** «Numeral 1 Multa General tipo 2»\n\n**Numeral 7 del artículo 124.** «Numeral 7 Multa General tipo 4»",
+        "modelo": "gemini-3.1-flash-lite",
+        "total_generales": 1,
+        "total_estructurados": 0,
+        "validacion_documental": {
+          "estado": "PENDIENTE_VALIDACION",
+          "advertencias": []
+        }
+      },
+      "llamada_gemini_confirmada": true,
+      "estado_documental": "PENDIENTE_VALIDACION"
+    },
+    {
+      "id": "RAG-001",
+      "pregunta": "¿Cuál es el objetivo general del Código Nacional de Seguridad y Convivencia Ciudadana?",
+      "http": 200,
+      "segundos": 3.94472,
+      "respuesta": {
+        "fuentes_recuperadas": [
+          {
+            "articulo": "1",
+            "numeral": "",
+            "titulo": "OBJETO",
+            "texto": "ARTÍCULO 1. OBJETO. Las disposiciones previstas en este Código son de carácter preventivo y buscan establecer las condiciones para la convivencia en el territorio nacional al propiciar el cumplimiento de los deberes y obligaciones de las personas naturales y jurídicas, así como determinar el ejercicio del poder, la función y la actividad de Policía, de conformidad con la Constitución Política y el ordenamiento jurídico vigente.",
+            "url_fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#1"
+          }
+        ],
+        "pregunta": "¿Cuál es el objetivo general del Código Nacional de Seguridad y Convivencia Ciudadana?",
+        "respuesta": "**Artículo 1.** «Las disposiciones previstas en este Código son de carácter preventivo y buscan establecer las condiciones para la convivencia en el territorio nacional al propiciar el cumplimiento de los deberes y obligaciones de las personas naturales y jurídicas, así como determinar el ejercicio del poder, la función y la actividad de Policía, de conformidad con la Constitución Política y el ordenamiento jurídico vigente.»",
+        "modelo": "gemini-3.1-flash-lite",
+        "total_generales": 1,
+        "total_estructurados": 0,
+        "validacion_documental": {
+          "estado": "PENDIENTE_VALIDACION",
+          "advertencias": []
+        }
+      },
+      "llamada_gemini_confirmada": true,
+      "estado_documental": "PENDIENTE_VALIDACION"
+    },
+    {
+      "id": "RAG-002",
+      "pregunta": "¿Cuáles son los objetivos específicos del Código de Policía?",
+      "http": 200,
+      "segundos": 2.718392,
+      "respuesta": {
+        "fuentes_recuperadas": [
+          {
+            "articulo": "2",
+            "numeral": "",
+            "titulo": "OBJETIVOS ESPECÍFICOS",
+            "texto": "ARTÍCULO 2. OBJETIVOS ESPECÍFICOS. Con el fin de mantener las condiciones necesarias para la convivencia en el territorio nacional, los objetivos específicos de este Código son los siguientes: 1. Propiciar en la comunidad comportamientos que favorezcan la convivencia en el espacio público, áreas comunes, lugares abiertos al público o que siendo privados trasciendan a lo público. 2. Promover el respeto, el ejercicio responsable de la libertad, la dignidad, los deberes y los derechos correlativos de la personalidad humana. 3. Promover el uso de mecanismos alternativos, o comunitarios, para la conciliación y solución pacífica de desacuerdos entre particulares. 4. Definir comportamientos, medidas, medios y procedimientos de Policía. 5. Establecer la competencia de las autoridades de Policía en el orden nacional, departamental, distrital y municipal, con observancia del principio de autonomía territorial. 6. Establecer un procedimiento respetuoso del debido proceso, idóneo, inmediato, expedito y eficaz para la atención oportuna de los comportamientos relacionados con la convivencia en el territorio nacional.",
+            "url_fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#2"
+          }
+        ],
+        "pregunta": "¿Cuáles son los objetivos específicos del Código de Policía?",
+        "respuesta": "**Artículo 2.** «Con el fin de mantener las condiciones necesarias para la convivencia en el territorio nacional, los objetivos específicos de este Código son los siguientes:»\n\n**Numeral 1 del artículo 2.** «1. Propiciar en la comunidad comportamientos que favorezcan la convivencia en el espacio público, áreas comunes, lugares abiertos al público o que siendo privados trasciendan a lo público.»\n\n**Numeral 2 del artículo 2.** «2. Promover el respeto, el ejercicio responsable de la libertad, la dignidad, los deberes y los derechos correlativos de la personalidad humana.»\n\n**Numeral 3 del artículo 2.** «3. Promover el uso de mecanismos alternativos, o comunitarios, para la conciliación y solución pacífica de desacuerdos entre particulares.»\n\n**Numeral 4 del artículo 2.** «4. Definir comportamientos, medidas, medios y procedimientos de Policía.»\n\n**Numeral 5 del artículo 2.** «5. Establecer la competencia de las autoridades de Policía en el orden nacional, departamental, distrital y municipal, con observancia del principio de autonomía territorial.»\n\n**Numeral 6 del artículo 2.** «6. Establecer un procedimiento respetuoso del debido proceso, idóneo, inmediato, expedito y eficaz para la atención oportuna de los comportamientos relacionados con la convivencia en el territorio nacional.»",
+        "modelo": "gemini-3.1-flash-lite",
+        "total_generales": 1,
+        "total_estructurados": 0,
+        "validacion_documental": {
+          "estado": "PENDIENTE_VALIDACION",
+          "advertencias": []
+        }
+      },
+      "llamada_gemini_confirmada": true,
+      "estado_documental": "PENDIENTE_VALIDACION"
+    },
+    {
+      "id": "RAG-003",
+      "pregunta": "¿Qué principios fundamentales orientan la aplicación del Código de Policía?",
+      "http": 200,
+      "segundos": 3.999336,
+      "respuesta": {
+        "fuentes_recuperadas": [
+          {
+            "articulo": "8",
+            "numeral": "",
+            "titulo": "PRINCIPIOS",
+            "texto": "ARTÍCULO 8. PRINCIPIOS. Son principios fundamentales del Código: 1. La protección de la vida y el respeto a la dignidad humana. 2. Protección y respeto a los derechos humanos. 3. La prevalencia de los derechos de niños, niñas y adolescentes y su protección integral. 4. La igualdad ante la ley. 5. La libertad y la autorregulación. 6. El reconocimiento y respeto de las diferencias culturales, la autonomía e identidad regional, la diversidad y la no discriminación. 7. El debido proceso. 8. La protección de la diversidad e integridad del ambiente y el patrimonio ecológico. 9. Protección y respeto por los animales en su calidad de seres sintientes. 10. La solidaridad. 11. La solución pacífica de las controversias y desacuerdos de los conflictos. 12. El respeto al ordenamiento jurídico y a las autoridades legalmente constituidas. 13. Proporcionalidad y razonabilidad. La adopción de medios de Policía y medidas correctivas debe ser proporcional y razonable atendiendo las circunstancias de cada caso y la finalidad de la norma. Por lo tanto, se debe procurar que la afectación de derechos y libertades no sea superior al beneficio perseguido y evitar todo exceso innecesario. 14. Necesidad. Las autoridades de Policía sólo podrán adoptar los medios y medidas rigurosamente necesarias e idóneas para la preservación y restablecimiento del orden público cuando la aplicación de otros mecanismos de protección, restauración, educación o de prevención resulte ineficaz para alcanzar el fin propuesto.",
+            "url_fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#8"
+          }
+        ],
+        "pregunta": "¿Qué principios fundamentales orientan la aplicación del Código de Policía?",
+        "respuesta": "**Artículo 8.** «Son principios fundamentales del Código:»\n\n**Numeral 1 del artículo 8.** «1. La protección de la vida y el respeto a la dignidad humana.»\n\n**Numeral 2 del artículo 8.** «2. Protección y respeto a los derechos humanos.»\n\n**Numeral 3 del artículo 8.** «3. La prevalencia de los derechos de niños, niñas y adolescentes y su protección integral.»\n\n**Numeral 4 del artículo 8.** «4. La igualdad ante la ley.»\n\n**Numeral 5 del artículo 8.** «5. La libertad y la autorregulación.»\n\n**Numeral 6 del artículo 8.** «6. El reconocimiento y respeto de las diferencias culturales, la autonomía e identidad regional, la diversidad y la no discriminación.»\n\n**Numeral 7 del artículo 8.** «7. El debido proceso.»\n\n**Numeral 8 del artículo 8.** «8. La protección de la diversidad e integridad del ambiente y el patrimonio ecológico.»\n\n**Numeral 9 del artículo 8.** «9. Protección y respeto por los animales en su calidad de seres sintientes.»\n\n**Numeral 10 del artículo 8.** «10. La solidaridad.»\n\n**Numeral 11 del artículo 8.** «11. La solución pacífica de las controversias y desacuerdos de los conflictos.»\n\n**Numeral 12 del artículo 8.** «12. El respeto al ordenamiento jurídico y a las autoridades legalmente constituidas.»\n\n**Numeral 13 del artículo 8.** «13. Proporcionalidad y razonabilidad. La adopción de medios de Policía y medidas correctivas debe ser proporcional y razonable atendiendo las circunstancias de cada caso y la finalidad de la norma. Por lo tanto, se debe procurar que la afectación de derechos y libertades no sea superior al beneficio perseguido y evitar todo exceso innecesario.»\n\n**Numeral 14 del artículo 8.** «14. Necesidad. Las autoridades de Policía sólo podrán adoptar los medios y medidas rigurosamente necesarias e idóneas para la preservación y restablecimiento del orden público cuando la aplicación de otros mecanismos de protección, restauración, educación o de prevención resulte ineficaz para alcanzar el fin propuesto.»",
+        "modelo": "gemini-3.1-flash-lite",
+        "total_generales": 1,
+        "total_estructurados": 0,
+        "validacion_documental": {
+          "estado": "PENDIENTE_VALIDACION",
+          "advertencias": []
+        }
+      },
+      "llamada_gemini_confirmada": true,
+      "estado_documental": "PENDIENTE_VALIDACION"
+    },
+    {
+      "id": "RAG-007",
+      "pregunta": "¿En qué circunstancias pueden los alcaldes restringir la permanencia de menores en espacios públicos?",
+      "http": 200,
+      "segundos": 2.672491,
+      "respuesta": {
+        "fuentes_recuperadas": [
+          {
+            "articulo": "36",
+            "numeral": "",
+            "titulo": "FACULTADES DE LOS ALCALDES PARA LA RESTRICCIÓN DE LA MOVILIDAD O PERMANENCIA DE NIÑOS, NIÑAS Y ADOLESCENTES EN EL ESPACIO PÚBLICO O EN LUGARES ABIERTOS AL PÚBLI",
+            "texto": "ARTÍCULO 36. FACULTADES DE LOS ALCALDES PARA LA RESTRICCIÓN DE LA MOVILIDAD O PERMANENCIA DE NIÑOS, NIÑAS Y ADOLESCENTES EN EL ESPACIO PÚBLICO O EN LUGARES ABIERTOS AL PÚBLICO. Con el fin de prevenir la ocurrencia de eventos que puedan poner en peligro o afectar la vida, la integridad o la salud de los niños, niñas y adolescentes, excepcionalmente el alcalde podrá restringir su movilidad o permanencia en el espacio público o en lugares abiertos al público, de manera temporal y en forma motivada. PARÁGRAFO. En la implementación se contará con el acompañamiento del Instituto Colombiano de Bienestar Familiar y del Ministerio Público con el fin de determinar que la medida no atenta contra los derechos de los niños, niñas y adolescentes consagrados en el Código de la Infancia y Adolescencia.",
+            "url_fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#36"
+          }
+        ],
+        "pregunta": "¿En qué circunstancias pueden los alcaldes restringir la permanencia de menores en espacios públicos?",
+        "respuesta": "**Artículo 36.** «Con el fin de prevenir la ocurrencia de eventos que puedan poner en peligro o afectar la vida, la integridad o la salud de los niños, niñas y adolescentes, excepcionalmente el alcalde podrá restringir su movilidad o permanencia en el espacio público o en lugares abiertos al público, de manera temporal y en forma motivada.»\n\n**Parágrafo del artículo 36.** «PARÁGRAFO. En la implementación se contará con el acompañamiento del Instituto Colombiano de Bienestar Familiar y del Ministerio Público con el fin de determinar que la medida no atenta contra los derechos de los niños, niñas y adolescentes consagrados en el Código de la Infancia y Adolescencia.»",
+        "modelo": "gemini-3.1-flash-lite",
+        "total_generales": 1,
+        "total_estructurados": 0,
+        "validacion_documental": {
+          "estado": "PENDIENTE_VALIDACION",
+          "advertencias": []
+        }
+      },
+      "llamada_gemini_confirmada": true,
+      "estado_documental": "PENDIENTE_VALIDACION"
+    },
+    {
+      "id": "RAG-009",
+      "pregunta": "¿Qué prohibiciones establece el Código para niños, niñas y adolescentes?",
+      "http": 200,
+      "segundos": 2.366358,
+      "respuesta": {
+        "fuentes_recuperadas": [
+          {
+            "articulo": "39",
+            "numeral": "",
+            "titulo": "PROHIBICIONES A NIÑOS, NIÑAS Y ADOLESCENTES",
+            "texto": "ARTÍCULO 39. PROHIBICIONES A NIÑOS, NIÑAS Y ADOLESCENTES. Además de los comportamientos prohibidos en el presente Código y en las normas vigentes, se prohíbe a niños, niñas y adolescentes: 1. Comercializar, distribuir, tener, almacenar, portar o consumir sustancias psicoactivas o tóxicas, alcohólicas o demás sustancias estimulantes que puedan afectar su salud o que produzcan dependencia, que estén restringidas para menores de edad.",
+            "url_fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#39"
+          }
+        ],
+        "pregunta": "¿Qué prohibiciones establece el Código para niños, niñas y adolescentes?",
+        "respuesta": "**Artículo 39.** «Además de los comportamientos prohibidos en el presente Código y en las normas vigentes, se prohíbe a niños, niñas y adolescentes:»\n\n**Numeral 1 del artículo 39.** «1. Comercializar, distribuir, tener, almacenar, portar o consumir sustancias psicoactivas o tóxicas, alcohólicas o demás sustancias estimulantes que puedan afectar su salud o que produzcan dependencia, que estén restringidas para menores de edad.»",
+        "modelo": "gemini-3.1-flash-lite",
+        "total_generales": 1,
+        "total_estructurados": 0,
+        "validacion_documental": {
+          "estado": "PENDIENTE_VALIDACION",
+          "advertencias": []
+        }
+      },
+      "llamada_gemini_confirmada": true,
+      "estado_documental": "PENDIENTE_VALIDACION"
+    },
+    {
+      "id": "RAG-051",
+      "pregunta": "¿Qué entiende el Código por convivencia y con qué elementos se relaciona?",
+      "http": 200,
+      "segundos": 1.939761,
+      "respuesta": {
+        "fuentes_recuperadas": [
+          {
+            "articulo": "5",
+            "numeral": "",
+            "titulo": "DEFINICIÓN",
+            "texto": "ARTÍCULO 5. DEFINICIÓN. Para los efectos de este Código, se entiende por convivencia, la interacción pacífica, respetuosa y armónica entre las personas, con los bienes, y con el ambiente, en el marco del ordenamiento jurídico.",
+            "url_fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm"
+          }
+        ],
+        "pregunta": "¿Qué entiende el Código por convivencia y con qué elementos se relaciona?",
+        "respuesta": "**Artículo 5.** «Para los efectos de este Código, se entiende por convivencia, la interacción pacífica, respetuosa y armónica entre las personas, con los bienes, y con el ambiente, en el marco del ordenamiento jurídico.»",
+        "modelo": "gemini-3.1-flash-lite",
+        "total_generales": 1,
+        "total_estructurados": 0,
+        "validacion_documental": {
+          "estado": "PENDIENTE_VALIDACION",
+          "advertencias": []
+        }
+      },
+      "llamada_gemini_confirmada": true,
+      "estado_documental": "PENDIENTE_VALIDACION"
+    },
+    {
+      "id": "RAG-012",
+      "pregunta": "¿Qué comportamientos son contrarios a la posesión o tenencia de bienes inmuebles?",
+      "http": 200,
+      "segundos": 4.062359,
+      "respuesta": {
+        "fuentes_recuperadas": [
+          {
+            "articulo": "77",
+            "numeral": "",
+            "titulo": "COMPORTAMIENTOS CONTRARIOS A LA POSESIÓN Y MERA TENENCIA DE BIENES INMUEBLES",
+            "texto": "ARTÍCULO 77. COMPORTAMIENTOS CONTRARIOS A LA POSESIÓN Y MERA TENENCIA DE BIENES INMUEBLES. Son aquellos contrarios a la posesión, la mera tenencia de los bienes inmuebles de particulares, bienes fiscales, bienes de uso público, bienes de utilidad pública o social, bienes destinados a prestación de servicios públicos. Estos son los siguientes: 1. Perturbar, alterar o interrumpir la posesión o mera tenencia de un bien inmueble ocupándolo ilegalmente. 2. Perturbar la posesión o mera tenencia de un inmueble o mueble por causa de daños materiales o hechos que la alteren, o por no reparar las averías o daños en el propio inmueble que pongan en peligro, perjudiquen o molesten a los vecinos. 3. Instalar servicios públicos en inmuebles que hayan sido ocupados ilegalmente. 4. Omitir el cerramiento y mantenimiento de lotes y fachadas de edificaciones. 5. Impedir el ingreso, uso y disfrute de la posesión o tenencia de inmueble al titular de este derecho. Numeral 1 Restitución y protección de bienes inmuebles. Numeral 2 Reparación de daños materiales por perturbación a la posesión y tenencia de inmuebles o mueble. Numeral 3 Multa General tipo 3 Numeral 4 Multa General tipo 3; construcción, cerramiento, reparación o mantenimiento de inmueble. Numeral 5 Restitución y protección de bienes inmuebles.",
+            "url_fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#77"
+          }
+        ],
+        "pregunta": "¿Qué comportamientos son contrarios a la posesión o tenencia de bienes inmuebles?",
+        "respuesta": "**Artículo 77.** «Son aquellos contrarios a la posesión, la mera tenencia de los bienes inmuebles de particulares, bienes fiscales, bienes de uso público, bienes de utilidad pública o social, bienes destinados a prestación de servicios públicos. Estos son los siguientes:»\n\n**Numeral 1 del artículo 77.** «1. Perturbar, alterar o interrumpir la posesión o mera tenencia de un bien inmueble ocupándolo ilegalmente.»\n\n**Numeral 2 del artículo 77.** «2. Perturbar la posesión o mera tenencia de un inmueble o mueble por causa de daños materiales o hechos que la alteren, o por no reparar las averías o daños en el propio inmueble que pongan en peligro, perjudiquen o molesten a los vecinos.»\n\n**Numeral 3 del artículo 77.** «3. Instalar servicios públicos en inmuebles que hayan sido ocupados ilegalmente.»\n\n**Numeral 4 del artículo 77.** «4. Omitir el cerramiento y mantenimiento de lotes y fachadas de edificaciones.»\n\n**Numeral 5 del artículo 77.** «5. Impedir el ingreso, uso y disfrute de la posesión o tenencia de inmueble al titular de este derecho.»\n\n**Numeral 1 del artículo 77.** «Numeral 1 Restitución y protección de bienes inmuebles.»\n\n**Numeral 2 del artículo 77.** «Numeral 2 Reparación de daños materiales por perturbación a la posesión y tenencia de inmuebles o mueble.»\n\n**Numeral 3 del artículo 77.** «Numeral 3 Multa General tipo 3»\n\n**Numeral 4 del artículo 77.** «Numeral 4 Multa General tipo 3; construcción, cerramiento, reparación o mantenimiento de inmueble.»\n\n**Numeral 5 del artículo 77.** «Numeral 5 Restitución y protección de bienes inmuebles.»",
+        "modelo": "gemini-3.1-flash-lite",
+        "total_generales": 1,
+        "total_estructurados": 0,
+        "validacion_documental": {
+          "estado": "PENDIENTE_VALIDACION",
+          "advertencias": []
+        }
+      },
+      "llamada_gemini_confirmada": true,
+      "estado_documental": "PENDIENTE_VALIDACION"
+    },
+    {
+      "id": "RAG-015",
+      "pregunta": "¿Qué comportamientos relacionados con la salud pública afectan la actividad económica?",
+      "http": 200,
+      "segundos": 2.683416,
+      "respuesta": {
+        "fuentes_recuperadas": [
+          {
+            "articulo": "94",
+            "numeral": "",
+            "titulo": "COMPORTAMIENTOS RELACIONADOS CON LA SALUD PÚBLICA QUE AFECTAN LA ACTIVIDAD ECONÓMICA",
+            "texto": "ARTÍCULO 94. COMPORTAMIENTOS RELACIONADOS CON LA SALUD PÚBLICA QUE AFECTAN LA ACTIVIDAD ECONÓMICA. Los siguientes comportamientos relacionados con la salud pública afectan la actividad económica y por lo tanto no deben realizarse: 1. Incumplir las normas o disposiciones de seguridad o sanidad, para el desarrollo de la actividad económica, de acuerdo con su objeto social, previo concepto de la autoridad especializada. 2. No separar en la fuente los residuos sólidos, ni depositarlos selectivamente en un lugar destinado para tal efecto. 3. Permitir el consumo de tabaco y/o sus derivados en lugares no autorizados por la ley y la normatividad vigente. 4. Permitir la permanencia de animales de cualquier especie que afecte las condiciones de higiene, salubridad y seguridad o que impida la correcta prestación del servicio de acuerdo con las disposiciones vigentes. 5. Comercializar en el establecimiento artículos de mala calidad, caducados o adulterados que puedan constituir peligro para la salud pública. 6. Comercializar, almacenar, poseer o tener especies de flora o fauna que ofrezcan peligro para la integridad y la salud. 7. No retirar frecuentemente los residuos de las áreas de producción o depósito y no evacuarlas de manera que se elimine la generación de malos olores, y se impida el refugio y alimento de animales y plagas. 8. No facilitar la utilización de los servicios sanitarios limpios y desinfectados a las personas que así lo requieran, en los establecimientos abiertos al público y proveer de los recursos requeridos para la higiene personal. 9. No destruir en la fuente los envases de bebidas embriagantes. Numeral 1 Multa General tipo 4; Suspensión temporal de actividad. Numeral 2 Multa General tipo 3. Numeral 3 Multa General tipo 1; Suspensión temporal de actividad. Numeral 4 Multa General tipo 3; Suspensión temporal de actividad. Numeral 5 Multa General tipo 4; Suspensión temporal de actividad Numeral 6 Multa General tipo 1; Suspensión temporal de actividad. Numeral 7 Multa General tipo 4; Suspensión temporal de actividad. Numeral 8 Amonestación. Numeral 9 Multa General tipo 1; Suspensión temporal de actividad.",
+            "url_fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#94"
+          }
+        ],
+        "pregunta": "¿Qué comportamientos relacionados con la salud pública afectan la actividad económica?",
+        "respuesta": "**Artículo 94.** «Los siguientes comportamientos relacionados con la salud pública afectan la actividad económica y por lo tanto no deben realizarse:»\n\n**Numeral 1 del artículo 94.** «1. Incumplir las normas o disposiciones de seguridad o sanidad, para el desarrollo de la actividad económica, de acuerdo con su objeto social, previo concepto de la autoridad especializada.»\n\n**Numeral 2 del artículo 94.** «2. No separar en la fuente los residuos sólidos, ni depositarlos selectivamente en un lugar destinado para tal efecto.»\n\n**Numeral 3 del artículo 94.** «3. Permitir el consumo de tabaco y/o sus derivados en lugares no autorizados por la ley y la normatividad vigente.»\n\n**Numeral 4 del artículo 94.** «4. Permitir la permanencia de animales de cualquier especie que afecte las condiciones de higiene, salubridad y seguridad o que impida la correcta prestación del servicio de acuerdo con las disposiciones vigentes.»\n\n**Numeral 5 del artículo 94.** «5. Comercializar en el establecimiento artículos de mala calidad, caducados o adulterados que puedan constituir peligro para la salud pública.»\n\n**Numeral 6 del artículo 94.** «6. Comercializar, almacenar, poseer o tener especies de flora o fauna que ofrezcan peligro para la integridad y la salud.»\n\n**Numeral 7 del artículo 94.** «7. No retirar frecuentemente los residuos de las áreas de producción o depósito y no evacuarlas de manera que se elimine la generación de malos olores, y se impida el refugio y alimento de animales y plagas.»\n\n**Numeral 8 del artículo 94.** «8. No facilitar la utilización de los servicios sanitarios limpios y desinfectados a las personas que así lo requieran, en los establecimientos abiertos al público y proveer de los recursos requeridos para la higiene personal.»\n\n**Numeral 9 del artículo 94.** «9. No destruir en la fuente los envases de bebidas embriagantes.»\n\n**Numeral 1 del artículo 94.** «Numeral 1 Multa General tipo 4; Suspensión temporal de actividad.»\n\n**Numeral 2 del artículo 94.** «Numeral 2 Multa General tipo 3.»\n\n**Numeral 3 del artículo 94.** «Numeral 3 Multa General tipo 1; Suspensión temporal de actividad.»\n\n**Numeral 4 del artículo 94.** «Numeral 4 Multa General tipo 3; Suspensión temporal de actividad.»\n\n**Numeral 5 del artículo 94.** «Numeral 5 Multa General tipo 4; Suspensión temporal de actividad»\n\n**Numeral 6 del artículo 94.** «Numeral 6 Multa General tipo 1; Suspensión temporal de actividad.»\n\n**Numeral 7 del artículo 94.** «Numeral 7 Multa General tipo 4; Suspensión temporal de actividad.»\n\n**Numeral 8 del artículo 94.** «Numeral 8 Amonestación.»\n\n**Numeral 9 del artículo 94.** «Numeral 9 Multa General tipo 1; Suspensión temporal de actividad.»",
+        "modelo": "gemini-3.1-flash-lite",
+        "total_generales": 1,
+        "total_estructurados": 0,
+        "validacion_documental": {
+          "estado": "PENDIENTE_VALIDACION",
+          "advertencias": []
+        }
+      },
+      "llamada_gemini_confirmada": true,
+      "estado_documental": "PENDIENTE_VALIDACION"
+    },
+    {
+      "id": "RAG-016",
+      "pregunta": "¿Qué establece el Código sobre comprar o utilizar celulares reportados como hurtados?",
+      "http": 200,
+      "segundos": 4.315691,
+      "respuesta": {
+        "fuentes_recuperadas": [
+          {
+            "articulo": "95",
+            "numeral": "",
+            "titulo": "COMPORTAMIENTOS QUE AFECTAN LA SEGURIDAD DE LAS PERSONAS Y SUS BIENES RELACIONADOS CON EQUIPOS TERMINALES MÓVILES",
+            "texto": "ARTÍCULO 95. COMPORTAMIENTOS QUE AFECTAN LA SEGURIDAD DE LAS PERSONAS Y SUS BIENES RELACIONADOS CON EQUIPOS TERMINALES MÓVILES. 1. Comprar, alquilar o usar equipo terminal móvil con reporte de hurto y/o extravío en la base de datos negativa de que trata el artículo 106 de la Ley 1453 de 2011 o equipo terminal móvil cuyo número de identificación físico o electrónico haya sido reprogramado, remarcado, modificado o suprimido. PARÁGRAFO 2o. Corresponde a las personas naturales o jurídicas verificar que el equipo a comprar, alquilar, usar, distribuir, almacenar o vender, no se encuentre reportado como hurtado y/o extraviado en la base de datos negativa de que trata el artículo 106 de la Ley 1453 de 2011 y proceder al registro en base de datos positiva. La consulta pública de la base de datos negativa estará disponible a través del sitio web que indique la Comisión de Regulación de Comunicaciones y para el registro de los equipos terminales móviles en la base de datos positiva los proveedores deberán disponer de los medios definidos en la regulación. Numeral 1 Multa General tipo 2; Destrucción de bien; Suspensión temporal de actividad.",
+            "url_fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#95"
+          }
+        ],
+        "pregunta": "¿Qué establece el Código sobre comprar o utilizar celulares reportados como hurtados?",
+        "respuesta": "**Numeral 1 del artículo 95.** «1. Comprar, alquilar o usar equipo terminal móvil con reporte de hurto y/o extravío en la base de datos negativa de que trata el artículo 106 de la Ley 1453 de 2011 o equipo terminal móvil cuyo número de identificación físico o electrónico haya sido reprogramado, remarcado, modificado o suprimido.»\n\n**Parágrafo 2 del artículo 95.** «PARÁGRAFO 2o. Corresponde a las personas naturales o jurídicas verificar que el equipo a comprar, alquilar, usar, distribuir, almacenar o vender, no se encuentre reportado como hurtado y/o extraviado en la base de datos negativa de que trata el artículo 106 de la Ley 1453 de 2011 y proceder al registro en base de datos positiva. La consulta pública de la base de datos negativa estará disponible a través del sitio web que indique la Comisión de Regulación de Comunicaciones y para el registro de los equipos terminales móviles en la base de datos positiva los proveedores deberán disponer de los medios definidos en la regulación.»\n\n**Numeral 1 del artículo 95.** «Numeral 1 Multa General tipo 2; Destrucción de bien; Suspensión temporal de actividad.»",
+        "modelo": "gemini-3.1-flash-lite",
+        "total_generales": 1,
+        "total_estructurados": 0,
+        "validacion_documental": {
+          "estado": "PENDIENTE_VALIDACION",
+          "advertencias": []
+        }
+      },
+      "llamada_gemini_confirmada": true,
+      "estado_documental": "PENDIENTE_VALIDACION"
+    },
+    {
+      "id": "RAG-017",
+      "pregunta": "¿Qué establece el Código sobre sacar la basura en horarios no autorizados?",
+      "http": 200,
+      "segundos": 3.048288,
+      "respuesta": {
+        "fuentes_recuperadas": [
+          {
+            "articulo": "111",
+            "numeral": "",
+            "titulo": "COMPORTAMIENTOS CONTRARIOS A LA LIMPIEZA Y RECOLECCIÓN DE RESIDUOS Y ESCOMBROS Y MALAS PRÁCTICAS HABITACIONALES",
+            "texto": "ARTÍCULO 111. COMPORTAMIENTOS CONTRARIOS A LA LIMPIEZA Y RECOLECCIÓN DE RESIDUOS Y ESCOMBROS Y MALAS PRÁCTICAS HABITACIONALES. 1. Sacar la basura en horarios no autorizados por la empresa prestadora del servicio o en sitio diferente al lugar de residencia o domicilio. 3. Arrojar residuos sólidos y escombros en sitios de uso público, no acordados ni autorizados por autoridad competente. 8. Arrojar basura, llantas, residuos o escombros en el espacio público o en bienes de carácter público o privado. Numeral 1 Participación en programa comunitario o actividad pedagógica de convivencia. Numeral 3 Participación en programa comunitario o actividad pedagógica de convivencia. Numeral 8 Multa General tipo 4.",
+            "url_fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#111"
+          }
+        ],
+        "pregunta": "¿Qué establece el Código sobre sacar la basura en horarios no autorizados?",
+        "respuesta": "**Numeral 1 del artículo 111.** «1. Sacar la basura en horarios no autorizados por la empresa prestadora del servicio o en sitio diferente al lugar de residencia o domicilio.»\n\n**Numeral 1 del artículo 111.** «Numeral 1 Participación en programa comunitario o actividad pedagógica de convivencia.»",
+        "modelo": "gemini-3.1-flash-lite",
+        "total_generales": 1,
+        "total_estructurados": 0,
+        "validacion_documental": {
+          "estado": "PENDIENTE_VALIDACION",
+          "advertencias": []
+        }
+      },
+      "llamada_gemini_confirmada": true,
+      "estado_documental": "PENDIENTE_VALIDACION"
+    },
+    {
+      "id": "RAG-022",
+      "pregunta": "¿Qué es una orden de Policía y cuáles son sus características?",
+      "http": 200,
+      "segundos": 4.503126,
+      "respuesta": {
+        "fuentes_recuperadas": [
+          {
+            "articulo": "150",
+            "numeral": "",
+            "titulo": "ORDEN DE POLICÍA",
+            "texto": "ARTÍCULO 150. ORDEN DE POLICÍA. La orden de Policía es un mandato claro, preciso y conciso dirigido en forma individual o de carácter general, escrito o verbal, emanado de la autoridad de Policía, para prevenir o superar comportamientos o hechos contrarios a la convivencia, o para restablecerla. Las órdenes de Policía son de obligatorio cumplimiento. Las personas que las desobedezcan serán obligadas a cumplirlas a través, si es necesario, de los medios, medidas y procedimientos establecidos en este Código. Si la orden no fuere de inmediato cumplimiento, la autoridad conminará a la persona para que la cumpla en un plazo determinado, sin perjuicio de las acciones legales pertinentes .",
+            "url_fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#150"
+          }
+        ],
+        "pregunta": "¿Qué es una orden de Policía y cuáles son sus características?",
+        "respuesta": "**Artículo 150.** «La orden de Policía es un mandato claro, preciso y conciso dirigido en forma individual o de carácter general, escrito o verbal, emanado de la autoridad de Policía, para prevenir o superar comportamientos o hechos contrarios a la convivencia, o para restablecerla.»\n\n**Artículo 150.** «Las órdenes de Policía son de obligatorio cumplimiento. Las personas que las desobedezcan serán obligadas a cumplirlas a través, si es necesario, de los medios, medidas y procedimientos establecidos en este Código. Si la orden no fuere de inmediato cumplimiento, la autoridad conminará a la persona para que la cumpla en un plazo determinado, sin perjuicio de las acciones legales pertinentes .»",
+        "modelo": "gemini-3.1-flash-lite",
+        "total_generales": 1,
+        "total_estructurados": 0,
+        "validacion_documental": {
+          "estado": "PENDIENTE_VALIDACION",
+          "advertencias": []
+        }
+      },
+      "llamada_gemini_confirmada": true,
+      "estado_documental": "PENDIENTE_VALIDACION"
+    },
+    {
+      "id": "RAG-031",
+      "pregunta": "Dos personas comienzan una pelea en la calle. ¿Qué establece el Código de Policía sobre este comportamiento?",
+      "http": 200,
+      "segundos": 9.601311,
+      "respuesta": {
+        "fuentes_recuperadas": [
+          {
+            "articulo": "27",
+            "numeral": "",
+            "titulo": "COMPORTAMIENTOS QUE PONEN EN RIESGO LA VIDA E INTEGRIDAD",
+            "texto": "ARTÍCULO 27. COMPORTAMIENTOS QUE PONEN EN RIESGO LA VIDA E INTEGRIDAD. Los siguientes comportamientos ponen en riesgo la vida e integridad de las personas, y, por lo tanto, son contrarios a la convivencia: 1. Reñir, incitar o incurrir en confrontaciones violentas que puedan derivar en agresiones físicas. 2. Lanzar objetos que puedan causar daño o sustancias peligrosas a personas. 3. Agredir físicamente a personas por cualquier medio. 4. Amenazar con causar un daño físico a personas por cualquier medio. 5. No retirar o reparar, en los inmuebles, los elementos que ofrezcan riesgo a la vida e integridad. Numeral 1 Multa General tipo 2. PARÁGRAFO 2o. En los comportamientos señalados en los numerales 1 al 5 del presente artículo, se deberá utilizar la mediación policial como medio para intentar resolver el conflicto.",
+            "url_fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#27"
+          }
+        ],
+        "pregunta": "Dos personas comienzan una pelea en la calle. ¿Qué establece el Código de Policía sobre este comportamiento?",
+        "respuesta": "**Artículo 27.** «Los siguientes comportamientos ponen en riesgo la vida e integridad de las personas, y, por lo tanto, son contrarios a la convivencia:»\n\n**Numeral 1 del artículo 27.** «1. Reñir, incitar o incurrir en confrontaciones violentas que puedan derivar en agresiones físicas.»\n\n**Numeral 1 del artículo 27.** «Numeral 1 Multa General tipo 2.»\n\n**Parágrafo 2 del artículo 27.** «PARÁGRAFO 2o. En los comportamientos señalados en los numerales 1 al 5 del presente artículo, se deberá utilizar la mediación policial como medio para intentar resolver el conflicto.»",
+        "modelo": "gemini-3.1-flash-lite",
+        "total_generales": 1,
+        "total_estructurados": 0,
+        "validacion_documental": {
+          "estado": "PENDIENTE_VALIDACION",
+          "advertencias": []
+        }
+      },
+      "llamada_gemini_confirmada": true,
+      "estado_documental": "PENDIENTE_VALIDACION"
+    },
+    {
+      "id": "RAG-037",
+      "pregunta": "Un local comercial no informa a sus clientes sobre los protocolos de evacuación. ¿Qué comportamiento contempla la ley?",
+      "http": 200,
+      "segundos": 2.667993,
+      "respuesta": {
+        "fuentes_recuperadas": [
+          {
+            "articulo": "93",
+            "numeral": "",
+            "titulo": "COMPORTAMIENTOS RELACIONADOS CON LA SEGURIDAD Y TRANQUILIDAD QUE AFECTAN LA ACTIVIDAD ECONÓMICA",
+            "texto": "ARTÍCULO 93. COMPORTAMIENTOS RELACIONADOS CON LA SEGURIDAD Y TRANQUILIDAD QUE AFECTAN LA ACTIVIDAD ECONÓMICA. 1. No informar los protocolos de seguridad y evacuación en caso de emergencias a las personas que se encuentren en el lugar. Numeral 1 Multa General Tipo 1",
+            "url_fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#93"
+          }
+        ],
+        "pregunta": "Un local comercial no informa a sus clientes sobre los protocolos de evacuación. ¿Qué comportamiento contempla la ley?",
+        "respuesta": "**Numeral 1 del artículo 93.** «1. No informar los protocolos de seguridad y evacuación en caso de emergencias a las personas que se encuentren en el lugar.»\n\n**Numeral 1 del artículo 93.** «Numeral 1 Multa General Tipo 1»",
+        "modelo": "gemini-3.1-flash-lite",
+        "total_generales": 1,
+        "total_estructurados": 0,
+        "validacion_documental": {
+          "estado": "PENDIENTE_VALIDACION",
+          "advertencias": []
+        }
+      },
+      "llamada_gemini_confirmada": true,
+      "estado_documental": "PENDIENTE_VALIDACION"
+    },
+    {
+      "id": "RAG-038",
+      "pregunta": "Un restaurante incumple las condiciones sanitarias exigidas para funcionar. ¿Qué establece el Código de Policía?",
+      "http": 200,
+      "segundos": 13.920895,
+      "respuesta": {
+        "fuentes_recuperadas": [
+          {
+            "articulo": "94",
+            "numeral": "",
+            "titulo": "COMPORTAMIENTOS RELACIONADOS CON LA SALUD PÚBLICA QUE AFECTAN LA ACTIVIDAD ECONÓMICA",
+            "texto": "ARTÍCULO 94. COMPORTAMIENTOS RELACIONADOS CON LA SALUD PÚBLICA QUE AFECTAN LA ACTIVIDAD ECONÓMICA. Los siguientes comportamientos relacionados con la salud pública afectan la actividad económica y por lo tanto no deben realizarse: 1. Incumplir las normas o disposiciones de seguridad o sanidad, para el desarrollo de la actividad económica, de acuerdo con su objeto social, previo concepto de la autoridad especializada. 2. No separar en la fuente los residuos sólidos, ni depositarlos selectivamente en un lugar destinado para tal efecto. 3. Permitir el consumo de tabaco y/o sus derivados en lugares no autorizados por la ley y la normatividad vigente. 4. Permitir la permanencia de animales de cualquier especie que afecte las condiciones de higiene, salubridad y seguridad o que impida la correcta prestación del servicio de acuerdo con las disposiciones vigentes. 5. Comercializar en el establecimiento artículos de mala calidad, caducados o adulterados que puedan constituir peligro para la salud pública. 6. Comercializar, almacenar, poseer o tener especies de flora o fauna que ofrezcan peligro para la integridad y la salud. 7. No retirar frecuentemente los residuos de las áreas de producción o depósito y no evacuarlas de manera que se elimine la generación de malos olores, y se impida el refugio y alimento de animales y plagas. 8. No facilitar la utilización de los servicios sanitarios limpios y desinfectados a las personas que así lo requieran, en los establecimientos abiertos al público y proveer de los recursos requeridos para la higiene personal. 9. No destruir en la fuente los envases de bebidas embriagantes. Numeral 1 Multa General tipo 4; Suspensión temporal de actividad. Numeral 2 Multa General tipo 3. Numeral 3 Multa General tipo 1; Suspensión temporal de actividad. Numeral 4 Multa General tipo 3; Suspensión temporal de actividad. Numeral 5 Multa General tipo 4; Suspensión temporal de actividad Numeral 6 Multa General tipo 1; Suspensión temporal de actividad. Numeral 7 Multa General tipo 4; Suspensión temporal de actividad. Numeral 8 Amonestación. Numeral 9 Multa General tipo 1; Suspensión temporal de actividad.",
+            "url_fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#94"
+          }
+        ],
+        "pregunta": "Un restaurante incumple las condiciones sanitarias exigidas para funcionar. ¿Qué establece el Código de Policía?",
+        "respuesta": "**Artículo 94.** «Los siguientes comportamientos relacionados con la salud pública afectan la actividad económica y por lo tanto no deben realizarse:»\n\n**Numeral 1 del artículo 94.** «1. Incumplir las normas o disposiciones de seguridad o sanidad, para el desarrollo de la actividad económica, de acuerdo con su objeto social, previo concepto de la autoridad especializada.»\n\n**Numeral 1 del artículo 94.** «Numeral 1 Multa General tipo 4; Suspensión temporal de actividad.»",
+        "modelo": "gemini-3.1-flash-lite",
+        "total_generales": 1,
+        "total_estructurados": 0,
+        "validacion_documental": {
+          "estado": "PENDIENTE_VALIDACION",
+          "advertencias": []
+        }
+      },
+      "llamada_gemini_confirmada": true,
+      "estado_documental": "PENDIENTE_VALIDACION"
+    },
+    {
+      "id": "RAG-039",
+      "pregunta": "Compré un celular usado y después descubrí que aparece reportado como robado. ¿Qué contempla la ley sobre estos equipos?",
+      "http": 200,
+      "segundos": 24.837269,
+      "respuesta": {
+        "fuentes_recuperadas": [
+          {
+            "articulo": "95",
+            "numeral": "",
+            "titulo": "COMPORTAMIENTOS QUE AFECTAN LA SEGURIDAD DE LAS PERSONAS Y SUS BIENES RELACIONADOS CON EQUIPOS TERMINALES MÓVILES",
+            "texto": "ARTÍCULO 95. COMPORTAMIENTOS QUE AFECTAN LA SEGURIDAD DE LAS PERSONAS Y SUS BIENES RELACIONADOS CON EQUIPOS TERMINALES MÓVILES. 1. Comprar, alquilar o usar equipo terminal móvil con reporte de hurto y/o extravío en la base de datos negativa de que trata el artículo 106 de la Ley 1453 de 2011 o equipo terminal móvil cuyo número de identificación físico o electrónico haya sido reprogramado, remarcado, modificado o suprimido. PARÁGRAFO 2o. Corresponde a las personas naturales o jurídicas verificar que el equipo a comprar, alquilar, usar, distribuir, almacenar o vender, no se encuentre reportado como hurtado y/o extraviado en la base de datos negativa de que trata el artículo 106 de la Ley 1453 de 2011 y proceder al registro en base de datos positiva. La consulta pública de la base de datos negativa estará disponible a través del sitio web que indique la Comisión de Regulación de Comunicaciones y para el registro de los equipos terminales móviles en la base de datos positiva los proveedores deberán disponer de los medios definidos en la regulación. Numeral 1 Multa General tipo 2; Destrucción de bien; Suspensión temporal de actividad.",
+            "url_fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#95"
+          }
+        ],
+        "pregunta": "Compré un celular usado y después descubrí que aparece reportado como robado. ¿Qué contempla la ley sobre estos equipos?",
+        "respuesta": "**Numeral 1 del artículo 95.** «1. Comprar, alquilar o usar equipo terminal móvil con reporte de hurto y/o extravío en la base de datos negativa de que trata el artículo 106 de la Ley 1453 de 2011 o equipo terminal móvil cuyo número de identificación físico o electrónico haya sido reprogramado, remarcado, modificado o suprimido.»\n\n**Parágrafo 2 del artículo 95.** «PARÁGRAFO 2o. Corresponde a las personas naturales o jurídicas verificar que el equipo a comprar, alquilar, usar, distribuir, almacenar o vender, no se encuentre reportado como hurtado y/o extraviado en la base de datos negativa de que trata el artículo 106 de la Ley 1453 de 2011 y proceder al registro en base de datos positiva. La consulta pública de la base de datos negativa estará disponible a través del sitio web que indique la Comisión de Regulación de Comunicaciones y para el registro de los equipos terminales móviles en la base de datos positiva los proveedores deberán disponer de los medios definidos en la regulación.»\n\n**Numeral 1 del artículo 95.** «Numeral 1 Multa General tipo 2; Destrucción de bien; Suspensión temporal de actividad.»",
+        "modelo": "gemini-3.1-flash-lite",
+        "total_generales": 1,
+        "total_estructurados": 0,
+        "validacion_documental": {
+          "estado": "PENDIENTE_VALIDACION",
+          "advertencias": []
+        }
+      },
+      "llamada_gemini_confirmada": true,
+      "estado_documental": "PENDIENTE_VALIDACION"
+    },
+    {
+      "id": "RAG-040",
+      "pregunta": "Mis vecinos sacan la basura fuera del horario establecido y dejan residuos en la calle. ¿Qué norma regula este comportamiento?",
+      "http": 200,
+      "segundos": 5.276944,
+      "respuesta": {
+        "fuentes_recuperadas": [
+          {
+            "articulo": "111",
+            "numeral": "",
+            "titulo": "COMPORTAMIENTOS CONTRARIOS A LA LIMPIEZA Y RECOLECCIÓN DE RESIDUOS Y ESCOMBROS Y MALAS PRÁCTICAS HABITACIONALES",
+            "texto": "ARTÍCULO 111. COMPORTAMIENTOS CONTRARIOS A LA LIMPIEZA Y RECOLECCIÓN DE RESIDUOS Y ESCOMBROS Y MALAS PRÁCTICAS HABITACIONALES. 1. Sacar la basura en horarios no autorizados por la empresa prestadora del servicio o en sitio diferente al lugar de residencia o domicilio. 3. Arrojar residuos sólidos y escombros en sitios de uso público, no acordados ni autorizados por autoridad competente. 8. Arrojar basura, llantas, residuos o escombros en el espacio público o en bienes de carácter público o privado. Numeral 1 Participación en programa comunitario o actividad pedagógica de convivencia. Numeral 3 Participación en programa comunitario o actividad pedagógica de convivencia. Numeral 8 Multa General tipo 4.",
+            "url_fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#111"
+          }
+        ],
+        "pregunta": "Mis vecinos sacan la basura fuera del horario establecido y dejan residuos en la calle. ¿Qué norma regula este comportamiento?",
+        "respuesta": "**Numeral 1 del artículo 111.** «1. Sacar la basura en horarios no autorizados por la empresa prestadora del servicio o en sitio diferente al lugar de residencia o domicilio.»\n\n**Numeral 3 del artículo 111.** «3. Arrojar residuos sólidos y escombros en sitios de uso público, no acordados ni autorizados por autoridad competente.»\n\n**Numeral 8 del artículo 111.** «8. Arrojar basura, llantas, residuos o escombros en el espacio público o en bienes de carácter público o privado.»\n\n**Numeral 1 del artículo 111.** «Numeral 1 Participación en programa comunitario o actividad pedagógica de convivencia.»\n\n**Numeral 3 del artículo 111.** «Numeral 3 Participación en programa comunitario o actividad pedagógica de convivencia.»\n\n**Numeral 8 del artículo 111.** «Numeral 8 Multa General tipo 4.»",
+        "modelo": "gemini-3.1-flash-lite",
+        "total_generales": 1,
+        "total_estructurados": 0,
+        "validacion_documental": {
+          "estado": "PENDIENTE_VALIDACION",
+          "advertencias": []
+        }
+      },
+      "llamada_gemini_confirmada": true,
+      "estado_documental": "PENDIENTE_VALIDACION"
+    },
+    {
+      "id": "RAG-042",
+      "pregunta": "Estoy construyendo una vivienda sin contar con la licencia requerida. ¿Qué comportamientos urbanísticos contempla la ley?",
+      "http": 200,
+      "segundos": 10.299161,
+      "respuesta": {
+        "fuentes_recuperadas": [
+          {
+            "articulo": "135",
+            "numeral": "",
+            "titulo": "COMPORTAMIENTOS CONTRARIOS A LA INTEGRIDAD URBANÍSTICA",
+            "texto": "ARTÍCULO 135. COMPORTAMIENTOS CONTRARIOS A LA INTEGRIDAD URBANÍSTICA. A) Parcelar, urbanizar, demoler, intervenir o construir: 4. En terrenos aptos para estas actuaciones, sin licencia o cuando esta hubiere caducado. PARÁGRAFO 1o. Cuando se trate de construcciones en terrenos no aptos o sin previa licencia, se impondrán de inmediato la medida de suspensión de construcción o demolición, y se solicitará a las empresas de servicios públicos domiciliarios la suspensión de los servicios correspondientes si no hubiese habitación. PARÁGRAFO 2o. Cuando se realice actuación urbanística sin previa licencia en predios aptos para estos menesteres, sin perjuicio de la medida de multa y de la suspensión temporal de la obra, se concederá un término de sesenta (60) días para que el infractor solicite el reconocimiento de la construcción ante la autoridad competente del distrito o municipio; si pasado este término no presenta licencia de reconocimiento, no podrá reanudar la obra y se duplicará el valor de la multa impuesta. Numeral 4 Multa especial por infracción urbanística; Demolición de obra; Construcción, cerramiento, reparación o mantenimiento de inmueble; Remoción de bienes.",
+            "url_fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#135"
+          }
+        ],
+        "pregunta": "Estoy construyendo una vivienda sin contar con la licencia requerida. ¿Qué comportamientos urbanísticos contempla la ley?",
+        "respuesta": "**Artículo 135.** «A) Parcelar, urbanizar, demoler, intervenir o construir:»\n\n**Numeral 4 del artículo 135.** «4. En terrenos aptos para estas actuaciones, sin licencia o cuando esta hubiere caducado.»\n\n**Parágrafo 1 del artículo 135.** «PARÁGRAFO 1o. Cuando se trate de construcciones en terrenos no aptos o sin previa licencia, se impondrán de inmediato la medida de suspensión de construcción o demolición, y se solicitará a las empresas de servicios públicos domiciliarios la suspensión de los servicios correspondientes si no hubiese habitación.»\n\n**Parágrafo 2 del artículo 135.** «PARÁGRAFO 2o. Cuando se realice actuación urbanística sin previa licencia en predios aptos para estos menesteres, sin perjuicio de la medida de multa y de la suspensión temporal de la obra, se concederá un término de sesenta (60) días para que el infractor solicite el reconocimiento de la construcción ante la autoridad competente del distrito o municipio; si pasado este término no presenta licencia de reconocimiento, no podrá reanudar la obra y se duplicará el valor de la multa impuesta.»\n\n**Numeral 4 del artículo 135.** «Numeral 4 Multa especial por infracción urbanística; Demolición de obra; Construcción, cerramiento, reparación o mantenimiento de inmueble; Remoción de bienes.»",
+        "modelo": "gemini-3.1-flash-lite",
+        "total_generales": 1,
+        "total_estructurados": 0,
+        "validacion_documental": {
+          "estado": "PENDIENTE_VALIDACION",
+          "advertencias": []
+        }
+      },
+      "llamada_gemini_confirmada": true,
+      "estado_documental": "PENDIENTE_VALIDACION"
+    },
+    {
+      "id": "RAG-043",
+      "pregunta": "Una persona deteriora elementos del espacio público. ¿Qué comportamientos contrarios a la convivencia podrían aplicarse?",
+      "http": 200,
+      "segundos": 4.498531,
+      "respuesta": {
+        "fuentes_recuperadas": [
+          {
+            "articulo": "140",
+            "numeral": "",
+            "titulo": "COMPORTAMIENTOS CONTRARIOS AL CUIDADO E INTEGRIDAD DEL ESPACIO PÚBLICO",
+            "texto": "ARTÍCULO 140. COMPORTAMIENTOS CONTRARIOS AL CUIDADO E INTEGRIDAD DEL ESPACIO PÚBLICO. 3. Alterar, remover, dañar o destruir el mobiliario urbano o rural tales como semáforos, señalización vial, teléfonos públicos, hidrantes, estaciones de transporte, faroles o elementos de iluminación, bancas o cestas de basura. 5. Ensuciar, dañar o hacer un uso indebido o abusivo de los bienes fiscales o de uso público o contrariar los reglamentos o manuales pertinentes. Numeral 3 Multa General tipo 4; Reparación de daños materiales de muebles o inmuebles; Construcción, cerramiento, reparación o mantenimiento de inmuebles. Numeral 5 Multa General tipo 3; Reparación de daños materiales de muebles o inmuebles; Construcción, cerramiento, reparación o mantenimiento de inmueble.",
+            "url_fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#140"
+          }
+        ],
+        "pregunta": "Una persona deteriora elementos del espacio público. ¿Qué comportamientos contrarios a la convivencia podrían aplicarse?",
+        "respuesta": "**Numeral 3 del artículo 140.** «3. Alterar, remover, dañar o destruir el mobiliario urbano o rural tales como semáforos, señalización vial, teléfonos públicos, hidrantes, estaciones de transporte, faroles o elementos de iluminación, bancas o cestas de basura.»\n\n**Numeral 5 del artículo 140.** «5. Ensuciar, dañar o hacer un uso indebido o abusivo de los bienes fiscales o de uso público o contrariar los reglamentos o manuales pertinentes.»\n\n**Numeral 3 del artículo 140.** «Numeral 3 Multa General tipo 4; Reparación de daños materiales de muebles o inmuebles; Construcción, cerramiento, reparación o mantenimiento de inmuebles.»\n\n**Numeral 5 del artículo 140.** «Numeral 5 Multa General tipo 3; Reparación de daños materiales de muebles o inmuebles; Construcción, cerramiento, reparación o mantenimiento de inmueble.»",
+        "modelo": "gemini-3.1-flash-lite",
+        "total_generales": 1,
+        "total_estructurados": 0,
+        "validacion_documental": {
+          "estado": "PENDIENTE_VALIDACION",
+          "advertencias": []
+        }
+      },
+      "llamada_gemini_confirmada": true,
+      "estado_documental": "PENDIENTE_VALIDACION"
+    },
+    {
+      "id": "RAG-044",
+      "pregunta": "Un pasajero realiza comportamientos que afectan la convivencia dentro del transporte público. ¿Qué establece el Código?",
+      "http": 200,
+      "segundos": 1.848394,
+      "respuesta": {
+        "fuentes_recuperadas": [
+          {
+            "articulo": "146",
+            "numeral": "",
+            "titulo": "COMPORTAMIENTOS CONTRARIOS A LA CONVIVENCIA EN LOS SISTEMAS DE TRANSPORTE MOTORIZADOS O SERVICIO PÚBLICO DE TRANSPORTE MASIVO DE PASAJEROS",
+            "texto": "ARTÍCULO 146. COMPORTAMIENTOS CONTRARIOS A LA CONVIVENCIA EN LOS SISTEMAS DE TRANSPORTE MOTORIZADOS O SERVICIO PÚBLICO DE TRANSPORTE MASIVO DE PASAJEROS. 5. Agredir, empujar o irrespetar a las demás personas durante el acceso, permanencia o salida de estos. 7. Evadir el pago de la tarifa, validación, tiquete o medios que utilicen los usuarios para acceder a la prestación del servicio esencial de transporte público de pasajeros, en cualquiera de sus modalidades. 8. Destruir, obstruir, alterar o dañar los sistemas de alarma o emergencia de los vehículos destinados al transporte público o sus señales indicativas. 9. Obstaculizar o impedir la movilidad o el flujo de usuarios en estos sistemas. 11. Perturbar en los medios de transporte públicos, la tranquilidad de los demás ocupantes mediante cualquier acto molesto; 12. Ingresar y salir de las estaciones o portales por sitios distintos a las puertas designadas para el efecto. 16. Irrespetar a las autoridades del sistema. Numeral 5 Multa General Tipo 1 Numeral 7 Multa General tipo 2 Numeral 8 Multa General tipo 4 Numeral 9 Multa General tipo 3 Numeral 11 Amonestación Numeral 12 Multa General tipo 1 Numeral 16 Multa General Tipo 3.",
+            "url_fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#146"
+          }
+        ],
+        "pregunta": "Un pasajero realiza comportamientos que afectan la convivencia dentro del transporte público. ¿Qué establece el Código?",
+        "respuesta": "**Numeral 5 del artículo 146.** «5. Agredir, empujar o irrespetar a las demás personas durante el acceso, permanencia o salida de estos.»\n\n**Numeral 7 del artículo 146.** «7. Evadir el pago de la tarifa, validación, tiquete o medios que utilicen los usuarios para acceder a la prestación del servicio esencial de transporte público de pasajeros, en cualquiera de sus modalidades.»\n\n**Numeral 8 del artículo 146.** «8. Destruir, obstruir, alterar o dañar los sistemas de alarma o emergencia de los vehículos destinados al transporte público o sus señales indicativas.»\n\n**Numeral 9 del artículo 146.** «9. Obstaculizar o impedir la movilidad o el flujo de usuarios en estos sistemas.»\n\n**Numeral 11 del artículo 146.** «11. Perturbar en los medios de transporte públicos, la tranquilidad de los demás ocupantes mediante cualquier acto molesto;»\n\n**Numeral 12 del artículo 146.** «12. Ingresar y salir de las estaciones o portales por sitios distintos a las puertas designadas para el efecto.»\n\n**Numeral 16 del artículo 146.** «16. Irrespetar a las autoridades del sistema.»\n\n**Numeral 5 del artículo 146.** «Numeral 5 Multa General Tipo 1»\n\n**Numeral 7 del artículo 146.** «Numeral 7 Multa General tipo 2»\n\n**Numeral 8 del artículo 146.** «Numeral 8 Multa General tipo 4»\n\n**Numeral 9 del artículo 146.** «Numeral 9 Multa General tipo 3»\n\n**Numeral 11 del artículo 146.** «Numeral 11 Amonestación»\n\n**Numeral 12 del artículo 146.** «Numeral 12 Multa General tipo 1»\n\n**Numeral 16 del artículo 146.** «Numeral 16 Multa General Tipo 3.»",
+        "modelo": "gemini-3.1-flash-lite",
+        "total_generales": 1,
+        "total_estructurados": 0,
+        "validacion_documental": {
+          "estado": "PENDIENTE_VALIDACION",
+          "advertencias": []
+        }
+      },
+      "llamada_gemini_confirmada": true,
+      "estado_documental": "PENDIENTE_VALIDACION"
+    }
+  ]
+}

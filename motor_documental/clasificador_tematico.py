@@ -38,11 +38,30 @@ def clasificar_pregunta(pregunta):
         }
         libro = next((k for k, patron in temas.items() if re.search(patron, texto)), None)
     externo = re.search(
-        r"\b(limite de velocidad|codigo de transito|renta|iva|cesantias|"
-        r"pena por homicidio|divorcio|receta|soat|tecnomecanica|pico y placa|"
+        r"\b(renta|cesantias|pena por homicidio|divorcio|receta|"
         r"bitcoin|partido de futbol)\b", texto
     )
-    return {"libro": libro, "fuera_de_dominio": bool(externo and not libro)}
+    fuente_externa = re.search(
+        r"\b(?:codigo (?:de transito|penal|sustantivo del trabajo)|"
+        r"(?:multas?|comparendos?) (?:de transito|por (?:exceso de velocidad|"
+        r"pasar(?:se)? (?:un|el) semaforo en rojo|pico y placa))|"
+        r"limite de velocidad|exceder (?:el limite de velocidad|la velocidad(?: permitida)?)|"
+        r"soat|tecnomecanica|pico y placa|"
+        r"renovar (?:mi |la |una )?licencia de conduccion|"
+        r"estatuto tributario|impuesto (?:(?:de|sobre la) renta|predial)|"
+        r"multas? (?:de|por) (?:la )?renta|"
+        r"declar(?:ar|acion de) (?:la )?renta|"
+        r"(?:renovar|tramitar|solicitar) (?:el |un |mi )?pasaporte|"
+        r"(?:tramitar|solicitar) (?:una |la )?visa|"
+        r"liquidacion (?:laboral|(?:al|por) renunciar)|"
+        r"registrar (?:una|mi|la) empresa|pension de vejez|"
+        r"sancion tributaria|vacaciones.{0,30}empleador|"
+        r"iva|dian)\b", texto
+    )
+    return {
+        "libro": libro,
+        "fuera_de_dominio": bool(fuente_externa or (externo and not libro)),
+    }
 
 
 def orientar_por_libro(resultados, libro):

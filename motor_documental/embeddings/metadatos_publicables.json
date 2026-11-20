@@ -1,0 +1,3430 @@
+{
+  "modelo": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+  "revision_modelo": "e8f8c211226b894fcb81acc59f3b34ba3efd5f42",
+  "sha256_corpus": "dda8a2e3f76b9e8669420a6162757def5d0fe61fad9cee70500737f31a26c1aa",
+  "sha256_indice": "06ece6643a1b96ae7b25179073c0588773cc16cf88bb81f507a0c82df5d5530a",
+  "dimension": 384,
+  "fragmentos": [
+    {
+      "articulo": "1",
+      "id": "ley-1801-2016-art-1",
+      "titulo": "OBJETO",
+      "tema": "CAPÍTULO I OBJETO DEL CÓDIGO, ÁMBITO DE APLICACIÓN Y AUTONOMÍA.",
+      "jerarquia": {
+        "libro": "LIBRO PRIMERO DISPOSICIONES GENERALES.",
+        "título": "TÍTULO I OBJETO DEL CÓDIGO, ÁMBITO DE APLICACIÓN Y AUTONOMÍA.",
+        "capítulo": "CAPÍTULO I OBJETO DEL CÓDIGO, ÁMBITO DE APLICACIÓN Y AUTONOMÍA."
+      },
+      "fuente": "Ley 1801 de 2016, compilación de Cancillería",
+      "url_fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#1",
+      "fecha_consulta": "2026-11-18",
+      "estado_documental": "articulo_cotejado",
+      "apartados": [
+        "ley-1801-2016-art-1-cuerpo"
+      ],
+      "intervalo_texto": [
+        0,
+        431
+      ],
+      "fecha_revision_documental": null,
+      "texto": "ARTÍCULO 1. OBJETO. Las disposiciones previstas en este Código son de carácter preventivo y buscan establecer las condiciones para la convivencia en el territorio nacional al propiciar el cumplimiento de los deberes y obligaciones de las personas naturales y jurídicas, así como determinar el ejercicio del poder, la función y la actividad de Policía, de conformidad con la Constitución Política y el ordenamiento jurídico vigente."
+    },
+    {
+      "articulo": "2",
+      "id": "ley-1801-2016-art-2",
+      "titulo": "OBJETIVOS ESPECÍFICOS",
+      "tema": "CAPÍTULO I OBJETO DEL CÓDIGO, ÁMBITO DE APLICACIÓN Y AUTONOMÍA.",
+      "jerarquia": {
+        "libro": "LIBRO PRIMERO DISPOSICIONES GENERALES.",
+        "título": "TÍTULO I OBJETO DEL CÓDIGO, ÁMBITO DE APLICACIÓN Y AUTONOMÍA.",
+        "capítulo": "CAPÍTULO I OBJETO DEL CÓDIGO, ÁMBITO DE APLICACIÓN Y AUTONOMÍA."
+      },
+      "fuente": "Ley 1801 de 2016, compilación de Cancillería",
+      "url_fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#2",
+      "fecha_consulta": "2026-11-18",
+      "estado_documental": "articulo_cotejado",
+      "apartados": [
+        "ley-1801-2016-art-2-cuerpo",
+        "ley-1801-2016-art-2-numeral-1",
+        "ley-1801-2016-art-2-numeral-2"
+      ],
+      "intervalo_texto": [
+        0,
+        463
+      ],
+      "fecha_revision_documental": null,
+      "texto": "ARTÍCULO 2. OBJETIVOS ESPECÍFICOS. Con el fin de mantener las condiciones necesarias para la convivencia en el territorio nacional, los objetivos específicos de este Código son los siguientes: 1. Propiciar en la comunidad comportamientos que favorezcan la convivencia en el espacio público, áreas comunes, lugares abiertos al público o que siendo privados trasciendan a lo público. 2. Promover el respeto, el ejercicio responsable de la libertad, la dignidad, los"
+    },
+    {
+      "articulo": "2",
+      "id": "ley-1801-2016-art-2",
+      "titulo": "OBJETIVOS ESPECÍFICOS",
+      "tema": "CAPÍTULO I OBJETO DEL CÓDIGO, ÁMBITO DE APLICACIÓN Y AUTONOMÍA.",
+      "jerarquia": {
+        "libro": "LIBRO PRIMERO DISPOSICIONES GENERALES.",
+        "título": "TÍTULO I OBJETO DEL CÓDIGO, ÁMBITO DE APLICACIÓN Y AUTONOMÍA.",
+        "capítulo": "CAPÍTULO I OBJETO DEL CÓDIGO, ÁMBITO DE APLICACIÓN Y AUTONOMÍA."
+      },
+      "fuente": "Ley 1801 de 2016, compilación de Cancillería",
+      "url_fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#2",
+      "fecha_consulta": "2026-11-18",
+      "estado_documental": "articulo_cotejado",
+      "apartados": [
+        "ley-1801-2016-art-2-numeral-1",
+        "ley-1801-2016-art-2-numeral-2",
+        "ley-1801-2016-art-2-numeral-3",
+        "ley-1801-2016-art-2-numeral-4",
+        "ley-1801-2016-art-2-numeral-5"
+      ],
+      "intervalo_texto": [
+        373,
+        846
+      ],
+      "fecha_revision_documental": null,
+      "texto": "público. 2. Promover el respeto, el ejercicio responsable de la libertad, la dignidad, los deberes y los derechos correlativos de la personalidad humana. 3. Promover el uso de mecanismos alternativos, o comunitarios, para la conciliación y solución pacífica de desacuerdos entre particulares. 4. Definir comportamientos, medidas, medios y procedimientos de Policía. 5. Establecer la competencia de las autoridades de Policía en el orden nacional, departamental, distrital y"
+    },
+    {
+      "articulo": "2",
+      "id": "ley-1801-2016-art-2",
+      "titulo": "OBJETIVOS ESPECÍFICOS",
+      "tema": "CAPÍTULO I OBJETO DEL CÓDIGO, ÁMBITO DE APLICACIÓN Y AUTONOMÍA.",
+      "jerarquia": {
+        "libro": "LIBRO PRIMERO DISPOSICIONES GENERALES.",
+        "título": "TÍTULO I OBJETO DEL CÓDIGO, ÁMBITO DE APLICACIÓN Y AUTONOMÍA.",
+        "capítulo": "CAPÍTULO I OBJETO DEL CÓDIGO, ÁMBITO DE APLICACIÓN Y AUTONOMÍA."
+      },
+      "fuente": "Ley 1801 de 2016, compilación de Cancillería",
+      "url_fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#2",
+      "fecha_consulta": "2026-11-18",
+      "estado_documental": "articulo_cotejado",
+      "apartados": [
+        "ley-1801-2016-art-2-numeral-5",
+        "ley-1801-2016-art-2-numeral-6"
+      ],
+      "intervalo_texto": [
+        742,
+        1120
+      ],
+      "fecha_revision_documental": null,
+      "texto": "Establecer la competencia de las autoridades de Policía en el orden nacional, departamental, distrital y municipal, con observancia del principio de autonomía territorial. 6. Establecer un procedimiento respetuoso del debido proceso, idóneo, inmediato, expedito y eficaz para la atención oportuna de los comportamientos relacionados con la convivencia en el territorio nacional."
+    },
+    {
+      "articulo": "5",
+      "id": "ley-1801-2016-art-5",
+      "titulo": "DEFINICIÓN",
+      "tema": "CAPÍTULO II BASES DE LA CONVIVENCIA Y SEGURIDAD CIUDADANA.",
+      "jerarquia": {
+        "libro": "LIBRO PRIMERO DISPOSICIONES GENERALES.",
+        "título": "TÍTULO I OBJETO DEL CÓDIGO, ÁMBITO DE APLICACIÓN Y AUTONOMÍA.",
+        "capítulo": "CAPÍTULO II BASES DE LA CONVIVENCIA Y SEGURIDAD CIUDADANA."
+      },
+      "fuente": "Ley 1801 de 2016, compilación de Cancillería",
+      "url_fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm",
+      "fecha_consulta": "2026-11-18",
+      "estado_documental": "articulo_cotejado",
+      "apartados": [
+        "ley-1801-2016-art-5-cuerpo"
+      ],
+      "intervalo_texto": [
+        0,
+        226
+      ],
+      "fecha_revision_documental": null,
+      "texto": "ARTÍCULO 5. DEFINICIÓN. Para los efectos de este Código, se entiende por convivencia, la interacción pacífica, respetuosa y armónica entre las personas, con los bienes, y con el ambiente, en el marco del ordenamiento jurídico."
+    },
+    {
+      "articulo": "6",
+      "id": "ley-1801-2016-art-6",
+      "titulo": "CATEGORÍAS JURÍDICAS",
+      "tema": "CAPÍTULO II BASES DE LA CONVIVENCIA Y SEGURIDAD CIUDADANA.",
+      "jerarquia": {
+        "libro": "LIBRO PRIMERO DISPOSICIONES GENERALES.",
+        "título": "TÍTULO I OBJETO DEL CÓDIGO, ÁMBITO DE APLICACIÓN Y AUTONOMÍA.",
+        "capítulo": "CAPÍTULO II BASES DE LA CONVIVENCIA Y SEGURIDAD CIUDADANA."
+      },
+      "fuente": "Ley 1801 de 2016, compilación de Cancillería",
+      "url_fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#6",
+      "fecha_consulta": "2026-11-18",
+      "estado_documental": "articulo_cotejado",
+      "apartados": [
+        "ley-1801-2016-art-6-cuerpo",
+        "ley-1801-2016-art-6-numeral-1",
+        "ley-1801-2016-art-6-numeral-2",
+        "ley-1801-2016-art-6-numeral-3"
+      ],
+      "intervalo_texto": [
+        0,
+        440
+      ],
+      "fecha_revision_documental": null,
+      "texto": "ARTÍCULO 6. CATEGORÍAS JURÍDICAS. Las categorías de convivencia son: seguridad, tranquilidad, ambiente y salud pública, y su alcance es el siguiente: 1. Seguridad: Garantizar la protección de los derechos y libertades constitucionales y legales de las personas en el territorio nacional. 2. Tranquilidad: Lograr que las personas ejerzan sus derechos y libertades, sin abusar de los mismos, y con plena observancia de los derechos ajenos. 3."
+    },
+    {
+      "articulo": "6",
+      "id": "ley-1801-2016-art-6",
+      "titulo": "CATEGORÍAS JURÍDICAS",
+      "tema": "CAPÍTULO II BASES DE LA CONVIVENCIA Y SEGURIDAD CIUDADANA.",
+      "jerarquia": {
+        "libro": "LIBRO PRIMERO DISPOSICIONES GENERALES.",
+        "título": "TÍTULO I OBJETO DEL CÓDIGO, ÁMBITO DE APLICACIÓN Y AUTONOMÍA.",
+        "capítulo": "CAPÍTULO II BASES DE LA CONVIVENCIA Y SEGURIDAD CIUDADANA."
+      },
+      "fuente": "Ley 1801 de 2016, compilación de Cancillería",
+      "url_fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#6",
+      "fecha_consulta": "2026-11-18",
+      "estado_documental": "articulo_cotejado",
+      "apartados": [
+        "ley-1801-2016-art-6-numeral-2",
+        "ley-1801-2016-art-6-numeral-3",
+        "ley-1801-2016-art-6-numeral-4"
+      ],
+      "intervalo_texto": [
+        352,
+        794
+      ],
+      "fecha_revision_documental": null,
+      "texto": "libertades, sin abusar de los mismos, y con plena observancia de los derechos ajenos. 3. Ambiente: Favorecer la protección de los recursos naturales, el patrimonio ecológico, el goce y la relación sostenible con el ambiente. 4. Salud Pública: Es la responsabilidad estatal y ciudadana de protección de la salud como un derecho esencial, individual, colectivo y comunitario logrado en función de las condiciones de bienestar y calidad de vida."
+    },
+    {
+      "articulo": "7",
+      "id": "ley-1801-2016-art-7",
+      "titulo": "FINALIDADES DE LA CONVIVENCIA",
+      "tema": "CAPÍTULO II BASES DE LA CONVIVENCIA Y SEGURIDAD CIUDADANA.",
+      "jerarquia": {
+        "libro": "LIBRO PRIMERO DISPOSICIONES GENERALES.",
+        "título": "TÍTULO I OBJETO DEL CÓDIGO, ÁMBITO DE APLICACIÓN Y AUTONOMÍA.",
+        "capítulo": "CAPÍTULO II BASES DE LA CONVIVENCIA Y SEGURIDAD CIUDADANA."
+      },
+      "fuente": "Ley 1801 de 2016, compilación de Cancillería",
+      "url_fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#7",
+      "fecha_consulta": "2026-11-18",
+      "estado_documental": "articulo_cotejado",
+      "apartados": [
+        "ley-1801-2016-art-7-cuerpo",
+        "ley-1801-2016-art-7-numeral-1",
+        "ley-1801-2016-art-7-numeral-2",
+        "ley-1801-2016-art-7-numeral-3",
+        "ley-1801-2016-art-7-numeral-4"
+      ],
+      "intervalo_texto": [
+        0,
+        452
+      ],
+      "fecha_revision_documental": null,
+      "texto": "ARTÍCULO 7. FINALIDADES DE LA CONVIVENCIA. Son fines esenciales de las normas de convivencia social previstas en este Código: 1. Que el ejercicio de los derechos y libertades sean garantizados y respetados en el marco de la Constitución y la ley. 2. El cumplimiento de los deberes contenidos en la Constitución, la ley y las normas que regulan la convivencia. 3. El respeto por las diferencias y la aceptación de ellas. 4. La resolución pacífica de los"
+    },
+    {
+      "articulo": "7",
+      "id": "ley-1801-2016-art-7",
+      "titulo": "FINALIDADES DE LA CONVIVENCIA",
+      "tema": "CAPÍTULO II BASES DE LA CONVIVENCIA Y SEGURIDAD CIUDADANA.",
+      "jerarquia": {
+        "libro": "LIBRO PRIMERO DISPOSICIONES GENERALES.",
+        "título": "TÍTULO I OBJETO DEL CÓDIGO, ÁMBITO DE APLICACIÓN Y AUTONOMÍA.",
+        "capítulo": "CAPÍTULO II BASES DE LA CONVIVENCIA Y SEGURIDAD CIUDADANA."
+      },
+      "fuente": "Ley 1801 de 2016, compilación de Cancillería",
+      "url_fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#7",
+      "fecha_consulta": "2026-11-18",
+      "estado_documental": "articulo_cotejado",
+      "apartados": [
+        "ley-1801-2016-art-7-numeral-2",
+        "ley-1801-2016-art-7-numeral-3",
+        "ley-1801-2016-art-7-numeral-4",
+        "ley-1801-2016-art-7-numeral-5",
+        "ley-1801-2016-art-7-numeral-6"
+      ],
+      "intervalo_texto": [
+        347,
+        769
+      ],
+      "fecha_revision_documental": null,
+      "texto": "convivencia. 3. El respeto por las diferencias y la aceptación de ellas. 4. La resolución pacífica de los desacuerdos que afecten la convivencia. 5. La convergencia de los intereses personales y generales para promover un desarrollo armónico. 6. prevalencia de los valores sociales de solidaridad, tolerancia, responsabilidad, honradez, respeto, bondad, libertad, justicia, igualdad, fraternidad, lealtad, prudencia y paz."
+    },
+    {
+      "articulo": "3",
+      "id": "ley-1801-2016-art-3",
+      "titulo": "ÁMBITO DE APLICACIÓN DEL DERECHO DE POLICÍA",
+      "tema": "CAPÍTULO I OBJETO DEL CÓDIGO, ÁMBITO DE APLICACIÓN Y AUTONOMÍA.",
+      "jerarquia": {
+        "libro": "LIBRO PRIMERO DISPOSICIONES GENERALES.",
+        "título": "TÍTULO I OBJETO DEL CÓDIGO, ÁMBITO DE APLICACIÓN Y AUTONOMÍA.",
+        "capítulo": "CAPÍTULO I OBJETO DEL CÓDIGO, ÁMBITO DE APLICACIÓN Y AUTONOMÍA."
+      },
+      "fuente": "Ley 1801 de 2016, apartados cotejados en Cancillería",
+      "url_fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#3",
+      "fecha_consulta": "2026-11-18",
+      "estado_documental": "apartados_cotejados",
+      "apartados": [
+        "ley-1801-2016-art-3-cuerpo"
+      ],
+      "intervalo_texto": [
+        0,
+        354
+      ],
+      "fecha_revision_documental": null,
+      "texto": "ARTÍCULO 3. ÁMBITO DE APLICACIÓN DEL DERECHO DE POLICÍA. El derecho de Policía se aplicará a todas las personas naturales o jurídicas, de conformidad con este Código. Las autoridades de Policía sujetarán sus actuaciones al procedimiento único de Policía, sin perjuicio de las competencias que les asistan en procedimientos regulados por leyes especiales."
+    },
+    {
+      "articulo": "8",
+      "id": "ley-1801-2016-art-8",
+      "titulo": "PRINCIPIOS",
+      "tema": "CAPÍTULO II BASES DE LA CONVIVENCIA Y SEGURIDAD CIUDADANA.",
+      "jerarquia": {
+        "libro": "LIBRO PRIMERO DISPOSICIONES GENERALES.",
+        "título": "TÍTULO I OBJETO DEL CÓDIGO, ÁMBITO DE APLICACIÓN Y AUTONOMÍA.",
+        "capítulo": "CAPÍTULO II BASES DE LA CONVIVENCIA Y SEGURIDAD CIUDADANA."
+      },
+      "fuente": "Ley 1801 de 2016, apartados cotejados en Cancillería",
+      "url_fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#8",
+      "fecha_consulta": "2026-11-18",
+      "estado_documental": "apartados_cotejados",
+      "apartados": [
+        "ley-1801-2016-art-8-cuerpo",
+        "ley-1801-2016-art-8-numeral-1",
+        "ley-1801-2016-art-8-numeral-2",
+        "ley-1801-2016-art-8-numeral-3",
+        "ley-1801-2016-art-8-numeral-4",
+        "ley-1801-2016-art-8-numeral-5",
+        "ley-1801-2016-art-8-numeral-6"
+      ],
+      "intervalo_texto": [
+        0,
+        450
+      ],
+      "fecha_revision_documental": null,
+      "texto": "ARTÍCULO 8. PRINCIPIOS. Son principios fundamentales del Código: 1. La protección de la vida y el respeto a la dignidad humana. 2. Protección y respeto a los derechos humanos. 3. La prevalencia de los derechos de niños, niñas y adolescentes y su protección integral. 4. La igualdad ante la ley. 5. La libertad y la autorregulación. 6. El reconocimiento y respeto de las diferencias culturales, la autonomía e identidad regional, la diversidad y la no"
+    },
+    {
+      "articulo": "8",
+      "id": "ley-1801-2016-art-8",
+      "titulo": "PRINCIPIOS",
+      "tema": "CAPÍTULO II BASES DE LA CONVIVENCIA Y SEGURIDAD CIUDADANA.",
+      "jerarquia": {
+        "libro": "LIBRO PRIMERO DISPOSICIONES GENERALES.",
+        "título": "TÍTULO I OBJETO DEL CÓDIGO, ÁMBITO DE APLICACIÓN Y AUTONOMÍA.",
+        "capítulo": "CAPÍTULO II BASES DE LA CONVIVENCIA Y SEGURIDAD CIUDADANA."
+      },
+      "fuente": "Ley 1801 de 2016, apartados cotejados en Cancillería",
+      "url_fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#8",
+      "fecha_consulta": "2026-11-18",
+      "estado_documental": "apartados_cotejados",
+      "apartados": [
+        "ley-1801-2016-art-8-numeral-6",
+        "ley-1801-2016-art-8-numeral-7",
+        "ley-1801-2016-art-8-numeral-8",
+        "ley-1801-2016-art-8-numeral-9",
+        "ley-1801-2016-art-8-numeral-10",
+        "ley-1801-2016-art-8-numeral-11",
+        "ley-1801-2016-art-8-numeral-12"
+      ],
+      "intervalo_texto": [
+        355,
+        835
+      ],
+      "fecha_revision_documental": null,
+      "texto": "respeto de las diferencias culturales, la autonomía e identidad regional, la diversidad y la no discriminación. 7. El debido proceso. 8. La protección de la diversidad e integridad del ambiente y el patrimonio ecológico. 9. Protección y respeto por los animales en su calidad de seres sintientes. 10. La solidaridad. 11. La solución pacífica de las controversias y desacuerdos de los conflictos. 12. El respeto al ordenamiento jurídico y a las autoridades legalmente constituidas."
+    },
+    {
+      "articulo": "8",
+      "id": "ley-1801-2016-art-8",
+      "titulo": "PRINCIPIOS",
+      "tema": "CAPÍTULO II BASES DE LA CONVIVENCIA Y SEGURIDAD CIUDADANA.",
+      "jerarquia": {
+        "libro": "LIBRO PRIMERO DISPOSICIONES GENERALES.",
+        "título": "TÍTULO I OBJETO DEL CÓDIGO, ÁMBITO DE APLICACIÓN Y AUTONOMÍA.",
+        "capítulo": "CAPÍTULO II BASES DE LA CONVIVENCIA Y SEGURIDAD CIUDADANA."
+      },
+      "fuente": "Ley 1801 de 2016, apartados cotejados en Cancillería",
+      "url_fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#8",
+      "fecha_consulta": "2026-11-18",
+      "estado_documental": "apartados_cotejados",
+      "apartados": [
+        "ley-1801-2016-art-8-numeral-11",
+        "ley-1801-2016-art-8-numeral-12",
+        "ley-1801-2016-art-8-numeral-13",
+        "ley-1801-2016-art-8-numeral-14"
+      ],
+      "intervalo_texto": [
+        735,
+        1212
+      ],
+      "fecha_revision_documental": null,
+      "texto": "los conflictos. 12. El respeto al ordenamiento jurídico y a las autoridades legalmente constituidas. 13. Proporcionalidad y razonabilidad. La adopción de medios de Policía y medidas correctivas debe ser proporcional y razonable atendiendo las circunstancias de cada caso y la finalidad de la norma. Por lo tanto, se debe procurar que la afectación de derechos y libertades no sea superior al beneficio perseguido y evitar todo exceso innecesario. 14. Necesidad. Las autoridades"
+    },
+    {
+      "articulo": "8",
+      "id": "ley-1801-2016-art-8",
+      "titulo": "PRINCIPIOS",
+      "tema": "CAPÍTULO II BASES DE LA CONVIVENCIA Y SEGURIDAD CIUDADANA.",
+      "jerarquia": {
+        "libro": "LIBRO PRIMERO DISPOSICIONES GENERALES.",
+        "título": "TÍTULO I OBJETO DEL CÓDIGO, ÁMBITO DE APLICACIÓN Y AUTONOMÍA.",
+        "capítulo": "CAPÍTULO II BASES DE LA CONVIVENCIA Y SEGURIDAD CIUDADANA."
+      },
+      "fuente": "Ley 1801 de 2016, apartados cotejados en Cancillería",
+      "url_fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#8",
+      "fecha_consulta": "2026-11-18",
+      "estado_documental": "apartados_cotejados",
+      "apartados": [
+        "ley-1801-2016-art-8-numeral-13",
+        "ley-1801-2016-art-8-numeral-14"
+      ],
+      "intervalo_texto": [
+        1111,
+        1502
+      ],
+      "fecha_revision_documental": null,
+      "texto": "sea superior al beneficio perseguido y evitar todo exceso innecesario. 14. Necesidad. Las autoridades de Policía sólo podrán adoptar los medios y medidas rigurosamente necesarias e idóneas para la preservación y restablecimiento del orden público cuando la aplicación de otros mecanismos de protección, restauración, educación o de prevención resulte ineficaz para alcanzar el fin propuesto."
+    },
+    {
+      "articulo": "24",
+      "id": "ley-1801-2016-art-24",
+      "titulo": "CONTENIDO",
+      "tema": "CAPÍTULO ÚNICO ASPECTOS GENERALES.",
+      "jerarquia": {
+        "libro": "LIBRO SEGUNDO DE LA LIBERTAD, LOS DERECHOS Y DEBERES DE LAS PERSONAS EN MATERIA DE CONVIVENCIA.",
+        "título": "TÍTULO I DEL CONTENIDO DEL LIBRO.",
+        "capítulo": "CAPÍTULO ÚNICO ASPECTOS GENERALES."
+      },
+      "fuente": "Ley 1801 de 2016, apartados cotejados en Cancillería",
+      "url_fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#24",
+      "fecha_consulta": "2026-11-18",
+      "estado_documental": "apartados_cotejados",
+      "apartados": [
+        "ley-1801-2016-art-24-cuerpo"
+      ],
+      "intervalo_texto": [
+        0,
+        492
+      ],
+      "fecha_revision_documental": null,
+      "texto": "ARTÍCULO 24. CONTENIDO. El presente libro establece los comportamientos contrarios a la convivencia que no deben ser realizados por las personas que habitan o visitan el territorio nacional. El cumplimiento de los comportamientos favorables a la convivencia y el rechazo de los que le son contrarios, serán promovidos por las entidades estatales y organizaciones de la sociedad civil, y en particular por las autoridades de Policía, quienes exaltarán los primeros y ejercerán un control sobre"
+    },
+    {
+      "articulo": "24",
+      "id": "ley-1801-2016-art-24",
+      "titulo": "CONTENIDO",
+      "tema": "CAPÍTULO ÚNICO ASPECTOS GENERALES.",
+      "jerarquia": {
+        "libro": "LIBRO SEGUNDO DE LA LIBERTAD, LOS DERECHOS Y DEBERES DE LAS PERSONAS EN MATERIA DE CONVIVENCIA.",
+        "título": "TÍTULO I DEL CONTENIDO DEL LIBRO.",
+        "capítulo": "CAPÍTULO ÚNICO ASPECTOS GENERALES."
+      },
+      "fuente": "Ley 1801 de 2016, apartados cotejados en Cancillería",
+      "url_fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#24",
+      "fecha_consulta": "2026-11-18",
+      "estado_documental": "apartados_cotejados",
+      "apartados": [
+        "ley-1801-2016-art-24-cuerpo"
+      ],
+      "intervalo_texto": [
+        390,
+        506
+      ],
+      "fecha_revision_documental": null,
+      "texto": "particular por las autoridades de Policía, quienes exaltarán los primeros y ejercerán un control sobre los segundos."
+    },
+    {
+      "articulo": "25",
+      "id": "ley-1801-2016-art-25",
+      "titulo": "COMPORTAMIENTOS CONTRARIOS A LA CONVIVENCIA Y MEDIDAS CORRECTIVAS",
+      "tema": "CAPÍTULO ÚNICO ASPECTOS GENERALES.",
+      "jerarquia": {
+        "libro": "LIBRO SEGUNDO DE LA LIBERTAD, LOS DERECHOS Y DEBERES DE LAS PERSONAS EN MATERIA DE CONVIVENCIA.",
+        "título": "TÍTULO I DEL CONTENIDO DEL LIBRO.",
+        "capítulo": "CAPÍTULO ÚNICO ASPECTOS GENERALES."
+      },
+      "fuente": "Ley 1801 de 2016, apartados cotejados en Cancillería",
+      "url_fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#25",
+      "fecha_consulta": "2026-11-18",
+      "estado_documental": "apartados_cotejados",
+      "apartados": [
+        "ley-1801-2016-art-25-cuerpo"
+      ],
+      "intervalo_texto": [
+        0,
+        273
+      ],
+      "fecha_revision_documental": null,
+      "texto": "ARTÍCULO 25. COMPORTAMIENTOS CONTRARIOS A LA CONVIVENCIA Y MEDIDAS CORRECTIVAS. Quienes incurran en comportamientos contrarios a la convivencia serán objeto de medidas correctivas de conformidad con esta ley, sin perjuicio de las demás acciones que en derecho correspondan."
+    },
+    {
+      "articulo": "26",
+      "id": "ley-1801-2016-art-26",
+      "titulo": "DEBERES DE CONVIVENCIA",
+      "tema": "TÍTULO II DE LOS COMPORTAMIENTOS CONTRARIOS A LA CONVIVENCIA.",
+      "jerarquia": {
+        "libro": "LIBRO SEGUNDO DE LA LIBERTAD, LOS DERECHOS Y DEBERES DE LAS PERSONAS EN MATERIA DE CONVIVENCIA.",
+        "título": "TÍTULO II DE LOS COMPORTAMIENTOS CONTRARIOS A LA CONVIVENCIA.",
+        "capítulo": null
+      },
+      "fuente": "Ley 1801 de 2016, apartados cotejados en Cancillería",
+      "url_fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#26",
+      "fecha_consulta": "2026-11-18",
+      "estado_documental": "apartados_cotejados",
+      "apartados": [
+        "ley-1801-2016-art-26-cuerpo"
+      ],
+      "intervalo_texto": [
+        0,
+        459
+      ],
+      "fecha_revision_documental": null,
+      "texto": "ARTÍCULO 26. DEBERES DE CONVIVENCIA. Es deber de todas las personas en el territorio nacional comportarse de manera favorable a la convivencia. Para ello, además de evitar comportamientos contrarios a la misma, deben regular sus comportamientos a fin de respetar a las demás personas, en el ejercicio de sus derechos y deberes ciudadanos, en su vida, honra y bienes, de conformidad con la Constitución Política y las leyes, y especialmente con lo dispuesto en"
+    },
+    {
+      "articulo": "26",
+      "id": "ley-1801-2016-art-26",
+      "titulo": "DEBERES DE CONVIVENCIA",
+      "tema": "TÍTULO II DE LOS COMPORTAMIENTOS CONTRARIOS A LA CONVIVENCIA.",
+      "jerarquia": {
+        "libro": "LIBRO SEGUNDO DE LA LIBERTAD, LOS DERECHOS Y DEBERES DE LAS PERSONAS EN MATERIA DE CONVIVENCIA.",
+        "título": "TÍTULO II DE LOS COMPORTAMIENTOS CONTRARIOS A LA CONVIVENCIA.",
+        "capítulo": null
+      },
+      "fuente": "Ley 1801 de 2016, apartados cotejados en Cancillería",
+      "url_fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#26",
+      "fecha_consulta": "2026-11-18",
+      "estado_documental": "apartados_cotejados",
+      "apartados": [
+        "ley-1801-2016-art-26-cuerpo"
+      ],
+      "intervalo_texto": [
+        359,
+        476
+      ],
+      "fecha_revision_documental": null,
+      "texto": "bienes, de conformidad con la Constitución Política y las leyes, y especialmente con lo dispuesto en la presente ley."
+    },
+    {
+      "articulo": "27",
+      "id": "ley-1801-2016-art-27",
+      "titulo": "COMPORTAMIENTOS QUE PONEN EN RIESGO LA VIDA E INTEGRIDAD",
+      "tema": "CAPÍTULO I VIDA E INTEGRIDAD DE LAS PERSONAS.",
+      "jerarquia": {
+        "libro": "LIBRO SEGUNDO DE LA LIBERTAD, LOS DERECHOS Y DEBERES DE LAS PERSONAS EN MATERIA DE CONVIVENCIA.",
+        "título": "TÍTULO III DEL DERECHO DE LAS PERSONAS A LA SEGURIDAD Y A LA DE SUS BIENES.",
+        "capítulo": "CAPÍTULO I VIDA E INTEGRIDAD DE LAS PERSONAS."
+      },
+      "fuente": "Ley 1801 de 2016, apartados cotejados en Cancillería",
+      "url_fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#27",
+      "fecha_consulta": "2026-11-18",
+      "estado_documental": "apartados_cotejados",
+      "apartados": [
+        "ley-1801-2016-art-27-cuerpo",
+        "ley-1801-2016-art-27-numeral-1",
+        "ley-1801-2016-art-27-numeral-2",
+        "ley-1801-2016-art-27-numeral-3"
+      ],
+      "intervalo_texto": [
+        0,
+        393
+      ],
+      "fecha_revision_documental": "2026-11-19",
+      "texto": "ARTÍCULO 27. COMPORTAMIENTOS QUE PONEN EN RIESGO LA VIDA E INTEGRIDAD. Los siguientes comportamientos ponen en riesgo la vida e integridad de las personas, y, por lo tanto, son contrarios a la convivencia: 1. Reñir, incitar o incurrir en confrontaciones violentas que puedan derivar en agresiones físicas. 2. Lanzar objetos que puedan causar daño o sustancias peligrosas a personas. 3. Agredir"
+    },
+    {
+      "articulo": "27",
+      "id": "ley-1801-2016-art-27",
+      "titulo": "COMPORTAMIENTOS QUE PONEN EN RIESGO LA VIDA E INTEGRIDAD",
+      "tema": "CAPÍTULO I VIDA E INTEGRIDAD DE LAS PERSONAS.",
+      "jerarquia": {
+        "libro": "LIBRO SEGUNDO DE LA LIBERTAD, LOS DERECHOS Y DEBERES DE LAS PERSONAS EN MATERIA DE CONVIVENCIA.",
+        "título": "TÍTULO III DEL DERECHO DE LAS PERSONAS A LA SEGURIDAD Y A LA DE SUS BIENES.",
+        "capítulo": "CAPÍTULO I VIDA E INTEGRIDAD DE LAS PERSONAS."
+      },
+      "fuente": "Ley 1801 de 2016, apartados cotejados en Cancillería",
+      "url_fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#27",
+      "fecha_consulta": "2026-11-18",
+      "estado_documental": "apartados_cotejados",
+      "apartados": [
+        "ley-1801-2016-art-27-numeral-2",
+        "ley-1801-2016-art-27-numeral-3",
+        "ley-1801-2016-art-27-numeral-4",
+        "ley-1801-2016-art-27-numeral-5",
+        "ley-1801-2016-art-27-numeral-6"
+      ],
+      "intervalo_texto": [
+        309,
+        722
+      ],
+      "fecha_revision_documental": "2026-11-19",
+      "texto": "Lanzar objetos que puedan causar daño o sustancias peligrosas a personas. 3. Agredir físicamente a personas por cualquier medio. 4. Amenazar con causar un daño físico a personas por cualquier medio. 5. No retirar o reparar, en los inmuebles, los elementos que ofrezcan riesgo a la vida e integridad. 6. Portar armas, elementos cortantes, punzantes o semejantes, o sustancias peligrosas, en áreas comunes o lugares"
+    },
+    {
+      "articulo": "27",
+      "id": "ley-1801-2016-art-27",
+      "titulo": "COMPORTAMIENTOS QUE PONEN EN RIESGO LA VIDA E INTEGRIDAD",
+      "tema": "CAPÍTULO I VIDA E INTEGRIDAD DE LAS PERSONAS.",
+      "jerarquia": {
+        "libro": "LIBRO SEGUNDO DE LA LIBERTAD, LOS DERECHOS Y DEBERES DE LAS PERSONAS EN MATERIA DE CONVIVENCIA.",
+        "título": "TÍTULO III DEL DERECHO DE LAS PERSONAS A LA SEGURIDAD Y A LA DE SUS BIENES.",
+        "capítulo": "CAPÍTULO I VIDA E INTEGRIDAD DE LAS PERSONAS."
+      },
+      "fuente": "Ley 1801 de 2016, apartados cotejados en Cancillería",
+      "url_fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#27",
+      "fecha_consulta": "2026-11-18",
+      "estado_documental": "apartados_cotejados",
+      "apartados": [
+        "ley-1801-2016-art-27-numeral-6",
+        "ley-1801-2016-art-27-numeral-7"
+      ],
+      "intervalo_texto": [
+        647,
+        1029
+      ],
+      "fecha_revision_documental": "2026-11-19",
+      "texto": "punzantes o semejantes, o sustancias peligrosas, en áreas comunes o lugares abiertos al público. Se exceptúa a quien demuestre que tales elementos o sustancias constituyen una herramienta de su actividad deportiva, oficio, profesión o estudio. 7. Portar armas neumáticas, de aire, de fogueo, de letalidad reducida o sprays, rociadores, aspersores o aerosoles de pimienta o cualquier"
+    },
+    {
+      "articulo": "27",
+      "id": "ley-1801-2016-art-27",
+      "titulo": "COMPORTAMIENTOS QUE PONEN EN RIESGO LA VIDA E INTEGRIDAD",
+      "tema": "CAPÍTULO I VIDA E INTEGRIDAD DE LAS PERSONAS.",
+      "jerarquia": {
+        "libro": "LIBRO SEGUNDO DE LA LIBERTAD, LOS DERECHOS Y DEBERES DE LAS PERSONAS EN MATERIA DE CONVIVENCIA.",
+        "título": "TÍTULO III DEL DERECHO DE LAS PERSONAS A LA SEGURIDAD Y A LA DE SUS BIENES.",
+        "capítulo": "CAPÍTULO I VIDA E INTEGRIDAD DE LAS PERSONAS."
+      },
+      "fuente": "Ley 1801 de 2016, apartados cotejados en Cancillería",
+      "url_fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#27",
+      "fecha_consulta": "2026-11-18",
+      "estado_documental": "apartados_cotejados",
+      "apartados": [
+        "ley-1801-2016-art-27-numeral-7",
+        "ley-1801-2016-art-27-numeral-8"
+      ],
+      "intervalo_texto": [
+        963,
+        1415
+      ],
+      "fecha_revision_documental": "2026-11-19",
+      "texto": "sprays, rociadores, aspersores o aerosoles de pimienta o cualquier elemento que se asimile a armas de fuego, en lugares abiertos al público donde se desarrollen aglomeraciones de personas o en aquellos donde se consuman bebidas embriagantes, o se advierta su utilización irregular, o se incurra en un comportamiento contrario a la convivencia. 8. Portar armas, elementos y dispositivos menos letales que hayan sido modificados en sus características de"
+    },
+    {
+      "articulo": "27",
+      "id": "ley-1801-2016-art-27",
+      "titulo": "COMPORTAMIENTOS QUE PONEN EN RIESGO LA VIDA E INTEGRIDAD",
+      "tema": "CAPÍTULO I VIDA E INTEGRIDAD DE LAS PERSONAS.",
+      "jerarquia": {
+        "libro": "LIBRO SEGUNDO DE LA LIBERTAD, LOS DERECHOS Y DEBERES DE LAS PERSONAS EN MATERIA DE CONVIVENCIA.",
+        "título": "TÍTULO III DEL DERECHO DE LAS PERSONAS A LA SEGURIDAD Y A LA DE SUS BIENES.",
+        "capítulo": "CAPÍTULO I VIDA E INTEGRIDAD DE LAS PERSONAS."
+      },
+      "fuente": "Ley 1801 de 2016, apartados cotejados en Cancillería",
+      "url_fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#27",
+      "fecha_consulta": "2026-11-18",
+      "estado_documental": "apartados_cotejados",
+      "apartados": [
+        "ley-1801-2016-art-27-numeral-8",
+        "ley-1801-2016-art-27-numeral-9",
+        "ley-1801-2016-art-27-numeral-10",
+        "ley-1801-2016-art-27-numeral-11"
+      ],
+      "intervalo_texto": [
+        1307,
+        1814
+      ],
+      "fecha_revision_documental": "2026-11-19",
+      "texto": "8. Portar armas, elementos y dispositivos menos letales que hayan sido modificados en sus características de fabricación, origen, diseño y propósito, sin perjuicio de las sanciones penales a que haya lugar. 9. Portar armas, elementos y dispositivos menos letales sin permiso de autoridad competente cuando estas lo requieran. 10. Portar armas, elementos y dispositivos menos letales cuando haya perdido vigencia el permiso respectivo. 11. Portar armas, elementos y dispositivos menos letales bajo el influjo"
+    },
+    {
+      "articulo": "27",
+      "id": "ley-1801-2016-art-27",
+      "titulo": "COMPORTAMIENTOS QUE PONEN EN RIESGO LA VIDA E INTEGRIDAD",
+      "tema": "CAPÍTULO I VIDA E INTEGRIDAD DE LAS PERSONAS.",
+      "jerarquia": {
+        "libro": "LIBRO SEGUNDO DE LA LIBERTAD, LOS DERECHOS Y DEBERES DE LAS PERSONAS EN MATERIA DE CONVIVENCIA.",
+        "título": "TÍTULO III DEL DERECHO DE LAS PERSONAS A LA SEGURIDAD Y A LA DE SUS BIENES.",
+        "capítulo": "CAPÍTULO I VIDA E INTEGRIDAD DE LAS PERSONAS."
+      },
+      "fuente": "Ley 1801 de 2016, apartados cotejados en Cancillería",
+      "url_fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#27",
+      "fecha_consulta": "2026-11-18",
+      "estado_documental": "apartados_cotejados",
+      "apartados": [
+        "ley-1801-2016-art-27-numeral-10",
+        "ley-1801-2016-art-27-numeral-11",
+        "ley-1801-2016-art-27-paragrafo-12",
+        "ley-1801-2016-art-27-paragrafo-13"
+      ],
+      "intervalo_texto": [
+        1719,
+        2106
+      ],
+      "fecha_revision_documental": "2026-11-19",
+      "texto": "el permiso respectivo. 11. Portar armas, elementos y dispositivos menos letales bajo el influjo de sustancias psicoactivas ilícitas o prohibidas, o en estado de embriaguez. Numeral 1 Multa General tipo 2. PARÁGRAFO 2o. En los comportamientos señalados en los numerales 1 al 5 del presente artículo, se deberá utilizar la mediación policial como medio para intentar resolver el conflicto."
+    },
+    {
+      "articulo": "33",
+      "id": "ley-1801-2016-art-33",
+      "titulo": "COMPORTAMIENTOS QUE AFECTAN LA TRANQUILIDAD Y RELACIONES RESPETUOSAS DE LAS PERSONAS",
+      "tema": "CAPÍTULO I PRIVACIDAD DE LAS PERSONAS.",
+      "jerarquia": {
+        "libro": "LIBRO SEGUNDO DE LA LIBERTAD, LOS DERECHOS Y DEBERES DE LAS PERSONAS EN MATERIA DE CONVIVENCIA.",
+        "título": "TÍTULO IV DE LA TRANQUILIDAD Y LAS RELACIONES RESPETUOSAS.",
+        "capítulo": "CAPÍTULO I PRIVACIDAD DE LAS PERSONAS."
+      },
+      "fuente": "Ley 1801 de 2016, apartados cotejados en Cancillería",
+      "url_fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#33",
+      "fecha_consulta": "2026-11-18",
+      "estado_documental": "apartados_cotejados",
+      "apartados": [
+        "ley-1801-2016-art-33-numeral-1",
+        "ley-1801-2016-art-33-literal-2"
+      ],
+      "intervalo_texto": [
+        0,
+        382
+      ],
+      "fecha_revision_documental": "2026-11-19",
+      "texto": "ARTÍCULO 33. COMPORTAMIENTOS QUE AFECTAN LA TRANQUILIDAD Y RELACIONES RESPETUOSAS DE LAS PERSONAS. 1. En el vecindario o lugar de habitación urbana o rural: Perturbar o permitir que se afecte el sosiego con: a. Sonidos o ruidos en actividades, fiestas, reuniones o eventos similares que afecten la convivencia del vecindario, cuando generen molestia por su impacto auditivo, en cuyo"
+    },
+    {
+      "articulo": "33",
+      "id": "ley-1801-2016-art-33",
+      "titulo": "COMPORTAMIENTOS QUE AFECTAN LA TRANQUILIDAD Y RELACIONES RESPETUOSAS DE LAS PERSONAS",
+      "tema": "CAPÍTULO I PRIVACIDAD DE LAS PERSONAS.",
+      "jerarquia": {
+        "libro": "LIBRO SEGUNDO DE LA LIBERTAD, LOS DERECHOS Y DEBERES DE LAS PERSONAS EN MATERIA DE CONVIVENCIA.",
+        "título": "TÍTULO IV DE LA TRANQUILIDAD Y LAS RELACIONES RESPETUOSAS.",
+        "capítulo": "CAPÍTULO I PRIVACIDAD DE LAS PERSONAS."
+      },
+      "fuente": "Ley 1801 de 2016, apartados cotejados en Cancillería",
+      "url_fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#33",
+      "fecha_consulta": "2026-11-18",
+      "estado_documental": "apartados_cotejados",
+      "apartados": [
+        "ley-1801-2016-art-33-literal-2",
+        "ley-1801-2016-art-33-literal-3"
+      ],
+      "intervalo_texto": [
+        295,
+        773
+      ],
+      "fecha_revision_documental": "2026-11-19",
+      "texto": "la convivencia del vecindario, cuando generen molestia por su impacto auditivo, en cuyo caso podrán las autoridades de Policía desactivar temporalmente la fuente del ruido, en caso de que el residente se niegue a desactivarlo. b. Cualquier medio de producción de sonidos o dispositivos o accesorios o maquinaria que produzcan emisión sonora o vibraciones, desde bienes muebles o inmuebles, en cuyo caso podrán las autoridades identificar, registrar y desactivar temporalmente la"
+    },
+    {
+      "articulo": "33",
+      "id": "ley-1801-2016-art-33",
+      "titulo": "COMPORTAMIENTOS QUE AFECTAN LA TRANQUILIDAD Y RELACIONES RESPETUOSAS DE LAS PERSONAS",
+      "tema": "CAPÍTULO I PRIVACIDAD DE LAS PERSONAS.",
+      "jerarquia": {
+        "libro": "LIBRO SEGUNDO DE LA LIBERTAD, LOS DERECHOS Y DEBERES DE LAS PERSONAS EN MATERIA DE CONVIVENCIA.",
+        "título": "TÍTULO IV DE LA TRANQUILIDAD Y LAS RELACIONES RESPETUOSAS.",
+        "capítulo": "CAPÍTULO I PRIVACIDAD DE LAS PERSONAS."
+      },
+      "fuente": "Ley 1801 de 2016, apartados cotejados en Cancillería",
+      "url_fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#33",
+      "fecha_consulta": "2026-11-18",
+      "estado_documental": "apartados_cotejados",
+      "apartados": [
+        "ley-1801-2016-art-33-literal-3",
+        "ley-1801-2016-art-33-literal-4",
+        "ley-1801-2016-art-33-paragrafo-11"
+      ],
+      "intervalo_texto": [
+        672,
+        1134
+      ],
+      "fecha_revision_documental": "2026-11-19",
+      "texto": "o inmuebles, en cuyo caso podrán las autoridades identificar, registrar y desactivar temporalmente la fuente de emisión, salvo que sean originados en construcciones o reparaciones en horas permitidas. c. Actividades diferentes a las aquí señaladas en vía pública o en privado, cuando trascienda a lo público, y perturben o afecten la tranquilidad de las personas. Numeral 1 Multa General tipo 4 . Disolución de reunión o actividad que involucra aglomeraciones de"
+    },
+    {
+      "articulo": "33",
+      "id": "ley-1801-2016-art-33",
+      "titulo": "COMPORTAMIENTOS QUE AFECTAN LA TRANQUILIDAD Y RELACIONES RESPETUOSAS DE LAS PERSONAS",
+      "tema": "CAPÍTULO I PRIVACIDAD DE LAS PERSONAS.",
+      "jerarquia": {
+        "libro": "LIBRO SEGUNDO DE LA LIBERTAD, LOS DERECHOS Y DEBERES DE LAS PERSONAS EN MATERIA DE CONVIVENCIA.",
+        "título": "TÍTULO IV DE LA TRANQUILIDAD Y LAS RELACIONES RESPETUOSAS.",
+        "capítulo": "CAPÍTULO I PRIVACIDAD DE LAS PERSONAS."
+      },
+      "fuente": "Ley 1801 de 2016, apartados cotejados en Cancillería",
+      "url_fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#33",
+      "fecha_consulta": "2026-11-18",
+      "estado_documental": "apartados_cotejados",
+      "apartados": [
+        "ley-1801-2016-art-33-paragrafo-11",
+        "ley-1801-2016-art-33-paragrafo-13"
+      ],
+      "intervalo_texto": [
+        1044,
+        1489
+      ],
+      "fecha_revision_documental": "2026-11-19",
+      "texto": "1 Multa General tipo 4 . Disolución de reunión o actividad que involucra aglomeraciones de público no complejas PARÁGRAFO 3o. Para los comportamientos contrarios a la convivencia señalados en el numeral 1, se tendrán en cuenta las condiciones de tiempo, modo y lugar que indiquen una perturbación evidente de la convivencia o el sosiego y la afectación a la convivencia, para lo cual en propiedades horizontales, sectores residenciales urbanos y"
+    },
+    {
+      "articulo": "33",
+      "id": "ley-1801-2016-art-33",
+      "titulo": "COMPORTAMIENTOS QUE AFECTAN LA TRANQUILIDAD Y RELACIONES RESPETUOSAS DE LAS PERSONAS",
+      "tema": "CAPÍTULO I PRIVACIDAD DE LAS PERSONAS.",
+      "jerarquia": {
+        "libro": "LIBRO SEGUNDO DE LA LIBERTAD, LOS DERECHOS Y DEBERES DE LAS PERSONAS EN MATERIA DE CONVIVENCIA.",
+        "título": "TÍTULO IV DE LA TRANQUILIDAD Y LAS RELACIONES RESPETUOSAS.",
+        "capítulo": "CAPÍTULO I PRIVACIDAD DE LAS PERSONAS."
+      },
+      "fuente": "Ley 1801 de 2016, apartados cotejados en Cancillería",
+      "url_fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#33",
+      "fecha_consulta": "2026-11-18",
+      "estado_documental": "apartados_cotejados",
+      "apartados": [
+        "ley-1801-2016-art-33-paragrafo-13"
+      ],
+      "intervalo_texto": [
+        1386,
+        1857
+      ],
+      "fecha_revision_documental": "2026-11-19",
+      "texto": "afectación a la convivencia, para lo cual en propiedades horizontales, sectores residenciales urbanos y rurales, se tendrán como plena prueba los testimonios, grabaciones, mediciones, entrevistas y actas desarrolladas por el comité de convivencia, así como de las personas del entorno que bajo la gravedad de juramento constituirán dichos medios probatorios, los cuales se pondrán de presente ante la autoridad de policía para aplicar de manera proporcional los medios de"
+    },
+    {
+      "articulo": "33",
+      "id": "ley-1801-2016-art-33",
+      "titulo": "COMPORTAMIENTOS QUE AFECTAN LA TRANQUILIDAD Y RELACIONES RESPETUOSAS DE LAS PERSONAS",
+      "tema": "CAPÍTULO I PRIVACIDAD DE LAS PERSONAS.",
+      "jerarquia": {
+        "libro": "LIBRO SEGUNDO DE LA LIBERTAD, LOS DERECHOS Y DEBERES DE LAS PERSONAS EN MATERIA DE CONVIVENCIA.",
+        "título": "TÍTULO IV DE LA TRANQUILIDAD Y LAS RELACIONES RESPETUOSAS.",
+        "capítulo": "CAPÍTULO I PRIVACIDAD DE LAS PERSONAS."
+      },
+      "fuente": "Ley 1801 de 2016, apartados cotejados en Cancillería",
+      "url_fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#33",
+      "fecha_consulta": "2026-11-18",
+      "estado_documental": "apartados_cotejados",
+      "apartados": [
+        "ley-1801-2016-art-33-paragrafo-13",
+        "ley-1801-2016-art-33-paragrafo-14"
+      ],
+      "intervalo_texto": [
+        1756,
+        2196
+      ],
+      "fecha_revision_documental": "2026-11-19",
+      "texto": "se pondrán de presente ante la autoridad de policía para aplicar de manera proporcional los medios de policía y las medidas correctivas que permitan restablecer la convivencia de manera inmediata en el lugar. PARÁGRAFO 4o. Para la adopción de las medidas correctivas señaladas en el numeral 1, que mediante implementos de medición, se pruebe el incumplimiento de los indicadores o descriptores acústicos según la normativa, la sola medición"
+    },
+    {
+      "articulo": "33",
+      "id": "ley-1801-2016-art-33",
+      "titulo": "COMPORTAMIENTOS QUE AFECTAN LA TRANQUILIDAD Y RELACIONES RESPETUOSAS DE LAS PERSONAS",
+      "tema": "CAPÍTULO I PRIVACIDAD DE LAS PERSONAS.",
+      "jerarquia": {
+        "libro": "LIBRO SEGUNDO DE LA LIBERTAD, LOS DERECHOS Y DEBERES DE LAS PERSONAS EN MATERIA DE CONVIVENCIA.",
+        "título": "TÍTULO IV DE LA TRANQUILIDAD Y LAS RELACIONES RESPETUOSAS.",
+        "capítulo": "CAPÍTULO I PRIVACIDAD DE LAS PERSONAS."
+      },
+      "fuente": "Ley 1801 de 2016, apartados cotejados en Cancillería",
+      "url_fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#33",
+      "fecha_consulta": "2026-11-18",
+      "estado_documental": "apartados_cotejados",
+      "apartados": [
+        "ley-1801-2016-art-33-paragrafo-14"
+      ],
+      "intervalo_texto": [
+        2101,
+        2590
+      ],
+      "fecha_revision_documental": "2026-11-19",
+      "texto": "incumplimiento de los indicadores o descriptores acústicos según la normativa, la sola medición realizada en el sitio a través del medio técnico correspondiente por parte de la autoridad respectiva, y en la que se pruebe el incumplimiento de los niveles de ruido permitidos según la normativa, bastará para materializar el medio de policía de suspensión inmediata de la actividad, retiro del sitio y la medida correctiva de disolución de reunión o actividad que involucra aglomeraciones de"
+    },
+    {
+      "articulo": "33",
+      "id": "ley-1801-2016-art-33",
+      "titulo": "COMPORTAMIENTOS QUE AFECTAN LA TRANQUILIDAD Y RELACIONES RESPETUOSAS DE LAS PERSONAS",
+      "tema": "CAPÍTULO I PRIVACIDAD DE LAS PERSONAS.",
+      "jerarquia": {
+        "libro": "LIBRO SEGUNDO DE LA LIBERTAD, LOS DERECHOS Y DEBERES DE LAS PERSONAS EN MATERIA DE CONVIVENCIA.",
+        "título": "TÍTULO IV DE LA TRANQUILIDAD Y LAS RELACIONES RESPETUOSAS.",
+        "capítulo": "CAPÍTULO I PRIVACIDAD DE LAS PERSONAS."
+      },
+      "fuente": "Ley 1801 de 2016, apartados cotejados en Cancillería",
+      "url_fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#33",
+      "fecha_consulta": "2026-11-18",
+      "estado_documental": "apartados_cotejados",
+      "apartados": [
+        "ley-1801-2016-art-33-paragrafo-14",
+        "ley-1801-2016-art-33-paragrafo-15"
+      ],
+      "intervalo_texto": [
+        2489,
+        2945
+      ],
+      "fecha_revision_documental": "2026-11-19",
+      "texto": "del sitio y la medida correctiva de disolución de reunión o actividad que involucra aglomeraciones de público no complejas, sólo cuando éstas se realicen en espacios públicos, semipúblicos o semiprivados o en aquellas actividades de cualquier tipo o denominación que trasciendan a lo público y afecten la convivencia. Lo anterior no autoriza el ingreso a domicilio privado. PARÁGRAFO 5o. Para los comportamientos contrarios a la convivencia señalados en el"
+    },
+    {
+      "articulo": "33",
+      "id": "ley-1801-2016-art-33",
+      "titulo": "COMPORTAMIENTOS QUE AFECTAN LA TRANQUILIDAD Y RELACIONES RESPETUOSAS DE LAS PERSONAS",
+      "tema": "CAPÍTULO I PRIVACIDAD DE LAS PERSONAS.",
+      "jerarquia": {
+        "libro": "LIBRO SEGUNDO DE LA LIBERTAD, LOS DERECHOS Y DEBERES DE LAS PERSONAS EN MATERIA DE CONVIVENCIA.",
+        "título": "TÍTULO IV DE LA TRANQUILIDAD Y LAS RELACIONES RESPETUOSAS.",
+        "capítulo": "CAPÍTULO I PRIVACIDAD DE LAS PERSONAS."
+      },
+      "fuente": "Ley 1801 de 2016, apartados cotejados en Cancillería",
+      "url_fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#33",
+      "fecha_consulta": "2026-11-18",
+      "estado_documental": "apartados_cotejados",
+      "apartados": [
+        "ley-1801-2016-art-33-paragrafo-15"
+      ],
+      "intervalo_texto": [
+        2863,
+        3334
+      ],
+      "fecha_revision_documental": "2026-11-19",
+      "texto": "PARÁGRAFO 5o. Para los comportamientos contrarios a la convivencia señalados en el numeral 1, que, mediante implementos de medición, se pruebe objetivamente el incumplimiento de los indicadores o descriptores acústicos según la normativa vigente, la sola medición realizada en el lugar a través de este componente técnico por la autoridad correspondiente, bastará para materializar el medio de policía de suspensión inmediata de la actividad, retiro del sitio y la medida"
+    },
+    {
+      "articulo": "33",
+      "id": "ley-1801-2016-art-33",
+      "titulo": "COMPORTAMIENTOS QUE AFECTAN LA TRANQUILIDAD Y RELACIONES RESPETUOSAS DE LAS PERSONAS",
+      "tema": "CAPÍTULO I PRIVACIDAD DE LAS PERSONAS.",
+      "jerarquia": {
+        "libro": "LIBRO SEGUNDO DE LA LIBERTAD, LOS DERECHOS Y DEBERES DE LAS PERSONAS EN MATERIA DE CONVIVENCIA.",
+        "título": "TÍTULO IV DE LA TRANQUILIDAD Y LAS RELACIONES RESPETUOSAS.",
+        "capítulo": "CAPÍTULO I PRIVACIDAD DE LAS PERSONAS."
+      },
+      "fuente": "Ley 1801 de 2016, apartados cotejados en Cancillería",
+      "url_fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#33",
+      "fecha_consulta": "2026-11-18",
+      "estado_documental": "apartados_cotejados",
+      "apartados": [
+        "ley-1801-2016-art-33-paragrafo-15"
+      ],
+      "intervalo_texto": [
+        3232,
+        3711
+      ],
+      "fecha_revision_documental": "2026-11-19",
+      "texto": "materializar el medio de policía de suspensión inmediata de la actividad, retiro del sitio y la medida correctiva de disolución de reunión o actividad que involucra aglomeraciones de público no complejas, sólo cuando éstas se realicen en espacios públicos, semipúblicos o semiprivados o en aquellas actividades de cualquier tipo o denominación que trasciendan a lo público y afecten la convivencia. Lo anterior no autoriza el ingreso a domicilio privado. El uso de implementos de"
+    },
+    {
+      "articulo": "33",
+      "id": "ley-1801-2016-art-33",
+      "titulo": "COMPORTAMIENTOS QUE AFECTAN LA TRANQUILIDAD Y RELACIONES RESPETUOSAS DE LAS PERSONAS",
+      "tema": "CAPÍTULO I PRIVACIDAD DE LAS PERSONAS.",
+      "jerarquia": {
+        "libro": "LIBRO SEGUNDO DE LA LIBERTAD, LOS DERECHOS Y DEBERES DE LAS PERSONAS EN MATERIA DE CONVIVENCIA.",
+        "título": "TÍTULO IV DE LA TRANQUILIDAD Y LAS RELACIONES RESPETUOSAS.",
+        "capítulo": "CAPÍTULO I PRIVACIDAD DE LAS PERSONAS."
+      },
+      "fuente": "Ley 1801 de 2016, apartados cotejados en Cancillería",
+      "url_fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#33",
+      "fecha_consulta": "2026-11-18",
+      "estado_documental": "apartados_cotejados",
+      "apartados": [
+        "ley-1801-2016-art-33-paragrafo-15",
+        "ley-1801-2016-art-33-paragrafo-16"
+      ],
+      "intervalo_texto": [
+        3607,
+        4064
+      ],
+      "fecha_revision_documental": "2026-11-19",
+      "texto": "afecten la convivencia. Lo anterior no autoriza el ingreso a domicilio privado. El uso de implementos de medición acústica se complementa con los testimonios y los demás medios de prueba a disposición de la autoridad de policía. Cuando los demás medios de prueba indiquen la fuente del ruido los implementos de medición acústica podrán ser usados sólo para acreditar la superación de los niveles permitidos en el ambiente. PARÁGRAFO 6o. Se exceptuará de las"
+    },
+    {
+      "articulo": "33",
+      "id": "ley-1801-2016-art-33",
+      "titulo": "COMPORTAMIENTOS QUE AFECTAN LA TRANQUILIDAD Y RELACIONES RESPETUOSAS DE LAS PERSONAS",
+      "tema": "CAPÍTULO I PRIVACIDAD DE LAS PERSONAS.",
+      "jerarquia": {
+        "libro": "LIBRO SEGUNDO DE LA LIBERTAD, LOS DERECHOS Y DEBERES DE LAS PERSONAS EN MATERIA DE CONVIVENCIA.",
+        "título": "TÍTULO IV DE LA TRANQUILIDAD Y LAS RELACIONES RESPETUOSAS.",
+        "capítulo": "CAPÍTULO I PRIVACIDAD DE LAS PERSONAS."
+      },
+      "fuente": "Ley 1801 de 2016, apartados cotejados en Cancillería",
+      "url_fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#33",
+      "fecha_consulta": "2026-11-18",
+      "estado_documental": "apartados_cotejados",
+      "apartados": [
+        "ley-1801-2016-art-33-paragrafo-15",
+        "ley-1801-2016-art-33-paragrafo-16"
+      ],
+      "intervalo_texto": [
+        3995,
+        4458
+      ],
+      "fecha_revision_documental": "2026-11-19",
+      "texto": "niveles permitidos en el ambiente. PARÁGRAFO 6o. Se exceptuará de las medidas correctivas y sancionatorias dispuestas en el presente Código, las actividades y eventos que por su naturaleza generen afectación a la convivencia, y que superen los indicadores y descriptores acústicos establecidos por las autoridades competentes, cuando tramiten las autorizaciones a las que haya lugar, siempre y cuando garanticen que se realicen las acciones tendientes a reducir y"
+    },
+    {
+      "articulo": "33",
+      "id": "ley-1801-2016-art-33",
+      "titulo": "COMPORTAMIENTOS QUE AFECTAN LA TRANQUILIDAD Y RELACIONES RESPETUOSAS DE LAS PERSONAS",
+      "tema": "CAPÍTULO I PRIVACIDAD DE LAS PERSONAS.",
+      "jerarquia": {
+        "libro": "LIBRO SEGUNDO DE LA LIBERTAD, LOS DERECHOS Y DEBERES DE LAS PERSONAS EN MATERIA DE CONVIVENCIA.",
+        "título": "TÍTULO IV DE LA TRANQUILIDAD Y LAS RELACIONES RESPETUOSAS.",
+        "capítulo": "CAPÍTULO I PRIVACIDAD DE LAS PERSONAS."
+      },
+      "fuente": "Ley 1801 de 2016, apartados cotejados en Cancillería",
+      "url_fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#33",
+      "fecha_consulta": "2026-11-18",
+      "estado_documental": "apartados_cotejados",
+      "apartados": [
+        "ley-1801-2016-art-33-paragrafo-16",
+        "ley-1801-2016-art-33-paragrafo-17"
+      ],
+      "intervalo_texto": [
+        4363,
+        4714
+      ],
+      "fecha_revision_documental": "2026-11-19",
+      "texto": "que haya lugar, siempre y cuando garanticen que se realicen las acciones tendientes a reducir y mitigar el impacto acústico generado, a proteger a los receptores expuestos y a cumplir expresamente lo estipulado en el artículo 14 de esta ley. PARÁGRAFO 7o. La desactivación de la fuente sonora será reglamentada por el ente territorial correspondiente."
+    },
+    {
+      "articulo": "35",
+      "id": "ley-1801-2016-art-35",
+      "titulo": "COMPORTAMIENTOS QUE AFECTAN LAS RELACIONES ENTRE LAS PERSONAS Y LAS AUTORIDADES",
+      "tema": "CAPÍTULO II DE LOS ESTABLECIMIENTOS EDUCATIVOS.",
+      "jerarquia": {
+        "libro": "LIBRO SEGUNDO DE LA LIBERTAD, LOS DERECHOS Y DEBERES DE LAS PERSONAS EN MATERIA DE CONVIVENCIA.",
+        "título": "TÍTULO IV DE LA TRANQUILIDAD Y LAS RELACIONES RESPETUOSAS.",
+        "capítulo": "CAPÍTULO II DE LOS ESTABLECIMIENTOS EDUCATIVOS."
+      },
+      "fuente": "Ley 1801 de 2016, apartados cotejados en Cancillería",
+      "url_fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#35",
+      "fecha_consulta": "2026-11-18",
+      "estado_documental": "apartados_cotejados",
+      "apartados": [
+        "ley-1801-2016-art-35-numeral-1",
+        "ley-1801-2016-art-35-numeral-2",
+        "ley-1801-2016-art-35-numeral-3",
+        "ley-1801-2016-art-35-numeral-5"
+      ],
+      "intervalo_texto": [
+        0,
+        409
+      ],
+      "fecha_revision_documental": "2026-11-19",
+      "texto": "ARTÍCULO 35. COMPORTAMIENTOS QUE AFECTAN LAS RELACIONES ENTRE LAS PERSONAS Y LAS AUTORIDADES. 1. Irrespetar a las autoridades de Policía. 2. Incumplir, desacatar, desconocer e impedir la función o la orden de Policía. 3. Impedir, dificultar, obstaculizar o resistirse a procedimiento de identificación o individualización, por parte de las autoridades de Policía. 5. Ofrecer cualquier tipo de resistencia a la"
+    },
+    {
+      "articulo": "35",
+      "id": "ley-1801-2016-art-35",
+      "titulo": "COMPORTAMIENTOS QUE AFECTAN LAS RELACIONES ENTRE LAS PERSONAS Y LAS AUTORIDADES",
+      "tema": "CAPÍTULO II DE LOS ESTABLECIMIENTOS EDUCATIVOS.",
+      "jerarquia": {
+        "libro": "LIBRO SEGUNDO DE LA LIBERTAD, LOS DERECHOS Y DEBERES DE LAS PERSONAS EN MATERIA DE CONVIVENCIA.",
+        "título": "TÍTULO IV DE LA TRANQUILIDAD Y LAS RELACIONES RESPETUOSAS.",
+        "capítulo": "CAPÍTULO II DE LOS ESTABLECIMIENTOS EDUCATIVOS."
+      },
+      "fuente": "Ley 1801 de 2016, apartados cotejados en Cancillería",
+      "url_fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#35",
+      "fecha_consulta": "2026-11-18",
+      "estado_documental": "apartados_cotejados",
+      "apartados": [
+        "ley-1801-2016-art-35-numeral-3",
+        "ley-1801-2016-art-35-numeral-5",
+        "ley-1801-2016-art-35-numeral-6",
+        "ley-1801-2016-art-35-numeral-7"
+      ],
+      "intervalo_texto": [
+        304,
+        695
+      ],
+      "fecha_revision_documental": "2026-11-19",
+      "texto": "individualización, por parte de las autoridades de Policía. 5. Ofrecer cualquier tipo de resistencia a la aplicación de una medida o la utilización de un medio de Policía. 6. Agredir por cualquier medio o lanzar objetos que puedan causar daño o sustancias que representen peligro a las autoridades de Policía. 7. Utilizar inadecuadamente el sistema de número único de seguridad y emergencia."
+    },
+    {
+      "articulo": "36",
+      "id": "ley-1801-2016-art-36",
+      "titulo": "FACULTADES DE LOS ALCALDES PARA LA RESTRICCIÓN DE LA MOVILIDAD O PERMANENCIA DE NIÑOS, NIÑAS Y ADOLESCENTES EN EL ESPACIO PÚBLICO O EN LUGARES ABIERTOS AL PÚBLICO",
+      "tema": "CAPÍTULO I NIÑOS, NIÑAS Y ADOLESCENTES.",
+      "jerarquia": {
+        "libro": "LIBRO SEGUNDO DE LA LIBERTAD, LOS DERECHOS Y DEBERES DE LAS PERSONAS EN MATERIA DE CONVIVENCIA.",
+        "título": "TÍTULO V DE LAS RELACIONES RESPETUOSAS CON GRUPOS ESPECÍFICOS DE LA SOCIEDAD.",
+        "capítulo": "CAPÍTULO I NIÑOS, NIÑAS Y ADOLESCENTES."
+      },
+      "fuente": "Ley 1801 de 2016, apartados cotejados en Cancillería",
+      "url_fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#36",
+      "fecha_consulta": "2026-11-18",
+      "estado_documental": "apartados_cotejados",
+      "apartados": [
+        "ley-1801-2016-art-36-cuerpo"
+      ],
+      "intervalo_texto": [
+        0,
+        318
+      ],
+      "fecha_revision_documental": "2026-11-19",
+      "texto": "ARTÍCULO 36. FACULTADES DE LOS ALCALDES PARA LA RESTRICCIÓN DE LA MOVILIDAD O PERMANENCIA DE NIÑOS, NIÑAS Y ADOLESCENTES EN EL ESPACIO PÚBLICO O EN LUGARES ABIERTOS AL PÚBLICO. Con el fin de prevenir la ocurrencia de eventos que puedan poner en peligro o afectar la vida, la integridad o la salud de los niños, niñas y"
+    },
+    {
+      "articulo": "36",
+      "id": "ley-1801-2016-art-36",
+      "titulo": "FACULTADES DE LOS ALCALDES PARA LA RESTRICCIÓN DE LA MOVILIDAD O PERMANENCIA DE NIÑOS, NIÑAS Y ADOLESCENTES EN EL ESPACIO PÚBLICO O EN LUGARES ABIERTOS AL PÚBLICO",
+      "tema": "CAPÍTULO I NIÑOS, NIÑAS Y ADOLESCENTES.",
+      "jerarquia": {
+        "libro": "LIBRO SEGUNDO DE LA LIBERTAD, LOS DERECHOS Y DEBERES DE LAS PERSONAS EN MATERIA DE CONVIVENCIA.",
+        "título": "TÍTULO V DE LAS RELACIONES RESPETUOSAS CON GRUPOS ESPECÍFICOS DE LA SOCIEDAD.",
+        "capítulo": "CAPÍTULO I NIÑOS, NIÑAS Y ADOLESCENTES."
+      },
+      "fuente": "Ley 1801 de 2016, apartados cotejados en Cancillería",
+      "url_fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#36",
+      "fecha_consulta": "2026-11-18",
+      "estado_documental": "apartados_cotejados",
+      "apartados": [
+        "ley-1801-2016-art-36-cuerpo",
+        "ley-1801-2016-art-36-paragrafo-1"
+      ],
+      "intervalo_texto": [
+        245,
+        713
+      ],
+      "fecha_revision_documental": "2026-11-19",
+      "texto": "peligro o afectar la vida, la integridad o la salud de los niños, niñas y adolescentes, excepcionalmente el alcalde podrá restringir su movilidad o permanencia en el espacio público o en lugares abiertos al público, de manera temporal y en forma motivada. PARÁGRAFO. En la implementación se contará con el acompañamiento del Instituto Colombiano de Bienestar Familiar y del Ministerio Público con el fin de determinar que la medida no atenta contra los derechos de los"
+    },
+    {
+      "articulo": "36",
+      "id": "ley-1801-2016-art-36",
+      "titulo": "FACULTADES DE LOS ALCALDES PARA LA RESTRICCIÓN DE LA MOVILIDAD O PERMANENCIA DE NIÑOS, NIÑAS Y ADOLESCENTES EN EL ESPACIO PÚBLICO O EN LUGARES ABIERTOS AL PÚBLICO",
+      "tema": "CAPÍTULO I NIÑOS, NIÑAS Y ADOLESCENTES.",
+      "jerarquia": {
+        "libro": "LIBRO SEGUNDO DE LA LIBERTAD, LOS DERECHOS Y DEBERES DE LAS PERSONAS EN MATERIA DE CONVIVENCIA.",
+        "título": "TÍTULO V DE LAS RELACIONES RESPETUOSAS CON GRUPOS ESPECÍFICOS DE LA SOCIEDAD.",
+        "capítulo": "CAPÍTULO I NIÑOS, NIÑAS Y ADOLESCENTES."
+      },
+      "fuente": "Ley 1801 de 2016, apartados cotejados en Cancillería",
+      "url_fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#36",
+      "fecha_consulta": "2026-11-18",
+      "estado_documental": "apartados_cotejados",
+      "apartados": [
+        "ley-1801-2016-art-36-paragrafo-1"
+      ],
+      "intervalo_texto": [
+        604,
+        797
+      ],
+      "fecha_revision_documental": "2026-11-19",
+      "texto": "Familiar y del Ministerio Público con el fin de determinar que la medida no atenta contra los derechos de los niños, niñas y adolescentes consagrados en el Código de la Infancia y Adolescencia."
+    },
+    {
+      "articulo": "38",
+      "id": "ley-1801-2016-art-38",
+      "titulo": "COMPORTAMIENTOS QUE AFECTAN LA INTEGRIDAD DE NIÑOS, NIÑAS Y ADOLESCENTES",
+      "tema": "CAPÍTULO I NIÑOS, NIÑAS Y ADOLESCENTES.",
+      "jerarquia": {
+        "libro": "LIBRO SEGUNDO DE LA LIBERTAD, LOS DERECHOS Y DEBERES DE LAS PERSONAS EN MATERIA DE CONVIVENCIA.",
+        "título": "TÍTULO V DE LAS RELACIONES RESPETUOSAS CON GRUPOS ESPECÍFICOS DE LA SOCIEDAD.",
+        "capítulo": "CAPÍTULO I NIÑOS, NIÑAS Y ADOLESCENTES."
+      },
+      "fuente": "Ley 1801 de 2016, apartados cotejados en Cancillería",
+      "url_fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#38",
+      "fecha_consulta": "2026-11-18",
+      "estado_documental": "apartados_cotejados",
+      "apartados": [
+        "ley-1801-2016-art-38-numeral-1",
+        "ley-1801-2016-art-38-literal-2",
+        "ley-1801-2016-art-38-literal-3"
+      ],
+      "intervalo_texto": [
+        0,
+        330
+      ],
+      "fecha_revision_documental": "2026-11-19",
+      "texto": "ARTÍCULO 38. COMPORTAMIENTOS QUE AFECTAN LA INTEGRIDAD DE NIÑOS, NIÑAS Y ADOLESCENTES. 1. Permitir, auspiciar, tolerar, inducir o constreñir el ingreso de los niños, niñas y adolescentes a los lugares donde: a) Se realicen espectáculos o actividades cinematográficas aptas solo para mayores de 18 años; b) Se preste el servicio de"
+    },
+    {
+      "articulo": "38",
+      "id": "ley-1801-2016-art-38",
+      "titulo": "COMPORTAMIENTOS QUE AFECTAN LA INTEGRIDAD DE NIÑOS, NIÑAS Y ADOLESCENTES",
+      "tema": "CAPÍTULO I NIÑOS, NIÑAS Y ADOLESCENTES.",
+      "jerarquia": {
+        "libro": "LIBRO SEGUNDO DE LA LIBERTAD, LOS DERECHOS Y DEBERES DE LAS PERSONAS EN MATERIA DE CONVIVENCIA.",
+        "título": "TÍTULO V DE LAS RELACIONES RESPETUOSAS CON GRUPOS ESPECÍFICOS DE LA SOCIEDAD.",
+        "capítulo": "CAPÍTULO I NIÑOS, NIÑAS Y ADOLESCENTES."
+      },
+      "fuente": "Ley 1801 de 2016, apartados cotejados en Cancillería",
+      "url_fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#38",
+      "fecha_consulta": "2026-11-18",
+      "estado_documental": "apartados_cotejados",
+      "apartados": [
+        "ley-1801-2016-art-38-literal-2",
+        "ley-1801-2016-art-38-literal-3",
+        "ley-1801-2016-art-38-literal-4",
+        "ley-1801-2016-art-38-literal-5"
+      ],
+      "intervalo_texto": [
+        238,
+        674
+      ],
+      "fecha_revision_documental": "2026-11-19",
+      "texto": "actividades cinematográficas aptas solo para mayores de 18 años; b) Se preste el servicio de videojuegos salvo que sean aptos para la edad del niño, niña o adolescente, en las condiciones establecidas por la Ley 1554 de 2012; c) Se practiquen actividades peligrosas, de acuerdo con la reglamentación establecida por el Gobierno nacional; d) Se realicen actividades sexuales o pornográficas, o se ejerza la prostitución, o la explotación"
+    },
+    {
+      "articulo": "38",
+      "id": "ley-1801-2016-art-38",
+      "titulo": "COMPORTAMIENTOS QUE AFECTAN LA INTEGRIDAD DE NIÑOS, NIÑAS Y ADOLESCENTES",
+      "tema": "CAPÍTULO I NIÑOS, NIÑAS Y ADOLESCENTES.",
+      "jerarquia": {
+        "libro": "LIBRO SEGUNDO DE LA LIBERTAD, LOS DERECHOS Y DEBERES DE LAS PERSONAS EN MATERIA DE CONVIVENCIA.",
+        "título": "TÍTULO V DE LAS RELACIONES RESPETUOSAS CON GRUPOS ESPECÍFICOS DE LA SOCIEDAD.",
+        "capítulo": "CAPÍTULO I NIÑOS, NIÑAS Y ADOLESCENTES."
+      },
+      "fuente": "Ley 1801 de 2016, apartados cotejados en Cancillería",
+      "url_fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#38",
+      "fecha_consulta": "2026-11-18",
+      "estado_documental": "apartados_cotejados",
+      "apartados": [
+        "ley-1801-2016-art-38-literal-5",
+        "ley-1801-2016-art-38-literal-6",
+        "ley-1801-2016-art-38-literal-7",
+        "ley-1801-2016-art-38-numeral-8"
+      ],
+      "intervalo_texto": [
+        582,
+        995
+      ],
+      "fecha_revision_documental": "2026-11-19",
+      "texto": "realicen actividades sexuales o pornográficas, o se ejerza la prostitución, o la explotación sexual; e) Se realicen actividades de diversión destinadas al consumo de bebidas alcohólicas y consumo de cigarrillo, tabaco y sus derivados y sustancias psicoactivas; f) Se desarrollen juegos de suerte y azar localizados; 2. Inducir, engañar o realizar cualquier acción para que los niños, niñas y adolescentes ingresen"
+    },
+    {
+      "articulo": "38",
+      "id": "ley-1801-2016-art-38",
+      "titulo": "COMPORTAMIENTOS QUE AFECTAN LA INTEGRIDAD DE NIÑOS, NIÑAS Y ADOLESCENTES",
+      "tema": "CAPÍTULO I NIÑOS, NIÑAS Y ADOLESCENTES.",
+      "jerarquia": {
+        "libro": "LIBRO SEGUNDO DE LA LIBERTAD, LOS DERECHOS Y DEBERES DE LAS PERSONAS EN MATERIA DE CONVIVENCIA.",
+        "título": "TÍTULO V DE LAS RELACIONES RESPETUOSAS CON GRUPOS ESPECÍFICOS DE LA SOCIEDAD.",
+        "capítulo": "CAPÍTULO I NIÑOS, NIÑAS Y ADOLESCENTES."
+      },
+      "fuente": "Ley 1801 de 2016, apartados cotejados en Cancillería",
+      "url_fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#38",
+      "fecha_consulta": "2026-11-18",
+      "estado_documental": "apartados_cotejados",
+      "apartados": [
+        "ley-1801-2016-art-38-numeral-8",
+        "ley-1801-2016-art-38-numeral-9",
+        "ley-1801-2016-art-38-numeral-11"
+      ],
+      "intervalo_texto": [
+        901,
+        1361
+      ],
+      "fecha_revision_documental": "2026-11-19",
+      "texto": "Inducir, engañar o realizar cualquier acción para que los niños, niñas y adolescentes ingresen o participen de actividades que les están prohibidas por las normas vigentes. 3. Permitir o inducir a los niños, niñas y adolescentes a utilizar las telecomunicaciones, publicaciones y documentos para acceder a material pornográfico. 5. Facilitar, distribuir, ofrecer, comercializar, prestar o alquilar, cualquiera de los siguientes elementos, sustancias o bebidas,"
+    },
+    {
+      "articulo": "38",
+      "id": "ley-1801-2016-art-38",
+      "titulo": "COMPORTAMIENTOS QUE AFECTAN LA INTEGRIDAD DE NIÑOS, NIÑAS Y ADOLESCENTES",
+      "tema": "CAPÍTULO I NIÑOS, NIÑAS Y ADOLESCENTES.",
+      "jerarquia": {
+        "libro": "LIBRO SEGUNDO DE LA LIBERTAD, LOS DERECHOS Y DEBERES DE LAS PERSONAS EN MATERIA DE CONVIVENCIA.",
+        "título": "TÍTULO V DE LAS RELACIONES RESPETUOSAS CON GRUPOS ESPECÍFICOS DE LA SOCIEDAD.",
+        "capítulo": "CAPÍTULO I NIÑOS, NIÑAS Y ADOLESCENTES."
+      },
+      "fuente": "Ley 1801 de 2016, apartados cotejados en Cancillería",
+      "url_fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#38",
+      "fecha_consulta": "2026-11-18",
+      "estado_documental": "apartados_cotejados",
+      "apartados": [
+        "ley-1801-2016-art-38-numeral-11",
+        "ley-1801-2016-art-38-literal-12",
+        "ley-1801-2016-art-38-literal-13",
+        "ley-1801-2016-art-38-literal-14",
+        "ley-1801-2016-art-38-literal-15"
+      ],
+      "intervalo_texto": [
+        1265,
+        1633
+      ],
+      "fecha_revision_documental": "2026-11-19",
+      "texto": "comercializar, prestar o alquilar, cualquiera de los siguientes elementos, sustancias o bebidas, a niños, niñas o adolescentes: a) Material pornográfico; b) Bebidas alcohólicas, cigarrillo, tabaco y sus derivados, sustancias psicoactivas o cualquier sustancia que afecte su salud; c) Pólvora o sustancias prohibidas; d) Armas, neumáticas o de aire, o que se asimilen a"
+    },
+    {
+      "articulo": "38",
+      "id": "ley-1801-2016-art-38",
+      "titulo": "COMPORTAMIENTOS QUE AFECTAN LA INTEGRIDAD DE NIÑOS, NIÑAS Y ADOLESCENTES",
+      "tema": "CAPÍTULO I NIÑOS, NIÑAS Y ADOLESCENTES.",
+      "jerarquia": {
+        "libro": "LIBRO SEGUNDO DE LA LIBERTAD, LOS DERECHOS Y DEBERES DE LAS PERSONAS EN MATERIA DE CONVIVENCIA.",
+        "título": "TÍTULO V DE LAS RELACIONES RESPETUOSAS CON GRUPOS ESPECÍFICOS DE LA SOCIEDAD.",
+        "capítulo": "CAPÍTULO I NIÑOS, NIÑAS Y ADOLESCENTES."
+      },
+      "fuente": "Ley 1801 de 2016, apartados cotejados en Cancillería",
+      "url_fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#38",
+      "fecha_consulta": "2026-11-18",
+      "estado_documental": "apartados_cotejados",
+      "apartados": [
+        "ley-1801-2016-art-38-literal-15",
+        "ley-1801-2016-art-38-numeral-16",
+        "ley-1801-2016-art-38-literal-17",
+        "ley-1801-2016-art-38-literal-18",
+        "ley-1801-2016-art-38-literal-19"
+      ],
+      "intervalo_texto": [
+        1582,
+        1931
+      ],
+      "fecha_revision_documental": "2026-11-19",
+      "texto": "d) Armas, neumáticas o de aire, o que se asimilen a estas, elementos cortantes, punzantes, contundentes o sus combinaciones; 6. Inducir a niños, niñas o adolescentes a: a) Consumir bebidas alcohólicas, cigarrillo, tabaco y sus derivados, sustancias psicoactivas o cualquier sustancia que afecte su salud; b) Participar en juegos de suerte y azar; c)"
+    },
+    {
+      "articulo": "38",
+      "id": "ley-1801-2016-art-38",
+      "titulo": "COMPORTAMIENTOS QUE AFECTAN LA INTEGRIDAD DE NIÑOS, NIÑAS Y ADOLESCENTES",
+      "tema": "CAPÍTULO I NIÑOS, NIÑAS Y ADOLESCENTES.",
+      "jerarquia": {
+        "libro": "LIBRO SEGUNDO DE LA LIBERTAD, LOS DERECHOS Y DEBERES DE LAS PERSONAS EN MATERIA DE CONVIVENCIA.",
+        "título": "TÍTULO V DE LAS RELACIONES RESPETUOSAS CON GRUPOS ESPECÍFICOS DE LA SOCIEDAD.",
+        "capítulo": "CAPÍTULO I NIÑOS, NIÑAS Y ADOLESCENTES."
+      },
+      "fuente": "Ley 1801 de 2016, apartados cotejados en Cancillería",
+      "url_fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#38",
+      "fecha_consulta": "2026-11-18",
+      "estado_documental": "apartados_cotejados",
+      "apartados": [
+        "ley-1801-2016-art-38-literal-17",
+        "ley-1801-2016-art-38-literal-18",
+        "ley-1801-2016-art-38-literal-19",
+        "ley-1801-2016-art-38-literal-20",
+        "ley-1801-2016-art-38-numeral-22",
+        "ley-1801-2016-art-38-numeral-23"
+      ],
+      "intervalo_texto": [
+        1856,
+        2280
+      ],
+      "fecha_revision_documental": "2026-11-19",
+      "texto": "sustancia que afecte su salud; b) Participar en juegos de suerte y azar; c) Ingresar a fiestas o eventos similares en los cuales exista previa restricción de edad por parte de las autoridades de policía, o esté prohibido su ingreso por las normas vigentes. d) La explotación laboral. 8. Ejercer, permitir, favorecer o propiciar el abuso, los actos y la explotación sexual de niños, niñas o adolescentes. 9. Utilizar a niños,"
+    },
+    {
+      "articulo": "38",
+      "id": "ley-1801-2016-art-38",
+      "titulo": "COMPORTAMIENTOS QUE AFECTAN LA INTEGRIDAD DE NIÑOS, NIÑAS Y ADOLESCENTES",
+      "tema": "CAPÍTULO I NIÑOS, NIÑAS Y ADOLESCENTES.",
+      "jerarquia": {
+        "libro": "LIBRO SEGUNDO DE LA LIBERTAD, LOS DERECHOS Y DEBERES DE LAS PERSONAS EN MATERIA DE CONVIVENCIA.",
+        "título": "TÍTULO V DE LAS RELACIONES RESPETUOSAS CON GRUPOS ESPECÍFICOS DE LA SOCIEDAD.",
+        "capítulo": "CAPÍTULO I NIÑOS, NIÑAS Y ADOLESCENTES."
+      },
+      "fuente": "Ley 1801 de 2016, apartados cotejados en Cancillería",
+      "url_fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#38",
+      "fecha_consulta": "2026-11-18",
+      "estado_documental": "apartados_cotejados",
+      "apartados": [
+        "ley-1801-2016-art-38-numeral-22",
+        "ley-1801-2016-art-38-numeral-23",
+        "ley-1801-2016-art-38-numeral-24",
+        "ley-1801-2016-art-38-numeral-25"
+      ],
+      "intervalo_texto": [
+        2194,
+        2643
+      ],
+      "fecha_revision_documental": "2026-11-19",
+      "texto": "los actos y la explotación sexual de niños, niñas o adolescentes. 9. Utilizar a niños, niñas y adolescentes para evitar el cumplimiento de una orden de policía. 10. Permitir que los niños, niñas y adolescentes hagan uso de piscinas y estructuras similares, de uso colectivo o de propiedad privada unihabitacional, sin el cumplimiento de los requisitos establecidos por la Ley 1209 de 2008 y las normas que la adicionen o modifiquen. 11. Permitir que"
+    },
+    {
+      "articulo": "38",
+      "id": "ley-1801-2016-art-38",
+      "titulo": "COMPORTAMIENTOS QUE AFECTAN LA INTEGRIDAD DE NIÑOS, NIÑAS Y ADOLESCENTES",
+      "tema": "CAPÍTULO I NIÑOS, NIÑAS Y ADOLESCENTES.",
+      "jerarquia": {
+        "libro": "LIBRO SEGUNDO DE LA LIBERTAD, LOS DERECHOS Y DEBERES DE LAS PERSONAS EN MATERIA DE CONVIVENCIA.",
+        "título": "TÍTULO V DE LAS RELACIONES RESPETUOSAS CON GRUPOS ESPECÍFICOS DE LA SOCIEDAD.",
+        "capítulo": "CAPÍTULO I NIÑOS, NIÑAS Y ADOLESCENTES."
+      },
+      "fuente": "Ley 1801 de 2016, apartados cotejados en Cancillería",
+      "url_fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#38",
+      "fecha_consulta": "2026-11-18",
+      "estado_documental": "apartados_cotejados",
+      "apartados": [
+        "ley-1801-2016-art-38-numeral-24",
+        "ley-1801-2016-art-38-numeral-25"
+      ],
+      "intervalo_texto": [
+        2570,
+        2757
+      ],
+      "fecha_revision_documental": "2026-11-19",
+      "texto": "1209 de 2008 y las normas que la adicionen o modifiquen. 11. Permitir que los niños, niñas y adolescentes sean parte de confrontaciones violentas que puedan derivar en agresiones físicas."
+    },
+    {
+      "articulo": "39",
+      "id": "ley-1801-2016-art-39",
+      "titulo": "PROHIBICIONES A NIÑOS, NIÑAS Y ADOLESCENTES",
+      "tema": "CAPÍTULO I NIÑOS, NIÑAS Y ADOLESCENTES.",
+      "jerarquia": {
+        "libro": "LIBRO SEGUNDO DE LA LIBERTAD, LOS DERECHOS Y DEBERES DE LAS PERSONAS EN MATERIA DE CONVIVENCIA.",
+        "título": "TÍTULO V DE LAS RELACIONES RESPETUOSAS CON GRUPOS ESPECÍFICOS DE LA SOCIEDAD.",
+        "capítulo": "CAPÍTULO I NIÑOS, NIÑAS Y ADOLESCENTES."
+      },
+      "fuente": "Ley 1801 de 2016, apartados cotejados en Cancillería",
+      "url_fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#39",
+      "fecha_consulta": "2026-11-18",
+      "estado_documental": "apartados_cotejados",
+      "apartados": [
+        "ley-1801-2016-art-39-cuerpo",
+        "ley-1801-2016-art-39-numeral-1"
+      ],
+      "intervalo_texto": [
+        0,
+        367
+      ],
+      "fecha_revision_documental": "2026-11-19",
+      "texto": "ARTÍCULO 39. PROHIBICIONES A NIÑOS, NIÑAS Y ADOLESCENTES. Además de los comportamientos prohibidos en el presente Código y en las normas vigentes, se prohíbe a niños, niñas y adolescentes: 1. Comercializar, distribuir, tener, almacenar, portar o consumir sustancias psicoactivas o tóxicas, alcohólicas o demás sustancias estimulantes que puedan afectar su salud o que"
+    },
+    {
+      "articulo": "39",
+      "id": "ley-1801-2016-art-39",
+      "titulo": "PROHIBICIONES A NIÑOS, NIÑAS Y ADOLESCENTES",
+      "tema": "CAPÍTULO I NIÑOS, NIÑAS Y ADOLESCENTES.",
+      "jerarquia": {
+        "libro": "LIBRO SEGUNDO DE LA LIBERTAD, LOS DERECHOS Y DEBERES DE LAS PERSONAS EN MATERIA DE CONVIVENCIA.",
+        "título": "TÍTULO V DE LAS RELACIONES RESPETUOSAS CON GRUPOS ESPECÍFICOS DE LA SOCIEDAD.",
+        "capítulo": "CAPÍTULO I NIÑOS, NIÑAS Y ADOLESCENTES."
+      },
+      "fuente": "Ley 1801 de 2016, apartados cotejados en Cancillería",
+      "url_fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#39",
+      "fecha_consulta": "2026-11-18",
+      "estado_documental": "apartados_cotejados",
+      "apartados": [
+        "ley-1801-2016-art-39-numeral-1"
+      ],
+      "intervalo_texto": [
+        281,
+        435
+      ],
+      "fecha_revision_documental": "2026-11-19",
+      "texto": "tóxicas, alcohólicas o demás sustancias estimulantes que puedan afectar su salud o que produzcan dependencia, que estén restringidas para menores de edad."
+    },
+    {
+      "articulo": "77",
+      "id": "ley-1801-2016-art-77",
+      "titulo": "COMPORTAMIENTOS CONTRARIOS A LA POSESIÓN Y MERA TENENCIA DE BIENES INMUEBLES",
+      "tema": "CAPÍTULO I DE LA POSESIÓN, LA TENENCIA Y LAS SERVIDUMBRES.",
+      "jerarquia": {
+        "libro": "LIBRO SEGUNDO DE LA LIBERTAD, LOS DERECHOS Y DEBERES DE LAS PERSONAS EN MATERIA DE CONVIVENCIA.",
+        "título": "TÍTULO VII DE LA PROTECCIÓN DE BIENES INMUEBLES.",
+        "capítulo": "CAPÍTULO I DE LA POSESIÓN, LA TENENCIA Y LAS SERVIDUMBRES."
+      },
+      "fuente": "Ley 1801 de 2016, apartados cotejados en Cancillería",
+      "url_fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#77",
+      "fecha_consulta": "2026-11-18",
+      "estado_documental": "apartados_cotejados",
+      "apartados": [
+        "ley-1801-2016-art-77-cuerpo",
+        "ley-1801-2016-art-77-numeral-1"
+      ],
+      "intervalo_texto": [
+        0,
+        380
+      ],
+      "fecha_revision_documental": "2026-11-19",
+      "texto": "ARTÍCULO 77. COMPORTAMIENTOS CONTRARIOS A LA POSESIÓN Y MERA TENENCIA DE BIENES INMUEBLES. Son aquellos contrarios a la posesión, la mera tenencia de los bienes inmuebles de particulares, bienes fiscales, bienes de uso público, bienes de utilidad pública o social, bienes destinados a prestación de servicios públicos. Estos son los siguientes: 1. Perturbar, alterar o interrumpir"
+    },
+    {
+      "articulo": "77",
+      "id": "ley-1801-2016-art-77",
+      "titulo": "COMPORTAMIENTOS CONTRARIOS A LA POSESIÓN Y MERA TENENCIA DE BIENES INMUEBLES",
+      "tema": "CAPÍTULO I DE LA POSESIÓN, LA TENENCIA Y LAS SERVIDUMBRES.",
+      "jerarquia": {
+        "libro": "LIBRO SEGUNDO DE LA LIBERTAD, LOS DERECHOS Y DEBERES DE LAS PERSONAS EN MATERIA DE CONVIVENCIA.",
+        "título": "TÍTULO VII DE LA PROTECCIÓN DE BIENES INMUEBLES.",
+        "capítulo": "CAPÍTULO I DE LA POSESIÓN, LA TENENCIA Y LAS SERVIDUMBRES."
+      },
+      "fuente": "Ley 1801 de 2016, apartados cotejados en Cancillería",
+      "url_fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#77",
+      "fecha_consulta": "2026-11-18",
+      "estado_documental": "apartados_cotejados",
+      "apartados": [
+        "ley-1801-2016-art-77-cuerpo",
+        "ley-1801-2016-art-77-numeral-1",
+        "ley-1801-2016-art-77-numeral-2",
+        "ley-1801-2016-art-77-numeral-3"
+      ],
+      "intervalo_texto": [
+        296,
+        695
+      ],
+      "fecha_revision_documental": "2026-11-19",
+      "texto": "de servicios públicos. Estos son los siguientes: 1. Perturbar, alterar o interrumpir la posesión o mera tenencia de un bien inmueble ocupándolo ilegalmente. 2. Perturbar la posesión o mera tenencia de un inmueble o mueble por causa de daños materiales o hechos que la alteren, o por no reparar las averías o daños en el propio inmueble que pongan en peligro, perjudiquen o molesten a los vecinos. 3."
+    },
+    {
+      "articulo": "77",
+      "id": "ley-1801-2016-art-77",
+      "titulo": "COMPORTAMIENTOS CONTRARIOS A LA POSESIÓN Y MERA TENENCIA DE BIENES INMUEBLES",
+      "tema": "CAPÍTULO I DE LA POSESIÓN, LA TENENCIA Y LAS SERVIDUMBRES.",
+      "jerarquia": {
+        "libro": "LIBRO SEGUNDO DE LA LIBERTAD, LOS DERECHOS Y DEBERES DE LAS PERSONAS EN MATERIA DE CONVIVENCIA.",
+        "título": "TÍTULO VII DE LA PROTECCIÓN DE BIENES INMUEBLES.",
+        "capítulo": "CAPÍTULO I DE LA POSESIÓN, LA TENENCIA Y LAS SERVIDUMBRES."
+      },
+      "fuente": "Ley 1801 de 2016, apartados cotejados en Cancillería",
+      "url_fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#77",
+      "fecha_consulta": "2026-11-18",
+      "estado_documental": "apartados_cotejados",
+      "apartados": [
+        "ley-1801-2016-art-77-numeral-2",
+        "ley-1801-2016-art-77-numeral-3",
+        "ley-1801-2016-art-77-numeral-4",
+        "ley-1801-2016-art-77-numeral-5",
+        "ley-1801-2016-art-77-paragrafo-6"
+      ],
+      "intervalo_texto": [
+        613,
+        1036
+      ],
+      "fecha_revision_documental": "2026-11-19",
+      "texto": "el propio inmueble que pongan en peligro, perjudiquen o molesten a los vecinos. 3. Instalar servicios públicos en inmuebles que hayan sido ocupados ilegalmente. 4. Omitir el cerramiento y mantenimiento de lotes y fachadas de edificaciones. 5. Impedir el ingreso, uso y disfrute de la posesión o tenencia de inmueble al titular de este derecho. Numeral 1 Restitución y protección de bienes inmuebles. Numeral 2 Reparación de"
+    },
+    {
+      "articulo": "77",
+      "id": "ley-1801-2016-art-77",
+      "titulo": "COMPORTAMIENTOS CONTRARIOS A LA POSESIÓN Y MERA TENENCIA DE BIENES INMUEBLES",
+      "tema": "CAPÍTULO I DE LA POSESIÓN, LA TENENCIA Y LAS SERVIDUMBRES.",
+      "jerarquia": {
+        "libro": "LIBRO SEGUNDO DE LA LIBERTAD, LOS DERECHOS Y DEBERES DE LAS PERSONAS EN MATERIA DE CONVIVENCIA.",
+        "título": "TÍTULO VII DE LA PROTECCIÓN DE BIENES INMUEBLES.",
+        "capítulo": "CAPÍTULO I DE LA POSESIÓN, LA TENENCIA Y LAS SERVIDUMBRES."
+      },
+      "fuente": "Ley 1801 de 2016, apartados cotejados en Cancillería",
+      "url_fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#77",
+      "fecha_consulta": "2026-11-18",
+      "estado_documental": "apartados_cotejados",
+      "apartados": [
+        "ley-1801-2016-art-77-paragrafo-6"
+      ],
+      "intervalo_texto": [
+        957,
+        1304
+      ],
+      "fecha_revision_documental": "2026-11-19",
+      "texto": "Numeral 1 Restitución y protección de bienes inmuebles. Numeral 2 Reparación de daños materiales por perturbación a la posesión y tenencia de inmuebles o mueble. Numeral 3 Multa General tipo 3 Numeral 4 Multa General tipo 3; construcción, cerramiento, reparación o mantenimiento de inmueble. Numeral 5 Restitución y protección de bienes inmuebles."
+    },
+    {
+      "articulo": "93",
+      "id": "ley-1801-2016-art-93",
+      "titulo": "COMPORTAMIENTOS RELACIONADOS CON LA SEGURIDAD Y TRANQUILIDAD QUE AFECTAN LA ACTIVIDAD ECONÓMICA",
+      "tema": "CAPÍTULO III COMPORTAMIENTOS QUE AFECTAN LA ACTIVIDAD ECONÓMICA.",
+      "jerarquia": {
+        "libro": "LIBRO SEGUNDO DE LA LIBERTAD, LOS DERECHOS Y DEBERES DE LAS PERSONAS EN MATERIA DE CONVIVENCIA.",
+        "título": "TÍTULO VIII DE LA ACTIVIDAD ECONÓMICA.",
+        "capítulo": "CAPÍTULO III COMPORTAMIENTOS QUE AFECTAN LA ACTIVIDAD ECONÓMICA."
+      },
+      "fuente": "Ley 1801 de 2016, apartados cotejados en Cancillería",
+      "url_fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#93",
+      "fecha_consulta": "2026-11-18",
+      "estado_documental": "apartados_cotejados",
+      "apartados": [
+        "ley-1801-2016-art-93-numeral-1",
+        "ley-1801-2016-art-93-paragrafo-17"
+      ],
+      "intervalo_texto": [
+        0,
+        265
+      ],
+      "fecha_revision_documental": "2026-11-19",
+      "texto": "ARTÍCULO 93. COMPORTAMIENTOS RELACIONADOS CON LA SEGURIDAD Y TRANQUILIDAD QUE AFECTAN LA ACTIVIDAD ECONÓMICA. 1. No informar los protocolos de seguridad y evacuación en caso de emergencias a las personas que se encuentren en el lugar. Numeral 1 Multa General Tipo 1"
+    },
+    {
+      "articulo": "94",
+      "id": "ley-1801-2016-art-94",
+      "titulo": "COMPORTAMIENTOS RELACIONADOS CON LA SALUD PÚBLICA QUE AFECTAN LA ACTIVIDAD ECONÓMICA",
+      "tema": "CAPÍTULO III COMPORTAMIENTOS QUE AFECTAN LA ACTIVIDAD ECONÓMICA.",
+      "jerarquia": {
+        "libro": "LIBRO SEGUNDO DE LA LIBERTAD, LOS DERECHOS Y DEBERES DE LAS PERSONAS EN MATERIA DE CONVIVENCIA.",
+        "título": "TÍTULO VIII DE LA ACTIVIDAD ECONÓMICA.",
+        "capítulo": "CAPÍTULO III COMPORTAMIENTOS QUE AFECTAN LA ACTIVIDAD ECONÓMICA."
+      },
+      "fuente": "Ley 1801 de 2016, apartados cotejados en Cancillería",
+      "url_fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#94",
+      "fecha_consulta": "2026-11-18",
+      "estado_documental": "apartados_cotejados",
+      "apartados": [
+        "ley-1801-2016-art-94-cuerpo",
+        "ley-1801-2016-art-94-numeral-1",
+        "ley-1801-2016-art-94-numeral-2"
+      ],
+      "intervalo_texto": [
+        0,
+        434
+      ],
+      "fecha_revision_documental": "2026-11-19",
+      "texto": "ARTÍCULO 94. COMPORTAMIENTOS RELACIONADOS CON LA SALUD PÚBLICA QUE AFECTAN LA ACTIVIDAD ECONÓMICA. Los siguientes comportamientos relacionados con la salud pública afectan la actividad económica y por lo tanto no deben realizarse: 1. Incumplir las normas o disposiciones de seguridad o sanidad, para el desarrollo de la actividad económica, de acuerdo con su objeto social, previo concepto de la autoridad especializada. 2. No separar"
+    },
+    {
+      "articulo": "94",
+      "id": "ley-1801-2016-art-94",
+      "titulo": "COMPORTAMIENTOS RELACIONADOS CON LA SALUD PÚBLICA QUE AFECTAN LA ACTIVIDAD ECONÓMICA",
+      "tema": "CAPÍTULO III COMPORTAMIENTOS QUE AFECTAN LA ACTIVIDAD ECONÓMICA.",
+      "jerarquia": {
+        "libro": "LIBRO SEGUNDO DE LA LIBERTAD, LOS DERECHOS Y DEBERES DE LAS PERSONAS EN MATERIA DE CONVIVENCIA.",
+        "título": "TÍTULO VIII DE LA ACTIVIDAD ECONÓMICA.",
+        "capítulo": "CAPÍTULO III COMPORTAMIENTOS QUE AFECTAN LA ACTIVIDAD ECONÓMICA."
+      },
+      "fuente": "Ley 1801 de 2016, apartados cotejados en Cancillería",
+      "url_fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#94",
+      "fecha_consulta": "2026-11-18",
+      "estado_documental": "apartados_cotejados",
+      "apartados": [
+        "ley-1801-2016-art-94-numeral-1",
+        "ley-1801-2016-art-94-numeral-2",
+        "ley-1801-2016-art-94-numeral-3",
+        "ley-1801-2016-art-94-numeral-4"
+      ],
+      "intervalo_texto": [
+        320,
+        801
+      ],
+      "fecha_revision_documental": "2026-11-19",
+      "texto": "actividad económica, de acuerdo con su objeto social, previo concepto de la autoridad especializada. 2. No separar en la fuente los residuos sólidos, ni depositarlos selectivamente en un lugar destinado para tal efecto. 3. Permitir el consumo de tabaco y/o sus derivados en lugares no autorizados por la ley y la normatividad vigente. 4. Permitir la permanencia de animales de cualquier especie que afecte las condiciones de higiene, salubridad y seguridad o que impida la correcta"
+    },
+    {
+      "articulo": "94",
+      "id": "ley-1801-2016-art-94",
+      "titulo": "COMPORTAMIENTOS RELACIONADOS CON LA SALUD PÚBLICA QUE AFECTAN LA ACTIVIDAD ECONÓMICA",
+      "tema": "CAPÍTULO III COMPORTAMIENTOS QUE AFECTAN LA ACTIVIDAD ECONÓMICA.",
+      "jerarquia": {
+        "libro": "LIBRO SEGUNDO DE LA LIBERTAD, LOS DERECHOS Y DEBERES DE LAS PERSONAS EN MATERIA DE CONVIVENCIA.",
+        "título": "TÍTULO VIII DE LA ACTIVIDAD ECONÓMICA.",
+        "capítulo": "CAPÍTULO III COMPORTAMIENTOS QUE AFECTAN LA ACTIVIDAD ECONÓMICA."
+      },
+      "fuente": "Ley 1801 de 2016, apartados cotejados en Cancillería",
+      "url_fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#94",
+      "fecha_consulta": "2026-11-18",
+      "estado_documental": "apartados_cotejados",
+      "apartados": [
+        "ley-1801-2016-art-94-numeral-4",
+        "ley-1801-2016-art-94-numeral-5",
+        "ley-1801-2016-art-94-numeral-6",
+        "ley-1801-2016-art-94-numeral-7"
+      ],
+      "intervalo_texto": [
+        697,
+        1191
+      ],
+      "fecha_revision_documental": "2026-11-19",
+      "texto": "cualquier especie que afecte las condiciones de higiene, salubridad y seguridad o que impida la correcta prestación del servicio de acuerdo con las disposiciones vigentes. 5. Comercializar en el establecimiento artículos de mala calidad, caducados o adulterados que puedan constituir peligro para la salud pública. 6. Comercializar, almacenar, poseer o tener especies de flora o fauna que ofrezcan peligro para la integridad y la salud. 7. No retirar frecuentemente los residuos de las áreas de"
+    },
+    {
+      "articulo": "94",
+      "id": "ley-1801-2016-art-94",
+      "titulo": "COMPORTAMIENTOS RELACIONADOS CON LA SALUD PÚBLICA QUE AFECTAN LA ACTIVIDAD ECONÓMICA",
+      "tema": "CAPÍTULO III COMPORTAMIENTOS QUE AFECTAN LA ACTIVIDAD ECONÓMICA.",
+      "jerarquia": {
+        "libro": "LIBRO SEGUNDO DE LA LIBERTAD, LOS DERECHOS Y DEBERES DE LAS PERSONAS EN MATERIA DE CONVIVENCIA.",
+        "título": "TÍTULO VIII DE LA ACTIVIDAD ECONÓMICA.",
+        "capítulo": "CAPÍTULO III COMPORTAMIENTOS QUE AFECTAN LA ACTIVIDAD ECONÓMICA."
+      },
+      "fuente": "Ley 1801 de 2016, apartados cotejados en Cancillería",
+      "url_fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#94",
+      "fecha_consulta": "2026-11-18",
+      "estado_documental": "apartados_cotejados",
+      "apartados": [
+        "ley-1801-2016-art-94-numeral-6",
+        "ley-1801-2016-art-94-numeral-7",
+        "ley-1801-2016-art-94-numeral-8"
+      ],
+      "intervalo_texto": [
+        1095,
+        1547
+      ],
+      "fecha_revision_documental": "2026-11-19",
+      "texto": "peligro para la integridad y la salud. 7. No retirar frecuentemente los residuos de las áreas de producción o depósito y no evacuarlas de manera que se elimine la generación de malos olores, y se impida el refugio y alimento de animales y plagas. 8. No facilitar la utilización de los servicios sanitarios limpios y desinfectados a las personas que así lo requieran, en los establecimientos abiertos al público y proveer de los recursos requeridos para"
+    },
+    {
+      "articulo": "94",
+      "id": "ley-1801-2016-art-94",
+      "titulo": "COMPORTAMIENTOS RELACIONADOS CON LA SALUD PÚBLICA QUE AFECTAN LA ACTIVIDAD ECONÓMICA",
+      "tema": "CAPÍTULO III COMPORTAMIENTOS QUE AFECTAN LA ACTIVIDAD ECONÓMICA.",
+      "jerarquia": {
+        "libro": "LIBRO SEGUNDO DE LA LIBERTAD, LOS DERECHOS Y DEBERES DE LAS PERSONAS EN MATERIA DE CONVIVENCIA.",
+        "título": "TÍTULO VIII DE LA ACTIVIDAD ECONÓMICA.",
+        "capítulo": "CAPÍTULO III COMPORTAMIENTOS QUE AFECTAN LA ACTIVIDAD ECONÓMICA."
+      },
+      "fuente": "Ley 1801 de 2016, apartados cotejados en Cancillería",
+      "url_fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#94",
+      "fecha_consulta": "2026-11-18",
+      "estado_documental": "apartados_cotejados",
+      "apartados": [
+        "ley-1801-2016-art-94-numeral-8",
+        "ley-1801-2016-art-94-numeral-9",
+        "ley-1801-2016-art-94-paragrafo-10"
+      ],
+      "intervalo_texto": [
+        1451,
+        1871
+      ],
+      "fecha_revision_documental": "2026-11-19",
+      "texto": "requieran, en los establecimientos abiertos al público y proveer de los recursos requeridos para la higiene personal. 9. No destruir en la fuente los envases de bebidas embriagantes. Numeral 1 Multa General tipo 4; Suspensión temporal de actividad. Numeral 2 Multa General tipo 3. Numeral 3 Multa General tipo 1; Suspensión temporal de actividad. Numeral 4 Multa General tipo 3; Suspensión temporal de actividad. Numeral"
+    },
+    {
+      "articulo": "94",
+      "id": "ley-1801-2016-art-94",
+      "titulo": "COMPORTAMIENTOS RELACIONADOS CON LA SALUD PÚBLICA QUE AFECTAN LA ACTIVIDAD ECONÓMICA",
+      "tema": "CAPÍTULO III COMPORTAMIENTOS QUE AFECTAN LA ACTIVIDAD ECONÓMICA.",
+      "jerarquia": {
+        "libro": "LIBRO SEGUNDO DE LA LIBERTAD, LOS DERECHOS Y DEBERES DE LAS PERSONAS EN MATERIA DE CONVIVENCIA.",
+        "título": "TÍTULO VIII DE LA ACTIVIDAD ECONÓMICA.",
+        "capítulo": "CAPÍTULO III COMPORTAMIENTOS QUE AFECTAN LA ACTIVIDAD ECONÓMICA."
+      },
+      "fuente": "Ley 1801 de 2016, apartados cotejados en Cancillería",
+      "url_fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#94",
+      "fecha_consulta": "2026-11-18",
+      "estado_documental": "apartados_cotejados",
+      "apartados": [
+        "ley-1801-2016-art-94-paragrafo-10"
+      ],
+      "intervalo_texto": [
+        1787,
+        2150
+      ],
+      "fecha_revision_documental": "2026-11-19",
+      "texto": "actividad. Numeral 4 Multa General tipo 3; Suspensión temporal de actividad. Numeral 5 Multa General tipo 4; Suspensión temporal de actividad Numeral 6 Multa General tipo 1; Suspensión temporal de actividad. Numeral 7 Multa General tipo 4; Suspensión temporal de actividad. Numeral 8 Amonestación. Numeral 9 Multa General tipo 1; Suspensión temporal de actividad."
+    },
+    {
+      "articulo": "95",
+      "id": "ley-1801-2016-art-95",
+      "titulo": "COMPORTAMIENTOS QUE AFECTAN LA SEGURIDAD DE LAS PERSONAS Y SUS BIENES RELACIONADOS CON EQUIPOS TERMINALES MÓVILES",
+      "tema": "CAPÍTULO IV DE LA SEGURIDAD DE LOS EQUIPOS TERMINALES MÓVILES Y/O TARJETAS SIMCARD (IMSI).",
+      "jerarquia": {
+        "libro": "LIBRO SEGUNDO DE LA LIBERTAD, LOS DERECHOS Y DEBERES DE LAS PERSONAS EN MATERIA DE CONVIVENCIA.",
+        "título": "TÍTULO VIII DE LA ACTIVIDAD ECONÓMICA.",
+        "capítulo": "CAPÍTULO IV DE LA SEGURIDAD DE LOS EQUIPOS TERMINALES MÓVILES Y/O TARJETAS SIMCARD (IMSI)."
+      },
+      "fuente": "Ley 1801 de 2016, apartados cotejados en Cancillería",
+      "url_fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#95",
+      "fecha_consulta": "2026-11-18",
+      "estado_documental": "apartados_cotejados",
+      "apartados": [
+        "ley-1801-2016-art-95-numeral-1"
+      ],
+      "intervalo_texto": [
+        0,
+        377
+      ],
+      "fecha_revision_documental": "2026-11-19",
+      "texto": "ARTÍCULO 95. COMPORTAMIENTOS QUE AFECTAN LA SEGURIDAD DE LAS PERSONAS Y SUS BIENES RELACIONADOS CON EQUIPOS TERMINALES MÓVILES. 1. Comprar, alquilar o usar equipo terminal móvil con reporte de hurto y/o extravío en la base de datos negativa de que trata el artículo 106 de la Ley 1453 de 2011 o equipo terminal móvil cuyo número de identificación físico o electrónico haya sido"
+    },
+    {
+      "articulo": "95",
+      "id": "ley-1801-2016-art-95",
+      "titulo": "COMPORTAMIENTOS QUE AFECTAN LA SEGURIDAD DE LAS PERSONAS Y SUS BIENES RELACIONADOS CON EQUIPOS TERMINALES MÓVILES",
+      "tema": "CAPÍTULO IV DE LA SEGURIDAD DE LOS EQUIPOS TERMINALES MÓVILES Y/O TARJETAS SIMCARD (IMSI).",
+      "jerarquia": {
+        "libro": "LIBRO SEGUNDO DE LA LIBERTAD, LOS DERECHOS Y DEBERES DE LAS PERSONAS EN MATERIA DE CONVIVENCIA.",
+        "título": "TÍTULO VIII DE LA ACTIVIDAD ECONÓMICA.",
+        "capítulo": "CAPÍTULO IV DE LA SEGURIDAD DE LOS EQUIPOS TERMINALES MÓVILES Y/O TARJETAS SIMCARD (IMSI)."
+      },
+      "fuente": "Ley 1801 de 2016, apartados cotejados en Cancillería",
+      "url_fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#95",
+      "fecha_consulta": "2026-11-18",
+      "estado_documental": "apartados_cotejados",
+      "apartados": [
+        "ley-1801-2016-art-95-numeral-1",
+        "ley-1801-2016-art-95-paragrafo-15"
+      ],
+      "intervalo_texto": [
+        270,
+        694
+      ],
+      "fecha_revision_documental": "2026-11-19",
+      "texto": "de la Ley 1453 de 2011 o equipo terminal móvil cuyo número de identificación físico o electrónico haya sido reprogramado, remarcado, modificado o suprimido. PARÁGRAFO 2o. Corresponde a las personas naturales o jurídicas verificar que el equipo a comprar, alquilar, usar, distribuir, almacenar o vender, no se encuentre reportado como hurtado y/o extraviado en la base de datos negativa de que trata el artículo 106 de la Ley"
+    },
+    {
+      "articulo": "95",
+      "id": "ley-1801-2016-art-95",
+      "titulo": "COMPORTAMIENTOS QUE AFECTAN LA SEGURIDAD DE LAS PERSONAS Y SUS BIENES RELACIONADOS CON EQUIPOS TERMINALES MÓVILES",
+      "tema": "CAPÍTULO IV DE LA SEGURIDAD DE LOS EQUIPOS TERMINALES MÓVILES Y/O TARJETAS SIMCARD (IMSI).",
+      "jerarquia": {
+        "libro": "LIBRO SEGUNDO DE LA LIBERTAD, LOS DERECHOS Y DEBERES DE LAS PERSONAS EN MATERIA DE CONVIVENCIA.",
+        "título": "TÍTULO VIII DE LA ACTIVIDAD ECONÓMICA.",
+        "capítulo": "CAPÍTULO IV DE LA SEGURIDAD DE LOS EQUIPOS TERMINALES MÓVILES Y/O TARJETAS SIMCARD (IMSI)."
+      },
+      "fuente": "Ley 1801 de 2016, apartados cotejados en Cancillería",
+      "url_fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#95",
+      "fecha_consulta": "2026-11-18",
+      "estado_documental": "apartados_cotejados",
+      "apartados": [
+        "ley-1801-2016-art-95-paragrafo-15",
+        "ley-1801-2016-art-95-paragrafo-16"
+      ],
+      "intervalo_texto": [
+        612,
+        1089
+      ],
+      "fecha_revision_documental": "2026-11-19",
+      "texto": "y/o extraviado en la base de datos negativa de que trata el artículo 106 de la Ley 1453 de 2011 y proceder al registro en base de datos positiva. La consulta pública de la base de datos negativa estará disponible a través del sitio web que indique la Comisión de Regulación de Comunicaciones y para el registro de los equipos terminales móviles en la base de datos positiva los proveedores deberán disponer de los medios definidos en la regulación. Numeral 1 Multa General tipo"
+    },
+    {
+      "articulo": "95",
+      "id": "ley-1801-2016-art-95",
+      "titulo": "COMPORTAMIENTOS QUE AFECTAN LA SEGURIDAD DE LAS PERSONAS Y SUS BIENES RELACIONADOS CON EQUIPOS TERMINALES MÓVILES",
+      "tema": "CAPÍTULO IV DE LA SEGURIDAD DE LOS EQUIPOS TERMINALES MÓVILES Y/O TARJETAS SIMCARD (IMSI).",
+      "jerarquia": {
+        "libro": "LIBRO SEGUNDO DE LA LIBERTAD, LOS DERECHOS Y DEBERES DE LAS PERSONAS EN MATERIA DE CONVIVENCIA.",
+        "título": "TÍTULO VIII DE LA ACTIVIDAD ECONÓMICA.",
+        "capítulo": "CAPÍTULO IV DE LA SEGURIDAD DE LOS EQUIPOS TERMINALES MÓVILES Y/O TARJETAS SIMCARD (IMSI)."
+      },
+      "fuente": "Ley 1801 de 2016, apartados cotejados en Cancillería",
+      "url_fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#95",
+      "fecha_consulta": "2026-11-18",
+      "estado_documental": "apartados_cotejados",
+      "apartados": [
+        "ley-1801-2016-art-95-paragrafo-15",
+        "ley-1801-2016-art-95-paragrafo-16"
+      ],
+      "intervalo_texto": [
+        1002,
+        1147
+      ],
+      "fecha_revision_documental": "2026-11-19",
+      "texto": "deberán disponer de los medios definidos en la regulación. Numeral 1 Multa General tipo 2; Destrucción de bien; Suspensión temporal de actividad."
+    },
+    {
+      "articulo": "111",
+      "id": "ley-1801-2016-art-111",
+      "titulo": "COMPORTAMIENTOS CONTRARIOS A LA LIMPIEZA Y RECOLECCIÓN DE RESIDUOS Y ESCOMBROS Y MALAS PRÁCTICAS HABITACIONALES",
+      "tema": "CAPÍTULO II LIMPIEZA Y RECOLECCIÓN DE RESIDUOS Y DE ESCOMBROS.",
+      "jerarquia": {
+        "libro": "LIBRO SEGUNDO DE LA LIBERTAD, LOS DERECHOS Y DEBERES DE LAS PERSONAS EN MATERIA DE CONVIVENCIA.",
+        "título": "TÍTULO XI SALUD PÚBLICA.",
+        "capítulo": "CAPÍTULO II LIMPIEZA Y RECOLECCIÓN DE RESIDUOS Y DE ESCOMBROS."
+      },
+      "fuente": "Ley 1801 de 2016, apartados cotejados en Cancillería",
+      "url_fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#111",
+      "fecha_consulta": "2026-11-18",
+      "estado_documental": "apartados_cotejados",
+      "apartados": [
+        "ley-1801-2016-art-111-numeral-1",
+        "ley-1801-2016-art-111-numeral-3"
+      ],
+      "intervalo_texto": [
+        0,
+        362
+      ],
+      "fecha_revision_documental": "2026-11-19",
+      "texto": "ARTÍCULO 111. COMPORTAMIENTOS CONTRARIOS A LA LIMPIEZA Y RECOLECCIÓN DE RESIDUOS Y ESCOMBROS Y MALAS PRÁCTICAS HABITACIONALES. 1. Sacar la basura en horarios no autorizados por la empresa prestadora del servicio o en sitio diferente al lugar de residencia o domicilio. 3. Arrojar residuos sólidos y escombros en sitios de uso público, no acordados ni autorizados"
+    },
+    {
+      "articulo": "111",
+      "id": "ley-1801-2016-art-111",
+      "titulo": "COMPORTAMIENTOS CONTRARIOS A LA LIMPIEZA Y RECOLECCIÓN DE RESIDUOS Y ESCOMBROS Y MALAS PRÁCTICAS HABITACIONALES",
+      "tema": "CAPÍTULO II LIMPIEZA Y RECOLECCIÓN DE RESIDUOS Y DE ESCOMBROS.",
+      "jerarquia": {
+        "libro": "LIBRO SEGUNDO DE LA LIBERTAD, LOS DERECHOS Y DEBERES DE LAS PERSONAS EN MATERIA DE CONVIVENCIA.",
+        "título": "TÍTULO XI SALUD PÚBLICA.",
+        "capítulo": "CAPÍTULO II LIMPIEZA Y RECOLECCIÓN DE RESIDUOS Y DE ESCOMBROS."
+      },
+      "fuente": "Ley 1801 de 2016, apartados cotejados en Cancillería",
+      "url_fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#111",
+      "fecha_consulta": "2026-11-18",
+      "estado_documental": "apartados_cotejados",
+      "apartados": [
+        "ley-1801-2016-art-111-numeral-3",
+        "ley-1801-2016-art-111-numeral-8",
+        "ley-1801-2016-art-111-paragrafo-16"
+      ],
+      "intervalo_texto": [
+        272,
+        708
+      ],
+      "fecha_revision_documental": "2026-11-19",
+      "texto": "Arrojar residuos sólidos y escombros en sitios de uso público, no acordados ni autorizados por autoridad competente. 8. Arrojar basura, llantas, residuos o escombros en el espacio público o en bienes de carácter público o privado. Numeral 1 Participación en programa comunitario o actividad pedagógica de convivencia. Numeral 3 Participación en programa comunitario o actividad pedagógica de convivencia. Numeral 8 Multa General tipo 4."
+    },
+    {
+      "articulo": "124",
+      "id": "ley-1801-2016-art-124",
+      "titulo": "COMPORTAMIENTOS QUE PONEN EN RIESGO LA CONVIVENCIA POR LA TENENCIA DE ANIMALES",
+      "tema": "CAPÍTULO III DE LA CONVIVENCIA DE LAS PERSONAS CON ANIMALES.",
+      "jerarquia": {
+        "libro": "LIBRO SEGUNDO DE LA LIBERTAD, LOS DERECHOS Y DEBERES DE LAS PERSONAS EN MATERIA DE CONVIVENCIA.",
+        "título": "TÍTULO XIII DE LA RELACIÓN CON LOS ANIMALES.",
+        "capítulo": "CAPÍTULO III DE LA CONVIVENCIA DE LAS PERSONAS CON ANIMALES."
+      },
+      "fuente": "Ley 1801 de 2016, apartados cotejados en Cancillería",
+      "url_fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#124",
+      "fecha_consulta": "2026-11-18",
+      "estado_documental": "apartados_cotejados",
+      "apartados": [
+        "ley-1801-2016-art-124-numeral-1",
+        "ley-1801-2016-art-124-numeral-7"
+      ],
+      "intervalo_texto": [
+        0,
+        368
+      ],
+      "fecha_revision_documental": "2026-11-19",
+      "texto": "ARTÍCULO 124. COMPORTAMIENTOS QUE PONEN EN RIESGO LA CONVIVENCIA POR LA TENENCIA DE ANIMALES. 1. Dejar deambular semoviente, animales feroces o dañinos, en espacio público y privado, lugar abierto al público, o medio de transporte público, sin las debidas medidas de seguridad. 7. Tolerar, permitir o inducir por acción u omisión el que un animal ataque a una persona,"
+    },
+    {
+      "articulo": "124",
+      "id": "ley-1801-2016-art-124",
+      "titulo": "COMPORTAMIENTOS QUE PONEN EN RIESGO LA CONVIVENCIA POR LA TENENCIA DE ANIMALES",
+      "tema": "CAPÍTULO III DE LA CONVIVENCIA DE LAS PERSONAS CON ANIMALES.",
+      "jerarquia": {
+        "libro": "LIBRO SEGUNDO DE LA LIBERTAD, LOS DERECHOS Y DEBERES DE LAS PERSONAS EN MATERIA DE CONVIVENCIA.",
+        "título": "TÍTULO XIII DE LA RELACIÓN CON LOS ANIMALES.",
+        "capítulo": "CAPÍTULO III DE LA CONVIVENCIA DE LAS PERSONAS CON ANIMALES."
+      },
+      "fuente": "Ley 1801 de 2016, apartados cotejados en Cancillería",
+      "url_fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#124",
+      "fecha_consulta": "2026-11-18",
+      "estado_documental": "apartados_cotejados",
+      "apartados": [
+        "ley-1801-2016-art-124-numeral-7",
+        "ley-1801-2016-art-124-paragrafo-11"
+      ],
+      "intervalo_texto": [
+        281,
+        466
+      ],
+      "fecha_revision_documental": "2026-11-19",
+      "texto": "Tolerar, permitir o inducir por acción u omisión el que un animal ataque a una persona, a un animal o a bienes de terceros. Numeral 1 Multa General tipo 2 Numeral 7 Multa General tipo 4"
+    },
+    {
+      "articulo": "135",
+      "id": "ley-1801-2016-art-135",
+      "titulo": "COMPORTAMIENTOS CONTRARIOS A LA INTEGRIDAD URBANÍSTICA",
+      "tema": "CAPÍTULO I COMPORTAMIENTOS QUE AFECTAN LA INTEGRIDAD URBANÍSTICA.",
+      "jerarquia": {
+        "libro": "LIBRO SEGUNDO DE LA LIBERTAD, LOS DERECHOS Y DEBERES DE LAS PERSONAS EN MATERIA DE CONVIVENCIA.",
+        "título": "TÍTULO XIV DEL URBANISMO.",
+        "capítulo": "CAPÍTULO I COMPORTAMIENTOS QUE AFECTAN LA INTEGRIDAD URBANÍSTICA."
+      },
+      "fuente": "Ley 1801 de 2016, apartados cotejados en Cancillería",
+      "url_fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#135",
+      "fecha_consulta": "2026-11-18",
+      "estado_documental": "apartados_cotejados",
+      "apartados": [
+        "ley-1801-2016-art-135-literal-1",
+        "ley-1801-2016-art-135-numeral-5",
+        "ley-1801-2016-art-135-paragrafo-29"
+      ],
+      "intervalo_texto": [
+        0,
+        376
+      ],
+      "fecha_revision_documental": "2026-11-19",
+      "texto": "ARTÍCULO 135. COMPORTAMIENTOS CONTRARIOS A LA INTEGRIDAD URBANÍSTICA. A) Parcelar, urbanizar, demoler, intervenir o construir: 4. En terrenos aptos para estas actuaciones, sin licencia o cuando esta hubiere caducado. PARÁGRAFO 1o. Cuando se trate de construcciones en terrenos no aptos o sin previa licencia, se impondrán de inmediato la medida de suspensión de construcción o"
+    },
+    {
+      "articulo": "135",
+      "id": "ley-1801-2016-art-135",
+      "titulo": "COMPORTAMIENTOS CONTRARIOS A LA INTEGRIDAD URBANÍSTICA",
+      "tema": "CAPÍTULO I COMPORTAMIENTOS QUE AFECTAN LA INTEGRIDAD URBANÍSTICA.",
+      "jerarquia": {
+        "libro": "LIBRO SEGUNDO DE LA LIBERTAD, LOS DERECHOS Y DEBERES DE LAS PERSONAS EN MATERIA DE CONVIVENCIA.",
+        "título": "TÍTULO XIV DEL URBANISMO.",
+        "capítulo": "CAPÍTULO I COMPORTAMIENTOS QUE AFECTAN LA INTEGRIDAD URBANÍSTICA."
+      },
+      "fuente": "Ley 1801 de 2016, apartados cotejados en Cancillería",
+      "url_fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#135",
+      "fecha_consulta": "2026-11-18",
+      "estado_documental": "apartados_cotejados",
+      "apartados": [
+        "ley-1801-2016-art-135-paragrafo-29",
+        "ley-1801-2016-art-135-paragrafo-30"
+      ],
+      "intervalo_texto": [
+        280,
+        754
+      ],
+      "fecha_revision_documental": "2026-11-19",
+      "texto": "aptos o sin previa licencia, se impondrán de inmediato la medida de suspensión de construcción o demolición, y se solicitará a las empresas de servicios públicos domiciliarios la suspensión de los servicios correspondientes si no hubiese habitación. PARÁGRAFO 2o. Cuando se realice actuación urbanística sin previa licencia en predios aptos para estos menesteres, sin perjuicio de la medida de multa y de la suspensión temporal de la obra, se concederá un término de sesenta"
+    },
+    {
+      "articulo": "135",
+      "id": "ley-1801-2016-art-135",
+      "titulo": "COMPORTAMIENTOS CONTRARIOS A LA INTEGRIDAD URBANÍSTICA",
+      "tema": "CAPÍTULO I COMPORTAMIENTOS QUE AFECTAN LA INTEGRIDAD URBANÍSTICA.",
+      "jerarquia": {
+        "libro": "LIBRO SEGUNDO DE LA LIBERTAD, LOS DERECHOS Y DEBERES DE LAS PERSONAS EN MATERIA DE CONVIVENCIA.",
+        "título": "TÍTULO XIV DEL URBANISMO.",
+        "capítulo": "CAPÍTULO I COMPORTAMIENTOS QUE AFECTAN LA INTEGRIDAD URBANÍSTICA."
+      },
+      "fuente": "Ley 1801 de 2016, apartados cotejados en Cancillería",
+      "url_fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#135",
+      "fecha_consulta": "2026-11-18",
+      "estado_documental": "apartados_cotejados",
+      "apartados": [
+        "ley-1801-2016-art-135-paragrafo-30",
+        "ley-1801-2016-art-135-paragrafo-35"
+      ],
+      "intervalo_texto": [
+        664,
+        1133
+      ],
+      "fecha_revision_documental": "2026-11-19",
+      "texto": "medida de multa y de la suspensión temporal de la obra, se concederá un término de sesenta (60) días para que el infractor solicite el reconocimiento de la construcción ante la autoridad competente del distrito o municipio; si pasado este término no presenta licencia de reconocimiento, no podrá reanudar la obra y se duplicará el valor de la multa impuesta. Numeral 4 Multa especial por infracción urbanística; Demolición de obra; Construcción, cerramiento, reparación"
+    },
+    {
+      "articulo": "135",
+      "id": "ley-1801-2016-art-135",
+      "titulo": "COMPORTAMIENTOS CONTRARIOS A LA INTEGRIDAD URBANÍSTICA",
+      "tema": "CAPÍTULO I COMPORTAMIENTOS QUE AFECTAN LA INTEGRIDAD URBANÍSTICA.",
+      "jerarquia": {
+        "libro": "LIBRO SEGUNDO DE LA LIBERTAD, LOS DERECHOS Y DEBERES DE LAS PERSONAS EN MATERIA DE CONVIVENCIA.",
+        "título": "TÍTULO XIV DEL URBANISMO.",
+        "capítulo": "CAPÍTULO I COMPORTAMIENTOS QUE AFECTAN LA INTEGRIDAD URBANÍSTICA."
+      },
+      "fuente": "Ley 1801 de 2016, apartados cotejados en Cancillería",
+      "url_fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#135",
+      "fecha_consulta": "2026-11-18",
+      "estado_documental": "apartados_cotejados",
+      "apartados": [
+        "ley-1801-2016-art-135-paragrafo-35"
+      ],
+      "intervalo_texto": [
+        1048,
+        1182
+      ],
+      "fecha_revision_documental": "2026-11-19",
+      "texto": "por infracción urbanística; Demolición de obra; Construcción, cerramiento, reparación o mantenimiento de inmueble; Remoción de bienes."
+    },
+    {
+      "articulo": "140",
+      "id": "ley-1801-2016-art-140",
+      "titulo": "COMPORTAMIENTOS CONTRARIOS AL CUIDADO E INTEGRIDAD DEL ESPACIO PÚBLICO",
+      "tema": "CAPÍTULO II DEL CUIDADO E INTEGRIDAD DEL ESPACIO PÚBLICO.",
+      "jerarquia": {
+        "libro": "LIBRO SEGUNDO DE LA LIBERTAD, LOS DERECHOS Y DEBERES DE LAS PERSONAS EN MATERIA DE CONVIVENCIA.",
+        "título": "TÍTULO XIV DEL URBANISMO.",
+        "capítulo": "CAPÍTULO II DEL CUIDADO E INTEGRIDAD DEL ESPACIO PÚBLICO."
+      },
+      "fuente": "Ley 1801 de 2016, apartados cotejados en Cancillería",
+      "url_fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#140",
+      "fecha_consulta": "2026-11-18",
+      "estado_documental": "apartados_cotejados",
+      "apartados": [
+        "ley-1801-2016-art-140-numeral-3",
+        "ley-1801-2016-art-140-numeral-5"
+      ],
+      "intervalo_texto": [
+        0,
+        334
+      ],
+      "fecha_revision_documental": "2026-11-19",
+      "texto": "ARTÍCULO 140. COMPORTAMIENTOS CONTRARIOS AL CUIDADO E INTEGRIDAD DEL ESPACIO PÚBLICO. 3. Alterar, remover, dañar o destruir el mobiliario urbano o rural tales como semáforos, señalización vial, teléfonos públicos, hidrantes, estaciones de transporte, faroles o elementos de iluminación, bancas o cestas de basura. 5. Ensuciar, dañar o"
+    },
+    {
+      "articulo": "140",
+      "id": "ley-1801-2016-art-140",
+      "titulo": "COMPORTAMIENTOS CONTRARIOS AL CUIDADO E INTEGRIDAD DEL ESPACIO PÚBLICO",
+      "tema": "CAPÍTULO II DEL CUIDADO E INTEGRIDAD DEL ESPACIO PÚBLICO.",
+      "jerarquia": {
+        "libro": "LIBRO SEGUNDO DE LA LIBERTAD, LOS DERECHOS Y DEBERES DE LAS PERSONAS EN MATERIA DE CONVIVENCIA.",
+        "título": "TÍTULO XIV DEL URBANISMO.",
+        "capítulo": "CAPÍTULO II DEL CUIDADO E INTEGRIDAD DEL ESPACIO PÚBLICO."
+      },
+      "fuente": "Ley 1801 de 2016, apartados cotejados en Cancillería",
+      "url_fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#140",
+      "fecha_consulta": "2026-11-18",
+      "estado_documental": "apartados_cotejados",
+      "apartados": [
+        "ley-1801-2016-art-140-numeral-3",
+        "ley-1801-2016-art-140-numeral-5",
+        "ley-1801-2016-art-140-paragrafo-16"
+      ],
+      "intervalo_texto": [
+        274,
+        660
+      ],
+      "fecha_revision_documental": "2026-11-19",
+      "texto": "iluminación, bancas o cestas de basura. 5. Ensuciar, dañar o hacer un uso indebido o abusivo de los bienes fiscales o de uso público o contrariar los reglamentos o manuales pertinentes. Numeral 3 Multa General tipo 4; Reparación de daños materiales de muebles o inmuebles; Construcción, cerramiento, reparación o mantenimiento de inmuebles. Numeral 5 Multa General tipo 3; Reparación de"
+    },
+    {
+      "articulo": "140",
+      "id": "ley-1801-2016-art-140",
+      "titulo": "COMPORTAMIENTOS CONTRARIOS AL CUIDADO E INTEGRIDAD DEL ESPACIO PÚBLICO",
+      "tema": "CAPÍTULO II DEL CUIDADO E INTEGRIDAD DEL ESPACIO PÚBLICO.",
+      "jerarquia": {
+        "libro": "LIBRO SEGUNDO DE LA LIBERTAD, LOS DERECHOS Y DEBERES DE LAS PERSONAS EN MATERIA DE CONVIVENCIA.",
+        "título": "TÍTULO XIV DEL URBANISMO.",
+        "capítulo": "CAPÍTULO II DEL CUIDADO E INTEGRIDAD DEL ESPACIO PÚBLICO."
+      },
+      "fuente": "Ley 1801 de 2016, apartados cotejados en Cancillería",
+      "url_fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#140",
+      "fecha_consulta": "2026-11-18",
+      "estado_documental": "apartados_cotejados",
+      "apartados": [
+        "ley-1801-2016-art-140-paragrafo-16"
+      ],
+      "intervalo_texto": [
+        574,
+        768
+      ],
+      "fecha_revision_documental": "2026-11-19",
+      "texto": "reparación o mantenimiento de inmuebles. Numeral 5 Multa General tipo 3; Reparación de daños materiales de muebles o inmuebles; Construcción, cerramiento, reparación o mantenimiento de inmueble."
+    },
+    {
+      "articulo": "146",
+      "id": "ley-1801-2016-art-146",
+      "titulo": "COMPORTAMIENTOS CONTRARIOS A LA CONVIVENCIA EN LOS SISTEMAS DE TRANSPORTE MOTORIZADOS O SERVICIO PÚBLICO DE TRANSPORTE MASIVO DE PASAJEROS",
+      "tema": "CAPÍTULO III CONVIVENCIA EN LOS SISTEMAS DE TRANSPORTE MOTORIZADOS.",
+      "jerarquia": {
+        "libro": "LIBRO SEGUNDO DE LA LIBERTAD, LOS DERECHOS Y DEBERES DE LAS PERSONAS EN MATERIA DE CONVIVENCIA.",
+        "título": "TÍTULO XV DE LA LIBERTAD DE MOVILIDAD Y CIRCULACIÓN.",
+        "capítulo": "CAPÍTULO III CONVIVENCIA EN LOS SISTEMAS DE TRANSPORTE MOTORIZADOS."
+      },
+      "fuente": "Ley 1801 de 2016, apartados cotejados en Cancillería",
+      "url_fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#146",
+      "fecha_consulta": "2026-11-18",
+      "estado_documental": "apartados_cotejados",
+      "apartados": [
+        "ley-1801-2016-art-146-cuerpo",
+        "ley-1801-2016-art-146-numeral-1"
+      ],
+      "intervalo_texto": [
+        0,
+        449
+      ],
+      "fecha_revision_documental": "2026-11-19",
+      "texto": "ARTÍCULO 146. COMPORTAMIENTOS CONTRARIOS A LA CONVIVENCIA EN LOS SISTEMAS DE TRANSPORTE MOTORIZADOS O SERVICIO PÚBLICO DE TRANSPORTE MASIVO DE PASAJEROS. Los siguientes comportamientos son contrarios a la convivencia en los sistemas de transporte público colectivo e individual de pasajeros y por lo tanto no deben efectuarse: 1. Realizar o permitir el control informal de los tiempos durante el rodamiento del vehículo, mientras se encuentran estos"
+    },
+    {
+      "articulo": "146",
+      "id": "ley-1801-2016-art-146",
+      "titulo": "COMPORTAMIENTOS CONTRARIOS A LA CONVIVENCIA EN LOS SISTEMAS DE TRANSPORTE MOTORIZADOS O SERVICIO PÚBLICO DE TRANSPORTE MASIVO DE PASAJEROS",
+      "tema": "CAPÍTULO III CONVIVENCIA EN LOS SISTEMAS DE TRANSPORTE MOTORIZADOS.",
+      "jerarquia": {
+        "libro": "LIBRO SEGUNDO DE LA LIBERTAD, LOS DERECHOS Y DEBERES DE LAS PERSONAS EN MATERIA DE CONVIVENCIA.",
+        "título": "TÍTULO XV DE LA LIBERTAD DE MOVILIDAD Y CIRCULACIÓN.",
+        "capítulo": "CAPÍTULO III CONVIVENCIA EN LOS SISTEMAS DE TRANSPORTE MOTORIZADOS."
+      },
+      "fuente": "Ley 1801 de 2016, apartados cotejados en Cancillería",
+      "url_fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#146",
+      "fecha_consulta": "2026-11-18",
+      "estado_documental": "apartados_cotejados",
+      "apartados": [
+        "ley-1801-2016-art-146-numeral-1",
+        "ley-1801-2016-art-146-numeral-2",
+        "ley-1801-2016-art-146-numeral-3",
+        "ley-1801-2016-art-146-numeral-4"
+      ],
+      "intervalo_texto": [
+        330,
+        824
+      ],
+      "fecha_revision_documental": "2026-11-19",
+      "texto": "Realizar o permitir el control informal de los tiempos durante el rodamiento del vehículo, mientras se encuentran estos en circulación. 2. Impedir el ingreso o salida prioritaria a mujer embarazada, adulto mayor, persona con niños o niñas, o personas con discapacidad. 3. Transportar mascotas en vehículos de transporte público incumpliendo la reglamentación establecida para tales efectos por la autoridad competente. 4. Irrespetar la enumeración y los turnos establecidos en estos medios, así"
+    },
+    {
+      "articulo": "146",
+      "id": "ley-1801-2016-art-146",
+      "titulo": "COMPORTAMIENTOS CONTRARIOS A LA CONVIVENCIA EN LOS SISTEMAS DE TRANSPORTE MOTORIZADOS O SERVICIO PÚBLICO DE TRANSPORTE MASIVO DE PASAJEROS",
+      "tema": "CAPÍTULO III CONVIVENCIA EN LOS SISTEMAS DE TRANSPORTE MOTORIZADOS.",
+      "jerarquia": {
+        "libro": "LIBRO SEGUNDO DE LA LIBERTAD, LOS DERECHOS Y DEBERES DE LAS PERSONAS EN MATERIA DE CONVIVENCIA.",
+        "título": "TÍTULO XV DE LA LIBERTAD DE MOVILIDAD Y CIRCULACIÓN.",
+        "capítulo": "CAPÍTULO III CONVIVENCIA EN LOS SISTEMAS DE TRANSPORTE MOTORIZADOS."
+      },
+      "fuente": "Ley 1801 de 2016, apartados cotejados en Cancillería",
+      "url_fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#146",
+      "fecha_consulta": "2026-11-18",
+      "estado_documental": "apartados_cotejados",
+      "apartados": [
+        "ley-1801-2016-art-146-numeral-3",
+        "ley-1801-2016-art-146-numeral-4",
+        "ley-1801-2016-art-146-numeral-5",
+        "ley-1801-2016-art-146-numeral-6",
+        "ley-1801-2016-art-146-numeral-7"
+      ],
+      "intervalo_texto": [
+        737,
+        1158
+      ],
+      "fecha_revision_documental": "2026-11-19",
+      "texto": "competente. 4. Irrespetar la enumeración y los turnos establecidos en estos medios, así como el sistema de sillas preferenciales, y no ceder el lugar a otra persona por su condición vulnerable. 5. Agredir, empujar o irrespetar a las demás personas durante el acceso, permanencia o salida de estos. 6. Consumir alimentos, bebidas o derivados del tabaco o sustancias cuando estén prohibidas. 7. Evadir el pago de la tarifa,"
+    },
+    {
+      "articulo": "146",
+      "id": "ley-1801-2016-art-146",
+      "titulo": "COMPORTAMIENTOS CONTRARIOS A LA CONVIVENCIA EN LOS SISTEMAS DE TRANSPORTE MOTORIZADOS O SERVICIO PÚBLICO DE TRANSPORTE MASIVO DE PASAJEROS",
+      "tema": "CAPÍTULO III CONVIVENCIA EN LOS SISTEMAS DE TRANSPORTE MOTORIZADOS.",
+      "jerarquia": {
+        "libro": "LIBRO SEGUNDO DE LA LIBERTAD, LOS DERECHOS Y DEBERES DE LAS PERSONAS EN MATERIA DE CONVIVENCIA.",
+        "título": "TÍTULO XV DE LA LIBERTAD DE MOVILIDAD Y CIRCULACIÓN.",
+        "capítulo": "CAPÍTULO III CONVIVENCIA EN LOS SISTEMAS DE TRANSPORTE MOTORIZADOS."
+      },
+      "fuente": "Ley 1801 de 2016, apartados cotejados en Cancillería",
+      "url_fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#146",
+      "fecha_consulta": "2026-11-18",
+      "estado_documental": "apartados_cotejados",
+      "apartados": [
+        "ley-1801-2016-art-146-numeral-6",
+        "ley-1801-2016-art-146-numeral-7",
+        "ley-1801-2016-art-146-numeral-8",
+        "ley-1801-2016-art-146-numeral-9"
+      ],
+      "intervalo_texto": [
+        1082,
+        1525
+      ],
+      "fecha_revision_documental": "2026-11-19",
+      "texto": "tabaco o sustancias cuando estén prohibidas. 7. Evadir el pago de la tarifa, validación, tiquete o medios que utilicen los usuarios para acceder a la prestación del servicio esencial de transporte público de pasajeros, en cualquiera de sus modalidades. 8. Destruir, obstruir, alterar o dañar los sistemas de alarma o emergencia de los vehículos destinados al transporte público o sus señales indicativas. 9. Obstaculizar o impedir la movilidad"
+    },
+    {
+      "articulo": "146",
+      "id": "ley-1801-2016-art-146",
+      "titulo": "COMPORTAMIENTOS CONTRARIOS A LA CONVIVENCIA EN LOS SISTEMAS DE TRANSPORTE MOTORIZADOS O SERVICIO PÚBLICO DE TRANSPORTE MASIVO DE PASAJEROS",
+      "tema": "CAPÍTULO III CONVIVENCIA EN LOS SISTEMAS DE TRANSPORTE MOTORIZADOS.",
+      "jerarquia": {
+        "libro": "LIBRO SEGUNDO DE LA LIBERTAD, LOS DERECHOS Y DEBERES DE LAS PERSONAS EN MATERIA DE CONVIVENCIA.",
+        "título": "TÍTULO XV DE LA LIBERTAD DE MOVILIDAD Y CIRCULACIÓN.",
+        "capítulo": "CAPÍTULO III CONVIVENCIA EN LOS SISTEMAS DE TRANSPORTE MOTORIZADOS."
+      },
+      "fuente": "Ley 1801 de 2016, apartados cotejados en Cancillería",
+      "url_fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#146",
+      "fecha_consulta": "2026-11-18",
+      "estado_documental": "apartados_cotejados",
+      "apartados": [
+        "ley-1801-2016-art-146-numeral-8",
+        "ley-1801-2016-art-146-numeral-9",
+        "ley-1801-2016-art-146-numeral-10",
+        "ley-1801-2016-art-146-literal-11"
+      ],
+      "intervalo_texto": [
+        1427,
+        1886
+      ],
+      "fecha_revision_documental": "2026-11-19",
+      "texto": "destinados al transporte público o sus señales indicativas. 9. Obstaculizar o impedir la movilidad o el flujo de usuarios en estos sistemas. 10. Poner en peligro la seguridad operacional de los sistemas de transporte masivo, colectivo o individual, aéreo, fluvial o terrestre, con los siguientes comportamientos: a) Operar durante el vuelo o sus fases preparatorias, teléfonos móviles, radios transmisores o receptores portátiles, computadoras y demás equipos"
+    },
+    {
+      "articulo": "146",
+      "id": "ley-1801-2016-art-146",
+      "titulo": "COMPORTAMIENTOS CONTRARIOS A LA CONVIVENCIA EN LOS SISTEMAS DE TRANSPORTE MOTORIZADOS O SERVICIO PÚBLICO DE TRANSPORTE MASIVO DE PASAJEROS",
+      "tema": "CAPÍTULO III CONVIVENCIA EN LOS SISTEMAS DE TRANSPORTE MOTORIZADOS.",
+      "jerarquia": {
+        "libro": "LIBRO SEGUNDO DE LA LIBERTAD, LOS DERECHOS Y DEBERES DE LAS PERSONAS EN MATERIA DE CONVIVENCIA.",
+        "título": "TÍTULO XV DE LA LIBERTAD DE MOVILIDAD Y CIRCULACIÓN.",
+        "capítulo": "CAPÍTULO III CONVIVENCIA EN LOS SISTEMAS DE TRANSPORTE MOTORIZADOS."
+      },
+      "fuente": "Ley 1801 de 2016, apartados cotejados en Cancillería",
+      "url_fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#146",
+      "fecha_consulta": "2026-11-18",
+      "estado_documental": "apartados_cotejados",
+      "apartados": [
+        "ley-1801-2016-art-146-literal-11",
+        "ley-1801-2016-art-146-literal-12",
+        "ley-1801-2016-art-146-literal-13"
+      ],
+      "intervalo_texto": [
+        1779,
+        2206
+      ],
+      "fecha_revision_documental": "2026-11-19",
+      "texto": "preparatorias, teléfonos móviles, radios transmisores o receptores portátiles, computadoras y demás equipos electrónicos, que puedan interferir con los sistemas de vuelo, comunicaciones o navegación aérea, contrariando las indicaciones de la tripulación; b) Transitar, sin autorización de la autoridad aeronáutica, por las pistas de los aeropuertos, rampas o calles de rodaje; c) Introducir, sin autorización de las autoridades"
+    },
+    {
+      "articulo": "146",
+      "id": "ley-1801-2016-art-146",
+      "titulo": "COMPORTAMIENTOS CONTRARIOS A LA CONVIVENCIA EN LOS SISTEMAS DE TRANSPORTE MOTORIZADOS O SERVICIO PÚBLICO DE TRANSPORTE MASIVO DE PASAJEROS",
+      "tema": "CAPÍTULO III CONVIVENCIA EN LOS SISTEMAS DE TRANSPORTE MOTORIZADOS.",
+      "jerarquia": {
+        "libro": "LIBRO SEGUNDO DE LA LIBERTAD, LOS DERECHOS Y DEBERES DE LAS PERSONAS EN MATERIA DE CONVIVENCIA.",
+        "título": "TÍTULO XV DE LA LIBERTAD DE MOVILIDAD Y CIRCULACIÓN.",
+        "capítulo": "CAPÍTULO III CONVIVENCIA EN LOS SISTEMAS DE TRANSPORTE MOTORIZADOS."
+      },
+      "fuente": "Ley 1801 de 2016, apartados cotejados en Cancillería",
+      "url_fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#146",
+      "fecha_consulta": "2026-11-18",
+      "estado_documental": "apartados_cotejados",
+      "apartados": [
+        "ley-1801-2016-art-146-literal-12",
+        "ley-1801-2016-art-146-literal-13",
+        "ley-1801-2016-art-146-literal-14"
+      ],
+      "intervalo_texto": [
+        2116,
+        2481
+      ],
+      "fecha_revision_documental": "2026-11-19",
+      "texto": "aeropuertos, rampas o calles de rodaje; c) Introducir, sin autorización de las autoridades aeronáuticas, bienes muebles a las pistas, rampas o calles de rodaje de los aeropuertos; d) Operar, sin autorización de la autoridad aeronáutica, vehículos aéreos ultralivianos en aeropuertos controlados, parapentes, aeromodelos, paracaídas, cometas tripuladas o no, y demás"
+    },
+    {
+      "articulo": "146",
+      "id": "ley-1801-2016-art-146",
+      "titulo": "COMPORTAMIENTOS CONTRARIOS A LA CONVIVENCIA EN LOS SISTEMAS DE TRANSPORTE MOTORIZADOS O SERVICIO PÚBLICO DE TRANSPORTE MASIVO DE PASAJEROS",
+      "tema": "CAPÍTULO III CONVIVENCIA EN LOS SISTEMAS DE TRANSPORTE MOTORIZADOS.",
+      "jerarquia": {
+        "libro": "LIBRO SEGUNDO DE LA LIBERTAD, LOS DERECHOS Y DEBERES DE LAS PERSONAS EN MATERIA DE CONVIVENCIA.",
+        "título": "TÍTULO XV DE LA LIBERTAD DE MOVILIDAD Y CIRCULACIÓN.",
+        "capítulo": "CAPÍTULO III CONVIVENCIA EN LOS SISTEMAS DE TRANSPORTE MOTORIZADOS."
+      },
+      "fuente": "Ley 1801 de 2016, apartados cotejados en Cancillería",
+      "url_fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#146",
+      "fecha_consulta": "2026-11-18",
+      "estado_documental": "apartados_cotejados",
+      "apartados": [
+        "ley-1801-2016-art-146-literal-14",
+        "ley-1801-2016-art-146-literal-15",
+        "ley-1801-2016-art-146-literal-16"
+      ],
+      "intervalo_texto": [
+        2412,
+        2814
+      ],
+      "fecha_revision_documental": "2026-11-19",
+      "texto": "parapentes, aeromodelos, paracaídas, cometas tripuladas o no, y demás artefactos de aviación deportiva cerca de las cabeceras de las pistas o dentro de sus zonas de aproximación; e) Sustraer, o hacer mal uso de los chalecos salvavidas y demás equipos para la atención en los sistemas de transporte público; f) Resistirse a los procesos de seguridad en los filtros de los sistemas de transporte público;"
+    },
+    {
+      "articulo": "146",
+      "id": "ley-1801-2016-art-146",
+      "titulo": "COMPORTAMIENTOS CONTRARIOS A LA CONVIVENCIA EN LOS SISTEMAS DE TRANSPORTE MOTORIZADOS O SERVICIO PÚBLICO DE TRANSPORTE MASIVO DE PASAJEROS",
+      "tema": "CAPÍTULO III CONVIVENCIA EN LOS SISTEMAS DE TRANSPORTE MOTORIZADOS.",
+      "jerarquia": {
+        "libro": "LIBRO SEGUNDO DE LA LIBERTAD, LOS DERECHOS Y DEBERES DE LAS PERSONAS EN MATERIA DE CONVIVENCIA.",
+        "título": "TÍTULO XV DE LA LIBERTAD DE MOVILIDAD Y CIRCULACIÓN.",
+        "capítulo": "CAPÍTULO III CONVIVENCIA EN LOS SISTEMAS DE TRANSPORTE MOTORIZADOS."
+      },
+      "fuente": "Ley 1801 de 2016, apartados cotejados en Cancillería",
+      "url_fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#146",
+      "fecha_consulta": "2026-11-18",
+      "estado_documental": "apartados_cotejados",
+      "apartados": [
+        "ley-1801-2016-art-146-literal-16",
+        "ley-1801-2016-art-146-literal-17",
+        "ley-1801-2016-art-146-literal-18",
+        "ley-1801-2016-art-146-numeral-19"
+      ],
+      "intervalo_texto": [
+        2719,
+        3189
+      ],
+      "fecha_revision_documental": "2026-11-19",
+      "texto": "f) Resistirse a los procesos de seguridad en los filtros de los sistemas de transporte público; g) Introducir al medio de transporte cualquier sustancia o elemento que pueda poner en peligro la salud de los tripulantes y demás pasajeros; h) Contravenir las obligaciones que se determinen en los reglamentos y/o manuales de uso y operación, que establezcan las autoridades encargadas al respecto; 11. Perturbar en los medios de transporte públicos, la tranquilidad de los"
+    },
+    {
+      "articulo": "146",
+      "id": "ley-1801-2016-art-146",
+      "titulo": "COMPORTAMIENTOS CONTRARIOS A LA CONVIVENCIA EN LOS SISTEMAS DE TRANSPORTE MOTORIZADOS O SERVICIO PÚBLICO DE TRANSPORTE MASIVO DE PASAJEROS",
+      "tema": "CAPÍTULO III CONVIVENCIA EN LOS SISTEMAS DE TRANSPORTE MOTORIZADOS.",
+      "jerarquia": {
+        "libro": "LIBRO SEGUNDO DE LA LIBERTAD, LOS DERECHOS Y DEBERES DE LAS PERSONAS EN MATERIA DE CONVIVENCIA.",
+        "título": "TÍTULO XV DE LA LIBERTAD DE MOVILIDAD Y CIRCULACIÓN.",
+        "capítulo": "CAPÍTULO III CONVIVENCIA EN LOS SISTEMAS DE TRANSPORTE MOTORIZADOS."
+      },
+      "fuente": "Ley 1801 de 2016, apartados cotejados en Cancillería",
+      "url_fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#146",
+      "fecha_consulta": "2026-11-18",
+      "estado_documental": "apartados_cotejados",
+      "apartados": [
+        "ley-1801-2016-art-146-literal-18",
+        "ley-1801-2016-art-146-numeral-19",
+        "ley-1801-2016-art-146-numeral-20",
+        "ley-1801-2016-art-146-numeral-21"
+      ],
+      "intervalo_texto": [
+        3091,
+        3518
+      ],
+      "fecha_revision_documental": "2026-11-19",
+      "texto": "encargadas al respecto; 11. Perturbar en los medios de transporte públicos, la tranquilidad de los demás ocupantes mediante cualquier acto molesto; 12. Ingresar y salir de las estaciones o portales por sitios distintos a las puertas designadas para el efecto. 13. Alterar, manipular, deteriorar, destruir o forzar, las puertas de las estaciones o de los buses articulados, metro, tranvía, vehículo férreo, cable aéreo, o de los"
+    },
+    {
+      "articulo": "146",
+      "id": "ley-1801-2016-art-146",
+      "titulo": "COMPORTAMIENTOS CONTRARIOS A LA CONVIVENCIA EN LOS SISTEMAS DE TRANSPORTE MOTORIZADOS O SERVICIO PÚBLICO DE TRANSPORTE MASIVO DE PASAJEROS",
+      "tema": "CAPÍTULO III CONVIVENCIA EN LOS SISTEMAS DE TRANSPORTE MOTORIZADOS.",
+      "jerarquia": {
+        "libro": "LIBRO SEGUNDO DE LA LIBERTAD, LOS DERECHOS Y DEBERES DE LAS PERSONAS EN MATERIA DE CONVIVENCIA.",
+        "título": "TÍTULO XV DE LA LIBERTAD DE MOVILIDAD Y CIRCULACIÓN.",
+        "capítulo": "CAPÍTULO III CONVIVENCIA EN LOS SISTEMAS DE TRANSPORTE MOTORIZADOS."
+      },
+      "fuente": "Ley 1801 de 2016, apartados cotejados en Cancillería",
+      "url_fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#146",
+      "fecha_consulta": "2026-11-18",
+      "estado_documental": "apartados_cotejados",
+      "apartados": [
+        "ley-1801-2016-art-146-numeral-21",
+        "ley-1801-2016-art-146-numeral-22",
+        "ley-1801-2016-art-146-numeral-23"
+      ],
+      "intervalo_texto": [
+        3445,
+        3934
+      ],
+      "fecha_revision_documental": "2026-11-19",
+      "texto": "buses articulados, metro, tranvía, vehículo férreo, cable aéreo, o de los diferentes medios de transporte de los sistemas de servicio público urbano de transporte masivo de pasajeros, impedir su uso y funcionamiento normal, salvo en situaciones de emergencia. 14. Omitir, por parte de las empresas prestadoras del servicio de transporte, el deber de mantener los vehículos de transporte público en condiciones de aseo óptimas para la prestación del servicio. 15. Perturbar en los medios de"
+    },
+    {
+      "articulo": "146",
+      "id": "ley-1801-2016-art-146",
+      "titulo": "COMPORTAMIENTOS CONTRARIOS A LA CONVIVENCIA EN LOS SISTEMAS DE TRANSPORTE MOTORIZADOS O SERVICIO PÚBLICO DE TRANSPORTE MASIVO DE PASAJEROS",
+      "tema": "CAPÍTULO III CONVIVENCIA EN LOS SISTEMAS DE TRANSPORTE MOTORIZADOS.",
+      "jerarquia": {
+        "libro": "LIBRO SEGUNDO DE LA LIBERTAD, LOS DERECHOS Y DEBERES DE LAS PERSONAS EN MATERIA DE CONVIVENCIA.",
+        "título": "TÍTULO XV DE LA LIBERTAD DE MOVILIDAD Y CIRCULACIÓN.",
+        "capítulo": "CAPÍTULO III CONVIVENCIA EN LOS SISTEMAS DE TRANSPORTE MOTORIZADOS."
+      },
+      "fuente": "Ley 1801 de 2016, apartados cotejados en Cancillería",
+      "url_fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#146",
+      "fecha_consulta": "2026-11-18",
+      "estado_documental": "apartados_cotejados",
+      "apartados": [
+        "ley-1801-2016-art-146-numeral-22",
+        "ley-1801-2016-art-146-numeral-23",
+        "ley-1801-2016-art-146-numeral-24",
+        "ley-1801-2016-art-146-paragrafo-25"
+      ],
+      "intervalo_texto": [
+        3843,
+        4253
+      ],
+      "fecha_revision_documental": "2026-11-19",
+      "texto": "condiciones de aseo óptimas para la prestación del servicio. 15. Perturbar en los medios de transporte públicos, la tranquilidad de los demás ocupantes mediante cualquier acto obsceno. 16. Irrespetar a las autoridades del sistema. Numeral 1 Amonestación Numeral 2 Multa General Tipo 1 Numeral 3 Multa General tipo 2 Numeral 4 Amonestación Numeral 5 Multa General Tipo 1 Numeral 6 Multa General Tipo 1 Numeral 7"
+    },
+    {
+      "articulo": "146",
+      "id": "ley-1801-2016-art-146",
+      "titulo": "COMPORTAMIENTOS CONTRARIOS A LA CONVIVENCIA EN LOS SISTEMAS DE TRANSPORTE MOTORIZADOS O SERVICIO PÚBLICO DE TRANSPORTE MASIVO DE PASAJEROS",
+      "tema": "CAPÍTULO III CONVIVENCIA EN LOS SISTEMAS DE TRANSPORTE MOTORIZADOS.",
+      "jerarquia": {
+        "libro": "LIBRO SEGUNDO DE LA LIBERTAD, LOS DERECHOS Y DEBERES DE LAS PERSONAS EN MATERIA DE CONVIVENCIA.",
+        "título": "TÍTULO XV DE LA LIBERTAD DE MOVILIDAD Y CIRCULACIÓN.",
+        "capítulo": "CAPÍTULO III CONVIVENCIA EN LOS SISTEMAS DE TRANSPORTE MOTORIZADOS."
+      },
+      "fuente": "Ley 1801 de 2016, apartados cotejados en Cancillería",
+      "url_fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#146",
+      "fecha_consulta": "2026-11-18",
+      "estado_documental": "apartados_cotejados",
+      "apartados": [
+        "ley-1801-2016-art-146-paragrafo-25"
+      ],
+      "intervalo_texto": [
+        4182,
+        4561
+      ],
+      "fecha_revision_documental": "2026-11-19",
+      "texto": "Numeral 5 Multa General Tipo 1 Numeral 6 Multa General Tipo 1 Numeral 7 Multa General tipo 2 Numeral 8 Multa General tipo 4 Numeral 9 Multa General tipo 3 Numeral 10 Multa General tipo 4 Numeral 11 Amonestación Numeral 12 Multa General tipo 1 Numeral 13 Multa General tipo 3; Reparación de daños materiales de muebles o inmuebles Numeral 14 Multa General Tipo 3. Numeral 15 Multa"
+    },
+    {
+      "articulo": "146",
+      "id": "ley-1801-2016-art-146",
+      "titulo": "COMPORTAMIENTOS CONTRARIOS A LA CONVIVENCIA EN LOS SISTEMAS DE TRANSPORTE MOTORIZADOS O SERVICIO PÚBLICO DE TRANSPORTE MASIVO DE PASAJEROS",
+      "tema": "CAPÍTULO III CONVIVENCIA EN LOS SISTEMAS DE TRANSPORTE MOTORIZADOS.",
+      "jerarquia": {
+        "libro": "LIBRO SEGUNDO DE LA LIBERTAD, LOS DERECHOS Y DEBERES DE LAS PERSONAS EN MATERIA DE CONVIVENCIA.",
+        "título": "TÍTULO XV DE LA LIBERTAD DE MOVILIDAD Y CIRCULACIÓN.",
+        "capítulo": "CAPÍTULO III CONVIVENCIA EN LOS SISTEMAS DE TRANSPORTE MOTORIZADOS."
+      },
+      "fuente": "Ley 1801 de 2016, apartados cotejados en Cancillería",
+      "url_fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#146",
+      "fecha_consulta": "2026-11-18",
+      "estado_documental": "apartados_cotejados",
+      "apartados": [
+        "ley-1801-2016-art-146-paragrafo-25"
+      ],
+      "intervalo_texto": [
+        4478,
+        4610
+      ],
+      "fecha_revision_documental": "2026-11-19",
+      "texto": "materiales de muebles o inmuebles Numeral 14 Multa General Tipo 3. Numeral 15 Multa General Tipo 4. Numeral 16 Multa General Tipo 3."
+    },
+    {
+      "articulo": "150",
+      "id": "ley-1801-2016-art-150",
+      "titulo": "ORDEN DE POLICÍA",
+      "tema": "CAPÍTULO I MEDIOS DE POLICÍA.",
+      "jerarquia": {
+        "libro": "LIBRO TERCERO MEDIOS DE POLICÍA, MEDIDAS CORRECTIVAS, AUTORIDADES DE POLICÍA Y COMPETENCIAS, PROCEDIMIENTOS, MECANISMOS ALTERNATIVOS DE SOLUCIÓN DE DESACUERDOS O CONFLICTOS.",
+        "título": "TÍTULO I MEDIOS DE POLICÍA Y MEDIDAS CORRECTIVAS.",
+        "capítulo": "CAPÍTULO I MEDIOS DE POLICÍA."
+      },
+      "fuente": "Ley 1801 de 2016, apartados cotejados en Cancillería",
+      "url_fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#150",
+      "fecha_consulta": "2026-11-18",
+      "estado_documental": "apartados_cotejados",
+      "apartados": [
+        "ley-1801-2016-art-150-cuerpo"
+      ],
+      "intervalo_texto": [
+        0,
+        425
+      ],
+      "fecha_revision_documental": "2026-11-19",
+      "texto": "ARTÍCULO 150. ORDEN DE POLICÍA. La orden de Policía es un mandato claro, preciso y conciso dirigido en forma individual o de carácter general, escrito o verbal, emanado de la autoridad de Policía, para prevenir o superar comportamientos o hechos contrarios a la convivencia, o para restablecerla. Las órdenes de Policía son de obligatorio cumplimiento. Las personas que las desobedezcan serán obligadas a cumplirlas a través,"
+    },
+    {
+      "articulo": "150",
+      "id": "ley-1801-2016-art-150",
+      "titulo": "ORDEN DE POLICÍA",
+      "tema": "CAPÍTULO I MEDIOS DE POLICÍA.",
+      "jerarquia": {
+        "libro": "LIBRO TERCERO MEDIOS DE POLICÍA, MEDIDAS CORRECTIVAS, AUTORIDADES DE POLICÍA Y COMPETENCIAS, PROCEDIMIENTOS, MECANISMOS ALTERNATIVOS DE SOLUCIÓN DE DESACUERDOS O CONFLICTOS.",
+        "título": "TÍTULO I MEDIOS DE POLICÍA Y MEDIDAS CORRECTIVAS.",
+        "capítulo": "CAPÍTULO I MEDIOS DE POLICÍA."
+      },
+      "fuente": "Ley 1801 de 2016, apartados cotejados en Cancillería",
+      "url_fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#150",
+      "fecha_consulta": "2026-11-18",
+      "estado_documental": "apartados_cotejados",
+      "apartados": [
+        "ley-1801-2016-art-150-cuerpo"
+      ],
+      "intervalo_texto": [
+        339,
+        691
+      ],
+      "fecha_revision_documental": "2026-11-19",
+      "texto": "cumplimiento. Las personas que las desobedezcan serán obligadas a cumplirlas a través, si es necesario, de los medios, medidas y procedimientos establecidos en este Código. Si la orden no fuere de inmediato cumplimiento, la autoridad conminará a la persona para que la cumpla en un plazo determinado, sin perjuicio de las acciones legales pertinentes ."
+    },
+    {
+      "articulo": "172",
+      "id": "ley-1801-2016-art-172",
+      "titulo": "OBJETO DE LAS MEDIDAS CORRECTIVAS",
+      "tema": "CAPÍTULO II MEDIDAS CORRECTIVAS.",
+      "jerarquia": {
+        "libro": "LIBRO TERCERO MEDIOS DE POLICÍA, MEDIDAS CORRECTIVAS, AUTORIDADES DE POLICÍA Y COMPETENCIAS, PROCEDIMIENTOS, MECANISMOS ALTERNATIVOS DE SOLUCIÓN DE DESACUERDOS O CONFLICTOS.",
+        "título": "TÍTULO I MEDIOS DE POLICÍA Y MEDIDAS CORRECTIVAS.",
+        "capítulo": "CAPÍTULO II MEDIDAS CORRECTIVAS."
+      },
+      "fuente": "Ley 1801 de 2016, apartados cotejados en Cancillería",
+      "url_fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#172",
+      "fecha_consulta": "2026-11-18",
+      "estado_documental": "apartados_cotejados",
+      "apartados": [
+        "ley-1801-2016-art-172-cuerpo"
+      ],
+      "intervalo_texto": [
+        0,
+        402
+      ],
+      "fecha_revision_documental": "2026-11-20",
+      "texto": "ARTÍCULO 172. OBJETO DE LAS MEDIDAS CORRECTIVAS. Las medidas correctivas, son acciones impuestas por las autoridades de Policía a toda persona que incurra en comportamientos contrarios a la convivencia o el incumplimiento de los deberes específicos de convivencia. Las medidas correctivas tienen por objeto disuadir, prevenir, superar, resarcir, procurar, educar, proteger o restablecer la convivencia."
+    },
+    {
+      "articulo": "173",
+      "id": "ley-1801-2016-art-173",
+      "titulo": "LAS MEDIDAS CORRECTIVAS",
+      "tema": "CAPÍTULO II MEDIDAS CORRECTIVAS.",
+      "jerarquia": {
+        "libro": "LIBRO TERCERO MEDIOS DE POLICÍA, MEDIDAS CORRECTIVAS, AUTORIDADES DE POLICÍA Y COMPETENCIAS, PROCEDIMIENTOS, MECANISMOS ALTERNATIVOS DE SOLUCIÓN DE DESACUERDOS O CONFLICTOS.",
+        "título": "TÍTULO I MEDIOS DE POLICÍA Y MEDIDAS CORRECTIVAS.",
+        "capítulo": "CAPÍTULO II MEDIDAS CORRECTIVAS."
+      },
+      "fuente": "Ley 1801 de 2016, apartados cotejados en Cancillería",
+      "url_fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#173",
+      "fecha_consulta": "2026-11-18",
+      "estado_documental": "apartados_cotejados",
+      "apartados": [
+        "ley-1801-2016-art-173-cuerpo",
+        "ley-1801-2016-art-173-numeral-1",
+        "ley-1801-2016-art-173-numeral-2",
+        "ley-1801-2016-art-173-numeral-3",
+        "ley-1801-2016-art-173-numeral-4",
+        "ley-1801-2016-art-173-numeral-5"
+      ],
+      "intervalo_texto": [
+        0,
+        454
+      ],
+      "fecha_revision_documental": "2026-11-20",
+      "texto": "ARTÍCULO 173. LAS MEDIDAS CORRECTIVAS. Las medidas correctivas a aplicar en el marco de este Código por las autoridades de policía, son las siguientes: 1. Amonestación. 2. Participación en programa comunitario o actividad pedagógica de convivencia. 3. Disolución de reunión o actividad que involucra aglomeraciones de público no complejas. 4. Expulsión de domicilio. 5. Prohibición de ingreso a actividad que involucra aglomeraciones de público complejas"
+    },
+    {
+      "articulo": "173",
+      "id": "ley-1801-2016-art-173",
+      "titulo": "LAS MEDIDAS CORRECTIVAS",
+      "tema": "CAPÍTULO II MEDIDAS CORRECTIVAS.",
+      "jerarquia": {
+        "libro": "LIBRO TERCERO MEDIOS DE POLICÍA, MEDIDAS CORRECTIVAS, AUTORIDADES DE POLICÍA Y COMPETENCIAS, PROCEDIMIENTOS, MECANISMOS ALTERNATIVOS DE SOLUCIÓN DE DESACUERDOS O CONFLICTOS.",
+        "título": "TÍTULO I MEDIOS DE POLICÍA Y MEDIDAS CORRECTIVAS.",
+        "capítulo": "CAPÍTULO II MEDIDAS CORRECTIVAS."
+      },
+      "fuente": "Ley 1801 de 2016, apartados cotejados en Cancillería",
+      "url_fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#173",
+      "fecha_consulta": "2026-11-18",
+      "estado_documental": "apartados_cotejados",
+      "apartados": [
+        "ley-1801-2016-art-173-numeral-4",
+        "ley-1801-2016-art-173-numeral-5",
+        "ley-1801-2016-art-173-numeral-6",
+        "ley-1801-2016-art-173-numeral-7",
+        "ley-1801-2016-art-173-numeral-8",
+        "ley-1801-2016-art-173-numeral-9",
+        "ley-1801-2016-art-173-numeral-10",
+        "ley-1801-2016-art-173-numeral-11",
+        "ley-1801-2016-art-173-numeral-12"
+      ],
+      "intervalo_texto": [
+        356,
+        769
+      ],
+      "fecha_revision_documental": "2026-11-20",
+      "texto": "domicilio. 5. Prohibición de ingreso a actividad que involucra aglomeraciones de público complejas o no complejas. 6. Decomiso. 7. Multa General o Especial. 8. Construcción, cerramiento, reparación o mantenimiento de inmueble. 9. Remoción de bienes. 10. Reparación de daños materiales de muebles o inmuebles. 11. Reparación de daños materiales por perturbación a la posesión y tenencia de inmuebles o muebles. 12."
+    },
+    {
+      "articulo": "173",
+      "id": "ley-1801-2016-art-173",
+      "titulo": "LAS MEDIDAS CORRECTIVAS",
+      "tema": "CAPÍTULO II MEDIDAS CORRECTIVAS.",
+      "jerarquia": {
+        "libro": "LIBRO TERCERO MEDIOS DE POLICÍA, MEDIDAS CORRECTIVAS, AUTORIDADES DE POLICÍA Y COMPETENCIAS, PROCEDIMIENTOS, MECANISMOS ALTERNATIVOS DE SOLUCIÓN DE DESACUERDOS O CONFLICTOS.",
+        "título": "TÍTULO I MEDIOS DE POLICÍA Y MEDIDAS CORRECTIVAS.",
+        "capítulo": "CAPÍTULO II MEDIDAS CORRECTIVAS."
+      },
+      "fuente": "Ley 1801 de 2016, apartados cotejados en Cancillería",
+      "url_fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#173",
+      "fecha_consulta": "2026-11-18",
+      "estado_documental": "apartados_cotejados",
+      "apartados": [
+        "ley-1801-2016-art-173-numeral-11",
+        "ley-1801-2016-art-173-numeral-12",
+        "ley-1801-2016-art-173-numeral-13",
+        "ley-1801-2016-art-173-numeral-14",
+        "ley-1801-2016-art-173-numeral-15",
+        "ley-1801-2016-art-173-numeral-16",
+        "ley-1801-2016-art-173-numeral-17",
+        "ley-1801-2016-art-173-numeral-18",
+        "ley-1801-2016-art-173-numeral-19"
+      ],
+      "intervalo_texto": [
+        680,
+        1109
+      ],
+      "fecha_revision_documental": "2026-11-20",
+      "texto": "de daños materiales por perturbación a la posesión y tenencia de inmuebles o muebles. 12. Restablecimiento del derecho de servidumbre y reparación de daños materiales. 13. Restitución y protección de bienes inmuebles. 14. Destrucción de bien. 15. Demolición de obra. 16. Suspensión de construcción o demolición. 17. Suspensión de actividad que involucre aglomeración de público compleja. 18. Suspensión temporal de actividad. 19."
+    },
+    {
+      "articulo": "173",
+      "id": "ley-1801-2016-art-173",
+      "titulo": "LAS MEDIDAS CORRECTIVAS",
+      "tema": "CAPÍTULO II MEDIDAS CORRECTIVAS.",
+      "jerarquia": {
+        "libro": "LIBRO TERCERO MEDIOS DE POLICÍA, MEDIDAS CORRECTIVAS, AUTORIDADES DE POLICÍA Y COMPETENCIAS, PROCEDIMIENTOS, MECANISMOS ALTERNATIVOS DE SOLUCIÓN DE DESACUERDOS O CONFLICTOS.",
+        "título": "TÍTULO I MEDIOS DE POLICÍA Y MEDIDAS CORRECTIVAS.",
+        "capítulo": "CAPÍTULO II MEDIDAS CORRECTIVAS."
+      },
+      "fuente": "Ley 1801 de 2016, apartados cotejados en Cancillería",
+      "url_fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#173",
+      "fecha_consulta": "2026-11-18",
+      "estado_documental": "apartados_cotejados",
+      "apartados": [
+        "ley-1801-2016-art-173-numeral-17",
+        "ley-1801-2016-art-173-numeral-18",
+        "ley-1801-2016-art-173-numeral-19",
+        "ley-1801-2016-art-173-numeral-20"
+      ],
+      "intervalo_texto": [
+        1024,
+        1174
+      ],
+      "fecha_revision_documental": "2026-11-20",
+      "texto": "involucre aglomeración de público compleja. 18. Suspensión temporal de actividad. 19. Suspensión definitiva de actividad. 20. Inutilización de bienes."
+    },
+    {
+      "articulo": "180",
+      "id": "ley-1801-2016-art-180",
+      "titulo": "MULTAS",
+      "tema": "CAPÍTULO II MEDIDAS CORRECTIVAS.",
+      "jerarquia": {
+        "libro": "LIBRO TERCERO MEDIOS DE POLICÍA, MEDIDAS CORRECTIVAS, AUTORIDADES DE POLICÍA Y COMPETENCIAS, PROCEDIMIENTOS, MECANISMOS ALTERNATIVOS DE SOLUCIÓN DE DESACUERDOS O CONFLICTOS.",
+        "título": "TÍTULO I MEDIOS DE POLICÍA Y MEDIDAS CORRECTIVAS.",
+        "capítulo": "CAPÍTULO II MEDIDAS CORRECTIVAS."
+      },
+      "fuente": "Ley 1801 de 2016, apartados cotejados en Cancillería",
+      "url_fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#180",
+      "fecha_consulta": "2026-11-18",
+      "estado_documental": "apartados_cotejados",
+      "apartados": [
+        "ley-1801-2016-art-180-cuerpo"
+      ],
+      "intervalo_texto": [
+        0,
+        420
+      ],
+      "fecha_revision_documental": null,
+      "texto": "ARTÍCULO 180. MULTAS. Es la imposición del pago de una suma de dinero en moneda colombiana, cuya graduación depende del comportamiento realizado, según la cual varía el monto de la multa. Así mismo, la desobediencia, resistencia, desacato, o reiteración del comportamiento contrario a la convivencia, incrementará el valor de la multa, sin perjuicio de los intereses causados y el costo del cobro coactivo. las multas se"
+    },
+    {
+      "articulo": "180",
+      "id": "ley-1801-2016-art-180",
+      "titulo": "MULTAS",
+      "tema": "CAPÍTULO II MEDIDAS CORRECTIVAS.",
+      "jerarquia": {
+        "libro": "LIBRO TERCERO MEDIOS DE POLICÍA, MEDIDAS CORRECTIVAS, AUTORIDADES DE POLICÍA Y COMPETENCIAS, PROCEDIMIENTOS, MECANISMOS ALTERNATIVOS DE SOLUCIÓN DE DESACUERDOS O CONFLICTOS.",
+        "título": "TÍTULO I MEDIOS DE POLICÍA Y MEDIDAS CORRECTIVAS.",
+        "capítulo": "CAPÍTULO II MEDIDAS CORRECTIVAS."
+      },
+      "fuente": "Ley 1801 de 2016, apartados cotejados en Cancillería",
+      "url_fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#180",
+      "fecha_consulta": "2026-11-18",
+      "estado_documental": "apartados_cotejados",
+      "apartados": [
+        "ley-1801-2016-art-180-cuerpo"
+      ],
+      "intervalo_texto": [
+        340,
+        458
+      ],
+      "fecha_revision_documental": null,
+      "texto": "perjuicio de los intereses causados y el costo del cobro coactivo. las multas se clasifican en generales y especiales."
+    },
+    {
+      "articulo": "206",
+      "id": "ley-1801-2016-art-206",
+      "titulo": "ATRIBUCIONES DE LOS INSPECTORES DE CONVIVENCIA Y PAZ RURALES, URBANOS Y CORREGIDORES",
+      "tema": "CAPÍTULO I AUTORIDADES DE POLICÍA.",
+      "jerarquia": {
+        "libro": "LIBRO TERCERO MEDIOS DE POLICÍA, MEDIDAS CORRECTIVAS, AUTORIDADES DE POLICÍA Y COMPETENCIAS, PROCEDIMIENTOS, MECANISMOS ALTERNATIVOS DE SOLUCIÓN DE DESACUERDOS O CONFLICTOS.",
+        "título": "TÍTULO II AUTORIDADES DE POLICÍA Y COMPETENCIAS.",
+        "capítulo": "CAPÍTULO I AUTORIDADES DE POLICÍA."
+      },
+      "fuente": "Ley 1801 de 2016, apartados cotejados en Cancillería",
+      "url_fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#206",
+      "fecha_consulta": "2026-11-18",
+      "estado_documental": "apartados_cotejados",
+      "apartados": [
+        "ley-1801-2016-art-206-cuerpo",
+        "ley-1801-2016-art-206-numeral-1",
+        "ley-1801-2016-art-206-numeral-2"
+      ],
+      "intervalo_texto": [
+        0,
+        432
+      ],
+      "fecha_revision_documental": "2026-11-19",
+      "texto": "ARTÍCULO 206. ATRIBUCIONES DE LOS INSPECTORES DE CONVIVENCIA Y PAZ RURALES, URBANOS Y CORREGIDORES. Les corresponde la aplicación de las siguientes medidas: 1. Conciliar para la solución de conflictos de convivencia, cuando sea procedente. 2. Conocer sobre los comportamientos contrarios a la convivencia en materia de seguridad, tranquilidad, ambiente y recursos naturales, derecho de reunión, protección a los bienes y privacidad,"
+    },
+    {
+      "articulo": "206",
+      "id": "ley-1801-2016-art-206",
+      "titulo": "ATRIBUCIONES DE LOS INSPECTORES DE CONVIVENCIA Y PAZ RURALES, URBANOS Y CORREGIDORES",
+      "tema": "CAPÍTULO I AUTORIDADES DE POLICÍA.",
+      "jerarquia": {
+        "libro": "LIBRO TERCERO MEDIOS DE POLICÍA, MEDIDAS CORRECTIVAS, AUTORIDADES DE POLICÍA Y COMPETENCIAS, PROCEDIMIENTOS, MECANISMOS ALTERNATIVOS DE SOLUCIÓN DE DESACUERDOS O CONFLICTOS.",
+        "título": "TÍTULO II AUTORIDADES DE POLICÍA Y COMPETENCIAS.",
+        "capítulo": "CAPÍTULO I AUTORIDADES DE POLICÍA."
+      },
+      "fuente": "Ley 1801 de 2016, apartados cotejados en Cancillería",
+      "url_fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#206",
+      "fecha_consulta": "2026-11-18",
+      "estado_documental": "apartados_cotejados",
+      "apartados": [
+        "ley-1801-2016-art-206-numeral-2",
+        "ley-1801-2016-art-206-numeral-3",
+        "ley-1801-2016-art-206-numeral-4",
+        "ley-1801-2016-art-206-literal-5",
+        "ley-1801-2016-art-206-literal-6",
+        "ley-1801-2016-art-206-literal-7"
+      ],
+      "intervalo_texto": [
+        319,
+        751
+      ],
+      "fecha_revision_documental": "2026-11-19",
+      "texto": "seguridad, tranquilidad, ambiente y recursos naturales, derecho de reunión, protección a los bienes y privacidad, actividad económica, urbanismo, espacio público y libertad de circulación. 3. Ejecutar la orden de restitución; en casos de tierras comunales. 4. Conocer, en única instancia, de la aplicación de las siguientes medidas correctivas: a. Reparación de daños materiales de muebles o inmuebles; b. Expulsión de domicilio; c."
+    },
+    {
+      "articulo": "206",
+      "id": "ley-1801-2016-art-206",
+      "titulo": "ATRIBUCIONES DE LOS INSPECTORES DE CONVIVENCIA Y PAZ RURALES, URBANOS Y CORREGIDORES",
+      "tema": "CAPÍTULO I AUTORIDADES DE POLICÍA.",
+      "jerarquia": {
+        "libro": "LIBRO TERCERO MEDIOS DE POLICÍA, MEDIDAS CORRECTIVAS, AUTORIDADES DE POLICÍA Y COMPETENCIAS, PROCEDIMIENTOS, MECANISMOS ALTERNATIVOS DE SOLUCIÓN DE DESACUERDOS O CONFLICTOS.",
+        "título": "TÍTULO II AUTORIDADES DE POLICÍA Y COMPETENCIAS.",
+        "capítulo": "CAPÍTULO I AUTORIDADES DE POLICÍA."
+      },
+      "fuente": "Ley 1801 de 2016, apartados cotejados en Cancillería",
+      "url_fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#206",
+      "fecha_consulta": "2026-11-18",
+      "estado_documental": "apartados_cotejados",
+      "apartados": [
+        "ley-1801-2016-art-206-literal-5",
+        "ley-1801-2016-art-206-literal-6",
+        "ley-1801-2016-art-206-literal-7",
+        "ley-1801-2016-art-206-literal-8",
+        "ley-1801-2016-art-206-numeral-9",
+        "ley-1801-2016-art-206-literal-10",
+        "ley-1801-2016-art-206-literal-11",
+        "ley-1801-2016-art-206-literal-13"
+      ],
+      "intervalo_texto": [
+        678,
+        1076
+      ],
+      "fecha_revision_documental": "2026-11-19",
+      "texto": "de daños materiales de muebles o inmuebles; b. Expulsión de domicilio; c. Prohibición de ingreso a actividad que involucra aglomeraciones de público complejas o no complejas; d. Decomiso. 5. Conocer en primera instancia de la aplicación de las siguientes medidas correctivas: a. Suspensión de construcción o demolición; b. Demolición de obra; d. Reparación de daños materiales por perturbación a la"
+    },
+    {
+      "articulo": "206",
+      "id": "ley-1801-2016-art-206",
+      "titulo": "ATRIBUCIONES DE LOS INSPECTORES DE CONVIVENCIA Y PAZ RURALES, URBANOS Y CORREGIDORES",
+      "tema": "CAPÍTULO I AUTORIDADES DE POLICÍA.",
+      "jerarquia": {
+        "libro": "LIBRO TERCERO MEDIOS DE POLICÍA, MEDIDAS CORRECTIVAS, AUTORIDADES DE POLICÍA Y COMPETENCIAS, PROCEDIMIENTOS, MECANISMOS ALTERNATIVOS DE SOLUCIÓN DE DESACUERDOS O CONFLICTOS.",
+        "título": "TÍTULO II AUTORIDADES DE POLICÍA Y COMPETENCIAS.",
+        "capítulo": "CAPÍTULO I AUTORIDADES DE POLICÍA."
+      },
+      "fuente": "Ley 1801 de 2016, apartados cotejados en Cancillería",
+      "url_fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#206",
+      "fecha_consulta": "2026-11-18",
+      "estado_documental": "apartados_cotejados",
+      "apartados": [
+        "ley-1801-2016-art-206-literal-11",
+        "ley-1801-2016-art-206-literal-13",
+        "ley-1801-2016-art-206-literal-14",
+        "ley-1801-2016-art-206-literal-15",
+        "ley-1801-2016-art-206-literal-16",
+        "ley-1801-2016-art-206-literal-17",
+        "ley-1801-2016-art-206-literal-18"
+      ],
+      "intervalo_texto": [
+        1001,
+        1396
+      ],
+      "fecha_revision_documental": "2026-11-19",
+      "texto": "Demolición de obra; d. Reparación de daños materiales por perturbación a la posesión y tenencia de inmuebles; e. Restitución y protección de bienes inmuebles, diferentes a los descritos en el numeral 17 del artículo 205 ; f. Restablecimiento del derecho de servidumbre y reparación de daños materiales; g. Remoción de bienes, en las infracciones urbanísticas; h. Multas; i. Suspensión definitiva"
+    },
+    {
+      "articulo": "206",
+      "id": "ley-1801-2016-art-206",
+      "titulo": "ATRIBUCIONES DE LOS INSPECTORES DE CONVIVENCIA Y PAZ RURALES, URBANOS Y CORREGIDORES",
+      "tema": "CAPÍTULO I AUTORIDADES DE POLICÍA.",
+      "jerarquia": {
+        "libro": "LIBRO TERCERO MEDIOS DE POLICÍA, MEDIDAS CORRECTIVAS, AUTORIDADES DE POLICÍA Y COMPETENCIAS, PROCEDIMIENTOS, MECANISMOS ALTERNATIVOS DE SOLUCIÓN DE DESACUERDOS O CONFLICTOS.",
+        "título": "TÍTULO II AUTORIDADES DE POLICÍA Y COMPETENCIAS.",
+        "capítulo": "CAPÍTULO I AUTORIDADES DE POLICÍA."
+      },
+      "fuente": "Ley 1801 de 2016, apartados cotejados en Cancillería",
+      "url_fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#206",
+      "fecha_consulta": "2026-11-18",
+      "estado_documental": "apartados_cotejados",
+      "apartados": [
+        "ley-1801-2016-art-206-literal-16",
+        "ley-1801-2016-art-206-literal-17",
+        "ley-1801-2016-art-206-literal-18",
+        "ley-1801-2016-art-206-numeral-19",
+        "ley-1801-2016-art-206-numeral-20",
+        "ley-1801-2016-art-206-numeral-21"
+      ],
+      "intervalo_texto": [
+        1319,
+        1766
+      ],
+      "fecha_revision_documental": "2026-11-19",
+      "texto": "bienes, en las infracciones urbanísticas; h. Multas; i. Suspensión definitiva de actividad. 6. Ejecutar las comisiones que trata el artículo 38 del Código General del Proceso o subcomisionar a una autoridad que tenga jurisdicción y competencia, quienes ejercerán transitoriamente como autoridad administrativa de policía. 7. Desarrollar estrategias en materia de pedagogía de paz, resolución de conflictos y justicia restaurativa. 8. Las demás que"
+    },
+    {
+      "articulo": "206",
+      "id": "ley-1801-2016-art-206",
+      "titulo": "ATRIBUCIONES DE LOS INSPECTORES DE CONVIVENCIA Y PAZ RURALES, URBANOS Y CORREGIDORES",
+      "tema": "CAPÍTULO I AUTORIDADES DE POLICÍA.",
+      "jerarquia": {
+        "libro": "LIBRO TERCERO MEDIOS DE POLICÍA, MEDIDAS CORRECTIVAS, AUTORIDADES DE POLICÍA Y COMPETENCIAS, PROCEDIMIENTOS, MECANISMOS ALTERNATIVOS DE SOLUCIÓN DE DESACUERDOS O CONFLICTOS.",
+        "título": "TÍTULO II AUTORIDADES DE POLICÍA Y COMPETENCIAS.",
+        "capítulo": "CAPÍTULO I AUTORIDADES DE POLICÍA."
+      },
+      "fuente": "Ley 1801 de 2016, apartados cotejados en Cancillería",
+      "url_fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#206",
+      "fecha_consulta": "2026-11-18",
+      "estado_documental": "apartados_cotejados",
+      "apartados": [
+        "ley-1801-2016-art-206-numeral-20",
+        "ley-1801-2016-art-206-numeral-21",
+        "ley-1801-2016-art-206-paragrafo-22"
+      ],
+      "intervalo_texto": [
+        1679,
+        2123
+      ],
+      "fecha_revision_documental": "2026-11-19",
+      "texto": "de pedagogía de paz, resolución de conflictos y justicia restaurativa. 8. Las demás que le señalen la Constitución, la ley, las ordenanzas y los acuerdos. PARÁGRAFO 1o. Las autoridades a que se refieren los artículos anteriores, deberán realizar las diligencias jurisdiccionales o administrativas por comisión de los jueces o subcomisión de los alcaldes de acuerdo con las normas especiales sobre la materia. Para el cumplimiento de la comisión"
+    },
+    {
+      "articulo": "206",
+      "id": "ley-1801-2016-art-206",
+      "titulo": "ATRIBUCIONES DE LOS INSPECTORES DE CONVIVENCIA Y PAZ RURALES, URBANOS Y CORREGIDORES",
+      "tema": "CAPÍTULO I AUTORIDADES DE POLICÍA.",
+      "jerarquia": {
+        "libro": "LIBRO TERCERO MEDIOS DE POLICÍA, MEDIDAS CORRECTIVAS, AUTORIDADES DE POLICÍA Y COMPETENCIAS, PROCEDIMIENTOS, MECANISMOS ALTERNATIVOS DE SOLUCIÓN DE DESACUERDOS O CONFLICTOS.",
+        "título": "TÍTULO II AUTORIDADES DE POLICÍA Y COMPETENCIAS.",
+        "capítulo": "CAPÍTULO I AUTORIDADES DE POLICÍA."
+      },
+      "fuente": "Ley 1801 de 2016, apartados cotejados en Cancillería",
+      "url_fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#206",
+      "fecha_consulta": "2026-11-18",
+      "estado_documental": "apartados_cotejados",
+      "apartados": [
+        "ley-1801-2016-art-206-paragrafo-22"
+      ],
+      "intervalo_texto": [
+        2017,
+        2388
+      ],
+      "fecha_revision_documental": "2026-11-19",
+      "texto": "de los alcaldes de acuerdo con las normas especiales sobre la materia. Para el cumplimiento de la comisión o subcomisión podrán a su vez subcomisionar a otra autoridad que tenga jurisdicción y competencia, quienes ejercerán transitoriamente como autoridad administrativa de policía y estarán obligados a cumplir la subcomisión dentro de los términos que se le establezca."
+    },
+    {
+      "articulo": "218",
+      "id": "ley-1801-2016-art-218",
+      "titulo": "DEFINICIÓN DE ORDEN DE COMPARENDO",
+      "tema": "CAPÍTULO I PROCESO ÚNICO DE POLICÍA.",
+      "jerarquia": {
+        "libro": "LIBRO TERCERO MEDIOS DE POLICÍA, MEDIDAS CORRECTIVAS, AUTORIDADES DE POLICÍA Y COMPETENCIAS, PROCEDIMIENTOS, MECANISMOS ALTERNATIVOS DE SOLUCIÓN DE DESACUERDOS O CONFLICTOS.",
+        "título": "TÍTULO III PROCESO ÚNICO DE POLICÍA.",
+        "capítulo": "CAPÍTULO I PROCESO ÚNICO DE POLICÍA."
+      },
+      "fuente": "Ley 1801 de 2016, apartados cotejados en Cancillería",
+      "url_fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#218",
+      "fecha_consulta": "2026-11-18",
+      "estado_documental": "apartados_cotejados",
+      "apartados": [
+        "ley-1801-2016-art-218-cuerpo"
+      ],
+      "intervalo_texto": [
+        0,
+        281
+      ],
+      "fecha_revision_documental": null,
+      "texto": "ARTÍCULO 218. DEFINICIÓN DE ORDEN DE COMPARENDO. Entiéndase por esta, la acción del personal uniformado de la Policía Nacional que consiste en entregar un documento oficial que contiene orden escrita o virtual para presentarse ante autoridad de Policía o cumplir medida correctiva."
+    },
+    {
+      "articulo": "222",
+      "id": "ley-1801-2016-art-222",
+      "titulo": "TRÁMITE DEL PROCESO VERBAL INMEDIATO",
+      "tema": "CAPÍTULO II PROCESO VERBAL INMEDIATO.",
+      "jerarquia": {
+        "libro": "LIBRO TERCERO MEDIOS DE POLICÍA, MEDIDAS CORRECTIVAS, AUTORIDADES DE POLICÍA Y COMPETENCIAS, PROCEDIMIENTOS, MECANISMOS ALTERNATIVOS DE SOLUCIÓN DE DESACUERDOS O CONFLICTOS.",
+        "título": "TÍTULO III PROCESO ÚNICO DE POLICÍA.",
+        "capítulo": "CAPÍTULO II PROCESO VERBAL INMEDIATO."
+      },
+      "fuente": "Ley 1801 de 2016, apartados cotejados en Cancillería",
+      "url_fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#222",
+      "fecha_consulta": "2026-11-18",
+      "estado_documental": "apartados_cotejados",
+      "apartados": [
+        "ley-1801-2016-art-222-cuerpo",
+        "ley-1801-2016-art-222-numeral-1"
+      ],
+      "intervalo_texto": [
+        0,
+        459
+      ],
+      "fecha_revision_documental": "2026-11-19",
+      "texto": "ARTÍCULO 222. TRÁMITE DEL PROCESO VERBAL INMEDIATO. Se tramitarán por el proceso verbal inmediato los comportamientos contrarios a la convivencia, de competencia del personal uniformado de la Policía Nacional, los comandantes de estación o subestación de Policía, y los comandantes del Centro de Atención Inmediata de Policía, en las etapas siguientes: 1. Se podrá iniciar de oficio o a petición de quien tenga interés directo o acuda en defensa de las normas"
+    },
+    {
+      "articulo": "222",
+      "id": "ley-1801-2016-art-222",
+      "titulo": "TRÁMITE DEL PROCESO VERBAL INMEDIATO",
+      "tema": "CAPÍTULO II PROCESO VERBAL INMEDIATO.",
+      "jerarquia": {
+        "libro": "LIBRO TERCERO MEDIOS DE POLICÍA, MEDIDAS CORRECTIVAS, AUTORIDADES DE POLICÍA Y COMPETENCIAS, PROCEDIMIENTOS, MECANISMOS ALTERNATIVOS DE SOLUCIÓN DE DESACUERDOS O CONFLICTOS.",
+        "título": "TÍTULO III PROCESO ÚNICO DE POLICÍA.",
+        "capítulo": "CAPÍTULO II PROCESO VERBAL INMEDIATO."
+      },
+      "fuente": "Ley 1801 de 2016, apartados cotejados en Cancillería",
+      "url_fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#222",
+      "fecha_consulta": "2026-11-18",
+      "estado_documental": "apartados_cotejados",
+      "apartados": [
+        "ley-1801-2016-art-222-numeral-1",
+        "ley-1801-2016-art-222-numeral-2",
+        "ley-1801-2016-art-222-numeral-3",
+        "ley-1801-2016-art-222-numeral-4"
+      ],
+      "intervalo_texto": [
+        365,
+        820
+      ],
+      "fecha_revision_documental": "2026-11-19",
+      "texto": "iniciar de oficio o a petición de quien tenga interés directo o acuda en defensa de las normas de convivencia. 2. Una vez identificado el presunto infractor, la autoridad de Policía lo abordará en el sitio donde ocurran los hechos, si ello fuera posible o, en aquel donde lo encuentren, y le informará que su acción u omisión configura un comportamiento contrario a la convivencia. 3. El presunto infractor deberá ser oído en descargos. 4. La autoridad de"
+    },
+    {
+      "articulo": "222",
+      "id": "ley-1801-2016-art-222",
+      "titulo": "TRÁMITE DEL PROCESO VERBAL INMEDIATO",
+      "tema": "CAPÍTULO II PROCESO VERBAL INMEDIATO.",
+      "jerarquia": {
+        "libro": "LIBRO TERCERO MEDIOS DE POLICÍA, MEDIDAS CORRECTIVAS, AUTORIDADES DE POLICÍA Y COMPETENCIAS, PROCEDIMIENTOS, MECANISMOS ALTERNATIVOS DE SOLUCIÓN DE DESACUERDOS O CONFLICTOS.",
+        "título": "TÍTULO III PROCESO ÚNICO DE POLICÍA.",
+        "capítulo": "CAPÍTULO II PROCESO VERBAL INMEDIATO."
+      },
+      "fuente": "Ley 1801 de 2016, apartados cotejados en Cancillería",
+      "url_fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#222",
+      "fecha_consulta": "2026-11-18",
+      "estado_documental": "apartados_cotejados",
+      "apartados": [
+        "ley-1801-2016-art-222-numeral-2",
+        "ley-1801-2016-art-222-numeral-3",
+        "ley-1801-2016-art-222-numeral-4",
+        "ley-1801-2016-art-222-paragrafo-5"
+      ],
+      "intervalo_texto": [
+        734,
+        1160
+      ],
+      "fecha_revision_documental": "2026-11-19",
+      "texto": "convivencia. 3. El presunto infractor deberá ser oído en descargos. 4. La autoridad de Policía hará una primera ponderación de los hechos y procurará una mediación policial entre las partes en conflicto. De no lograr la mediación, impondrá la medida correctiva a través de la orden de Policía. PARÁGRAFO 1o. En contra de la orden de Policía o la medida correctiva, procederá el recurso de apelación, el cual se concederá en el"
+    },
+    {
+      "articulo": "222",
+      "id": "ley-1801-2016-art-222",
+      "titulo": "TRÁMITE DEL PROCESO VERBAL INMEDIATO",
+      "tema": "CAPÍTULO II PROCESO VERBAL INMEDIATO.",
+      "jerarquia": {
+        "libro": "LIBRO TERCERO MEDIOS DE POLICÍA, MEDIDAS CORRECTIVAS, AUTORIDADES DE POLICÍA Y COMPETENCIAS, PROCEDIMIENTOS, MECANISMOS ALTERNATIVOS DE SOLUCIÓN DE DESACUERDOS O CONFLICTOS.",
+        "título": "TÍTULO III PROCESO ÚNICO DE POLICÍA.",
+        "capítulo": "CAPÍTULO II PROCESO VERBAL INMEDIATO."
+      },
+      "fuente": "Ley 1801 de 2016, apartados cotejados en Cancillería",
+      "url_fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#222",
+      "fecha_consulta": "2026-11-18",
+      "estado_documental": "apartados_cotejados",
+      "apartados": [
+        "ley-1801-2016-art-222-paragrafo-5"
+      ],
+      "intervalo_texto": [
+        1077,
+        1427
+      ],
+      "fecha_revision_documental": "2026-11-19",
+      "texto": "la medida correctiva, procederá el recurso de apelación, el cual se concederá en el efecto devolutivo y se remitirá al Inspector de Policía dentro de las veinticuatro (24) horas siguientes. El recurso de apelación se resolverá dentro de los tres (3) días hábiles siguientes al recibo de la actuación y será notificado por medio más eficaz y expedito."
+    },
+    {
+      "articulo": "223",
+      "id": "ley-1801-2016-art-223",
+      "titulo": "TRÁMITE DEL PROCESO VERBAL ABREVIADO",
+      "tema": "CAPÍTULO III PROCESO VERBAL ABREVIADO.",
+      "jerarquia": {
+        "libro": "LIBRO TERCERO MEDIOS DE POLICÍA, MEDIDAS CORRECTIVAS, AUTORIDADES DE POLICÍA Y COMPETENCIAS, PROCEDIMIENTOS, MECANISMOS ALTERNATIVOS DE SOLUCIÓN DE DESACUERDOS O CONFLICTOS.",
+        "título": "TÍTULO III PROCESO ÚNICO DE POLICÍA.",
+        "capítulo": "CAPÍTULO III PROCESO VERBAL ABREVIADO."
+      },
+      "fuente": "Ley 1801 de 2016, apartados cotejados en Cancillería",
+      "url_fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#223",
+      "fecha_consulta": "2026-11-18",
+      "estado_documental": "apartados_cotejados",
+      "apartados": [
+        "ley-1801-2016-art-223-cuerpo",
+        "ley-1801-2016-art-223-numeral-1"
+      ],
+      "intervalo_texto": [
+        0,
+        444
+      ],
+      "fecha_revision_documental": "2026-11-19",
+      "texto": "ARTÍCULO 223. TRÁMITE DEL PROCESO VERBAL ABREVIADO. Se tramitarán por el proceso verbal abreviado los comportamientos contrarios a la convivencia, de competencia de los Inspectores de Policía , los Alcaldes y las autoridades especiales de Policía, en las etapas siguientes: 1. Iniciación de la acción. La acción de Policía puede iniciarse de oficio o a petición de la persona que tenga interés en la aplicación del régimen de Policía, contra el"
+    },
+    {
+      "articulo": "223",
+      "id": "ley-1801-2016-art-223",
+      "titulo": "TRÁMITE DEL PROCESO VERBAL ABREVIADO",
+      "tema": "CAPÍTULO III PROCESO VERBAL ABREVIADO.",
+      "jerarquia": {
+        "libro": "LIBRO TERCERO MEDIOS DE POLICÍA, MEDIDAS CORRECTIVAS, AUTORIDADES DE POLICÍA Y COMPETENCIAS, PROCEDIMIENTOS, MECANISMOS ALTERNATIVOS DE SOLUCIÓN DE DESACUERDOS O CONFLICTOS.",
+        "título": "TÍTULO III PROCESO ÚNICO DE POLICÍA.",
+        "capítulo": "CAPÍTULO III PROCESO VERBAL ABREVIADO."
+      },
+      "fuente": "Ley 1801 de 2016, apartados cotejados en Cancillería",
+      "url_fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#223",
+      "fecha_consulta": "2026-11-18",
+      "estado_documental": "apartados_cotejados",
+      "apartados": [
+        "ley-1801-2016-art-223-numeral-1",
+        "ley-1801-2016-art-223-numeral-2"
+      ],
+      "intervalo_texto": [
+        342,
+        859
+      ],
+      "fecha_revision_documental": "2026-11-19",
+      "texto": "oficio o a petición de la persona que tenga interés en la aplicación del régimen de Policía, contra el presunto infractor. Cuando la autoridad conozca en flagrancia del comportamiento contrario a la convivencia, podrá iniciar de inmediato la audiencia pública. 2. Citación. Las mencionadas autoridades, a los cinco (5) días siguientes de conocida la querella o el comportamiento contrario a la convivencia, en caso de que no hubiera sido posible iniciar la audiencia de manera inmediata, citará a audiencia pública al"
+    },
+    {
+      "articulo": "223",
+      "id": "ley-1801-2016-art-223",
+      "titulo": "TRÁMITE DEL PROCESO VERBAL ABREVIADO",
+      "tema": "CAPÍTULO III PROCESO VERBAL ABREVIADO.",
+      "jerarquia": {
+        "libro": "LIBRO TERCERO MEDIOS DE POLICÍA, MEDIDAS CORRECTIVAS, AUTORIDADES DE POLICÍA Y COMPETENCIAS, PROCEDIMIENTOS, MECANISMOS ALTERNATIVOS DE SOLUCIÓN DE DESACUERDOS O CONFLICTOS.",
+        "título": "TÍTULO III PROCESO ÚNICO DE POLICÍA.",
+        "capítulo": "CAPÍTULO III PROCESO VERBAL ABREVIADO."
+      },
+      "fuente": "Ley 1801 de 2016, apartados cotejados en Cancillería",
+      "url_fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#223",
+      "fecha_consulta": "2026-11-18",
+      "estado_documental": "apartados_cotejados",
+      "apartados": [
+        "ley-1801-2016-art-223-numeral-2",
+        "ley-1801-2016-art-223-numeral-3"
+      ],
+      "intervalo_texto": [
+        752,
+        1237
+      ],
+      "fecha_revision_documental": "2026-11-19",
+      "texto": "caso de que no hubiera sido posible iniciar la audiencia de manera inmediata, citará a audiencia pública al quejoso y al presunto infractor, mediante comunicación escrita, correo certificado, medio electrónico, medio de comunicación del que disponga, o por el medio más expedito o idóneo, donde se señale dicho comportamiento. 3. Audiencia pública. La audiencia pública se realizará en el lugar de los hechos, en el despacho del inspector o de la autoridad especial de Policía. Esta se"
+    },
+    {
+      "articulo": "223",
+      "id": "ley-1801-2016-art-223",
+      "titulo": "TRÁMITE DEL PROCESO VERBAL ABREVIADO",
+      "tema": "CAPÍTULO III PROCESO VERBAL ABREVIADO.",
+      "jerarquia": {
+        "libro": "LIBRO TERCERO MEDIOS DE POLICÍA, MEDIDAS CORRECTIVAS, AUTORIDADES DE POLICÍA Y COMPETENCIAS, PROCEDIMIENTOS, MECANISMOS ALTERNATIVOS DE SOLUCIÓN DE DESACUERDOS O CONFLICTOS.",
+        "título": "TÍTULO III PROCESO ÚNICO DE POLICÍA.",
+        "capítulo": "CAPÍTULO III PROCESO VERBAL ABREVIADO."
+      },
+      "fuente": "Ley 1801 de 2016, apartados cotejados en Cancillería",
+      "url_fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#223",
+      "fecha_consulta": "2026-11-18",
+      "estado_documental": "apartados_cotejados",
+      "apartados": [
+        "ley-1801-2016-art-223-numeral-3",
+        "ley-1801-2016-art-223-literal-4",
+        "ley-1801-2016-art-223-literal-5"
+      ],
+      "intervalo_texto": [
+        1141,
+        1574
+      ],
+      "fecha_revision_documental": "2026-11-19",
+      "texto": "lugar de los hechos, en el despacho del inspector o de la autoridad especial de Policía. Esta se surtirá mediante los siguientes pasos: a) Argumentos. En la audiencia la autoridad competente, otorgará tanto al presunto infractor como al quejoso un tiempo máximo de veinte (20) minutos para exponer sus argumentos y pruebas; b) Invitación a conciliar. La autoridad de Policía invitará al quejoso y al presunto infractor a resolver sus"
+    },
+    {
+      "articulo": "223",
+      "id": "ley-1801-2016-art-223",
+      "titulo": "TRÁMITE DEL PROCESO VERBAL ABREVIADO",
+      "tema": "CAPÍTULO III PROCESO VERBAL ABREVIADO.",
+      "jerarquia": {
+        "libro": "LIBRO TERCERO MEDIOS DE POLICÍA, MEDIDAS CORRECTIVAS, AUTORIDADES DE POLICÍA Y COMPETENCIAS, PROCEDIMIENTOS, MECANISMOS ALTERNATIVOS DE SOLUCIÓN DE DESACUERDOS O CONFLICTOS.",
+        "título": "TÍTULO III PROCESO ÚNICO DE POLICÍA.",
+        "capítulo": "CAPÍTULO III PROCESO VERBAL ABREVIADO."
+      },
+      "fuente": "Ley 1801 de 2016, apartados cotejados en Cancillería",
+      "url_fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#223",
+      "fecha_consulta": "2026-11-18",
+      "estado_documental": "apartados_cotejados",
+      "apartados": [
+        "ley-1801-2016-art-223-literal-5",
+        "ley-1801-2016-art-223-literal-6"
+      ],
+      "intervalo_texto": [
+        1481,
+        1917
+      ],
+      "fecha_revision_documental": "2026-11-19",
+      "texto": "conciliar. La autoridad de Policía invitará al quejoso y al presunto infractor a resolver sus diferencias, de conformidad con el presente capítulo; c) Pruebas. Si el presunto infractor o el quejoso solicitan la práctica de pruebas adicionales, pertinentes y conducentes, y si la autoridad las considera viables o las requiere, las decretará y se practicarán en un término máximo de cinco (5) días. Igualmente la autoridad podrá decretar"
+    },
+    {
+      "articulo": "223",
+      "id": "ley-1801-2016-art-223",
+      "titulo": "TRÁMITE DEL PROCESO VERBAL ABREVIADO",
+      "tema": "CAPÍTULO III PROCESO VERBAL ABREVIADO.",
+      "jerarquia": {
+        "libro": "LIBRO TERCERO MEDIOS DE POLICÍA, MEDIDAS CORRECTIVAS, AUTORIDADES DE POLICÍA Y COMPETENCIAS, PROCEDIMIENTOS, MECANISMOS ALTERNATIVOS DE SOLUCIÓN DE DESACUERDOS O CONFLICTOS.",
+        "título": "TÍTULO III PROCESO ÚNICO DE POLICÍA.",
+        "capítulo": "CAPÍTULO III PROCESO VERBAL ABREVIADO."
+      },
+      "fuente": "Ley 1801 de 2016, apartados cotejados en Cancillería",
+      "url_fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#223",
+      "fecha_consulta": "2026-11-18",
+      "estado_documental": "apartados_cotejados",
+      "apartados": [
+        "ley-1801-2016-art-223-literal-6"
+      ],
+      "intervalo_texto": [
+        1822,
+        2267
+      ],
+      "fecha_revision_documental": "2026-11-19",
+      "texto": "y se practicarán en un término máximo de cinco (5) días. Igualmente la autoridad podrá decretar de oficio las pruebas que requiera y dispondrá que se practiquen dentro del mismo término. La audiencia se reanudará al día siguiente al del vencimiento de la práctica de pruebas. Tratándose de hechos notorios o de negaciones indefinidas, se podrá prescindir de la práctica de pruebas y la autoridad de Policía decidirá de plano. Cuando se requieran"
+    },
+    {
+      "articulo": "223",
+      "id": "ley-1801-2016-art-223",
+      "titulo": "TRÁMITE DEL PROCESO VERBAL ABREVIADO",
+      "tema": "CAPÍTULO III PROCESO VERBAL ABREVIADO.",
+      "jerarquia": {
+        "libro": "LIBRO TERCERO MEDIOS DE POLICÍA, MEDIDAS CORRECTIVAS, AUTORIDADES DE POLICÍA Y COMPETENCIAS, PROCEDIMIENTOS, MECANISMOS ALTERNATIVOS DE SOLUCIÓN DE DESACUERDOS O CONFLICTOS.",
+        "título": "TÍTULO III PROCESO ÚNICO DE POLICÍA.",
+        "capítulo": "CAPÍTULO III PROCESO VERBAL ABREVIADO."
+      },
+      "fuente": "Ley 1801 de 2016, apartados cotejados en Cancillería",
+      "url_fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#223",
+      "fecha_consulta": "2026-11-18",
+      "estado_documental": "apartados_cotejados",
+      "apartados": [
+        "ley-1801-2016-art-223-literal-6",
+        "ley-1801-2016-art-223-literal-7"
+      ],
+      "intervalo_texto": [
+        2166,
+        2650
+      ],
+      "fecha_revision_documental": "2026-11-19",
+      "texto": "prescindir de la práctica de pruebas y la autoridad de Policía decidirá de plano. Cuando se requieran conocimientos técnicos especializados, los servidores públicos del sector central y descentralizado del nivel territorial, darán informes por solicitud de la autoridad de Policía; d) Decisión. Agotada la etapa probatoria, la autoridad de Policía valorará las pruebas y dictará la orden de Policía o medida correctiva, si hay lugar a ello, sustentando su decisión con los respectivos"
+    },
+    {
+      "articulo": "223",
+      "id": "ley-1801-2016-art-223",
+      "titulo": "TRÁMITE DEL PROCESO VERBAL ABREVIADO",
+      "tema": "CAPÍTULO III PROCESO VERBAL ABREVIADO.",
+      "jerarquia": {
+        "libro": "LIBRO TERCERO MEDIOS DE POLICÍA, MEDIDAS CORRECTIVAS, AUTORIDADES DE POLICÍA Y COMPETENCIAS, PROCEDIMIENTOS, MECANISMOS ALTERNATIVOS DE SOLUCIÓN DE DESACUERDOS O CONFLICTOS.",
+        "título": "TÍTULO III PROCESO ÚNICO DE POLICÍA.",
+        "capítulo": "CAPÍTULO III PROCESO VERBAL ABREVIADO."
+      },
+      "fuente": "Ley 1801 de 2016, apartados cotejados en Cancillería",
+      "url_fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#223",
+      "fecha_consulta": "2026-11-18",
+      "estado_documental": "apartados_cotejados",
+      "apartados": [
+        "ley-1801-2016-art-223-literal-7",
+        "ley-1801-2016-art-223-numeral-8"
+      ],
+      "intervalo_texto": [
+        2557,
+        3025
+      ],
+      "fecha_revision_documental": "2026-11-19",
+      "texto": "Policía o medida correctiva, si hay lugar a ello, sustentando su decisión con los respectivos fundamentos normativos y hechos conducentes demostrados. La decisión quedará notificada en estrados. 4. Recursos. Contra la decisión proferida por la autoridad de Policía proceden los recursos de reposición y, en subsidio, el de apelación ante el superior jerárquico, los cuales se solicitarán, concederán y sustentarán dentro de la misma audiencia. El recurso de reposición"
+    },
+    {
+      "articulo": "223",
+      "id": "ley-1801-2016-art-223",
+      "titulo": "TRÁMITE DEL PROCESO VERBAL ABREVIADO",
+      "tema": "CAPÍTULO III PROCESO VERBAL ABREVIADO.",
+      "jerarquia": {
+        "libro": "LIBRO TERCERO MEDIOS DE POLICÍA, MEDIDAS CORRECTIVAS, AUTORIDADES DE POLICÍA Y COMPETENCIAS, PROCEDIMIENTOS, MECANISMOS ALTERNATIVOS DE SOLUCIÓN DE DESACUERDOS O CONFLICTOS.",
+        "título": "TÍTULO III PROCESO ÚNICO DE POLICÍA.",
+        "capítulo": "CAPÍTULO III PROCESO VERBAL ABREVIADO."
+      },
+      "fuente": "Ley 1801 de 2016, apartados cotejados en Cancillería",
+      "url_fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#223",
+      "fecha_consulta": "2026-11-18",
+      "estado_documental": "apartados_cotejados",
+      "apartados": [
+        "ley-1801-2016-art-223-numeral-8"
+      ],
+      "intervalo_texto": [
+        2930,
+        3386
+      ],
+      "fecha_revision_documental": "2026-11-19",
+      "texto": "se solicitarán, concederán y sustentarán dentro de la misma audiencia. El recurso de reposición se resolverá inmediatamente, y de ser procedente el recurso de apelación, se interpondrá y concederá en el efecto devolutivo dentro de la audiencia y se remitirá al superior jerárquico dentro de los dos (2) días siguientes, ante quien se sustentará dentro de los dos (2) días siguientes al recibo del recurso. El recurso de apelación se resolverá dentro de los"
+    },
+    {
+      "articulo": "223",
+      "id": "ley-1801-2016-art-223",
+      "titulo": "TRÁMITE DEL PROCESO VERBAL ABREVIADO",
+      "tema": "CAPÍTULO III PROCESO VERBAL ABREVIADO.",
+      "jerarquia": {
+        "libro": "LIBRO TERCERO MEDIOS DE POLICÍA, MEDIDAS CORRECTIVAS, AUTORIDADES DE POLICÍA Y COMPETENCIAS, PROCEDIMIENTOS, MECANISMOS ALTERNATIVOS DE SOLUCIÓN DE DESACUERDOS O CONFLICTOS.",
+        "título": "TÍTULO III PROCESO ÚNICO DE POLICÍA.",
+        "capítulo": "CAPÍTULO III PROCESO VERBAL ABREVIADO."
+      },
+      "fuente": "Ley 1801 de 2016, apartados cotejados en Cancillería",
+      "url_fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#223",
+      "fecha_consulta": "2026-11-18",
+      "estado_documental": "apartados_cotejados",
+      "apartados": [
+        "ley-1801-2016-art-223-numeral-8",
+        "ley-1801-2016-art-223-numeral-9"
+      ],
+      "intervalo_texto": [
+        3293,
+        3769
+      ],
+      "fecha_revision_documental": "2026-11-19",
+      "texto": "(2) días siguientes al recibo del recurso. El recurso de apelación se resolverá dentro de los ocho (8) días siguientes al recibo de la actuación. Para la aplicación de medidas correctivas en asuntos relativos a infracciones urbanísticas, el recurso de apelación se concederá en el efecto suspensivo. Los recursos solo procederán contra las decisiones definitivas de las autoridades de Policía. 5. Cumplimiento o ejecución de la orden de Policía o la medida correctiva. Una vez"
+    },
+    {
+      "articulo": "223",
+      "id": "ley-1801-2016-art-223",
+      "titulo": "TRÁMITE DEL PROCESO VERBAL ABREVIADO",
+      "tema": "CAPÍTULO III PROCESO VERBAL ABREVIADO.",
+      "jerarquia": {
+        "libro": "LIBRO TERCERO MEDIOS DE POLICÍA, MEDIDAS CORRECTIVAS, AUTORIDADES DE POLICÍA Y COMPETENCIAS, PROCEDIMIENTOS, MECANISMOS ALTERNATIVOS DE SOLUCIÓN DE DESACUERDOS O CONFLICTOS.",
+        "título": "TÍTULO III PROCESO ÚNICO DE POLICÍA.",
+        "capítulo": "CAPÍTULO III PROCESO VERBAL ABREVIADO."
+      },
+      "fuente": "Ley 1801 de 2016, apartados cotejados en Cancillería",
+      "url_fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#223",
+      "fecha_consulta": "2026-11-18",
+      "estado_documental": "apartados_cotejados",
+      "apartados": [
+        "ley-1801-2016-art-223-numeral-8",
+        "ley-1801-2016-art-223-numeral-9",
+        "ley-1801-2016-art-223-paragrafo-10"
+      ],
+      "intervalo_texto": [
+        3678,
+        4128
+      ],
+      "fecha_revision_documental": "2026-11-19",
+      "texto": "Policía. 5. Cumplimiento o ejecución de la orden de Policía o la medida correctiva. Una vez ejecutoriada la decisión que contenga una orden de Policía o una medida correctiva, esta se cumplirá en un término máximo de cinco (5) días. PARÁGRAFO 1o. Si el presunto infractor no se presenta a la audiencia sin comprobar la ocurrencia de caso fortuito o fuerza mayor, la autoridad tendrá por ciertos los hechos que dieron lugar al comportamiento contrario"
+    },
+    {
+      "articulo": "223",
+      "id": "ley-1801-2016-art-223",
+      "titulo": "TRÁMITE DEL PROCESO VERBAL ABREVIADO",
+      "tema": "CAPÍTULO III PROCESO VERBAL ABREVIADO.",
+      "jerarquia": {
+        "libro": "LIBRO TERCERO MEDIOS DE POLICÍA, MEDIDAS CORRECTIVAS, AUTORIDADES DE POLICÍA Y COMPETENCIAS, PROCEDIMIENTOS, MECANISMOS ALTERNATIVOS DE SOLUCIÓN DE DESACUERDOS O CONFLICTOS.",
+        "título": "TÍTULO III PROCESO ÚNICO DE POLICÍA.",
+        "capítulo": "CAPÍTULO III PROCESO VERBAL ABREVIADO."
+      },
+      "fuente": "Ley 1801 de 2016, apartados cotejados en Cancillería",
+      "url_fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#223",
+      "fecha_consulta": "2026-11-18",
+      "estado_documental": "apartados_cotejados",
+      "apartados": [
+        "ley-1801-2016-art-223-paragrafo-10",
+        "ley-1801-2016-art-223-paragrafo-11"
+      ],
+      "intervalo_texto": [
+        4016,
+        4481
+      ],
+      "fecha_revision_documental": "2026-11-19",
+      "texto": "fortuito o fuerza mayor, la autoridad tendrá por ciertos los hechos que dieron lugar al comportamiento contrario a la convivencia y entrará a resolver de fondo, con base en las pruebas allegadas y los informes de las autoridades, salvo que la autoridad de Policía considere indispensable decretar la práctica de una prueba adicional. PARÁGRAFO 2o. Casos en que se requiere inspección al lugar. Cuando la autoridad de Policía inicia la actuación y decreta inspección"
+    },
+    {
+      "articulo": "223",
+      "id": "ley-1801-2016-art-223",
+      "titulo": "TRÁMITE DEL PROCESO VERBAL ABREVIADO",
+      "tema": "CAPÍTULO III PROCESO VERBAL ABREVIADO.",
+      "jerarquia": {
+        "libro": "LIBRO TERCERO MEDIOS DE POLICÍA, MEDIDAS CORRECTIVAS, AUTORIDADES DE POLICÍA Y COMPETENCIAS, PROCEDIMIENTOS, MECANISMOS ALTERNATIVOS DE SOLUCIÓN DE DESACUERDOS O CONFLICTOS.",
+        "título": "TÍTULO III PROCESO ÚNICO DE POLICÍA.",
+        "capítulo": "CAPÍTULO III PROCESO VERBAL ABREVIADO."
+      },
+      "fuente": "Ley 1801 de 2016, apartados cotejados en Cancillería",
+      "url_fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#223",
+      "fecha_consulta": "2026-11-18",
+      "estado_documental": "apartados_cotejados",
+      "apartados": [
+        "ley-1801-2016-art-223-paragrafo-11"
+      ],
+      "intervalo_texto": [
+        4389,
+        4810
+      ],
+      "fecha_revision_documental": "2026-11-19",
+      "texto": "inspección al lugar. Cuando la autoridad de Policía inicia la actuación y decreta inspección al lugar, fijará fecha y hora para la práctica de la audiencia, y notificará al presunto infractor o perturbador de convivencia y al quejoso personalmente, y de no ser posible, mediante aviso que se fijará en la puerta de acceso del lugar de los hechos o parte visible de este, con antelación no menor a veinticuatro (24) horas,"
+    },
+    {
+      "articulo": "223",
+      "id": "ley-1801-2016-art-223",
+      "titulo": "TRÁMITE DEL PROCESO VERBAL ABREVIADO",
+      "tema": "CAPÍTULO III PROCESO VERBAL ABREVIADO.",
+      "jerarquia": {
+        "libro": "LIBRO TERCERO MEDIOS DE POLICÍA, MEDIDAS CORRECTIVAS, AUTORIDADES DE POLICÍA Y COMPETENCIAS, PROCEDIMIENTOS, MECANISMOS ALTERNATIVOS DE SOLUCIÓN DE DESACUERDOS O CONFLICTOS.",
+        "título": "TÍTULO III PROCESO ÚNICO DE POLICÍA.",
+        "capítulo": "CAPÍTULO III PROCESO VERBAL ABREVIADO."
+      },
+      "fuente": "Ley 1801 de 2016, apartados cotejados en Cancillería",
+      "url_fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#223",
+      "fecha_consulta": "2026-11-18",
+      "estado_documental": "apartados_cotejados",
+      "apartados": [
+        "ley-1801-2016-art-223-paragrafo-11"
+      ],
+      "intervalo_texto": [
+        4737,
+        5157
+      ],
+      "fecha_revision_documental": "2026-11-19",
+      "texto": "parte visible de este, con antelación no menor a veinticuatro (24) horas, de la fecha y hora de la diligencia. Para la práctica de la diligencia de inspección, la autoridad de Policía se trasladará al lugar de los hechos, con un servidor público técnico especializado cuando ello fuere necesario y los hechos no sean notorios y evidentes; durante la diligencia oirá a las partes máximo por quince (15) minutos cada una y"
+    },
+    {
+      "articulo": "223",
+      "id": "ley-1801-2016-art-223",
+      "titulo": "TRÁMITE DEL PROCESO VERBAL ABREVIADO",
+      "tema": "CAPÍTULO III PROCESO VERBAL ABREVIADO.",
+      "jerarquia": {
+        "libro": "LIBRO TERCERO MEDIOS DE POLICÍA, MEDIDAS CORRECTIVAS, AUTORIDADES DE POLICÍA Y COMPETENCIAS, PROCEDIMIENTOS, MECANISMOS ALTERNATIVOS DE SOLUCIÓN DE DESACUERDOS O CONFLICTOS.",
+        "título": "TÍTULO III PROCESO ÚNICO DE POLICÍA.",
+        "capítulo": "CAPÍTULO III PROCESO VERBAL ABREVIADO."
+      },
+      "fuente": "Ley 1801 de 2016, apartados cotejados en Cancillería",
+      "url_fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#223",
+      "fecha_consulta": "2026-11-18",
+      "estado_documental": "apartados_cotejados",
+      "apartados": [
+        "ley-1801-2016-art-223-paragrafo-11"
+      ],
+      "intervalo_texto": [
+        5076,
+        5520
+      ],
+      "fecha_revision_documental": "2026-11-19",
+      "texto": "durante la diligencia oirá a las partes máximo por quince (15) minutos cada una y recibirá y practicará las pruebas que considere conducentes para el esclarecimiento de los hechos. El informe técnico especializado se rendirá dentro de la diligencia de inspección ocular. Excepcionalmente y a juicio del inspector de Policía, podrá suspenderse la diligencia hasta por un término no mayor de tres (3) días con el objeto de que el servidor público"
+    },
+    {
+      "articulo": "223",
+      "id": "ley-1801-2016-art-223",
+      "titulo": "TRÁMITE DEL PROCESO VERBAL ABREVIADO",
+      "tema": "CAPÍTULO III PROCESO VERBAL ABREVIADO.",
+      "jerarquia": {
+        "libro": "LIBRO TERCERO MEDIOS DE POLICÍA, MEDIDAS CORRECTIVAS, AUTORIDADES DE POLICÍA Y COMPETENCIAS, PROCEDIMIENTOS, MECANISMOS ALTERNATIVOS DE SOLUCIÓN DE DESACUERDOS O CONFLICTOS.",
+        "título": "TÍTULO III PROCESO ÚNICO DE POLICÍA.",
+        "capítulo": "CAPÍTULO III PROCESO VERBAL ABREVIADO."
+      },
+      "fuente": "Ley 1801 de 2016, apartados cotejados en Cancillería",
+      "url_fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#223",
+      "fecha_consulta": "2026-11-18",
+      "estado_documental": "apartados_cotejados",
+      "apartados": [
+        "ley-1801-2016-art-223-paragrafo-11",
+        "ley-1801-2016-art-223-paragrafo-12"
+      ],
+      "intervalo_texto": [
+        5422,
+        5852
+      ],
+      "fecha_revision_documental": "2026-11-19",
+      "texto": "diligencia hasta por un término no mayor de tres (3) días con el objeto de que el servidor público rinda el informe técnico. La autoridad de Policía proferirá la decisión dentro de la misma diligencia de inspección, o si ella hubiere sido suspendida, a la terminación del plazo de suspensión. PARÁGRAFO 3o. Si el infractor o perturbador no cumple la orden de Policía o la medida correctiva, la autoridad de Policía competente, por"
+    },
+    {
+      "articulo": "223",
+      "id": "ley-1801-2016-art-223",
+      "titulo": "TRÁMITE DEL PROCESO VERBAL ABREVIADO",
+      "tema": "CAPÍTULO III PROCESO VERBAL ABREVIADO.",
+      "jerarquia": {
+        "libro": "LIBRO TERCERO MEDIOS DE POLICÍA, MEDIDAS CORRECTIVAS, AUTORIDADES DE POLICÍA Y COMPETENCIAS, PROCEDIMIENTOS, MECANISMOS ALTERNATIVOS DE SOLUCIÓN DE DESACUERDOS O CONFLICTOS.",
+        "título": "TÍTULO III PROCESO ÚNICO DE POLICÍA.",
+        "capítulo": "CAPÍTULO III PROCESO VERBAL ABREVIADO."
+      },
+      "fuente": "Ley 1801 de 2016, apartados cotejados en Cancillería",
+      "url_fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#223",
+      "fecha_consulta": "2026-11-18",
+      "estado_documental": "apartados_cotejados",
+      "apartados": [
+        "ley-1801-2016-art-223-paragrafo-12",
+        "ley-1801-2016-art-223-paragrafo-13"
+      ],
+      "intervalo_texto": [
+        5747,
+        6143
+      ],
+      "fecha_revision_documental": "2026-11-19",
+      "texto": "perturbador no cumple la orden de Policía o la medida correctiva, la autoridad de Policía competente, por intermedio de la entidad correspondiente, podrá ejecutarla a costa del obligado, si ello fuere posible. Los costos de la ejecución podrán cobrarse por la vía de la jurisdicción coactiva. PARÁGRAFO 4o. El numeral 4 del presente artículo no procederá en los procedimientos de única instancia."
+    }
+  ],
+  "procedencia_insumos": {
+    "cancilleria": {
+      "fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm",
+      "fecha_captura_documentada": "2026-11-18",
+      "sha256_html": "a2c7c07cd8d52cd01c726a4e672803c75bc66668d47ada5a6a4e72795c3dd858"
+    },
+    "jurinfo": {
+      "fuente": "https://jurinfo.jep.gov.co/normograma/compilacion/docs/ley_1801_2016.htm",
+      "fecha_captura_documentada": "2026-11-18",
+      "sha256_html": "47c14539ab19405f76ab2f676ab0c5ed3a21f28effbe5d641f1719f00f34b294"
+    }
+  },
+  "segmentacion": {
+    "unidad_limite": "palabra_delimitada_por_espacios",
+    "objetivo_tokens": 100,
+    "objetivo_solapamiento_tokens": 20,
+    "limite_tokens_modelo_con_especiales": 128
+  }
+}

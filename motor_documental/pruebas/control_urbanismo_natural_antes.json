@@ -1,0 +1,134 @@
+{
+  "estado_motor": {
+    "estado": "activo",
+    "modo_respuesta": "citas_extractivas",
+    "generacion_configurada": true,
+    "sha256_corpus_publicable": "e1095acca700aa3c8d84b62e411c45f32a55c9bdf49ccbb6c46f6132d7459b55"
+  },
+  "filas": [
+    {
+      "id": "0",
+      "pregunta": "¿Qué pasa si construyo sin permisos?",
+      "http": 200,
+      "segundos": 23.86106,
+      "respuesta": {
+        "fuentes_recuperadas": [
+          {
+            "articulo": "135",
+            "numeral": "",
+            "titulo": "COMPORTAMIENTOS CONTRARIOS A LA INTEGRIDAD URBANÍSTICA",
+            "texto": "ARTÍCULO 135. COMPORTAMIENTOS CONTRARIOS A LA INTEGRIDAD URBANÍSTICA. A) Parcelar, urbanizar, demoler, intervenir o construir: 4. En terrenos aptos para estas actuaciones, sin licencia o cuando esta hubiere caducado. PARÁGRAFO 1o. Cuando se trate de construcciones en terrenos no aptos o sin previa licencia, se impondrán de inmediato la medida de suspensión de construcción o demolición, y se solicitará a las empresas de servicios públicos domiciliarios la suspensión de los servicios correspondientes si no hubiese habitación. PARÁGRAFO 2o. Cuando se realice actuación urbanística sin previa licencia en predios aptos para estos menesteres, sin perjuicio de la medida de multa y de la suspensión temporal de la obra, se concederá un término de sesenta (60) días para que el infractor solicite el reconocimiento de la construcción ante la autoridad competente del distrito o municipio; si pasado este término no presenta licencia de reconocimiento, no podrá reanudar la obra y se duplicará el valor de la multa impuesta. Numeral 4 Multa especial por infracción urbanística; Demolición de obra; Construcción, cerramiento, reparación o mantenimiento de inmueble; Remoción de bienes.",
+            "url_fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#135"
+          }
+        ],
+        "pregunta": "¿Qué pasa si construyo sin permisos?",
+        "respuesta": "**Artículo 135.** «A) Parcelar, urbanizar, demoler, intervenir o construir:»\n\n**Numeral 4 del artículo 135.** «4. En terrenos aptos para estas actuaciones, sin licencia o cuando esta hubiere caducado.»\n\n**Parágrafo 1 del artículo 135.** «PARÁGRAFO 1o. Cuando se trate de construcciones en terrenos no aptos o sin previa licencia, se impondrán de inmediato la medida de suspensión de construcción o demolición, y se solicitará a las empresas de servicios públicos domiciliarios la suspensión de los servicios correspondientes si no hubiese habitación.»\n\n**Parágrafo 2 del artículo 135.** «PARÁGRAFO 2o. Cuando se realice actuación urbanística sin previa licencia en predios aptos para estos menesteres, sin perjuicio de la medida de multa y de la suspensión temporal de la obra, se concederá un término de sesenta (60) días para que el infractor solicite el reconocimiento de la construcción ante la autoridad competente del distrito o municipio; si pasado este término no presenta licencia de reconocimiento, no podrá reanudar la obra y se duplicará el valor de la multa impuesta.»\n\n**Numeral 4 del artículo 135.** «Numeral 4 Multa especial por infracción urbanística; Demolición de obra; Construcción, cerramiento, reparación o mantenimiento de inmueble; Remoción de bienes.»",
+        "modelo": "gemini-3.1-flash-lite",
+        "total_generales": 1,
+        "total_estructurados": 0,
+        "validacion_documental": {
+          "estado": "PENDIENTE_VALIDACION",
+          "advertencias": []
+        }
+      },
+      "llamada_gemini_confirmada": true,
+      "estado_documental": "PENDIENTE_VALIDACION"
+    },
+    {
+      "id": "1",
+      "pregunta": "¿Qué sanciones contempla la Ley 1801 por construir sin autorización?",
+      "http": 200,
+      "segundos": 0.030233,
+      "respuesta": {
+        "fuentes_recuperadas": [],
+        "pregunta": "¿Qué sanciones contempla la Ley 1801 por construir sin autorización?",
+        "respuesta": "No encontré respaldo suficiente en los fragmentos de la Ley 1801 de 2016.",
+        "modelo": "verificación documental",
+        "total_generales": 0,
+        "total_estructurados": 0,
+        "validacion_documental": {
+          "estado": "SIN_RESPALDO",
+          "advertencias": []
+        }
+      },
+      "llamada_gemini_confirmada": false,
+      "estado_documental": "SIN_RESPALDO"
+    },
+    {
+      "id": "2",
+      "pregunta": "¿Qué dice el artículo 135 sobre obras sin licencia?",
+      "http": 200,
+      "segundos": 2.146569,
+      "respuesta": {
+        "fuentes_recuperadas": [
+          {
+            "articulo": "135",
+            "numeral": "",
+            "titulo": "COMPORTAMIENTOS CONTRARIOS A LA INTEGRIDAD URBANÍSTICA",
+            "texto": "ARTÍCULO 135. COMPORTAMIENTOS CONTRARIOS A LA INTEGRIDAD URBANÍSTICA. A) Parcelar, urbanizar, demoler, intervenir o construir: 4. En terrenos aptos para estas actuaciones, sin licencia o cuando esta hubiere caducado. PARÁGRAFO 1o. Cuando se trate de construcciones en terrenos no aptos o sin previa licencia, se impondrán de inmediato la medida de suspensión de construcción o demolición, y se solicitará a las empresas de servicios públicos domiciliarios la suspensión de los servicios correspondientes si no hubiese habitación. PARÁGRAFO 2o. Cuando se realice actuación urbanística sin previa licencia en predios aptos para estos menesteres, sin perjuicio de la medida de multa y de la suspensión temporal de la obra, se concederá un término de sesenta (60) días para que el infractor solicite el reconocimiento de la construcción ante la autoridad competente del distrito o municipio; si pasado este término no presenta licencia de reconocimiento, no podrá reanudar la obra y se duplicará el valor de la multa impuesta. Numeral 4 Multa especial por infracción urbanística; Demolición de obra; Construcción, cerramiento, reparación o mantenimiento de inmueble; Remoción de bienes.",
+            "url_fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#135"
+          }
+        ],
+        "pregunta": "¿Qué dice el artículo 135 sobre obras sin licencia?",
+        "respuesta": "**Artículo 135.** «A) Parcelar, urbanizar, demoler, intervenir o construir:»\n\n**Numeral 4 del artículo 135.** «4. En terrenos aptos para estas actuaciones, sin licencia o cuando esta hubiere caducado.»\n\n**Parágrafo 1 del artículo 135.** «PARÁGRAFO 1o. Cuando se trate de construcciones en terrenos no aptos o sin previa licencia, se impondrán de inmediato la medida de suspensión de construcción o demolición, y se solicitará a las empresas de servicios públicos domiciliarios la suspensión de los servicios correspondientes si no hubiese habitación.»\n\n**Parágrafo 2 del artículo 135.** «PARÁGRAFO 2o. Cuando se realice actuación urbanística sin previa licencia en predios aptos para estos menesteres, sin perjuicio de la medida de multa y de la suspensión temporal de la obra, se concederá un término de sesenta (60) días para que el infractor solicite el reconocimiento de la construcción ante la autoridad competente del distrito o municipio; si pasado este término no presenta licencia de reconocimiento, no podrá reanudar la obra y se duplicará el valor de la multa impuesta.»\n\n**Numeral 4 del artículo 135.** «Numeral 4 Multa especial por infracción urbanística; Demolición de obra; Construcción, cerramiento, reparación o mantenimiento de inmueble; Remoción de bienes.»",
+        "modelo": "gemini-3.1-flash-lite",
+        "total_generales": 1,
+        "total_estructurados": 0,
+        "validacion_documental": {
+          "estado": "PENDIENTE_VALIDACION",
+          "advertencias": []
+        }
+      },
+      "llamada_gemini_confirmada": true,
+      "estado_documental": "PENDIENTE_VALIDACION"
+    },
+    {
+      "id": "3",
+      "pregunta": "¿Qué es una multa?",
+      "http": 200,
+      "segundos": 1.697366,
+      "respuesta": {
+        "fuentes_recuperadas": [
+          {
+            "articulo": "180",
+            "numeral": "",
+            "titulo": "MULTAS",
+            "texto": "ARTÍCULO 180. MULTAS. Es la imposición del pago de una suma de dinero en moneda colombiana, cuya graduación depende del comportamiento realizado, según la cual varía el monto de la multa. Así mismo, la desobediencia, resistencia, desacato, o reiteración del comportamiento contrario a la convivencia, incrementará el valor de la multa, sin perjuicio de los intereses causados y el costo del cobro coactivo. las multas se clasifican en generales y especiales.",
+            "url_fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#180"
+          }
+        ],
+        "pregunta": "¿Qué es una multa?",
+        "respuesta": "**Artículo 180.** «Es la imposición del pago de una suma de dinero en moneda colombiana, cuya graduación depende del comportamiento realizado, según la cual varía el monto de la multa. Así mismo, la desobediencia, resistencia, desacato, o reiteración del comportamiento contrario a la convivencia, incrementará el valor de la multa, sin perjuicio de los intereses causados y el costo del cobro coactivo.»\n\n**Artículo 180.** «las multas se clasifican en generales y especiales.»",
+        "modelo": "gemini-3.1-flash-lite",
+        "total_generales": 1,
+        "total_estructurados": 0,
+        "validacion_documental": {
+          "estado": "PENDIENTE_VALIDACION",
+          "advertencias": []
+        }
+      },
+      "llamada_gemini_confirmada": true,
+      "estado_documental": "PENDIENTE_VALIDACION"
+    },
+    {
+      "id": "4",
+      "pregunta": "¿Qué multa debo pagar por declarar renta tarde?",
+      "http": 200,
+      "segundos": 0.025278,
+      "respuesta": {
+        "fuentes_recuperadas": [],
+        "pregunta": "¿Qué multa debo pagar por declarar renta tarde?",
+        "respuesta": "La información solicitada queda fuera del corpus de la Ley 1801 de 2016.",
+        "modelo": "clasificador temático",
+        "total_generales": 0,
+        "total_estructurados": 0,
+        "validacion_documental": {
+          "estado": "FUERA_DE_DOMINIO",
+          "advertencias": []
+        }
+      },
+      "llamada_gemini_confirmada": false,
+      "estado_documental": "FUERA_DE_DOMINIO"
+    }
+  ]
+}
