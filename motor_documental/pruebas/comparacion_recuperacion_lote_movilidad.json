@@ -1,0 +1,505 @@
+{
+  "sha256_banco": "dbeab26c86e8cebc541e301b673347584214630b447af06343e3c311c20beaa9",
+  "sha256_corpus_antes": "a2b92ae92020791edb8c31005a375bd2744ed3e1d41fac76c46f9235a3be60e6",
+  "sha256_corpus_despues": "f7e45f8839a96721dde450c1d8076c88d355d0c02bcb49f4a83becbef16f0a3a",
+  "cambios": [
+    {
+      "id": "RAG-043",
+      "esperados": [
+        "140"
+      ],
+      "antes": [],
+      "despues": [
+        "140"
+      ]
+    },
+    {
+      "id": "RAG-044",
+      "esperados": [
+        "146"
+      ],
+      "antes": [],
+      "despues": [
+        "146"
+      ]
+    }
+  ],
+  "filas": [
+    {
+      "id": "RAG-001",
+      "esperados": [
+        "1"
+      ],
+      "antes": [
+        "1"
+      ],
+      "despues": [
+        "1"
+      ]
+    },
+    {
+      "id": "RAG-002",
+      "esperados": [
+        "2"
+      ],
+      "antes": [
+        "2"
+      ],
+      "despues": [
+        "2"
+      ]
+    },
+    {
+      "id": "RAG-003",
+      "esperados": [
+        "8"
+      ],
+      "antes": [
+        "8"
+      ],
+      "despues": [
+        "8"
+      ]
+    },
+    {
+      "id": "RAG-004",
+      "esperados": [
+        "27"
+      ],
+      "antes": [
+        "27"
+      ],
+      "despues": [
+        "27"
+      ]
+    },
+    {
+      "id": "RAG-005",
+      "esperados": [
+        "33"
+      ],
+      "antes": [],
+      "despues": []
+    },
+    {
+      "id": "RAG-006",
+      "esperados": [
+        "35"
+      ],
+      "antes": [],
+      "despues": []
+    },
+    {
+      "id": "RAG-007",
+      "esperados": [
+        "36"
+      ],
+      "antes": [],
+      "despues": []
+    },
+    {
+      "id": "RAG-008",
+      "esperados": [
+        "38"
+      ],
+      "antes": [],
+      "despues": []
+    },
+    {
+      "id": "RAG-009",
+      "esperados": [
+        "39"
+      ],
+      "antes": [],
+      "despues": []
+    },
+    {
+      "id": "RAG-010",
+      "esperados": [
+        "40"
+      ],
+      "antes": [],
+      "despues": []
+    },
+    {
+      "id": "RAG-051",
+      "esperados": [
+        "5"
+      ],
+      "antes": [
+        "5"
+      ],
+      "despues": [
+        "5"
+      ]
+    },
+    {
+      "id": "RAG-012",
+      "esperados": [
+        "77"
+      ],
+      "antes": [],
+      "despues": []
+    },
+    {
+      "id": "RAG-013",
+      "esperados": [
+        "92"
+      ],
+      "antes": [],
+      "despues": []
+    },
+    {
+      "id": "RAG-014",
+      "esperados": [
+        "93"
+      ],
+      "antes": [],
+      "despues": []
+    },
+    {
+      "id": "RAG-015",
+      "esperados": [
+        "94"
+      ],
+      "antes": [],
+      "despues": []
+    },
+    {
+      "id": "RAG-016",
+      "esperados": [
+        "95"
+      ],
+      "antes": [],
+      "despues": []
+    },
+    {
+      "id": "RAG-017",
+      "esperados": [
+        "111"
+      ],
+      "antes": [
+        "111"
+      ],
+      "despues": [
+        "111"
+      ]
+    },
+    {
+      "id": "RAG-018",
+      "esperados": [
+        "124"
+      ],
+      "antes": [],
+      "despues": []
+    },
+    {
+      "id": "RAG-019",
+      "esperados": [
+        "135"
+      ],
+      "antes": [],
+      "despues": []
+    },
+    {
+      "id": "RAG-020",
+      "esperados": [
+        "140"
+      ],
+      "antes": [],
+      "despues": []
+    },
+    {
+      "id": "RAG-021",
+      "esperados": [
+        "146"
+      ],
+      "antes": [],
+      "despues": []
+    },
+    {
+      "id": "RAG-022",
+      "esperados": [
+        "150"
+      ],
+      "antes": [
+        "150"
+      ],
+      "despues": [
+        "150"
+      ]
+    },
+    {
+      "id": "RAG-023",
+      "esperados": [
+        "155"
+      ],
+      "antes": [],
+      "despues": []
+    },
+    {
+      "id": "RAG-024",
+      "esperados": [
+        "163"
+      ],
+      "antes": [],
+      "despues": []
+    },
+    {
+      "id": "RAG-025",
+      "esperados": [
+        "180"
+      ],
+      "antes": [
+        "180"
+      ],
+      "despues": [
+        "180"
+      ]
+    },
+    {
+      "id": "RAG-026",
+      "esperados": [
+        "206"
+      ],
+      "antes": [
+        "206"
+      ],
+      "despues": [
+        "206"
+      ]
+    },
+    {
+      "id": "RAG-027",
+      "esperados": [
+        "222"
+      ],
+      "antes": [
+        "222"
+      ],
+      "despues": [
+        "222"
+      ]
+    },
+    {
+      "id": "RAG-028",
+      "esperados": [
+        "223"
+      ],
+      "antes": [
+        "223"
+      ],
+      "despues": [
+        "223"
+      ]
+    },
+    {
+      "id": "RAG-029",
+      "esperados": [
+        "223A"
+      ],
+      "antes": [],
+      "despues": []
+    },
+    {
+      "id": "RAG-030",
+      "esperados": [
+        "237"
+      ],
+      "antes": [],
+      "despues": []
+    },
+    {
+      "id": "RAG-031",
+      "esperados": [
+        "27"
+      ],
+      "antes": [],
+      "despues": []
+    },
+    {
+      "id": "RAG-032",
+      "esperados": [
+        "33"
+      ],
+      "antes": [],
+      "despues": []
+    },
+    {
+      "id": "RAG-033",
+      "esperados": [
+        "35"
+      ],
+      "antes": [],
+      "despues": []
+    },
+    {
+      "id": "RAG-034",
+      "esperados": [
+        "38"
+      ],
+      "antes": [],
+      "despues": []
+    },
+    {
+      "id": "RAG-035",
+      "esperados": [
+        "77"
+      ],
+      "antes": [
+        "77"
+      ],
+      "despues": [
+        "77"
+      ]
+    },
+    {
+      "id": "RAG-036",
+      "esperados": [
+        "92"
+      ],
+      "antes": [],
+      "despues": []
+    },
+    {
+      "id": "RAG-037",
+      "esperados": [
+        "93"
+      ],
+      "antes": [
+        "93"
+      ],
+      "despues": [
+        "93"
+      ]
+    },
+    {
+      "id": "RAG-038",
+      "esperados": [
+        "94"
+      ],
+      "antes": [
+        "94"
+      ],
+      "despues": [
+        "94"
+      ]
+    },
+    {
+      "id": "RAG-039",
+      "esperados": [
+        "95"
+      ],
+      "antes": [],
+      "despues": []
+    },
+    {
+      "id": "RAG-040",
+      "esperados": [
+        "111"
+      ],
+      "antes": [
+        "111"
+      ],
+      "despues": [
+        "111"
+      ]
+    },
+    {
+      "id": "RAG-041",
+      "esperados": [
+        "124"
+      ],
+      "antes": [],
+      "despues": []
+    },
+    {
+      "id": "RAG-042",
+      "esperados": [
+        "135"
+      ],
+      "antes": [],
+      "despues": []
+    },
+    {
+      "id": "RAG-043",
+      "esperados": [
+        "140"
+      ],
+      "antes": [],
+      "despues": [
+        "140"
+      ]
+    },
+    {
+      "id": "RAG-044",
+      "esperados": [
+        "146"
+      ],
+      "antes": [],
+      "despues": [
+        "146"
+      ]
+    },
+    {
+      "id": "RAG-045",
+      "esperados": [
+        "150"
+      ],
+      "antes": [
+        "150"
+      ],
+      "despues": [
+        "150"
+      ]
+    },
+    {
+      "id": "RAG-046",
+      "esperados": [
+        "155"
+      ],
+      "antes": [],
+      "despues": []
+    },
+    {
+      "id": "RAG-047",
+      "esperados": [
+        "163"
+      ],
+      "antes": [],
+      "despues": []
+    },
+    {
+      "id": "RAG-048",
+      "esperados": [
+        "180"
+      ],
+      "antes": [],
+      "despues": []
+    },
+    {
+      "id": "RAG-049",
+      "esperados": [
+        "222"
+      ],
+      "antes": [
+        "222"
+      ],
+      "despues": [
+        "222"
+      ]
+    },
+    {
+      "id": "RAG-050",
+      "esperados": [
+        "223"
+      ],
+      "antes": [
+        "223"
+      ],
+      "despues": [
+        "223"
+      ]
+    }
+  ]
+}

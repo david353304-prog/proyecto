@@ -1,0 +1,314 @@
+{"consulta": 1, "evento": "inicio"}
+{"consulta": 1, "evento": "fin", "http": 200}
+{"consulta": 2, "evento": "inicio"}
+{"consulta": 2, "evento": "fin", "http": 200}
+{"consulta": 3, "evento": "inicio"}
+{"consulta": 3, "evento": "fin", "http": 200}
+{"consulta": 4, "evento": "inicio"}
+{"consulta": 4, "evento": "fin", "http": 200}
+{"consulta": 5, "evento": "inicio"}
+{"consulta": 5, "evento": "fin", "http": 200}
+{"consulta": 6, "evento": "inicio"}
+{"consulta": 6, "evento": "fin", "http": 200}
+{"consulta": 7, "evento": "inicio"}
+{"consulta": 7, "evento": "fin", "http": 200}
+{"consulta": 8, "evento": "inicio"}
+{"consulta": 8, "evento": "fin", "http": 200}
+{"consulta": 9, "evento": "inicio"}
+{"consulta": 9, "evento": "fin", "http": 200}
+{"consulta": 10, "evento": "inicio"}
+{"consulta": 10, "evento": "fin", "http": 200}
+{"consulta": 11, "evento": "inicio"}
+{"consulta": 11, "evento": "fin", "http": 200}
+{"consulta": 12, "evento": "inicio"}
+{"consulta": 12, "evento": "fin", "http": 200}
+{"consulta": 13, "evento": "inicio"}
+{"consulta": 13, "evento": "fin", "http": 200}
+{"consulta": 14, "evento": "inicio"}
+{"consulta": 14, "evento": "fin", "http": 200}
+{"consulta": 15, "evento": "inicio"}
+{"consulta": 15, "evento": "fin", "http": 200}
+{"consulta": 16, "evento": "inicio"}
+{"consulta": 16, "evento": "fin", "http": 200}
+{"consulta": 17, "evento": "inicio"}
+{"consulta": 17, "evento": "fin", "http": 200}
+{"consulta": 18, "evento": "inicio"}
+{"consulta": 18, "evento": "fin", "http": 200}
+{"consulta": 19, "evento": "inicio"}
+{"consulta": 19, "evento": "fin", "http": 200}
+{"consulta": 20, "evento": "inicio"}
+{"consulta": 20, "evento": "fin", "http": 200}
+{"consulta": 21, "evento": "inicio"}
+{"consulta": 21, "evento": "fin", "http": 200}
+{"consulta": 22, "evento": "inicio"}
+{"consulta": 22, "evento": "fin", "http": 200}
+{"consulta": 23, "evento": "inicio"}
+{"consulta": 23, "evento": "fin", "http": 200}
+{"consulta": 24, "evento": "inicio"}
+{"consulta": 24, "evento": "fin", "http": 200}
+{"consulta": 25, "evento": "inicio"}
+{"consulta": 25, "evento": "fin", "http": 200}
+{"consulta": 26, "evento": "inicio"}
+{"consulta": 26, "evento": "fin", "http": 200}
+{"consulta": 27, "evento": "inicio"}
+{"consulta": 27, "evento": "recuperacion", "segundos": 0.181787}
+{"consulta": 27, "evento": "contexto", "segundos": 6.3e-05, "sha256": "c3e1811dde7f8a75d86b1253bc45b1cee4600cb5ff59c273fc23b1790f9fb62f"}
+{"consulta": 27, "evento": "intento", "segundos": 1.677668}
+{"consulta": 27, "evento": "generacion", "segundos": 1.77633}
+{"consulta": 27, "evento": "seleccion_citas", "segundos": 0.002484, "aceptada": true}
+{"consulta": 27, "evento": "validacion", "segundos": 0.019941, "estado": "PENDIENTE_VALIDACION"}
+{"consulta": 27, "evento": "fin", "http": 200}
+{"consulta": 28, "evento": "inicio"}
+{"consulta": 28, "evento": "recuperacion", "segundos": 0.045568}
+{"consulta": 28, "evento": "contexto", "segundos": 2.3e-05, "sha256": "3b3893a8afcc3845519de521cb80fd2a82b970a8137c45f16d4827890345bb2a"}
+{"consulta": 28, "evento": "intento", "segundos": 1.928034}
+{"consulta": 28, "evento": "generacion", "segundos": 1.932643}
+{"consulta": 28, "evento": "seleccion_citas", "segundos": 0.000454, "aceptada": true}
+{"consulta": 28, "evento": "validacion", "segundos": 0.001781, "estado": "PENDIENTE_VALIDACION"}
+{"consulta": 28, "evento": "fin", "http": 200}
+{"consulta": 29, "evento": "inicio"}
+{"consulta": 29, "evento": "recuperacion", "segundos": 0.046813}
+{"consulta": 29, "evento": "contexto", "segundos": 4.5e-05, "sha256": "059e4c05282c1ace2ddcd2fb2dbece9643f9f3b18b11b9b8714e12addef1f89f"}
+{"consulta": 29, "evento": "intento", "segundos": 2.61019}
+{"consulta": 29, "evento": "generacion", "segundos": 2.61817}
+{"consulta": 29, "evento": "seleccion_citas", "segundos": 0.001085, "aceptada": false}
+{"consulta": 29, "evento": "fin", "http": 200}
+{"consulta": 30, "evento": "inicio"}
+{"consulta": 30, "evento": "recuperacion", "segundos": 0.102214}
+{"consulta": 30, "evento": "contexto", "segundos": 3.9e-05, "sha256": "db8df73a0b08bf2f354328e2958b88f50a1e7bd5618097d925524c45eb07fc91"}
+{"consulta": 30, "evento": "intento", "segundos": 1.113804}
+{"consulta": 30, "evento": "generacion", "segundos": 1.12187}
+{"consulta": 30, "evento": "seleccion_citas", "segundos": 0.00044, "aceptada": true}
+{"consulta": 30, "evento": "validacion", "segundos": 0.001786, "estado": "PENDIENTE_VALIDACION"}
+{"consulta": 30, "evento": "fin", "http": 200}
+{"consulta": 31, "evento": "inicio"}
+{"consulta": 31, "evento": "fin", "http": 200}
+{"consulta": 32, "evento": "inicio"}
+{"consulta": 32, "evento": "fin", "http": 200}
+{"consulta": 33, "evento": "inicio"}
+{"consulta": 33, "evento": "recuperacion", "segundos": 0.070586}
+{"consulta": 33, "evento": "contexto", "segundos": 2.2e-05, "sha256": "ed95d0f9cebf2cce4ff3c0811e04ac462c477fdfb36d80ca8322e8773c494367"}
+{"consulta": 33, "evento": "intento", "segundos": 1.189766}
+{"consulta": 33, "evento": "generacion", "segundos": 1.194482}
+{"consulta": 33, "evento": "seleccion_citas", "segundos": 0.000324, "aceptada": true}
+{"consulta": 33, "evento": "validacion", "segundos": 0.001161, "estado": "PENDIENTE_VALIDACION"}
+{"consulta": 33, "evento": "fin", "http": 200}
+{"consulta": 34, "evento": "inicio"}
+{"consulta": 34, "evento": "fin", "http": 200}
+{"consulta": 35, "evento": "inicio"}
+{"consulta": 35, "evento": "recuperacion", "segundos": 0.051573}
+{"consulta": 35, "evento": "contexto", "segundos": 3.1e-05, "sha256": "a686a15a59888ea58b0302e83618bd1d5aa11ddc0503944d6f9a11ccd5d9678e"}
+{"consulta": 35, "evento": "intento", "segundos": 1.705332}
+{"consulta": 35, "evento": "generacion", "segundos": 1.710724}
+{"consulta": 35, "evento": "seleccion_citas", "segundos": 0.000142, "aceptada": true}
+{"consulta": 35, "evento": "validacion", "segundos": 0.001391, "estado": "PENDIENTE_VALIDACION"}
+{"consulta": 35, "evento": "fin", "http": 200}
+{"consulta": 36, "evento": "inicio"}
+{"consulta": 36, "evento": "fin", "http": 200}
+{"consulta": 37, "evento": "inicio"}
+{"consulta": 37, "evento": "recuperacion", "segundos": 0.053598}
+{"consulta": 37, "evento": "contexto", "segundos": 2.6e-05, "sha256": "43c127deb6d82fa1930d014d21553576f76f874ee17b6e339568d88d7b95e7ff"}
+{"consulta": 37, "evento": "intento", "segundos": 2.239184}
+{"consulta": 37, "evento": "generacion", "segundos": 2.244529}
+{"consulta": 37, "evento": "seleccion_citas", "segundos": 0.000124, "aceptada": true}
+{"consulta": 37, "evento": "validacion", "segundos": 0.000947, "estado": "PENDIENTE_VALIDACION"}
+{"consulta": 37, "evento": "fin", "http": 200}
+{"consulta": 38, "evento": "inicio"}
+{"consulta": 38, "evento": "recuperacion", "segundos": 0.061691}
+{"consulta": 38, "evento": "contexto", "segundos": 3.6e-05, "sha256": "0c517132a11a8a0a672d682765e6e6f4aa59c0e04b4bf1bb88c6ca219b757c25"}
+{"consulta": 38, "evento": "intento", "segundos": 2.294904}
+{"consulta": 38, "evento": "generacion", "segundos": 2.303707}
+{"consulta": 38, "evento": "seleccion_citas", "segundos": 0.000817, "aceptada": true}
+{"consulta": 38, "evento": "validacion", "segundos": 0.005248, "estado": "PENDIENTE_VALIDACION"}
+{"consulta": 38, "evento": "fin", "http": 200}
+{"consulta": 39, "evento": "inicio"}
+{"consulta": 39, "evento": "fin", "http": 200}
+{"consulta": 40, "evento": "inicio"}
+{"consulta": 40, "evento": "fin", "http": 200}
+{"consulta": 41, "evento": "inicio"}
+{"consulta": 41, "evento": "recuperacion", "segundos": 0.110353}
+{"consulta": 41, "evento": "contexto", "segundos": 3.5e-05, "sha256": "a63b1732f4070f0874e202535b5c856ca3f8a36f21c3a20774cec47003f50f8c"}
+{"consulta": 41, "evento": "intento", "segundos": 2.653849}
+{"consulta": 41, "evento": "generacion", "segundos": 2.658598}
+{"consulta": 41, "evento": "seleccion_citas", "segundos": 0.000799, "aceptada": true}
+{"consulta": 41, "evento": "validacion", "segundos": 0.002226, "estado": "PENDIENTE_VALIDACION"}
+{"consulta": 41, "evento": "fin", "http": 200}
+{"consulta": 42, "evento": "inicio"}
+{"consulta": 42, "evento": "fin", "http": 200}
+{"consulta": 43, "evento": "inicio"}
+{"consulta": 43, "evento": "recuperacion", "segundos": 0.056268}
+{"consulta": 43, "evento": "contexto", "segundos": 4e-05, "sha256": "ce3230c22248de341242f6702664a8b7dbc9db42854020a8e42f42f179afe08d"}
+{"consulta": 43, "evento": "intento", "segundos": 1.311638}
+{"consulta": 43, "evento": "generacion", "segundos": 1.316053}
+{"consulta": 43, "evento": "seleccion_citas", "segundos": 0.000138, "aceptada": true}
+{"consulta": 43, "evento": "validacion", "segundos": 0.000754, "estado": "PENDIENTE_VALIDACION"}
+{"consulta": 43, "evento": "fin", "http": 200}
+{"consulta": 44, "evento": "inicio"}
+{"consulta": 44, "evento": "fin", "http": 200}
+{"consulta": 45, "evento": "inicio"}
+{"consulta": 45, "evento": "fin", "http": 200}
+{"consulta": 46, "evento": "inicio"}
+{"consulta": 46, "evento": "fin", "http": 200}
+{"consulta": 47, "evento": "inicio"}
+{"consulta": 47, "evento": "fin", "http": 200}
+{"consulta": 48, "evento": "inicio"}
+{"consulta": 48, "evento": "recuperacion", "segundos": 0.062509}
+{"consulta": 48, "evento": "contexto", "segundos": 2.7e-05, "sha256": "81c31bb4883281aea187c00bc78df441584440dcdbcdeb84a1c8ec93343c75eb"}
+{"consulta": 48, "evento": "intento", "segundos": 1.468363}
+{"consulta": 48, "evento": "generacion", "segundos": 1.473488}
+{"consulta": 48, "evento": "seleccion_citas", "segundos": 0.000239, "aceptada": false}
+{"consulta": 48, "evento": "fin", "http": 200}
+{"consulta": 49, "evento": "inicio"}
+{"consulta": 49, "evento": "fin", "http": 200}
+{"consulta": 50, "evento": "inicio"}
+{"consulta": 50, "evento": "fin", "http": 200}
+{"consulta": 51, "evento": "inicio"}
+{"consulta": 51, "evento": "recuperacion", "segundos": 0.04946}
+{"consulta": 51, "evento": "contexto", "segundos": 2.6e-05, "sha256": "3c10018dd1af219684c67c31a8580a9d04e9f7ec05c71cfae9e255276957ca9d"}
+{"consulta": 51, "evento": "intento", "segundos": 1.926751}
+{"consulta": 51, "evento": "generacion", "segundos": 1.933119}
+{"consulta": 51, "evento": "seleccion_citas", "segundos": 0.000188, "aceptada": true}
+{"consulta": 51, "evento": "validacion", "segundos": 0.000735, "estado": "PENDIENTE_VALIDACION"}
+{"consulta": 51, "evento": "fin", "http": 200}
+{"consulta": 52, "evento": "inicio"}
+{"consulta": 52, "evento": "recuperacion", "segundos": 0.064961}
+{"consulta": 52, "evento": "contexto", "segundos": 4.4e-05, "sha256": "f7cd869ff7c5e79a7238296bb982df93ff0839aa3698874038836136da3eaf18"}
+{"consulta": 52, "evento": "intento", "segundos": 0.92597}
+{"consulta": 52, "evento": "generacion", "segundos": 0.932271}
+{"consulta": 52, "evento": "seleccion_citas", "segundos": 0.000189, "aceptada": true}
+{"consulta": 52, "evento": "validacion", "segundos": 0.001081, "estado": "PENDIENTE_VALIDACION"}
+{"consulta": 52, "evento": "fin", "http": 200}
+{"consulta": 53, "evento": "inicio"}
+{"consulta": 53, "evento": "recuperacion", "segundos": 0.074099}
+{"consulta": 53, "evento": "contexto", "segundos": 2.6e-05, "sha256": "50f59352d8c96e15484486814ead603db0edcc4bcb0466c5499595ebbf8a3bd7"}
+{"consulta": 53, "evento": "intento", "segundos": 1.447273}
+{"consulta": 53, "evento": "generacion", "segundos": 1.45241}
+{"consulta": 53, "evento": "seleccion_citas", "segundos": 0.000334, "aceptada": true}
+{"consulta": 53, "evento": "validacion", "segundos": 0.002138, "estado": "PENDIENTE_VALIDACION"}
+{"consulta": 53, "evento": "fin", "http": 200}
+{"consulta": 54, "evento": "inicio"}
+{"consulta": 54, "evento": "recuperacion", "segundos": 0.05826}
+{"consulta": 54, "evento": "contexto", "segundos": 4.8e-05, "sha256": "0728f3f3ba07e127159613bd0c072dacaa56a044505be25bcab8e523007c8369"}
+{"consulta": 54, "evento": "intento", "segundos": 1.255209}
+{"consulta": 54, "evento": "generacion", "segundos": 1.261641}
+{"consulta": 54, "evento": "seleccion_citas", "segundos": 0.000408, "aceptada": true}
+{"consulta": 54, "evento": "validacion", "segundos": 0.0022, "estado": "PENDIENTE_VALIDACION"}
+{"consulta": 54, "evento": "fin", "http": 200}
+{"consulta": 55, "evento": "inicio"}
+{"consulta": 55, "evento": "fin", "http": 200}
+{"consulta": 56, "evento": "inicio"}
+{"consulta": 56, "evento": "fin", "http": 200}
+{"consulta": 57, "evento": "inicio"}
+{"consulta": 57, "evento": "recuperacion", "segundos": 0.107025}
+{"consulta": 57, "evento": "contexto", "segundos": 5.3e-05, "sha256": "db8df73a0b08bf2f354328e2958b88f50a1e7bd5618097d925524c45eb07fc91"}
+{"consulta": 57, "evento": "intento", "segundos": 2.507573}
+{"consulta": 57, "evento": "generacion", "segundos": 2.512888}
+{"consulta": 57, "evento": "seleccion_citas", "segundos": 0.000304, "aceptada": true}
+{"consulta": 57, "evento": "validacion", "segundos": 0.001366, "estado": "PENDIENTE_VALIDACION"}
+{"consulta": 57, "evento": "fin", "http": 200}
+{"consulta": 58, "evento": "inicio"}
+{"consulta": 58, "evento": "fin", "http": 200}
+{"consulta": 59, "evento": "inicio"}
+{"consulta": 59, "evento": "fin", "http": 200}
+{"consulta": 60, "evento": "inicio"}
+{"consulta": 60, "evento": "fin", "http": 200}
+{"consulta": 61, "evento": "inicio"}
+{"consulta": 61, "evento": "recuperacion", "segundos": 0.047856}
+{"consulta": 61, "evento": "contexto", "segundos": 2.5e-05, "sha256": "0c517132a11a8a0a672d682765e6e6f4aa59c0e04b4bf1bb88c6ca219b757c25"}
+{"consulta": 61, "evento": "intento", "segundos": 1.186098}
+{"consulta": 61, "evento": "generacion", "segundos": 1.191103}
+{"consulta": 61, "evento": "seleccion_citas", "segundos": 0.000438, "aceptada": true}
+{"consulta": 61, "evento": "validacion", "segundos": 0.002109, "estado": "PENDIENTE_VALIDACION"}
+{"consulta": 61, "evento": "fin", "http": 200}
+{"consulta": 62, "evento": "inicio"}
+{"consulta": 62, "evento": "fin", "http": 200}
+{"consulta": 63, "evento": "inicio"}
+{"consulta": 63, "evento": "recuperacion", "segundos": 0.09911}
+{"consulta": 63, "evento": "contexto", "segundos": 4.6e-05, "sha256": "c14518e774566a867118b749870c3f7c4c085d66c0dbbfa0a254e278d730b40f"}
+{"consulta": 63, "evento": "intento", "segundos": 1.002754}
+{"consulta": 63, "evento": "generacion", "segundos": 1.007673}
+{"consulta": 63, "evento": "seleccion_citas", "segundos": 0.000218, "aceptada": true}
+{"consulta": 63, "evento": "validacion", "segundos": 0.0014, "estado": "PENDIENTE_VALIDACION"}
+{"consulta": 63, "evento": "fin", "http": 200}
+{"consulta": 64, "evento": "inicio"}
+{"consulta": 64, "evento": "recuperacion", "segundos": 0.111492}
+{"consulta": 64, "evento": "contexto", "segundos": 2.3e-05, "sha256": "a63b1732f4070f0874e202535b5c856ca3f8a36f21c3a20774cec47003f50f8c"}
+{"consulta": 64, "evento": "intento", "segundos": 0.207421, "error": "ClientError", "categoria": "limite_o_cuota", "http_proveedor": 429}
+{"consulta": 64, "evento": "intento", "segundos": 0.277996, "error": "ClientError", "categoria": "limite_o_cuota", "http_proveedor": 429}
+{"consulta": 64, "evento": "intento", "segundos": 0.264024, "error": "ClientError", "categoria": "limite_o_cuota", "http_proveedor": 429}
+{"consulta": 64, "evento": "generacion", "segundos": 7.402531, "error": "ClientError", "categoria": "limite_o_cuota", "http_proveedor": 429}
+{"consulta": 64, "evento": "fin", "http": 500}
+{"consulta": 65, "evento": "inicio"}
+{"consulta": 65, "evento": "fin", "http": 200}
+{"consulta": 66, "evento": "inicio"}
+{"consulta": 66, "evento": "recuperacion", "segundos": 0.099266}
+{"consulta": 66, "evento": "contexto", "segundos": 2.2e-05, "sha256": "ce3230c22248de341242f6702664a8b7dbc9db42854020a8e42f42f179afe08d"}
+{"consulta": 66, "evento": "intento", "segundos": 0.264621, "error": "ClientError", "categoria": "limite_o_cuota", "http_proveedor": 429}
+{"consulta": 66, "evento": "intento", "segundos": 0.29388, "error": "ClientError", "categoria": "limite_o_cuota", "http_proveedor": 429}
+{"consulta": 66, "evento": "intento", "segundos": 36.971456}
+{"consulta": 66, "evento": "generacion", "segundos": 43.871349}
+{"consulta": 66, "evento": "seleccion_citas", "segundos": 0.000181, "aceptada": true}
+{"consulta": 66, "evento": "validacion", "segundos": 0.001134, "estado": "PENDIENTE_VALIDACION"}
+{"consulta": 66, "evento": "fin", "http": 200}
+{"consulta": 67, "evento": "inicio"}
+{"consulta": 67, "evento": "recuperacion", "segundos": 0.054976}
+{"consulta": 67, "evento": "contexto", "segundos": 2.4e-05, "sha256": "3d5c0392b934d9f5e4f48d78e5308a214e7f9fc0911901cf3e14067804cfd5d8"}
+{"consulta": 67, "evento": "intento", "segundos": 0.910034}
+{"consulta": 67, "evento": "generacion", "segundos": 0.914962}
+{"consulta": 67, "evento": "seleccion_citas", "segundos": 0.000129, "aceptada": true}
+{"consulta": 67, "evento": "validacion", "segundos": 0.000763, "estado": "PENDIENTE_VALIDACION"}
+{"consulta": 67, "evento": "fin", "http": 200}
+{"consulta": 68, "evento": "inicio"}
+{"consulta": 68, "evento": "recuperacion", "segundos": 0.065551}
+{"consulta": 68, "evento": "contexto", "segundos": 2.8e-05, "sha256": "88839b5821d9e250fc7fe0b6c79be16fed835f5685f3cf03368f4d761f4b3b00"}
+{"consulta": 68, "evento": "intento", "segundos": 8.175319}
+{"consulta": 68, "evento": "generacion", "segundos": 8.181462}
+{"consulta": 68, "evento": "seleccion_citas", "segundos": 0.000191, "aceptada": true}
+{"consulta": 68, "evento": "validacion", "segundos": 0.001086, "estado": "PENDIENTE_VALIDACION"}
+{"consulta": 68, "evento": "fin", "http": 200}
+{"consulta": 69, "evento": "inicio"}
+{"consulta": 69, "evento": "recuperacion", "segundos": 0.07961}
+{"consulta": 69, "evento": "contexto", "segundos": 4.9e-05, "sha256": "fc07bfcb6c6b3cfa9878bcfde013d2e9cdb472bd2dab18a7cfcee4259f207359"}
+{"consulta": 69, "evento": "intento", "segundos": 1.620807}
+{"consulta": 69, "evento": "generacion", "segundos": 1.626516}
+{"consulta": 69, "evento": "seleccion_citas", "segundos": 0.000407, "aceptada": true}
+{"consulta": 69, "evento": "validacion", "segundos": 0.001844, "estado": "PENDIENTE_VALIDACION"}
+{"consulta": 69, "evento": "fin", "http": 200}
+{"consulta": 70, "evento": "inicio"}
+{"consulta": 70, "evento": "recuperacion", "segundos": 0.11898}
+{"consulta": 70, "evento": "contexto", "segundos": 6.4e-05, "sha256": "66f67324bd84a3d9c253bc1464beca2d8e664044bd589f0d9a5a4956b8516608"}
+{"consulta": 70, "evento": "intento", "segundos": 3.131819}
+{"consulta": 70, "evento": "generacion", "segundos": 3.139104}
+{"consulta": 70, "evento": "seleccion_citas", "segundos": 0.000831, "aceptada": true}
+{"consulta": 70, "evento": "validacion", "segundos": 0.002458, "estado": "PENDIENTE_VALIDACION"}
+{"consulta": 70, "evento": "fin", "http": 200}
+{"consulta": 71, "evento": "inicio"}
+{"consulta": 71, "evento": "recuperacion", "segundos": 0.057766}
+{"consulta": 71, "evento": "contexto", "segundos": 2.9e-05, "sha256": "81c31bb4883281aea187c00bc78df441584440dcdbcdeb84a1c8ec93343c75eb"}
+{"consulta": 71, "evento": "intento", "segundos": 4.349341}
+{"consulta": 71, "evento": "generacion", "segundos": 4.355511}
+{"consulta": 71, "evento": "seleccion_citas", "segundos": 0.000135, "aceptada": true}
+{"consulta": 71, "evento": "validacion", "segundos": 0.001157, "estado": "PENDIENTE_VALIDACION"}
+{"consulta": 71, "evento": "fin", "http": 200}
+{"consulta": 72, "evento": "inicio"}
+{"consulta": 72, "evento": "fin", "http": 200}
+{"consulta": 73, "evento": "inicio"}
+{"consulta": 73, "evento": "fin", "http": 200}
+{"consulta": 74, "evento": "inicio"}
+{"consulta": 74, "evento": "fin", "http": 200}
+{"consulta": 75, "evento": "inicio"}
+{"consulta": 75, "evento": "recuperacion", "segundos": 0.049655}
+{"consulta": 75, "evento": "contexto", "segundos": 2.2e-05, "sha256": "50f59352d8c96e15484486814ead603db0edcc4bcb0466c5499595ebbf8a3bd7"}
+{"consulta": 75, "evento": "intento", "segundos": 1.273693}
+{"consulta": 75, "evento": "generacion", "segundos": 1.278705}
+{"consulta": 75, "evento": "seleccion_citas", "segundos": 0.000349, "aceptada": true}
+{"consulta": 75, "evento": "validacion", "segundos": 0.001361, "estado": "PENDIENTE_VALIDACION"}
+{"consulta": 75, "evento": "fin", "http": 200}
+{"consulta": 76, "evento": "inicio"}
+{"consulta": 76, "evento": "recuperacion", "segundos": 0.049182}
+{"consulta": 76, "evento": "contexto", "segundos": 2.1e-05, "sha256": "0728f3f3ba07e127159613bd0c072dacaa56a044505be25bcab8e523007c8369"}
+{"consulta": 76, "evento": "intento", "segundos": 2.64801}
+{"consulta": 76, "evento": "generacion", "segundos": 2.653484}
+{"consulta": 76, "evento": "seleccion_citas", "segundos": 0.000208, "aceptada": true}
+{"consulta": 76, "evento": "validacion", "segundos": 0.001719, "estado": "PENDIENTE_VALIDACION"}
+{"consulta": 76, "evento": "fin", "http": 200}

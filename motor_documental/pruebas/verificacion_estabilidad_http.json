@@ -1,0 +1,230 @@
+{
+  "controles": [
+    {
+      "ronda": 1,
+      "id": "RAG-035",
+      "http": 200,
+      "segundos": 2.284179,
+      "faltantes": [],
+      "citas_literales_y_visibles": true,
+      "pasa": true
+    },
+    {
+      "ronda": 1,
+      "id": "RAG-045",
+      "http": 200,
+      "segundos": 1.755308,
+      "faltantes": [],
+      "citas_literales_y_visibles": true,
+      "pasa": true
+    },
+    {
+      "ronda": 1,
+      "id": "RAG-041",
+      "http": 200,
+      "segundos": 6.057884,
+      "faltantes": [],
+      "citas_literales_y_visibles": true,
+      "pasa": true
+    },
+    {
+      "ronda": 2,
+      "id": "RAG-035",
+      "http": 200,
+      "segundos": 1.787638,
+      "faltantes": [],
+      "citas_literales_y_visibles": true,
+      "pasa": true
+    },
+    {
+      "ronda": 2,
+      "id": "RAG-045",
+      "http": 200,
+      "segundos": 4.381305,
+      "faltantes": [],
+      "citas_literales_y_visibles": true,
+      "pasa": true
+    },
+    {
+      "ronda": 2,
+      "id": "RAG-041",
+      "http": 200,
+      "segundos": 5.359552,
+      "faltantes": [],
+      "citas_literales_y_visibles": true,
+      "pasa": true
+    },
+    {
+      "ronda": 3,
+      "id": "RAG-001",
+      "http": 200,
+      "segundos": 3.94472,
+      "faltantes": [],
+      "citas_literales_y_visibles": true,
+      "pasa": true
+    },
+    {
+      "ronda": 3,
+      "id": "RAG-002",
+      "http": 200,
+      "segundos": 2.718392,
+      "faltantes": [],
+      "citas_literales_y_visibles": true,
+      "pasa": true
+    },
+    {
+      "ronda": 3,
+      "id": "RAG-003",
+      "http": 200,
+      "segundos": 3.999336,
+      "faltantes": [],
+      "citas_literales_y_visibles": true,
+      "pasa": true
+    },
+    {
+      "ronda": 3,
+      "id": "RAG-007",
+      "http": 200,
+      "segundos": 2.672491,
+      "faltantes": [],
+      "citas_literales_y_visibles": true,
+      "pasa": true
+    },
+    {
+      "ronda": 3,
+      "id": "RAG-009",
+      "http": 200,
+      "segundos": 2.366358,
+      "faltantes": [],
+      "citas_literales_y_visibles": true,
+      "pasa": true
+    },
+    {
+      "ronda": 3,
+      "id": "RAG-051",
+      "http": 200,
+      "segundos": 1.939761,
+      "faltantes": [],
+      "citas_literales_y_visibles": true,
+      "pasa": true
+    },
+    {
+      "ronda": 3,
+      "id": "RAG-012",
+      "http": 200,
+      "segundos": 4.062359,
+      "faltantes": [],
+      "citas_literales_y_visibles": true,
+      "pasa": true
+    },
+    {
+      "ronda": 3,
+      "id": "RAG-015",
+      "http": 200,
+      "segundos": 2.683416,
+      "faltantes": [],
+      "citas_literales_y_visibles": true,
+      "pasa": true
+    },
+    {
+      "ronda": 3,
+      "id": "RAG-016",
+      "http": 200,
+      "segundos": 4.315691,
+      "faltantes": [],
+      "citas_literales_y_visibles": true,
+      "pasa": true
+    },
+    {
+      "ronda": 3,
+      "id": "RAG-017",
+      "http": 200,
+      "segundos": 3.048288,
+      "faltantes": [],
+      "citas_literales_y_visibles": true,
+      "pasa": true
+    },
+    {
+      "ronda": 3,
+      "id": "RAG-022",
+      "http": 200,
+      "segundos": 4.503126,
+      "faltantes": [],
+      "citas_literales_y_visibles": true,
+      "pasa": true
+    },
+    {
+      "ronda": 3,
+      "id": "RAG-031",
+      "http": 200,
+      "segundos": 9.601311,
+      "faltantes": [],
+      "citas_literales_y_visibles": true,
+      "pasa": true
+    },
+    {
+      "ronda": 3,
+      "id": "RAG-037",
+      "http": 200,
+      "segundos": 2.667993,
+      "faltantes": [],
+      "citas_literales_y_visibles": true,
+      "pasa": true
+    },
+    {
+      "ronda": 3,
+      "id": "RAG-038",
+      "http": 200,
+      "segundos": 13.920895,
+      "faltantes": [],
+      "citas_literales_y_visibles": true,
+      "pasa": true
+    },
+    {
+      "ronda": 3,
+      "id": "RAG-039",
+      "http": 200,
+      "segundos": 24.837269,
+      "faltantes": [],
+      "citas_literales_y_visibles": true,
+      "pasa": true
+    },
+    {
+      "ronda": 3,
+      "id": "RAG-040",
+      "http": 200,
+      "segundos": 5.276944,
+      "faltantes": [],
+      "citas_literales_y_visibles": true,
+      "pasa": true
+    },
+    {
+      "ronda": 3,
+      "id": "RAG-042",
+      "http": 200,
+      "segundos": 10.299161,
+      "faltantes": [],
+      "citas_literales_y_visibles": true,
+      "pasa": true
+    },
+    {
+      "ronda": 3,
+      "id": "RAG-043",
+      "http": 200,
+      "segundos": 4.498531,
+      "faltantes": [],
+      "citas_literales_y_visibles": true,
+      "pasa": true
+    },
+    {
+      "ronda": 3,
+      "id": "RAG-044",
+      "http": 200,
+      "segundos": 1.848394,
+      "faltantes": [],
+      "citas_literales_y_visibles": true,
+      "pasa": true
+    }
+  ],
+  "pasan": true
+}

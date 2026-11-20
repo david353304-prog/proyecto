@@ -1,5 +1,6 @@
 """Análisis lingüístico académico de la Ley 1801 de 2016."""
 
+import argparse
 import json
 import hashlib
 import math
@@ -55,18 +56,50 @@ GLOSARIO = {
 
 PATRONES_ENTIDADES = {
     "AUTORIDAD": r"\b(?:Policía Nacional|Corte Constitucional|Ministerio del Interior|"
+                 r"Instituto Colombiano de Bienestar Familiar|Ministerio Público|"
                  r"inspector(?:es)? de Policía|alcald(?:e|es|ía|ías)|corregidor(?:es)?)\b",
     "LUGAR": r"\b(?:Colombia|Bogotá|espacio público|territorio nacional)\b",
     "MONTO": r"\b\d+(?:[.,]\d+)?\s*(?:%|pesos\b|(?:sml[dv]v|uvb|uvt)\b)|"
              r"\b(?:\d+|\(\d+\))\s*salarios mínimos(?: legales)?\b",
-    "PLAZO": r"\b(?:\d+|[a-záéíóú]+\s+\(\d+\))\s+"
+    "PLAZO": r"\b(?:\d+|(?:treinta|cuarenta|cincuenta|sesenta|setenta|ochenta|noventa)\s+y\s+"
+             r"(?:un[oa]?|dos|tres|cuatro|cinco|seis|siete|ocho|nueve)\s+\(\d+\)|"
+             r"[a-záéíóú]+\s+\(\d+\))\s+"
              r"(?:horas?|días?|mes(?:es)?|años?)(?:\s+hábiles)?\b",
 }
 
 
+def entidades_por_reglas(tipo, patron, texto):
+    for coincidencia in re.finditer(patron, texto, re.I):
+        if tipo == "PLAZO":
+            antes = texto[max(0, coincidencia.start() - 40):coincidencia.start()]
+            despues = texto[coincidencia.end():coincidencia.end() + 12]
+            if ("año" in coincidencia[0].casefold() and (
+                re.search(r"\b(?:edades?|mayor(?:es)?|menor(?:es)?)\s+de\s*$", antes, re.I)
+                or re.match(r"\s+de edad\b", despues, re.I)
+            )):
+                continue
+        yield coincidencia[0].casefold()
+
+
 def main():
-    datos = CORPUS.read_bytes()
-    articulos = json.loads(datos)
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--publicable", action="store_true")
+    parser.add_argument("--salida", type=Path)
+    args = parser.parse_args()
+    if args.publicable and not args.salida:
+        parser.error("--publicable requiere una salida separada")
+    salida = args.salida or SALIDA
+    if args.publicable:
+        from motor_documental.vigencia_rag import corpus_publicable
+
+        articulos = [
+            {"numero": numero, "texto": registro["texto"]}
+            for numero, registro in corpus_publicable().items()
+        ]
+        datos = json.dumps(articulos, ensure_ascii=False, sort_keys=True).encode("utf-8")
+    else:
+        datos = CORPUS.read_bytes()
+        articulos = json.loads(datos)
     nlp = spacy.load("es_core_news_sm")
 
     textos = [
@@ -128,7 +161,7 @@ def main():
         texto = doc.text
         for tipo, patron in PATRONES_ENTIDADES.items():
             entidades_juridicas[tipo].update(
-                m[0].casefold() for m in re.finditer(patron, texto, re.I)
+                entidades_por_reglas(tipo, patron, texto)
             )
 
         for termino in TERMINOS:
@@ -184,7 +217,7 @@ def main():
     asociaciones.sort(key=lambda fila: (-fila["pmi"], fila["terminos"]))
 
     resultados = {
-        "corpus": "Ley 1801 de 2016",
+        "corpus": "Ley 1801 de 2016, apartados públicos" if args.publicable else "Ley 1801 de 2016",
         "sha256_corpus": hashlib.sha256(datos).hexdigest(),
         "modelo": "es_core_news_sm",
         "version_modelo": nlp.meta["version"],
@@ -229,7 +262,18 @@ def main():
         ),
     }
 
-    SALIDA.write_text(
+    if args.publicable:
+        manifiesto = CORPUS.parent.parent / "embeddings" / "metadatos_publicables.json"
+        fragmentos = json.loads(manifiesto.read_bytes())["fragmentos"]
+        longitudes_fragmento = [
+            sum(not token.is_space and not token.is_punct for token in nlp.make_doc(f["texto"]))
+            for f in fragmentos
+        ]
+        resultados["fragmentos"] = len(fragmentos)
+        resultados["longitud_media_fragmento_tokens"] = round(
+            sum(longitudes_fragmento) / len(longitudes_fragmento), 2
+        )
+    salida.write_text(
         json.dumps(
             resultados,
             ensure_ascii=False,
@@ -243,7 +287,7 @@ def main():
     print("Tipos:", len(tipos))
     print("Relación tipo/token:", resultados["relacion_tipo_token"])
     print("Longitud media:", resultados["longitud_media_articulo_tokens"])
-    print("Archivo generado:", SALIDA)
+    print("Archivo generado:", salida)
     print("ANALISIS LINGUISTICO: COMPLETADO")
 
 

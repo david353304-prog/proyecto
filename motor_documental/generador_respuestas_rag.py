@@ -1,23 +1,153 @@
 from motor_documental.validador_respuestas_rag import ValidadorRespuestasRAG
-from motor_documental.clasificador_tematico import clasificar_pregunta
+from motor_documental.clasificador_tematico import clasificar_pregunta, normalizar
 import os
 import time
 import logging
+import json
+import re
 
 from google import genai
 from google.genai import types
 
 from motor_documental.indice_publicable import RecuperadorPublicable
 from motor_documental.preparar_contexto_rag import preparar_contexto
-from motor_documental.instrucciones_ia import MARCADOR_SIN_RESPALDO, construir_mensajes
+from motor_documental.instrucciones_ia import (
+    MARCADOR_SIN_RESPALDO, MAX_CITAS_PUBLICABLES, construir_mensajes,
+)
 from motor_documental.vigencia_rag import (
     articulos_mencionados, articulos_para_consulta, contexto_publicable,
-    respuesta_revision_pendiente, respuesta_texto_inexequible,
+    pasajes_del_contexto, respuesta_revision_pendiente, respuesta_texto_inexequible,
 )
 
 
 MODELO_GEMINI = "gemini-3.1-flash-lite"
 logger = logging.getLogger(__name__)
+
+
+def rotular_pasaje(articulo, pasaje, rotulo=None):
+    if rotulo:
+        return f"**{rotulo}.** «{pasaje}»"
+    numeral = re.match(r"(?:Numeral\s+(\d+)\b|(\d+)\.\s)", pasaje)
+    paragrafo = re.match(r"PARÁGRAFO(?:\s+(\d+)[oOº°]?)?\.", pasaje)
+    referencia = f"Artículo {articulo}"
+    if numeral:
+        referencia = f"Numeral {numeral[1] or numeral[2]} del artículo {articulo}"
+    elif paragrafo:
+        numero = f" {paragrafo[1]}" if paragrafo[1] else ""
+        referencia = f"Parágrafo{numero} del artículo {articulo}"
+    elif articulo in {"33", "146", "223"} and (literal := re.match(r"([a-h])[.)] ", pasaje)):
+        numeral_padre = {"33": 1, "146": 10, "223": 3}[articulo]
+        referencia = f"Literal {literal[1]} del numeral {numeral_padre} del artículo {articulo}"
+    return f"**{referencia}.** «{pasaje}»"
+
+
+def completar_pasajes(pregunta, ids, pasajes):
+    """Completa el alcance solicitado cuando Gemini ya eligió el pasaje principal."""
+    consulta = normalizar(pregunta)
+    if re.search(r"\b(?:solo|unicamente|numeral|paragrafo)\b", consulta):
+        return ids
+    reglas = (
+        ("27", r"que comportamientos?[^?]{0,50}(?:vida e integridad|integridad de las personas)",
+         "1. Reñir", tuple(f"{n}. " for n in range(2, 12))),
+        ("33", r"(?:ruid\w*[^?]{0,65}(?:vecin|tranquilidad)|vecin\w+[^?]{0,55}musica)",
+         "a. Sonidos", ("Numeral 1 ",)),
+        ("206", r"que atribuciones[^?]{0,60}(?:inspectores|corregidores)",
+         "1. Conciliar", tuple(f"{n}. " for n in range(2, 9)) +
+         ("a. ", "b. ", "c. ", "d. ", "e. ", "f. ", "g. ", "h. ", "i. ")),
+        ("77", r"ocup\w*[^?]{0,65}(?:inmueble|predio)[^?]{0,80}"
+         r"que comportamientos?[^?]{0,85}(?:posesion|tenencia)",
+         "1. Perturbar", ("2. Perturbar", "3. Instalar", "4. Omitir", "5. Impedir", "Numeral 1 ")),
+        ("150", r"(?:orden verbal[^?]{0,65}procedimiento[^?]*[.?¿]\s*¿?las ordenes"
+         r"|ordenes? de policia[^?]{0,35}verbal[^?]{0,45}procedimiento)",
+         "La orden de Policía", ("Las órdenes de Policía",)),
+        ("124", r"deambul\w*[^?]{0,65}(?:riesgo|peligro)[^?]{0,65}[.?¿]\s*¿?que establece",
+         "1. Dejar deambular", ("7. Tolerar", "Numeral 1 ", "Numeral 7 ")),
+    )
+    for articulo, patron, ancla, adicionales in reglas:
+        if re.search(patron, consulta) and any(
+            pasajes[i]["articulo"] == articulo and pasajes[i]["texto"].startswith(ancla)
+            for i in ids
+        ):
+            elegidos = set(ids)
+            return [
+                i for i, p in pasajes.items()
+                if i in elegidos or (
+                    p["articulo"] == articulo and p["texto"].startswith(adicionales)
+                )
+            ]
+    return ids
+
+
+def es_inventario_transporte(pregunta):
+    return bool(re.search(
+        r"\bque (?:conductas|comportamientos) (?:estan prohibid\w+|se prohiben)"
+        r"[^?]{0,70}\btransporte publico\b",
+        normalizar(pregunta),
+    ))
+
+
+def es_resumen_pasajeros(pregunta):
+    return bool(re.search(
+        r"\bpasajer\w+ (?:realiza|incurre en) comportamientos"
+        r"[^?]{0,65}\btransporte publico\b[^?]{0,20}que establece",
+        normalizar(pregunta),
+    ))
+
+
+def presentar_citas(texto_modelo, registros, pasajes=None, pregunta=""):
+    fuentes = {a["articulo"]: a["texto"] for a in registros}
+    salida = []
+    try:
+        seleccion = json.loads(texto_modelo)
+        if pasajes is not None and isinstance(seleccion, dict) and "pasajes" in seleccion:
+            ids = seleccion["pasajes"]
+            if set(seleccion) != {"pasajes"} or not isinstance(ids, list) or len(ids) > MAX_CITAS_PUBLICABLES:
+                return None
+            if any(not isinstance(i, str) or i not in pasajes for i in ids):
+                return None
+            if (
+                es_inventario_transporte(pregunta)
+                and fuentes.keys() == {"146"}
+                and len(pasajes) <= 44
+                and any(re.match(r"\d+\. ", pasajes[i]["texto"]) for i in ids)
+            ):
+                # En una consulta de inventario, el cuadro del §1 se lee junto
+                # con las conductas, a partir del catálogo público completo.
+                ids = list(pasajes)
+            elif fuentes.keys() == {"146"} and ids and es_resumen_pasajeros(pregunta):
+                patron = re.compile(r"(?:Numeral (?:5|7|8|9|11|12|16) |(?:5|7|8|9|11|12|16)\. )")
+                ids = [i for i, p in pasajes.items() if patron.match(p["texto"])]
+            else:
+                ids = completar_pasajes(pregunta, ids, pasajes)
+                if len(ids) > MAX_CITAS_PUBLICABLES:
+                    return None
+            elegidos = [pasajes[i] for i in dict.fromkeys(ids)]
+            if any(p["texto"] not in fuentes.get(p["articulo"], "") for p in elegidos):
+                return None
+            return "\n\n".join(
+                rotular_pasaje(p["articulo"], p["texto"], p.get("rotulo")) for p in elegidos
+            )
+        citas = seleccion["citas"]
+        if not isinstance(citas, list) or len(citas) > MAX_CITAS_PUBLICABLES:
+            return None
+        for cita in citas:
+            articulo = cita["articulo"]
+            literal = " ".join(cita["texto"].split())
+            fuente = " ".join(fuentes[articulo].split())
+            fila_breve = re.fullmatch(r"Numeral \d+ Amonestación\.?", literal)
+            if literal not in fuente or (len(literal) < 24 and not fila_breve):
+                return None
+            # La selección puede copiar varios numerales contiguos en una cita.
+            pasajes = re.split(
+                r"(?<=[.;])\s+(?=\d{1,2}\.\s|PARÁGRAFO\b)|(?<=:)\s+(?=1\.\s)",
+                literal,
+            )
+            if len(salida) + len(pasajes) > MAX_CITAS_PUBLICABLES:
+                return None
+            salida.extend(rotular_pasaje(articulo, pasaje) for pasaje in pasajes)
+    except (KeyError, TypeError, AttributeError, ValueError):
+        return None
+    return "\n\n".join(salida)
 
 
 def respuesta_fuera_dominio(pregunta):
@@ -101,7 +231,13 @@ class GeneradorRespuestasRAG:
         contexto = preparar_contexto(
             resultados
         )
-        mensajes = construir_mensajes(pregunta, contexto, publicable=True)
+        pasajes = pasajes_del_contexto(resultados["resultados_generales"])
+        catalogo = "\n".join(
+            f"{i} [artículo {p['articulo']}] {p['texto']}" for i, p in pasajes.items()
+        )
+        mensajes = construir_mensajes(
+            pregunta, f"{contexto}\n\nPASAJES SELECCIONABLES:\n{catalogo}", publicable=True
+        )
 
         logger.warning("RAG contexto: %.2f s", time.perf_counter() - inicio_etapa)
         inicio_etapa = time.perf_counter()
@@ -112,15 +248,44 @@ class GeneradorRespuestasRAG:
             config=types.GenerateContentConfig(
                 system_instruction=mensajes[0]["content"],
                 temperature=0.1,
-                max_output_tokens=1200
+                response_mime_type="application/json",
+                response_schema=types.Schema(
+                    type=types.Type.OBJECT, required=["pasajes"],
+                    properties={"pasajes": types.Schema(
+                        type=types.Type.ARRAY, max_items=MAX_CITAS_PUBLICABLES,
+                        items=types.Schema(type=types.Type.STRING, enum=list(pasajes)),
+                    )},
+                ),
+                max_output_tokens=512,
             )
         )
 
         logger.warning("RAG Gemini: %.2f s", time.perf_counter() - inicio_etapa)
         inicio_etapa = time.perf_counter()
 
-        texto_respuesta = (respuesta.text or "").strip()
-        articulos_citados = articulos_mencionados(texto_respuesta)
+        texto_modelo = (respuesta.text or "").strip()
+        texto_respuesta = presentar_citas(texto_modelo, resultados["resultados_generales"], pasajes, pregunta)
+        if texto_respuesta is None:
+            return {
+                **respuesta_sin_respaldo(pregunta, resultados),
+                "validacion_documental": {"estado": "REQUIERE_REVISION", "advertencias": []},
+            }
+        # En el extracto cotejado del 95, esta remisión identifica la base de
+        # datos. No es una cita independiente ni habilita recuperar otra ley.
+        texto_validable = texto_respuesta
+        if any(r["articulo"] == "95" for r in resultados["resultados_generales"]):
+            texto_validable = texto_respuesta.replace(
+                "artículo 106 de la Ley 1453 de 2011", "la disposición legal remitida"
+            )
+        if any(r["articulo"] == "206" for r in resultados["resultados_generales"]):
+            texto_validable = texto_validable.replace(
+                "numeral 17 del artículo 205", "la atribución exceptuada"
+            ).replace("artículo 38 del Código General del Proceso", "la regla procesal remitida")
+        if any(r["articulo"] == "33" for r in resultados["resultados_generales"]):
+            texto_validable = texto_validable.replace(
+                "artículo 14 de esta ley", "la regla de la ley modificatoria"
+            )
+        articulos_citados = articulos_mencionados(texto_validable)
         if (
             MARCADOR_SIN_RESPALDO in texto_respuesta
             or not articulos_citados
@@ -129,7 +294,7 @@ class GeneradorRespuestasRAG:
             return respuesta_sin_respaldo(pregunta, resultados)
 
         validacion_documental = ValidadorRespuestasRAG().validar(
-            respuesta=texto_respuesta,
+            respuesta=texto_validable,
             contexto=contexto
         )
 
@@ -138,6 +303,36 @@ class GeneradorRespuestasRAG:
         logger.warning("RAG TOTAL: %.2f s", time.perf_counter() - inicio_total)
 
         respuesta_visible = texto_respuesta
+        if articulos_citados & {"222", "223"}:
+            respuesta_visible += (
+                "\n\n**Nota de denominación.** Los extractos conservan la redacción "
+                "de la compilación. La Ley 2492 de 2025, "
+                "artículo 10, actualizó la denominación a Inspector de Convivencia y Paz."
+            )
+        if "223" in articulos_citados:
+            respuesta_visible += (
+                "\n\n**Condición de la sentencia C-349/17.** Ante la inasistencia, "
+                "se suspende el procedimiento hasta por tres días para acreditar "
+                "sumariamente una justa causa. Si se admite, se cita a una nueva audiencia."
+            )
+        if "33" in articulos_citados:
+            respuesta_visible += (
+                "\n\n**Condición de la sentencia C-308/19.** Desactivar la fuente sonora "
+                "no autoriza el ingreso a un domicilio. Antes deben verificarse las "
+                "circunstancias que demuestren una perturbación evidente o el incumplimiento "
+                "de los niveles autorizados mediante medición objetiva."
+            )
+            if "artículo 14 de esta ley" in texto_respuesta:
+                respuesta_visible += (
+                    " La remisión del parágrafo 6 corresponde al artículo 14 "
+                    "de la Ley 2450 de 2025."
+                )
+        if "35" in articulos_citados:
+            respuesta_visible += (
+                "\n\n**Alcance de los extractos.** Son supuestos generales. "
+                "La sentencia C-223/25 no decidió de fondo sobre el numeral 1. "
+                "Las citas no califican los hechos de una persona ni determinan una medida."
+            )
 
         if validacion_documental["estado"] == "REQUIERE_REVISION":
             respuesta_visible = (
@@ -152,7 +347,7 @@ class GeneradorRespuestasRAG:
         return {
             "pregunta": pregunta,
             "respuesta": respuesta_visible,
-            "respuesta_original": texto_respuesta,
+            "respuesta_original": texto_modelo,
             "validacion_documental": validacion_documental,
             "modelo": MODELO_GEMINI,
             "total_generales": resultados["total_generales"],

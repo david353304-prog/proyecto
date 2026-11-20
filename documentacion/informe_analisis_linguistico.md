@@ -193,3 +193,44 @@ Las explicaciones son orientativas y requieren contraste con los artículos corr
 El análisis permitió cuantificar las características léxicas y gramaticales del corpus, identificar términos recurrentes y documentar expresiones relacionadas con consultas de convivencia ciudadana.
 
 Los resultados sirven como evidencia del procesamiento lingüístico realizado para el prototipo académico. Las etiquetas automáticas y las explicaciones jurídicas deben interpretarse considerando las limitaciones documentadas.
+# Resultados del 19 de noviembre de 2026
+
+spaCy 3.8.18 con `es_core_news_sm` 3.8.0 procesó 21 artículos públicos
+total o parcialmente seleccionados, 1.800 tokens y 589 tipos.
+TTR 0,3272. La media es de 85,71 tokens por artículo y 54,97 por
+fragmento FAISS, contando tokens spaCy sin espacios ni signos de
+puntuación. El histórico reanalizado conserva 249 artículos, 53.943
+tokens, 5.059 tipos, TTR 0,0938 y 216,64 tokens por artículo.
+
+Las reglas conservan «cuarenta y ocho (48) horas» como una unidad y
+excluyen edades señaladas por «menor/mayor de» o «años de edad».
+Las reglas son heurísticas. Falta medir la precisión de las entidades
+con una muestra anotada. El subconjunto público no produjo
+pares PMI por encima del umbral de frecuencia del script.
+
+```bash
+python -m motor_documental.analisis.analisis_linguistico_corpus --publicable --salida linguistica_publica.json
+python -m motor_documental.analisis.analisis_linguistico_corpus --salida linguistica_historica.json
+```
+
+[JSON público](../motor_documental/analisis/resultados_linguisticos_final.json) ·
+[JSON histórico reanalizado](../motor_documental/analisis/resultados_linguisticos_historico_reanalizado.json)
+# Análisis del corpus entregado
+
+La nueva ejecución usó spaCy 3.8.18 y `es_core_news_sm` 3.8.0. El público comprende 28 artículos y 63 ventanas. Los 2.975 tokens, 844 tipos y TTR de 0,2837 se calcularon por artículo sin contar el solapamiento de las ventanas. La media es de 106,25 tokens por artículo y 55,30 por ventana. El histórico se midió por separado con 249 artículos, 53.943 tokens, 5.059 tipos, TTR de 0,0938 y media de 216,64 tokens por artículo. [Estadísticas públicas](../motor_documental/analisis/resultados_linguisticos_cierre_publico.json) · [Estadísticas históricas](../motor_documental/analisis/resultados_linguisticos_cierre_historico.json)
+
+La muestra anotada incluye 11 ejemplos redactados para cubrir un pasaje basado en el artículo 36 y casos contrastivos de lugares, autoridades, montos, plazos y edades. Se compara cada mención exacta, con minúsculas y conservando el número de ocurrencias. Antes se hallaron 13 de 15 menciones y quedaron fuera Instituto Colombiano de Bienestar Familiar y Ministerio Público. Tras añadir sus nombres, se hallaron 15 de 15 con cero falsos positivos. La exhaustividad de autoridades subió de 3/5 a 5/5. La muestra comprueba regresiones puntuales y su tamaño no permite estimar la calidad global del NER. [Muestra y etiquetas](../motor_documental/analisis/muestra_entidades.json) · [Antes](../motor_documental/analisis/evaluacion_entidades_antes.json) · [Después](../motor_documental/analisis/evaluacion_entidades_despues.json)
+
+Los JSON incluyen frecuencias, lemas, POS, entidades, n-gramas, colocaciones y KWIC de multa, comparendo, medida correctiva y espacio público. Los valores vacíos de KWIC o de colocaciones indican falta de ocurrencias o de frecuencia suficiente en el texto analizado. El glosario recoge formulaciones orientadas a búsqueda a partir de los términos del Código. Por ejemplo, una consulta coloquial sobre «una multa» puede referirse a una orden de comparendo o a una medida. La aplicación conserva esa diferencia documental.
+
+```powershell
+$py = ".venv/Scripts/python.exe"
+& $py -m motor_documental.analisis.evaluar_muestra_entidades --salida entidades.json
+& $py -m motor_documental.analisis.analisis_linguistico_corpus --publicable --salida publico.json
+& $py -m motor_documental.analisis.analisis_linguistico_corpus --salida historico.json
+```
+## Corpus público de la revisión por hitos
+
+El [análisis de esta revisión](../motor_documental/analisis/resultados_linguisticos_hitos_publicacion.json)
+se ejecutó sobre 31 artículos del corpus público con 6.453 tokens y 1.499 tipos.
+La relación tipo/token fue 0,2323 y la longitud media fue de 208,16 tokens.

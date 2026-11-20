@@ -1,0 +1,1047 @@
+{
+  "sha256_http": "8b0b396a6642d5d601644a7426e45b6142543073ceed0004149b392ffaaa7d2b",
+  "sha256_corpus": "a2b92ae92020791edb8c31005a375bd2744ed3e1d41fac76c46f9235a3be60e6",
+  "filas": [
+    {
+      "intentos": [],
+      "http_motor": 200,
+      "id": "FD-001",
+      "http_node": 200,
+      "segundos_http": 0.147618,
+      "estado": "FUERA_DE_DOMINIO",
+      "respuesta_identica": true,
+      "citas": []
+    },
+    {
+      "intentos": [],
+      "http_motor": 200,
+      "id": "FD-002",
+      "http_node": 200,
+      "segundos_http": 0.016145,
+      "estado": "FUERA_DE_DOMINIO",
+      "respuesta_identica": true,
+      "citas": []
+    },
+    {
+      "intentos": [],
+      "http_motor": 200,
+      "id": "FD-003",
+      "http_node": 200,
+      "segundos_http": 0.011892,
+      "estado": "FUERA_DE_DOMINIO",
+      "respuesta_identica": true,
+      "citas": []
+    },
+    {
+      "intentos": [],
+      "http_motor": 200,
+      "id": "FD-004",
+      "http_node": 200,
+      "segundos_http": 0.011882,
+      "estado": "FUERA_DE_DOMINIO",
+      "respuesta_identica": true,
+      "citas": []
+    },
+    {
+      "intentos": [],
+      "http_motor": 200,
+      "id": "FD-005",
+      "http_node": 200,
+      "segundos_http": 0.034122,
+      "estado": "FUERA_DE_DOMINIO",
+      "respuesta_identica": true,
+      "citas": []
+    },
+    {
+      "intentos": [],
+      "http_motor": 200,
+      "id": "FD-006",
+      "http_node": 200,
+      "segundos_http": 0.028665,
+      "estado": "FUERA_DE_DOMINIO",
+      "respuesta_identica": true,
+      "citas": []
+    },
+    {
+      "intentos": [],
+      "http_motor": 200,
+      "id": "FD-007",
+      "http_node": 200,
+      "segundos_http": 0.010314,
+      "estado": "FUERA_DE_DOMINIO",
+      "respuesta_identica": true,
+      "citas": []
+    },
+    {
+      "intentos": [],
+      "http_motor": 200,
+      "id": "FD-008",
+      "http_node": 200,
+      "segundos_http": 0.0289,
+      "estado": "FUERA_DE_DOMINIO",
+      "respuesta_identica": true,
+      "citas": []
+    },
+    {
+      "intentos": [],
+      "http_motor": 200,
+      "id": "FD-009",
+      "http_node": 200,
+      "segundos_http": 0.023374,
+      "estado": "FUERA_DE_DOMINIO",
+      "respuesta_identica": true,
+      "citas": []
+    },
+    {
+      "intentos": [],
+      "http_motor": 200,
+      "id": "FD-010",
+      "http_node": 200,
+      "segundos_http": 0.029557,
+      "estado": "FUERA_DE_DOMINIO",
+      "respuesta_identica": true,
+      "citas": []
+    },
+    {
+      "intentos": [],
+      "http_motor": 200,
+      "id": "FD-017",
+      "http_node": 200,
+      "segundos_http": 0.012553,
+      "estado": "FUERA_DE_DOMINIO",
+      "respuesta_identica": true,
+      "citas": []
+    },
+    {
+      "intentos": [],
+      "http_motor": 200,
+      "id": "FD-018",
+      "http_node": 200,
+      "segundos_http": 0.010977,
+      "estado": "FUERA_DE_DOMINIO",
+      "respuesta_identica": true,
+      "citas": []
+    },
+    {
+      "intentos": [],
+      "http_motor": 200,
+      "id": "FD-019",
+      "http_node": 200,
+      "segundos_http": 0.033516,
+      "estado": "FUERA_DE_DOMINIO",
+      "respuesta_identica": true,
+      "citas": []
+    },
+    {
+      "intentos": [],
+      "http_motor": 200,
+      "id": "FD-020",
+      "http_node": 200,
+      "segundos_http": 0.012632,
+      "estado": "FUERA_DE_DOMINIO",
+      "respuesta_identica": true,
+      "citas": []
+    },
+    {
+      "intentos": [],
+      "http_motor": 200,
+      "id": "FD-021",
+      "http_node": 200,
+      "segundos_http": 0.011479,
+      "estado": "FUERA_DE_DOMINIO",
+      "respuesta_identica": true,
+      "citas": []
+    },
+    {
+      "intentos": [],
+      "http_motor": 200,
+      "id": "FD-022",
+      "http_node": 200,
+      "segundos_http": 0.034766,
+      "estado": "FUERA_DE_DOMINIO",
+      "respuesta_identica": true,
+      "citas": []
+    },
+    {
+      "intentos": [],
+      "http_motor": 200,
+      "id": "FD-023",
+      "http_node": 200,
+      "segundos_http": 0.023161,
+      "estado": "FUERA_DE_DOMINIO",
+      "respuesta_identica": true,
+      "citas": []
+    },
+    {
+      "intentos": [],
+      "http_motor": 200,
+      "id": "FD-024",
+      "http_node": 200,
+      "segundos_http": 0.033191,
+      "estado": "FUERA_DE_DOMINIO",
+      "respuesta_identica": true,
+      "citas": []
+    },
+    {
+      "intentos": [],
+      "http_motor": 200,
+      "id": "FD-028",
+      "http_node": 200,
+      "segundos_http": 0.026589,
+      "estado": "FUERA_DE_DOMINIO",
+      "respuesta_identica": true,
+      "citas": []
+    },
+    {
+      "intentos": [],
+      "http_motor": 200,
+      "id": "FD-029",
+      "http_node": 200,
+      "segundos_http": 0.024159,
+      "estado": "FUERA_DE_DOMINIO",
+      "respuesta_identica": true,
+      "citas": []
+    },
+    {
+      "intentos": [],
+      "http_motor": 200,
+      "id": "FD-030",
+      "http_node": 200,
+      "segundos_http": 0.028792,
+      "estado": "FUERA_DE_DOMINIO",
+      "respuesta_identica": true,
+      "citas": []
+    },
+    {
+      "intentos": [],
+      "http_motor": 200,
+      "id": "FD-031",
+      "http_node": 200,
+      "segundos_http": 0.013652,
+      "estado": "FUERA_DE_DOMINIO",
+      "respuesta_identica": true,
+      "citas": []
+    },
+    {
+      "intentos": [],
+      "http_motor": 200,
+      "id": "FD-032",
+      "http_node": 200,
+      "segundos_http": 0.017296,
+      "estado": "FUERA_DE_DOMINIO",
+      "respuesta_identica": true,
+      "citas": []
+    },
+    {
+      "intentos": [],
+      "http_motor": 200,
+      "id": "FD-033",
+      "http_node": 200,
+      "segundos_http": 0.014945,
+      "estado": "FUERA_DE_DOMINIO",
+      "respuesta_identica": true,
+      "citas": []
+    },
+    {
+      "intentos": [],
+      "http_motor": 200,
+      "id": "FD-034",
+      "http_node": 200,
+      "segundos_http": 0.033666,
+      "estado": "FUERA_DE_DOMINIO",
+      "respuesta_identica": true,
+      "citas": []
+    },
+    {
+      "intentos": [],
+      "http_motor": 200,
+      "id": "FD-037",
+      "http_node": 200,
+      "segundos_http": 0.02728,
+      "estado": "FUERA_DE_DOMINIO",
+      "respuesta_identica": true,
+      "citas": []
+    },
+    {
+      "intentos": [],
+      "http_motor": 200,
+      "id": "RAG-001",
+      "http_node": 200,
+      "segundos_http": 4.948018,
+      "estado": "PENDIENTE_VALIDACION",
+      "respuesta_identica": true,
+      "citas": [
+        {
+          "rotulo": "Artículo 1",
+          "articulo_esperado": true,
+          "literal_en_fuente_publica": true,
+          "numeral_concordante": true
+        }
+      ]
+    },
+    {
+      "intentos": [],
+      "http_motor": 500,
+      "id": "RAG-002",
+      "http_node": 502,
+      "segundos_http": 72.13088,
+      "estado": null,
+      "respuesta_identica": false,
+      "citas": []
+    },
+    {
+      "intentos": [],
+      "http_motor": 200,
+      "id": "RAG-003",
+      "http_node": 200,
+      "segundos_http": 10.549303,
+      "estado": "PENDIENTE_VALIDACION",
+      "respuesta_identica": true,
+      "citas": [
+        {
+          "rotulo": "Numeral 1 del artículo 8",
+          "articulo_esperado": true,
+          "literal_en_fuente_publica": true,
+          "numeral_concordante": true
+        },
+        {
+          "rotulo": "Numeral 2 del artículo 8",
+          "articulo_esperado": true,
+          "literal_en_fuente_publica": true,
+          "numeral_concordante": true
+        },
+        {
+          "rotulo": "Numeral 3 del artículo 8",
+          "articulo_esperado": true,
+          "literal_en_fuente_publica": true,
+          "numeral_concordante": true
+        },
+        {
+          "rotulo": "Numeral 4 del artículo 8",
+          "articulo_esperado": true,
+          "literal_en_fuente_publica": true,
+          "numeral_concordante": true
+        },
+        {
+          "rotulo": "Numeral 5 del artículo 8",
+          "articulo_esperado": true,
+          "literal_en_fuente_publica": true,
+          "numeral_concordante": true
+        },
+        {
+          "rotulo": "Numeral 6 del artículo 8",
+          "articulo_esperado": true,
+          "literal_en_fuente_publica": true,
+          "numeral_concordante": true
+        },
+        {
+          "rotulo": "Numeral 7 del artículo 8",
+          "articulo_esperado": true,
+          "literal_en_fuente_publica": true,
+          "numeral_concordante": true
+        },
+        {
+          "rotulo": "Numeral 8 del artículo 8",
+          "articulo_esperado": true,
+          "literal_en_fuente_publica": true,
+          "numeral_concordante": true
+        },
+        {
+          "rotulo": "Numeral 9 del artículo 8",
+          "articulo_esperado": true,
+          "literal_en_fuente_publica": true,
+          "numeral_concordante": true
+        },
+        {
+          "rotulo": "Numeral 10 del artículo 8",
+          "articulo_esperado": true,
+          "literal_en_fuente_publica": true,
+          "numeral_concordante": true
+        },
+        {
+          "rotulo": "Numeral 11 del artículo 8",
+          "articulo_esperado": true,
+          "literal_en_fuente_publica": true,
+          "numeral_concordante": true
+        },
+        {
+          "rotulo": "Numeral 12 del artículo 8",
+          "articulo_esperado": true,
+          "literal_en_fuente_publica": true,
+          "numeral_concordante": true
+        },
+        {
+          "rotulo": "Numeral 13 del artículo 8",
+          "articulo_esperado": true,
+          "literal_en_fuente_publica": true,
+          "numeral_concordante": true
+        },
+        {
+          "rotulo": "Numeral 14 del artículo 8",
+          "articulo_esperado": true,
+          "literal_en_fuente_publica": true,
+          "numeral_concordante": true
+        }
+      ]
+    },
+    {
+      "intentos": [],
+      "http_motor": 200,
+      "id": "RAG-004",
+      "http_node": 200,
+      "segundos_http": 10.997919,
+      "estado": "PENDIENTE_VALIDACION",
+      "respuesta_identica": true,
+      "citas": [
+        {
+          "rotulo": "Numeral 1 del artículo 27",
+          "articulo_esperado": true,
+          "literal_en_fuente_publica": true,
+          "numeral_concordante": true
+        },
+        {
+          "rotulo": "Numeral 2 del artículo 27",
+          "articulo_esperado": true,
+          "literal_en_fuente_publica": true,
+          "numeral_concordante": true
+        },
+        {
+          "rotulo": "Numeral 3 del artículo 27",
+          "articulo_esperado": true,
+          "literal_en_fuente_publica": true,
+          "numeral_concordante": true
+        },
+        {
+          "rotulo": "Numeral 4 del artículo 27",
+          "articulo_esperado": true,
+          "literal_en_fuente_publica": true,
+          "numeral_concordante": true
+        },
+        {
+          "rotulo": "Numeral 5 del artículo 27",
+          "articulo_esperado": true,
+          "literal_en_fuente_publica": true,
+          "numeral_concordante": true
+        }
+      ]
+    },
+    {
+      "intentos": [],
+      "http_motor": 200,
+      "id": "RAG-005",
+      "http_node": 200,
+      "segundos_http": 0.025615,
+      "estado": "SIN_RESPALDO",
+      "respuesta_identica": true,
+      "citas": []
+    },
+    {
+      "intentos": [],
+      "http_motor": 200,
+      "id": "RAG-006",
+      "http_node": 200,
+      "segundos_http": 0.011257,
+      "estado": "SIN_RESPALDO",
+      "respuesta_identica": true,
+      "citas": []
+    },
+    {
+      "intentos": [],
+      "http_motor": 200,
+      "id": "RAG-007",
+      "http_node": 200,
+      "segundos_http": 0.025209,
+      "estado": "SIN_RESPALDO",
+      "respuesta_identica": true,
+      "citas": []
+    },
+    {
+      "intentos": [],
+      "http_motor": 200,
+      "id": "RAG-008",
+      "http_node": 200,
+      "segundos_http": 0.035273,
+      "estado": "SIN_RESPALDO",
+      "respuesta_identica": true,
+      "citas": []
+    },
+    {
+      "intentos": [],
+      "http_motor": 200,
+      "id": "RAG-009",
+      "http_node": 200,
+      "segundos_http": 0.026466,
+      "estado": "SIN_RESPALDO",
+      "respuesta_identica": true,
+      "citas": []
+    },
+    {
+      "intentos": [],
+      "http_motor": 200,
+      "id": "RAG-010",
+      "http_node": 200,
+      "segundos_http": 0.014239,
+      "estado": "SIN_RESPALDO",
+      "respuesta_identica": true,
+      "citas": []
+    },
+    {
+      "intentos": [],
+      "http_motor": 200,
+      "id": "RAG-051",
+      "http_node": 200,
+      "segundos_http": 8.961623,
+      "estado": "PENDIENTE_VALIDACION",
+      "respuesta_identica": true,
+      "citas": [
+        {
+          "rotulo": "Artículo 5",
+          "articulo_esperado": true,
+          "literal_en_fuente_publica": true,
+          "numeral_concordante": true
+        }
+      ]
+    },
+    {
+      "intentos": [],
+      "http_motor": 200,
+      "id": "RAG-012",
+      "http_node": 200,
+      "segundos_http": 0.010352,
+      "estado": "SIN_RESPALDO",
+      "respuesta_identica": true,
+      "citas": []
+    },
+    {
+      "intentos": [],
+      "http_motor": 200,
+      "id": "RAG-013",
+      "http_node": 200,
+      "segundos_http": 0.009056,
+      "estado": "SIN_RESPALDO",
+      "respuesta_identica": true,
+      "citas": []
+    },
+    {
+      "intentos": [],
+      "http_motor": 200,
+      "id": "RAG-014",
+      "http_node": 200,
+      "segundos_http": 0.011651,
+      "estado": "SIN_RESPALDO",
+      "respuesta_identica": true,
+      "citas": []
+    },
+    {
+      "intentos": [],
+      "http_motor": 200,
+      "id": "RAG-015",
+      "http_node": 200,
+      "segundos_http": 0.008897,
+      "estado": "SIN_RESPALDO",
+      "respuesta_identica": true,
+      "citas": []
+    },
+    {
+      "intentos": [],
+      "http_motor": 200,
+      "id": "RAG-016",
+      "http_node": 200,
+      "segundos_http": 0.008969,
+      "estado": "SIN_RESPALDO",
+      "respuesta_identica": true,
+      "citas": []
+    },
+    {
+      "intentos": [],
+      "http_motor": 200,
+      "id": "RAG-017",
+      "http_node": 200,
+      "segundos_http": 19.184298,
+      "estado": "PENDIENTE_VALIDACION",
+      "respuesta_identica": false,
+      "citas": [
+        {
+          "rotulo": "Numeral 1 del artículo 111",
+          "articulo_esperado": true,
+          "literal_en_fuente_publica": true,
+          "numeral_concordante": true
+        }
+      ]
+    },
+    {
+      "intentos": [],
+      "http_motor": 200,
+      "id": "RAG-018",
+      "http_node": 200,
+      "segundos_http": 0.013423,
+      "estado": "SIN_RESPALDO",
+      "respuesta_identica": true,
+      "citas": []
+    },
+    {
+      "intentos": [],
+      "http_motor": 200,
+      "id": "RAG-019",
+      "http_node": 200,
+      "segundos_http": 0.008799,
+      "estado": "SIN_RESPALDO",
+      "respuesta_identica": true,
+      "citas": []
+    },
+    {
+      "intentos": [],
+      "http_motor": 200,
+      "id": "RAG-020",
+      "http_node": 200,
+      "segundos_http": 0.031576,
+      "estado": "SIN_RESPALDO",
+      "respuesta_identica": true,
+      "citas": []
+    },
+    {
+      "intentos": [],
+      "http_motor": 200,
+      "id": "RAG-021",
+      "http_node": 200,
+      "segundos_http": 0.030062,
+      "estado": "SIN_RESPALDO",
+      "respuesta_identica": true,
+      "citas": []
+    },
+    {
+      "intentos": [],
+      "http_motor": 200,
+      "id": "RAG-022",
+      "http_node": 200,
+      "segundos_http": 15.386733,
+      "estado": "PENDIENTE_VALIDACION",
+      "respuesta_identica": true,
+      "citas": [
+        {
+          "rotulo": "Artículo 150",
+          "articulo_esperado": true,
+          "literal_en_fuente_publica": true,
+          "numeral_concordante": true
+        }
+      ]
+    },
+    {
+      "intentos": [],
+      "http_motor": 200,
+      "id": "RAG-023",
+      "http_node": 200,
+      "segundos_http": 0.014767,
+      "estado": "SIN_RESPALDO",
+      "respuesta_identica": true,
+      "citas": []
+    },
+    {
+      "intentos": [],
+      "http_motor": 200,
+      "id": "RAG-024",
+      "http_node": 200,
+      "segundos_http": 0.015107,
+      "estado": "SIN_RESPALDO",
+      "respuesta_identica": true,
+      "citas": []
+    },
+    {
+      "intentos": [],
+      "http_motor": 200,
+      "id": "RAG-025",
+      "http_node": 200,
+      "segundos_http": 10.38543,
+      "estado": "PENDIENTE_VALIDACION",
+      "respuesta_identica": true,
+      "citas": [
+        {
+          "rotulo": "Artículo 180",
+          "articulo_esperado": true,
+          "literal_en_fuente_publica": true,
+          "numeral_concordante": true
+        }
+      ]
+    },
+    {
+      "intentos": [],
+      "http_motor": 200,
+      "id": "RAG-026",
+      "http_node": 200,
+      "segundos_http": 23.558578,
+      "estado": "PENDIENTE_VALIDACION",
+      "respuesta_identica": true,
+      "citas": [
+        {
+          "rotulo": "Numeral 1 del artículo 206",
+          "articulo_esperado": true,
+          "literal_en_fuente_publica": true,
+          "numeral_concordante": true
+        },
+        {
+          "rotulo": "Numeral 2 del artículo 206",
+          "articulo_esperado": true,
+          "literal_en_fuente_publica": true,
+          "numeral_concordante": true
+        }
+      ]
+    },
+    {
+      "intentos": [],
+      "http_motor": 200,
+      "id": "RAG-027",
+      "http_node": 200,
+      "segundos_http": 2.415601,
+      "estado": "PENDIENTE_VALIDACION",
+      "respuesta_identica": true,
+      "citas": [
+        {
+          "rotulo": "Numeral 1 del artículo 222",
+          "articulo_esperado": true,
+          "literal_en_fuente_publica": true,
+          "numeral_concordante": true
+        },
+        {
+          "rotulo": "Numeral 2 del artículo 222",
+          "articulo_esperado": true,
+          "literal_en_fuente_publica": true,
+          "numeral_concordante": true
+        },
+        {
+          "rotulo": "Numeral 3 del artículo 222",
+          "articulo_esperado": true,
+          "literal_en_fuente_publica": true,
+          "numeral_concordante": true
+        },
+        {
+          "rotulo": "Numeral 4 del artículo 222",
+          "articulo_esperado": true,
+          "literal_en_fuente_publica": true,
+          "numeral_concordante": true
+        }
+      ]
+    },
+    {
+      "intentos": [],
+      "http_motor": 200,
+      "id": "RAG-028",
+      "http_node": 200,
+      "segundos_http": 5.732471,
+      "estado": "PENDIENTE_VALIDACION",
+      "respuesta_identica": true,
+      "citas": [
+        {
+          "rotulo": "Numeral 1 del artículo 223",
+          "articulo_esperado": true,
+          "literal_en_fuente_publica": true,
+          "numeral_concordante": true
+        },
+        {
+          "rotulo": "Numeral 2 del artículo 223",
+          "articulo_esperado": true,
+          "literal_en_fuente_publica": true,
+          "numeral_concordante": true
+        }
+      ]
+    },
+    {
+      "intentos": [],
+      "http_motor": 200,
+      "id": "RAG-029",
+      "http_node": 200,
+      "segundos_http": 0.009501,
+      "estado": "SIN_RESPALDO",
+      "respuesta_identica": true,
+      "citas": []
+    },
+    {
+      "intentos": [],
+      "http_motor": 200,
+      "id": "RAG-030",
+      "http_node": 200,
+      "segundos_http": 0.010094,
+      "estado": "SIN_RESPALDO",
+      "respuesta_identica": true,
+      "citas": []
+    },
+    {
+      "intentos": [],
+      "http_motor": 200,
+      "id": "RAG-031",
+      "http_node": 200,
+      "segundos_http": 0.008711,
+      "estado": "SIN_RESPALDO",
+      "respuesta_identica": true,
+      "citas": []
+    },
+    {
+      "intentos": [],
+      "http_motor": 200,
+      "id": "RAG-032",
+      "http_node": 200,
+      "segundos_http": 0.031866,
+      "estado": "SIN_RESPALDO",
+      "respuesta_identica": true,
+      "citas": []
+    },
+    {
+      "intentos": [],
+      "http_motor": 200,
+      "id": "RAG-033",
+      "http_node": 200,
+      "segundos_http": 0.027175,
+      "estado": "SIN_RESPALDO",
+      "respuesta_identica": true,
+      "citas": []
+    },
+    {
+      "intentos": [],
+      "http_motor": 200,
+      "id": "RAG-034",
+      "http_node": 200,
+      "segundos_http": 0.031079,
+      "estado": "SIN_RESPALDO",
+      "respuesta_identica": true,
+      "citas": []
+    },
+    {
+      "intentos": [],
+      "http_motor": 200,
+      "id": "RAG-035",
+      "http_node": 200,
+      "segundos_http": 11.14056,
+      "estado": "PENDIENTE_VALIDACION",
+      "respuesta_identica": true,
+      "citas": [
+        {
+          "rotulo": "Numeral 1 del artículo 77",
+          "articulo_esperado": true,
+          "literal_en_fuente_publica": true,
+          "numeral_concordante": true
+        }
+      ]
+    },
+    {
+      "intentos": [],
+      "http_motor": 200,
+      "id": "RAG-036",
+      "http_node": 200,
+      "segundos_http": 0.007708,
+      "estado": "SIN_RESPALDO",
+      "respuesta_identica": true,
+      "citas": []
+    },
+    {
+      "intentos": [],
+      "http_motor": 200,
+      "id": "RAG-037",
+      "http_node": 200,
+      "segundos_http": 17.894872,
+      "estado": "PENDIENTE_VALIDACION",
+      "respuesta_identica": false,
+      "citas": [
+        {
+          "rotulo": "Numeral 1 del artículo 93",
+          "articulo_esperado": true,
+          "literal_en_fuente_publica": true,
+          "numeral_concordante": true
+        }
+      ]
+    },
+    {
+      "intentos": [],
+      "http_motor": 200,
+      "id": "RAG-038",
+      "http_node": 200,
+      "segundos_http": 10.037236,
+      "estado": "PENDIENTE_VALIDACION",
+      "respuesta_identica": true,
+      "citas": [
+        {
+          "rotulo": "Numeral 1 del artículo 94",
+          "articulo_esperado": true,
+          "literal_en_fuente_publica": true,
+          "numeral_concordante": true
+        }
+      ]
+    },
+    {
+      "intentos": [],
+      "http_motor": 200,
+      "id": "RAG-039",
+      "http_node": 200,
+      "segundos_http": 0.009971,
+      "estado": "SIN_RESPALDO",
+      "respuesta_identica": true,
+      "citas": []
+    },
+    {
+      "intentos": [],
+      "http_motor": 200,
+      "id": "RAG-040",
+      "http_node": 200,
+      "segundos_http": 7.766558,
+      "estado": "PENDIENTE_VALIDACION",
+      "respuesta_identica": false,
+      "citas": [
+        {
+          "rotulo": "Numeral 1 del artículo 111",
+          "articulo_esperado": true,
+          "literal_en_fuente_publica": true,
+          "numeral_concordante": true
+        },
+        {
+          "rotulo": "Numeral 3 del artículo 111",
+          "articulo_esperado": true,
+          "literal_en_fuente_publica": true,
+          "numeral_concordante": true
+        }
+      ]
+    },
+    {
+      "intentos": [],
+      "http_motor": 200,
+      "id": "RAG-041",
+      "http_node": 200,
+      "segundos_http": 0.015649,
+      "estado": "SIN_RESPALDO",
+      "respuesta_identica": true,
+      "citas": []
+    },
+    {
+      "intentos": [],
+      "http_motor": 200,
+      "id": "RAG-042",
+      "http_node": 200,
+      "segundos_http": 0.017535,
+      "estado": "SIN_RESPALDO",
+      "respuesta_identica": true,
+      "citas": []
+    },
+    {
+      "intentos": [],
+      "http_motor": 200,
+      "id": "RAG-043",
+      "http_node": 200,
+      "segundos_http": 0.038832,
+      "estado": "SIN_RESPALDO",
+      "respuesta_identica": true,
+      "citas": []
+    },
+    {
+      "intentos": [],
+      "http_motor": 200,
+      "id": "RAG-044",
+      "http_node": 200,
+      "segundos_http": 0.036137,
+      "estado": "SIN_RESPALDO",
+      "respuesta_identica": true,
+      "citas": []
+    },
+    {
+      "intentos": [],
+      "http_motor": 200,
+      "id": "RAG-045",
+      "http_node": 200,
+      "segundos_http": 8.593564,
+      "estado": "PENDIENTE_VALIDACION",
+      "respuesta_identica": true,
+      "citas": [
+        {
+          "rotulo": "Artículo 150",
+          "articulo_esperado": true,
+          "literal_en_fuente_publica": true,
+          "numeral_concordante": true
+        }
+      ]
+    },
+    {
+      "intentos": [],
+      "http_motor": 200,
+      "id": "RAG-046",
+      "http_node": 200,
+      "segundos_http": 0.010881,
+      "estado": "SIN_RESPALDO",
+      "respuesta_identica": true,
+      "citas": []
+    },
+    {
+      "intentos": [],
+      "http_motor": 200,
+      "id": "RAG-047",
+      "http_node": 200,
+      "segundos_http": 0.014339,
+      "estado": "SIN_RESPALDO",
+      "respuesta_identica": true,
+      "citas": []
+    },
+    {
+      "intentos": [],
+      "http_motor": 200,
+      "id": "RAG-048",
+      "http_node": 200,
+      "segundos_http": 0.020362,
+      "estado": "SIN_RESPALDO",
+      "respuesta_identica": true,
+      "citas": []
+    },
+    {
+      "intentos": [],
+      "http_motor": 200,
+      "id": "RAG-049",
+      "http_node": 200,
+      "segundos_http": 9.940859,
+      "estado": "PENDIENTE_VALIDACION",
+      "respuesta_identica": true,
+      "citas": [
+        {
+          "rotulo": "Numeral 1 del artículo 222",
+          "articulo_esperado": true,
+          "literal_en_fuente_publica": true,
+          "numeral_concordante": true
+        },
+        {
+          "rotulo": "Numeral 2 del artículo 222",
+          "articulo_esperado": true,
+          "literal_en_fuente_publica": true,
+          "numeral_concordante": true
+        },
+        {
+          "rotulo": "Numeral 3 del artículo 222",
+          "articulo_esperado": true,
+          "literal_en_fuente_publica": true,
+          "numeral_concordante": true
+        },
+        {
+          "rotulo": "Numeral 4 del artículo 222",
+          "articulo_esperado": true,
+          "literal_en_fuente_publica": true,
+          "numeral_concordante": true
+        }
+      ]
+    },
+    {
+      "intentos": [],
+      "http_motor": 200,
+      "id": "RAG-050",
+      "http_node": 200,
+      "segundos_http": 17.312252,
+      "estado": "PENDIENTE_VALIDACION",
+      "respuesta_identica": true,
+      "citas": [
+        {
+          "rotulo": "Numeral 1 del artículo 223",
+          "articulo_esperado": true,
+          "literal_en_fuente_publica": true,
+          "numeral_concordante": true
+        },
+        {
+          "rotulo": "Numeral 2 del artículo 223",
+          "articulo_esperado": true,
+          "literal_en_fuente_publica": true,
+          "numeral_concordante": true
+        }
+      ]
+    }
+  ]
+}

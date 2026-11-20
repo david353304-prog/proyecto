@@ -1,5 +1,28 @@
 """Prepara la información que puede recibir el frontend del chatbot."""
 
+from motor_documental.vigencia_rag import pasajes_del_contexto
+
+
+def textos_publicos(registro, texto):
+    if len(texto) <= 4096:
+        return [texto]
+    if not registro.get("apartados"):
+        return []
+    bloques = [p["texto"] for p in pasajes_del_contexto([registro]).values()]
+    if not bloques or any(len(bloque) > 4096 for bloque in bloques):
+        return []
+    fragmentos = []
+    fragmento = ""
+    for bloque in bloques:
+        candidato = f"{fragmento} {bloque}".strip()
+        if len(candidato) > 4096:
+            fragmentos.append(fragmento)
+            fragmento = bloque
+        else:
+            fragmento = candidato
+    fragmentos.append(fragmento)
+    return [f for f in fragmentos if f in texto]
+
 
 def preparar_salida_publica(resultado):
     """
@@ -77,17 +100,20 @@ def preparar_salida_publica(resultado):
                 url = registro.get("url_fuente", "")
                 if not isinstance(url, str) or not url.startswith("https://"):
                     url = ""
-                clave = (articulo, numeral, texto[:120])
-                if clave in vistos:
-                    continue
-                vistos.add(clave)
-                fuentes.append({
-                    "articulo": articulo,
-                    "numeral": numeral,
-                    "titulo": str(registro.get("titulo") or "")[:160],
-                    "texto": texto[:1200],
-                    "url_fuente": url[:500],
-                })
+                for extracto in textos_publicos(registro, texto):
+                    clave = (articulo, numeral, extracto)
+                    if clave in vistos:
+                        continue
+                    vistos.add(clave)
+                    fuentes.append({
+                        "articulo": articulo,
+                        "numeral": numeral,
+                        "titulo": str(registro.get("titulo") or "")[:160],
+                        "texto": extracto,
+                        "url_fuente": url[:500],
+                    })
+                    if len(fuentes) >= 8:
+                        break
                 if len(fuentes) >= 8:
                     break
             if len(fuentes) >= 8:

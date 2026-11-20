@@ -1,0 +1,10 @@
+{
+  "metodo": "Chromium real, HTML y JavaScript del proyecto, respuestas HTTP simuladas",
+  "respuestaSugerida": true,
+  "libre": true,
+  "historial": true,
+  "fragmento": true,
+  "enlace": true,
+  "aviso": true,
+  "reinicio": true
+}

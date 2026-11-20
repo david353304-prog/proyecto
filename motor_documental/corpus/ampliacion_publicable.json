@@ -1,5 +1,17 @@
 {
   "fecha_consulta": "2026-11-18",
+  "procedencia_insumos": {
+    "cancilleria": {
+      "fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm",
+      "fecha_captura_documentada": "2026-11-18",
+      "sha256_html": "a2c7c07cd8d52cd01c726a4e672803c75bc66668d47ada5a6a4e72795c3dd858"
+    },
+    "jurinfo": {
+      "fuente": "https://jurinfo.jep.gov.co/normograma/compilacion/docs/ley_1801_2016.htm",
+      "fecha_captura_documentada": "2026-11-18",
+      "sha256_html": "47c14539ab19405f76ab2f676ab0c5ed3a21f28effbe5d641f1719f00f34b294"
+    }
+  },
   "fuente_secundaria": "https://jurinfo.jep.gov.co/normograma/compilacion/docs/ley_1801_2016.htm",
   "articulos": {
     "3": {
@@ -38,21 +50,145 @@
       "consulta": "deber(?:es)? (?:de|para la) convivencia|comportarse de manera favorable",
       "evidencia": []
     },
-    "77": {
+    "27": {
+      "fecha_revision_documental": "2026-11-19",
+      "seleccion": {"cuerpo": [0], "numeral-1": [0], "numeral-2": [0], "numeral-3": [0], "numeral-4": [0], "numeral-5": [0], "numeral-6": [0], "numeral-7": [0], "numeral-8": [0], "numeral-9": [0], "numeral-10": [0], "numeral-11": [0], "paragrafo-12": [2], "paragrafo-13": [0]},
+      "alcance": "Conductas 1 a 11 en abstracto, fila 1 del parágrafo 1 y mediación del parágrafo 2. Ley 2197 art. 39 adicionó los numerales 8 a 11; Decreto 207 art. 19 corrigió su transcripción. C-051/20 se inhibió sobre parte del numeral 7; C-014/23 resolvió sobre otras disposiciones de Ley 2197 y no avala este alcance. Las filas 2 a 11 se excluyen; la compilación duplica el rótulo 8 en el lugar de la fila 9. No incluye permisos ni aplicación en casos particulares.",
+      "consulta": "comportamientos?.{0,45}(?:vida e integridad|integridad de las personas)|(?:rin[a-z]*|confrontaciones violentas).{0,40}(?:convivencia|agresion)|pelea.{0,20}(?:calle|espacio publico)",
+      "exclusiones_consulta": "multa|sancion|medida|cuanto|armas?|aerosol",
+      "evidencia": ["https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#27", "https://www.alcaldiabogota.gov.co/sisjur/normas/Norma1.jsp?i=68690", "https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=176406", "https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=177086", "https://www.corteconstitucional.gov.co/relatoria/2020/C-051-20.htm", "https://www.corteconstitucional.gov.co/relatoria/2023/c-014-23.htm"]
+    },
+    "33": {
+      "fecha_revision_documental": "2026-11-19",
+      "seleccion": {"numeral-1": [0], "literal-2": [0], "literal-3": [0], "literal-4": [0], "paragrafo-11": [2], "paragrafo-13": [0], "paragrafo-14": [0], "paragrafo-15": [0, 1], "paragrafo-16": [0], "paragrafo-17": [0]},
+      "alcance": "Ruido vecinal, numeral 1.a–c, su fila con multa tipo 4 y §§3–7 conforme al artículo 18 de la Ley 2450 de 2025. La nota visible recoge C-308/19: la desactivación no autoriza entrar al domicilio y exige verificar previamente la perturbación o los límites con medición objetiva. Se excluyen el numeral 2, incluido el literal c afectado por C-253/19, y la aplicación a un caso particular.",
+      "consulta": "(?:ruid|sonido)[a-z]*.{0,65}(?:vecin|tranquilidad|sosiego)|(?:vecin|vecindar)[a-z]*.{0,55}(?:musica|ruid|sonido)",
+      "exclusiones_consulta": "cuantos? decibel|como denunciar|codigo penal|puede (?:entrar|ingresar)|multa de transito",
+      "evidencia": ["https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#33", "https://jurinfo.jep.gov.co/Normograma/compilacion/docs/ley_2450_2025.htm", "https://www.corteconstitucional.gov.co/relatoria/2019/C-308-19.htm", "https://www.corteconstitucional.gov.co/relatoria/2019/C-253-19.htm"]
+    },
+    "35": {
+      "fecha_revision_documental": "2026-11-19",
+      "seleccion": {"numeral-1": [0], "numeral-2": [0], "numeral-3": [0], "numeral-5": [0], "numeral-6": [0], "numeral-7": [0]},
+      "alcance": "Conductas 1–3 y 5–7 en abstracto. C-600/19 declaró exequible el numeral 2 por los cargos analizados. C-223/25 se inhibió sobre el numeral 1 y no resolvió el fondo del alcance de la libertad de expresión. Se excluye el numeral 4 hasta verificar el cierre de D-16628, así como las medidas y diagnósticos de casos concretos.",
+      "consulta": "(?:desacat|desobedec|incumpl)[a-z]*.{0,55}(?:orden|funcion) de policia|comportamientos?.{0,75}(?:relaci|autoridad).{0,75}policia|(?:insult|irrespet)[a-z]*.{0,55}(?:desobedec|desacat)[a-z]*.{0,35}policia",
+      "exclusiones_consulta": "multa|sancion|medida|cuanto|criticar|libertad de expresion|informacion veraz",
+      "evidencia": ["https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#35", "https://www.corteconstitucional.gov.co/relatoria/2019/C-600-19.htm", "https://www.corteconstitucional.gov.co/relatoria/2025/C-223-25.htm", "https://www.corteconstitucional.gov.co/secretaria/estados/estado-no.-110-10-de-julio-de-2025.pdf"]
+    },
+    "36": {
+      "fecha_revision_documental": "2026-11-19",
+      "seleccion": {"cuerpo": [0], "paragrafo-1": [0]},
+      "alcance": "Facultad excepcional, temporal y motivada y acompañamiento. No se identificó una reforma directa ni decisión específica en las fuentes consultadas.",
+      "consulta": "restringir.{0,45}(?:movilidad|permanencia).{0,45}(?:menores|ninos|adolescentes)",
+      "evidencia": ["https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#36", "https://jurinfo.jep.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#36"]
+    },
+    "38": {
+      "fecha_revision_documental": "2026-11-19",
+      "seleccion": {"numeral-1": [0], "literal-2": [0], "literal-3": [0], "literal-4": [0], "literal-5": [0], "literal-6": [0], "literal-7": [0], "numeral-8": [0], "numeral-9": [0], "numeral-11": [0], "literal-12": [0], "literal-13": [0], "literal-14": [0], "literal-15": [0], "numeral-16": [0], "literal-17": [0], "literal-18": [0], "literal-19": [0], "literal-20": [0], "numeral-22": [0], "numeral-23": [0], "numeral-24": [0], "numeral-25": [0]},
+      "alcance": "Extracto de conductas del artículo 38 corregido por el Decreto 555 de 2017, art. 4. Se incluyen numerales 1–3, 5–6 y 8–11 y los literales respectivos, con las condiciones de acceso y seguridad. Se excluyen 4 y 7, las medidas, responsabilidad penal y decisiones sobre un caso concreto. El Auto 533/22 menciona el numeral 5.b al estudiar una demanda sobre otra disposición; no decide su vigencia.",
+      "consulta": "(?:integridad|riesgo).{0,45}(?:ninos|ninas|menores|adolescentes)|establecimiento.{0,65}(?:integridad|riesgo).{0,45}(?:menores|ninos)",
+      "exclusiones_consulta": "cuanto|sancion|multa|pena|delito|denuncia|cuidado personal",
+      "evidencia": ["https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#38", "https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=80775", "https://www.corteconstitucional.gov.co/relatoria/autos/2022/a533-22.htm"]
+    },
+    "39": {
+      "fecha_revision_documental": "2026-11-19",
       "seleccion": {"cuerpo": [0], "numeral-1": [0]},
-      "alcance": "Inciso introductorio y numeral 1 sobre perturbación por ocupación ilegal. T-391/22 aplica este numeral en su caso. Quedan fuera las medidas, el desalojo y los demás numerales.",
-      "consulta": "ocupacion ilegal|ocup(?:a|ar|aron|en|ado).{0,40}(?:inmueble|predio|terreno)|perturb[a-z]*.{0,35}(?:posesion|tenencia)",
-      "evidencia": ["https://www.corteconstitucional.gov.co/Relatoria/2022/T-391-22.htm"]
+      "alcance": "Prohibiciones del numeral 1. C-281/17 se inhibió respecto de este numeral y condicionó el parágrafo 3, excluido junto con las demás medidas y parágrafos.",
+      "consulta": "prohibiciones?.{0,35}(?:ninos|menores|adolescentes)|(?:sustancias|alcohol).{0,40}(?:prohibid|restringid).{0,40}(?:menores|adolescentes)",
+      "exclusiones_consulta": "multa|sancion|traslado|medida correctiva",
+      "evidencia": ["https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#39", "https://www.corteconstitucional.gov.co/relatoria/2017/C-281-17.htm"]
+    },
+    "77": {
+      "fecha_revision_documental": "2026-11-19",
+      "seleccion": {"cuerpo": [0], "numeral-1": [0], "numeral-2": [0], "numeral-3": [0], "numeral-4": [0], "numeral-5": [0], "paragrafo-6": [2, 3, 4, 5, 6]},
+      "alcance": "Conductas y filas de medidas en abstracto. T-391/22 estudió ocupación ilegal y T-533/24 el procedimiento y la caducidad en un caso de posesión. Se excluyen trámite, ejecución y desalojo.",
+      "consulta": "ocupacion ilegal|ocup(?:a|ar|aron|en|ado).{0,40}(?:inmueble|predio|terreno)|perturb[a-z]*.{0,35}(?:posesion|tenencia)|comportamientos?.{0,45}(?:posesion|tenencia).{0,35}inmuebles",
+      "exclusiones_consulta": "desaloj|caduc|plazo|tramite",
+      "evidencia": ["https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#77", "https://www.corteconstitucional.gov.co/Relatoria/2022/T-391-22.htm", "https://www.corteconstitucional.gov.co/relatoria/2024/T-533-24.htm"]
+    },
+    "93": {
+      "fecha_revision_documental": "2026-11-19",
+      "seleccion": {"numeral-1": [0], "paragrafo-17": [2]},
+      "alcance": "Numeral 1 y su fila del parágrafo 2 sobre protocolos de seguridad y evacuación. Se cotejaron las capturas del 18 de noviembre de 2026 y se revisó el 19. Los artículos 21 y 22 de la Ley 2450 de 2025 modificaron otros supuestos y la medida del numeral 3, fuera de esta selección. La fila incluida prevé en abstracto multa general tipo 1. Quedan fuera las demás filas, cuantías y reglas de aplicación.",
+      "consulta": "protocolos?.{0,25}evacuacion",
+      "exclusiones_consulta": "multa|sancion|medida correctiva|cuanto",
+      "evidencia": ["https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#93", "https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=259638"]
     },
     "94": {
-      "seleccion": {"cuerpo": [0], "numeral-1": [0]},
-      "alcance": "Encabezado y numeral 1 sobre incumplimiento sanitario o de seguridad. Quedan fuera las medidas y la remisión a reglas sectoriales concretas.",
-      "consulta": "sanidad|sanitari[a-z]+|salubridad",
-      "evidencia": []
+      "fecha_revision_documental": "2026-11-19",
+      "seleccion": {"cuerpo": [0], "numeral-1": [0], "numeral-2": [0], "numeral-3": [0], "numeral-4": [0], "numeral-5": [0], "numeral-6": [0], "numeral-7": [0], "numeral-8": [0], "numeral-9": [0], "paragrafo-10": [2, 3, 4, 5, 6, 7, 8, 9, 10]},
+      "alcance": "Conductas y filas del primer parágrafo. No se identificó reforma directa en las fuentes consultadas. Se excluyen las reglas sectoriales concretas, reincidencia y ejecución.",
+      "consulta": "sanidad|sanitari[a-z]+|salubridad|salud publica.{0,35}actividad economica",
+      "exclusiones_consulta": "plazo|reinciden|procedimiento",
+      "evidencia": ["https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#94", "https://www.ins.gov.co/Normatividad/Leyes/LEY%201801%20DE%202016.pdf"]
+    },
+    "95": {
+      "fecha_revision_documental": "2026-11-19",
+      "seleccion": {"numeral-1": [0], "paragrafo-15": [0], "paragrafo-16": [2]},
+      "alcance": "Equipos reportados por hurto o extravío. Numeral 1, deber de verificación del parágrafo 2 y fila 1 del parágrafo 3, medidas en abstracto. El artículo 106 de la Ley 1453 es una remisión de identificación de la base; el Decreto 1078 regula su operación y los datos. No se identificó modificación específica de la selección. C-094/20 se inhibió sobre el numeral 8, fuera del extracto. Se excluyen medidas para el caso individual y trámites de desbloqueo.",
+      "consulta": "(?:celular|telefono|equipo terminal).{0,65}(?:hurt|rob|extravi|report)|(?:hurt|rob|extravi|report)[a-z]*.{0,55}(?:celular|telefono|equipo terminal)",
+      "exclusiones_consulta": "desbloque|como consult|como registr|como denunci|delito|codigo penal|cuanto|indemniz|devolver",
+      "evidencia": ["https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#95", "https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=80538", "https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=43202", "https://www1.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=77888", "https://www.corteconstitucional.gov.co/relatoria/2020/C-094-20.htm"]
+    },
+    "111": {
+      "fecha_revision_documental": "2026-11-19",
+      "seleccion": {"numeral-1": [0], "numeral-3": [0], "numeral-8": [0], "paragrafo-16": [2, 4, 9]},
+      "alcance": "Numerales 1, 3 y 8 y sus filas del parágrafo 1. Se cotejaron las capturas del 18 de noviembre de 2026 y se revisó el 19. La compilación consultada no registra reforma directa ni fallo sobre estos apartados. Los numerales 3 y 8 describen supuestos distintos. Se excluyen la aplicación acumulada a un caso, horarios locales, cuantías y las demás medidas.",
+      "consulta": "(?:basura|residuos).{0,45}(?:horario|en la calle)|(?:horario|arrojar|dejar).{0,55}(?:basura|residuos.{0,25}(?:calle|sitio publico))",
+      "exclusiones_consulta": "multa|sancion|medida correctiva|cual es el horario|a que hora",
+      "evidencia": ["https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#111", "https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=80538"]
+    },
+    "124": {
+      "fecha_revision_documental": "2026-11-19",
+      "seleccion": {"numeral-1": [0], "numeral-7": [0], "paragrafo-11": [2, 8]},
+      "alcance": "Numerales 1 y 7 y filas respectivas del parágrafo 2. La Ley 2054 de 2020 modificó la terminología relativa a perros de manejo especial y C-048/20 condicionó el numeral 2, fuera de la selección. Se excluyen las demás conductas y medidas.",
+      "consulta": "animal[a-z]*.{0,45}(?:deambul|ataqu|atac)|(?:deambul|ataqu|atac)[a-z]*.{0,45}animal",
+      "exclusiones_consulta": "lazarillo|manejo especial|vigilancia privada",
+      "evidencia": ["https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#124", "https://sidn.ramajudicial.gov.co/SIDN/NORMATIVA/TEXTOS_COMPLETOS/7_LEYES/LEYES%202020/Ley%202054%20de%202020.pdf", "https://www.corteconstitucional.gov.co/relatoria/2020/C-048-20.htm"]
+    },
+    "135": {
+      "fecha_revision_documental": "2026-11-19",
+      "seleccion": {"literal-1": [0], "numeral-5": [0], "paragrafo-29": [0], "paragrafo-30": [0], "paragrafo-35": [5]},
+      "alcance": "Literal A, numeral 4, parágrafos 1 y 2 y fila 4 del parágrafo 7 corregida por el artículo 10 del Decreto 555 de 2017. El reconocimiento del parágrafo 2 se refiere a predios aptos y no es automático. T-535/24 exige examinar las garantías del caso antes de la ejecución; el extracto no determina la medida aplicable a un caso. Quedan fuera cuantías, otros supuestos y filas.",
+      "consulta": "(?:constru[a-z]*|obra).{0,55}(?:sin (?:contar con (?:la |el )?)?(?:licencia|permiso)|licencia caducad)|(?:sin (?:licencia|permiso)|licencia caducad).{0,55}(?:constru[a-z]*|obra)",
+      "exclusiones_consulta": "plazo|legaliza|reconocimiento|cuant[ií]a",
+      "evidencia": ["https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#135", "https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=80775", "https://www.corteconstitucional.gov.co/relatoria/2024/t-535-24.htm"]
+    },
+    "140": {
+      "fecha_revision_documental": "2026-11-19",
+      "seleccion": {"numeral-3": [0], "numeral-5": [0], "paragrafo-16": [4, 7]},
+      "alcance": "Numerales 3 y 5 y sus filas del parágrafo 2, cotejados con la corrección del artículo 11 del Decreto 555 de 2017. La Ley 2000 de 2019 y los fallos sobre ocupación y sustancias afectan apartados excluidos. No es un inventario del artículo ni una determinación de medidas para un caso.",
+      "consulta": "mobiliario (?:urbano|rural)|(?:deterior|dan|destru)[a-z]*.{0,45}(?:espacio publico|bienes (?:publicos|fiscales))",
+      "exclusiones_consulta": "ocupacion|vendedor|sustancia|consumo",
+      "evidencia": [
+        "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#140",
+        "https://www.alcaldiabogota.gov.co/sisjur/normas/Norma1.jsp?i=68690",
+        "https://www.corteconstitucional.gov.co/relatoria/2017/C-211-17.htm"
+      ]
+    },
+    "146": {
+      "fecha_revision_documental": "2026-11-19",
+      "seleccion": {
+        "cuerpo": [0], "numeral-1": [0], "numeral-2": [0], "numeral-3": [0], "numeral-4": [0],
+        "numeral-5": [0], "numeral-6": [0], "numeral-7": [0], "numeral-8": [0], "numeral-9": [0],
+        "numeral-10": [0], "literal-11": [0], "literal-12": [0], "literal-13": [0], "literal-14": [0],
+        "literal-15": [0], "literal-16": [0], "literal-17": [0], "literal-18": [0],
+        "numeral-19": [0], "numeral-20": [0], "numeral-21": [0], "numeral-22": [0],
+        "numeral-23": [0], "numeral-24": [0],
+        "paragrafo-25": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17]
+      },
+      "alcance": "Numerales 1 a 16, literales a a h del numeral 10 y filas 1 a 16 del parágrafo 1. No se identificó reforma directa de estos pasajes en las compilaciones cotejadas. C-094/20 examinó el inciso primero del parágrafo 2 sobre cámaras, excluido. Los supuestos y medidas se muestran en abstracto.",
+      "consulta": "pasajeros?.{0,60}comportamientos?.{0,65}transporte publico|(?:agredir|evadir|danar|obstaculizar).{0,60}(?:transporte publico|pasaje|alarmas)|que (?:conductas|comportamientos) (?:estan prohibid\\w+|se prohiben)[^?]{0,70}transporte publico",
+      "exclusiones_consulta": "comparendo de transito|camara|vehiculo particular|aeronautic",
+      "evidencia": [
+        "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#146",
+        "https://www.cancilleria.gov.co/sites/default/files/Normograma/docs/pdf/ley_1801_2016.pdf",
+        "https://www.corteconstitucional.gov.co/relatoria/2020/C-094-20.htm"
+      ]
     },
     "150": {
-      "seleccion": {"cuerpo": [0]},
-      "alcance": "Definición y fines de la orden de Policía. El inciso segundo y el parágrafo quedan fuera; C-391/17 estudia otra expresión del artículo.",
+      "fecha_revision_documental": "2026-11-19",
+      "seleccion": {"cuerpo": [0, 1]},
+      "alcance": "Definición, fines, cumplimiento obligatorio y plazo. C-391/17 declaró exequible por el cargo examinado la expresión del inciso segundo sobre el plazo. Se excluye el parágrafo penal.",
       "consulta": "que (?:es|significa|se entiende por) (?:una |la )?orden de policia|definicion de (?:la )?orden de policia|orden(?:es)? de policia pued(?:e|en) ser verbal(?:es)?",
       "evidencia": ["https://www.corteconstitucional.gov.co/relatoria/2017/c-391-17.htm"]
     },
@@ -63,10 +199,11 @@
       "evidencia": ["https://dapre.presidencia.gov.co/normativa/normativa/LEY%202450%20DEL%204%20DE%20MARZO%20DE%202025.pdf"]
     },
     "206": {
-      "seleccion": {"cuerpo": [0], "numeral-1": [0], "numeral-2": [0]},
-      "alcance": "Conciliación y materias de conocimiento en los numerales 1 y 2 del texto reformado por el art. 6 de la Ley 2492 de 2025. No cubre instancias, comisiones ni medidas asignadas.",
+      "fecha_revision_documental": "2026-11-19",
+      "seleccion": {"cuerpo": [0], "numeral-1": [0], "numeral-2": [0], "numeral-3": [0], "numeral-4": [0], "literal-5": [0], "literal-6": [0], "literal-7": [0], "literal-8": [0], "numeral-9": [0], "literal-10": [0], "literal-11": [0], "literal-13": [0], "literal-14": [0], "literal-15": [0], "literal-16": [0], "literal-17": [0], "literal-18": [0], "numeral-19": [0], "numeral-20": [0], "numeral-21": [0], "paragrafo-22": [0, 1]},
+      "alcance": "Atribuciones y comisiones de los inspectores de Convivencia y Paz y corregidores, según el art. 6 de la Ley 2492 de 2025. Se conserva la excepción a la primera instancia del art. 205.17 y la remisión de comisiones al Código General del Proceso. El literal c del numeral 5 se excluye por la anomalía textual publicada. No se incluyen planta, grado salarial ni otros supuestos operativos.",
       "consulta": "(?:inspector|corregidor).{0,70}(?:concili|competenc|atribucion|funcion|conoc)|(?:funcion|atribucion|competenc|conoc).{0,70}(?:inspector|corregidor)",
-      "evidencia": ["https://dapre.presidencia.gov.co/normativa/normativa/LEY%20No%202492%20DEL%2023%20DE%20JULIO%20DE%202025.pdf"]
+      "evidencia": ["https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#206", "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#205", "https://dapre.presidencia.gov.co/normativa/normativa/LEY%20No%202492%20DEL%2023%20DE%20JULIO%20DE%202025.pdf"]
     },
     "218": {
       "seleccion": {"cuerpo": [0]},
@@ -75,16 +212,18 @@
       "evidencia": ["https://www.corteconstitucional.gov.co/relatoria/2021/t-234-21.htm"]
     },
     "222": {
-      "seleccion": {"cuerpo": [0], "numeral-1": [0], "numeral-2": [0], "numeral-3": [0], "numeral-4": [0]},
-      "alcance": "Etapas y descargos del proceso verbal inmediato. Se excluyen los parágrafos. C-282/17 resolvió sobre el efecto devolutivo en el parágrafo 1.",
+      "fecha_revision_documental": "2026-11-19",
+      "seleccion": {"cuerpo": [0], "numeral-1": [0], "numeral-2": [0], "numeral-3": [0], "numeral-4": [0], "paragrafo-5": [0]},
+      "alcance": "Etapas, descargos y apelación del parágrafo 1. C-282/17 declaró exequible el efecto devolutivo por el cargo estudiado. Artículo 10 de Ley 2492: la denominación actual es Inspector de Convivencia y Paz. El Decreto 768 complementa el trámite. No se incluyen reincidencia, aplicación individual u otros parágrafos.",
       "consulta": "proceso verbal inmediato|descargos",
-      "evidencia": ["https://www.corteconstitucional.gov.co/Relatoria/2017/C-282-17"]
+      "evidencia": ["https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#222", "https://www.corteconstitucional.gov.co/relatoria/2017/C-282-17.htm", "https://dapre.presidencia.gov.co/normativa/normativa/LEY%20No%202492%20DEL%2023%20DE%20JULIO%20DE%202025.pdf", "https://dapre.presidencia.gov.co/normativa/normativa/DECRETO%200768%20DEL%2007%20DE%20JULIO%20DE%202025.pdf"]
     },
     "223": {
-      "seleccion": {"numeral-1": [0], "numeral-2": [0]},
-      "alcance": "Inicio de la acción y citación. Se excluyen competencias reformadas, audiencia y recursos; C-349/17 condicionó el parágrafo 1.",
+      "fecha_revision_documental": "2026-11-19",
+      "seleccion": {"cuerpo": [0], "numeral-1": [0], "numeral-2": [0], "numeral-3": [0], "literal-4": [0], "literal-5": [0], "literal-6": [0], "literal-7": [0], "numeral-8": [0, 1, 2], "numeral-9": [0], "paragrafo-10": [0], "paragrafo-11": [0, 1, 2, 3], "paragrafo-12": [0], "paragrafo-13": [0]},
+      "alcance": "Competencia, inicio, citación, audiencia, pruebas, decisión, recursos, cumplimiento e incidencias de los parágrafos 1 a 4. El artículo 10 de la Ley 2492 actualizó la denominación. El Decreto 768 reglamenta el trámite. El Auto 579/21 rechazó la súplica en D-14308 sin fallo de fondo sobre los literales a y d. El parágrafo 1 se muestra necesariamente acompañado de la condición de C-349/17. No incluye el parágrafo 5 ni asesora sobre un caso concreto.",
       "consulta": "proceso verbal abreviado",
-      "evidencia": ["https://www.corteconstitucional.gov.co/relatoria/2017/c-349-17.htm"]
+      "evidencia": ["https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#223", "https://www.corteconstitucional.gov.co/relatoria/2017/c-349-17.htm", "https://www.corteconstitucional.gov.co/relatoria/autos/2021/a579-21.htm", "https://dapre.presidencia.gov.co/normativa/normativa/LEY%20No%202492%20DEL%2023%20DE%20JULIO%20DE%202025.pdf", "https://dapre.presidencia.gov.co/normativa/normativa/DECRETO%200768%20DEL%2007%20DE%20JULIO%20DE%202025.pdf"]
     }
   }
 }

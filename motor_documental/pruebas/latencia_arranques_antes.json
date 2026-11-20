@@ -1,0 +1,714 @@
+{
+  "modelo": "gemini-3.1-flash-lite",
+  "huella_indice": "f72b4021f9acdb43c5d99dafba77bd46895fe13c32978b5f0cd29867052c922c",
+  "arranques": [
+    {
+      "arranque": 1,
+      "inicio_conjunto_s": 71.692106,
+      "inicio_node_s": 0.594642,
+      "estado_motor": {
+        "estado": "activo",
+        "modo_respuesta": "citas_extractivas",
+        "generacion_configurada": true,
+        "sha256_corpus_publicable": "f776b4d07089828860b0e76f219ce229ef69e5bd43720064df6303b598833075"
+      },
+      "consultas": [
+        {
+          "id": "RAG-002",
+          "pregunta": "¿Cuáles son los objetivos específicos del Código de Policía?",
+          "http": 200,
+          "segundos": 42.72717,
+          "llamada_gemini_confirmada": true,
+          "estado_documental": "PENDIENTE_VALIDACION",
+          "numerales": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "articulos_visibles": [
+            "2"
+          ],
+          "etapas_s": {
+            "recuperación": 0.14,
+            "contexto": 0.0,
+            "Gemini": 42.38,
+            "validación": 0.02,
+            "TOTAL": 42.54
+          }
+        },
+        {
+          "id": "RAG-002",
+          "pregunta": "¿Cuáles son los objetivos específicos del Código de Policía?",
+          "http": 200,
+          "segundos": 2.540557,
+          "llamada_gemini_confirmada": true,
+          "estado_documental": "PENDIENTE_VALIDACION",
+          "numerales": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "articulos_visibles": [
+            "2"
+          ],
+          "etapas_s": {
+            "recuperación": 0.05,
+            "contexto": 0.0,
+            "Gemini": 2.46,
+            "validación": 0.0,
+            "TOTAL": 2.51
+          }
+        },
+        {
+          "id": "RAG-002",
+          "pregunta": "¿Cuáles son los objetivos específicos del Código de Policía?",
+          "http": 502,
+          "segundos": 68.218285,
+          "llamada_gemini_confirmada": false,
+          "estado_documental": null,
+          "numerales": [],
+          "articulos_visibles": [],
+          "etapas_s": {
+            "recuperación": 0.04,
+            "contexto": 0.0
+          }
+        }
+      ],
+      "etapas_registradas": [
+        [
+          "recuperación",
+          0.14
+        ],
+        [
+          "contexto",
+          0.0
+        ],
+        [
+          "Gemini",
+          42.38
+        ],
+        [
+          "validación",
+          0.02
+        ],
+        [
+          "TOTAL",
+          42.54
+        ],
+        [
+          "recuperación",
+          0.05
+        ],
+        [
+          "contexto",
+          0.0
+        ],
+        [
+          "Gemini",
+          2.46
+        ],
+        [
+          "validación",
+          0.0
+        ],
+        [
+          "TOTAL",
+          2.51
+        ],
+        [
+          "recuperación",
+          0.04
+        ],
+        [
+          "contexto",
+          0.0
+        ]
+      ]
+    },
+    {
+      "arranque": 2,
+      "inicio_conjunto_s": 24.497641,
+      "inicio_node_s": 0.534972,
+      "estado_motor": {
+        "estado": "activo",
+        "modo_respuesta": "citas_extractivas",
+        "generacion_configurada": true,
+        "sha256_corpus_publicable": "f776b4d07089828860b0e76f219ce229ef69e5bd43720064df6303b598833075"
+      },
+      "consultas": [
+        {
+          "id": "RAG-002",
+          "pregunta": "¿Cuáles son los objetivos específicos del Código de Policía?",
+          "http": 200,
+          "segundos": 1.994093,
+          "llamada_gemini_confirmada": true,
+          "estado_documental": "PENDIENTE_VALIDACION",
+          "numerales": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "articulos_visibles": [
+            "2"
+          ],
+          "etapas_s": {
+            "recuperación": 0.05,
+            "contexto": 0.0,
+            "Gemini": 1.79,
+            "validación": 0.01,
+            "TOTAL": 1.86
+          }
+        },
+        {
+          "id": "RAG-002",
+          "pregunta": "¿Cuáles son los objetivos específicos del Código de Policía?",
+          "http": 200,
+          "segundos": 3.070078,
+          "llamada_gemini_confirmada": true,
+          "estado_documental": "PENDIENTE_VALIDACION",
+          "numerales": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "articulos_visibles": [
+            "2"
+          ],
+          "etapas_s": {
+            "recuperación": 0.03,
+            "contexto": 0.0,
+            "Gemini": 3.02,
+            "validación": 0.0,
+            "TOTAL": 3.06
+          }
+        },
+        {
+          "id": "RAG-002",
+          "pregunta": "¿Cuáles son los objetivos específicos del Código de Policía?",
+          "http": 200,
+          "segundos": 3.039032,
+          "llamada_gemini_confirmada": true,
+          "estado_documental": "PENDIENTE_VALIDACION",
+          "numerales": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "articulos_visibles": [
+            "2"
+          ],
+          "etapas_s": {
+            "recuperación": 0.03,
+            "contexto": 0.0,
+            "Gemini": 2.95,
+            "validación": 0.02,
+            "TOTAL": 3.0
+          }
+        }
+      ],
+      "etapas_registradas": [
+        [
+          "recuperación",
+          0.05
+        ],
+        [
+          "contexto",
+          0.0
+        ],
+        [
+          "Gemini",
+          1.79
+        ],
+        [
+          "validación",
+          0.01
+        ],
+        [
+          "TOTAL",
+          1.86
+        ],
+        [
+          "recuperación",
+          0.03
+        ],
+        [
+          "contexto",
+          0.0
+        ],
+        [
+          "Gemini",
+          3.02
+        ],
+        [
+          "validación",
+          0.0
+        ],
+        [
+          "TOTAL",
+          3.06
+        ],
+        [
+          "recuperación",
+          0.03
+        ],
+        [
+          "contexto",
+          0.0
+        ],
+        [
+          "Gemini",
+          2.95
+        ],
+        [
+          "validación",
+          0.02
+        ],
+        [
+          "TOTAL",
+          3.0
+        ]
+      ]
+    },
+    {
+      "arranque": 3,
+      "inicio_conjunto_s": 23.259379,
+      "inicio_node_s": 0.535291,
+      "estado_motor": {
+        "estado": "activo",
+        "modo_respuesta": "citas_extractivas",
+        "generacion_configurada": true,
+        "sha256_corpus_publicable": "f776b4d07089828860b0e76f219ce229ef69e5bd43720064df6303b598833075"
+      },
+      "consultas": [
+        {
+          "id": "RAG-002",
+          "pregunta": "¿Cuáles son los objetivos específicos del Código de Policía?",
+          "http": 200,
+          "segundos": 7.115597,
+          "llamada_gemini_confirmada": true,
+          "estado_documental": "PENDIENTE_VALIDACION",
+          "numerales": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "articulos_visibles": [
+            "2"
+          ],
+          "etapas_s": {
+            "recuperación": 0.06,
+            "contexto": 0.0,
+            "Gemini": 6.92,
+            "validación": 0.01,
+            "TOTAL": 6.99
+          }
+        },
+        {
+          "id": "RAG-002",
+          "pregunta": "¿Cuáles son los objetivos específicos del Código de Policía?",
+          "http": 200,
+          "segundos": 4.767212,
+          "llamada_gemini_confirmada": true,
+          "estado_documental": "PENDIENTE_VALIDACION",
+          "numerales": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "articulos_visibles": [
+            "2"
+          ],
+          "etapas_s": {
+            "recuperación": 0.05,
+            "contexto": 0.0,
+            "Gemini": 4.71,
+            "validación": 0.0,
+            "TOTAL": 4.76
+          }
+        },
+        {
+          "id": "RAG-002",
+          "pregunta": "¿Cuáles son los objetivos específicos del Código de Policía?",
+          "http": 502,
+          "segundos": 25.692214,
+          "llamada_gemini_confirmada": false,
+          "estado_documental": null,
+          "numerales": [],
+          "articulos_visibles": [],
+          "etapas_s": {
+            "recuperación": 0.04,
+            "contexto": 0.0
+          }
+        }
+      ],
+      "etapas_registradas": [
+        [
+          "recuperación",
+          0.06
+        ],
+        [
+          "contexto",
+          0.0
+        ],
+        [
+          "Gemini",
+          6.92
+        ],
+        [
+          "validación",
+          0.01
+        ],
+        [
+          "TOTAL",
+          6.99
+        ],
+        [
+          "recuperación",
+          0.05
+        ],
+        [
+          "contexto",
+          0.0
+        ],
+        [
+          "Gemini",
+          4.71
+        ],
+        [
+          "validación",
+          0.0
+        ],
+        [
+          "TOTAL",
+          4.76
+        ],
+        [
+          "recuperación",
+          0.04
+        ],
+        [
+          "contexto",
+          0.0
+        ]
+      ]
+    },
+    {
+      "arranque": 4,
+      "inicio_conjunto_s": 28.857496,
+      "inicio_node_s": 0.550358,
+      "estado_motor": {
+        "estado": "activo",
+        "modo_respuesta": "citas_extractivas",
+        "generacion_configurada": true,
+        "sha256_corpus_publicable": "f776b4d07089828860b0e76f219ce229ef69e5bd43720064df6303b598833075"
+      },
+      "consultas": [
+        {
+          "id": "RAG-002",
+          "pregunta": "¿Cuáles son los objetivos específicos del Código de Policía?",
+          "http": 502,
+          "segundos": 78.07093,
+          "llamada_gemini_confirmada": false,
+          "estado_documental": null,
+          "numerales": [],
+          "articulos_visibles": [],
+          "etapas_s": {
+            "recuperación": 0.07,
+            "contexto": 0.0
+          }
+        },
+        {
+          "id": "RAG-002",
+          "pregunta": "¿Cuáles son los objetivos específicos del Código de Policía?",
+          "http": 200,
+          "segundos": 30.834965,
+          "llamada_gemini_confirmada": true,
+          "estado_documental": "PENDIENTE_VALIDACION",
+          "numerales": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "articulos_visibles": [
+            "2"
+          ],
+          "etapas_s": {
+            "recuperación": 0.04,
+            "contexto": 0.0,
+            "Gemini": 30.75,
+            "validación": 0.02,
+            "TOTAL": 30.82
+          }
+        },
+        {
+          "id": "RAG-002",
+          "pregunta": "¿Cuáles son los objetivos específicos del Código de Policía?",
+          "http": 200,
+          "segundos": 22.697919,
+          "llamada_gemini_confirmada": true,
+          "estado_documental": "PENDIENTE_VALIDACION",
+          "numerales": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "articulos_visibles": [
+            "2"
+          ],
+          "etapas_s": {
+            "recuperación": 0.06,
+            "contexto": 0.0,
+            "Gemini": 22.61,
+            "validación": 0.0,
+            "TOTAL": 22.68
+          }
+        }
+      ],
+      "etapas_registradas": [
+        [
+          "recuperación",
+          0.07
+        ],
+        [
+          "contexto",
+          0.0
+        ],
+        [
+          "recuperación",
+          0.04
+        ],
+        [
+          "contexto",
+          0.0
+        ],
+        [
+          "Gemini",
+          30.75
+        ],
+        [
+          "validación",
+          0.02
+        ],
+        [
+          "TOTAL",
+          30.82
+        ],
+        [
+          "recuperación",
+          0.06
+        ],
+        [
+          "contexto",
+          0.0
+        ],
+        [
+          "Gemini",
+          22.61
+        ],
+        [
+          "validación",
+          0.0
+        ],
+        [
+          "TOTAL",
+          22.68
+        ]
+      ]
+    },
+    {
+      "arranque": 5,
+      "inicio_conjunto_s": 28.804583,
+      "inicio_node_s": 0.536718,
+      "estado_motor": {
+        "estado": "activo",
+        "modo_respuesta": "citas_extractivas",
+        "generacion_configurada": true,
+        "sha256_corpus_publicable": "f776b4d07089828860b0e76f219ce229ef69e5bd43720064df6303b598833075"
+      },
+      "consultas": [
+        {
+          "id": "RAG-002",
+          "pregunta": "¿Cuáles son los objetivos específicos del Código de Policía?",
+          "http": 200,
+          "segundos": 20.148176,
+          "llamada_gemini_confirmada": true,
+          "estado_documental": "PENDIENTE_VALIDACION",
+          "numerales": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "articulos_visibles": [
+            "2"
+          ],
+          "etapas_s": {
+            "recuperación": 0.06,
+            "contexto": 0.0,
+            "Gemini": 19.93,
+            "validación": 0.01,
+            "TOTAL": 20.0
+          }
+        },
+        {
+          "id": "RAG-002",
+          "pregunta": "¿Cuáles son los objetivos específicos del Código de Policía?",
+          "http": 200,
+          "segundos": 29.235767,
+          "llamada_gemini_confirmada": true,
+          "estado_documental": "PENDIENTE_VALIDACION",
+          "numerales": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "articulos_visibles": [
+            "2"
+          ],
+          "etapas_s": {
+            "recuperación": 0.05,
+            "contexto": 0.0,
+            "Gemini": 29.17,
+            "validación": 0.0,
+            "TOTAL": 29.22
+          }
+        },
+        {
+          "id": "RAG-002",
+          "pregunta": "¿Cuáles son los objetivos específicos del Código de Policía?",
+          "http": 200,
+          "segundos": 48.694824,
+          "llamada_gemini_confirmada": true,
+          "estado_documental": "PENDIENTE_VALIDACION",
+          "numerales": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "articulos_visibles": [
+            "2"
+          ],
+          "etapas_s": {
+            "recuperación": 0.02,
+            "contexto": 0.0,
+            "Gemini": 48.64,
+            "validación": 0.0,
+            "TOTAL": 48.67
+          }
+        }
+      ],
+      "etapas_registradas": [
+        [
+          "recuperación",
+          0.06
+        ],
+        [
+          "contexto",
+          0.0
+        ],
+        [
+          "Gemini",
+          19.93
+        ],
+        [
+          "validación",
+          0.01
+        ],
+        [
+          "TOTAL",
+          20.0
+        ],
+        [
+          "recuperación",
+          0.05
+        ],
+        [
+          "contexto",
+          0.0
+        ],
+        [
+          "Gemini",
+          29.17
+        ],
+        [
+          "validación",
+          0.0
+        ],
+        [
+          "TOTAL",
+          29.22
+        ],
+        [
+          "recuperación",
+          0.02
+        ],
+        [
+          "contexto",
+          0.0
+        ],
+        [
+          "Gemini",
+          48.64
+        ],
+        [
+          "validación",
+          0.0
+        ],
+        [
+          "TOTAL",
+          48.67
+        ]
+      ]
+    }
+  ],
+  "resumen": {
+    "primeras": {
+      "n": 5,
+      "http_200": 4,
+      "mediana_s": 20.148176,
+      "mas_de_10_s": 3
+    },
+    "posteriores": {
+      "n": 10,
+      "http_200": 8,
+      "mediana_s": 24.1950665,
+      "mas_de_10_s": 6
+    }
+  },
+  "metodo": "Cinco procesos de FastAPI y Node nuevos, puertos locales aislados y tres consultas HTTP RAG-002 secuenciales por arranque. Etapas extraidas de los registros de FastAPI con resolucion de centesimas."
+}

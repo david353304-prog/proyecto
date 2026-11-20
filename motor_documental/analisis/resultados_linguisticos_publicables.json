@@ -1,0 +1,996 @@
+{
+  "corpus": "Ley 1801 de 2016, apartados públicos",
+  "sha256_corpus": "b5825027c84006fabf45c611ddbfbdeb8c9969007ea0f1ecf01ce176ebfa5422",
+  "modelo": "es_core_news_sm",
+  "version_modelo": "3.8.0",
+  "version_spacy": "3.8.18",
+  "total_articulos": 19,
+  "articulos_con_texto": 19,
+  "total_tokens": 1677,
+  "total_tipos": 557,
+  "relacion_tipo_token": 0.3321,
+  "longitud_media_articulo_tokens": 88.26,
+  "frecuencias": [
+    [
+      "de",
+      139
+    ],
+    [
+      "la",
+      103
+    ],
+    [
+      "y",
+      71
+    ],
+    [
+      "el",
+      47
+    ],
+    [
+      "los",
+      40
+    ],
+    [
+      "en",
+      37
+    ],
+    [
+      "las",
+      35
+    ],
+    [
+      "a",
+      31
+    ],
+    [
+      "o",
+      29
+    ],
+    [
+      "convivencia",
+      26
+    ],
+    [
+      "policía",
+      23
+    ],
+    [
+      "del",
+      20
+    ],
+    [
+      "artículo",
+      19
+    ],
+    [
+      "que",
+      19
+    ],
+    [
+      "comportamientos",
+      16
+    ],
+    [
+      "para",
+      15
+    ],
+    [
+      "con",
+      15
+    ],
+    [
+      "por",
+      13
+    ],
+    [
+      "contrarios",
+      11
+    ],
+    [
+      "1",
+      10
+    ],
+    [
+      "bienes",
+      10
+    ],
+    [
+      "protección",
+      10
+    ],
+    [
+      "nacional",
+      9
+    ],
+    [
+      "derechos",
+      9
+    ],
+    [
+      "son",
+      8
+    ],
+    [
+      "personas",
+      8
+    ],
+    [
+      "2",
+      8
+    ],
+    [
+      "respeto",
+      8
+    ],
+    [
+      "un",
+      8
+    ],
+    [
+      "al",
+      7
+    ]
+  ],
+  "lemas_frecuentes": [
+    [
+      "convivencia",
+      26
+    ],
+    [
+      "policía",
+      23
+    ],
+    [
+      "comportamiento",
+      22
+    ],
+    [
+      "artículo",
+      19
+    ],
+    [
+      "contrario",
+      15
+    ],
+    [
+      "público",
+      13
+    ],
+    [
+      "derecho",
+      13
+    ],
+    [
+      "autoridad",
+      12
+    ],
+    [
+      "1",
+      10
+    ],
+    [
+      "protección",
+      10
+    ],
+    [
+      "nacional",
+      9
+    ],
+    [
+      "persona",
+      9
+    ],
+    [
+      "bien",
+      9
+    ],
+    [
+      "2",
+      8
+    ],
+    [
+      "libertad",
+      8
+    ],
+    [
+      "4",
+      7
+    ],
+    [
+      "medida",
+      7
+    ],
+    [
+      "orden",
+      7
+    ],
+    [
+      "ley",
+      7
+    ],
+    [
+      "código",
+      6
+    ],
+    [
+      "territorio",
+      6
+    ],
+    [
+      "deber",
+      6
+    ],
+    [
+      "siguiente",
+      6
+    ],
+    [
+      "respeto",
+      6
+    ],
+    [
+      "3",
+      6
+    ],
+    [
+      "ambiente",
+      6
+    ],
+    [
+      "jurídico",
+      5
+    ],
+    [
+      "actividad",
+      5
+    ],
+    [
+      "5",
+      5
+    ],
+    [
+      "proceso",
+      5
+    ]
+  ],
+  "categorias_pos": {
+    "PROPN": 103,
+    "NUM": 63,
+    "NOUN": 456,
+    "DET": 263,
+    "ADJ": 193,
+    "ADP": 292,
+    "AUX": 35,
+    "CCONJ": 104,
+    "VERB": 95,
+    "ADV": 14,
+    "SCONJ": 14,
+    "PRON": 45
+  },
+  "entidades_frecuentes": [
+    {
+      "texto": "Policía",
+      "tipo": "PER",
+      "frecuencia": 16
+    },
+    {
+      "texto": "Código",
+      "tipo": "MISC",
+      "frecuencia": 4
+    },
+    {
+      "texto": "CONVIVENCIA",
+      "tipo": "MISC",
+      "frecuencia": 4
+    },
+    {
+      "texto": "COMPORTAMIENTOS",
+      "tipo": "ORG",
+      "frecuencia": 4
+    },
+    {
+      "texto": "Constitución Política",
+      "tipo": "LOC",
+      "frecuencia": 2
+    },
+    {
+      "texto": "Promover",
+      "tipo": "MISC",
+      "frecuencia": 2
+    },
+    {
+      "texto": "Código: 1",
+      "tipo": "MISC",
+      "frecuencia": 2
+    },
+    {
+      "texto": "Constitución",
+      "tipo": "LOC",
+      "frecuencia": 2
+    },
+    {
+      "texto": "POLICÍA",
+      "tipo": "ORG",
+      "frecuencia": 2
+    },
+    {
+      "texto": "Policía Nacional",
+      "tipo": "MISC",
+      "frecuencia": 2
+    },
+    {
+      "texto": "ARTÍCULO 1",
+      "tipo": "LOC",
+      "frecuencia": 1
+    },
+    {
+      "texto": "OBJETO",
+      "tipo": "MISC",
+      "frecuencia": 1
+    },
+    {
+      "texto": "ARTÍCULO 2",
+      "tipo": "LOC",
+      "frecuencia": 1
+    },
+    {
+      "texto": "OBJETIVOS ESPECÍFICOS",
+      "tipo": "MISC",
+      "frecuencia": 1
+    },
+    {
+      "texto": "Definir",
+      "tipo": "PER",
+      "frecuencia": 1
+    },
+    {
+      "texto": "Establecer la competencia de las autoridades",
+      "tipo": "MISC",
+      "frecuencia": 1
+    },
+    {
+      "texto": "Establecer",
+      "tipo": "MISC",
+      "frecuencia": 1
+    },
+    {
+      "texto": "JURÍDICAS",
+      "tipo": "MISC",
+      "frecuencia": 1
+    },
+    {
+      "texto": "Las categorías de convivencia",
+      "tipo": "MISC",
+      "frecuencia": 1
+    },
+    {
+      "texto": "Seguridad",
+      "tipo": "MISC",
+      "frecuencia": 1
+    },
+    {
+      "texto": "Garantizar",
+      "tipo": "MISC",
+      "frecuencia": 1
+    },
+    {
+      "texto": "Tranquilidad: Lograr",
+      "tipo": "MISC",
+      "frecuencia": 1
+    },
+    {
+      "texto": "Ambiente: Favorecer",
+      "tipo": "MISC",
+      "frecuencia": 1
+    },
+    {
+      "texto": "Salud Pública",
+      "tipo": "MISC",
+      "frecuencia": 1
+    },
+    {
+      "texto": "ARTÍCULO 7",
+      "tipo": "LOC",
+      "frecuencia": 1
+    },
+    {
+      "texto": "FINALIDADES",
+      "tipo": "ORG",
+      "frecuencia": 1
+    },
+    {
+      "texto": "El cumplimiento de los deberes",
+      "tipo": "MISC",
+      "frecuencia": 1
+    },
+    {
+      "texto": "El respeto por las diferencias",
+      "tipo": "MISC",
+      "frecuencia": 1
+    },
+    {
+      "texto": "La convergencia de los intereses personales",
+      "tipo": "MISC",
+      "frecuencia": 1
+    },
+    {
+      "texto": "ARTÍCULO",
+      "tipo": "MISC",
+      "frecuencia": 1
+    }
+  ],
+  "bigramas_frecuentes": [
+    {
+      "terminos": [
+        "de",
+        "policía"
+      ],
+      "frecuencia": 21
+    },
+    {
+      "terminos": [
+        "la",
+        "convivencia"
+      ],
+      "frecuencia": 19
+    },
+    {
+      "terminos": [
+        "de",
+        "los"
+      ],
+      "frecuencia": 19
+    },
+    {
+      "terminos": [
+        "de",
+        "la"
+      ],
+      "frecuencia": 19
+    },
+    {
+      "terminos": [
+        "a",
+        "la"
+      ],
+      "frecuencia": 17
+    },
+    {
+      "terminos": [
+        "en",
+        "el"
+      ],
+      "frecuencia": 11
+    },
+    {
+      "terminos": [
+        "de",
+        "las"
+      ],
+      "frecuencia": 11
+    },
+    {
+      "terminos": [
+        "contrarios",
+        "a"
+      ],
+      "frecuencia": 10
+    },
+    {
+      "terminos": [
+        "comportamientos",
+        "contrarios"
+      ],
+      "frecuencia": 8
+    },
+    {
+      "terminos": [
+        "las",
+        "personas"
+      ],
+      "frecuencia": 7
+    },
+    {
+      "terminos": [
+        "y",
+        "la"
+      ],
+      "frecuencia": 7
+    },
+    {
+      "terminos": [
+        "para",
+        "la"
+      ],
+      "frecuencia": 6
+    },
+    {
+      "terminos": [
+        "convivencia",
+        "en"
+      ],
+      "frecuencia": 6
+    },
+    {
+      "terminos": [
+        "el",
+        "territorio"
+      ],
+      "frecuencia": 6
+    },
+    {
+      "terminos": [
+        "territorio",
+        "nacional"
+      ],
+      "frecuencia": 6
+    },
+    {
+      "terminos": [
+        "los",
+        "derechos"
+      ],
+      "frecuencia": 6
+    },
+    {
+      "terminos": [
+        "de",
+        "convivencia"
+      ],
+      "frecuencia": 6
+    },
+    {
+      "terminos": [
+        "este",
+        "código"
+      ],
+      "frecuencia": 5
+    },
+    {
+      "terminos": [
+        "con",
+        "la"
+      ],
+      "frecuencia": 5
+    },
+    {
+      "terminos": [
+        "y",
+        "el"
+      ],
+      "frecuencia": 5
+    },
+    {
+      "terminos": [
+        "las",
+        "autoridades"
+      ],
+      "frecuencia": 5
+    },
+    {
+      "terminos": [
+        "los",
+        "comportamientos"
+      ],
+      "frecuencia": 5
+    },
+    {
+      "terminos": [
+        "protección",
+        "de"
+      ],
+      "frecuencia": 5
+    },
+    {
+      "terminos": [
+        "derechos",
+        "y"
+      ],
+      "frecuencia": 5
+    },
+    {
+      "terminos": [
+        "la",
+        "autoridad"
+      ],
+      "frecuencia": 5
+    },
+    {
+      "terminos": [
+        "el",
+        "ejercicio"
+      ],
+      "frecuencia": 4
+    },
+    {
+      "terminos": [
+        "la",
+        "actividad"
+      ],
+      "frecuencia": 4
+    },
+    {
+      "terminos": [
+        "de",
+        "conformidad"
+      ],
+      "frecuencia": 4
+    },
+    {
+      "terminos": [
+        "conformidad",
+        "con"
+      ],
+      "frecuencia": 4
+    },
+    {
+      "terminos": [
+        "la",
+        "constitución"
+      ],
+      "frecuencia": 4
+    }
+  ],
+  "trigramas_frecuentes": [
+    {
+      "terminos": [
+        "a",
+        "la",
+        "convivencia"
+      ],
+      "frecuencia": 12
+    },
+    {
+      "terminos": [
+        "contrarios",
+        "a",
+        "la"
+      ],
+      "frecuencia": 10
+    },
+    {
+      "terminos": [
+        "comportamientos",
+        "contrarios",
+        "a"
+      ],
+      "frecuencia": 8
+    },
+    {
+      "terminos": [
+        "la",
+        "convivencia",
+        "en"
+      ],
+      "frecuencia": 6
+    },
+    {
+      "terminos": [
+        "el",
+        "territorio",
+        "nacional"
+      ],
+      "frecuencia": 6
+    },
+    {
+      "terminos": [
+        "en",
+        "el",
+        "territorio"
+      ],
+      "frecuencia": 5
+    },
+    {
+      "terminos": [
+        "convivencia",
+        "en",
+        "el"
+      ],
+      "frecuencia": 4
+    },
+    {
+      "terminos": [
+        "de",
+        "conformidad",
+        "con"
+      ],
+      "frecuencia": 4
+    },
+    {
+      "terminos": [
+        "las",
+        "autoridades",
+        "de"
+      ],
+      "frecuencia": 4
+    },
+    {
+      "terminos": [
+        "autoridades",
+        "de",
+        "policía"
+      ],
+      "frecuencia": 4
+    },
+    {
+      "terminos": [
+        "la",
+        "protección",
+        "de"
+      ],
+      "frecuencia": 4
+    },
+    {
+      "terminos": [
+        "de",
+        "los",
+        "derechos"
+      ],
+      "frecuencia": 4
+    },
+    {
+      "terminos": [
+        "derechos",
+        "y",
+        "libertades"
+      ],
+      "frecuencia": 4
+    },
+    {
+      "terminos": [
+        "autoridad",
+        "de",
+        "policía"
+      ],
+      "frecuencia": 4
+    },
+    {
+      "terminos": [
+        "comportamiento",
+        "contrario",
+        "a"
+      ],
+      "frecuencia": 4
+    },
+    {
+      "terminos": [
+        "contrario",
+        "a",
+        "la"
+      ],
+      "frecuencia": 4
+    },
+    {
+      "terminos": [
+        "el",
+        "cumplimiento",
+        "de"
+      ],
+      "frecuencia": 3
+    },
+    {
+      "terminos": [
+        "cumplimiento",
+        "de",
+        "los"
+      ],
+      "frecuencia": 3
+    },
+    {
+      "terminos": [
+        "comportamientos",
+        "relacionados",
+        "con"
+      ],
+      "frecuencia": 3
+    },
+    {
+      "terminos": [
+        "relacionados",
+        "con",
+        "la"
+      ],
+      "frecuencia": 3
+    },
+    {
+      "terminos": [
+        "personas",
+        "en",
+        "el"
+      ],
+      "frecuencia": 3
+    },
+    {
+      "terminos": [
+        "protección",
+        "de",
+        "la"
+      ],
+      "frecuencia": 3
+    },
+    {
+      "terminos": [
+        "sin",
+        "perjuicio",
+        "de"
+      ],
+      "frecuencia": 3
+    },
+    {
+      "terminos": [
+        "los",
+        "comportamientos",
+        "contrarios"
+      ],
+      "frecuencia": 3
+    },
+    {
+      "terminos": [
+        "mera",
+        "tenencia",
+        "de"
+      ],
+      "frecuencia": 3
+    },
+    {
+      "terminos": [
+        "la",
+        "actividad",
+        "económica"
+      ],
+      "frecuencia": 3
+    },
+    {
+      "terminos": [
+        "orden",
+        "de",
+        "policía"
+      ],
+      "frecuencia": 3
+    },
+    {
+      "terminos": [
+        "la",
+        "autoridad",
+        "de"
+      ],
+      "frecuencia": 3
+    },
+    {
+      "terminos": [
+        "el",
+        "presunto",
+        "infractor"
+      ],
+      "frecuencia": 3
+    },
+    {
+      "terminos": [
+        "previstas",
+        "en",
+        "este"
+      ],
+      "frecuencia": 2
+    }
+  ],
+  "entidades_por_patrones": {
+    "AUTORIDAD": [
+      [
+        "policía nacional",
+        2
+      ],
+      [
+        "corregidores",
+        1
+      ]
+    ],
+    "LUGAR": [
+      [
+        "territorio nacional",
+        6
+      ],
+      [
+        "espacio público",
+        2
+      ]
+    ],
+    "MONTO": [],
+    "PLAZO": [
+      [
+        "cinco (5) días",
+        1
+      ]
+    ]
+  },
+  "colocaciones_pmi": [],
+  "concordancias_kwic": {
+    "multa": [
+      {
+        "articulo": "135",
+        "izquierda": "uaciones, sin licencia o cuando esta hubiere caducado. Numeral 4 ",
+        "termino": "Multa",
+        "derecha": " especial por infracción urbanística; Demolición de obra; Constru"
+      },
+      {
+        "articulo": "180",
+        "izquierda": "del comportamiento realizado, según la cual varía el monto de la ",
+        "termino": "multa",
+        "derecha": ". Así mismo, la desobediencia, resistencia, desacato, o reiteraci"
+      },
+      {
+        "articulo": "180",
+        "izquierda": "tamiento contrario a la convivencia, incrementará el valor de la ",
+        "termino": "multa",
+        "derecha": ", sin perjuicio de los intereses causados y el costo del cobro co"
+      }
+    ],
+    "comparendo": [
+      {
+        "articulo": "218",
+        "izquierda": "ARTÍCULO 218. DEFINICIÓN DE ORDEN DE ",
+        "termino": "COMPARENDO",
+        "derecha": ". Entiéndase por esta, la acción del personal uniformado de la Po"
+      }
+    ],
+    "medida correctiva": [
+      {
+        "articulo": "218",
+        "izquierda": "a o virtual para presentarse ante autoridad de Policía o cumplir ",
+        "termino": "medida correctiva",
+        "derecha": "."
+      },
+      {
+        "articulo": "222",
+        "izquierda": " las partes en conflicto. De no lograr la mediación, impondrá la ",
+        "termino": "medida correctiva",
+        "derecha": " a través de la orden de Policía."
+      }
+    ],
+    "espacio público": [
+      {
+        "articulo": "2",
+        "izquierda": "la comunidad comportamientos que favorezcan la convivencia en el ",
+        "termino": "espacio público",
+        "derecha": ", áreas comunes, lugares abiertos al público o que siendo privado"
+      },
+      {
+        "articulo": "206",
+        "izquierda": "cción a los bienes y privacidad, actividad económica, urbanismo, ",
+        "termino": "espacio público",
+        "derecha": " y libertad de circulación."
+      }
+    ]
+  },
+  "colocaciones_juridicas": {
+    "medida correctiva": 2,
+    "multa general": 0,
+    "autoridad de policía": 4,
+    "espacio público": 2,
+    "orden de comparendo": 1,
+    "comportamientos contrarios a la convivencia": 5
+  },
+  "glosario": {
+    "comparendo": {
+      "explicacion": "Orden relacionada con un procedimiento de policía.",
+      "consulta_coloquial": "Me pusieron un comparendo, ¿qué hago?"
+    },
+    "multa": {
+      "explicacion": "Medida correctiva de carácter económico.",
+      "consulta_coloquial": "¿Cuánto tengo que pagar?"
+    },
+    "medida correctiva": {
+      "explicacion": "Medida contemplada por el Código Nacional de Seguridad y Convivencia Ciudadana.",
+      "consulta_coloquial": "¿Qué me puede pasar si incumplo una norma?"
+    },
+    "espacio público": {
+      "explicacion": "Espacios destinados al uso y disfrute colectivo.",
+      "consulta_coloquial": "¿Puedo hacer esto en la calle o en un parque?"
+    },
+    "autoridad de policía": {
+      "explicacion": "Autoridad con competencias establecidas en el Código.",
+      "consulta_coloquial": "¿Quién puede intervenir o imponer una medida?"
+    }
+  },
+  "limitaciones_ner": "El modelo general de español puede clasificar incorrectamente entidades jurídicas. Sus etiquetas requieren interpretación humana."
+}

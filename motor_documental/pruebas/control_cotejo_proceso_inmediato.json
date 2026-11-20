@@ -1,0 +1,66 @@
+{
+  "estado_motor": {
+    "estado": "activo",
+    "modo_respuesta": "citas_extractivas",
+    "generacion_configurada": true,
+    "sha256_corpus_publicable": "5abc02a45241581bd205b609398b0765c45b3c44ba32d19d5b86bc1f6d62447b"
+  },
+  "filas": [
+    {
+      "id": "RAG-027",
+      "pregunta": "¿Cómo se desarrolla el proceso verbal inmediato?",
+      "http": 200,
+      "segundos": 1.779385,
+      "respuesta": {
+        "fuentes_recuperadas": [
+          {
+            "articulo": "222",
+            "numeral": "",
+            "titulo": "TRÁMITE DEL PROCESO VERBAL INMEDIATO",
+            "texto": "ARTÍCULO 222. TRÁMITE DEL PROCESO VERBAL INMEDIATO. Se tramitarán por el proceso verbal inmediato los comportamientos contrarios a la convivencia, de competencia del personal uniformado de la Policía Nacional, los comandantes de estación o subestación de Policía, y los comandantes del Centro de Atención Inmediata de Policía, en las etapas siguientes: 1. Se podrá iniciar de oficio o a petición de quien tenga interés directo o acuda en defensa de las normas de convivencia. 2. Una vez identificado el presunto infractor, la autoridad de Policía lo abordará en el sitio donde ocurran los hechos, si ello fuera posible o, en aquel donde lo encuentren, y le informará que su acción u omisión configura un comportamiento contrario a la convivencia. 3. El presunto infractor deberá ser oído en descargos. 4. La autoridad de Policía hará una primera ponderación de los hechos y procurará una mediación policial entre las partes en conflicto. De no lograr la mediación, impondrá la medida correctiva a través de la orden de Policía. PARÁGRAFO 1o. En contra de la orden de Policía o la medida correctiva, procederá el recurso de apelación, el cual se concederá en el efecto devolutivo y se remitirá al Inspector de Policía dentro de las veinticuatro (24) horas siguientes. El recurso de apelación se resolverá dentro de los tres (3) días hábiles siguientes al recibo de la actuación y será notificado por medio más eficaz y expedito.",
+            "url_fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#222"
+          }
+        ],
+        "pregunta": "¿Cómo se desarrolla el proceso verbal inmediato?",
+        "respuesta": "**Artículo 222.** «Se tramitarán por el proceso verbal inmediato los comportamientos contrarios a la convivencia, de competencia del personal uniformado de la Policía Nacional, los comandantes de estación o subestación de Policía, y los comandantes del Centro de Atención Inmediata de Policía, en las etapas siguientes:»\n\n**Numeral 1 del artículo 222.** «1. Se podrá iniciar de oficio o a petición de quien tenga interés directo o acuda en defensa de las normas de convivencia.»\n\n**Numeral 2 del artículo 222.** «2. Una vez identificado el presunto infractor, la autoridad de Policía lo abordará en el sitio donde ocurran los hechos, si ello fuera posible o, en aquel donde lo encuentren, y le informará que su acción u omisión configura un comportamiento contrario a la convivencia.»\n\n**Numeral 3 del artículo 222.** «3. El presunto infractor deberá ser oído en descargos.»\n\n**Numeral 4 del artículo 222.** «4. La autoridad de Policía hará una primera ponderación de los hechos y procurará una mediación policial entre las partes en conflicto. De no lograr la mediación, impondrá la medida correctiva a través de la orden de Policía.»\n\n**Parágrafo 1 del artículo 222.** «PARÁGRAFO 1o. En contra de la orden de Policía o la medida correctiva, procederá el recurso de apelación, el cual se concederá en el efecto devolutivo y se remitirá al Inspector de Policía dentro de las veinticuatro (24) horas siguientes. El recurso de apelación se resolverá dentro de los tres (3) días hábiles siguientes al recibo de la actuación y será notificado por medio más eficaz y expedito.»\n\n**Nota de denominación.** La cita conserva el nombre de la autoridad que figura en la compilación. La Ley 2492 de 2025, artículo 10, actualizó la denominación a Inspector de Convivencia y Paz.",
+        "modelo": "gemini-3.1-flash-lite",
+        "total_generales": 1,
+        "total_estructurados": 0,
+        "validacion_documental": {
+          "estado": "PENDIENTE_VALIDACION",
+          "advertencias": []
+        }
+      },
+      "llamada_gemini_confirmada": true,
+      "estado_documental": "PENDIENTE_VALIDACION"
+    },
+    {
+      "id": "RAG-049",
+      "pregunta": "Un policía inicia un procedimiento por un comportamiento contrario a la convivencia. ¿Cómo funciona el proceso verbal inmediato?",
+      "http": 200,
+      "segundos": 1.326643,
+      "respuesta": {
+        "fuentes_recuperadas": [
+          {
+            "articulo": "222",
+            "numeral": "",
+            "titulo": "TRÁMITE DEL PROCESO VERBAL INMEDIATO",
+            "texto": "ARTÍCULO 222. TRÁMITE DEL PROCESO VERBAL INMEDIATO. Se tramitarán por el proceso verbal inmediato los comportamientos contrarios a la convivencia, de competencia del personal uniformado de la Policía Nacional, los comandantes de estación o subestación de Policía, y los comandantes del Centro de Atención Inmediata de Policía, en las etapas siguientes: 1. Se podrá iniciar de oficio o a petición de quien tenga interés directo o acuda en defensa de las normas de convivencia. 2. Una vez identificado el presunto infractor, la autoridad de Policía lo abordará en el sitio donde ocurran los hechos, si ello fuera posible o, en aquel donde lo encuentren, y le informará que su acción u omisión configura un comportamiento contrario a la convivencia. 3. El presunto infractor deberá ser oído en descargos. 4. La autoridad de Policía hará una primera ponderación de los hechos y procurará una mediación policial entre las partes en conflicto. De no lograr la mediación, impondrá la medida correctiva a través de la orden de Policía. PARÁGRAFO 1o. En contra de la orden de Policía o la medida correctiva, procederá el recurso de apelación, el cual se concederá en el efecto devolutivo y se remitirá al Inspector de Policía dentro de las veinticuatro (24) horas siguientes. El recurso de apelación se resolverá dentro de los tres (3) días hábiles siguientes al recibo de la actuación y será notificado por medio más eficaz y expedito.",
+            "url_fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#222"
+          }
+        ],
+        "pregunta": "Un policía inicia un procedimiento por un comportamiento contrario a la convivencia. ¿Cómo funciona el proceso verbal inmediato?",
+        "respuesta": "**Artículo 222.** «Se tramitarán por el proceso verbal inmediato los comportamientos contrarios a la convivencia, de competencia del personal uniformado de la Policía Nacional, los comandantes de estación o subestación de Policía, y los comandantes del Centro de Atención Inmediata de Policía, en las etapas siguientes:»\n\n**Numeral 1 del artículo 222.** «1. Se podrá iniciar de oficio o a petición de quien tenga interés directo o acuda en defensa de las normas de convivencia.»\n\n**Numeral 2 del artículo 222.** «2. Una vez identificado el presunto infractor, la autoridad de Policía lo abordará en el sitio donde ocurran los hechos, si ello fuera posible o, en aquel donde lo encuentren, y le informará que su acción u omisión configura un comportamiento contrario a la convivencia.»\n\n**Numeral 3 del artículo 222.** «3. El presunto infractor deberá ser oído en descargos.»\n\n**Numeral 4 del artículo 222.** «4. La autoridad de Policía hará una primera ponderación de los hechos y procurará una mediación policial entre las partes en conflicto. De no lograr la mediación, impondrá la medida correctiva a través de la orden de Policía.»\n\n**Parágrafo 1 del artículo 222.** «PARÁGRAFO 1o. En contra de la orden de Policía o la medida correctiva, procederá el recurso de apelación, el cual se concederá en el efecto devolutivo y se remitirá al Inspector de Policía dentro de las veinticuatro (24) horas siguientes. El recurso de apelación se resolverá dentro de los tres (3) días hábiles siguientes al recibo de la actuación y será notificado por medio más eficaz y expedito.»\n\n**Nota de denominación.** La cita conserva el nombre de la autoridad que figura en la compilación. La Ley 2492 de 2025, artículo 10, actualizó la denominación a Inspector de Convivencia y Paz.",
+        "modelo": "gemini-3.1-flash-lite",
+        "total_generales": 1,
+        "total_estructurados": 0,
+        "validacion_documental": {
+          "estado": "PENDIENTE_VALIDACION",
+          "advertencias": []
+        }
+      },
+      "llamada_gemini_confirmada": true,
+      "estado_documental": "PENDIENTE_VALIDACION"
+    }
+  ]
+}

@@ -1,0 +1,406 @@
+{
+  "sha256_muestra": "c946ca425312f5f3eaef477b6d2e1bce786f1862890a8ff4c400fbcd532d7fa8",
+  "metricas_por_entidad": {
+    "AUTORIDAD": {
+      "aciertos": 5,
+      "falsos_positivos": 0,
+      "omisiones": 0,
+      "precision": 1.0,
+      "recall": 1.0
+    },
+    "LUGAR": {
+      "aciertos": 4,
+      "falsos_positivos": 0,
+      "omisiones": 0,
+      "precision": 1.0,
+      "recall": 1.0
+    },
+    "MONTO": {
+      "aciertos": 2,
+      "falsos_positivos": 0,
+      "omisiones": 0,
+      "precision": 1.0,
+      "recall": 1.0
+    },
+    "PLAZO": {
+      "aciertos": 4,
+      "falsos_positivos": 0,
+      "omisiones": 0,
+      "precision": 1.0,
+      "recall": 1.0
+    }
+  },
+  "casos": [
+    {
+      "id": "A1",
+      "entidades": {
+        "AUTORIDAD": {
+          "esperadas": [
+            "instituto colombiano de bienestar familiar",
+            "ministerio público"
+          ],
+          "obtenidas": [
+            "instituto colombiano de bienestar familiar",
+            "ministerio público"
+          ],
+          "falsos_positivos": [],
+          "omisiones": []
+        },
+        "LUGAR": {
+          "esperadas": [],
+          "obtenidas": [],
+          "falsos_positivos": [],
+          "omisiones": []
+        },
+        "MONTO": {
+          "esperadas": [],
+          "obtenidas": [],
+          "falsos_positivos": [],
+          "omisiones": []
+        },
+        "PLAZO": {
+          "esperadas": [],
+          "obtenidas": [],
+          "falsos_positivos": [],
+          "omisiones": []
+        }
+      }
+    },
+    {
+      "id": "A2",
+      "entidades": {
+        "AUTORIDAD": {
+          "esperadas": [
+            "inspector de policía",
+            "alcalde"
+          ],
+          "obtenidas": [
+            "inspector de policía",
+            "alcalde"
+          ],
+          "falsos_positivos": [],
+          "omisiones": []
+        },
+        "LUGAR": {
+          "esperadas": [
+            "territorio nacional"
+          ],
+          "obtenidas": [
+            "territorio nacional"
+          ],
+          "falsos_positivos": [],
+          "omisiones": []
+        },
+        "MONTO": {
+          "esperadas": [],
+          "obtenidas": [],
+          "falsos_positivos": [],
+          "omisiones": []
+        },
+        "PLAZO": {
+          "esperadas": [],
+          "obtenidas": [],
+          "falsos_positivos": [],
+          "omisiones": []
+        }
+      }
+    },
+    {
+      "id": "A3",
+      "entidades": {
+        "AUTORIDAD": {
+          "esperadas": [
+            "policía nacional"
+          ],
+          "obtenidas": [
+            "policía nacional"
+          ],
+          "falsos_positivos": [],
+          "omisiones": []
+        },
+        "LUGAR": {
+          "esperadas": [
+            "bogotá"
+          ],
+          "obtenidas": [
+            "bogotá"
+          ],
+          "falsos_positivos": [],
+          "omisiones": []
+        },
+        "MONTO": {
+          "esperadas": [],
+          "obtenidas": [],
+          "falsos_positivos": [],
+          "omisiones": []
+        },
+        "PLAZO": {
+          "esperadas": [],
+          "obtenidas": [],
+          "falsos_positivos": [],
+          "omisiones": []
+        }
+      }
+    },
+    {
+      "id": "L1",
+      "entidades": {
+        "AUTORIDAD": {
+          "esperadas": [],
+          "obtenidas": [],
+          "falsos_positivos": [],
+          "omisiones": []
+        },
+        "LUGAR": {
+          "esperadas": [
+            "espacio público",
+            "colombia"
+          ],
+          "obtenidas": [
+            "espacio público",
+            "colombia"
+          ],
+          "falsos_positivos": [],
+          "omisiones": []
+        },
+        "MONTO": {
+          "esperadas": [],
+          "obtenidas": [],
+          "falsos_positivos": [],
+          "omisiones": []
+        },
+        "PLAZO": {
+          "esperadas": [],
+          "obtenidas": [],
+          "falsos_positivos": [],
+          "omisiones": []
+        }
+      }
+    },
+    {
+      "id": "M1",
+      "entidades": {
+        "AUTORIDAD": {
+          "esperadas": [],
+          "obtenidas": [],
+          "falsos_positivos": [],
+          "omisiones": []
+        },
+        "LUGAR": {
+          "esperadas": [],
+          "obtenidas": [],
+          "falsos_positivos": [],
+          "omisiones": []
+        },
+        "MONTO": {
+          "esperadas": [
+            "50.000 pesos",
+            "25 %"
+          ],
+          "obtenidas": [
+            "50.000 pesos",
+            "25 %"
+          ],
+          "falsos_positivos": [],
+          "omisiones": []
+        },
+        "PLAZO": {
+          "esperadas": [],
+          "obtenidas": [],
+          "falsos_positivos": [],
+          "omisiones": []
+        }
+      }
+    },
+    {
+      "id": "M2",
+      "entidades": {
+        "AUTORIDAD": {
+          "esperadas": [],
+          "obtenidas": [],
+          "falsos_positivos": [],
+          "omisiones": []
+        },
+        "LUGAR": {
+          "esperadas": [],
+          "obtenidas": [],
+          "falsos_positivos": [],
+          "omisiones": []
+        },
+        "MONTO": {
+          "esperadas": [],
+          "obtenidas": [],
+          "falsos_positivos": [],
+          "omisiones": []
+        },
+        "PLAZO": {
+          "esperadas": [],
+          "obtenidas": [],
+          "falsos_positivos": [],
+          "omisiones": []
+        }
+      }
+    },
+    {
+      "id": "P1",
+      "entidades": {
+        "AUTORIDAD": {
+          "esperadas": [],
+          "obtenidas": [],
+          "falsos_positivos": [],
+          "omisiones": []
+        },
+        "LUGAR": {
+          "esperadas": [],
+          "obtenidas": [],
+          "falsos_positivos": [],
+          "omisiones": []
+        },
+        "MONTO": {
+          "esperadas": [],
+          "obtenidas": [],
+          "falsos_positivos": [],
+          "omisiones": []
+        },
+        "PLAZO": {
+          "esperadas": [
+            "cuarenta y ocho (48) horas"
+          ],
+          "obtenidas": [
+            "cuarenta y ocho (48) horas"
+          ],
+          "falsos_positivos": [],
+          "omisiones": []
+        }
+      }
+    },
+    {
+      "id": "P2",
+      "entidades": {
+        "AUTORIDAD": {
+          "esperadas": [],
+          "obtenidas": [],
+          "falsos_positivos": [],
+          "omisiones": []
+        },
+        "LUGAR": {
+          "esperadas": [],
+          "obtenidas": [],
+          "falsos_positivos": [],
+          "omisiones": []
+        },
+        "MONTO": {
+          "esperadas": [],
+          "obtenidas": [],
+          "falsos_positivos": [],
+          "omisiones": []
+        },
+        "PLAZO": {
+          "esperadas": [
+            "cinco (5) días hábiles"
+          ],
+          "obtenidas": [
+            "cinco (5) días hábiles"
+          ],
+          "falsos_positivos": [],
+          "omisiones": []
+        }
+      }
+    },
+    {
+      "id": "P3",
+      "entidades": {
+        "AUTORIDAD": {
+          "esperadas": [],
+          "obtenidas": [],
+          "falsos_positivos": [],
+          "omisiones": []
+        },
+        "LUGAR": {
+          "esperadas": [],
+          "obtenidas": [],
+          "falsos_positivos": [],
+          "omisiones": []
+        },
+        "MONTO": {
+          "esperadas": [],
+          "obtenidas": [],
+          "falsos_positivos": [],
+          "omisiones": []
+        },
+        "PLAZO": {
+          "esperadas": [
+            "6 meses"
+          ],
+          "obtenidas": [
+            "6 meses"
+          ],
+          "falsos_positivos": [],
+          "omisiones": []
+        }
+      }
+    },
+    {
+      "id": "P4",
+      "entidades": {
+        "AUTORIDAD": {
+          "esperadas": [],
+          "obtenidas": [],
+          "falsos_positivos": [],
+          "omisiones": []
+        },
+        "LUGAR": {
+          "esperadas": [],
+          "obtenidas": [],
+          "falsos_positivos": [],
+          "omisiones": []
+        },
+        "MONTO": {
+          "esperadas": [],
+          "obtenidas": [],
+          "falsos_positivos": [],
+          "omisiones": []
+        },
+        "PLAZO": {
+          "esperadas": [
+            "tres (3) días"
+          ],
+          "obtenidas": [
+            "tres (3) días"
+          ],
+          "falsos_positivos": [],
+          "omisiones": []
+        }
+      }
+    },
+    {
+      "id": "N1",
+      "entidades": {
+        "AUTORIDAD": {
+          "esperadas": [],
+          "obtenidas": [],
+          "falsos_positivos": [],
+          "omisiones": []
+        },
+        "LUGAR": {
+          "esperadas": [],
+          "obtenidas": [],
+          "falsos_positivos": [],
+          "omisiones": []
+        },
+        "MONTO": {
+          "esperadas": [],
+          "obtenidas": [],
+          "falsos_positivos": [],
+          "omisiones": []
+        },
+        "PLAZO": {
+          "esperadas": [],
+          "obtenidas": [],
+          "falsos_positivos": [],
+          "omisiones": []
+        }
+      }
+    }
+  ]
+}

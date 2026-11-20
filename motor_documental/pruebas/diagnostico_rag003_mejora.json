@@ -1,0 +1,18 @@
+{
+  "finish_reason": [
+    "FinishReason.STOP"
+  ],
+  "sha256_salida": "3d01a81e1a2e14e667601e11d23676002bcf6ad69a14f68b7a4e81c96bb43bf5",
+  "caracteres": 896,
+  "cantidad": 1,
+  "citas": [
+    {
+      "articulo_valido": true,
+      "caracteres": 823,
+      "literal": false
+    }
+  ],
+  "seleccion_aceptada": false,
+  "estado": "REQUIERE_REVISION",
+  "segundos": 7.066965
+}

@@ -1,5 +1,43 @@
 # Documentación del corpus jurídico del chatbot RAG
 
+## Auditoría del corpus público entregado
+
+La selección de cierre reúne 28 artículos, 128 bloques aprobados y 63 ventanas. La auditoría reconstruye cada artículo desde su encabezado y los bloques seleccionados de la referencia. Verifica el texto y los caracteres de inicio y fin de cada ventana, y recalcula sus IDs de apartado por intersección con los bloques. Excluye los textos históricos bloqueados y comprueba que el material público carezca de marcas de notas editoriales. El registro indica entidad, URL, captura, revisión disponible, huella o posición del bloque y enlaces de cotejo. [Auditoría por bloque](../motor_documental/pruebas/auditoria_corpus_cierre.json)
+
+El expediente conserva 159 diferencias. La clasificación de 48 como extracción o formato indica candidatas a revisión. El cotejo estricto de los textos completos ignorando solo espacios no cerró ningún caso. Las 27 reformas, 77 diferencias vinculadas a decisiones judiciales y 7 de revisión jurídica siguen en el expediente histórico. Algunas selecciones tienen evidencia puntual para sus propios bloques. La aprobación de un bloque no cierra automáticamente el expediente del artículo.
+
+La procedencia identifica textos legales y compilaciones oficiales, así como el PDF histórico y la edición empleada. Falta acreditar una licencia específica del PDF EVA, las notas editoriales y los elementos de las compilaciones. El expediente preserva su atribución y el índice público excluye las notas. La revisión de condiciones de redistribución del PDF y de los contenidos editoriales permanece pendiente.
+
+## Fecha de captura y fecha de revisión
+
+| Fuente | Evidencia de fecha |
+| --- | --- |
+| Compilación de Cancillería de la Ley 1801 | Captura HTML documentada el 18 de noviembre de 2026 en `referencia_normativa.json`. La huella de la copia local coincide. El 19 se revisaron los apartados 93.1 y 111.1 y 111.3, con consulta de sus pasajes en la compilación oficial. |
+| Compilación de Jurinfo de la Ley 1801 | Captura HTML documentada el 18 de noviembre en `contraste_jep.json`. La huella de la copia local coincide. El cotejo de los bloques revisados el 19 utilizó esa captura. |
+| Ley 2450 de 2025 en Jurinfo | El registro de revisión del 19 documenta la consulta de los artículos 21 y 22. No se dispone de una captura local con huella para esta fuente complementaria. |
+| Función Pública y PDF de Cancillería | La revisión del 19 conserva enlaces, referencias y extractos de búsqueda. Eso no acredita una descarga completa fechada. El PDF se usó para localizar la nota editorial que relaciona los numerales 3 y 8 del artículo 111. |
+
+`fecha_consulta` en los metadatos se refiere a la captura base del 18, y `fecha_revision_documental` al cotejo posterior del apartado. El valor nulo indica que no se añadió una fecha de revisión específica en este ajuste. La verificación regenerada compara las huellas de las capturas archivadas. La coincidencia de texto respalda la transcripción y no determina por sí sola la vigencia o aplicabilidad.
+
+## Selección pública revisada el 19 de noviembre de 2026
+
+Se seleccionaron los numerales 1 a 5 del artículo 27 y el numeral 2
+del artículo 35. Los textos se compararon por bloque con las
+compilaciones oficiales archivadas el 18 de noviembre y se cotejaron
+con el artículo 39 de la Ley 2197 de 2022 y el alcance de C-600/19 y
+C-223/25, según corresponda. Se excluyen las multas, los cuadros de
+medidas y los demás numerales. El inciso segundo del artículo 150 y
+el parágrafo 1 del artículo 222 siguen fuera del alcance público.
+[Selección](../motor_documental/corpus/ampliacion_publicable.json) ·
+[Huellas y fuentes por bloque](../motor_documental/corpus/evidencia_ampliacion.json)
+
+El expediente conserva 159 diferencias. Su clasificación preliminar
+contiene 48 de extracción o formato, 27 de reforma o corrección
+normativa, 77 con señales de decisiones judiciales y 7 de revisión
+jurídica. La clasificación orienta la verificación y las coincidencias
+entre compilaciones dan evidencia de transcripción. Se requiere revisión
+de efectos, redacciones aplicables y fechas antes de ampliar el alcance.
+
 ## Contraste con fuente oficial del 18 de noviembre de 2026
 
 La [compilación de Cancillería](https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm)

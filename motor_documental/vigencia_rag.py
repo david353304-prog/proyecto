@@ -31,10 +31,16 @@ def menciona_texto_inexequible(texto):
 
 
 @lru_cache(maxsize=1)
+def referencia_publicable():
+    ruta = Path(__file__).resolve().parent / "corpus" / "referencia_normativa.json"
+    return json.loads(ruta.read_bytes())
+
+
+@lru_cache(maxsize=1)
 def corpus_publicable():
     carpeta = Path(__file__).resolve().parent / "corpus"
     alcance = json.loads((carpeta / "alcance_publicable.json").read_bytes())
-    referencia = json.loads((carpeta / "referencia_normativa.json").read_bytes())
+    referencia = referencia_publicable()
     ampliacion = json.loads((carpeta / "ampliacion_publicable.json").read_bytes())
     registros = {
         a["articulo"]: {
@@ -73,11 +79,30 @@ def corpus_publicable():
             "url_fuente": a["fuente"],
             "alcance": ficha["alcance"],
             "consulta": ficha["consulta"],
+            "exclusiones_consulta": ficha.get("exclusiones_consulta", r"(?!)"),
             "numerales": [
                 unidades[unidad]["etiqueta"] for unidad in ficha["seleccion"]
                 if unidades[unidad]["tipo"] == "numeral"
             ],
         }
+    for numero, registro in registros.items():
+        oficial = oficiales[numero]
+        ficha = ampliacion["articulos"].get(numero)
+        registro.update(
+            jerarquia=oficial["jerarquia"], tema=oficial["tema"],
+            fecha_consulta=oficial["fecha_consulta"],
+            estado_documental="apartados_cotejados" if ficha else "articulo_cotejado",
+            evidencia_adicional=ficha["evidencia"] if ficha else [],
+            apartados=[
+                {"id": unidad["id"], "tipo": unidad["tipo"],
+                 "etiqueta": unidad.get("etiqueta"), "bloques": indices}
+                for unidad in oficial["unidades"]
+                if (indices := (
+                    ficha["seleccion"].get(unidad["id"].removeprefix(oficial["id"] + "-"))
+                    if ficha else list(range(len(unidad["bloques"])))
+                ))
+            ],
+        )
     return registros
 
 
@@ -89,13 +114,18 @@ def articulos_para_consulta(pregunta):
         if explicitos - corpus.keys():
             return set()
         solicitados = set(re.findall(r"\bnumeral\s+(\d+)\b", texto))
-        descripcion = re.search(r"\b(?:que (?:dice|establece|contiene|regula)|de que trata)\b", texto)
+        consulta_multiple = re.search(r"\bnumerales\b|\bnumeral\s+\d+\s*(?:,|y|o|a|al|hasta|[-–])\s*\d", texto)
+        numeral_sin_identificar = re.search(r"\bnumeral\b", texto) and not solicitados
+        paragrafo = re.search(r"\bparagrafos?\b", texto)
         return {
             numero for numero in explicitos
             if "consulta" not in corpus[numero]
             or (
-                solicitados <= set(corpus[numero]["numerales"])
-                and (descripcion or re.search(corpus[numero]["consulta"], texto))
+                not consulta_multiple and not numeral_sin_identificar
+                and len(solicitados) <= 1 and not paragrafo
+                and not re.search(corpus[numero]["exclusiones_consulta"], texto)
+                and solicitados <= set(corpus[numero]["numerales"])
+                and (solicitados or re.search(corpus[numero]["consulta"], texto))
             )
         }
     patrones = {
@@ -108,6 +138,7 @@ def articulos_para_consulta(pregunta):
     return {
         numero for numero, registro in corpus.items()
         if re.search(registro.get("consulta", patrones.get(numero, r"(?!)")), texto)
+        and not re.search(registro.get("exclusiones_consulta", r"(?!)"), texto)
     }
 
 
@@ -138,6 +169,34 @@ def contexto_publicable(resultados):
         "resultados_estructurados_135": [],
         "total_estructurados": 0,
     }
+
+
+def pasajes_del_contexto(registros):
+    """Da identificadores locales a bloques aprobados de los artículos recuperados."""
+    oficiales = {a["articulo"]: a for a in referencia_publicable()["articulos"]}
+    pasajes = {}
+    for registro in registros:
+        numero = registro["articulo"]
+        oficial = oficiales[numero]
+        unidades = {unidad["id"]: unidad["bloques"] for unidad in oficial["unidades"]}
+        for apartado in registro["apartados"]:
+            for posicion in apartado["bloques"]:
+                texto = unidades[apartado["id"]][posicion]
+                if texto in registro["texto"]:
+                    pasaje = {"articulo": numero, "texto": texto}
+                    if posicion and numero == "223" and apartado["tipo"] in {"numeral", "paragrafo"}:
+                        clase = "Numeral" if apartado["tipo"] == "numeral" else "Parágrafo"
+                        pasaje["rotulo"] = f"{clase} {apartado['etiqueta']} del artículo {numero}"
+                    if numero == "206" and apartado["tipo"] == "literal":
+                        orden = int(apartado["id"].rsplit("-", 1)[1])
+                        padre = 4 if orden <= 8 else 5
+                        pasaje["rotulo"] = f"Literal {apartado['etiqueta']} del numeral {padre} del artículo {numero}"
+                    if numero == "38" and apartado["tipo"] == "literal":
+                        orden = int(apartado["id"].rsplit("-", 1)[1])
+                        padre = 1 if orden < 8 else 5 if orden < 16 else 6
+                        pasaje["rotulo"] = f"Literal {apartado['etiqueta']} del numeral {padre} del artículo {numero}"
+                    pasajes[f"P{len(pasajes) + 1}"] = pasaje
+    return pasajes
 
 
 def respuesta_texto_inexequible(pregunta):

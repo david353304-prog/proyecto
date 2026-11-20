@@ -92,6 +92,20 @@ test("La API rechaza respuestas sin texto público", async () => {
     assert.equal(Object.hasOwn(resultado.datos, "respuesta"), false);
 });
 
+test("La API conserva el numeral final de una fuente dentro del límite", async () => {
+    const texto = "x".repeat(1300) + " 6. Texto del último numeral.";
+    const resultado = await probarAPI(() => respuestaSimulada({
+        respuesta: "Respuesta pública",
+        fuentes_recuperadas: [
+            { articulo: "2", texto, url_fuente: "https://example.org/norma" },
+            { articulo: "5", texto: "x".repeat(4097) }
+        ]
+    }));
+    assert.equal(resultado.estado, 200);
+    assert.equal(resultado.datos.fuentes_recuperadas.length, 1);
+    assert.equal(resultado.datos.fuentes_recuperadas[0].texto, texto);
+});
+
 test("La API comunica la indisponibilidad del motor sin exponer detalles", async () => {
     const resultado = await probarAPI(() => respuestaSimulada({
         detail: "Configuración interna"

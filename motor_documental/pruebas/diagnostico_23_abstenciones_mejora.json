@@ -1,0 +1,363 @@
+{
+  "sha256_banco": "dbeab26c86e8cebc541e301b673347584214630b447af06343e3c311c20beaa9",
+  "linea_base": "3bd9a032cef749c47e1319f29bdf08ad3c02087fffbab00ddcfd63c0f5b7d40c",
+  "total": 23,
+  "filas": [
+    {
+      "id": "RAG-005",
+      "articulo": "33",
+      "pregunta": "¿Qué establece el Código sobre los ruidos que afectan la tranquilidad de los vecinos?",
+      "referencia_banco": "El artículo 33 contempla como comportamiento contrario a la convivencia perturbar la tranquilidad del vecindario mediante sonidos, ruidos de fiestas, reuniones, dispositivos o maquinaria. Las autoridades pueden desactivar temporalmente las fuentes de ruido en las condiciones previstas por la norma. Para el numeral 1 contempla multa general tipo 3 y disolución de reuniones o actividades que involucren aglomeraciones de público no complejas.",
+      "apartados_necesarios": "33.1 literales de ruido vecinal y cuadro",
+      "revision_o_brecha": "Ley 2450 art. 18, C-308/19 y C-253/19",
+      "fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#33",
+      "seleccion_publica": {},
+      "prioridad_siguiente_fase": "posterior, cobertura amplia o condicionada",
+      "decision": "mantener abstencion mientras no se coteje y habilite el alcance completo necesario"
+    },
+    {
+      "id": "RAG-006",
+      "articulo": "35",
+      "pregunta": "¿Qué comportamientos afectan las relaciones entre las personas y las autoridades de Policía?",
+      "referencia_banco": "El artículo 35 contempla comportamientos como irrespetar a las autoridades de Policía, incumplir o desacatar sus órdenes, impedir procedimientos de identificación, suministrar información falsa, resistirse a medidas de Policía, agredir a las autoridades o utilizar inadecuadamente el sistema de emergencias.",
+      "apartados_necesarios": "35.1-7 lista de conductas",
+      "revision_o_brecha": "C-600/19 y alcance de C-223/25",
+      "fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#35",
+      "seleccion_publica": {
+        "numeral-2": [
+          0
+        ]
+      },
+      "prioridad_siguiente_fase": "posterior, cobertura amplia o condicionada",
+      "decision": "mantener abstencion mientras no se coteje y habilite el alcance completo necesario"
+    },
+    {
+      "id": "RAG-008",
+      "articulo": "38",
+      "pregunta": "¿Qué comportamientos afectan la integridad de niños, niñas y adolescentes?",
+      "referencia_banco": "El artículo 38 prohíbe comportamientos que pongan en riesgo la integridad de niños, niñas y adolescentes. Entre ellos están permitir su ingreso a lugares con actividades para adultos o peligrosas, inducirlos a participar en actividades prohibidas, facilitarles material pornográfico, suministrarles sustancias psicoactivas o bebidas alcohólicas, inducirlos al consumo de estas sustancias, permitir situaciones de abuso o explotación sexual, utilizarlos para evadir órdenes de Policía, permitir el incumplimiento de requisitos de seguridad en piscinas e involucrarlos en confrontaciones violentas.",
+      "apartados_necesarios": "38 numerales y literales de proteccion integral",
+      "revision_o_brecha": "contrastar literales, remisiones y notas de la compilacion",
+      "fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#38",
+      "seleccion_publica": {},
+      "prioridad_siguiente_fase": "posterior, cobertura amplia o condicionada",
+      "decision": "mantener abstencion mientras no se coteje y habilite el alcance completo necesario"
+    },
+    {
+      "id": "RAG-010",
+      "articulo": "40",
+      "pregunta": "¿Qué comportamientos afectan a los grupos sociales de especial protección constitucional?",
+      "referencia_banco": "El artículo 40 contempla comportamientos como perpetrar o permitir maltrato físico, verbal, psicológico o sexual; utilizar a estas personas para obtener beneficios económicos; negarles la prelación que les corresponde; obstruir el acceso a información e insumos sobre derechos sexuales y reproductivos; irrespetar sus manifestaciones y reuniones por motivos discriminatorios; y limitar manifestaciones públicas de afecto que no constituyan actos sexuales ni exhibicionismo.",
+      "apartados_necesarios": "40 numerales de proteccion especial y alcance de discriminacion",
+      "revision_o_brecha": "C-090/24, alcance del numeral 5",
+      "fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#40",
+      "seleccion_publica": {},
+      "prioridad_siguiente_fase": "posterior, cobertura amplia o condicionada",
+      "decision": "mantener abstencion mientras no se coteje y habilite el alcance completo necesario"
+    },
+    {
+      "id": "RAG-013",
+      "articulo": "92",
+      "pregunta": "¿Qué comportamientos relacionados con el incumplimiento de normas afectan la actividad económica?",
+      "referencia_banco": "El artículo 92 establece comportamientos que afectan la actividad económica, como incumplir normas sanitarias y alimentarias, quebrantar horarios, desarrollar actividades diferentes a las registradas, superar la capacidad permitida, comercializar sustancias o bienes ilícitos, permitir actividades prohibidas, ocupar indebidamente el espacio público, incumplir las normas de uso del suelo y desarrollar actividades económicas sin los requisitos exigidos. Las medidas correctivas varían según el numeral e incluyen multas, suspensión temporal o definitiva de actividad y destrucción de bienes.",
+      "apartados_necesarios": "92 lista general y cuadro",
+      "revision_o_brecha": "Decreto 555 art. 8, paragrafo 7 y art. 87, C-054/19",
+      "fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#92",
+      "seleccion_publica": {},
+      "prioridad_siguiente_fase": "posterior, cobertura amplia o condicionada",
+      "decision": "mantener abstencion mientras no se coteje y habilite el alcance completo necesario"
+    },
+    {
+      "id": "RAG-014",
+      "articulo": "93",
+      "pregunta": "¿Qué comportamientos de establecimientos comerciales afectan la seguridad y tranquilidad?",
+      "referencia_banco": "El artículo 93 contempla comportamientos que afectan la seguridad y tranquilidad de los establecimientos económicos. Entre ellos están no informar los protocolos de seguridad y evacuación, auspiciar riñas, generar ruidos que afecten la tranquilidad, incumplir protocolos de seguridad, permitir el ingreso de personas armadas, no instalar señalización, impedir el ingreso de autoridades de Policía y mantener mercancías peligrosas o de procedencia ilícita. También contempla conductas discriminatorias.",
+      "apartados_necesarios": "93 lista general, incluido el alcance de la reforma por ruido",
+      "revision_o_brecha": "Ley 2450 arts. 21 y 22",
+      "fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#93",
+      "seleccion_publica": {
+        "numeral-1": [
+          0
+        ]
+      },
+      "prioridad_siguiente_fase": "posterior, cobertura amplia o condicionada",
+      "decision": "mantener abstencion mientras no se coteje y habilite el alcance completo necesario"
+    },
+    {
+      "id": "RAG-016",
+      "articulo": "95",
+      "pregunta": "¿Qué establece el Código sobre comprar o utilizar celulares reportados como hurtados?",
+      "referencia_banco": "El artículo 95, numeral 1, prohíbe comprar, alquilar o utilizar equipos terminales móviles que tengan reporte de hurto o extravío en la base de datos negativa, así como equipos cuyo número de identificación físico o electrónico haya sido alterado, reprogramado, remarcado o suprimido. La medida correctiva indicada es multa general tipo 2, destrucción del bien y suspensión temporal de actividad.",
+      "apartados_necesarios": "95.1 y su fila",
+      "revision_o_brecha": "verificar remisiones y regimen de bases de datos",
+      "fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#95",
+      "seleccion_publica": {},
+      "prioridad_siguiente_fase": "alta, apartado delimitable",
+      "decision": "mantener abstencion mientras no se coteje y habilite el alcance completo necesario"
+    },
+    {
+      "id": "RAG-018",
+      "articulo": "124",
+      "pregunta": "¿Qué comportamientos relacionados con la tenencia de animales afectan la convivencia?",
+      "referencia_banco": "El artículo 124 contempla nueve comportamientos relacionados con la tenencia de animales: permitir que animales deambulen sin medidas de seguridad; impedir el ingreso de perros lazarillos; no recoger sus excrementos; transportar perros de manejo especial sin los elementos de seguridad exigidos; incumplir las disposiciones sobre albergue; incumplir las normas de importación, registro, posesión o comercialización de animales sujetos a regulación; permitir ataques contra personas, animales o bienes; entrenar caninos para peleas o agresiones; y permitir que las mascotas esparzan basura. Las medidas correctivas dependen del numeral y comprenden multas generales tipos 1, 2 y 4.",
+      "apartados_necesarios": "124.1-9 y cuadro",
+      "revision_o_brecha": "examinar reformas y terminologia de proteccion animal, incluida Ley 2054",
+      "fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#124",
+      "seleccion_publica": {
+        "numeral-1": [
+          0
+        ],
+        "numeral-7": [
+          0
+        ],
+        "paragrafo-11": [
+          2,
+          8
+        ]
+      },
+      "prioridad_siguiente_fase": "posterior, cobertura amplia o condicionada",
+      "decision": "mantener abstencion mientras no se coteje y habilite el alcance completo necesario"
+    },
+    {
+      "id": "RAG-019",
+      "articulo": "135",
+      "pregunta": "¿Qué comportamientos constituyen infracciones contra la integridad urbanística?",
+      "referencia_banco": "El artículo 135 contempla comportamientos contrarios a la integridad urbanística. Se agrupan en cuatro categorías: parcelar, urbanizar, demoler, intervenir o construir en condiciones prohibidas; afectar inmuebles declarados de conservación o interés cultural; destinar inmuebles a usos o ubicaciones diferentes de los autorizados o contrarios a las normas del suelo; e incumplir obligaciones relacionadas con la seguridad, limpieza, protección y mantenimiento de las obras de construcción. Las medidas correctivas dependen del numeral e incluyen multas especiales, suspensión de actividades, suspensión de construcción o demolición y reparación de daños, entre otras.",
+      "apartados_necesarios": "135 literales y cuadro general",
+      "revision_o_brecha": "Decreto 555 art. 10 y T-535/24",
+      "fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#135",
+      "seleccion_publica": {
+        "literal-1": [
+          0
+        ],
+        "numeral-5": [
+          0
+        ],
+        "paragrafo-35": [
+          5
+        ]
+      },
+      "prioridad_siguiente_fase": "posterior, cobertura amplia o condicionada",
+      "decision": "mantener abstencion mientras no se coteje y habilite el alcance completo necesario"
+    },
+    {
+      "id": "RAG-020",
+      "articulo": "140",
+      "pregunta": "¿Qué comportamientos afectan el cuidado y la integridad del espacio público?",
+      "referencia_banco": "El artículo 140 contempla comportamientos que afectan el cuidado y la integridad del espacio público, como omitir el mantenimiento y aseo de áreas públicas, realizar obras sin autorización, dañar mobiliario urbano, ocupar indebidamente el espacio público, deteriorar bienes públicos, promover ocupaciones contrarias a las normas, consumir o portar sustancias en los lugares contemplados por la norma, realizar grafitis sin autorización, verter aguas residuales, realizar necesidades fisiológicas y fijar publicidad sin permiso. También contempla comportamientos relacionados con el consumo y comercialización de sustancias psicoactivas en los lugares y condiciones descritos en sus numerales 13 y 14.",
+      "apartados_necesarios": "140.1-14 con reformas y condicionamientos",
+      "revision_o_brecha": "Decreto 555 art. 11, Ley 2000 y C-211/17, C-253/19 y C-127/23 para los apartados excluidos",
+      "fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#140",
+      "seleccion_publica": {
+        "numeral-3": [
+          0
+        ],
+        "numeral-5": [
+          0
+        ],
+        "paragrafo-16": [
+          4,
+          7
+        ]
+      },
+      "prioridad_siguiente_fase": "posterior, cobertura amplia o condicionada",
+      "decision": "mantener abstencion mientras no se coteje y habilite el alcance completo necesario"
+    },
+    {
+      "id": "RAG-021",
+      "articulo": "146",
+      "pregunta": "¿Qué comportamientos están prohibidos en los sistemas de transporte público?",
+      "referencia_banco": "El artículo 146 contempla 16 comportamientos contrarios a la convivencia en los sistemas de transporte público. Entre ellos: controlar informalmente los tiempos de recorrido, impedir el acceso prioritario a personas en condición vulnerable, incumplir las reglas de transporte de mascotas, irrespetar turnos y sillas preferenciales, agredir a otros pasajeros, consumir productos prohibidos, evadir el pago del pasaje, dañar alarmas y sistemas de emergencia, obstaculizar la movilidad, poner en peligro la seguridad operacional, perturbar la tranquilidad, ingresar por lugares no autorizados, alterar puertas y equipos, incumplir condiciones de aseo por parte de las empresas e irrespetar a las autoridades del sistema. Las medidas correctivas dependen del numeral y comprenden amonestaciones y multas generales de tipos 1 a 4, además de reparación de daños en determinados casos.",
+      "apartados_necesarios": "146.1-16, literales del 10 y tabla",
+      "revision_o_brecha": "C-094/20 sobre camaras, cotejar los numerales y filas restantes",
+      "fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#146",
+      "seleccion_publica": {
+        "numeral-5": [
+          0
+        ],
+        "numeral-7": [
+          0
+        ],
+        "numeral-8": [
+          0
+        ],
+        "numeral-9": [
+          0
+        ],
+        "numeral-19": [
+          0
+        ],
+        "numeral-20": [
+          0
+        ],
+        "numeral-24": [
+          0
+        ],
+        "paragrafo-25": [
+          6,
+          8,
+          9,
+          10,
+          12,
+          13,
+          17
+        ]
+      },
+      "prioridad_siguiente_fase": "posterior, cobertura amplia o condicionada",
+      "decision": "mantener abstencion mientras no se coteje y habilite el alcance completo necesario"
+    },
+    {
+      "id": "RAG-023",
+      "articulo": "155",
+      "pregunta": "¿En qué circunstancias puede realizarse un traslado por protección?",
+      "referencia_banco": "El artículo 155 permite el traslado por protección cuando la vida o integridad de una persona se encuentre en riesgo o peligro y no acepte la mediación policial, en los casos previstos por la norma: estar involucrada en una riña, deambular en estado de indefensión, presentar alteración del estado de conciencia por aspectos de orden mental, estar bajo efectos de alcohol o sustancias psicoactivas y presentar comportamientos agresivos o temerarios, realizar actividades peligrosas que pongan en riesgo la vida o integridad propia o de terceros, o encontrarse en peligro de ser agredida. Para los literales B, C y D no es necesario agotar previamente la mediación policial. El traslado no puede superar 12 horas y debe respetar las garantías establecidas en el artículo.",
+      "apartados_necesarios": "155 causales, excepciones a mediacion, duracion y garantias",
+      "revision_o_brecha": "Ley 2197 y C-281/17",
+      "fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#155",
+      "seleccion_publica": {},
+      "prioridad_siguiente_fase": "posterior, cobertura amplia o condicionada",
+      "decision": "mantener abstencion mientras no se coteje y habilite el alcance completo necesario"
+    },
+    {
+      "id": "RAG-024",
+      "articulo": "163",
+      "pregunta": "¿En qué casos puede ingresar la Policía a un inmueble sin orden escrita?",
+      "referencia_banco": "El artículo 163 permite el ingreso de la Policía a un inmueble sin orden escrita cuando exista imperiosa necesidad en los siguientes casos: 1) socorrer a alguien que solicite auxilio; 2) extinguir un incendio, evitar su propagación, remediar una inundación u otra situación similar de peligro; 3) dar caza a un animal rabioso o feroz; 4) proteger bienes de personas ausentes cuando un extraño haya ingresado violentamente o por otro medio; 5) actuar cuando desde el interior se proceda por vía de hecho contra una persona o propiedad exterior; 6) proteger la vida e integridad ante el uso irregular de pólvora, fuegos pirotécnicos, juegos artificiales o globos; 7) socorrer a un animal cuando exista certeza y evidencia verificable de maltrato que ponga en riesgo inminente su vida o integridad. La autoridad debe rendir un informe escrito inmediato a su superior y entregar copia al propietario, poseedor o tenedor. También puede ingresar sin orden escrita a inmuebles abiertos al público por razones propias de sus funciones.",
+      "apartados_necesarios": "163 causales 1-7 y paragrafos",
+      "revision_o_brecha": "C-212/17, C-334/17 y adicion de causal de maltrato animal",
+      "fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#163",
+      "seleccion_publica": {},
+      "prioridad_siguiente_fase": "posterior, cobertura amplia o condicionada",
+      "decision": "mantener abstencion mientras no se coteje y habilite el alcance completo necesario"
+    },
+    {
+      "id": "RAG-029",
+      "articulo": "223A",
+      "pregunta": "¿Qué procedimiento establece el artículo 223A para las multas tipo 1 a 4?",
+      "referencia_banco": "El artículo 223A establece un procedimiento especial para multas generales tipos 1 a 4, sin perjuicio del proceso verbal abreviado del artículo 223. Contempla: 1) aplicación de criterios de proporcionalidad, razonabilidad y necesidad; 2) término para objetar la orden de comparendo; 3) aceptación ficta de responsabilidad cuando se paga la multa o se cambia el pago de multas tipos 1 y 2 por participación en programa comunitario dentro del término señalado; 4) actualización del estado de cumplimiento por el inspector; 5) firmeza de la multa y posibilidad de cobro coactivo; 6) pérdida de descuentos por pronto pago cuando se objeta; 7) validez nacional de certificados de programas comunitarios; 8) control de medidas correctivas impuestas a extranjeros; 9) incremento del 50 % por multas anteriores reportadas y no pagadas, bajo las condiciones legales; 10) incremento por reiteración del mismo comportamiento: 75 % dentro del año siguiente a la firmeza de la primera medida y 50 % después de un año. El texto consultado contiene términos de tres y cinco días en numerales distintos.",
+      "apartados_necesarios": "223A procedimiento y terminos de objecion, firmeza y pago",
+      "revision_o_brecha": "verificar texto modificado y plazos de tres y cinco dias",
+      "fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#223A",
+      "seleccion_publica": {},
+      "prioridad_siguiente_fase": "posterior, cobertura amplia o condicionada",
+      "decision": "mantener abstencion mientras no se coteje y habilite el alcance completo necesario"
+    },
+    {
+      "id": "RAG-030",
+      "articulo": "237",
+      "pregunta": "¿Qué establece el Código sobre la información captada por sistemas de videovigilancia en espacios públicos?",
+      "referencia_banco": "El artículo 237 establece que la información, imágenes y datos captados o almacenados por sistemas de video o medios tecnológicos ubicados en espacios públicos o lugares abiertos al público se consideran públicos y de libre acceso, salvo que estén amparados por reserva legal. También dispone que los sistemas públicos o privados instalados en espacios públicos, áreas comunes, lugares abiertos al público o lugares privados que trasciendan a lo público se enlacen permanente o temporalmente a la red dispuesta por la Policía Nacional, conforme a la reglamentación del Gobierno. Para sistemas instalados en áreas comunes o lugares privados que trasciendan a lo público se requiere autorización previa de quien tenga legitimidad para otorgarla.",
+      "apartados_necesarios": "237 acceso, reserva y enlace de sistemas con condiciones",
+      "revision_o_brecha": "C-094/20 y alcance de las reservas de datos",
+      "fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#237",
+      "seleccion_publica": {},
+      "prioridad_siguiente_fase": "posterior, cobertura amplia o condicionada",
+      "decision": "mantener abstencion mientras no se coteje y habilite el alcance completo necesario"
+    },
+    {
+      "id": "RAG-032",
+      "articulo": "33",
+      "pregunta": "Mi vecino pone música a volumen muy alto durante la madrugada y no me deja dormir. ¿Qué norma regula esta situación?",
+      "referencia_banco": "El artículo 33, numeral 1, literal a, contempla como comportamiento contrario a la convivencia perturbar el sosiego del vecindario mediante sonidos o ruidos de actividades, fiestas, reuniones o eventos similares que generen molestias por su impacto auditivo. Para este comportamiento se establece multa general tipo 3 y puede proceder la disolución de la reunión o actividad que involucre aglomeraciones de público no complejas. Cuando el residente se niegue a desactivar la fuente del ruido, las autoridades de Policía pueden desactivarla temporalmente en los términos del artículo.",
+      "apartados_necesarios": "33.1.a y medidas",
+      "revision_o_brecha": "Ley 2450 art. 18, C-308/19 y C-253/19",
+      "fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#33",
+      "seleccion_publica": {},
+      "prioridad_siguiente_fase": "alta, apartado delimitable",
+      "decision": "mantener abstencion mientras no se coteje y habilite el alcance completo necesario"
+    },
+    {
+      "id": "RAG-033",
+      "articulo": "35",
+      "pregunta": "Una persona insulta y desobedece a un policía durante un procedimiento. ¿Qué comportamientos podrían estar relacionados?",
+      "referencia_banco": "El artículo 35 contempla el irrespeto a las autoridades de Policía en su numeral 1 y el incumplimiento o desacato de sus funciones u órdenes en el numeral 2. La conducta aplicable depende de los hechos concretos del procedimiento.",
+      "apartados_necesarios": "35.1 y 35.2",
+      "revision_o_brecha": "C-600/19 y alcance de C-223/25",
+      "fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#35",
+      "seleccion_publica": {
+        "numeral-2": [
+          0
+        ]
+      },
+      "prioridad_siguiente_fase": "alta, apartado delimitable",
+      "decision": "mantener abstencion mientras no se coteje y habilite el alcance completo necesario"
+    },
+    {
+      "id": "RAG-034",
+      "articulo": "38",
+      "pregunta": "Un establecimiento permite situaciones que ponen en riesgo la integridad de menores de edad. ¿Qué establece el Código?",
+      "referencia_banco": "El artículo 38 establece diferentes comportamientos que afectan la integridad de niños, niñas y adolescentes, entre ellos permitir su ingreso a establecimientos con actividades prohibidas para menores, facilitar el acceso a material pornográfico, suministrar sustancias restringidas, permitir situaciones de abuso o explotación sexual e involucrarlos en confrontaciones violentas. El numeral aplicable depende de la situación específica.",
+      "apartados_necesarios": "38 numerales y literales sobre acceso y situaciones de riesgo",
+      "revision_o_brecha": "contrastar literales, remisiones y notas de la compilacion",
+      "fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#38",
+      "seleccion_publica": {},
+      "prioridad_siguiente_fase": "posterior, cobertura amplia o condicionada",
+      "decision": "mantener abstencion mientras no se coteje y habilite el alcance completo necesario"
+    },
+    {
+      "id": "RAG-036",
+      "articulo": "92",
+      "pregunta": "Un establecimiento comercial desarrolla una actividad incumpliendo las normas aplicables. ¿Qué establece el Código?",
+      "referencia_banco": "El artículo 92 regula los comportamientos relacionados con el cumplimiento de la normatividad que afectan la actividad económica. El establecimiento debe respetar los horarios, las actividades registradas, las condiciones de funcionamiento, las normas de uso del suelo y los requisitos legales aplicables. El numeral 16 contempla desarrollar la actividad económica sin cumplir los requisitos establecidos en la normatividad vigente. El parágrafo 7 precisa que este numeral debe interpretarse considerando los requisitos de apertura y funcionamiento del artículo 87.",
+      "apartados_necesarios": "92.16 y paragrafo 7 en relacion con 87",
+      "revision_o_brecha": "Decreto 555 art. 8, paragrafo 7 y art. 87, C-054/19",
+      "fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#92",
+      "seleccion_publica": {},
+      "prioridad_siguiente_fase": "alta, apartado delimitable",
+      "decision": "mantener abstencion mientras no se coteje y habilite el alcance completo necesario"
+    },
+    {
+      "id": "RAG-039",
+      "articulo": "95",
+      "pregunta": "Compré un celular usado y después descubrí que aparece reportado como robado. ¿Qué contempla la ley sobre estos equipos?",
+      "referencia_banco": "El artículo 95, numeral 1, contempla como comportamiento contrario a la seguridad comprar, alquilar o utilizar un celular reportado como hurtado o extraviado. El parágrafo 2 establece que las personas deben verificar que el equipo no aparezca en la base de datos negativa y proceder a su registro en la base de datos positiva. Para el numeral 1 se establece multa general tipo 2, destrucción del bien y suspensión temporal de actividad.",
+      "apartados_necesarios": "95.1, paragrafo 2 y fila 1",
+      "revision_o_brecha": "verificar remisiones y regimen de bases de datos",
+      "fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#95",
+      "seleccion_publica": {},
+      "prioridad_siguiente_fase": "alta, apartado delimitable",
+      "decision": "mantener abstencion mientras no se coteje y habilite el alcance completo necesario"
+    },
+    {
+      "id": "RAG-046",
+      "articulo": "155",
+      "pregunta": "Una persona se encuentra en una situación que pone en riesgo su integridad. ¿Cuándo procede un traslado por protección?",
+      "referencia_banco": "El artículo 155 permite el traslado por protección cuando la vida o integridad de una persona se encuentre en riesgo o peligro y se presente alguno de los casos contemplados por la norma: participación en una riña, estado de indefensión, alteración del estado de conciencia por aspectos mentales, consumo de alcohol o sustancias psicoactivas acompañado de comportamientos agresivos o temerarios, actividades peligrosas que pongan en riesgo la vida o integridad, o peligro de ser agredida. En general debe intentarse la mediación policial, excepto en los literales B, C y D. El traslado no puede superar 12 horas y debe respetar las garantías previstas en el artículo.",
+      "apartados_necesarios": "155 causales, mediacion, plazo y garantias",
+      "revision_o_brecha": "Ley 2197 y C-281/17",
+      "fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#155",
+      "seleccion_publica": {},
+      "prioridad_siguiente_fase": "posterior, cobertura amplia o condicionada",
+      "decision": "mantener abstencion mientras no se coteje y habilite el alcance completo necesario"
+    },
+    {
+      "id": "RAG-047",
+      "articulo": "163",
+      "pregunta": "Una persona pide auxilio desde el interior de una vivienda. ¿Puede ingresar la Policía sin una orden escrita?",
+      "referencia_banco": "Sí. El artículo 163 permite que la Policía ingrese a un inmueble sin orden escrita para socorrer a alguien que solicite auxilio. Esta facultad se encuentra condicionada a una situación de imperiosa necesidad. La autoridad uniformada debe rendir inmediatamente un informe escrito a su superior y entregar copia al propietario, poseedor o tenedor del inmueble, indicando la razón del ingreso.",
+      "apartados_necesarios": "163 inciso inicial, numeral 1 e informe del paragrafo 1",
+      "revision_o_brecha": "C-212/17, C-334/17 y adicion de causal de maltrato animal",
+      "fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#163",
+      "seleccion_publica": {},
+      "prioridad_siguiente_fase": "alta, apartado delimitable",
+      "decision": "mantener abstencion mientras no se coteje y habilite el alcance completo necesario"
+    },
+    {
+      "id": "RAG-048",
+      "articulo": "180",
+      "pregunta": "Me impusieron una multa por un comportamiento contrario a la convivencia. ¿Qué establece el Código sobre las multas?",
+      "referencia_banco": "El artículo 180 define la multa como el pago de una suma de dinero en moneda colombiana por un comportamiento contrario a la convivencia. Las multas generales se clasifican en cuatro tipos: tipo 1, dos salarios mínimos diarios legales vigentes; tipo 2, cuatro; tipo 3, ocho; y tipo 4, dieciséis. También existen multas especiales. La persona puede objetar la medida dentro del término legal y el artículo contempla descuentos por pronto pago.",
+      "apartados_necesarios": "180 definicion, tipos, valores, objecion y descuentos",
+      "revision_o_brecha": "Ley 2450 art. 19 y reglas actuales de valores y descuentos",
+      "fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#180",
+      "seleccion_publica": {
+        "cuerpo": [
+          0,
+          1
+        ]
+      },
+      "prioridad_siguiente_fase": "posterior, cobertura amplia o condicionada",
+      "decision": "mantener abstencion mientras no se coteje y habilite el alcance completo necesario"
+    }
+  ]
+}

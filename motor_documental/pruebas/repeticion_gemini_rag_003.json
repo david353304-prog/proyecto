@@ -1,0 +1,29 @@
+{
+  "estado_motor": {
+    "estado": "activo",
+    "modo_respuesta": "citas_extractivas",
+    "generacion_configurada": true,
+    "sha256_corpus_publicable": "08173e8fa006cc6b48f14582c6a41f6b9f3d29339d8928b0fb7bef67c615a1b9"
+  },
+  "resultado": {
+    "id": "RAG-003",
+    "pregunta": "¿Qué principios fundamentales orientan la aplicación del Código de Policía?",
+    "http": 200,
+    "segundos": 2.609874,
+    "respuesta": {
+      "fuentes_recuperadas": [],
+      "pregunta": "¿Qué principios fundamentales orientan la aplicación del Código de Policía?",
+      "respuesta": "No encontré respaldo suficiente en los fragmentos de la Ley 1801 de 2016.",
+      "modelo": "gemini-3.1-flash-lite",
+      "total_generales": 1,
+      "total_estructurados": 0,
+      "validacion_documental": {
+        "estado": "REQUIERE_REVISION",
+        "advertencias": []
+      }
+    },
+    "llamada_gemini_confirmada": true,
+    "estado_documental": "REQUIERE_REVISION",
+    "numerales_rotulados": false
+  }
+}

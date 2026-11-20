@@ -1,0 +1,94 @@
+{
+  "estado_motor": {
+    "estado": "activo",
+    "modo_respuesta": "citas_extractivas",
+    "generacion_configurada": true,
+    "sha256_corpus_publicable": "41507d4d7e91d7527baffade9379c670a10cb42cc3b89f1cdb06e9da7d953324"
+  },
+  "filas": [
+    {
+      "id": "RAG-035",
+      "pregunta": "Una persona ocupa un inmueble ajeno sin autorización. ¿Qué comportamientos relacionados con la posesión contempla la ley?",
+      "http": 200,
+      "segundos": 2.284179,
+      "respuesta": {
+        "fuentes_recuperadas": [
+          {
+            "articulo": "77",
+            "numeral": "",
+            "titulo": "COMPORTAMIENTOS CONTRARIOS A LA POSESIÓN Y MERA TENENCIA DE BIENES INMUEBLES",
+            "texto": "ARTÍCULO 77. COMPORTAMIENTOS CONTRARIOS A LA POSESIÓN Y MERA TENENCIA DE BIENES INMUEBLES. Son aquellos contrarios a la posesión, la mera tenencia de los bienes inmuebles de particulares, bienes fiscales, bienes de uso público, bienes de utilidad pública o social, bienes destinados a prestación de servicios públicos. Estos son los siguientes: 1. Perturbar, alterar o interrumpir la posesión o mera tenencia de un bien inmueble ocupándolo ilegalmente. 2. Perturbar la posesión o mera tenencia de un inmueble o mueble por causa de daños materiales o hechos que la alteren, o por no reparar las averías o daños en el propio inmueble que pongan en peligro, perjudiquen o molesten a los vecinos. 3. Instalar servicios públicos en inmuebles que hayan sido ocupados ilegalmente. 4. Omitir el cerramiento y mantenimiento de lotes y fachadas de edificaciones. 5. Impedir el ingreso, uso y disfrute de la posesión o tenencia de inmueble al titular de este derecho. Numeral 1 Restitución y protección de bienes inmuebles. Numeral 2 Reparación de daños materiales por perturbación a la posesión y tenencia de inmuebles o mueble. Numeral 3 Multa General tipo 3 Numeral 4 Multa General tipo 3; construcción, cerramiento, reparación o mantenimiento de inmueble. Numeral 5 Restitución y protección de bienes inmuebles.",
+            "url_fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#77"
+          }
+        ],
+        "pregunta": "Una persona ocupa un inmueble ajeno sin autorización. ¿Qué comportamientos relacionados con la posesión contempla la ley?",
+        "respuesta": "**Artículo 77.** «Son aquellos contrarios a la posesión, la mera tenencia de los bienes inmuebles de particulares, bienes fiscales, bienes de uso público, bienes de utilidad pública o social, bienes destinados a prestación de servicios públicos. Estos son los siguientes:»\n\n**Numeral 1 del artículo 77.** «1. Perturbar, alterar o interrumpir la posesión o mera tenencia de un bien inmueble ocupándolo ilegalmente.»\n\n**Numeral 2 del artículo 77.** «2. Perturbar la posesión o mera tenencia de un inmueble o mueble por causa de daños materiales o hechos que la alteren, o por no reparar las averías o daños en el propio inmueble que pongan en peligro, perjudiquen o molesten a los vecinos.»\n\n**Numeral 3 del artículo 77.** «3. Instalar servicios públicos en inmuebles que hayan sido ocupados ilegalmente.»\n\n**Numeral 4 del artículo 77.** «4. Omitir el cerramiento y mantenimiento de lotes y fachadas de edificaciones.»\n\n**Numeral 5 del artículo 77.** «5. Impedir el ingreso, uso y disfrute de la posesión o tenencia de inmueble al titular de este derecho.»\n\n**Numeral 1 del artículo 77.** «Numeral 1 Restitución y protección de bienes inmuebles.»",
+        "modelo": "gemini-3.1-flash-lite",
+        "total_generales": 1,
+        "total_estructurados": 0,
+        "validacion_documental": {
+          "estado": "PENDIENTE_VALIDACION",
+          "advertencias": []
+        }
+      },
+      "llamada_gemini_confirmada": true,
+      "estado_documental": "PENDIENTE_VALIDACION"
+    },
+    {
+      "id": "RAG-045",
+      "pregunta": "Un policía me da una orden verbal durante un procedimiento. ¿Las órdenes de Policía pueden ser verbales?",
+      "http": 200,
+      "segundos": 1.755308,
+      "respuesta": {
+        "fuentes_recuperadas": [
+          {
+            "articulo": "150",
+            "numeral": "",
+            "titulo": "ORDEN DE POLICÍA",
+            "texto": "ARTÍCULO 150. ORDEN DE POLICÍA. La orden de Policía es un mandato claro, preciso y conciso dirigido en forma individual o de carácter general, escrito o verbal, emanado de la autoridad de Policía, para prevenir o superar comportamientos o hechos contrarios a la convivencia, o para restablecerla. Las órdenes de Policía son de obligatorio cumplimiento. Las personas que las desobedezcan serán obligadas a cumplirlas a través, si es necesario, de los medios, medidas y procedimientos establecidos en este Código. Si la orden no fuere de inmediato cumplimiento, la autoridad conminará a la persona para que la cumpla en un plazo determinado, sin perjuicio de las acciones legales pertinentes .",
+            "url_fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#150"
+          }
+        ],
+        "pregunta": "Un policía me da una orden verbal durante un procedimiento. ¿Las órdenes de Policía pueden ser verbales?",
+        "respuesta": "**Artículo 150.** «La orden de Policía es un mandato claro, preciso y conciso dirigido en forma individual o de carácter general, escrito o verbal, emanado de la autoridad de Policía, para prevenir o superar comportamientos o hechos contrarios a la convivencia, o para restablecerla.»\n\n**Artículo 150.** «Las órdenes de Policía son de obligatorio cumplimiento. Las personas que las desobedezcan serán obligadas a cumplirlas a través, si es necesario, de los medios, medidas y procedimientos establecidos en este Código. Si la orden no fuere de inmediato cumplimiento, la autoridad conminará a la persona para que la cumpla en un plazo determinado, sin perjuicio de las acciones legales pertinentes .»",
+        "modelo": "gemini-3.1-flash-lite",
+        "total_generales": 1,
+        "total_estructurados": 0,
+        "validacion_documental": {
+          "estado": "PENDIENTE_VALIDACION",
+          "advertencias": []
+        }
+      },
+      "llamada_gemini_confirmada": true,
+      "estado_documental": "PENDIENTE_VALIDACION"
+    },
+    {
+      "id": "RAG-041",
+      "pregunta": "El dueño de un animal lo deja deambular sin control y pone en riesgo a otras personas. ¿Qué establece el Código?",
+      "http": 200,
+      "segundos": 6.057884,
+      "respuesta": {
+        "fuentes_recuperadas": [
+          {
+            "articulo": "124",
+            "numeral": "",
+            "titulo": "COMPORTAMIENTOS QUE PONEN EN RIESGO LA CONVIVENCIA POR LA TENENCIA DE ANIMALES",
+            "texto": "ARTÍCULO 124. COMPORTAMIENTOS QUE PONEN EN RIESGO LA CONVIVENCIA POR LA TENENCIA DE ANIMALES. 1. Dejar deambular semoviente, animales feroces o dañinos, en espacio público y privado, lugar abierto al público, o medio de transporte público, sin las debidas medidas de seguridad. 7. Tolerar, permitir o inducir por acción u omisión el que un animal ataque a una persona, a un animal o a bienes de terceros. Numeral 1 Multa General tipo 2 Numeral 7 Multa General tipo 4",
+            "url_fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#124"
+          }
+        ],
+        "pregunta": "El dueño de un animal lo deja deambular sin control y pone en riesgo a otras personas. ¿Qué establece el Código?",
+        "respuesta": "**Numeral 1 del artículo 124.** «1. Dejar deambular semoviente, animales feroces o dañinos, en espacio público y privado, lugar abierto al público, o medio de transporte público, sin las debidas medidas de seguridad.»\n\n**Numeral 7 del artículo 124.** «7. Tolerar, permitir o inducir por acción u omisión el que un animal ataque a una persona, a un animal o a bienes de terceros.»\n\n**Numeral 1 del artículo 124.** «Numeral 1 Multa General tipo 2»\n\n**Numeral 7 del artículo 124.** «Numeral 7 Multa General tipo 4»",
+        "modelo": "gemini-3.1-flash-lite",
+        "total_generales": 1,
+        "total_estructurados": 0,
+        "validacion_documental": {
+          "estado": "PENDIENTE_VALIDACION",
+          "advertencias": []
+        }
+      },
+      "llamada_gemini_confirmada": true,
+      "estado_documental": "PENDIENTE_VALIDACION"
+    }
+  ]
+}

@@ -1,0 +1,403 @@
+{
+  "base_http": "evaluacion_api_gemini_enumeraciones_ajustadas.json",
+  "base_enrutamiento": "cobertura_banco_final.json",
+  "conteos": {
+    "apartado_ausente": 27,
+    "pregunta_mas_amplia_que_el_apartado_aprobado": 7,
+    "enrutamiento_sin_candidatos": 1
+  },
+  "recuperacion_faiss_fallida_confirmada": 0,
+  "casos": [
+    {
+      "id": "RAG-005",
+      "pregunta": "¿Qué establece el Código sobre los ruidos que afectan la tranquilidad de los vecinos?",
+      "articulos_esperados": [
+        "33"
+      ],
+      "causa": "apartado_ausente",
+      "detalle": "El articulo de referencia esta ausente del corpus publico de linea base.",
+      "enrutamiento_antes": [],
+      "recuperados_despues": []
+    },
+    {
+      "id": "RAG-006",
+      "pregunta": "¿Qué comportamientos afectan las relaciones entre las personas y las autoridades de Policía?",
+      "articulos_esperados": [
+        "35"
+      ],
+      "causa": "pregunta_mas_amplia_que_el_apartado_aprobado",
+      "detalle": "35: todos los comportamientos; solo numeral 2 aprobado.",
+      "enrutamiento_antes": [],
+      "recuperados_despues": []
+    },
+    {
+      "id": "RAG-007",
+      "pregunta": "¿En qué circunstancias pueden los alcaldes restringir la permanencia de menores en espacios públicos?",
+      "articulos_esperados": [
+        "36"
+      ],
+      "causa": "apartado_ausente",
+      "detalle": "El articulo de referencia esta ausente del corpus publico de linea base.",
+      "enrutamiento_antes": [],
+      "recuperados_despues": []
+    },
+    {
+      "id": "RAG-008",
+      "pregunta": "¿Qué comportamientos afectan la integridad de niños, niñas y adolescentes?",
+      "articulos_esperados": [
+        "38"
+      ],
+      "causa": "apartado_ausente",
+      "detalle": "El articulo de referencia esta ausente del corpus publico de linea base.",
+      "enrutamiento_antes": [],
+      "recuperados_despues": []
+    },
+    {
+      "id": "RAG-009",
+      "pregunta": "¿Qué prohibiciones establece el Código para niños, niñas y adolescentes?",
+      "articulos_esperados": [
+        "39"
+      ],
+      "causa": "apartado_ausente",
+      "detalle": "El articulo de referencia esta ausente del corpus publico de linea base.",
+      "enrutamiento_antes": [],
+      "recuperados_despues": []
+    },
+    {
+      "id": "RAG-010",
+      "pregunta": "¿Qué comportamientos afectan a los grupos sociales de especial protección constitucional?",
+      "articulos_esperados": [
+        "40"
+      ],
+      "causa": "apartado_ausente",
+      "detalle": "El articulo de referencia esta ausente del corpus publico de linea base.",
+      "enrutamiento_antes": [],
+      "recuperados_despues": []
+    },
+    {
+      "id": "RAG-012",
+      "pregunta": "¿Qué comportamientos son contrarios a la posesión o tenencia de bienes inmuebles?",
+      "articulos_esperados": [
+        "77"
+      ],
+      "causa": "pregunta_mas_amplia_que_el_apartado_aprobado",
+      "detalle": "77: comportamientos en general; solo numeral 1 aprobado.",
+      "enrutamiento_antes": [],
+      "recuperados_despues": []
+    },
+    {
+      "id": "RAG-013",
+      "pregunta": "¿Qué comportamientos relacionados con el incumplimiento de normas afectan la actividad económica?",
+      "articulos_esperados": [
+        "92"
+      ],
+      "causa": "apartado_ausente",
+      "detalle": "El articulo de referencia esta ausente del corpus publico de linea base.",
+      "enrutamiento_antes": [],
+      "recuperados_despues": []
+    },
+    {
+      "id": "RAG-014",
+      "pregunta": "¿Qué comportamientos de establecimientos comerciales afectan la seguridad y tranquilidad?",
+      "articulos_esperados": [
+        "93"
+      ],
+      "causa": "apartado_ausente",
+      "detalle": "El articulo de referencia esta ausente del corpus publico de linea base.",
+      "enrutamiento_antes": [],
+      "recuperados_despues": []
+    },
+    {
+      "id": "RAG-015",
+      "pregunta": "¿Qué comportamientos relacionados con la salud pública afectan la actividad económica?",
+      "articulos_esperados": [
+        "94"
+      ],
+      "causa": "pregunta_mas_amplia_que_el_apartado_aprobado",
+      "detalle": "94: salud publica en general; solo numeral 1 aprobado.",
+      "enrutamiento_antes": [],
+      "recuperados_despues": []
+    },
+    {
+      "id": "RAG-016",
+      "pregunta": "¿Qué establece el Código sobre comprar o utilizar celulares reportados como hurtados?",
+      "articulos_esperados": [
+        "95"
+      ],
+      "causa": "apartado_ausente",
+      "detalle": "El articulo de referencia esta ausente del corpus publico de linea base.",
+      "enrutamiento_antes": [],
+      "recuperados_despues": []
+    },
+    {
+      "id": "RAG-017",
+      "pregunta": "¿Qué establece el Código sobre sacar la basura en horarios no autorizados?",
+      "articulos_esperados": [
+        "111"
+      ],
+      "causa": "apartado_ausente",
+      "detalle": "El articulo de referencia esta ausente del corpus publico de linea base.",
+      "enrutamiento_antes": [],
+      "recuperados_despues": [
+        "111"
+      ]
+    },
+    {
+      "id": "RAG-018",
+      "pregunta": "¿Qué comportamientos relacionados con la tenencia de animales afectan la convivencia?",
+      "articulos_esperados": [
+        "124"
+      ],
+      "causa": "apartado_ausente",
+      "detalle": "El articulo de referencia esta ausente del corpus publico de linea base.",
+      "enrutamiento_antes": [],
+      "recuperados_despues": []
+    },
+    {
+      "id": "RAG-019",
+      "pregunta": "¿Qué comportamientos constituyen infracciones contra la integridad urbanística?",
+      "articulos_esperados": [
+        "135"
+      ],
+      "causa": "pregunta_mas_amplia_que_el_apartado_aprobado",
+      "detalle": "135: infracciones en general; solo obra sin licencia en terrenos aptos.",
+      "enrutamiento_antes": [],
+      "recuperados_despues": []
+    },
+    {
+      "id": "RAG-020",
+      "pregunta": "¿Qué comportamientos afectan el cuidado y la integridad del espacio público?",
+      "articulos_esperados": [
+        "140"
+      ],
+      "causa": "apartado_ausente",
+      "detalle": "El articulo de referencia esta ausente del corpus publico de linea base.",
+      "enrutamiento_antes": [],
+      "recuperados_despues": []
+    },
+    {
+      "id": "RAG-021",
+      "pregunta": "¿Qué comportamientos están prohibidos en los sistemas de transporte público?",
+      "articulos_esperados": [
+        "146"
+      ],
+      "causa": "apartado_ausente",
+      "detalle": "El articulo de referencia esta ausente del corpus publico de linea base.",
+      "enrutamiento_antes": [],
+      "recuperados_despues": []
+    },
+    {
+      "id": "RAG-023",
+      "pregunta": "¿En qué circunstancias puede realizarse un traslado por protección?",
+      "articulos_esperados": [
+        "155"
+      ],
+      "causa": "apartado_ausente",
+      "detalle": "El articulo de referencia esta ausente del corpus publico de linea base.",
+      "enrutamiento_antes": [],
+      "recuperados_despues": []
+    },
+    {
+      "id": "RAG-024",
+      "pregunta": "¿En qué casos puede ingresar la Policía a un inmueble sin orden escrita?",
+      "articulos_esperados": [
+        "163"
+      ],
+      "causa": "apartado_ausente",
+      "detalle": "El articulo de referencia esta ausente del corpus publico de linea base.",
+      "enrutamiento_antes": [],
+      "recuperados_despues": []
+    },
+    {
+      "id": "RAG-029",
+      "pregunta": "¿Qué procedimiento establece el artículo 223A para las multas tipo 1 a 4?",
+      "articulos_esperados": [
+        "223A"
+      ],
+      "causa": "apartado_ausente",
+      "detalle": "El articulo de referencia esta ausente del corpus publico de linea base.",
+      "enrutamiento_antes": [],
+      "recuperados_despues": []
+    },
+    {
+      "id": "RAG-030",
+      "pregunta": "¿Qué establece el Código sobre la información captada por sistemas de videovigilancia en espacios públicos?",
+      "articulos_esperados": [
+        "237"
+      ],
+      "causa": "apartado_ausente",
+      "detalle": "El articulo de referencia esta ausente del corpus publico de linea base.",
+      "enrutamiento_antes": [],
+      "recuperados_despues": []
+    },
+    {
+      "id": "RAG-031",
+      "pregunta": "Dos personas comienzan una pelea en la calle. ¿Qué establece el Código de Policía sobre este comportamiento?",
+      "articulos_esperados": [
+        "27"
+      ],
+      "causa": "enrutamiento_sin_candidatos",
+      "detalle": "El patron del articulo 27 no reconoce la formulacion coloquial pelea en la calle. El numeral 1 solo respaldaria la conducta, sin multa ni mediacion.",
+      "enrutamiento_antes": [],
+      "recuperados_despues": []
+    },
+    {
+      "id": "RAG-032",
+      "pregunta": "Mi vecino pone música a volumen muy alto durante la madrugada y no me deja dormir. ¿Qué norma regula esta situación?",
+      "articulos_esperados": [
+        "33"
+      ],
+      "causa": "apartado_ausente",
+      "detalle": "El articulo de referencia esta ausente del corpus publico de linea base.",
+      "enrutamiento_antes": [],
+      "recuperados_despues": []
+    },
+    {
+      "id": "RAG-033",
+      "pregunta": "Una persona insulta y desobedece a un policía durante un procedimiento. ¿Qué comportamientos podrían estar relacionados?",
+      "articulos_esperados": [
+        "35"
+      ],
+      "causa": "pregunta_mas_amplia_que_el_apartado_aprobado",
+      "detalle": "35: pregunta por insulto y desobediencia; solo esta ultima cotejada.",
+      "enrutamiento_antes": [],
+      "recuperados_despues": []
+    },
+    {
+      "id": "RAG-034",
+      "pregunta": "Un establecimiento permite situaciones que ponen en riesgo la integridad de menores de edad. ¿Qué establece el Código?",
+      "articulos_esperados": [
+        "38"
+      ],
+      "causa": "apartado_ausente",
+      "detalle": "El articulo de referencia esta ausente del corpus publico de linea base.",
+      "enrutamiento_antes": [],
+      "recuperados_despues": []
+    },
+    {
+      "id": "RAG-036",
+      "pregunta": "Un establecimiento comercial desarrolla una actividad incumpliendo las normas aplicables. ¿Qué establece el Código?",
+      "articulos_esperados": [
+        "92"
+      ],
+      "causa": "apartado_ausente",
+      "detalle": "El articulo de referencia esta ausente del corpus publico de linea base.",
+      "enrutamiento_antes": [],
+      "recuperados_despues": []
+    },
+    {
+      "id": "RAG-037",
+      "pregunta": "Un local comercial no informa a sus clientes sobre los protocolos de evacuación. ¿Qué comportamiento contempla la ley?",
+      "articulos_esperados": [
+        "93"
+      ],
+      "causa": "apartado_ausente",
+      "detalle": "El articulo de referencia esta ausente del corpus publico de linea base.",
+      "enrutamiento_antes": [],
+      "recuperados_despues": [
+        "93"
+      ]
+    },
+    {
+      "id": "RAG-039",
+      "pregunta": "Compré un celular usado y después descubrí que aparece reportado como robado. ¿Qué contempla la ley sobre estos equipos?",
+      "articulos_esperados": [
+        "95"
+      ],
+      "causa": "apartado_ausente",
+      "detalle": "El articulo de referencia esta ausente del corpus publico de linea base.",
+      "enrutamiento_antes": [],
+      "recuperados_despues": []
+    },
+    {
+      "id": "RAG-040",
+      "pregunta": "Mis vecinos sacan la basura fuera del horario establecido y dejan residuos en la calle. ¿Qué norma regula este comportamiento?",
+      "articulos_esperados": [
+        "111"
+      ],
+      "causa": "apartado_ausente",
+      "detalle": "El articulo de referencia esta ausente del corpus publico de linea base.",
+      "enrutamiento_antes": [],
+      "recuperados_despues": [
+        "111"
+      ]
+    },
+    {
+      "id": "RAG-041",
+      "pregunta": "El dueño de un animal lo deja deambular sin control y pone en riesgo a otras personas. ¿Qué establece el Código?",
+      "articulos_esperados": [
+        "124"
+      ],
+      "causa": "apartado_ausente",
+      "detalle": "El articulo de referencia esta ausente del corpus publico de linea base.",
+      "enrutamiento_antes": [],
+      "recuperados_despues": []
+    },
+    {
+      "id": "RAG-042",
+      "pregunta": "Estoy construyendo una vivienda sin contar con la licencia requerida. ¿Qué comportamientos urbanísticos contempla la ley?",
+      "articulos_esperados": [
+        "135"
+      ],
+      "causa": "pregunta_mas_amplia_que_el_apartado_aprobado",
+      "detalle": "135: referente comprende plazos y otros apartados excluidos; el patron tampoco reconoce la formulacion con ?sin contar con?.",
+      "enrutamiento_antes": [],
+      "recuperados_despues": []
+    },
+    {
+      "id": "RAG-043",
+      "pregunta": "Una persona deteriora elementos del espacio público. ¿Qué comportamientos contrarios a la convivencia podrían aplicarse?",
+      "articulos_esperados": [
+        "140"
+      ],
+      "causa": "apartado_ausente",
+      "detalle": "El articulo de referencia esta ausente del corpus publico de linea base.",
+      "enrutamiento_antes": [],
+      "recuperados_despues": []
+    },
+    {
+      "id": "RAG-044",
+      "pregunta": "Un pasajero realiza comportamientos que afectan la convivencia dentro del transporte público. ¿Qué establece el Código?",
+      "articulos_esperados": [
+        "146"
+      ],
+      "causa": "apartado_ausente",
+      "detalle": "El articulo de referencia esta ausente del corpus publico de linea base.",
+      "enrutamiento_antes": [],
+      "recuperados_despues": []
+    },
+    {
+      "id": "RAG-046",
+      "pregunta": "Una persona se encuentra en una situación que pone en riesgo su integridad. ¿Cuándo procede un traslado por protección?",
+      "articulos_esperados": [
+        "155"
+      ],
+      "causa": "apartado_ausente",
+      "detalle": "El articulo de referencia esta ausente del corpus publico de linea base.",
+      "enrutamiento_antes": [],
+      "recuperados_despues": []
+    },
+    {
+      "id": "RAG-047",
+      "pregunta": "Una persona pide auxilio desde el interior de una vivienda. ¿Puede ingresar la Policía sin una orden escrita?",
+      "articulos_esperados": [
+        "163"
+      ],
+      "causa": "apartado_ausente",
+      "detalle": "El articulo de referencia esta ausente del corpus publico de linea base.",
+      "enrutamiento_antes": [],
+      "recuperados_despues": []
+    },
+    {
+      "id": "RAG-048",
+      "pregunta": "Me impusieron una multa por un comportamiento contrario a la convivencia. ¿Qué establece el Código sobre las multas?",
+      "articulos_esperados": [
+        "180"
+      ],
+      "causa": "pregunta_mas_amplia_que_el_apartado_aprobado",
+      "detalle": "180: situacion concreta sobre multa impuesta; solo definicion y grandes categorias aprobadas.",
+      "enrutamiento_antes": [],
+      "recuperados_despues": []
+    }
+  ]
+}

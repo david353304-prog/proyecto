@@ -15,6 +15,7 @@ from motor_documental.generador_respuestas_rag import (
     GeneradorRespuestasRAG, respuesta_fuera_dominio, respuesta_sin_respaldo,
 )
 from motor_documental.salida_segura_rag import preparar_salida_publica
+from motor_documental.indice_publicable import huella_corpus
 from motor_documental.vigencia_rag import (
     articulos_para_consulta, respuesta_revision_pendiente, respuesta_texto_inexequible,
 )
@@ -44,7 +45,12 @@ class Consulta(BaseModel):
 
 @app.get("/estado")
 def estado():
-    return {"estado": "activo"}
+    return {
+        "estado": "activo",
+        "modo_respuesta": "citas_extractivas",
+        "generacion_configurada": generador is not None,
+        "sha256_corpus_publicable": huella_corpus(),
+    }
 
 
 @app.post("/consultar")

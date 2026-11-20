@@ -1,0 +1,24 @@
+{"consulta": 1, "evento": "inicio"}
+{"consulta": 1, "evento": "recuperacion", "segundos": 0.030187}
+{"consulta": 1, "evento": "contexto", "segundos": 1.9e-05, "sha256": "9c337e97884fdaca8061fb0c878a28ac240792894775be73437c6a9b66f5629a"}
+{"consulta": 1, "evento": "intento", "segundos": 1.279964}
+{"consulta": 1, "evento": "generacion", "segundos": 1.32308}
+{"consulta": 1, "evento": "seleccion_citas", "segundos": 0.002037, "aceptada": true, "seleccion_por_id": true, "cantidad": 14, "todos_en_catalogo": true, "catalogo": ["P1", "P2", "P3", "P4", "P5", "P6", "P7", "P8", "P9", "P10", "P11", "P12", "P13", "P14"], "ids": ["P1", "P2", "P3", "P4", "P5", "P6", "P7", "P8", "P9", "P10", "P11", "P12", "P13", "P14"]}
+{"consulta": 1, "evento": "validacion", "segundos": 0.011902, "estado": "PENDIENTE_VALIDACION"}
+{"consulta": 1, "evento": "fin", "http": 200}
+{"consulta": 2, "evento": "inicio"}
+{"consulta": 2, "evento": "recuperacion", "segundos": 0.035229}
+{"consulta": 2, "evento": "contexto", "segundos": 1.8e-05, "sha256": "a407ca1dcefe43afa3243daf434fe25ba2c35b9e34db487a3ced9b158d30a6c0"}
+{"consulta": 2, "evento": "intento", "segundos": 0.974651}
+{"consulta": 2, "evento": "generacion", "segundos": 0.978615}
+{"consulta": 2, "evento": "seleccion_citas", "segundos": 0.00054, "aceptada": true, "seleccion_por_id": true, "cantidad": 23, "todos_en_catalogo": true, "catalogo": ["P1", "P2", "P3", "P4", "P5", "P6", "P7", "P8", "P9", "P10", "P11", "P12", "P13", "P14", "P15", "P16", "P17", "P18", "P19", "P20", "P21", "P22", "P23"], "ids": ["P1", "P2", "P3", "P4", "P5", "P6", "P7", "P8", "P9", "P10", "P11", "P12", "P13", "P14", "P15", "P16", "P17", "P18", "P19", "P20", "P21", "P22", "P23"]}
+{"consulta": 2, "evento": "validacion", "segundos": 0.003085, "estado": "PENDIENTE_VALIDACION"}
+{"consulta": 2, "evento": "fin", "http": 200}
+{"consulta": 3, "evento": "inicio"}
+{"consulta": 3, "evento": "recuperacion", "segundos": 0.078722}
+{"consulta": 3, "evento": "contexto", "segundos": 1.9e-05, "sha256": "9c337e97884fdaca8061fb0c878a28ac240792894775be73437c6a9b66f5629a"}
+{"consulta": 3, "evento": "intento", "segundos": 1.203827}
+{"consulta": 3, "evento": "generacion", "segundos": 1.207835}
+{"consulta": 3, "evento": "seleccion_citas", "segundos": 0.001152, "aceptada": true, "seleccion_por_id": true, "cantidad": 4, "todos_en_catalogo": true, "catalogo": ["P1", "P2", "P3", "P4", "P5", "P6", "P7", "P8", "P9", "P10", "P11", "P12", "P13", "P14"], "ids": ["P1", "P2", "P13", "P14"]}
+{"consulta": 3, "evento": "validacion", "segundos": 0.001396, "estado": "PENDIENTE_VALIDACION"}
+{"consulta": 3, "evento": "fin", "http": 200}

@@ -1,0 +1,55 @@
+{
+  "finish_reason": [
+    "FinishReason.STOP"
+  ],
+  "sha256_salida": "6e0b2e6f80272536973b0534097c0172f0e2135cda03dc716a9275e76291715a",
+  "caracteres": 1370,
+  "cantidad": 7,
+  "citas": [
+    {
+      "articulo_valido": true,
+      "caracteres": 124,
+      "literal": false,
+      "numeral": "5"
+    },
+    {
+      "articulo_valido": true,
+      "caracteres": 228,
+      "literal": false,
+      "numeral": "7"
+    },
+    {
+      "articulo_valido": true,
+      "caracteres": 172,
+      "literal": false,
+      "numeral": "8"
+    },
+    {
+      "articulo_valido": true,
+      "caracteres": 101,
+      "literal": false,
+      "numeral": "9"
+    },
+    {
+      "articulo_valido": true,
+      "caracteres": 136,
+      "literal": false,
+      "numeral": "11"
+    },
+    {
+      "articulo_valido": true,
+      "caracteres": 132,
+      "literal": false,
+      "numeral": "12"
+    },
+    {
+      "articulo_valido": true,
+      "caracteres": 66,
+      "literal": false,
+      "numeral": "16"
+    }
+  ],
+  "seleccion_aceptada": false,
+  "estado": "REQUIERE_REVISION",
+  "segundos": 107.597909
+}

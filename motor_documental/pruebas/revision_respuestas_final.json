@@ -1,0 +1,470 @@
+{
+  "evidencia_http": "evaluacion_api_gemini_final.json",
+  "criterio": "Exactitud y rotulos revisados tecnicamente contra la referencia del banco; fidelidad literal comprobada por coincidencia de las citas con las fuentes publicas. La revision no certifica vigencia ni valida juridicamente el banco.",
+  "conteos": {
+    "completa": 4,
+    "parcial": 11,
+    "abstencion_documental": 35
+  },
+  "filas": [
+    {
+      "id": "RAG-001",
+      "exactitud_frente_al_banco": "completa",
+      "motivo": "La cita cubre el objeto, los deberes y el ejercicio de la actividad de Policía.",
+      "fidelidad_literal_a_fuentes_visibles": true,
+      "correccion_citas": "articulo_y_rotulos_concordantes",
+      "rotulos": [
+        "Artículo 1"
+      ]
+    },
+    {
+      "id": "RAG-002",
+      "exactitud_frente_al_banco": "completa",
+      "motivo": "Cubre los seis objetivos y rotula los seis numerales por separado.",
+      "fidelidad_literal_a_fuentes_visibles": true,
+      "correccion_citas": "articulo_y_rotulos_concordantes",
+      "rotulos": [
+        "Numeral 1 del artículo 2",
+        "Numeral 2 del artículo 2",
+        "Numeral 3 del artículo 2",
+        "Numeral 4 del artículo 2",
+        "Numeral 5 del artículo 2",
+        "Numeral 6 del artículo 2"
+      ]
+    },
+    {
+      "id": "RAG-003",
+      "exactitud_frente_al_banco": "completa",
+      "motivo": "Cubre los principios pedidos. El primer numeral quedó bajo el encabezado del artículo durante la corrida.",
+      "fidelidad_literal_a_fuentes_visibles": true,
+      "correccion_citas": "parcial_rotulo_numeral_1",
+      "rotulos": [
+        "Artículo 8",
+        "Numeral 2 del artículo 8",
+        "Numeral 3 del artículo 8",
+        "Numeral 4 del artículo 8",
+        "Numeral 5 del artículo 8",
+        "Numeral 6 del artículo 8",
+        "Numeral 7 del artículo 8",
+        "Numeral 8 del artículo 8",
+        "Numeral 9 del artículo 8",
+        "Numeral 10 del artículo 8",
+        "Numeral 11 del artículo 8",
+        "Numeral 12 del artículo 8",
+        "Numeral 13 del artículo 8",
+        "Numeral 14 del artículo 8"
+      ]
+    },
+    {
+      "id": "RAG-004",
+      "exactitud_frente_al_banco": "parcial",
+      "motivo": "Incluye los numerales 1 a 3. Omite 4 y 5 ya cotejados y el resto de los apartados excluidos.",
+      "fidelidad_literal_a_fuentes_visibles": true,
+      "correccion_citas": "articulo_y_rotulos_concordantes",
+      "rotulos": [
+        "Numeral 1 del artículo 27",
+        "Numeral 2 del artículo 27",
+        "Numeral 3 del artículo 27"
+      ]
+    },
+    {
+      "id": "RAG-005",
+      "exactitud_frente_al_banco": "abstencion_documental",
+      "motivo": "Sin pasaje enrutado por el alcance documental del servicio. No hubo respuesta generada para evaluar.",
+      "fidelidad_literal_a_fuentes_visibles": null,
+      "correccion_citas": null,
+      "rotulos": []
+    },
+    {
+      "id": "RAG-006",
+      "exactitud_frente_al_banco": "abstencion_documental",
+      "motivo": "Sin pasaje enrutado por el alcance documental del servicio. No hubo respuesta generada para evaluar.",
+      "fidelidad_literal_a_fuentes_visibles": null,
+      "correccion_citas": null,
+      "rotulos": []
+    },
+    {
+      "id": "RAG-007",
+      "exactitud_frente_al_banco": "abstencion_documental",
+      "motivo": "Sin pasaje enrutado por el alcance documental del servicio. No hubo respuesta generada para evaluar.",
+      "fidelidad_literal_a_fuentes_visibles": null,
+      "correccion_citas": null,
+      "rotulos": []
+    },
+    {
+      "id": "RAG-008",
+      "exactitud_frente_al_banco": "abstencion_documental",
+      "motivo": "Sin pasaje enrutado por el alcance documental del servicio. No hubo respuesta generada para evaluar.",
+      "fidelidad_literal_a_fuentes_visibles": null,
+      "correccion_citas": null,
+      "rotulos": []
+    },
+    {
+      "id": "RAG-009",
+      "exactitud_frente_al_banco": "abstencion_documental",
+      "motivo": "Sin pasaje enrutado por el alcance documental del servicio. No hubo respuesta generada para evaluar.",
+      "fidelidad_literal_a_fuentes_visibles": null,
+      "correccion_citas": null,
+      "rotulos": []
+    },
+    {
+      "id": "RAG-010",
+      "exactitud_frente_al_banco": "abstencion_documental",
+      "motivo": "Sin pasaje enrutado por el alcance documental del servicio. No hubo respuesta generada para evaluar.",
+      "fidelidad_literal_a_fuentes_visibles": null,
+      "correccion_citas": null,
+      "rotulos": []
+    },
+    {
+      "id": "RAG-051",
+      "exactitud_frente_al_banco": "completa",
+      "motivo": "La definición cubre personas, bienes y ambiente.",
+      "fidelidad_literal_a_fuentes_visibles": true,
+      "correccion_citas": "articulo_y_rotulos_concordantes",
+      "rotulos": [
+        "Artículo 5"
+      ]
+    },
+    {
+      "id": "RAG-012",
+      "exactitud_frente_al_banco": "abstencion_documental",
+      "motivo": "Sin pasaje enrutado por el alcance documental del servicio. No hubo respuesta generada para evaluar.",
+      "fidelidad_literal_a_fuentes_visibles": null,
+      "correccion_citas": null,
+      "rotulos": []
+    },
+    {
+      "id": "RAG-013",
+      "exactitud_frente_al_banco": "abstencion_documental",
+      "motivo": "Sin pasaje enrutado por el alcance documental del servicio. No hubo respuesta generada para evaluar.",
+      "fidelidad_literal_a_fuentes_visibles": null,
+      "correccion_citas": null,
+      "rotulos": []
+    },
+    {
+      "id": "RAG-014",
+      "exactitud_frente_al_banco": "abstencion_documental",
+      "motivo": "Sin pasaje enrutado por el alcance documental del servicio. No hubo respuesta generada para evaluar.",
+      "fidelidad_literal_a_fuentes_visibles": null,
+      "correccion_citas": null,
+      "rotulos": []
+    },
+    {
+      "id": "RAG-015",
+      "exactitud_frente_al_banco": "abstencion_documental",
+      "motivo": "Sin pasaje enrutado por el alcance documental del servicio. No hubo respuesta generada para evaluar.",
+      "fidelidad_literal_a_fuentes_visibles": null,
+      "correccion_citas": null,
+      "rotulos": []
+    },
+    {
+      "id": "RAG-016",
+      "exactitud_frente_al_banco": "abstencion_documental",
+      "motivo": "Sin pasaje enrutado por el alcance documental del servicio. No hubo respuesta generada para evaluar.",
+      "fidelidad_literal_a_fuentes_visibles": null,
+      "correccion_citas": null,
+      "rotulos": []
+    },
+    {
+      "id": "RAG-017",
+      "exactitud_frente_al_banco": "abstencion_documental",
+      "motivo": "Sin pasaje enrutado por el alcance documental del servicio. No hubo respuesta generada para evaluar.",
+      "fidelidad_literal_a_fuentes_visibles": null,
+      "correccion_citas": null,
+      "rotulos": []
+    },
+    {
+      "id": "RAG-018",
+      "exactitud_frente_al_banco": "abstencion_documental",
+      "motivo": "Sin pasaje enrutado por el alcance documental del servicio. No hubo respuesta generada para evaluar.",
+      "fidelidad_literal_a_fuentes_visibles": null,
+      "correccion_citas": null,
+      "rotulos": []
+    },
+    {
+      "id": "RAG-019",
+      "exactitud_frente_al_banco": "abstencion_documental",
+      "motivo": "Sin pasaje enrutado por el alcance documental del servicio. No hubo respuesta generada para evaluar.",
+      "fidelidad_literal_a_fuentes_visibles": null,
+      "correccion_citas": null,
+      "rotulos": []
+    },
+    {
+      "id": "RAG-020",
+      "exactitud_frente_al_banco": "abstencion_documental",
+      "motivo": "Sin pasaje enrutado por el alcance documental del servicio. No hubo respuesta generada para evaluar.",
+      "fidelidad_literal_a_fuentes_visibles": null,
+      "correccion_citas": null,
+      "rotulos": []
+    },
+    {
+      "id": "RAG-021",
+      "exactitud_frente_al_banco": "abstencion_documental",
+      "motivo": "Sin pasaje enrutado por el alcance documental del servicio. No hubo respuesta generada para evaluar.",
+      "fidelidad_literal_a_fuentes_visibles": null,
+      "correccion_citas": null,
+      "rotulos": []
+    },
+    {
+      "id": "RAG-022",
+      "exactitud_frente_al_banco": "parcial",
+      "motivo": "Selecciona ?nicamente el primer inciso. Omite obligatoriedad y plazo del inciso segundo que queda fuera del alcance.",
+      "fidelidad_literal_a_fuentes_visibles": true,
+      "correccion_citas": "articulo_y_rotulos_concordantes",
+      "rotulos": [
+        "Artículo 150"
+      ]
+    },
+    {
+      "id": "RAG-023",
+      "exactitud_frente_al_banco": "abstencion_documental",
+      "motivo": "Sin pasaje enrutado por el alcance documental del servicio. No hubo respuesta generada para evaluar.",
+      "fidelidad_literal_a_fuentes_visibles": null,
+      "correccion_citas": null,
+      "rotulos": []
+    },
+    {
+      "id": "RAG-024",
+      "exactitud_frente_al_banco": "abstencion_documental",
+      "motivo": "Sin pasaje enrutado por el alcance documental del servicio. No hubo respuesta generada para evaluar.",
+      "fidelidad_literal_a_fuentes_visibles": null,
+      "correccion_citas": null,
+      "rotulos": []
+    },
+    {
+      "id": "RAG-025",
+      "exactitud_frente_al_banco": "parcial",
+      "motivo": "Cubre la definición y división general. El desglose y los valores del banco requieren revisión frente a la reforma de 2025.",
+      "fidelidad_literal_a_fuentes_visibles": true,
+      "correccion_citas": "articulo_y_rotulos_concordantes",
+      "rotulos": [
+        "Artículo 180"
+      ]
+    },
+    {
+      "id": "RAG-026",
+      "exactitud_frente_al_banco": "parcial",
+      "motivo": "Cubre conciliación y materias de conocimiento. Las atribuciones restantes requieren revisión frente a la Ley 2492.",
+      "fidelidad_literal_a_fuentes_visibles": true,
+      "correccion_citas": "articulo_y_rotulos_concordantes",
+      "rotulos": [
+        "Numeral 1 del artículo 206",
+        "Numeral 2 del artículo 206"
+      ]
+    },
+    {
+      "id": "RAG-027",
+      "exactitud_frente_al_banco": "parcial",
+      "motivo": "Cubre los cuatro pasos con rótulos separados. Omite competencia en el encabezado y apelación fuera del alcance.",
+      "fidelidad_literal_a_fuentes_visibles": true,
+      "correccion_citas": "articulo_y_rotulos_concordantes",
+      "rotulos": [
+        "Numeral 1 del artículo 222",
+        "Numeral 2 del artículo 222",
+        "Numeral 3 del artículo 222",
+        "Numeral 4 del artículo 222"
+      ]
+    },
+    {
+      "id": "RAG-028",
+      "exactitud_frente_al_banco": "parcial",
+      "motivo": "Cubre iniciación y citación. Omite audiencia, recursos y cumplimiento fuera del alcance.",
+      "fidelidad_literal_a_fuentes_visibles": true,
+      "correccion_citas": "articulo_y_rotulos_concordantes",
+      "rotulos": [
+        "Numeral 1 del artículo 223",
+        "Numeral 2 del artículo 223"
+      ]
+    },
+    {
+      "id": "RAG-029",
+      "exactitud_frente_al_banco": "abstencion_documental",
+      "motivo": "Sin pasaje enrutado por el alcance documental del servicio. No hubo respuesta generada para evaluar.",
+      "fidelidad_literal_a_fuentes_visibles": null,
+      "correccion_citas": null,
+      "rotulos": []
+    },
+    {
+      "id": "RAG-030",
+      "exactitud_frente_al_banco": "abstencion_documental",
+      "motivo": "Sin pasaje enrutado por el alcance documental del servicio. No hubo respuesta generada para evaluar.",
+      "fidelidad_literal_a_fuentes_visibles": null,
+      "correccion_citas": null,
+      "rotulos": []
+    },
+    {
+      "id": "RAG-031",
+      "exactitud_frente_al_banco": "abstencion_documental",
+      "motivo": "Sin pasaje enrutado por el alcance documental del servicio. No hubo respuesta generada para evaluar.",
+      "fidelidad_literal_a_fuentes_visibles": null,
+      "correccion_citas": null,
+      "rotulos": []
+    },
+    {
+      "id": "RAG-032",
+      "exactitud_frente_al_banco": "abstencion_documental",
+      "motivo": "Sin pasaje enrutado por el alcance documental del servicio. No hubo respuesta generada para evaluar.",
+      "fidelidad_literal_a_fuentes_visibles": null,
+      "correccion_citas": null,
+      "rotulos": []
+    },
+    {
+      "id": "RAG-033",
+      "exactitud_frente_al_banco": "abstencion_documental",
+      "motivo": "Sin pasaje enrutado por el alcance documental del servicio. No hubo respuesta generada para evaluar.",
+      "fidelidad_literal_a_fuentes_visibles": null,
+      "correccion_citas": null,
+      "rotulos": []
+    },
+    {
+      "id": "RAG-034",
+      "exactitud_frente_al_banco": "abstencion_documental",
+      "motivo": "Sin pasaje enrutado por el alcance documental del servicio. No hubo respuesta generada para evaluar.",
+      "fidelidad_literal_a_fuentes_visibles": null,
+      "correccion_citas": null,
+      "rotulos": []
+    },
+    {
+      "id": "RAG-035",
+      "exactitud_frente_al_banco": "parcial",
+      "motivo": "Cubre ocupación ilegal. Omite otras conductas y la medida fuera del alcance.",
+      "fidelidad_literal_a_fuentes_visibles": true,
+      "correccion_citas": "articulo_y_rotulos_concordantes",
+      "rotulos": [
+        "Numeral 1 del artículo 77"
+      ]
+    },
+    {
+      "id": "RAG-036",
+      "exactitud_frente_al_banco": "abstencion_documental",
+      "motivo": "Sin pasaje enrutado por el alcance documental del servicio. No hubo respuesta generada para evaluar.",
+      "fidelidad_literal_a_fuentes_visibles": null,
+      "correccion_citas": null,
+      "rotulos": []
+    },
+    {
+      "id": "RAG-037",
+      "exactitud_frente_al_banco": "abstencion_documental",
+      "motivo": "Sin pasaje enrutado por el alcance documental del servicio. No hubo respuesta generada para evaluar.",
+      "fidelidad_literal_a_fuentes_visibles": null,
+      "correccion_citas": null,
+      "rotulos": []
+    },
+    {
+      "id": "RAG-038",
+      "exactitud_frente_al_banco": "parcial",
+      "motivo": "Cubre incumplimiento de sanidad y previo concepto. Omite la medida fuera del alcance.",
+      "fidelidad_literal_a_fuentes_visibles": true,
+      "correccion_citas": "articulo_y_rotulos_concordantes",
+      "rotulos": [
+        "Numeral 1 del artículo 94"
+      ]
+    },
+    {
+      "id": "RAG-039",
+      "exactitud_frente_al_banco": "abstencion_documental",
+      "motivo": "Sin pasaje enrutado por el alcance documental del servicio. No hubo respuesta generada para evaluar.",
+      "fidelidad_literal_a_fuentes_visibles": null,
+      "correccion_citas": null,
+      "rotulos": []
+    },
+    {
+      "id": "RAG-040",
+      "exactitud_frente_al_banco": "abstencion_documental",
+      "motivo": "Sin pasaje enrutado por el alcance documental del servicio. No hubo respuesta generada para evaluar.",
+      "fidelidad_literal_a_fuentes_visibles": null,
+      "correccion_citas": null,
+      "rotulos": []
+    },
+    {
+      "id": "RAG-041",
+      "exactitud_frente_al_banco": "abstencion_documental",
+      "motivo": "Sin pasaje enrutado por el alcance documental del servicio. No hubo respuesta generada para evaluar.",
+      "fidelidad_literal_a_fuentes_visibles": null,
+      "correccion_citas": null,
+      "rotulos": []
+    },
+    {
+      "id": "RAG-042",
+      "exactitud_frente_al_banco": "abstencion_documental",
+      "motivo": "Sin pasaje enrutado por el alcance documental del servicio. No hubo respuesta generada para evaluar.",
+      "fidelidad_literal_a_fuentes_visibles": null,
+      "correccion_citas": null,
+      "rotulos": []
+    },
+    {
+      "id": "RAG-043",
+      "exactitud_frente_al_banco": "abstencion_documental",
+      "motivo": "Sin pasaje enrutado por el alcance documental del servicio. No hubo respuesta generada para evaluar.",
+      "fidelidad_literal_a_fuentes_visibles": null,
+      "correccion_citas": null,
+      "rotulos": []
+    },
+    {
+      "id": "RAG-044",
+      "exactitud_frente_al_banco": "abstencion_documental",
+      "motivo": "Sin pasaje enrutado por el alcance documental del servicio. No hubo respuesta generada para evaluar.",
+      "fidelidad_literal_a_fuentes_visibles": null,
+      "correccion_citas": null,
+      "rotulos": []
+    },
+    {
+      "id": "RAG-045",
+      "exactitud_frente_al_banco": "parcial",
+      "motivo": "Cubre la forma verbal preguntada. Omite obligatoriedad y consecuencias que añade el banco.",
+      "fidelidad_literal_a_fuentes_visibles": true,
+      "correccion_citas": "articulo_y_rotulos_concordantes",
+      "rotulos": [
+        "Artículo 150"
+      ]
+    },
+    {
+      "id": "RAG-046",
+      "exactitud_frente_al_banco": "abstencion_documental",
+      "motivo": "Sin pasaje enrutado por el alcance documental del servicio. No hubo respuesta generada para evaluar.",
+      "fidelidad_literal_a_fuentes_visibles": null,
+      "correccion_citas": null,
+      "rotulos": []
+    },
+    {
+      "id": "RAG-047",
+      "exactitud_frente_al_banco": "abstencion_documental",
+      "motivo": "Sin pasaje enrutado por el alcance documental del servicio. No hubo respuesta generada para evaluar.",
+      "fidelidad_literal_a_fuentes_visibles": null,
+      "correccion_citas": null,
+      "rotulos": []
+    },
+    {
+      "id": "RAG-048",
+      "exactitud_frente_al_banco": "abstencion_documental",
+      "motivo": "Sin pasaje enrutado por el alcance documental del servicio. No hubo respuesta generada para evaluar.",
+      "fidelidad_literal_a_fuentes_visibles": null,
+      "correccion_citas": null,
+      "rotulos": []
+    },
+    {
+      "id": "RAG-049",
+      "exactitud_frente_al_banco": "parcial",
+      "motivo": "Cubre los cuatro pasos con rótulos separados. Omite competencia y apelación.",
+      "fidelidad_literal_a_fuentes_visibles": true,
+      "correccion_citas": "articulo_y_rotulos_concordantes",
+      "rotulos": [
+        "Numeral 1 del artículo 222",
+        "Numeral 2 del artículo 222",
+        "Numeral 3 del artículo 222",
+        "Numeral 4 del artículo 222"
+      ]
+    },
+    {
+      "id": "RAG-050",
+      "exactitud_frente_al_banco": "parcial",
+      "motivo": "Cubre iniciación y citación. Omite audiencia, recursos y cumplimiento.",
+      "fidelidad_literal_a_fuentes_visibles": true,
+      "correccion_citas": "articulo_y_rotulos_concordantes",
+      "rotulos": [
+        "Numeral 1 del artículo 223",
+        "Numeral 2 del artículo 223"
+      ]
+    }
+  ]
+}

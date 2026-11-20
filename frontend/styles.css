@@ -477,6 +477,16 @@ textarea:focus-visible {
     margin-bottom: 0;
 }
 
+.mensaje-asistente .grupo-citas {
+    margin: 0 0 12px;
+    padding-top: 10px;
+    border-top: 1px solid #d5dfec;
+}
+
+.mensaje-asistente .grupo-citas:not(:first-child) {
+    margin-top: 20px;
+}
+
 .mensaje-asistente h3,
 .mensaje-asistente h4,
 .mensaje-asistente h5,

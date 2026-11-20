@@ -1,0 +1,211 @@
+{
+  "sha256_corpus": "3bd9a032cef749c47e1319f29bdf08ad3c02087fffbab00ddcfd63c0f5b7d40c",
+  "filas": [
+    {
+      "id": "RAG-004",
+      "pregunta": "¿Qué comportamientos ponen en riesgo la vida e integridad de las personas?",
+      "referencia": "El artículo contempla las riñas y confrontaciones violentas, el lanzamiento de objetos peligrosos, las agresiones físicas, las amenazas, la falta de reparación de elementos peligrosos en inmuebles y diferentes comportamientos relacionados con el porte indebido de armas y dispositivos menos letales.",
+      "contexto_publico_reconstruido": "ARTÍCULO 27. COMPORTAMIENTOS QUE PONEN EN RIESGO LA VIDA E INTEGRIDAD. Los siguientes comportamientos ponen en riesgo la vida e integridad de las personas, y, por lo tanto, son contrarios a la convivencia: 1. Reñir, incitar o incurrir en confrontaciones violentas que puedan derivar en agresiones físicas. 2. Lanzar objetos que puedan causar daño o sustancias peligrosas a personas. 3. Agredir físicamente a personas por cualquier medio. 4. Amenazar con causar un daño físico a personas por cualquier medio. 5. No retirar o reparar, en los inmuebles, los elementos que ofrezcan riesgo a la vida e integridad. Numeral 1 Multa General tipo 2. PARÁGRAFO 2o. En los comportamientos señalados en los numerales 1 al 5 del presente artículo, se deberá utilizar la mediación policial como medio para intentar resolver el conflicto.",
+      "respuesta_visible": "**Numeral 1 del artículo 27.** «1. Reñir, incitar o incurrir en confrontaciones violentas que puedan derivar en agresiones físicas.»\n\n**Numeral 2 del artículo 27.** «2. Lanzar objetos que puedan causar daño o sustancias peligrosas a personas.»\n\n**Numeral 3 del artículo 27.** «3. Agredir físicamente a personas por cualquier medio.»\n\n**Numeral 4 del artículo 27.** «4. Amenazar con causar un daño físico a personas por cualquier medio.»\n\n**Numeral 5 del artículo 27.** «5. No retirar o reparar, en los inmuebles, los elementos que ofrezcan riesgo a la vida e integridad.»",
+      "causas": [
+        "d"
+      ],
+      "faltante": "Numerales 6 en adelante sobre armas y dispositivos."
+    },
+    {
+      "id": "RAG-007",
+      "pregunta": "¿En qué circunstancias pueden los alcaldes restringir la permanencia de menores en espacios públicos?",
+      "referencia": "Los alcaldes pueden restringir excepcionalmente la movilidad o permanencia de niños, niñas y adolescentes en espacios públicos o lugares abiertos al público, cuando sea necesario prevenir eventos que puedan poner en peligro su vida, integridad o salud. La restricción debe ser temporal y estar debidamente motivada. Su implementación debe contar con el acompañamiento del ICBF y del Ministerio Público.",
+      "contexto_publico_reconstruido": "ARTÍCULO 36. FACULTADES DE LOS ALCALDES PARA LA RESTRICCIÓN DE LA MOVILIDAD O PERMANENCIA DE NIÑOS, NIÑAS Y ADOLESCENTES EN EL ESPACIO PÚBLICO O EN LUGARES ABIERTOS AL PÚBLICO. Con el fin de prevenir la ocurrencia de eventos que puedan poner en peligro o afectar la vida, la integridad o la salud de los niños, niñas y adolescentes, excepcionalmente el alcalde podrá restringir su movilidad o permanencia en el espacio público o en lugares abiertos al público, de manera temporal y en forma motivada. PARÁGRAFO. En la implementación se contará con el acompañamiento del Instituto Colombiano de Bienestar Familiar y del Ministerio Público con el fin de determinar que la medida no atenta contra los derechos de los niños, niñas y adolescentes consagrados en el Código de la Infancia y Adolescencia.",
+      "respuesta_visible": "**Artículo 36.** «Con el fin de prevenir la ocurrencia de eventos que puedan poner en peligro o afectar la vida, la integridad o la salud de los niños, niñas y adolescentes, excepcionalmente el alcalde podrá restringir su movilidad o permanencia en el espacio público o en lugares abiertos al público, de manera temporal y en forma motivada.»",
+      "causas": [
+        "b"
+      ],
+      "faltante": "Paragrafo unico: acompanamiento ICBF y Ministerio Publico."
+    },
+    {
+      "id": "RAG-012",
+      "pregunta": "¿Qué comportamientos son contrarios a la posesión o tenencia de bienes inmuebles?",
+      "referencia": "El artículo 77 contempla cinco comportamientos contrarios a la posesión y tenencia de inmuebles: ocupar ilegalmente un inmueble; perturbar su posesión mediante daños materiales o no reparar averías que afecten a los vecinos; instalar servicios públicos en inmuebles ocupados ilegalmente; omitir el cerramiento y mantenimiento de lotes y fachadas; e impedir al titular el ingreso, uso y disfrute del inmueble. Las medidas correctivas dependen del comportamiento e incluyen restitución y protección de bienes inmuebles, reparación de daños y multas.",
+      "contexto_publico_reconstruido": "ARTÍCULO 77. COMPORTAMIENTOS CONTRARIOS A LA POSESIÓN Y MERA TENENCIA DE BIENES INMUEBLES. Son aquellos contrarios a la posesión, la mera tenencia de los bienes inmuebles de particulares, bienes fiscales, bienes de uso público, bienes de utilidad pública o social, bienes destinados a prestación de servicios públicos. Estos son los siguientes: 1. Perturbar, alterar o interrumpir la posesión o mera tenencia de un bien inmueble ocupándolo ilegalmente. 2. Perturbar la posesión o mera tenencia de un inmueble o mueble por causa de daños materiales o hechos que la alteren, o por no reparar las averías o daños en el propio inmueble que pongan en peligro, perjudiquen o molesten a los vecinos. 3. Instalar servicios públicos en inmuebles que hayan sido ocupados ilegalmente. 4. Omitir el cerramiento y mantenimiento de lotes y fachadas de edificaciones. 5. Impedir el ingreso, uso y disfrute de la posesión o tenencia de inmueble al titular de este derecho. Numeral 1 Restitución y protección de bienes inmuebles. Numeral 2 Reparación de daños materiales por perturbación a la posesión y tenencia de inmuebles o mueble. Numeral 3 Multa General tipo 3 Numeral 4 Multa General tipo 3; construcción, cerramiento, reparación o mantenimiento de inmueble. Numeral 5 Restitución y protección de bienes inmuebles.",
+      "respuesta_visible": "**Numeral 1 del artículo 77.** «1. Perturbar, alterar o interrumpir la posesión o mera tenencia de un bien inmueble ocupándolo ilegalmente.»\n\n**Numeral 2 del artículo 77.** «2. Perturbar la posesión o mera tenencia de un inmueble o mueble por causa de daños materiales o hechos que la alteren, o por no reparar las averías o daños en el propio inmueble que pongan en peligro, perjudiquen o molesten a los vecinos.»\n\n**Numeral 3 del artículo 77.** «3. Instalar servicios públicos en inmuebles que hayan sido ocupados ilegalmente.»\n\n**Numeral 4 del artículo 77.** «4. Omitir el cerramiento y mantenimiento de lotes y fachadas de edificaciones.»\n\n**Numeral 5 del artículo 77.** «5. Impedir el ingreso, uso y disfrute de la posesión o tenencia de inmueble al titular de este derecho.»",
+      "causas": [
+        "b"
+      ],
+      "faltante": "Filas 1 a 5 del cuadro: restitucion, reparacion, multas y mantenimiento."
+    },
+    {
+      "id": "RAG-015",
+      "pregunta": "¿Qué comportamientos relacionados con la salud pública afectan la actividad económica?",
+      "referencia": "El artículo 94 contempla nueve comportamientos relacionados con la salud pública que afectan la actividad económica. Incluyen incumplir normas de seguridad o sanidad, no separar los residuos sólidos, permitir el consumo de tabaco en lugares no autorizados, permitir animales que afecten la higiene o seguridad, comercializar productos caducados o adulterados, manejar inadecuadamente residuos y no facilitar servicios sanitarios limpios. Las medidas correctivas incluyen multas, suspensión temporal de actividad y amonestación, según el numeral.",
+      "contexto_publico_reconstruido": "ARTÍCULO 94. COMPORTAMIENTOS RELACIONADOS CON LA SALUD PÚBLICA QUE AFECTAN LA ACTIVIDAD ECONÓMICA. Los siguientes comportamientos relacionados con la salud pública afectan la actividad económica y por lo tanto no deben realizarse: 1. Incumplir las normas o disposiciones de seguridad o sanidad, para el desarrollo de la actividad económica, de acuerdo con su objeto social, previo concepto de la autoridad especializada. 2. No separar en la fuente los residuos sólidos, ni depositarlos selectivamente en un lugar destinado para tal efecto. 3. Permitir el consumo de tabaco y/o sus derivados en lugares no autorizados por la ley y la normatividad vigente. 4. Permitir la permanencia de animales de cualquier especie que afecte las condiciones de higiene, salubridad y seguridad o que impida la correcta prestación del servicio de acuerdo con las disposiciones vigentes. 5. Comercializar en el establecimiento artículos de mala calidad, caducados o adulterados que puedan constituir peligro para la salud pública. 6. Comercializar, almacenar, poseer o tener especies de flora o fauna que ofrezcan peligro para la integridad y la salud. 7. No retirar frecuentemente los residuos de las áreas de producción o depósito y no evacuarlas de manera que se elimine la generación de malos olores, y se impida el refugio y alimento de animales y plagas. 8. No facilitar la utilización de los servicios sanitarios limpios y desinfectados a las personas que así lo requieran, en los establecimientos abiertos al público y proveer de los recursos requeridos para la higiene personal. 9. No destruir en la fuente los envases de bebidas embriagantes. Numeral 1 Multa General tipo 4; Suspensión temporal de actividad. Numeral 2 Multa General tipo 3. Numeral 3 Multa General tipo 1; Suspensión temporal de actividad. Numeral 4 Multa General tipo 3; Suspensión temporal de actividad. Numeral 5 Multa General tipo 4; Suspensión temporal de actividad Numeral 6 Multa General tipo 1; Suspensión temporal de actividad. Numeral 7 Multa General tipo 4; Suspensión temporal de actividad. Numeral 8 Amonestación. Numeral 9 Multa General tipo 1; Suspensión temporal de actividad.",
+      "respuesta_visible": "**Numeral 1 del artículo 94.** «1. Incumplir las normas o disposiciones de seguridad o sanidad, para el desarrollo de la actividad económica, de acuerdo con su objeto social, previo concepto de la autoridad especializada.»\n\n**Numeral 2 del artículo 94.** «2. No separar en la fuente los residuos sólidos, ni depositarlos selectivamente en un lugar destinado para tal efecto.»\n\n**Numeral 3 del artículo 94.** «3. Permitir el consumo de tabaco y/o sus derivados en lugares no autorizados por la ley y la normatividad vigente.»\n\n**Numeral 4 del artículo 94.** «4. Permitir la permanencia de animales de cualquier especie que afecte las condiciones de higiene, salubridad y seguridad o que impida la correcta prestación del servicio de acuerdo con las disposiciones vigentes.»\n\n**Numeral 5 del artículo 94.** «5. Comercializar en el establecimiento artículos de mala calidad, caducados o adulterados que puedan constituir peligro para la salud pública.»\n\n**Numeral 6 del artículo 94.** «6. Comercializar, almacenar, poseer o tener especies de flora o fauna que ofrezcan peligro para la integridad y la salud.»\n\n**Numeral 7 del artículo 94.** «7. No retirar frecuentemente los residuos de las áreas de producción o depósito y no evacuarlas de manera que se elimine la generación de malos olores, y se impida el refugio y alimento de animales y plagas.»\n\n**Numeral 8 del artículo 94.** «8. No facilitar la utilización de los servicios sanitarios limpios y desinfectados a las personas que así lo requieran, en los establecimientos abiertos al público y proveer de los recursos requeridos para la higiene personal.»\n\n**Numeral 9 del artículo 94.** «9. No destruir en la fuente los envases de bebidas embriagantes.»",
+      "causas": [
+        "b"
+      ],
+      "faltante": "Cuadro del paragrafo 1: multas, suspension y amonestacion."
+    },
+    {
+      "id": "RAG-017",
+      "pregunta": "¿Qué establece el Código sobre sacar la basura en horarios no autorizados?",
+      "referencia": "El artículo 111, numeral 1, prohíbe sacar la basura en horarios no autorizados por la empresa prestadora del servicio o en un lugar diferente al correspondiente al domicilio. La medida correctiva es participación en programa comunitario o actividad pedagógica de convivencia.",
+      "contexto_publico_reconstruido": "ARTÍCULO 111. COMPORTAMIENTOS CONTRARIOS A LA LIMPIEZA Y RECOLECCIÓN DE RESIDUOS Y ESCOMBROS Y MALAS PRÁCTICAS HABITACIONALES. 1. Sacar la basura en horarios no autorizados por la empresa prestadora del servicio o en sitio diferente al lugar de residencia o domicilio. 3. Arrojar residuos sólidos y escombros en sitios de uso público, no acordados ni autorizados por autoridad competente.",
+      "respuesta_visible": "**Numeral 1 del artículo 111.** «1. Sacar la basura en horarios no autorizados por la empresa prestadora del servicio o en sitio diferente al lugar de residencia o domicilio.»",
+      "causas": [
+        "d"
+      ],
+      "faltante": "Fila 1 del paragrafo 1: actividad comunitaria o pedagogica."
+    },
+    {
+      "id": "RAG-022",
+      "pregunta": "¿Qué es una orden de Policía y cuáles son sus características?",
+      "referencia": "Según el artículo 150, la orden de Policía es un mandato claro, preciso y conciso, dirigido individualmente o con carácter general, que puede ser escrito o verbal y debe emanar de una autoridad de Policía. Su finalidad es prevenir o superar comportamientos o hechos contrarios a la convivencia, o restablecerla. Es de obligatorio cumplimiento. Si no se cumple, la autoridad puede utilizar los medios, medidas y procedimientos establecidos en el Código. Cuando no sea de cumplimiento inmediato, puede establecer un plazo determinado.",
+      "contexto_publico_reconstruido": "ARTÍCULO 150. ORDEN DE POLICÍA. La orden de Policía es un mandato claro, preciso y conciso dirigido en forma individual o de carácter general, escrito o verbal, emanado de la autoridad de Policía, para prevenir o superar comportamientos o hechos contrarios a la convivencia, o para restablecerla. Las órdenes de Policía son de obligatorio cumplimiento. Las personas que las desobedezcan serán obligadas a cumplirlas a través, si es necesario, de los medios, medidas y procedimientos establecidos en este Código. Si la orden no fuere de inmediato cumplimiento, la autoridad conminará a la persona para que la cumpla en un plazo determinado, sin perjuicio de las acciones legales pertinentes .",
+      "respuesta_visible": "**Artículo 150.** «ARTÍCULO 150. ORDEN DE POLICÍA. La orden de Policía es un mandato claro, preciso y conciso dirigido en forma individual o de carácter general, escrito o verbal, emanado de la autoridad de Policía, para prevenir o superar comportamientos o hechos contrarios a la convivencia, o para restablecerla.»\n\n**Artículo 150.** «Las órdenes de Policía son de obligatorio cumplimiento.»",
+      "causas": [
+        "b"
+      ],
+      "faltante": "Resto del inciso segundo: medios, medidas, procedimientos y plazo de cumplimiento no inmediato."
+    },
+    {
+      "id": "RAG-025",
+      "pregunta": "¿Qué son las multas y cómo se clasifican en el Código de Policía?",
+      "referencia": "El artículo 180 define la multa como el pago de una suma de dinero en moneda colombiana, cuya cuantía depende del comportamiento realizado. Se clasifican en multas generales y especiales. Las multas generales son: tipo 1, dos salarios mínimos diarios legales vigentes; tipo 2, cuatro; tipo 3, ocho; y tipo 4, dieciséis. Las especiales comprenden las relacionadas con organizadores de actividades que involucran aglomeraciones de público complejas, infracciones urbanísticas y contaminación visual. El artículo también contempla descuentos por pronto pago y la posibilidad de objetar la medida dentro del término legal.",
+      "contexto_publico_reconstruido": "ARTÍCULO 180. MULTAS. Es la imposición del pago de una suma de dinero en moneda colombiana, cuya graduación depende del comportamiento realizado, según la cual varía el monto de la multa. Así mismo, la desobediencia, resistencia, desacato, o reiteración del comportamiento contrario a la convivencia, incrementará el valor de la multa, sin perjuicio de los intereses causados y el costo del cobro coactivo. las multas se clasifican en generales y especiales.",
+      "respuesta_visible": "**Artículo 180.** «ARTÍCULO 180. MULTAS. Es la imposición del pago de una suma de dinero en moneda colombiana, cuya graduación depende del comportamiento realizado, según la cual varía el monto de la multa.»\n\n**Artículo 180.** «las multas se clasifican en generales y especiales.»",
+      "causas": [
+        "d",
+        "e"
+      ],
+      "faltante": "La pregunta pide definicion y clasificacion; la referencia agrega tipos, cuantias, pago y objecion. Revisar Ley 2450."
+    },
+    {
+      "id": "RAG-026",
+      "pregunta": "¿Qué atribuciones tienen los inspectores de Policía?",
+      "referencia": "El artículo 206 establece que los inspectores de Policía rurales, urbanos y corregidores pueden conciliar conflictos de convivencia cuando sea procedente; conocer comportamientos contrarios a la convivencia relacionados con seguridad, tranquilidad, ambiente, recursos naturales, derecho de reunión, protección de bienes y privacidad, actividad económica, urbanismo, espacio público y libertad de circulación; ejecutar órdenes de restitución de tierras comunales y ejercer las demás atribuciones legales. También conocen determinadas medidas correctivas en única instancia y otras en primera instancia, entre ellas multas, suspensión de construcciones, demolición de obras y restitución de bienes inmuebles. El artículo contempla además la ejecución de comisiones judiciales.",
+      "contexto_publico_reconstruido": "ARTÍCULO 206. ATRIBUCIONES DE LOS INSPECTORES DE CONVIVENCIA Y PAZ RURALES, URBANOS Y CORREGIDORES. Les corresponde la aplicación de las siguientes medidas: 1. Conciliar para la solución de conflictos de convivencia, cuando sea procedente. 2. Conocer sobre los comportamientos contrarios a la convivencia en materia de seguridad, tranquilidad, ambiente y recursos naturales, derecho de reunión, protección a los bienes y privacidad, actividad económica, urbanismo, espacio público y libertad de circulación.",
+      "respuesta_visible": "**Numeral 1 del artículo 206.** «1. Conciliar para la solución de conflictos de convivencia, cuando sea procedente.»\n\n**Numeral 2 del artículo 206.** «2. Conocer sobre los comportamientos contrarios a la convivencia en materia de seguridad, tranquilidad, ambiente y recursos naturales, derecho de reunión, protección a los bienes y privacidad, actividad económica, urbanismo, espacio público y libertad de circulación.»",
+      "causas": [
+        "d"
+      ],
+      "faltante": "Atribuciones, instancias y comisiones que exceden los numerales 1 y 2."
+    },
+    {
+      "id": "RAG-027",
+      "pregunta": "¿Cómo se desarrolla el proceso verbal inmediato?",
+      "referencia": "El artículo 222 establece el proceso verbal inmediato para comportamientos contrarios a la convivencia cuya competencia corresponde al personal uniformado de la Policía Nacional, comandantes de estación o subestación y comandantes de los Centros de Atención Inmediata. El procedimiento comprende: 1) inicio de oficio o a petición de una persona interesada; 2) identificación y abordaje del presunto infractor, informándole el comportamiento atribuido; 3) oportunidad para presentar descargos; 4) valoración inicial de los hechos y búsqueda de mediación policial. Si no se logra la mediación, se impone la medida correctiva mediante orden de Policía. Contra la orden procede apelación en los términos del artículo.",
+      "contexto_publico_reconstruido": "ARTÍCULO 222. TRÁMITE DEL PROCESO VERBAL INMEDIATO. Se tramitarán por el proceso verbal inmediato los comportamientos contrarios a la convivencia, de competencia del personal uniformado de la Policía Nacional, los comandantes de estación o subestación de Policía, y los comandantes del Centro de Atención Inmediata de Policía, en las etapas siguientes: 1. Se podrá iniciar de oficio o a petición de quien tenga interés directo o acuda en defensa de las normas de convivencia. 2. Una vez identificado el presunto infractor, la autoridad de Policía lo abordará en el sitio donde ocurran los hechos, si ello fuera posible o, en aquel donde lo encuentren, y le informará que su acción u omisión configura un comportamiento contrario a la convivencia. 3. El presunto infractor deberá ser oído en descargos. 4. La autoridad de Policía hará una primera ponderación de los hechos y procurará una mediación policial entre las partes en conflicto. De no lograr la mediación, impondrá la medida correctiva a través de la orden de Policía.",
+      "respuesta_visible": "**Numeral 1 del artículo 222.** «1. Se podrá iniciar de oficio o a petición de quien tenga interés directo o acuda en defensa de las normas de convivencia.»\n\n**Numeral 2 del artículo 222.** «2. Una vez identificado el presunto infractor, la autoridad de Policía lo abordará en el sitio donde ocurran los hechos, si ello fuera posible o, en aquel donde lo encuentren, y le informará que su acción u omisión configura un comportamiento contrario a la convivencia.»\n\n**Numeral 3 del artículo 222.** «3. El presunto infractor deberá ser oído en descargos.»\n\n**Numeral 4 del artículo 222.** «4. La autoridad de Policía hará una primera ponderación de los hechos y procurará una mediación policial entre las partes en conflicto. De no lograr la mediación, impondrá la medida correctiva a través de la orden de Policía.»",
+      "causas": [
+        "b",
+        "d"
+      ],
+      "faltante": "Inciso inicial de competencia omitido; falta cotejar apelacion del paragrafo 1."
+    },
+    {
+      "id": "RAG-028",
+      "pregunta": "¿Cómo se desarrolla el proceso verbal abreviado?",
+      "referencia": "El artículo 223 regula el proceso verbal abreviado, competencia de inspectores de Policía, alcaldes y autoridades especiales de Policía. Comprende: 1) iniciación de oficio o a petición de parte; 2) citación del quejoso y presunto infractor; 3) audiencia pública, en la que se presentan argumentos, se invita a conciliar, se solicitan y practican pruebas y se adopta una decisión fundamentada; 4) posibilidad de interponer reposición y, cuando proceda, apelación; 5) cumplimiento de la orden o medida correctiva una vez ejecutoriada, dentro del término máximo de cinco días. El artículo también contempla reglas para inasistencia, inspección al lugar y ejecución de las medidas.",
+      "contexto_publico_reconstruido": "ARTÍCULO 223. TRÁMITE DEL PROCESO VERBAL ABREVIADO. 1. Iniciación de la acción. La acción de Policía puede iniciarse de oficio o a petición de la persona que tenga interés en la aplicación del régimen de Policía, contra el presunto infractor. Cuando la autoridad conozca en flagrancia del comportamiento contrario a la convivencia, podrá iniciar de inmediato la audiencia pública. 2. Citación. Las mencionadas autoridades, a los cinco (5) días siguientes de conocida la querella o el comportamiento contrario a la convivencia, en caso de que no hubiera sido posible iniciar la audiencia de manera inmediata, citará a audiencia pública al quejoso y al presunto infractor, mediante comunicación escrita, correo certificado, medio electrónico, medio de comunicación del que disponga, o por el medio más expedito o idóneo, donde se señale dicho comportamiento.",
+      "respuesta_visible": "**Numeral 1 del artículo 223.** «1. Iniciación de la acción. La acción de Policía puede iniciarse de oficio o a petición de la persona que tenga interés en la aplicación del régimen de Policía, contra el presunto infractor. Cuando la autoridad conozca en flagrancia del comportamiento contrario a la convivencia, podrá iniciar de inmediato la audiencia pública.»\n\n**Numeral 2 del artículo 223.** «2. Citación. Las mencionadas autoridades, a los cinco (5) días siguientes de conocida la querella o el comportamiento contrario a la convivencia, en caso de que no hubiera sido posible iniciar la audiencia de manera inmediata, citará a audiencia pública al quejoso y al presunto infractor, mediante comunicación escrita, correo certificado, medio electrónico, medio de comunicación del que disponga, o por el medio más expedito o idóneo, donde se señale dicho comportamiento.»",
+      "causas": [
+        "d"
+      ],
+      "faltante": "Numerales 3 a 5: audiencia, recursos y cumplimiento; competencia y condicionamientos."
+    },
+    {
+      "id": "RAG-035",
+      "pregunta": "Una persona ocupa un inmueble ajeno sin autorización. ¿Qué comportamientos relacionados con la posesión contempla la ley?",
+      "referencia": "El artículo 77 contempla como comportamiento contrario a la posesión y tenencia ocupar ilegalmente un inmueble ajeno. También contempla perturbar la posesión mediante daños materiales, impedir el ingreso del titular y otras conductas que afectan el uso y disfrute del inmueble. Para el numeral 1 se establece la medida de restitución y protección de bienes inmuebles.",
+      "contexto_publico_reconstruido": "ARTÍCULO 77. COMPORTAMIENTOS CONTRARIOS A LA POSESIÓN Y MERA TENENCIA DE BIENES INMUEBLES. Son aquellos contrarios a la posesión, la mera tenencia de los bienes inmuebles de particulares, bienes fiscales, bienes de uso público, bienes de utilidad pública o social, bienes destinados a prestación de servicios públicos. Estos son los siguientes: 1. Perturbar, alterar o interrumpir la posesión o mera tenencia de un bien inmueble ocupándolo ilegalmente. 2. Perturbar la posesión o mera tenencia de un inmueble o mueble por causa de daños materiales o hechos que la alteren, o por no reparar las averías o daños en el propio inmueble que pongan en peligro, perjudiquen o molesten a los vecinos. 3. Instalar servicios públicos en inmuebles que hayan sido ocupados ilegalmente. 4. Omitir el cerramiento y mantenimiento de lotes y fachadas de edificaciones. 5. Impedir el ingreso, uso y disfrute de la posesión o tenencia de inmueble al titular de este derecho. Numeral 1 Restitución y protección de bienes inmuebles. Numeral 2 Reparación de daños materiales por perturbación a la posesión y tenencia de inmuebles o mueble. Numeral 3 Multa General tipo 3 Numeral 4 Multa General tipo 3; construcción, cerramiento, reparación o mantenimiento de inmueble. Numeral 5 Restitución y protección de bienes inmuebles.",
+      "respuesta_visible": "**Numeral 1 del artículo 77.** «1. Perturbar, alterar o interrumpir la posesión o mera tenencia de un bien inmueble ocupándolo ilegalmente.»\n\n**Numeral 2 del artículo 77.** «2. Perturbar la posesión o mera tenencia de un inmueble o mueble por causa de daños materiales o hechos que la alteren, o por no reparar las averías o daños en el propio inmueble que pongan en peligro, perjudiquen o molesten a los vecinos.»\n\n**Numeral 3 del artículo 77.** «3. Instalar servicios públicos en inmuebles que hayan sido ocupados ilegalmente.»\n\n**Numeral 4 del artículo 77.** «4. Omitir el cerramiento y mantenimiento de lotes y fachadas de edificaciones.»\n\n**Numeral 5 del artículo 77.** «5. Impedir el ingreso, uso y disfrute de la posesión o tenencia de inmueble al titular de este derecho.»",
+      "causas": [
+        "b",
+        "e"
+      ],
+      "faltante": "Fila 1 sobre restitucion aprobada; la pregunta literal pide comportamientos."
+    },
+    {
+      "id": "RAG-037",
+      "pregunta": "Un local comercial no informa a sus clientes sobre los protocolos de evacuación. ¿Qué comportamiento contempla la ley?",
+      "referencia": "El artículo 93, numeral 1, contempla como comportamiento contrario a la seguridad y tranquilidad no informar los protocolos de seguridad y evacuación en caso de emergencias a las personas que se encuentren en el lugar. La medida correctiva establecida es una multa general tipo 1.",
+      "contexto_publico_reconstruido": "ARTÍCULO 93. COMPORTAMIENTOS RELACIONADOS CON LA SEGURIDAD Y TRANQUILIDAD QUE AFECTAN LA ACTIVIDAD ECONÓMICA. 1. No informar los protocolos de seguridad y evacuación en caso de emergencias a las personas que se encuentren en el lugar.",
+      "respuesta_visible": "**Numeral 1 del artículo 93.** «1. No informar los protocolos de seguridad y evacuación en caso de emergencias a las personas que se encuentren en el lugar.»",
+      "causas": [
+        "d",
+        "e"
+      ],
+      "faltante": "Fila 1 del paragrafo 2; la pregunta pide identificar el comportamiento."
+    },
+    {
+      "id": "RAG-040",
+      "pregunta": "Mis vecinos sacan la basura fuera del horario establecido y dejan residuos en la calle. ¿Qué norma regula este comportamiento?",
+      "referencia": "El artículo 111 contempla dos comportamientos relacionados: el numeral 1 prohíbe sacar la basura en horarios no autorizados y el numeral 8 prohíbe arrojar basura, llantas, residuos o escombros en el espacio público o en bienes públicos o privados. Para el numeral 1 se establece participación en programa comunitario o actividad pedagógica de convivencia. Para el numeral 8 se establece multa general tipo 4.",
+      "contexto_publico_reconstruido": "ARTÍCULO 111. COMPORTAMIENTOS CONTRARIOS A LA LIMPIEZA Y RECOLECCIÓN DE RESIDUOS Y ESCOMBROS Y MALAS PRÁCTICAS HABITACIONALES. 1. Sacar la basura en horarios no autorizados por la empresa prestadora del servicio o en sitio diferente al lugar de residencia o domicilio. 3. Arrojar residuos sólidos y escombros en sitios de uso público, no acordados ni autorizados por autoridad competente.",
+      "respuesta_visible": "**Numeral 1 del artículo 111.** «1. Sacar la basura en horarios no autorizados por la empresa prestadora del servicio o en sitio diferente al lugar de residencia o domicilio.»\n\n**Numeral 3 del artículo 111.** «3. Arrojar residuos sólidos y escombros en sitios de uso público, no acordados ni autorizados por autoridad competente.»",
+      "causas": [
+        "d"
+      ],
+      "faltante": "Numeral 8 y filas 1 y 8. El numeral 3 citado cubre otro supuesto."
+    },
+    {
+      "id": "RAG-041",
+      "pregunta": "El dueño de un animal lo deja deambular sin control y pone en riesgo a otras personas. ¿Qué establece el Código?",
+      "referencia": "El artículo 124, numeral 1, prohíbe dejar deambular animales feroces o dañinos en espacios públicos o privados abiertos al público y medios de transporte sin las medidas de seguridad correspondientes. Si además se permite o induce que el animal ataque a una persona, otro animal o bienes de terceros, puede relacionarse con el numeral 7. Para el numeral 1 se establece multa general tipo 2 y para el numeral 7 multa general tipo 4.",
+      "contexto_publico_reconstruido": "ARTÍCULO 124. COMPORTAMIENTOS QUE PONEN EN RIESGO LA CONVIVENCIA POR LA TENENCIA DE ANIMALES. 1. Dejar deambular semoviente, animales feroces o dañinos, en espacio público y privado, lugar abierto al público, o medio de transporte público, sin las debidas medidas de seguridad. 7. Tolerar, permitir o inducir por acción u omisión el que un animal ataque a una persona, a un animal o a bienes de terceros. Numeral 1 Multa General tipo 2 Numeral 7 Multa General tipo 4",
+      "respuesta_visible": "**Numeral 1 del artículo 124.** «1. Dejar deambular semoviente, animales feroces o dañinos, en espacio público y privado, lugar abierto al público, o medio de transporte público, sin las debidas medidas de seguridad.»\n\n**Numeral 1 del artículo 124.** «Numeral 1 Multa General tipo 2»",
+      "causas": [
+        "b",
+        "e"
+      ],
+      "faltante": "Numeral 7 y fila 7 si hay ataque; la situacion no afirma que haya ocurrido."
+    },
+    {
+      "id": "RAG-042",
+      "pregunta": "Estoy construyendo una vivienda sin contar con la licencia requerida. ¿Qué comportamientos urbanísticos contempla la ley?",
+      "referencia": "El artículo 135, numeral 4, contempla como comportamiento contrario a la integridad urbanística construir en terrenos aptos para estas actuaciones sin licencia o cuando esta haya caducado. El parágrafo 2 establece que, cuando se trate de predios aptos, se concede un término de sesenta días para solicitar el reconocimiento de la construcción. Si no se presenta la licencia de reconocimiento dentro de ese término, no se puede reanudar la obra y se duplica el valor de la multa. El parágrafo 1 contempla suspensión inmediata de la construcción o demolición para los casos allí señalados.",
+      "contexto_publico_reconstruido": "ARTÍCULO 135. COMPORTAMIENTOS CONTRARIOS A LA INTEGRIDAD URBANÍSTICA. A) Parcelar, urbanizar, demoler, intervenir o construir: 4. En terrenos aptos para estas actuaciones, sin licencia o cuando esta hubiere caducado. Numeral 4 Multa especial por infracción urbanística; Demolición de obra; Construcción, cerramiento, reparación o mantenimiento de inmueble; Remoción de bienes.",
+      "respuesta_visible": "**Numeral 4 del artículo 135.** «4. En terrenos aptos para estas actuaciones, sin licencia o cuando esta hubiere caducado.»\n\n**Numeral 4 del artículo 135.** «Numeral 4 Multa especial por infracción urbanística; Demolición de obra; Construcción, cerramiento, reparación o mantenimiento de inmueble; Remoción de bienes.»",
+      "causas": [
+        "d",
+        "e"
+      ],
+      "faltante": "Condiciones de los paragrafos 1 y 2, plazo y duplicacion. La pregunta pide conductas."
+    },
+    {
+      "id": "RAG-045",
+      "pregunta": "Un policía me da una orden verbal durante un procedimiento. ¿Las órdenes de Policía pueden ser verbales?",
+      "referencia": "Sí. Según el artículo 150, las órdenes de Policía pueden ser escritas o verbales. Deben ser mandatos claros, precisos y concisos, emanados de una autoridad de Policía y tienen carácter obligatorio. Su finalidad es prevenir o superar comportamientos contrarios a la convivencia o restablecerla. Si no se cumplen, pueden aplicarse los medios y procedimientos establecidos en el Código.",
+      "contexto_publico_reconstruido": "ARTÍCULO 150. ORDEN DE POLICÍA. La orden de Policía es un mandato claro, preciso y conciso dirigido en forma individual o de carácter general, escrito o verbal, emanado de la autoridad de Policía, para prevenir o superar comportamientos o hechos contrarios a la convivencia, o para restablecerla. Las órdenes de Policía son de obligatorio cumplimiento. Las personas que las desobedezcan serán obligadas a cumplirlas a través, si es necesario, de los medios, medidas y procedimientos establecidos en este Código. Si la orden no fuere de inmediato cumplimiento, la autoridad conminará a la persona para que la cumpla en un plazo determinado, sin perjuicio de las acciones legales pertinentes .",
+      "respuesta_visible": "**Artículo 150.** «ARTÍCULO 150. ORDEN DE POLICÍA. La orden de Policía es un mandato claro, preciso y conciso dirigido en forma individual o de carácter general, escrito o verbal, emanado de la autoridad de Policía, para prevenir o superar comportamientos o hechos contrarios a la convivencia, o para restablecerla.»",
+      "causas": [
+        "b",
+        "e"
+      ],
+      "faltante": "Inciso segundo aprobado; obligatoriedad y consecuencias exceden la pregunta sobre forma verbal."
+    },
+    {
+      "id": "RAG-049",
+      "pregunta": "Un policía inicia un procedimiento por un comportamiento contrario a la convivencia. ¿Cómo funciona el proceso verbal inmediato?",
+      "referencia": "El artículo 222 regula el proceso verbal inmediato, aplicable a comportamientos de competencia del personal uniformado de la Policía Nacional y de los comandantes de estación, subestación y CAI. Puede comenzar de oficio o por solicitud de una persona interesada. La autoridad identifica al presunto infractor, le informa el comportamiento atribuido, escucha sus descargos, valora los hechos e intenta una mediación policial. Si no se logra resolver el conflicto mediante mediación, impone la medida correctiva mediante orden de Policía. Contra esta procede el recurso de apelación en las condiciones establecidas en el artículo.",
+      "contexto_publico_reconstruido": "ARTÍCULO 222. TRÁMITE DEL PROCESO VERBAL INMEDIATO. Se tramitarán por el proceso verbal inmediato los comportamientos contrarios a la convivencia, de competencia del personal uniformado de la Policía Nacional, los comandantes de estación o subestación de Policía, y los comandantes del Centro de Atención Inmediata de Policía, en las etapas siguientes: 1. Se podrá iniciar de oficio o a petición de quien tenga interés directo o acuda en defensa de las normas de convivencia. 2. Una vez identificado el presunto infractor, la autoridad de Policía lo abordará en el sitio donde ocurran los hechos, si ello fuera posible o, en aquel donde lo encuentren, y le informará que su acción u omisión configura un comportamiento contrario a la convivencia. 3. El presunto infractor deberá ser oído en descargos. 4. La autoridad de Policía hará una primera ponderación de los hechos y procurará una mediación policial entre las partes en conflicto. De no lograr la mediación, impondrá la medida correctiva a través de la orden de Policía.",
+      "respuesta_visible": "**Numeral 1 del artículo 222.** «1. Se podrá iniciar de oficio o a petición de quien tenga interés directo o acuda en defensa de las normas de convivencia.»\n\n**Numeral 2 del artículo 222.** «2. Una vez identificado el presunto infractor, la autoridad de Policía lo abordará en el sitio donde ocurran los hechos, si ello fuera posible o, en aquel donde lo encuentren, y le informará que su acción u omisión configura un comportamiento contrario a la convivencia.»\n\n**Numeral 3 del artículo 222.** «3. El presunto infractor deberá ser oído en descargos.»\n\n**Numeral 4 del artículo 222.** «4. La autoridad de Policía hará una primera ponderación de los hechos y procurará una mediación policial entre las partes en conflicto. De no lograr la mediación, impondrá la medida correctiva a través de la orden de Policía.»",
+      "causas": [
+        "b",
+        "d"
+      ],
+      "faltante": "Inciso inicial sobre competencia omitido; falta apelacion del paragrafo 1."
+    },
+    {
+      "id": "RAG-050",
+      "pregunta": "Un inspector de Policía debe resolver un conflicto de convivencia. ¿Cómo se desarrolla el proceso verbal abreviado?",
+      "referencia": "El artículo 223 regula el proceso verbal abreviado, aplicable a los asuntos de competencia de los inspectores de Policía, alcaldes y autoridades especiales de Policía. El procedimiento comienza de oficio o a petición de una persona interesada. Después se cita al quejoso y al presunto infractor a audiencia pública. En la audiencia se escuchan los argumentos, se invita a conciliar, se decretan y practican las pruebas pertinentes y la autoridad adopta una decisión fundamentada. Contra la decisión proceden los recursos de reposición y, cuando corresponda, apelación. Una vez ejecutoriada, la orden o medida correctiva debe cumplirse dentro de un máximo de cinco días.",
+      "contexto_publico_reconstruido": "ARTÍCULO 223. TRÁMITE DEL PROCESO VERBAL ABREVIADO. 1. Iniciación de la acción. La acción de Policía puede iniciarse de oficio o a petición de la persona que tenga interés en la aplicación del régimen de Policía, contra el presunto infractor. Cuando la autoridad conozca en flagrancia del comportamiento contrario a la convivencia, podrá iniciar de inmediato la audiencia pública. 2. Citación. Las mencionadas autoridades, a los cinco (5) días siguientes de conocida la querella o el comportamiento contrario a la convivencia, en caso de que no hubiera sido posible iniciar la audiencia de manera inmediata, citará a audiencia pública al quejoso y al presunto infractor, mediante comunicación escrita, correo certificado, medio electrónico, medio de comunicación del que disponga, o por el medio más expedito o idóneo, donde se señale dicho comportamiento.",
+      "respuesta_visible": "**Numeral 1 del artículo 223.** «1. Iniciación de la acción. La acción de Policía puede iniciarse de oficio o a petición de la persona que tenga interés en la aplicación del régimen de Policía, contra el presunto infractor. Cuando la autoridad conozca en flagrancia del comportamiento contrario a la convivencia, podrá iniciar de inmediato la audiencia pública.»\n\n**Numeral 2 del artículo 223.** «2. Citación. Las mencionadas autoridades, a los cinco (5) días siguientes de conocida la querella o el comportamiento contrario a la convivencia, en caso de que no hubiera sido posible iniciar la audiencia de manera inmediata, citará a audiencia pública al quejoso y al presunto infractor, mediante comunicación escrita, correo certificado, medio electrónico, medio de comunicación del que disponga, o por el medio más expedito o idóneo, donde se señale dicho comportamiento.»",
+      "causas": [
+        "d"
+      ],
+      "faltante": "Audiencia, recursos y cumplimiento sin cotejar."
+    }
+  ]
+}

@@ -2,6 +2,15 @@
 
 Prototipo académico de consulta documental sobre el Código Nacional de Seguridad y Convivencia Ciudadana de Colombia. La interfaz presenta el historial de la conversación actual y permite desplegar fragmentos y fuentes. Las respuestas requieren verificación normativa y revisión jurídica.
 
+En respuestas largas, el chat muestra el comienzo de la respuesta y
+separa las conductas de las medidas correctivas cuando ambas aparecen.
+Despliega **Ver fragmentos recuperados** para revisar el texto de respaldo
+y abrir la fuente normativa en otra pestaña.
+
+La revisión local del índice público usa 31 artículos y 127 vectores.
+Consulta los [hitos y controles de publicación](documentacion/hitos_publicacion.md)
+para identificar la huella evaluada, el alcance del cotejo y el estado de la rama remota.
+
 ```text
 Navegador → Express → FastAPI → FAISS → Gemini → validación documental
               ↳ carga de PDFs → validación y extracción aisladas
@@ -44,18 +53,25 @@ node backend/index.js
 ```
 
 Abre `http://127.0.0.1:3000`. El servicio público consulta los
-apartados cotejados de 18 artículos. El alcance parcial por artículo
+apartados cotejados de 19 artículos. El alcance parcial por artículo
 está documentado en la matriz de cobertura. El corpus histórico
 permanece disponible para experimentos locales. Sin credencial, FastAPI
 responde a los rechazos deterministas y devuelve HTTP 503 para consultas
 que requieren generación. El servicio interno documenta sus
 rutas en `http://127.0.0.1:8000/docs`.
 
+Para aislar una corrida, fija `FASTAPI_PORT` en el entorno de Node
+y usa el mismo número en `--port` al iniciar FastAPI. Node solo se
+conecta a la dirección local. `GET /estado` de FastAPI indica el modo
+documental y si la generación fue configurada.
+
 ## API pública
 
 | Ruta | Solicitud | Respuesta |
 |---|---|---|
 | `GET /api/estado` | Sin cuerpo | HTTP 200 con estado del servidor Node. |
+| `GET /estado` en FastAPI | Sin cuerpo | HTTP 200 con modo, disponibilidad de generación y SHA-256 del corpus público. |
+| `POST /consultar` en FastAPI | JSON con `pregunta` de 1 a 2000 caracteres. | HTTP 200 con respuesta, validación y fuentes públicas. HTTP 400 si solo contiene espacios, 422 para JSON o campos inválidos, 503 si requiere generación y esta no está configurada, o 500 ante un fallo interno. |
 | `POST /api/chat` | JSON con `pregunta` de 1 a 2000 caracteres tras recortar blancos. | HTTP 200 con `respuesta`, `fuentes_recuperadas` y, cuando corresponde, `validacion_documental`. HTTP 400 para pregunta inválida, 502 para error del motor, 503 para generación indisponible y 504 para tiempo agotado. |
 | `POST /upload_pdf/` | Multipart con un archivo en el campo `documento`. Límite de 10 MiB. | HTTP 201 con nombre, tamaño, conteo de páginas con texto, caracteres e `indexado: false`. HTTP 400 para carga inválida, 413 para tamaño excedido y 422 si la validación o la extracción rechazan el PDF. |
 
@@ -73,11 +89,14 @@ python -m unittest discover -s tests
 python -m unittest discover -s motor_documental/pruebas -p "test_*.py"
 npm --prefix backend test
 python -m motor_documental.analisis.analisis_linguistico_corpus
+python -m motor_documental.analisis.analisis_linguistico_corpus --publicable --salida linguistica_publica.json
 python -m motor_documental.corpus.conciliar_diferencias --salida conciliacion.json
+python -m motor_documental.corpus.verificar_ampliacion ley1801-jep.html --salida evidencia_ampliacion.json
 python -m motor_documental.pruebas.auditar_evidencia
 python -m motor_documental.pruebas.comparar_recuperacion --salida comparacion.json
 python -m motor_documental.indice_publicable
 python -m motor_documental.pruebas.comparar_recuperacion --publicable --salida comparacion_publicable.json
+python -m motor_documental.pruebas.cobertura_banco_final
 python -m motor_documental.pruebas.evaluar_api --salida evaluacion_http.json
 ```
 
@@ -93,3 +112,32 @@ histórico.
 Consulta la [matriz de revisión](documentacion/revision_entrega.md), el
 [contraste normativo](documentacion/documentacion_corpus.md) y el
 [informe lingüístico](documentacion/informe_analisis_linguistico.md).
+
+La [matriz de entrega](documentacion/revision_entrega.md) documenta el
+alcance público ensayado y separa las métricas históricas. Para medir
+HTTP con Gemini, ejecuta FastAPI y Node como se indica arriba y usa
+`python -m motor_documental.pruebas.evaluar_api --estado-motor http://127.0.0.1:8000/estado --salida evaluacion_http.json`.
+Indica `--url` si Node usa otro puerto y ajusta `FASTAPI_PORT` para
+que Node apunte al mismo motor que verifica el evaluador. La consulta
+de estado compara la huella del corpus y comprueba si la generación
+está configurada antes de evaluar el banco.
+
+### Verificar la entrega
+
+```powershell
+$py = ".venv/Scripts/python.exe"
+& $py -m motor_documental.pruebas.auditar_cierre --salida auditoria.json
+& $py -m motor_documental.pruebas.comparar_recuperacion --publicable --salida recuperacion.json
+& $py -m motor_documental.analisis.evaluar_muestra_entidades --salida entidades.json
+& $py -m motor_documental.analisis.analisis_linguistico_corpus --publicable --salida linguistica.json
+& $py -m unittest discover -s tests
+npm.cmd --prefix backend test
+```
+
+El control de navegador usa Chromium local y respuestas simuladas.
+`node motor_documental/pruebas/verificar_interfaz_cierre.cjs RUTA_CHROME interfaz.json`.
+El informe separa la última corrida real de Gemini de las comprobaciones
+deterministas posteriores. [Evaluación de cierre](documentacion/evaluacion_cierre.md)
+La [auditoría de urbanismo y Gemini](documentacion/auditoria_urbanismo_gemini.md)
+registra la cobertura, la evaluación por respuesta y los resultados de
+la última medición HTTP.

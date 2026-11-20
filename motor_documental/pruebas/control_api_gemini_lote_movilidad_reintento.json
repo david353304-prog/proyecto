@@ -1,0 +1,33 @@
+{
+  "estado_motor": {
+    "estado": "activo",
+    "modo_respuesta": "citas_extractivas",
+    "generacion_configurada": true,
+    "sha256_corpus_publicable": "f7e45f8839a96721dde450c1d8076c88d355d0c02bcb49f4a83becbef16f0a3a"
+  },
+  "sha256_indice": "084c04fe2fa2dbe33e80c6f9d272f467934fd05220f6e43e4a2a162d81c636c8",
+  "filas": [
+    {
+      "id": "RAG-044",
+      "pregunta": "Un pasajero realiza comportamientos que afectan la convivencia dentro del transporte público. ¿Qué establece el Código?",
+      "http": 200,
+      "segundos": 6.40849,
+      "respuesta": {
+        "fuentes_recuperadas": [],
+        "pregunta": "Un pasajero realiza comportamientos que afectan la convivencia dentro del transporte público. ¿Qué establece el Código?",
+        "respuesta": "No encontré respaldo suficiente en los fragmentos de la Ley 1801 de 2016.",
+        "modelo": "gemini-3.1-flash-lite",
+        "total_generales": 1,
+        "total_estructurados": 0,
+        "validacion_documental": {
+          "estado": "REQUIERE_REVISION",
+          "advertencias": []
+        }
+      },
+      "llamada_gemini_confirmada": true,
+      "estado_documental": "REQUIERE_REVISION",
+      "citas_literales_verificadas": false,
+      "control_aprobado": false
+    }
+  ]
+}

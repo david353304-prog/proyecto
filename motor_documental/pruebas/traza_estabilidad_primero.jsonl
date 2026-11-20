@@ -1,0 +1,24 @@
+{"consulta": 1, "evento": "inicio"}
+{"consulta": 1, "evento": "recuperacion", "segundos": 0.080698}
+{"consulta": 1, "evento": "contexto", "segundos": 1.9e-05, "sha256": "0c517132a11a8a0a672d682765e6e6f4aa59c0e04b4bf1bb88c6ca219b757c25"}
+{"consulta": 1, "evento": "intento", "segundos": 3.549981}
+{"consulta": 1, "evento": "generacion", "segundos": 3.635725}
+{"consulta": 1, "evento": "seleccion_citas", "segundos": 0.00162, "aceptada": true, "seleccion_por_id": true, "cantidad": 3, "todos_en_catalogo": true, "catalogo": ["P1", "P2", "P3", "P4", "P5", "P6", "P7", "P8", "P9", "P10", "P11"], "ids": ["P1", "P2", "P7"]}
+{"consulta": 1, "evento": "validacion", "segundos": 0.018744, "estado": "PENDIENTE_VALIDACION"}
+{"consulta": 1, "evento": "fin", "http": 200}
+{"consulta": 2, "evento": "inicio"}
+{"consulta": 2, "evento": "recuperacion", "segundos": 0.267519}
+{"consulta": 2, "evento": "contexto", "segundos": 3e-05, "sha256": "81c31bb4883281aea187c00bc78df441584440dcdbcdeb84a1c8ec93343c75eb"}
+{"consulta": 2, "evento": "intento", "segundos": 5.028678}
+{"consulta": 2, "evento": "generacion", "segundos": 5.033948}
+{"consulta": 2, "evento": "seleccion_citas", "segundos": 0.000692, "aceptada": true, "seleccion_por_id": true, "cantidad": 1, "todos_en_catalogo": true, "catalogo": ["P1", "P2"], "ids": ["P1"]}
+{"consulta": 2, "evento": "validacion", "segundos": 0.001435, "estado": "PENDIENTE_VALIDACION"}
+{"consulta": 2, "evento": "fin", "http": 200}
+{"consulta": 3, "evento": "inicio"}
+{"consulta": 3, "evento": "recuperacion", "segundos": 0.056872}
+{"consulta": 3, "evento": "contexto", "segundos": 2.7e-05, "sha256": "3d5c0392b934d9f5e4f48d78e5308a214e7f9fc0911901cf3e14067804cfd5d8"}
+{"consulta": 3, "evento": "intento", "segundos": 5.137829}
+{"consulta": 3, "evento": "generacion", "segundos": 5.142305}
+{"consulta": 3, "evento": "seleccion_citas", "segundos": 0.000987, "aceptada": true, "seleccion_por_id": true, "cantidad": 2, "todos_en_catalogo": true, "catalogo": ["P1", "P2", "P3", "P4"], "ids": ["P1", "P3"]}
+{"consulta": 3, "evento": "validacion", "segundos": 0.002761, "estado": "PENDIENTE_VALIDACION"}
+{"consulta": 3, "evento": "fin", "http": 200}

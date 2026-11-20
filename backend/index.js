@@ -19,6 +19,10 @@ const {
 
 const app = express();
 const PORT = process.env.PORT || 3000;
+const puertoMotor = Number(process.env.FASTAPI_PORT || 8000);
+if (!Number.isInteger(puertoMotor) || puertoMotor < 1 || puertoMotor > 65535) {
+    throw new Error("FASTAPI_PORT debe ser un puerto local válido.");
+}
 
 // Carpeta independiente para los PDF cargados por usuarios.
 const carpetaDocumentosSubidos = (
@@ -256,7 +260,7 @@ app.post("/api/chat", async (req, res) => {
 
     try {
         const respuestaFastAPI = await fetch(
-            "http://127.0.0.1:8000/consultar",
+            `http://127.0.0.1:${puertoMotor}/consultar`,
             {
                 method: "POST",
                 headers: {
@@ -353,12 +357,12 @@ app.post("/api/chat", async (req, res) => {
         salidaPublica.fuentes_recuperadas = Array.isArray(respuesta.fuentes_recuperadas)
             ? respuesta.fuentes_recuperadas.slice(0, 8)
                 .filter(f => f && typeof f === "object" &&
-                    !Array.isArray(f) && typeof f.texto === "string")
+                    !Array.isArray(f) && typeof f.texto === "string" && f.texto.length <= 4096)
                 .map(f => ({
                     articulo: String(f.articulo || "").slice(0, 30),
                     numeral: String(f.numeral || "").slice(0, 30),
                     titulo: String(f.titulo || "").slice(0, 160),
-                    texto: f.texto.slice(0, 1200),
+                    texto: f.texto,
                     url_fuente: typeof f.url_fuente === "string" &&
                         f.url_fuente.startsWith("https://")
                         ? f.url_fuente.slice(0, 500) : ""

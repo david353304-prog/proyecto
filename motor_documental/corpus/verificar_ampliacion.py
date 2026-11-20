@@ -11,6 +11,11 @@ from .contrastar_corpus import CARPETA, clave_textual, segmentar
 def verificar(html):
     alcance = json.loads((CARPETA / "ampliacion_publicable.json").read_bytes())
     referencia = json.loads((CARPETA / "referencia_normativa.json").read_bytes())
+    procedencia = alcance["procedencia_insumos"]
+    huella_jep = hashlib.sha256(html).hexdigest()
+    if (huella_jep != procedencia["jurinfo"]["sha256_html"]
+            or referencia["sha256_html"] != procedencia["cancilleria"]["sha256_html"]):
+        raise ValueError("Las fuentes no corresponden a las capturas documentadas.")
     principales = {a["articulo"]: a for a in referencia["articulos"]}
     secundarios = segmentar(html.decode("utf-8-sig"), alcance["fecha_consulta"], {})
     filas = []
@@ -32,10 +37,11 @@ def verificar(html):
                     "fuentes_adicionales": seleccion["evidencia"],
                     "sha256_texto_cancilleria": hashlib.sha256(a.encode()).hexdigest(),
                     "alcance": seleccion["alcance"],
+                    "fecha_revision_documental": seleccion.get("fecha_revision_documental"),
                 })
     return {
         "fecha_consulta": alcance["fecha_consulta"], "total_bloques": len(filas),
-        "sha256_html_jep": hashlib.sha256(html).hexdigest(), "bloques": filas,
+        "sha256_html_jep": huella_jep, "procedencia_insumos": procedencia, "bloques": filas,
     }
 
 

@@ -1,0 +1,66 @@
+{
+  "estado_motor": {
+    "estado": "activo",
+    "modo_respuesta": "citas_extractivas",
+    "generacion_configurada": true,
+    "sha256_corpus_publicable": "cd4a71902920625a7baddd49f453d6a5d1052b9d9f7ad0dcbe52cd42e704746d"
+  },
+  "filas": [
+    {
+      "id": "RAG-041",
+      "pregunta": "El dueño de un animal lo deja deambular sin control y pone en riesgo a otras personas. ¿Qué establece el Código?",
+      "http": 200,
+      "segundos": 2.525964,
+      "respuesta": {
+        "fuentes_recuperadas": [
+          {
+            "articulo": "124",
+            "numeral": "",
+            "titulo": "COMPORTAMIENTOS QUE PONEN EN RIESGO LA CONVIVENCIA POR LA TENENCIA DE ANIMALES",
+            "texto": "ARTÍCULO 124. COMPORTAMIENTOS QUE PONEN EN RIESGO LA CONVIVENCIA POR LA TENENCIA DE ANIMALES. 1. Dejar deambular semoviente, animales feroces o dañinos, en espacio público y privado, lugar abierto al público, o medio de transporte público, sin las debidas medidas de seguridad. 7. Tolerar, permitir o inducir por acción u omisión el que un animal ataque a una persona, a un animal o a bienes de terceros. Numeral 1 Multa General tipo 2 Numeral 7 Multa General tipo 4",
+            "url_fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#124"
+          }
+        ],
+        "pregunta": "El dueño de un animal lo deja deambular sin control y pone en riesgo a otras personas. ¿Qué establece el Código?",
+        "respuesta": "**Numeral 1 del artículo 124.** «1. Dejar deambular semoviente, animales feroces o dañinos, en espacio público y privado, lugar abierto al público, o medio de transporte público, sin las debidas medidas de seguridad.»\n\n**Numeral 1 del artículo 124.** «Numeral 1 Multa General tipo 2»",
+        "modelo": "gemini-3.1-flash-lite",
+        "total_generales": 1,
+        "total_estructurados": 0,
+        "validacion_documental": {
+          "estado": "PENDIENTE_VALIDACION",
+          "advertencias": []
+        }
+      },
+      "llamada_gemini_confirmada": true,
+      "estado_documental": "PENDIENTE_VALIDACION"
+    },
+    {
+      "id": "RAG-042",
+      "pregunta": "Estoy construyendo una vivienda sin contar con la licencia requerida. ¿Qué comportamientos urbanísticos contempla la ley?",
+      "http": 200,
+      "segundos": 0.903539,
+      "respuesta": {
+        "fuentes_recuperadas": [
+          {
+            "articulo": "135",
+            "numeral": "",
+            "titulo": "COMPORTAMIENTOS CONTRARIOS A LA INTEGRIDAD URBANÍSTICA",
+            "texto": "ARTÍCULO 135. COMPORTAMIENTOS CONTRARIOS A LA INTEGRIDAD URBANÍSTICA. A) Parcelar, urbanizar, demoler, intervenir o construir: 4. En terrenos aptos para estas actuaciones, sin licencia o cuando esta hubiere caducado. PARÁGRAFO 1o. Cuando se trate de construcciones en terrenos no aptos o sin previa licencia, se impondrán de inmediato la medida de suspensión de construcción o demolición, y se solicitará a las empresas de servicios públicos domiciliarios la suspensión de los servicios correspondientes si no hubiese habitación. PARÁGRAFO 2o. Cuando se realice actuación urbanística sin previa licencia en predios aptos para estos menesteres, sin perjuicio de la medida de multa y de la suspensión temporal de la obra, se concederá un término de sesenta (60) días para que el infractor solicite el reconocimiento de la construcción ante la autoridad competente del distrito o municipio; si pasado este término no presenta licencia de reconocimiento, no podrá reanudar la obra y se duplicará el valor de la multa impuesta. Numeral 4 Multa especial por infracción urbanística; Demolición de obra; Construcción, cerramiento, reparación o mantenimiento de inmueble; Remoción de bienes.",
+            "url_fuente": "https://cancilleria.gov.co/normograma/compilacion/docs/ley_1801_2016.htm#135"
+          }
+        ],
+        "pregunta": "Estoy construyendo una vivienda sin contar con la licencia requerida. ¿Qué comportamientos urbanísticos contempla la ley?",
+        "respuesta": "**Artículo 135.** «A) Parcelar, urbanizar, demoler, intervenir o construir:»\n\n**Numeral 4 del artículo 135.** «4. En terrenos aptos para estas actuaciones, sin licencia o cuando esta hubiere caducado.»\n\n**Parágrafo 1 del artículo 135.** «PARÁGRAFO 1o. Cuando se trate de construcciones en terrenos no aptos o sin previa licencia, se impondrán de inmediato la medida de suspensión de construcción o demolición, y se solicitará a las empresas de servicios públicos domiciliarios la suspensión de los servicios correspondientes si no hubiese habitación.»\n\n**Parágrafo 2 del artículo 135.** «PARÁGRAFO 2o. Cuando se realice actuación urbanística sin previa licencia en predios aptos para estos menesteres, sin perjuicio de la medida de multa y de la suspensión temporal de la obra, se concederá un término de sesenta (60) días para que el infractor solicite el reconocimiento de la construcción ante la autoridad competente del distrito o municipio; si pasado este término no presenta licencia de reconocimiento, no podrá reanudar la obra y se duplicará el valor de la multa impuesta.»\n\n**Numeral 4 del artículo 135.** «Numeral 4 Multa especial por infracción urbanística; Demolición de obra; Construcción, cerramiento, reparación o mantenimiento de inmueble; Remoción de bienes.»",
+        "modelo": "gemini-3.1-flash-lite",
+        "total_generales": 1,
+        "total_estructurados": 0,
+        "validacion_documental": {
+          "estado": "PENDIENTE_VALIDACION",
+          "advertencias": []
+        }
+      },
+      "llamada_gemini_confirmada": true,
+      "estado_documental": "PENDIENTE_VALIDACION"
+    }
+  ]
+}

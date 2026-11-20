@@ -28,6 +28,27 @@ MODELO = "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2"
 
 def evaluar_publicable(banco):
     recuperador = RecuperadorPublicable()
+    textos = {n: a["texto"] for n, a in corpus_publicable().items()}
+    numeros = list(textos)
+    modelo = recuperador.modelo
+    vectores = modelo.encode(list(textos.values()), normalize_embeddings=True)
+    indice_completo = faiss.IndexFlatIP(recuperador.indice.d)
+    indice_completo.add(np.ascontiguousarray(vectores, dtype=np.float32))
+    consultas = modelo.encode([c["pregunta"] for c in banco], normalize_embeddings=True)
+    consultas = np.ascontiguousarray(consultas, dtype=np.float32)
+    diagnostico = {}
+    for nombre, indice, metadatos in (
+        ("articulo_completo", indice_completo, numeros),
+        ("fragmentos", recuperador.indice, recuperador.articulos),
+    ):
+        _, rankings = indice.search(consultas, indice.ntotal)
+        diagnostico[nombre] = calcular_metricas([
+            {
+                "esperados": list(map(normalizar_articulo, caso["articulos_esperados"])),
+                "recuperados": list(dict.fromkeys(metadatos[i] for i in ranking if i >= 0)),
+            }
+            for caso, ranking in zip(banco, rankings)
+        ])
     filas = []
     for caso in banco:
         inicio = perf_counter()
@@ -54,6 +75,15 @@ def evaluar_publicable(banco):
         ),
         "abstenciones_documentales": sum(f["abstencion_documental"] for f in filas),
         "metricas": calcular_metricas(filas),
+        "diagnostico_sin_enrutamiento": {
+            "max_tokens_modelo": modelo.max_seq_length,
+            "articulos_truncados": sum(
+                len(ids) > modelo.max_seq_length for ids in modelo.tokenizer(
+                    list(textos.values()), truncation=False, verbose=False
+                )["input_ids"]
+            ),
+            "metricas": diagnostico,
+        },
         "resultados": filas,
     }
 
